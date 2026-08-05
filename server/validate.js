@@ -1,0 +1,68 @@
+import {
+  COMPANY_TYPES,
+  COMPANY_SOURCES,
+  JOB_SOURCES,
+  SOURCE_STATUSES,
+  FETCH_STATUS,
+  AUTUMN_STATUS,
+  APPLICATION_STAGES,
+} from '../shared/constants.js'
+import { readCollection } from './store.js'
+
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/
+
+function isStr(v, max = 2000) {
+  return typeof v === 'string' && v.trim().length > 0 && v.length <= max
+}
+
+function inEnum(v, list) {
+  return list.includes(v)
+}
+
+export function validateCompany(c) {
+  const errors = []
+  if (!isStr(c?.id)) errors.push('id 缺失')
+  if (!isStr(c?.name)) errors.push('name 缺失')
+  if (!inEnum(c?.type, COMPANY_TYPES)) errors.push(`type 必须是 ${COMPANY_TYPES.join('/')}`)
+  if (c?.source && !inEnum(c.source, COMPANY_SOURCES)) errors.push('source 非法')
+  return errors
+}
+
+export function validateJob(j, { companies }) {
+  const errors = []
+  if (!isStr(j?.id)) errors.push('id 缺失')
+  if (!isStr(j?.title)) errors.push('title 缺失')
+  if (!isStr(j?.companyId)) errors.push('companyId 缺失')
+  else if (!companies.some((c) => c.id === j.companyId)) errors.push(`companyId '${j.companyId}' 不存在`)
+  if (j?.source && !inEnum(j.source, JOB_SOURCES)) errors.push('source 非法')
+  if (j?.fetchStatus && !inEnum(j.fetchStatus, FETCH_STATUS)) errors.push('fetchStatus 非法')
+  if (j?.autumn2026 && !inEnum(j.autumn2026, AUTUMN_STATUS)) errors.push('autumn2026 非法')
+  if (j?.salary !== undefined && typeof j.salary !== 'string') errors.push('salary 必须是字符串')
+  if (j?.sources !== undefined) {
+    if (!Array.isArray(j.sources)) errors.push('sources 必须是数组')
+    else
+      j.sources.forEach((s, i) => {
+        if (!isStr(s?.url)) errors.push(`sources[${i}].url 缺失`)
+        if (!inEnum(s?.status, SOURCE_STATUSES)) errors.push(`sources[${i}].status 非法`)
+      })
+  }
+  return errors
+}
+
+export function validateTimelineEntry(e) {
+  const errors = []
+  if (!inEnum(e?.stage, APPLICATION_STAGES)) errors.push(`stage 必须是 ${APPLICATION_STAGES.join('/')}`)
+  if (e?.date !== undefined && !DATE_RE.test(e.date)) errors.push('date 格式应为 YYYY-MM-DD')
+  if (e?.note !== undefined && typeof e.note !== 'string') errors.push('note 必须是字符串')
+  return errors
+}
+
+export function validateApplication(a, { jobs }) {
+  const errors = []
+  if (!isStr(a?.id)) errors.push('id 缺失')
+  if (!isStr(a?.jobId)) errors.push('jobId 缺失')
+  else if (!jobs.some((j) => j.id === a.jobId)) errors.push(`jobId '${a.jobId}' 不存在`)
+  if (!Array.isArray(a?.timeline) || a.timeline.length === 0) errors.push('timeline 至少需要一条记录')
+  else a.timeline.forEach((e, i) => validateTimelineEntry(e).forEach((m) => errors.push(`timeline[${i}] ${m}`)))
+  return errors
+}

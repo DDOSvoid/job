@@ -1,0 +1,112 @@
+[
+  {
+    "id": "highflyer",
+    "name": "幻方量化",
+    "type": "private",
+    "website": "https://example.com/highflyer",
+    "location": "杭州",
+    "about": "以 AI 驱动的量化私募（示例简介，请核实）。",
+    "source": "example",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-05"
+  },
+  {
+    "id": "ubiquant",
+    "name": "九坤投资",
+    "type": "private",
+    "website": "https://example.com/ubiquant",
+    "location": "北京",
+    "about": "国内头部量化私募之一（示例简介，请核实）。",
+    "source": "example",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-06"
+  },
+  {
+    "id": "minghong",
+    "name": "明汯投资",
+    "type": "private",
+    "website": "https://example.com/minghong",
+    "location": "上海",
+    "about": "专注于量化投资的私募机构（示例简介，请核实）。",
+    "source": "example",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-06"
+  },
+  {
+    "id": "yanfu",
+    "name": "衍复投资",
+    "type": "private",
+    "website": "https://example.com/yanfu",
+    "location": "上海",
+    "about": "量化私募机构（示例简介，请核实）。",
+    "source": "example",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-06"
+  },
+  {
+    "id": "winbao",
+    "name": "稳博投资",
+    "type": "private",
+    "website": "https://example.com/winbao",
+    "location": "上海",
+    "about": "量化私募机构（示例简介，请核实）。",
+    "source": "example",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-06"
+  },
+  {
+    "id": "efund",
+    "name": "易方达基金",
+    "type": "public",
+    "website": "https://www.efunds.com.cn",
+    "location": "广州",
+    "about": "国内头部公募基金公司，成立于2001年，总部广州；截至2025年底管理规模超4.1万亿元。校招投研类含量化研究员、指数研究员等量化相关岗位。",
+    "source": "skill",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-06"
+  },
+  {
+    "id": "chinaamc",
+    "name": "华夏基金",
+    "type": "public",
+    "website": "https://www.chinaamc.com",
+    "location": "北京",
+    "about": "华夏基金管理有限公司成立于1998年4月，国内首批全国性公募基金管理公司之一，总部设于北京，管理资产规模超3万亿元，服务个人投资者超2.4亿人。旗下全资子公司包括华夏财富、华夏资本、华夏基金（香港）等。",
+    "source": "skill",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-06"
+  },
+  {
+    "id": "fullgoal",
+    "name": "富国基金",
+    "type": "public",
+    "website": "https://www.fullgoal.com.cn",
+    "location": "上海",
+    "about": "成立于 1999 年的公募基金管理公司（首批十家公募之一，\"老十家\"），总部上海浦东，权益/固收/量化多线发展，非货币公募管理规模约 8885 亿元（官网数据）。",
+    "source": "skill",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-06"
+  },
+  {
+    "id": "southern",
+    "name": "南方基金",
+    "type": "public",
+    "website": "http://www.nffund.com",
+    "location": "深圳",
+    "about": "南方基金管理股份有限公司，1998年3月成立，国内首批规范基金管理公司之一，总部位于深圳，在北京、上海、南京、成都、合肥等地设分公司。",
+    "source": "skill",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-06"
+  },
+  {
+    "id": "guangfa",
+    "name": "广发基金",
+    "type": "public",
+    "website": "http://www.gffunds.com.cn",
+    "location": "广州",
+    "about": "广发基金管理有限公司成立于 2003 年，国内领先的公募基金公司，截至 2025-12-31 管理资产规模超 2 万亿元，产品覆盖主动权益、固收、指数、量化对冲等全品类（请以官网为准）。",
+    "source": "skill",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-06"
+  }
+]
