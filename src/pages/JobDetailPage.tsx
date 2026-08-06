@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useAppendTimeline, useCreateApplication, useJob } from '../hooks/useApi'
-import { JOB_SOURCE_LABELS, todayStr } from '../constants'
+import { todayStr } from '../constants'
 import {
   AutumnBadge,
   CompanyTypeBadge,
   FetchBadge,
   SourceBadge,
+  SourceTypeBadge,
   StageBadge,
 } from '../components/StatusBadge'
+import CompanyAvatar from '../components/CompanyAvatar'
 import ApplicationTimeline from '../components/ApplicationTimeline'
 import ApplicationForm from '../components/ApplicationForm'
 import type { ApplicationStage } from '../types'
@@ -57,6 +59,7 @@ export default function JobDetailPage() {
       <div className="meta-line">
         {company && (
           <>
+            <CompanyAvatar name={company.name} id={company.id} />
             <Link to={`/companies/${company.id}`} className="link">
               {company.name}
             </Link>
@@ -66,37 +69,47 @@ export default function JobDetailPage() {
         )}
         <AutumnBadge status={job.autumn2026} />
         <FetchBadge status={job.fetchStatus} />
-        <span className="badge badge-4">{JOB_SOURCE_LABELS[job.source]}</span>
       </div>
 
-      <div className="card detail-card">
-        <div className="detail-row">
-          <span className="detail-label">薪资</span>
-          {job.salaryIsEstimate ? (
-            <span className="salary salary-est" title="薪资为占位/未核实">
-              {job.salary}
-            </span>
-          ) : (
-            <span className="salary">{job.salary}</span>
-          )}
-        </div>
-        {job.autumn2026Note && (
-          <div className="detail-row">
-            <span className="detail-label">秋招</span>
-            <span className="muted">{job.autumn2026Note}</span>
+      <div className="card detail-card detail-hero">
+        <div className="hero-head">
+          <div>
+            <div className="salary-label">预计薪资</div>
+            {job.salaryIsEstimate ? (
+              <div className="salary salary-est-lg" title="未官方核实的薪资，仅供参考">
+                <span>{job.salary}</span>
+                <span className="chip chip-amber">未核实</span>
+              </div>
+            ) : (
+              <div className="salary salary-lg">{job.salary}</div>
+            )}
           </div>
-        )}
-        <div className="detail-row">
-          <span className="detail-label">官网</span>
-          <a href={job.officialUrl} target="_blank" rel="noreferrer" className="link">
-            {job.officialUrl}
-          </a>
+          <div className="cta-row">
+            <a className="btn btn-primary btn-lg" href={job.applyUrl} target="_blank" rel="noreferrer">
+              去投递 ↗
+            </a>
+            {job.autumn2026 === 'open' && <span className="muted small">秋招进行中</span>}
+          </div>
         </div>
-        <div className="detail-row">
-          <span className="detail-label">投递</span>
-          <a href={job.applyUrl} target="_blank" rel="noreferrer" className="link">
-            {job.applyUrl}
-          </a>
+        <div className="detail-rows">
+          {job.autumn2026Note && (
+            <div className="detail-row">
+              <span className="detail-label">秋招</span>
+              <span className="muted detail-value">{job.autumn2026Note}</span>
+            </div>
+          )}
+          <div className="detail-row">
+            <span className="detail-label">官网</span>
+            <a href={job.officialUrl} target="_blank" rel="noreferrer" className="link detail-value">
+              {job.officialUrl}
+            </a>
+          </div>
+          <div className="detail-row">
+            <span className="detail-label">投递</span>
+            <a href={job.applyUrl} target="_blank" rel="noreferrer" className="link detail-value">
+              {job.applyUrl}
+            </a>
+          </div>
         </div>
       </div>
 
@@ -112,7 +125,7 @@ export default function JobDetailPage() {
           {job.sources.map((s, i) => (
             <li key={i} className="source-item">
               <div className="source-head">
-                <span className="badge badge-4">{JOB_SOURCE_LABELS[s.type]}</span>
+                <SourceTypeBadge type={s.type} />
                 <SourceBadge status={s.status} />
                 <a href={s.url} target="_blank" rel="noreferrer" className="link">
                   打开原文 ↗

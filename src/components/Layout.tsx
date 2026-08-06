@@ -12,7 +12,12 @@ export default function Layout() {
   return (
     <div className="layout">
       <header className="topbar">
-        <span className="brand">量化岗位招聘记录</span>
+        <span className="brand">
+          <span className="brand-mark" aria-hidden="true">
+            量
+          </span>
+          <span>量化岗位招聘记录</span>
+        </span>
         <nav>
           {navItems.map((item) => (
             <NavLink

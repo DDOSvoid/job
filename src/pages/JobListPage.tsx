@@ -1,71 +1,102 @@
 import { useMemo, useState } from 'react'
 import { useApplications, useCompanies, useJobs } from '../hooks/useApi'
-import FilterBar, { type FilterState } from '../components/FilterBar'
-import JobCard from '../components/JobCard'
-import { StageBadge } from '../components/StatusBadge'
-import type { ApplicationStage, Job } from '../types'
+import FilterBar, { defaultFilters, type FilterState } from '../components/FilterBar'
+import JobRow from '../components/JobRow'
+import { SkeletonList } from '../components/SkeletonCard'
+import EmptyState from '../components/EmptyState'
+import type { ApplicationStage, CompanyType, Job } from '../types'
+
+const AUTUMN_ORDER = ['open', 'not_started', 'unknown', 'ended']
+
+function applyFilters(
+  jobs: Job[],
+  appByJob: Map<string, ApplicationStage>,
+  filters: FilterState,
+  companyInfo: (id: string) => { name: string; type?: CompanyType },
+): Job[] {
+  const q = filters.q.trim().toLowerCase()
+  const filtered = jobs.filter((j) => {
+    const info = companyInfo(j.companyId)
+    if (filters.companyId && j.companyId !== filters.companyId) return false
+    if (filters.autumn2026 && j.autumn2026 !== filters.autumn2026) return false
+    if (filters.type && info.type !== filters.type) return false
+    if (filters.stage && appByJob.get(j.id) !== filters.stage) return false
+    if (q) {
+      const hay = `${j.title} ${info.name} ${j.description ?? ''} ${j.salary ?? ''}`.toLowerCase()
+      if (!hay.includes(q)) return false
+    }
+    return true
+  })
+
+  switch (filters.sort) {
+    case 'recent':
+      return [...filtered].sort((a, b) => (b.updatedAt ?? '').localeCompare(a.updatedAt ?? ''))
+    case 'autumn':
+      return [...filtered].sort((a, b) => AUTUMN_ORDER.indexOf(a.autumn2026) - AUTUMN_ORDER.indexOf(b.autumn2026))
+    case 'verified':
+      return [...filtered].sort((a, b) => Number(a.salaryIsEstimate) - Number(b.salaryIsEstimate))
+    default:
+      return filtered
+  }
+}
 
 export default function JobListPage() {
   const companies = useCompanies()
   const jobsQ = useJobs()
   const appsQ = useApplications()
 
-  const [filters, setFilters] = useState<FilterState>({
-    companyId: '',
-    type: '',
-    autumn2026: '',
-    stage: '',
-  })
+  const [filters, setFilters] = useState<FilterState>(defaultFilters)
 
   const jobs = jobsQ.data ?? []
   const appByJob = useMemo(
-    () => new Map(appsQ.data?.map((a) => [a.jobId, a]) ?? []),
+    () => new Map(appsQ.data?.map((a) => [a.jobId, a.currentStatus]) ?? []),
     [appsQ.data],
   )
+  const nameOf = useMemo(() => {
+    const map = new Map((companies.data ?? []).map((c) => [c.id, { name: c.name, type: c.type }]))
+    return (id: string) => map.get(id) ?? { name: '', type: undefined }
+  }, [companies.data])
 
-  const filtered = useMemo(() => {
-    return jobs.filter((j) => {
-      if (filters.companyId && j.companyId !== filters.companyId) return false
-      if (filters.autumn2026 && j.autumn2026 !== filters.autumn2026) return false
-      const company = companies.data?.find((c) => c.id === j.companyId)
-      if (filters.type && company?.type !== filters.type) return false
-      if (filters.stage && appByJob.get(j.id)?.currentStatus !== filters.stage) return false
-      return true
-    })
-  }, [jobs, appByJob, companies.data, filters])
+  const filtered = useMemo(
+    () => applyFilters(jobs, appByJob, filters, nameOf),
+    [jobs, appByJob, filters, nameOf],
+  )
 
   return (
     <section>
+      <div className="page-head">
+        <h1>量化研究岗位</h1>
+        <p className="sub">
+          {jobs.length} 个岗位 · {companies.data?.length ?? 0} 家公司
+        </p>
+      </div>
       <FilterBar
         filters={filters}
         onChange={setFilters}
         companies={companies.data ?? []}
         showStage
+        total={filtered.length}
+        unit="个岗位"
       />
       {jobsQ.isLoading ? (
-        <p className="muted">加载中…</p>
+        <SkeletonList />
       ) : filtered.length === 0 ? (
-        <p className="muted">没有符合条件的岗位。</p>
+        <EmptyState
+          title="没有符合条件的岗位"
+          hint={filters.q ? '试试调整关键词或清除筛选。' : '试试用 skill 调研更多公司，例如「查一下幻方的量化岗位并写入」'}
+        />
       ) : (
-        <div className="card-grid">
+        <div className="job-list">
           {filtered.map((job) => (
-            <JobListCard key={job.id} job={job} stage={appByJob.get(job.id)?.currentStatus} />
+            <JobRow
+              key={job.id}
+              job={job}
+              stage={appByJob.get(job.id)}
+              companyType={nameOf(job.companyId).type}
+            />
           ))}
         </div>
       )}
     </section>
-  )
-}
-
-function JobListCard({ job, stage }: { job: Job; stage?: ApplicationStage }) {
-  return (
-    <div className="job-card-wrap">
-      <JobCard job={job} />
-      {stage && (
-        <div className="job-card-stage">
-          申请进度：<StageBadge stage={stage} />
-        </div>
-      )}
-    </div>
   )
 }
