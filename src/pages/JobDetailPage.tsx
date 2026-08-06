@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useAppendTimeline, useCreateApplication, useJob } from '../hooks/useApi'
 import { todayStr } from '../constants'
+import { displaySalary } from '../lib/salary'
 import {
   AutumnBadge,
   CompanyTypeBadge,
@@ -28,6 +29,7 @@ export default function JobDetailPage() {
 
   const company = job.company
   const application = job.application
+  const sal = displaySalary(job.salary, job.salaryIsEstimate)
 
   const handleStart = async () => {
     setActionError(null)
@@ -73,16 +75,26 @@ export default function JobDetailPage() {
 
       <div className="card detail-card detail-hero">
         <div className="hero-head">
-          <div>
+          <div className="salary-block">
             <div className="salary-label">预计薪资</div>
-            {job.salaryIsEstimate ? (
-              <div className="salary salary-est-lg" title="未官方核实的薪资，仅供参考">
-                <span>{job.salary}</span>
-                <span className="chip chip-amber">未核实</span>
-              </div>
-            ) : (
-              <div className="salary salary-lg">{job.salary}</div>
-            )}
+            <div className="salary-main-row">
+              {job.salaryIsEstimate ? (
+                <>
+                  <span className="salary-est-lg" title={job.salary}>
+                    {sal.main}
+                  </span>
+                  <span className="chip chip-amber">未核实</span>
+                </>
+              ) : (
+                <>
+                  <span className="salary salary-lg salary-verified" title={job.salary}>
+                    {sal.main}
+                  </span>
+                  <span className="chip chip-verified">已核实</span>
+                </>
+              )}
+            </div>
+            {sal.note && <div className="salary-note">{sal.note}</div>}
           </div>
           <div className="cta-row">
             <a className="btn btn-primary btn-lg" href={job.applyUrl} target="_blank" rel="noreferrer">

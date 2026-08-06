@@ -1,13 +1,9 @@
 import { Link } from 'react-router-dom'
 import type { ApplicationStage, CompanyType, Job } from '../types'
 import CompanyAvatar from './CompanyAvatar'
-import {
-  AutumnBadge,
-  CompanyTypeBadge,
-  FetchBadge,
-  SourceTypeBadge,
-  StageBadge,
-} from './StatusBadge'
+import PipelineBar from './PipelineBar'
+import SalaryDisplay from './SalaryDisplay'
+import { AutumnBadge, CompanyTypeBadge, FetchBadge, SourceTypeBadge } from './StatusBadge'
 
 interface Props {
   job: Job
@@ -43,16 +39,7 @@ export default function JobRow({ job, stage, companyType }: Props) {
       {/* 薪资模块 */}
       <div className="row-mod mod-sep mod-salary">
         <div className="mod-label">薪资</div>
-        {job.salaryIsEstimate ? (
-          <span className="salary-est-row" title="未官方核实的薪资，仅供参考">
-            <span>{job.salary}</span>
-            <span className="chip chip-amber">未核实</span>
-          </span>
-        ) : (
-          <span className="salary salary-row" title={job.salary}>
-            {job.salary}
-          </span>
-        )}
+        <SalaryDisplay salary={job.salary} isEstimate={job.salaryIsEstimate} />
       </div>
 
       {/* 进展 / 信息来源模块 */}
@@ -60,7 +47,7 @@ export default function JobRow({ job, stage, companyType }: Props) {
         <div className="mod-label">进展</div>
         <div className="mod-badges">
           <AutumnBadge status={job.autumn2026} />
-          {stage && <StageBadge stage={stage} />}
+          {stage && <PipelineBar stage={stage} />}
         </div>
         <div className="mod-sub">
           <SourceTypeBadge type={job.source} />

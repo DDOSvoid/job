@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { useApplications, useCompanies, useJobs } from '../hooks/useApi'
 import FilterBar, { defaultFilters, type FilterState } from '../components/FilterBar'
 import JobRow from '../components/JobRow'
+import MarketStrip from '../components/MarketStrip'
 import { SkeletonList } from '../components/SkeletonCard'
 import EmptyState from '../components/EmptyState'
 import type { ApplicationStage, CompanyType, Job } from '../types'
@@ -48,9 +49,10 @@ export default function JobListPage() {
   const [filters, setFilters] = useState<FilterState>(defaultFilters)
 
   const jobs = jobsQ.data ?? []
+  const apps = appsQ.data ?? []
   const appByJob = useMemo(
-    () => new Map(appsQ.data?.map((a) => [a.jobId, a.currentStatus]) ?? []),
-    [appsQ.data],
+    () => new Map(apps.map((a) => [a.jobId, a.currentStatus])),
+    [apps],
   )
   const nameOf = useMemo(() => {
     const map = new Map((companies.data ?? []).map((c) => [c.id, { name: c.name, type: c.type }]))
@@ -62,14 +64,22 @@ export default function JobListPage() {
     [jobs, appByJob, filters, nameOf],
   )
 
+  const autumnOpen = useMemo(() => jobs.filter((j) => j.autumn2026 === 'open').length, [jobs])
+  const activeStatus = new Set<ApplicationStage>(['applied', 'written_test', 'interview'])
+  const appliedTotal = apps.filter((a) => activeStatus.has(a.currentStatus)).length
+
   return (
     <section>
       <div className="page-head">
-        <h1>量化研究岗位</h1>
+        <div>
+          <p className="eyebrow">2026 秋招</p>
+          <h1>量化研究岗位</h1>
+        </div>
         <p className="sub">
           {jobs.length} 个岗位 · {companies.data?.length ?? 0} 家公司
         </p>
       </div>
+      <MarketStrip jobsTotal={jobs.length} autumnOpen={autumnOpen} appliedTotal={appliedTotal} />
       <FilterBar
         filters={filters}
         onChange={setFilters}
@@ -86,16 +96,25 @@ export default function JobListPage() {
           hint={filters.q ? '试试调整关键词或清除筛选。' : '试试用 skill 调研更多公司，例如「查一下幻方的量化岗位并写入」'}
         />
       ) : (
-        <div className="job-list">
-          {filtered.map((job) => (
-            <JobRow
-              key={job.id}
-              job={job}
-              stage={appByJob.get(job.id)}
-              companyType={nameOf(job.companyId).type}
-            />
-          ))}
-        </div>
+        <>
+          <div className="list-head" aria-hidden="true">
+            <span className="list-head-cell">公司</span>
+            <span className="list-head-cell">岗位</span>
+            <span className="list-head-cell num">薪资</span>
+            <span className="list-head-cell num">进展</span>
+            <span />
+          </div>
+          <div className="job-list">
+            {filtered.map((job) => (
+              <JobRow
+                key={job.id}
+                job={job}
+                stage={appByJob.get(job.id)}
+                companyType={nameOf(job.companyId).type}
+              />
+            ))}
+          </div>
+        </>
       )}
     </section>
   )

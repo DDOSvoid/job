@@ -2,28 +2,35 @@
    Design Tokens — 明亮现代 SaaS
    ============================================================ */
 :root {
-  /* 色板 */
-  --bg: #f6f8fb;
-  --bg-subtle: #eef1f6;
+  /* 色板 —— 个人量化校招"行情终端" */
+  --bg: #f5f7fb;
+  --bg-subtle: #edf1f8;
   --card: #ffffff;
-  --border: #e5e9f0;
-  --border-strong: #d4dbe6;
-  --text: #0f172a;
-  --text-secondary: #475569;
-  --muted: #64748b;
+  --border: #e4eaf3;
+  --border-strong: #cfd8e6;
+  --text: #101a2e;           /* 墨蓝 ink */
+  --text-secondary: #32415c;
+  --muted: #7c8aa5;
 
-  --primary: #2563eb;
-  --primary-hover: #1d4ed8;
-  --primary-soft: #eff4ff;
+  --primary: #2b5bd7;        /* 交互蓝 */
+  --primary-hover: #1e49c0;
+  --primary-soft: #edf3ff;
 
-  --success: #16a34a;
-  --success-soft: #ecfdf3;
+  --accent: #e8a33d;         /* 市场金：签名强调色 */
+  --accent-soft: #fdf6e9;
+
+  --success: #0f9d5f;
+  --success-soft: #e8f7f0;
   --warning: #b45309;
-  --warning-soft: #fffaeb;
-  --danger: #dc2626;
-  --danger-soft: #fef2f2;
+  --warning-soft: #fdf3e3;
+  --danger: #d64545;
+  --danger-soft: #fdefef;
   --purple: #5b21b6;
-  --purple-soft: #f5f3ff;
+  --purple-soft: #f3f0fd;
+
+  /* 等宽数字：报价/终端读数 */
+  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', 'JetBrains Mono', Menlo, Consolas,
+    monospace;
 
   /* 圆角 */
   --radius-sm: 6px;
@@ -31,9 +38,9 @@
   --radius-lg: 14px;
 
   /* 阴影 */
-  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
-  --shadow: 0 1px 3px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
-  --shadow-lg: 0 8px 24px rgba(15, 23, 42, 0.1), 0 2px 6px rgba(15, 23, 42, 0.06);
+  --shadow-sm: 0 1px 2px rgba(16, 26, 46, 0.05);
+  --shadow: 0 1px 3px rgba(16, 26, 46, 0.06), 0 1px 2px rgba(16, 26, 46, 0.04);
+  --shadow-lg: 0 8px 24px rgba(16, 26, 46, 0.1), 0 2px 6px rgba(16, 26, 46, 0.06);
 
   /* 字号 */
   --font: -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
@@ -89,7 +96,7 @@ body {
   width: 28px;
   height: 28px;
   border-radius: 8px;
-  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  background: linear-gradient(135deg, #2b5bd7, #5b21b6);
   color: #fff;
   font-size: 14px;
   font-weight: 700;
@@ -147,6 +154,72 @@ h1 {
   color: var(--muted);
   font-size: 13px;
   margin: 0;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+
+/* ============================================================
+   行情条（页面头的等宽聚合读数）
+   ============================================================ */
+.market-strip {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  padding: 10px 16px;
+  margin-bottom: 14px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  color: var(--text-secondary);
+  box-shadow: var(--shadow-sm);
+}
+
+.ticker-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: ticker-pulse 1.8s ease-in-out infinite;
+}
+
+.ticker-sep {
+  color: var(--border-strong);
+}
+
+.ticker-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.ticker-num.pos {
+  color: var(--success);
+}
+
+.ticker-num.info {
+  color: var(--primary);
+}
+
+@keyframes ticker-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
 }
 
 h2 {
@@ -281,6 +354,75 @@ h4 {
   margin-top: 16px;
 }
 
+/* 列表列头：与 .job-row 的网格模板保持一致 */
+.list-head {
+  display: grid;
+  grid-template-columns: minmax(170px, 200px) 1fr minmax(150px, 200px) minmax(140px, 190px) 28px;
+  align-items: center;
+  padding: 0 24px 0 20px;
+  margin-bottom: 2px;
+}
+
+.list-head-cell {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+
+.list-head-cell.num {
+  text-align: right;
+}
+
+/* 管道进度：投递 → 笔试 → 面试 → Offer */
+.pipeline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.pipeline-segs {
+  display: flex;
+  gap: 3px;
+}
+
+.pipeline-seg {
+  width: 14px;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--border-strong);
+  transition: background 0.2s ease;
+}
+
+.pipeline-seg.on {
+  background: var(--primary);
+}
+
+.pipeline[data-tone='pos'] .pipeline-seg.on {
+  background: var(--success);
+}
+
+.pipeline[data-tone='warn'] .pipeline-seg.on {
+  background: var(--warning);
+}
+
+.pipeline-seg.fail {
+  background: var(--border-strong);
+}
+
+.pipeline-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.pipeline-label.fail {
+  color: var(--danger);
+}
+
 .job-row {
   display: grid;
   grid-template-columns: minmax(170px, 200px) 1fr minmax(150px, 200px) minmax(140px, 190px) 28px;
@@ -365,7 +507,7 @@ h4 {
 /* 薪资模块 */
 .mod-salary {
   text-align: right;
-  max-width: 240px;
+  max-width: 260px;
 }
 
 .mod-salary .salary,
@@ -375,10 +517,22 @@ h4 {
   margin-top: 2px;
 }
 
-.mod-salary .salary-est-row > span:first-child {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+/* 薪资主干 + 口径注解：纵向堆叠，注解换行完整展示 */
+.salary-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+  min-width: 0;
+}
+
+.salary-stack-note {
+  font-size: 11px;
+  line-height: 1.55;
+  color: var(--muted);
+  text-align: right;
+  white-space: normal;
+  word-break: break-word;
 }
 
 /* 进展 / 信息来源模块 */
@@ -446,12 +600,21 @@ h4 {
     padding: 16px 18px 16px 16px;
   }
 
+  .list-head {
+    grid-template-columns: minmax(150px, 170px) 1fr minmax(130px, 170px) minmax(120px, 160px) 20px;
+    padding: 0 18px;
+  }
+
   .mod-sep {
     padding-left: 18px;
   }
 }
 
 @media (max-width: 760px) {
+  .list-head {
+    display: none;
+  }
+
   .job-row {
     grid-template-columns: 1fr;
     gap: 12px;
@@ -466,6 +629,14 @@ h4 {
   }
 
   .mod-salary {
+    text-align: left;
+  }
+
+  .salary-stack {
+    align-items: flex-start;
+  }
+
+  .salary-stack-note {
     text-align: left;
   }
 
@@ -542,8 +713,8 @@ h4 {
 }
 
 .chip-amber {
-  background: var(--warning-soft);
-  color: var(--warning);
+  background: var(--accent-soft);
+  color: #9a6a12;
 }
 
 /* ============================================================
@@ -577,6 +748,50 @@ h4 {
   gap: 8px;
   font-size: 18px;
   color: var(--text-secondary);
+}
+
+/* 薪资按"报价"呈现：等宽数字 */
+.salary,
+.salary-lg,
+.salary-est,
+.salary-est-lg,
+.salary-row,
+.salary-est-row {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 已核实薪资：绿色"在线报价"圆点 */
+.salary-verified::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--success);
+  margin-right: 7px;
+  vertical-align: 1px;
+  box-shadow: 0 0 0 3px var(--success-soft);
+}
+
+.chip-verified {
+  background: var(--success-soft);
+  color: #0f9d5f;
+}
+
+.salary-main-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.salary-note {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 480px;
 }
 
 .salary-label {
@@ -785,7 +1000,7 @@ select:focus,
 input:focus {
   outline: none;
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+  box-shadow: 0 0 0 3px rgba(43, 91, 215, 0.14);
 }
 
 input.grow {
@@ -889,6 +1104,9 @@ input.grow {
 .timeline-date {
   font-weight: 600;
   font-size: 14px;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
 }
 
 .timeline-note {
@@ -1011,7 +1229,9 @@ input.grow {
   font-weight: 700;
   color: var(--primary);
   letter-spacing: -0.02em;
-  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  background: linear-gradient(135deg, #2b5bd7, #5b21b6);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1042,7 +1262,7 @@ input.grow {
 
 .bar-fill {
   height: 100%;
-  background: linear-gradient(90deg, #2563eb, #4f46e5);
+  background: linear-gradient(90deg, #2b5bd7, #5b21b6);
   border-radius: 8px;
   min-width: 4px;
 }
@@ -1051,6 +1271,8 @@ input.grow {
   flex: 0 0 24px;
   font-size: 13px;
   color: var(--muted);
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
 }
 
 .funnel {
@@ -1078,6 +1300,8 @@ input.grow {
   font-size: 18px;
   font-weight: 700;
   color: var(--primary);
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
 }
 
 /* ============================================================
@@ -1122,5 +1346,23 @@ input.grow {
 
   .detail-rows {
     padding: 0 16px 4px;
+  }
+}
+
+/* 尊重系统减少动效偏好 */
+@media (prefers-reduced-motion: reduce) {
+  .ticker-dot {
+    animation: none;
+    opacity: 1;
+  }
+
+  .skeleton {
+    animation: none;
+  }
+
+  .job-row,
+  .company-card,
+  .job-card {
+    transition: none;
   }
 }
