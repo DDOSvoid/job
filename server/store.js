@@ -44,5 +44,9 @@ export function writeCollection(file, data) {
 }
 
 export function today() {
-  return new Date().toISOString().slice(0, 10)
+  // 与前端 src/constants.ts 的 todayStr() 保持一致：用本地日期而非 UTC，
+  // 否则中国时区凌晨 0-8 点会被盖成前一天。
+  const d = new Date()
+  const pad = (n) => String(n).padStart(2, '0')
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`
 }

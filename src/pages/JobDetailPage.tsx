@@ -177,7 +177,9 @@ export default function JobDetailPage() {
           <div>
             <ApplicationTimeline application={application} />
             <ApplicationForm
+              key={application.updatedAt}
               appId={application.id}
+              currentStatus={application.currentStatus}
               onSubmit={handleAppend}
               submitting={submitting}
               error={actionError}
