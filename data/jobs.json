@@ -2,83 +2,96 @@
   {
     "id": "highflyer-quant-researcher-2026",
     "companyId": "highflyer",
-    "title": "量化研究员（示例）",
-    "description": "岗位职责与任职要求请以官网为准（示例数据）。",
-    "salary": "示例：面议",
+    "title": "量化策略研究员（量化研究员）",
+    "description": "研究和开发量化策略，应用机器学习/深度学习对大量历史数据进行分析统计、寻找市场规律，挖掘股票市场中性 Alpha 模型/因子并测试。任职要求综合自第三方招聘帖（请以官网为准）：985/海外知名高校硕士及以上，数学/统计/物理/计算机等理工科背景，熟练使用 Python/C++，竞赛获奖/顶会论文加分。工作地点以杭州为主（第三方渠道亦提及上海）。",
+    "salary": "60-200万/年（第三方渠道，未经官方核实）",
     "salaryIsEstimate": true,
-    "applyUrl": "https://example.com/highflyer-apply",
-    "officialUrl": "https://example.com/highflyer-careers",
+    "applyUrl": "https://app.mokahr.com/apply/high-flyer/4604",
+    "officialUrl": "https://www.high-flyer.cn/join",
     "autumn2026": "unknown",
-    "autumn2026Note": "示例占位，未核实",
-    "source": "manual",
-    "fetchStatus": "manual_required",
+    "autumn2026Note": "官网招聘入口（Moka ATS）当前标注为『幻方&DeepSeek 社会招聘』，未见独立 2026 届校招/秋招入口；第三方渠道显示 2026 量化秋招季已开启（8 月中旬行业批量开启），但幻方官方是否启动 2026 秋招未获官方确认，需手动打开 Moka 页面确认。",
+    "source": "official",
+    "fetchStatus": "partial",
     "sources": [
       {
         "type": "official",
-        "title": "幻方量化官方招聘页（示例占位）",
-        "url": "https://example.com/highflyer-careers",
-        "accessedAt": "2026-08-06",
+        "title": "幻方&DeepSeek 招聘系统（Moka ATS，官网加入我们跳转）",
+        "url": "https://app.mokahr.com/apply/high-flyer/4604",
+        "accessedAt": "2026-08-09",
         "status": "partial",
-        "note": "示例占位链接，请手动核实"
-      }
-    ],
-    "notes": "示例数据，薪资与链接均为占位，请用 skill 调研后替换。",
-    "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
-  },
-  {
-    "id": "ubiquant-quant-researcher-2026",
-    "companyId": "ubiquant",
-    "title": "量化研究员（示例）",
-    "description": "岗位职责与任职要求请以官网为准（示例数据）。",
-    "salary": "示例：面议",
-    "salaryIsEstimate": true,
-    "applyUrl": "https://example.com/ubiquant-apply",
-    "officialUrl": "https://example.com/ubiquant-careers",
-    "autumn2026": "unknown",
-    "autumn2026Note": "示例占位，未核实",
-    "source": "manual",
-    "fetchStatus": "manual_required",
-    "sources": [
+        "note": "页面需 JS 渲染（API 数据加密），岗位列表已通过搜索摘要确认含『量化策略研究员（杭州）』；完整岗位详情与 2026 校招入口需手动查看"
+      },
       {
         "type": "official",
-        "title": "九坤投资官方招聘页（示例占位）",
-        "url": "https://example.com/ubiquant-careers",
-        "accessedAt": "2026-08-06",
+        "title": "幻方量化官网「加入我们」",
+        "url": "https://www.high-flyer.cn/join",
+        "accessedAt": "2026-08-09",
         "status": "partial",
-        "note": "示例占位链接，请手动核实"
+        "note": "官网招聘入口，页面跳转至 Moka ATS；官网页面本身无独立岗位列表，未见 2026 校招横幅"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（boss-cli 搜索）",
+        "url": "https://www.zhipin.com",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "触发 Boss 风控（code=36 账户存在异常行为），已暂停 boss-cli 搜索；风控通常 20-60 分钟自行解除。需手动打开 Boss直聘搜索『幻方 量化研究员』确认 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "幻方量化微信公众号",
+        "url": "https://mp.weixin.qq.com/s/o12kMXVoWwWPMY4yAWogQw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号『幻方量化』历史招聘推文可搜到（2019 春招+社招、2021 校招），但 2026 校招推文未确认；文章正文被微信验证墙拦截，需手动查看 [TODO]"
       }
     ],
-    "notes": "示例数据，薪资与链接均为占位，请用 skill 调研后替换。",
-    "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "notes": "量化研究员岗位已在官网招聘系统（Moka ATS）确认在招（当前为社会招聘性质）；薪资来自第三方渠道（小红书/猎聘），未经官方核实。2026 秋招状态未确认，见 autumn2026Note。投递邮箱参考 talent@high-flyer.cn / job@high-flyer.cn（来自公开招聘帖，未在官网核实）。另有关联 DeepSeek 招聘入口 https://app.mokahr.com/social-recruitment/high-flyer/140576（幻方&DeepSeek 共用招聘系统）。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
   },
   {
     "id": "minghong-quant-researcher-2026",
     "companyId": "minghong",
-    "title": "量化研究员（示例）",
-    "description": "岗位职责与任职要求请以官网为准（示例数据）。",
-    "salary": "示例：面议",
+    "title": "量化研究员（2026届校招）",
+    "description": "岗位职责：利用各种金融数据分析工具，参与数据、指标的发掘与加工；对市场数据进行统计分析、建立有效模型；研究和开发量化投资策略；从交易执行、风控处理等各方面不断优化和改进策略。任职要求：国内外顶尖高校计算机、统计、数学、电子、物理或其他理工科专业，数学基础扎实、研究能力强，熟练掌握C++、Python、R等至少一门语言；加分项为量化策略实习经验、IMO/IOI/NOI/ICPC等竞赛获奖、高水平学术论文。工作地点：上海、北京、香港。投递：官网 join.mhfunds.com；邮箱 campushr@mhfunds.com（主题与简历命名：[在读院校-投递岗位-姓名]）；内推优先筛选。（依据2026校招公告与高校就业网转载整理，详情请以官网为准）",
+    "salary": "面议（应届行业参考年薪约50-100万/年——知乎/行业第三方渠道，未经官方核实）",
     "salaryIsEstimate": true,
-    "applyUrl": "https://example.com/minghong-apply",
-    "officialUrl": "https://example.com/minghong-careers",
+    "applyUrl": "https://join.mhfunds.com",
+    "officialUrl": "https://join.mhfunds.com",
     "autumn2026": "unknown",
-    "autumn2026Note": "示例占位，未核实",
-    "source": "manual",
-    "fetchStatus": "manual_required",
+    "autumn2026Note": "2026届校招（量化研究员等岗位）2026年上半年开放、招聘约20人；截至2026-08-09网申是否仍开放需以官网为准，2027届秋招尚未官宣。",
+    "source": "official",
+    "fetchStatus": "partial",
     "sources": [
       {
         "type": "official",
-        "title": "明汯投资官方招聘页（示例占位）",
-        "url": "https://example.com/minghong-careers",
-        "accessedAt": "2026-08-06",
+        "title": "明汯投资招聘官网（join.mhfunds.com）",
+        "url": "https://join.mhfunds.com/index",
+        "accessedAt": "2026-08-09",
         "status": "partial",
-        "note": "示例占位链接，请手动核实"
+        "note": "官网需JS渲染，仅见'明汯投资期待你的加入'，岗位详情经校招公告/高校就业网转载确认"
+      },
+      {
+        "type": "wechat",
+        "title": "「明汯人才招聘」公众号·2026校园招聘/实习生招聘",
+        "url": "https://mp.weixin.qq.com/s/F9fawZagiIQ9DY7O6_prRg",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信文章有环境验证墙，正文未直接抓取；经搜索摘要确认2026校招岗位清单、投递方式与福利"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·明汯投资量化岗位检索",
+        "url": "https://www.zhipin.com/zhaopin/a6ce91396e33a7601XJ42Ni-EQ~~",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "Boss直聘有安全验证墙；搜索摘要显示明汯在Boss直聘在招'量化开发工程师（2026校招）'等岗位，量化研究员具体职位页需手动核实"
       }
     ],
-    "notes": "示例数据，薪资与链接均为占位，请用 skill 调研后替换。",
-    "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "notes": "薪资为行业第三方参考，官方公告未披露具体薪资。岗位详情请以官网为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
   },
   {
     "id": "yanfu-quant-researcher-2026",
@@ -654,5 +667,320 @@
     "notes": "薪资未公布，占位为『示例：面议』；实习网申已截止；第三方（小红书）评价实习薪资偏低、正式岗薪资激励好，均未经官方核实。",
     "createdAt": "2026-08-06",
     "updatedAt": "2026-08-06"
+  },
+  {
+    "id": "ubiquant-quant-strategy-researcher-2026",
+    "companyId": "ubiquant",
+    "title": "量化策略研究员（梧桐计划·2026届校招）",
+    "description": "梧桐计划：九坤自2020年起面向全球优秀本硕博应届毕业生发起的技术专项人才计划，含2026届校招全职岗与2026/2027届实习岗。岗位职责：依托充足计算资源与AI研究框架，深度分析海量数据，通过机器学习算法在特征提取、价格预测、组合优化等场景挖掘Alpha信号、优化策略模型。任职要求：计算机、软件工程、AI、数学、统计、物理、金融工程等相关理工科专业（官网标注专业不限，实际门槛高，核心研发岗基本被硕博垄断）；扎实的数理与编程基础，ACM/IOI/顶会论文等为加分项。工作地点：北京海淀、上海虹口、深圳。投递：官网 ubiquant.com/careers 或 MOKA 校招系统 app.mokahr.com/campus_apply/ubiquantrecruit/37031，邮箱 recruiter@ubiquant.com。（依据2026春招/秋招公告与第三方转载整理，详情请以官网为准）",
+    "salary": "面议（应届参考约50-200万/年；梧桐计划Special Offer年薪100万、Super Special Offer年薪200万——均为小红书/媒体等第三方渠道，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.ubiquant.com/careers",
+    "officialUrl": "https://app.mokahr.com/campus_apply/ubiquantrecruit/37031",
+    "autumn2026": "open",
+    "autumn2026Note": "2026届春招（梧桐计划）3月起持续开放、部分批次网申截止至2026-08-01；2027届秋招（揽月计划）已开启，第三方攻略标注截止2026-09-19，滚动录取、招满即止。截至2026-08-09仍处招聘窗口。",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "九坤投资校园招聘（MOKA/UBITALENT）",
+        "url": "https://app.mokahr.com/campus_apply/ubiquantrecruit/37031",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/多次重定向，正文未能直接读取；岗位与计划经校招聚合站（牛企直聘/得早学就创/UP简历）与高校就业网转载确认"
+      },
+      {
+        "type": "wechat",
+        "title": "「梧桐计划」九坤投资2026年春季校园招聘（微信公众号：九坤投资招聘）",
+        "url": "https://mp.weixin.qq.com/s/36IckmvRulQy0tRWEoHvlw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信文章有环境验证墙，正文未直接抓取；经搜索摘要确认梧桐计划岗位清单、投递方式（官网/recruiter@ubiquant.com/公众号）"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·九坤投资（北京）有限公司公司页",
+        "url": "https://m.zhipin.com/companys/eb0b7bac0a8698020nB92d66.html",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "Boss直聘详情页有安全验证墙；本机 boss-cli 本次会话因账户风控（code=36，先前批量搜索触发）未能返回实时岗位，需用户稍后手动在 Boss直聘 搜索'九坤'确认当前在招量化岗位与薪资"
+      }
+    ],
+    "notes": "岗位详情依据2026春招/秋招公告与高校就业网、校招聚合站转载整理，官方岗位页需JS渲染未直接读取，请以官网为准。薪资为第三方渠道（小红书、媒体）数字，官方未披露具体区间。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "ubiquant-ai-algorithm-researcher-2026",
+    "companyId": "ubiquant",
+    "title": "AI算法研究员（梧桐计划·2026届校招）",
+    "description": "投资研究方向岗位之一。职责：将机器学习/深度学习用于金融数据建模，参与特征提取、价格预测、组合优化等场景的模型研究，挖掘Alpha信号。要求：理工科（计算机/数学/统计/物理/AI）硕博为主，具备扎实的机器学习与编程功底，研究方向贴合量化/大模型/多模态者优先。工作地点：北京、上海、深圳。投递：官网 ubiquant.com/careers 或 MOKA 校招系统；邮箱 recruiter@ubiquant.com。（依据2026校招公告与第三方转载整理，详情请以官网为准）",
+    "salary": "面议（第三方渠道参考：AI算法研究员年薪区间约48-112万·16薪——小红书薪资分享帖，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.ubiquant.com/careers",
+    "officialUrl": "https://app.mokahr.com/campus_apply/ubiquantrecruit/37031",
+    "autumn2026": "open",
+    "autumn2026Note": "与梧桐计划同批开放，2026届春招持续开放中，2027届秋招（揽月计划）已开启；截至2026-08-09仍处招聘窗口。",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "九坤投资校园招聘（MOKA/UBITALENT）",
+        "url": "https://app.mokahr.com/campus_apply/ubiquantrecruit/37031",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染，正文未能直接读取；岗位名称经牛企直聘/得早学就创转载确认"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·九坤投资公司页（在招岗位检索）",
+        "url": "https://m.zhipin.com/companys/eb0b7bac0a8698020nB92d66.html",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "Boss直聘有安全验证墙；本次 boss-cli 会话因账户风控未能实时搜索，公司页搜索摘要显示九坤在招含大模型算法实习生（至知创新研究院）等岗位，需手动核实"
+      }
+    ],
+    "notes": "薪资数字来自第三方薪资分享帖（小红书），未经官方核实，官方公告未披露薪资。岗位详情请以官网为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "ubiquant-quant-dev-2026",
+    "companyId": "ubiquant",
+    "title": "量化实现工程师 / Quant Developer（2026校招）",
+    "description": "开发工程方向岗位。职责：负责核心交易/研究系统的设计、实现与优化，为策略研发与实盘交易提供技术支撑（低延迟、高性能）；与研究、交易团队协作。要求：计算机/软件工程/电子信息等理工科，熟练使用C++与Python，扎实的计算机系统基础，理解量化交易系统优先。工作地点：北京、上海。投递：官网 ubiquant.com/careers 或 MOKA 校招系统；邮箱 recruiter@ubiquant.com。（依据2026校招公告与第三方转载整理，详情请以官网为准）",
+    "salary": "面议（应届行业参考年薪50万起，第三方渠道，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.ubiquant.com/careers",
+    "officialUrl": "https://app.mokahr.com/campus_apply/ubiquantrecruit/37031",
+    "autumn2026": "open",
+    "autumn2026Note": "与梧桐计划同批开放；截至2026-08-09仍处招聘窗口。",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "九坤投资校园招聘（MOKA/UBITALENT）",
+        "url": "https://app.mokahr.com/campus_apply/ubiquantrecruit/37031",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染，正文未能直接读取；Quant Developer岗位经第三方攻略/聚合站确认"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·九坤投资公司页（在招岗位检索）",
+        "url": "https://m.zhipin.com/companys/eb0b7bac0a8698020nB92d66.html",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "Boss直聘有安全验证墙；本次会话 boss-cli 因账户风控未能实时搜索，需手动核实"
+      }
+    ],
+    "notes": "薪资为行业参考（第三方），官方未披露。岗位详情请以官网为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "ubiquant-quant-risk-researcher-2026",
+    "companyId": "ubiquant",
+    "title": "量化风险研究员（2026校招）",
+    "description": "量化风控方向岗位。职责：参与投资日常风险监控，识别风险点，构建风控模型与指标体系，为组合与交易风险把关。要求：数学/统计/金融工程/计算机等理工科，掌握概率统计与建模方法，了解金融风险管理。工作地点：北京、上海。投递：官网 ubiquant.com/careers 或 MOKA 校招系统；邮箱 recruiter@ubiquant.com。（依据2026校招公告转载整理，详情请以官网为准）",
+    "salary": "面议（官方未披露；第三方渠道未见稳定数字）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.ubiquant.com/careers",
+    "officialUrl": "https://app.mokahr.com/campus_apply/ubiquantrecruit/37031",
+    "autumn2026": "open",
+    "autumn2026Note": "与梧桐计划同批开放；截至2026-08-09仍处招聘窗口。",
+    "source": "official",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "九坤投资2026春季校园招聘公告（得早学就创转载）",
+        "url": "https://deizao.net/m/index/gonggaoxq/nwid/14015",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公告确认含量化风险研究员等6类岗位，未披露薪资与投递截止，需前往公众号原文查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·九坤投资公司页",
+        "url": "https://m.zhipin.com/companys/eb0b7bac0a8698020nB92d66.html",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "Boss直聘有安全验证墙；需手动核实当前是否在招"
+      }
+    ],
+    "notes": "岗位存在性经校招公告确认，但岗位详情与薪资信息较少，需手动查看官网/MOKA。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "ubiquant-quant-dev-intern",
+    "companyId": "ubiquant",
+    "title": "量化实现实习生 / Quant Developer实习生",
+    "description": "九坤日常/暑期实习岗，提供转正机会。职责：研究股票、期货、期权等市场的量化模型；为研究员策略实现提供数据和技术支持；使用概率、统计或机器学习方法分析市场及交易。要求：硕士及以上（统计、数学、物理、计算机、金融等专业），熟练使用至少一门编程语言（如Python、C++），扎实的计算机理论基础，每周5天、实习3个月。工作地点：北京海淀（五道口/赛尔大厦）。投递：官网 ubiquant.com/careers 或 Boss直聘搜索'九坤投资'。（第三方招聘渠道转载，详情请以官网为准）",
+    "salary": "800-1000元/天（第三方招聘渠道（猎聘/全职网转Boss直聘职位），未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.ubiquant.com/careers",
+    "officialUrl": "https://m.zhipin.com/companys/eb0b7bac0a8698020nB92d66.html",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习岗，非秋招批次；2026/2027届在校生可投，转正通道存在，需以官网/Boss直聘当前状态为准",
+    "source": "boss",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·九坤投资（北京）有限公司公司页",
+        "url": "https://m.zhipin.com/companys/eb0b7bac0a8698020nB92d66.html",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "Boss直聘有安全验证墙；搜索摘要显示公司在招含'量化实现实习生'等职位，详情需手动查看"
+      },
+      {
+        "type": "official",
+        "title": "Quant Developer实习生（猎聘/全职网转载九坤职位）",
+        "url": "https://www.quanzhi.com/job/69679729e69285a80525604c",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方聚合页完整展示职责/要求/薪资（800-1000元/天）与福利；该职位在聚合页显示'已结束'，是否仍在招需以官网为准"
+      }
+    ],
+    "notes": "薪资800-1000元/天来自第三方招聘渠道转载，未经官方核实。职位在第三方聚合页显示'已结束'，但九坤实习岗常态化开放，投递前请核实当前状态。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "minghong-quant-dev-2026",
+    "companyId": "minghong",
+    "title": "量化开发工程师（2026届校招）",
+    "description": "岗位职责：设计、实现并维护处理海量金融数据的量化研究基础架构与研究工具链；持续开发和完善高性能交易系统；设计和实现各类模型训练工具，简化从回测到实盘的部署流程；参与策略实现与算法执行优化；提升数据加载速度与缓存优化。技术要求：Python/C++，AI推理/优化、离线数据平台、交易系统、K8s、算法优化、分布式、量化交易/交易系统/编译器开发经验等。工作地点：上海虹口（北外滩来福士广场）、北京、香港。投递：官网 join.mhfunds.com；邮箱 campushr@mhfunds.com；内推。（依据2026校招公告与Boss直聘职位转载整理，详情请以官网为准）",
+    "salary": "35-50K/月（Boss直聘搜索摘要，未经官方核实；第三方聚合页显示'面议'，以实际Offer为准）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://join.mhfunds.com",
+    "officialUrl": "https://www.zhipin.com/zhaopin/a6ce91396e33a7601XJ42Ni-EQ~~",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2026届校招岗；Boss直聘职位摘要显示'在校/应届、本科'。截至2026-08-09当前状态需以官网/Boss直聘为准，2027届秋招未官宣。",
+    "source": "boss",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·明汯投资 量化开发工程师（2026校招）",
+        "url": "https://www.zhipin.com/zhaopin/a6ce91396e33a7601XJ42Ni-EQ~~",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "Boss直聘详情页有安全验证墙；搜索摘要显示岗位薪资35-50K、上海虹口区江湾、在校/应届本科，未经官方核实"
+      },
+      {
+        "type": "official",
+        "title": "量化开发工程师（2026校招）职位详情（全职网转载）",
+        "url": "https://www.quanzhi.com/job/699faf38fc45f410492159ad",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方聚合页完整展示职责与技术要求；薪资标注'面议'，职位状态显示'已结束'（发布于2026-02-26），是否仍在招需以官网为准"
+      }
+    ],
+    "notes": "35-50K/月来自Boss直聘搜索摘要，未经官方核实；第三方聚合页显示'面议'。该职位在第三方聚合页显示'已结束'，投递前请核实当前状态。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "minghong-deep-learning-researcher-2026",
+    "companyId": "minghong",
+    "title": "深度学习算法研究员（2026届校招）",
+    "description": "岗位职责：运用深度学习和机器学习方法对海量金融数据建模，探索前沿算法（含大模型/多模态）在量化金融中的应用，参与因子挖掘与策略研发。要求：顶尖高校计算机/数学/统计/物理等理工科，机器学习功底扎实，熟练掌握Python/C++，有深度学习研究经验或顶会论文者优先。工作地点：上海、北京、香港。投递：官网 join.mhfunds.com；邮箱 campushr@mhfunds.com。（依据2026校招公告与公众号转载整理，详情请以官网为准）",
+    "salary": "面议（官方未披露；行业第三方参考AI/ML量化岗年薪约80-200万/年，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://join.mhfunds.com",
+    "officialUrl": "https://join.mhfunds.com",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2026届校招岗，与量化研究员同批；截至2026-08-09当前状态需以官网为准。",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "明汯投资2026校园招聘（全职网公告转载）",
+        "url": "https://www.quanzhi.com/notice/68a9061700c718f5c1781d49",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公告确认含深度学习算法研究员等岗位，未披露薪资与流程时间，投递入口为 join.mhfunds.com"
+      },
+      {
+        "type": "wechat",
+        "title": "「明汯人才招聘」公众号·2026校园招聘",
+        "url": "https://mp.weixin.qq.com/s/QOT9s3ytnPQ94aJjprE2RA",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信文章有环境验证墙，正文未直接抓取；经摘要确认岗位清单"
+      }
+    ],
+    "notes": "薪资为行业第三方参考，官方未披露。岗位详情请以官网为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "minghong-ai-infra-2026",
+    "companyId": "minghong",
+    "title": "AI Infra工程师 / AI基础架构开发工程师（2026校招）",
+    "description": "岗位职责：参与量化交易模型训练框架开发与性能优化，优化CPU/GPU推理延迟，建设AI基础架构（训练/推理平台），提升资源利用率。要求：计算机/软件工程等理工科，熟悉深度学习训练框架与分布式系统，掌握Python/C++，有高性能计算/GPU优化经验者优先。工作地点：上海、北京、香港。投递：官网 join.mhfunds.com；邮箱 campushr@mhfunds.com。（依据2026校招公告转载整理，详情请以官网为准）",
+    "salary": "面议（官方未披露）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://join.mhfunds.com",
+    "officialUrl": "https://join.mhfunds.com",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2026届校招岗；截至2026-08-09当前状态需以官网为准。",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "明汯投资2026校园招聘（全职网公告转载）",
+        "url": "https://www.quanzhi.com/notice/68a9061700c718f5c1781d49",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公告确认含AI Infra工程师岗位，未披露薪资"
+      }
+    ],
+    "notes": "岗位存在性经校招公告确认，详情信息较少，需手动查看官网。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "minghong-quant-research-intern-2026",
+    "companyId": "minghong",
+    "title": "量化研究实习生（2026实习·面向2027届及以后）",
+    "description": "2026实习岗位（面向2027届及以后在校生，可转正，实习地点上海/北京/香港）。岗位职责：利用各种金融数据分析工具，参与数据、指标的发掘与加工；对市场数据进行统计分析、建立有效模型；研究和开发量化投资策略；从交易执行、风控处理等各方面优化改进策略。要求：国内外顶尖高校计算机、统计、数学、物理等理工科，数学基础扎实，掌握C++/Python/R等语言；加分项为量化实习经验、竞赛获奖、学术论文。Boss直聘显示：上海虹口区江湾、本科及以上、每周4天、实习3个月。投递：官网 join.mhfunds.com；邮箱 campushr@mhfunds.com。（岗位详情以官网为准）",
+    "salary": "面议（Boss直聘职位未标注薪资；第三方统计明汯公司整体月薪约9.56K，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://join.mhfunds.com",
+    "officialUrl": "https://www.zhipin.com/job_detail/83357a07049026c91H143dS-FVFR.html",
+    "autumn2026": "open",
+    "autumn2026Note": "2026实习招聘持续热招中（面向2027届及以后，可转正），工作地上海/北京/香港；实习岗非秋招批次，但当前处于开放窗口。",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·明汯投资 量化研究实习生（boss-cli实时搜索）",
+        "url": "https://www.zhipin.com/job_detail/83357a07049026c91H143dS-FVFR.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "boss-cli 实时搜索（用户已登录账号）获取真实岗位数据：上海虹口区江湾、本科、4天/周、3个月，福利含五险一金/年终奖/餐补等；详情页需登录"
+      },
+      {
+        "type": "wechat",
+        "title": "「明汯人才招聘」公众号·2026实习生招聘公告",
+        "url": "https://mp.weixin.qq.com/s/F9fawZagiIQ9DY7O6_prRg",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信文章有环境验证墙，正文未直接抓取；经摘要确认2026实习岗位清单、投递方式与转正通道"
+      }
+    ],
+    "notes": "岗位数据来自Boss直聘实时搜索（boss-cli，2026-08-09），薪资未标注；第三方统计薪资未经官方核实。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
   }
 ]

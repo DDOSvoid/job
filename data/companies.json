@@ -3,34 +3,34 @@
     "id": "highflyer",
     "name": "幻方量化",
     "type": "private",
-    "website": "https://example.com/highflyer",
+    "website": "https://www.high-flyer.cn",
     "location": "杭州",
-    "about": "以 AI 驱动的量化私募（示例简介，请核实）。",
-    "source": "example",
-    "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-05"
+    "about": "国内头部量化私募（AI 驱动量化投资），总部杭州，法定主体为浙江九章资产管理有限公司，关联 DeepSeek；管理规模数百亿，以深度学习与大规模计算为核心。官网招聘入口 https://www.high-flyer.cn/join（官网已核实）。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
   },
   {
     "id": "ubiquant",
     "name": "九坤投资",
     "type": "private",
-    "website": "https://example.com/ubiquant",
+    "website": "https://www.ubiquant.com",
     "location": "北京",
-    "about": "国内头部量化私募之一（示例简介，请核实）。",
-    "source": "example",
-    "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "about": "九坤投资（北京）有限公司成立于2012年，国内头部量化对冲基金公司，截至2025年四季度管理规模约800亿元人民币，服务高净值客户20000+；投研与技术团队90%以上毕业于清北及海外常青藤。量化岗位以『梧桐计划』（2020年起）面向全球本硕博应届生招聘。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
   },
   {
     "id": "minghong",
     "name": "明汯投资",
     "type": "private",
-    "website": "https://example.com/minghong",
+    "website": "https://www.mhfunds.com",
     "location": "上海",
-    "about": "专注于量化投资的私募机构（示例简介，请核实）。",
-    "source": "example",
-    "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "about": "上海明汯投资管理有限公司成立于2014年，注册于上海虹口，国内较早将人工智能技术成功应用于金融市场的量化私募机构，是国内首批管理规模突破500亿元的量化私募管理人之一，在上海、北京、香港、纽约设有办公室。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
   },
   {
     "id": "yanfu",

@@ -24,3 +24,7 @@ Thumbs.db
 
 # TypeScript
 *.tsbuildinfo
+
+# Python (skill scripts)
+__pycache__/
+*.pyc
