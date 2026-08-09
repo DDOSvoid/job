@@ -3,6 +3,8 @@ import type {
   ApplicationStage,
   Company,
   CompanyDetail,
+  Interview,
+  InterviewDetail,
   Job,
   JobDetail,
   TimelineEntry,
@@ -37,6 +39,13 @@ export interface JobFilters {
   fetchStatus?: string
 }
 
+export interface InterviewFilters {
+  companyId?: string
+  result?: string
+  difficulty?: string
+  source?: string
+}
+
 export const api = {
   getCompanies(): Promise<Company[]> {
     return request('/companies')
@@ -67,5 +76,11 @@ export const api = {
       method: 'POST',
       body: JSON.stringify(entry),
     })
+  },
+  getInterviews(filters: InterviewFilters = {}): Promise<Interview[]> {
+    return request(`/interviews${qs({ ...filters })}`)
+  },
+  getInterview(id: string): Promise<InterviewDetail> {
+    return request(`/interviews/${encodeURIComponent(id)}`)
   },
 }

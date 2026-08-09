@@ -6,6 +6,9 @@ import {
   FETCH_STATUS,
   AUTUMN_STATUS,
   APPLICATION_STAGES,
+  INTERVIEW_SOURCES,
+  INTERVIEW_RESULTS,
+  INTERVIEW_DIFFICULTY,
 } from '../shared/constants.js'
 import { readCollection } from './store.js'
 
@@ -64,5 +67,27 @@ export function validateApplication(a, { jobs }) {
   else if (!jobs.some((j) => j.id === a.jobId)) errors.push(`jobId '${a.jobId}' 不存在`)
   if (!Array.isArray(a?.timeline) || a.timeline.length === 0) errors.push('timeline 至少需要一条记录')
   else a.timeline.forEach((e, i) => validateTimelineEntry(e).forEach((m) => errors.push(`timeline[${i}] ${m}`)))
+  return errors
+}
+
+export function validateInterview(i, { companies }) {
+  const errors = []
+  if (!isStr(i?.id)) errors.push('id 缺失')
+  if (!isStr(i?.companyId)) errors.push('companyId 缺失')
+  else if (!companies.some((c) => c.id === i.companyId)) errors.push(`companyId '${i.companyId}' 不存在`)
+  if (!isStr(i?.jobTitle)) errors.push('jobTitle 缺失')
+  if (!Array.isArray(i?.rounds) || i.rounds.length === 0) errors.push('rounds 至少需要一条记录')
+  else
+    i.rounds.forEach((r, idx) => {
+      if (!isStr(r?.name)) errors.push(`rounds[${idx}].name 缺失`)
+      if (!isStr(r?.content)) errors.push(`rounds[${idx}].content 缺失`)
+      if (r?.date !== undefined && !/^\d{4}(?:-\d{2}(?:-\d{2})?|春招|秋招|春|秋)?$/.test(r.date)) errors.push(`rounds[${idx}].date 格式应为 YYYY / YYYY-MM / YYYY-MM-DD 或 YYYY春招/秋招`)
+    })
+  if (i?.result !== undefined && !inEnum(i.result, INTERVIEW_RESULTS)) errors.push('result 非法')
+  if (i?.difficulty !== undefined && !inEnum(i.difficulty, INTERVIEW_DIFFICULTY)) errors.push('difficulty 非法')
+  if (i?.source && !inEnum(i.source, INTERVIEW_SOURCES)) errors.push('source 非法')
+  if (i?.sourceStatus && !inEnum(i.sourceStatus, SOURCE_STATUSES)) errors.push('sourceStatus 非法')
+  if (i?.sourceUrl !== undefined && typeof i.sourceUrl !== 'string') errors.push('sourceUrl 必须是字符串')
+  if (i?.collectedAt !== undefined && !DATE_RE.test(i.collectedAt)) errors.push('collectedAt 格式应为 YYYY-MM-DD')
   return errors
 }

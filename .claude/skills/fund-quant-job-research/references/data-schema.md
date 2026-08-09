@@ -4,6 +4,7 @@
 - `companies.json` —— 公司数组
 - `jobs.json` —— 岗位数组
 - `applications.json` —— 申请推进数组（**skill 不写这个文件**）
+- `interviews.json` —— 面试经历数组（**归 `interview-experience-research` skill 管理，本 skill 不写**）
 
 本 skill 只写入/更新 `companies.json` 与 `jobs.json`。所有日期用 ISO `YYYY-MM-DD`。
 

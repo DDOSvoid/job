@@ -1552,6 +1552,114 @@ input.grow {
 }
 
 /* ============================================================
+   面试经历目录表（整行链接，5 列）
+   ============================================================ */
+.iv-row-head,
+.iv-row {
+  display: grid;
+  grid-template-columns: minmax(140px, 190px) minmax(150px, 1.2fr) 92px 84px minmax(170px, 240px);
+  gap: 16px;
+}
+
+.iv-row-head {
+  align-items: center;
+  padding: 9px 18px;
+  background: var(--bg-subtle);
+  border-bottom: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.iv-row {
+  align-items: center;
+  padding: 12px 18px;
+  border-left: 3px solid var(--cat, var(--cat-hedge));
+  border-bottom: 1px solid var(--border);
+  color: inherit;
+  text-decoration: none;
+}
+
+.iv-row:last-child {
+  border-bottom: none;
+}
+
+.iv-row:hover {
+  background: var(--bg-subtle);
+}
+
+.iv-company {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.iv-source-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.iv-source-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.iv-date {
+  font-size: 12px;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.iv-source-title {
+  font-size: 12px;
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ============================================================
+   面试经历详情：轮次卡片
+   ============================================================ */
+.iv-rounds {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.iv-round {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  background: var(--bg);
+}
+
+.iv-round-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.iv-round-name {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.iv-round-content {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ============================================================
    机构分类统计（统计页）
    ============================================================ */
 .cat-stats {
@@ -1637,6 +1745,15 @@ input.grow {
   }
 
   .dir-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .iv-row-head {
+    display: none;
+  }
+
+  .iv-row {
     grid-template-columns: 1fr;
     gap: 8px;
   }

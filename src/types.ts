@@ -11,6 +11,9 @@ export type ApplicationStage =
   | 'offer'
   | 'rejected'
   | 'withdrawn'
+export type InterviewSource = 'xiaohongshu' | 'nowcoder' | 'zhihu' | '1point3acres' | 'forum' | 'manual'
+export type InterviewResult = 'offer' | 'no_offer' | 'in_progress' | 'unknown'
+export type InterviewDifficulty = 'easy' | 'medium' | 'hard' | 'unknown'
 
 export interface Company {
   id: string
@@ -78,4 +81,33 @@ export interface CompanyDetail extends Company {
 export interface JobDetail extends Job {
   company: Company | null
   application: Application | null
+}
+
+export interface InterviewRound {
+  name: string
+  content: string
+  date?: string
+}
+
+export interface Interview {
+  id: string
+  companyId: string
+  companyName?: string | null
+  jobTitle: string
+  rounds: InterviewRound[]
+  summary: string
+  result: InterviewResult
+  difficulty: InterviewDifficulty
+  source: InterviewSource
+  sourceUrl: string
+  sourceTitle?: string
+  collectedAt: string
+  sourceStatus: SourceStatus
+  notes?: string
+  createdAt: string
+  updatedAt: string
+}
+
+export interface InterviewDetail extends Interview {
+  company: Company | null
 }

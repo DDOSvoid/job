@@ -1,6 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import type { ApplicationStage, TimelineEntry } from '../types'
-import { api, type JobFilters } from '../api/client'
+import { api, type InterviewFilters, type JobFilters } from '../api/client'
 
 export function useCompanies() {
   return useQuery({ queryKey: ['companies'], queryFn: () => api.getCompanies() })
@@ -33,6 +33,21 @@ export function useApplications() {
   return useQuery({ queryKey: ['applications'], queryFn: () => api.getApplications() })
 }
 
+export function useInterviews(filters: InterviewFilters = {}) {
+  return useQuery({
+    queryKey: ['interviews', filters],
+    queryFn: () => api.getInterviews(filters),
+  })
+}
+
+export function useInterview(id: string) {
+  return useQuery({
+    queryKey: ['interview', id],
+    queryFn: () => api.getInterview(id),
+    enabled: !!id,
+  })
+}
+
 // 变更后使相关查询失效，刷新界面
 function useInvalidate() {
   const qc = useQueryClient()
@@ -42,6 +57,8 @@ function useInvalidate() {
     qc.invalidateQueries({ queryKey: ['job'] })
     qc.invalidateQueries({ queryKey: ['company'] })
     qc.invalidateQueries({ queryKey: ['companies'] })
+    qc.invalidateQueries({ queryKey: ['interviews'] })
+    qc.invalidateQueries({ queryKey: ['interview'] })
   }
 }
 

@@ -4,6 +4,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 const navItems = [
   { to: '/', label: '岗位', end: true },
   { to: '/companies', label: '公司', end: false },
+  { to: '/interviews', label: '面试', end: false },
   { to: '/stats', label: '统计', end: false },
 ]
 

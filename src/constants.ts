@@ -4,6 +4,9 @@ import type {
   ApplicationStage,
   CompanyType,
   FetchStatus,
+  InterviewDifficulty,
+  InterviewResult,
+  InterviewSource,
   JobSource,
   SourceStatus,
 } from './types'
@@ -62,6 +65,42 @@ export const APPLICATION_STAGE_LABELS: Record<ApplicationStage, string> = {
 }
 
 export const AUTUMN_STATUSES: AutumnStatus[] = ['open', 'not_started', 'ended', 'unknown']
+
+export const INTERVIEW_SOURCE_LABELS: Record<InterviewSource, string> = {
+  xiaohongshu: '小红书',
+  nowcoder: '牛客',
+  zhihu: '知乎',
+  '1point3acres': '一亩三分地',
+  forum: '论坛',
+  manual: '手动',
+}
+
+export const INTERVIEW_SOURCES: InterviewSource[] = [
+  'xiaohongshu',
+  'nowcoder',
+  'zhihu',
+  '1point3acres',
+  'forum',
+  'manual',
+]
+
+export const INTERVIEW_RESULT_LABELS: Record<InterviewResult, string> = {
+  offer: '拿到Offer',
+  no_offer: '未通过',
+  in_progress: '进行中',
+  unknown: '未知',
+}
+
+export const INTERVIEW_RESULTS: InterviewResult[] = ['offer', 'no_offer', 'in_progress', 'unknown']
+
+export const INTERVIEW_DIFFICULTY_LABELS: Record<InterviewDifficulty, string> = {
+  easy: '简单',
+  medium: '中等',
+  hard: '困难',
+  unknown: '未知',
+}
+
+export const INTERVIEW_DIFFICULTIES: InterviewDifficulty[] = ['easy', 'medium', 'hard', 'unknown']
 
 export function todayStr(): string {
   const d = new Date()

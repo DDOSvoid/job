@@ -2,11 +2,12 @@
 
 本目录是网站数据的**唯一事实源**。前端只读、后端读写、`fund-quant-job-research` skill 直接写入。
 
-三个文件均为 JSON 数组：
+四个文件均为 JSON 数组：
 
 - `companies.json` —— 公司（公募/私募/券商）
 - `jobs.json` —— 岗位
 - `applications.json` —— 申请推进进程
+- `interviews.json` —— 面试经历（由 `interview-experience-research` skill 写入）
 
 ## company
 
@@ -85,7 +86,36 @@
 - `timeline` 是唯一事实源；`currentStatus` 是派生缓存字段，取 timeline 按日期排序后的最后一条 `stage`，由后端自动重算，不要手动编辑。
 - `stage`: `interested`（关注中）| `applied`（已投递）| `written_test`（笔试）| `interview`（面试）| `offer` | `rejected`（已拒绝）| `withdrawn`（已放弃）
 
+## interview
+
+```json
+{
+  "id": "ubiquant-quant-research-intern-interview-2026",
+  "companyId": "ubiquant",
+  "jobTitle": "量化研究实习生",
+  "rounds": [
+    { "name": "一面", "content": "自我介绍 + 概率题", "date": "2026-07" }
+  ],
+  "summary": "两轮技术面，偏概率统计。",
+  "result": "unknown",
+  "difficulty": "medium",
+  "source": "nowcoder",
+  "sourceUrl": "https://www.nowcoder.com/discuss/xxxxx",
+  "sourceTitle": "九坤量化实习面经",
+  "collectedAt": "2026-08-09",
+  "sourceStatus": "complete",
+  "createdAt": "2026-08-09",
+  "updatedAt": "2026-08-09"
+}
+```
+
+- `rounds[]` 每轮含 `name`（如"一面"）与 `content`（该轮主要题目/内容），`date` 可选。
+- `source`: `xiaohongshu`（小红书）| `nowcoder`（牛客）| `zhihu`（知乎）| `1point3acres`（一亩三分地）| `forum`（论坛）| `manual`（手动）
+- `sourceStatus`: `complete`（正文完整读到）| `partial` | `manual_required` | `blocked`（登录墙）——**注意它只表示"帖子正文读到多少"，不代表内容经官方核实**；社区面经是发帖人自述。
+- `result`: `offer` | `no_offer` | `in_progress` | `unknown`；`difficulty`: `easy` | `medium` | `hard` | `unknown`
+- `sourceUrl` 必填且为真实帖子 URL；`companyId` 必须已存在于 companies.json。
+
 ## 编辑约定
 
-- 日期统一 `YYYY-MM-DD`。
+- 日期统一 `YYYY-MM-DD`；`rounds[].date` 额外允许 `YYYY-MM`、`YYYY`、`YYYY春招`/`YYYY秋招`（只知道年份或季节时如实记录，不编造月份）。
 - skill 写入时按 `id` upsert（同名覆盖、保留其余字段），并做原子写回。

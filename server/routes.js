@@ -4,6 +4,7 @@ import {
   validateJob,
   validateApplication,
   validateTimelineEntry,
+  validateInterview,
 } from './validate.js'
 import { APPLICATION_STAGES } from '../shared/constants.js'
 
@@ -90,6 +91,7 @@ export function createApiRouter() {
         const companies = body.companies ?? []
         const jobs = body.jobs ?? []
         const applications = body.applications ?? []
+        const interviews = body.interviews ?? []
 
         const errors = []
         // 校验时用"合并后的公司集合"，保证同批 payload 内 job 引用新 company 也合法
@@ -104,6 +106,7 @@ export function createApiRouter() {
           validateJob(j, { companies: mergedCompanies }).forEach((m) => errors.push(`jobs[${j?.id}] ${m}`))
         }
         for (const a of applications) validateApplication(a, { jobs: mergedJobs }).forEach((m) => errors.push(`applications[${a?.id}] ${m}`))
+        for (const iv of interviews) validateInterview(iv, { companies: mergedCompanies }).forEach((m) => errors.push(`interviews[${iv?.id}] ${m}`))
 
         const result = { ok: errors.length === 0, errors }
         if (errors.length === 0) {
@@ -113,6 +116,7 @@ export function createApiRouter() {
             ['companies', companies],
             ['jobs', jobs],
             ['applications', applications],
+            ['interviews', interviews],
           ]
           for (const [file, payload] of files) {
             const { list, created, updated } = upsertCollection(file, payload.map(stampItem))
@@ -144,7 +148,7 @@ export function createApiRouter() {
       }
 
       // ---- 通用 CRUD ----
-      const match = pathname.match(/^\/api\/(companies|jobs|applications)(?:\/([^/]+))?$/)
+      const match = pathname.match(/^\/api\/(companies|jobs|applications|interviews)(?:\/([^/]+))?$/)
       if (!match) return sendJSON(res, 404, { error: '未找到接口' })
       const resource = match[1]
       const id = match[2] ? decodeURIComponent(match[2]) : null
@@ -166,6 +170,10 @@ export function createApiRouter() {
             const jobs = readCollection('jobs')
             list = list.map((a) => ({ ...a, jobTitle: jobs.find((j) => j.id === a.jobId)?.title ?? null }))
           }
+          if (resource === 'interviews') {
+            const companies = readCollection('companies')
+            list = list.map((iv) => ({ ...iv, companyName: companies.find((c) => c.id === iv.companyId)?.name ?? null }))
+          }
           return sendJSON(res, 200, list)
         }
         if (resource === 'companies') {
@@ -185,6 +193,12 @@ export function createApiRouter() {
           const app = readCollection('applications').find((a) => a.id === id)
           if (!app) return sendJSON(res, 404, { error: 'application 不存在' })
           return sendJSON(res, 200, app)
+        }
+        if (resource === 'interviews') {
+          const interview = readCollection('interviews').find((iv) => iv.id === id)
+          if (!interview) return sendJSON(res, 404, { error: '面试经历不存在' })
+          const company = readCollection('companies').find((c) => c.id === interview.companyId) ?? null
+          return sendJSON(res, 200, { ...interview, company })
         }
       }
 
@@ -209,8 +223,8 @@ export function createApiRouter() {
           await writeCollection('applications', apps)
           return sendJSON(res, 201, app)
         }
-        const validate = resource === 'companies' ? validateCompany : validateJob
-        const ctx = resource === 'jobs' ? { companies: readCollection('companies') } : {}
+        const validate = resource === 'companies' ? validateCompany : resource === 'interviews' ? validateInterview : validateJob
+        const ctx = resource === 'jobs' || resource === 'interviews' ? { companies: readCollection('companies') } : {}
         const errors = validate(body, ctx)
         if (errors.length > 0) return sendJSON(res, 422, { error: errors.join('；') })
         const list = readCollection(resource)
@@ -224,8 +238,8 @@ export function createApiRouter() {
         const list = readCollection(resource)
         const idx = list.findIndex((x) => x.id === id)
         if (idx < 0) return sendJSON(res, 404, { error: '记录不存在' })
-        const validate = resource === 'companies' ? validateCompany : validateJob
-        const ctx = resource === 'jobs' ? { companies: readCollection('companies') } : {}
+        const validate = resource === 'companies' ? validateCompany : resource === 'interviews' ? validateInterview : validateJob
+        const ctx = resource === 'jobs' || resource === 'interviews' ? { companies: readCollection('companies') } : {}
         const merged = { ...list[idx], ...body, id, updatedAt: today() }
         const errors = validate(merged, ctx)
         if (errors.length > 0) return sendJSON(res, 422, { error: errors.join('；') })

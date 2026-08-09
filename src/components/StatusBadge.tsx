@@ -3,6 +3,9 @@ import type {
   AutumnStatus,
   ApplicationStage,
   FetchStatus,
+  InterviewDifficulty,
+  InterviewResult,
+  InterviewSource,
   JobSource,
   SourceStatus,
 } from '../types'
@@ -11,6 +14,9 @@ import {
   AUTUMN_STATUS_LABELS,
   COMPANY_TYPE_LABELS,
   FETCH_STATUS_LABELS,
+  INTERVIEW_DIFFICULTY_LABELS,
+  INTERVIEW_RESULT_LABELS,
+  INTERVIEW_SOURCE_LABELS,
   JOB_SOURCE_LABELS,
   SOURCE_STATUS_LABELS,
 } from '../constants'
@@ -45,6 +51,26 @@ const sourceTone: Record<SourceStatus, Tone> = {
   blocked: 'danger',
 }
 const sourceTypeTone: Record<JobSource, Tone> = { official: 'info', boss: 'purple', wechat: 'warning', manual: 'neutral' }
+const interviewResultTone: Record<InterviewResult, Tone> = {
+  offer: 'success',
+  no_offer: 'danger',
+  in_progress: 'warning',
+  unknown: 'neutral',
+}
+const interviewDifficultyTone: Record<InterviewDifficulty, Tone> = {
+  easy: 'success',
+  medium: 'warning',
+  hard: 'danger',
+  unknown: 'neutral',
+}
+const interviewSourceTone: Record<InterviewSource, Tone> = {
+  xiaohongshu: 'purple',
+  nowcoder: 'info',
+  zhihu: 'info',
+  '1point3acres': 'neutral',
+  forum: 'neutral',
+  manual: 'neutral',
+}
 
 export function CompanyTypeBadge({ type }: { type: CompanyType }) {
   return <span className={toneClass(typeTone[type])}>{COMPANY_TYPE_LABELS[type]}</span>
@@ -82,6 +108,22 @@ export function SourceTypeBadge({ type }: { type: JobSource }) {
   return (
     <span className={toneClass(sourceTypeTone[type])} title="信息来源">
       {JOB_SOURCE_LABELS[type]}
+    </span>
+  )
+}
+
+export function InterviewResultBadge({ result }: { result: InterviewResult }) {
+  return <span className={toneClass(interviewResultTone[result])}>{INTERVIEW_RESULT_LABELS[result]}</span>
+}
+
+export function InterviewDifficultyBadge({ difficulty }: { difficulty: InterviewDifficulty }) {
+  return <span className={toneClass(interviewDifficultyTone[difficulty])}>{INTERVIEW_DIFFICULTY_LABELS[difficulty]}</span>
+}
+
+export function InterviewSourceBadge({ source }: { source: InterviewSource }) {
+  return (
+    <span className={toneClass(interviewSourceTone[source])} title="信息来源">
+      {INTERVIEW_SOURCE_LABELS[source]}
     </span>
   )
 }
