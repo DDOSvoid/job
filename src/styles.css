@@ -28,6 +28,14 @@
   --purple: #5b21b6;
   --purple-soft: #f3f0fd;
 
+  /* 机构三分类色（参照个人求职目录 quant-job-index.html 的三分类设计） */
+  --cat-pub: #b45b2a;
+  --cat-pub-soft: #f7ece2;
+  --cat-hedge: #0b6b6b;
+  --cat-hedge-soft: #e2f0f0;
+  --cat-sec: #4055a6;
+  --cat-sec-soft: #e6eaf6;
+
   /* 等宽数字：报价/终端读数 */
   --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', 'JetBrains Mono', Menlo, Consolas,
     monospace;
@@ -449,6 +457,19 @@ h4 {
   outline-offset: 2px;
 }
 
+/* 机构分类色左条：三分类贯通岗位列表（公募橙 / 私募青 / 券商靛） */
+.job-row[data-type='public'] {
+  border-left: 3px solid var(--cat-pub);
+}
+
+.job-row[data-type='private'] {
+  border-left: 3px solid var(--cat-hedge);
+}
+
+.job-row[data-type='securities'] {
+  border-left: 3px solid var(--cat-sec);
+}
+
 /* 模块化：模块间细分隔线 */
 .row-mod {
   min-width: 0;
@@ -701,6 +722,10 @@ h4 {
 .badge-info    { background: var(--primary-soft); color: #1d4ed8; }
 .badge-neutral { background: var(--bg-subtle);    color: var(--text-secondary); }
 .badge-purple  { background: var(--purple-soft);  color: var(--purple); }
+/* 机构三分类徽章：公募橙 / 私募青 / 券商靛 */
+.badge-pub   { background: var(--cat-pub-soft);   color: var(--cat-pub); }
+.badge-hedge { background: var(--cat-hedge-soft); color: var(--cat-hedge); }
+.badge-sec   { background: var(--cat-sec-soft);   color: var(--cat-sec); }
 
 .chip {
   display: inline-block;
@@ -715,6 +740,27 @@ h4 {
 .chip-amber {
   background: var(--accent-soft);
   color: #9a6a12;
+}
+
+/* 分类色小方块：目录表分段标题前的色点 */
+.cat-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  flex: none;
+}
+
+.cat-dot.pub {
+  background: var(--cat-pub);
+}
+
+.cat-dot.hedge {
+  background: var(--cat-hedge);
+}
+
+.cat-dot.sec {
+  background: var(--cat-sec);
 }
 
 /* ============================================================
@@ -1347,6 +1393,209 @@ input.grow {
 }
 
 /* ============================================================
+   公司目录表（参照个人求职目录的三分类色设计）
+   ============================================================ */
+.dir-section {
+  margin-top: 24px;
+}
+
+.dir-section:first-of-type {
+  margin-top: 20px;
+}
+
+/* 每段用 CSS 变量定分类色：行左边框 + 标题色点 */
+.dir-section[data-type='public'] {
+  --cat: var(--cat-pub);
+}
+
+.dir-section[data-type='private'] {
+  --cat: var(--cat-hedge);
+}
+
+.dir-section[data-type='securities'] {
+  --cat: var(--cat-sec);
+}
+
+.dir-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.dir-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.dir-count {
+  font-size: 13px;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.dir-table {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.dir-row-head,
+.dir-row {
+  display: grid;
+  grid-template-columns: minmax(180px, 230px) 1fr minmax(140px, 180px) minmax(170px, 220px);
+  gap: 16px;
+}
+
+.dir-row-head {
+  align-items: center;
+  padding: 9px 18px;
+  background: var(--bg-subtle);
+  border-bottom: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.dir-row {
+  align-items: start;
+  padding: 14px 18px;
+  border-left: 3px solid var(--cat);
+  border-bottom: 1px solid var(--border);
+}
+
+.dir-row:last-child {
+  border-bottom: none;
+}
+
+.dir-row:hover {
+  background: var(--bg-subtle);
+}
+
+.dir-cell {
+  min-width: 0;
+}
+
+.dir-company-name {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.dir-company-name:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.dir-company-sub {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dir-company-loc {
+  font-size: 12px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dir-jobs {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.dir-job-link {
+  display: block;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dir-job-link:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.dir-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dir-link {
+  display: inline-block;
+  max-width: 100%;
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dir-link:hover {
+  text-decoration: underline;
+}
+
+/* ============================================================
+   机构分类统计（统计页）
+   ============================================================ */
+.cat-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.cat-stat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  background: var(--card);
+}
+
+.cat-stat-name {
+  flex: 1;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.cat-stat-num {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.cat-stat.pub .cat-stat-num {
+  color: var(--cat-pub);
+}
+
+.cat-stat.hedge .cat-stat-num {
+  color: var(--cat-hedge);
+}
+
+.cat-stat.sec .cat-stat-num {
+  color: var(--cat-sec);
+}
+
+/* ============================================================
    响应式
    ============================================================ */
 @media (max-width: 760px) {
@@ -1380,6 +1629,16 @@ input.grow {
 
   .card-grid {
     grid-template-columns: 1fr;
+  }
+
+  /* 目录表：窄屏叠成单列，隐藏列头 */
+  .dir-row-head {
+    display: none;
+  }
+
+  .dir-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
   }
 
   .hero-head {

@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { useApplications, useCompanies, useJobs } from '../hooks/useApi'
 import { APPLICATION_STAGE_LABELS } from '../constants'
-import type { ApplicationStage } from '../types'
+import type { ApplicationStage, CompanyType } from '../types'
 
 const FUNNEL: ApplicationStage[] = ['applied', 'written_test', 'interview', 'offer']
 
@@ -39,6 +39,18 @@ export default function StatsPage() {
     .sort((a, b) => b.count - a.count)
     .filter((r) => r.count > 0)
 
+  const typeCounts = useMemo(() => {
+    const counts: Record<CompanyType, number> = { public: 0, private: 0, securities: 0 }
+    for (const c of companies.data ?? []) counts[c.type] += 1
+    return counts
+  }, [companies.data])
+
+  const CAT_STATS: { key: CompanyType; name: string; dot: string }[] = [
+    { key: 'public', name: '公募基金', dot: 'pub' },
+    { key: 'private', name: '量化私募', dot: 'hedge' },
+    { key: 'securities', name: '证券公司', dot: 'sec' },
+  ]
+
   const maxCount = Math.max(1, ...companyRows.map((r) => r.count))
 
   return (
@@ -56,6 +68,19 @@ export default function StatsPage() {
         <div className="card stat-card">
           <div className="stat-num">{stats.appList.length}</div>
           <div className="muted">申请中/已申请</div>
+        </div>
+      </div>
+
+      <div className="card detail-card">
+        <h3>机构分类</h3>
+        <div className="cat-stats">
+          {CAT_STATS.map((s) => (
+            <div key={s.key} className={`cat-stat ${s.dot}`}>
+              <span className={`cat-dot ${s.dot}`} />
+              <span className="cat-stat-name">{s.name}</span>
+              <span className="cat-stat-num">{typeCounts[s.key]}</span>
+            </div>
+          ))}
         </div>
       </div>
 

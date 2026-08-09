@@ -4,7 +4,7 @@
 
 三个文件均为 JSON 数组：
 
-- `companies.json` —— 公司（公募/私募）
+- `companies.json` —— 公司（公募/私募/券商）
 - `jobs.json` —— 岗位
 - `applications.json` —— 申请推进进程
 
@@ -24,7 +24,7 @@
 }
 ```
 
-- `type`: `public`（公募）| `private`（私募）
+- `type`: `public`（公募）| `private`（私募）| `securities`（券商）
 - `source`: `example`（示例占位）| `skill`（skill 调研）| `manual`（手动）
 - 所有链接用 `https://example.com/...` 占位时，`about`/`notes` 需注明"示例/未核实"。
 

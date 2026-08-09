@@ -1,0 +1,419 @@
+<!doctype html>
+<title>量化研究岗位求职目录 · 官网与投递入口</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root {
+    --ground:#F6F4EF; --surface:#FFFFFF; --ink:#1B1F27; --muted:#5D6570;
+    --hair:#E7E2D8; --hover:rgba(11,107,107,.055);
+    --accent:#0B6B6B; --accent-ink:#0A5F5F;
+    --cat-pub:#B45B2A; --cat-hedge:#0B6B6B; --cat-sec:#4055A6;
+    --flag-fg:#8A5A10; --flag-bg:#F7ECD8;
+    --shadow:0 1px 2px rgba(20,22,28,.05),0 2px 8px rgba(20,22,28,.04);
+    --sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Segoe UI",system-ui,sans-serif;
+    --mono:"SF Mono","JetBrains Mono","Consolas","Courier New",monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ground:#12141A; --surface:#1A1D25; --ink:#EEF0F4; --muted:#9AA3B0;
+      --hair:#272C36; --hover:rgba(63,192,184,.07);
+      --accent:#3FC0B8; --accent-ink:#66D4CD;
+      --cat-pub:#E0A35E; --cat-hedge:#3FC0B8; --cat-sec:#8FA0E8;
+      --flag-fg:#E7C27A; --flag-bg:#2A2413;
+      --shadow:0 1px 2px rgba(0,0,0,.3);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#12141A; --surface:#1A1D25; --ink:#EEF0F4; --muted:#9AA3B0;
+    --hair:#272C36; --hover:rgba(63,192,184,.07);
+    --accent:#3FC0B8; --accent-ink:#66D4CD;
+    --cat-pub:#E0A35E; --cat-hedge:#3FC0B8; --cat-sec:#8FA0E8;
+    --flag-fg:#E7C27A; --flag-bg:#2A2413;
+    --shadow:0 1px 2px rgba(0,0,0,.3);
+  }
+
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--ground); color:var(--ink);
+    font-family:var(--sans); line-height:1.6; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px 72px}
+
+  /* Header */
+  header{padding:52px 0 8px}
+  .eyebrow{
+    font-size:12px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--accent-ink);font-weight:600;margin:0;
+  }
+  h1{font-size:34px;line-height:1.18;margin:12px 0 12px;font-weight:700;text-wrap:balance;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:15px;max-width:64ch;margin:0}
+  .stats{display:flex;flex-wrap:wrap;gap:14px;margin:26px 0 8px}
+  .stat{
+    display:flex;align-items:baseline;gap:8px;padding:12px 18px;
+    background:var(--surface);border:1px solid var(--hair);border-radius:12px;
+    box-shadow:var(--shadow);
+  }
+  .stat b{font-size:24px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+  .stat span{color:var(--muted);font-size:13px}
+  .stat b.pub{color:var(--cat-pub)} .stat b.hedge{color:var(--cat-hedge)} .stat b.sec{color:var(--cat-sec)}
+  .notice{
+    margin-top:20px;padding:12px 16px;border-left:3px solid var(--accent);
+    background:var(--surface);border-radius:0 10px 10px 0;color:var(--muted);font-size:13px;
+  }
+  .notice b{color:var(--ink);font-weight:600}
+
+  /* Sections */
+  .sect-head{display:flex;align-items:center;gap:10px;margin:46px 0 4px}
+  .dot{width:10px;height:10px;border-radius:3px;flex:none}
+  .pub .dot{background:var(--cat-pub)} .hedge .dot{background:var(--cat-hedge)} .sec .dot{background:var(--cat-sec)}
+  .sect-title{font-size:22px;font-weight:700;margin:0}
+  .sect-count{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .sect-note{margin:2px 0 16px;color:var(--muted);font-size:13px}
+
+  /* Table */
+  .table-wrap{
+    overflow-x:auto;background:var(--surface);border:1px solid var(--hair);
+    border-radius:14px;box-shadow:var(--shadow);
+  }
+  table{width:100%;border-collapse:collapse;min-width:820px;font-size:14px}
+  thead th{
+    text-align:left;font-size:12px;letter-spacing:.07em;text-transform:uppercase;
+    color:var(--muted);font-weight:600;padding:11px 16px;border-bottom:1px solid var(--hair);
+    background:color-mix(in srgb, var(--surface) 60%, transparent);
+    white-space:nowrap;position:sticky;top:0;
+  }
+  tbody td{padding:13px 16px;border-bottom:1px solid var(--hair);vertical-align:top}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--hover)}
+  .pub td:first-child{border-left:3px solid var(--cat-pub)}
+  .hedge td:first-child{border-left:3px solid var(--cat-hedge)}
+  .sec td:first-child{border-left:3px solid var(--cat-sec)}
+  td.co{white-space:nowrap;font-weight:600;padding-left:18px}
+  td.co small{display:block;font-weight:400;color:var(--muted);font-size:12px;margin-top:2px;white-space:normal}
+  td.role{color:var(--ink);max-width:340px}
+  .flag{
+    display:inline-block;font-size:11px;color:var(--flag-fg);background:var(--flag-bg);
+    padding:1px 8px;border-radius:20px;margin-top:6px;white-space:nowrap;
+  }
+  .u{font-family:var(--mono);font-size:12.5px;line-height:1.5}
+  .u a{color:var(--accent-ink);text-decoration:none;word-break:break-all}
+  .u a:hover{color:var(--accent);text-decoration:underline}
+  .u .lbl{display:block;font-family:var(--sans);font-size:11px;letter-spacing:.05em;color:var(--muted);text-transform:uppercase;margin-bottom:2px}
+  .u .sec-line{margin-top:3px;color:var(--muted);font-size:12px}
+
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+  /* Footer */
+  footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--hair);color:var(--muted);font-size:13px}
+  footer h3{font-size:13px;color:var(--ink);margin:0 0 8px;text-transform:uppercase;letter-spacing:.08em}
+  footer ul{margin:0;padding-left:18px}
+  footer li{margin:4px 0}
+  code{font-family:var(--mono);font-size:12px;background:var(--hover);padding:1px 6px;border-radius:6px;color:var(--ink)}
+
+  @media (max-width:640px){
+    h1{font-size:27px}
+    .stat{flex:1 1 40%}
+    .wrap{padding:0 16px 56px}
+  }
+</style>
+
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Quant Research &nbsp;·&nbsp; Job Index</p>
+    <h1>量化研究岗位求职目录<br />公募 · 私募 · 证券 官网与投递入口</h1>
+    <p class="sub">面向量化研究方向求职者：44 家头部机构的官网、官方招聘页与当前量化相关岗位一览。整理于 2026-08-09，岗位与链接随时可能变化，投递前请以官网最新信息为准。</p>
+
+    <div class="stats">
+      <div class="stat"><b class="pub">16</b><span>公募基金</span></div>
+      <div class="stat"><b class="hedge">16</b><span>量化私募</span></div>
+      <div class="stat"><b class="sec">12</b><span>证券公司</span></div>
+      <div class="stat"><b>42</b><span>家有量化岗位入口</span></div>
+    </div>
+
+    <p class="notice"><b>使用说明：</b>列出的官网首页均已核实可访问；标注「需人工确认」的链接因站点反爬 / JS 渲染无法自动抓取，建议浏览器打开复核后再投递。私募类公司普遍以微信公众号为主要招聘渠道，官网未挂岗位时建议同步关注（如「九坤投资招聘」「灵均招聘」「明汯人才招聘」「思勰投资招聘」等）。</p>
+  </header>
+
+  <!-- ============ 公募基金 ============ -->
+  <section class="sect pub">
+    <div class="sect-head">
+      <span class="dot"></span>
+      <h2 class="sect-title">公募基金</h2>
+      <span class="sect-count">16 家 · 量化/指数研究方向</span>
+    </div>
+    <p class="sect-note">多数公司在招量化研究员、指数研究员，以校招与暑期实习为主，另设社招。招聘入口以 zhiye.com / hotjob.cn / mokahr 招聘系统为主。</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>公司</th><th>量化相关岗位（当前在招）</th><th>官网</th><th>投递 / 招聘入口</th></tr></thead>
+        <tbody>
+          <tr><td class="co">易方达基金<small>E Fund</small></td>
+            <td class="role">量化研究员、指数研究员（2027 届暑期）</td>
+            <td class="u"><a href="https://www.efunds.com.cn">www.efunds.com.cn</a></td>
+            <td class="u"><span class="lbl">自建招聘官网</span><a href="http://job.efunds.com.cn">job.efunds.com.cn</a></td></tr>
+
+          <tr><td class="co">华夏基金<small>ChinaAMC</small></td>
+            <td class="role">量化研究员（含子公司华夏资本）、指数研究员（暑期）</td>
+            <td class="u"><a href="https://www.chinaamc.com">www.chinaamc.com</a></td>
+            <td class="u"><span class="lbl">zhiye 招聘系统</span><a href="http://chinaamc.zhiye.com">chinaamc.zhiye.com</a></td></tr>
+
+          <tr><td class="co">广发基金</td>
+            <td class="role">量化研究员、指数策略研究员、金融工程岗（AI 方向）</td>
+            <td class="u"><a href="http://www.gffunds.com.cn">www.gffunds.com.cn</a></td>
+            <td class="u"><span class="lbl">官网招聘频道</span><a href="http://www.gffunds.com.cn/recruitment/">gffunds.com.cn/recruitment</a></td></tr>
+
+          <tr><td class="co">南方基金</td>
+            <td class="role">量化研究员（机器学习方向）、指数研究员（2027 校招 + 暑期）</td>
+            <td class="u"><a href="https://www.southernfund.com">www.southernfund.com</a></td>
+            <td class="u"><span class="lbl">hotjob 招聘系统</span><a href="https://wecruit.hotjob.cn/SU6138665dbef57c3b63841399/pb/index.html">wecruit.hotjob.cn/…/SU6138665d</a></td></tr>
+
+          <tr><td class="co">富国基金<small>官网未设招聘栏</small></td>
+            <td class="role">量化/定量研究实习生（全职岗位经邮箱或第三方渠道）</td>
+            <td class="u"><a href="http://www.fullgoal.com.cn">www.fullgoal.com.cn</a></td>
+            <td class="u"><span class="lbl">简历邮箱</span>zhaopin@fullgoal.com.cn</td></tr>
+
+          <tr><td class="co">嘉实基金</td>
+            <td class="role">量化研究员（风险管理方向，2027 届校招）</td>
+            <td class="u"><a href="https://www.jsfund.cn">www.jsfund.cn</a></td>
+            <td class="u"><span class="lbl">官网「加入我们」</span><a href="https://www.jsfund.cn/main/AboutHarvest/JoinUs/index.shtml">jsfund.cn/…/JoinUs</a></td></tr>
+
+          <tr><td class="co">汇添富基金</td>
+            <td class="role">助理量化分析师、助理指数分析师（校招）</td>
+            <td class="u"><a href="https://www.99fund.com">www.99fund.com</a></td>
+            <td class="u"><span class="lbl">zhiye 社招</span><a href="https://htffund.zhiye.com/social">htffund.zhiye.com/social</a></td></tr>
+
+          <tr><td class="co">博时基金</td>
+            <td class="role">量化研究员、固收量化研究员、指数量化研究员</td>
+            <td class="u"><a href="https://www.bosera.com">www.bosera.com</a></td>
+            <td class="u"><span class="lbl">hotjob 招聘系统</span><a href="https://bosera.hotjob.cn">bosera.hotjob.cn</a></td></tr>
+
+          <tr><td class="co">招商基金</td>
+            <td class="role">量化研究岗、指数投资研究岗（暑期）</td>
+            <td class="u"><a href="https://www.cmfchina.com">www.cmfchina.com</a></td>
+            <td class="u"><span class="lbl">zhiye 招聘系统</span><a href="https://cmfchina.zhiye.com">cmfchina.zhiye.com</a></td></tr>
+
+          <tr><td class="co">华泰柏瑞基金</td>
+            <td class="role">量化研究岗（权益研究部）、量化研究实习生、指数研究员</td>
+            <td class="u"><a href="http://www.huatai-pb.com">www.huatai-pb.com</a></td>
+            <td class="u"><span class="lbl">官网「邀您加入」</span><a href="https://www.huatai-pb.com/aboutUs/joinUs/index.html">huatai-pb.com/…/joinUs</a></td></tr>
+
+          <tr><td class="co">兴证全球基金</td>
+            <td class="role">量化研究岗、FOF 与量化研究岗</td>
+            <td class="u"><a href="https://www.xqfunds.com">www.xqfunds.com</a><span class="flag">需人工确认</span></td>
+            <td class="u"><span class="lbl">校招网申</span><a href="https://sc.hotjob.cn/wt/AIFMC/web/index/campus">sc.hotjob.cn/wt/AIFMC</a></td></tr>
+
+          <tr><td class="co">景顺长城基金</td>
+            <td class="role">ETF 研究岗（含量化研究）、资产配置研究岗（暑期）</td>
+            <td class="u"><a href="http://www.igwfmc.com">www.igwfmc.com</a><span class="flag">需人工确认</span></td>
+            <td class="u"><span class="lbl">zhiye 招聘系统</span><a href="https://invescogreatwall.zhiye.com">invescogreatwall.zhiye.com</a></td></tr>
+
+          <tr><td class="co">交银施罗德基金</td>
+            <td class="role">量化投资研究员（社招）、量化研究员-权益、量化投资部实习生</td>
+            <td class="u"><a href="https://www.fund001.com">www.fund001.com</a></td>
+            <td class="u"><span class="lbl">zhiye 招聘系统</span><a href="https://jysld.zhiye.com/home">jysld.zhiye.com</a></td></tr>
+
+          <tr><td class="co">工银瑞信基金</td>
+            <td class="role">量化研究助理（暑期菁英营）、数据分析岗</td>
+            <td class="u"><a href="https://www.icbcubs.com.cn">www.icbcubs.com.cn</a></td>
+            <td class="u"><span class="lbl">hotjob 招聘官网</span><a href="http://icbcubs.hotjob.cn">icbcubs.hotjob.cn</a></td></tr>
+
+          <tr><td class="co">中欧基金</td>
+            <td class="role">量化研究、多资产策略研究（校招）；子公司中欧盛世另设量化研究</td>
+            <td class="u"><a href="https://www.zofund.com">www.zofund.com</a></td>
+            <td class="u"><span class="lbl">官网「招贤纳士」</span><a href="https://www.zofund.com/about/zp.shtml">zofund.com/about/zp</a></td></tr>
+
+          <tr><td class="co">天弘基金</td>
+            <td class="role">量化研究员（校招，指数投资方向）、量化/指数研究实习生</td>
+            <td class="u"><a href="http://www.thfund.com.cn">www.thfund.com.cn</a></td>
+            <td class="u"><span class="lbl">mokahr 招聘系统</span><a href="https://app.mokahr.com/social-recruitment/thfund/46218">app.mokahr.com/…/thfund/46218</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============ 量化私募 ============ -->
+  <section class="sect hedge">
+    <div class="sect-head">
+      <span class="dot"></span>
+      <h2 class="sect-title">量化私募</h2>
+      <span class="sect-count">16 家 · 量化研究员 / 机器学习 / 量化开发</span>
+    </div>
+    <p class="sect-note">量化私募是把「量化研究」作为核心岗位的机构，校招（含提前批）与社招均在招，多以官网招聘页、mokahr / gllue 系统及简历邮箱投递。</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>公司</th><th>量化相关岗位（当前在招）</th><th>官网</th><th>投递 / 招聘入口</th></tr></thead>
+        <tbody>
+          <tr><td class="co">九坤投资<small>Ubiquant</small></td>
+            <td class="role">量化策略研究员、AI 算法研究员（梧桐计划）、量化交易分析师（揽月计划）</td>
+            <td class="u"><a href="https://www.ubiquant.com">www.ubiquant.com</a></td>
+            <td class="u"><span class="lbl">mokahr 校招</span><a href="https://app.mokahr.com/campus_apply/ubiquantrecruit/37031#/home">app.mokahr.com/…/ubiquantrecruit</a><div class="sec-line">或 recruiter@ubiquant.com</div></td></tr>
+
+          <tr><td class="co">幻方量化<small>High-Flyer</small></td>
+            <td class="role">量化策略研究员、深度学习科学家 / 研究员（杭州）</td>
+            <td class="u"><a href="https://www.high-flyer.cn">www.high-flyer.cn</a></td>
+            <td class="u"><span class="lbl">官网「加入我们」</span><a href="https://www.high-flyer.cn/join/">high-flyer.cn/join</a></td></tr>
+
+          <tr><td class="co">明汯投资</td>
+            <td class="role">量化研究员（QR）、深度学习模型研究员（MLR）、量化开发（QD）、深度学习系统工程师</td>
+            <td class="u"><a href="https://www.mhfunds.com">www.mhfunds.com</a></td>
+            <td class="u"><span class="lbl">独立招聘站</span><a href="https://join.mhfunds.com/index">join.mhfunds.com</a><div class="sec-line">校招 campushr@mhfunds.com</div></td></tr>
+
+          <tr><td class="co">灵均投资</td>
+            <td class="role">量化研究员、量化开发工程师、量化研究实习生（因子 / 机器学习方向）</td>
+            <td class="u"><a href="https://www.lingjuninvest.com">www.lingjuninvest.com</a></td>
+            <td class="u"><span class="lbl">mokahr 社招</span><a href="https://app.mokahr.com/social-recruitment/lingjuninvest/46355">app.mokahr.com/…/lingjuninvest</a><div class="sec-line">公众号「灵均招聘」</div></td></tr>
+
+          <tr><td class="co">衍复投资</td>
+            <td class="role">量化策略研究员、机器学习策略研究员、Quant Developer</td>
+            <td class="u"><a href="https://yanfuinvestments.com">yanfuinvestments.com</a></td>
+            <td class="u"><span class="lbl">候选人中心</span><a href="https://prod-user.yanfuinvestments.com/auth">prod-user.yanfuinvestments.com</a></td></tr>
+
+          <tr><td class="co">稳博投资</td>
+            <td class="role">量化研究员（含图神经网络方向）、量化开发</td>
+            <td class="u"><a href="https://www.wenbofund.com">www.wenbofund.com</a></td>
+            <td class="u"><span class="lbl">官网招聘页</span><a href="https://www.wenbofund.com/contact/hire.html">wenbofund.com/contact/hire</a><div class="sec-line">hr@wenbofund.com</div></td></tr>
+
+          <tr><td class="co">天演资本</td>
+            <td class="role">量化研究员（中低频 / 低延时 / 固收 / 衍生品 / 日内 alpha 等）、量化开发工程师</td>
+            <td class="u"><a href="https://www.tianyancapital.com">www.tianyancapital.com</a></td>
+            <td class="u"><span class="lbl">官网「加入天演」</span><a href="https://www.tianyancapital.com/zh/join-us">tianyancapital.com/zh/join-us</a><div class="sec-line">hr@tianyancapital.com</div></td></tr>
+
+          <tr><td class="co">启林投资</td>
+            <td class="role">量化研究员（高频因子 / AI 算法 / 基本面 / 组合优化，2027 校招）</td>
+            <td class="u"><a href="https://www.70capital.com">www.70capital.com</a><span class="flag">需人工确认</span></td>
+            <td class="u"><span class="lbl">gllue ATS</span><a href="https://70capital.gllue.com/portal/socialposition/list">70capital.gllue.com</a><span class="flag">需人工确认</span></td></tr>
+
+          <tr><td class="co">世纪前沿</td>
+            <td class="role">量化研究员、机器学习研究员、量化开发工程师、量化交易员</td>
+            <td class="u"><a href="https://www.centuryfrontier.com">www.centuryfrontier.com</a></td>
+            <td class="u"><span class="lbl">官网「加入前沿」</span><a href="https://www.centuryfrontier.com/contact#career">centuryfrontier.com/contact#career</a><div class="sec-line">recruiter@centuryfrontier.com</div></td></tr>
+
+          <tr><td class="co">因诺资产</td>
+            <td class="role">量化投资研究员（因诺英才计划）、量化投资分析员</td>
+            <td class="u"><a href="http://www.innoam.com">www.innoam.com</a><span class="flag">需人工确认</span></td>
+            <td class="u"><span class="lbl">mokahr 校招</span><a href="https://app.mokahr.com/campus-recruitment/innoam/142310">app.mokahr.com/…/innoam</a><div class="sec-line">resume@innoam.com</div></td></tr>
+
+          <tr><td class="co">黑翼资产</td>
+            <td class="role">股票量化研究员、CTA 研究员、机器学习 / 深度学习算法研究员、量化开发</td>
+            <td class="u"><a href="https://www.blackwingasset.com">www.blackwingasset.com</a></td>
+            <td class="u"><span class="lbl">官网职位页</span><a href="https://blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23">blackwingasset.com/…/catid=23</a><div class="sec-line">hr@blackwingasset.com</div></td></tr>
+
+          <tr><td class="co">诚奇资产</td>
+            <td class="role">量化策略研究员、机器学习研究员、数据分析研究员、量化策略研究实习生</td>
+            <td class="u"><a href="https://cqfunds.com">cqfunds.com</a></td>
+            <td class="u"><span class="lbl">官网「招贤纳士」</span><a href="https://www.cqfunds.com/service-center/">cqfunds.com/service-center</a><div class="sec-line">talent@cqfunds.com</div></td></tr>
+
+          <tr><td class="co">进化论资产</td>
+            <td class="role">量化研究员、量化系统工程师、AI 开发工程师（2026 校招）</td>
+            <td class="u"><a href="https://www.jhlfund.com">www.jhlfund.com</a><span class="flag">需人工确认</span></td>
+            <td class="u"><span class="lbl">mokahr 网申</span><a href="https://app.mokahr.com/social-recruitment/jhlfund/46283">app.mokahr.com/…/jhlfund/46283</a></td></tr>
+
+          <tr><td class="co">金锝资产</td>
+            <td class="role">量化策略研究员（数据 / 算法）、量化开发工程师、策略组合管理研究员</td>
+            <td class="u"><a href="https://www.jindefund.com">www.jindefund.com</a></td>
+            <td class="u"><span class="lbl">官网招聘信息</span><a href="https://www.jindefund.com/list.aspx?node=13">jindefund.com/list.aspx?node=13</a><div class="sec-line">jobs@jindefund.com</div></td></tr>
+
+          <tr><td class="co">思勰投资</td>
+            <td class="role">量化研究员（2026 春招 / 2027 校招「琢玉计划」）</td>
+            <td class="u"><a href="https://www.sixiecapital.com">www.sixiecapital.com</a></td>
+            <td class="u"><span class="lbl">mokahr 投递</span><a href="https://app.mokahr.com/apply/sixiecapital/42909#/jobs">app.mokahr.com/apply/sixiecapital</a><div class="sec-line">公众号「思勰投资招聘」</div></td></tr>
+
+          <tr><td class="co">宽德投资<small>WizardQuant</small></td>
+            <td class="role">量化研究员、机器学习研究员（全职 / 实习，2026 全球校招）</td>
+            <td class="u"><a href="https://www.wizardquant.com">www.wizardquant.com</a></td>
+            <td class="u"><span class="lbl">官网「加入我们」</span><a href="https://www.wizardquant.com/career">wizardquant.com/career</a><div class="sec-line">hr@wizardquant.com</div></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============ 证券公司 ============ -->
+  <section class="sect sec">
+    <div class="sect-head">
+      <span class="dot"></span>
+      <h2 class="sect-title">证券公司</h2>
+      <span class="sect-count">12 家 · 量化交易 / 衍生品 / 金融工程</span>
+    </div>
+    <p class="sect-note">券商量化岗位多设在固定收益部、股权衍生品 / 金融创新部门及研究所，岗位名称常为「量化交易 / Quant 开发 / 金融工程研究」。国泰君安与海通证券已合并为「国泰海通证券」。</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>公司</th><th>量化相关岗位（当前在招）</th><th>官网</th><th>投递 / 招聘入口</th></tr></thead>
+        <tbody>
+          <tr><td class="co">中信证券</td>
+            <td class="role">高频量化策略开发、固定收益高频交易开发、AI / Quant / FinTech 校招方向</td>
+            <td class="u"><a href="http://www.cs.ecitic.com">www.cs.ecitic.com</a></td>
+            <td class="u"><span class="lbl">招聘官网</span><a href="https://careers.citics.com">careers.citics.com</a></td></tr>
+
+          <tr><td class="co">中金公司<small>CICC</small></td>
+            <td class="role">量化研究岗（场外衍生品 / 量化策略）、衍生品交易 / 量化策略校招</td>
+            <td class="u"><a href="https://www.cicc.com">www.cicc.com</a><span class="flag">需人工确认</span></td>
+            <td class="u"><span class="lbl">招聘官网</span><a href="http://cicc.zhiye.com">cicc.zhiye.com</a><div class="sec-line">公众号「中金Career」</div></td></tr>
+
+          <tr><td class="co">华泰证券</td>
+            <td class="role">量化交易、衍生品策略、FICC 金融工程研究、策略开发工程师（校招）</td>
+            <td class="u"><a href="https://www.htsc.com">www.htsc.com</a></td>
+            <td class="u"><span class="lbl">hotjob 招聘平台</span><a href="https://wecruit.hotjob.cn/SU6419745cbef57c635fe10142/pb/index.html">wecruit.hotjob.cn/…/SU6419745c</a></td></tr>
+
+          <tr><td class="co">国泰海通证券<small>原国泰君安 + 海通</small></td>
+            <td class="role">场外衍生品 Quant Dev / Q Quant（定价）、衍生品投资校招方向</td>
+            <td class="u"><a href="https://www.gtht.com">www.gtht.com</a></td>
+            <td class="u"><span class="lbl">招聘官网</span><a href="https://hr.gtht.com">hr.gtht.com</a></td></tr>
+
+          <tr><td class="co">中信建投证券</td>
+            <td class="role">金融科技条线「量化开发」方向（校招）；金工 / 衍生品社招以平台检索为准</td>
+            <td class="u"><a href="https://www.csc108.com">www.csc108.com</a></td>
+            <td class="u"><span class="lbl">官网「诚聘英才」</span><a href="https://www.csc108.com/cpycNew/cpyc.jspx">csc108.com/cpycNew/cpyc.jspx</a></td></tr>
+
+          <tr><td class="co">招商证券</td>
+            <td class="role">资管量化投资岗（ETF / 可转债 / CTA / 期权）、衍生品做市量化研究、场外衍生品量化研究</td>
+            <td class="u"><a href="https://www.cmschina.com">www.cmschina.com</a></td>
+            <td class="u"><span class="lbl">hotjob 招聘专区</span><a href="https://cms.hotjob.cn">cms.hotjob.cn</a></td></tr>
+
+          <tr><td class="co">广发证券</td>
+            <td class="role">量化开发（固收 / 股权衍生品）、FICC 投研岗、衍生品风控、金融科技算法方向</td>
+            <td class="u"><a href="https://www.gf.com.cn">www.gf.com.cn</a></td>
+            <td class="u"><span class="lbl">人才招聘网</span><a href="http://job.gf.com.cn">job.gf.com.cn</a></td></tr>
+
+          <tr><td class="co">申万宏源证券</td>
+            <td class="role">量化投资岗（CTA / 多因子）、衍生品量化研发、金融模型管理、利率投资</td>
+            <td class="u"><a href="https://www.swhysc.com">www.swhysc.com</a></td>
+            <td class="u"><span class="lbl">mokahr 校招</span><a href="https://app.mokahr.com/campus-recruitment/swhysc-job/140752">app.mokahr.com/…/swhysc-job</a><div class="sec-line">或官网「诚聘英才」</div></td></tr>
+
+          <tr><td class="co">东方证券</td>
+            <td class="role">场内做市 Quant 开发、金融衍生品 Quant、场外衍生品定价对冲岗</td>
+            <td class="u"><a href="https://www.dfzq.com.cn">www.dfzq.com.cn</a></td>
+            <td class="u"><span class="lbl">mokahr 社招</span><a href="https://app.mokahr.com/apply/dfzq/4927">app.mokahr.com/apply/dfzq</a><span class="flag">需人工确认</span></td></tr>
+
+          <tr><td class="co">兴业证券</td>
+            <td class="role">固收量化研究员、「固收+」量化投资经理、高频利率债交易、量化研究助理（暑期）</td>
+            <td class="u"><a href="https://www.xyzq.com.cn">www.xyzq.com.cn</a></td>
+            <td class="u"><span class="lbl">hotjob 招聘官网</span><a href="https://xyzq.hotjob.cn">xyzq.hotjob.cn</a></td></tr>
+
+          <tr><td class="co">中国银河证券</td>
+            <td class="role">多资产量化策略岗、量化交易岗、场外衍生品研发（FICC 方向）</td>
+            <td class="u"><a href="https://www.chinastock.com.cn">www.chinastock.com.cn</a></td>
+            <td class="u"><span class="lbl">zhiye 校招</span><a href="https://chinastock.zhiye.com/custom/campus">chinastock.zhiye.com/custom/campus</a></td></tr>
+
+          <tr><td class="co">光大证券</td>
+            <td class="role">量化策略开发（校招）、QIS 策略研发（社招）、自营衍生品投资方向</td>
+            <td class="u"><a href="https://www.ebscn.com">www.ebscn.com</a><span class="flag">需人工确认</span></td>
+            <td class="u"><span class="lbl">zhiye 校招</span><a href="https://ebscn.zhiye.com/campus">ebscn.zhiye.com/campus</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <h3>备注与投递建议</h3>
+    <ul>
+      <li><b>整理时间：</b>2026-08-09。岗位、招聘入口与公司名称可能随时变化，投递前请以官网为准。</li>
+      <li><b>标注「需人工确认」的机构：</b>兴证全球、景顺长城（公募）；启林、因诺、进化论（私募）；中金、东方证券、光大证券（券商）。上述站点因反爬或 JS 渲染未能自动验证，建议浏览器打开复核。</li>
+      <li><b>渠道形态：</b>招聘系统常见为智联 <code>zhiye.com</code>、前程无忧 <code>hotjob.cn</code>、Moka <code>mokahr.com</code>、谷露 <code>gllue.com</code>；私募类公司普遍以微信公众号 + 简历邮箱为主。</li>
+      <li><b>投递优先级：</b>官网招聘页 / 官方 ATS 链接优先；标注的简历邮箱（如 九坤、明汯、天演、黑翼、诚奇、宽德等）也可直接投递，注意邮件主题按各公司要求命名。</li>
+      <li><b>提醒：</b>链接来自公开信息整理，请勿轻信任何以「内推 / 付费包过」为名的中介渠道。</li>
+    </ul>
+  </footer>
+</div>

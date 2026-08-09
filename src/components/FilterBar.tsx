@@ -95,9 +95,10 @@ export default function FilterBar({ filters, onChange, companies, showStage, tot
           onChange={(e) => set({ type: e.target.value as FilterState['type'] })}
           aria-label="按类型筛选"
         >
-          <option value="">公募/私募</option>
+          <option value="">机构类型</option>
           <option value="public">公募</option>
           <option value="private">私募</option>
+          <option value="securities">券商</option>
         </select>
         <select
           value={filters.autumn2026}

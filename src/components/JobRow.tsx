@@ -18,7 +18,7 @@ interface Props {
 export default function JobRow({ job, stage, companyType }: Props) {
   const companyName = job.companyName ?? job.companyId
   return (
-    <Link to={`/jobs/${job.id}`} className="card job-row">
+    <Link to={`/jobs/${job.id}`} className="card job-row" data-type={companyType}>
       {/* 公司模块 */}
       <div className="row-mod mod-company">
         <CompanyAvatar name={companyName} id={job.companyId} size="md" />

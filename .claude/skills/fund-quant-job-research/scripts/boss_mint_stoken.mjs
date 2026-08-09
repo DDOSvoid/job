@@ -11,7 +11,7 @@
 //   - stdout 打印结果 JSON：{ok, stokenPresent, cookieCount, savedPath, tookMs}
 //   - 退出码 0=成功拿到 stoken，1=失败
 // 依赖：本机 Node ≥ 20（全局 WebSocket），Microsoft Edge。脚本只读凭证、只写凭证文件。
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { spawn } from 'node:child_process';
@@ -59,7 +59,7 @@ async function portOpen() {
 }
 
 function launchEdge() {
-  const edge = EDGE_PATHS.find((p) => require('node:fs').existsSync(p));
+  const edge = EDGE_PATHS.find((p) => existsSync(p));
   if (!edge) throw new Error('未找到 Microsoft Edge');
   const args = [
     edge,

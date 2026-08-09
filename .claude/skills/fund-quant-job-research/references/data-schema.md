@@ -11,7 +11,7 @@
 
 | 枚举 | 取值 |
 |---|---|
-| company.type | `public`（公募）/ `private`（私募） |
+| company.type | `public`（公募）/ `private`（私募）/ `securities`（券商） |
 | company.source | `example` / `skill` / `manual`（skill 写入用 `skill`） |
 | job.source | `official` / `boss` / `wechat` / `manual` |
 | sources[].status | `complete` / `partial` / `manual_required` / `blocked` |
