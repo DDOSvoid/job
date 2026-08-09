@@ -4892,24 +4892,40 @@
   {
     "id": "gfsec-quant-dev",
     "companyId": "gfsec",
-    "title": "量化开发（固收/股权衍生品）",
-    "description": "岗位信息整理自个人求职目录（docs/quant-job-index.html）；职责、任职要求与投递详情请以官网招聘页为准。",
+    "title": "量化开发工程师（2027届·Quant赛道）",
+    "description": "广发证券 2027 届校园招聘 Quant 赛道（量化开发方向），方向覆盖 FICC、金融产品研究、资产管理业务、股权衍生品等；面向国内外知名高校 2027 届硕士/博士，欢迎纯理工背景（计算机、数学、物理、统计、金融工程等）。",
     "salary": "示例：面议",
     "salaryIsEstimate": true,
-    "applyUrl": "http://job.gf.com.cn",
+    "applyUrl": "https://gf.hotjob.cn",
     "officialUrl": "https://www.gf.com.cn",
-    "autumn2026": "unknown",
-    "autumn2026Note": "目录未标注届别；是否在招需官网确认。",
-    "source": "manual",
-    "fetchStatus": "manual_required",
+    "autumn2026": "open",
+    "autumn2026Note": "广发证券 2027 届校园招聘已于 2026-06 启动；投递经招聘官网 gf.hotjob.cn 或邮箱 gfhr@gf.com.cn（邮件格式：学校-姓名-毕业时间-岗位-意向工作地）",
+    "source": "official",
+    "fetchStatus": "partial",
     "sources": [
+      {
+        "type": "official",
+        "title": "广发证券2027届校园招聘（官方启动，2026-06）",
+        "url": "https://finance.sina.cn/2026-06-04/detail-iniahhrn9131968.d.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官方公告转载（含海报，文字未全抓取）；岗位详情与投递截止以招聘官网 gf.hotjob.cn 为准"
+      },
       {
         "type": "manual",
         "title": "个人求职目录 quant-job-index.html",
         "url": "docs/quant-job-index.html",
         "accessedAt": "2026-08-09",
         "status": "partial",
-        "note": "目录整理于 2026-08-09；岗位详情需到官网招聘页确认"
+        "note": "原目录条目；本次按 2027 届官方校招信息更新"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
       }
     ],
     "createdAt": "2026-08-09",
@@ -4918,24 +4934,40 @@
   {
     "id": "gfsec-ficc-research",
     "companyId": "gfsec",
-    "title": "FICC 投研岗",
-    "description": "岗位信息整理自个人求职目录（docs/quant-job-index.html）；职责、任职要求与投递详情请以官网招聘页为准。",
+    "title": "投资研究岗（FICC方向·2027届校招）",
+    "description": "广发证券 2027 届校园招聘投资研究岗（FICC 方向），参与信用、固收+、资金交易等投资研究，工作地点广州；面向 2027 届硕士/博士。",
     "salary": "示例：面议",
     "salaryIsEstimate": true,
-    "applyUrl": "http://job.gf.com.cn",
+    "applyUrl": "https://gf.hotjob.cn",
     "officialUrl": "https://www.gf.com.cn",
-    "autumn2026": "unknown",
-    "autumn2026Note": "目录未标注届别；是否在招需官网确认。",
-    "source": "manual",
-    "fetchStatus": "manual_required",
+    "autumn2026": "open",
+    "autumn2026Note": "广发证券 2027 届校园招聘已于 2026-06 启动；投递经招聘官网 gf.hotjob.cn 或邮箱 gfhr@gf.com.cn",
+    "source": "official",
+    "fetchStatus": "partial",
     "sources": [
+      {
+        "type": "official",
+        "title": "广发证券2027届校园招聘（官方启动，2026-06）",
+        "url": "https://finance.sina.cn/2026-06-04/detail-iniahhrn9131968.d.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官方公告转载（含海报，文字未全抓取）；岗位详情与投递截止以招聘官网 gf.hotjob.cn 为准"
+      },
       {
         "type": "manual",
         "title": "个人求职目录 quant-job-index.html",
         "url": "docs/quant-job-index.html",
         "accessedAt": "2026-08-09",
         "status": "partial",
-        "note": "目录整理于 2026-08-09；岗位详情需到官网招聘页确认"
+        "note": "原目录条目；本次按 2027 届官方校招信息更新"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
       }
     ],
     "createdAt": "2026-08-09",
@@ -4944,24 +4976,40 @@
   {
     "id": "gfsec-derivative-risk",
     "companyId": "gfsec",
-    "title": "衍生品风控",
-    "description": "岗位信息整理自个人求职目录（docs/quant-job-index.html）；职责、任职要求与投递详情请以官网招聘页为准。",
+    "title": "风险控制岗（FICC/衍生品风控·2027届校招）",
+    "description": "广发证券 2027 届校园招聘风险控制岗，方向含 FICC 风控、衍生品合规风控、模型风险等，偏好金融工程、AI、数学、统计等复合背景；面向 2027 届硕士/博士。",
     "salary": "示例：面议",
     "salaryIsEstimate": true,
-    "applyUrl": "http://job.gf.com.cn",
+    "applyUrl": "https://gf.hotjob.cn",
     "officialUrl": "https://www.gf.com.cn",
-    "autumn2026": "unknown",
-    "autumn2026Note": "目录未标注届别；是否在招需官网确认。",
-    "source": "manual",
-    "fetchStatus": "manual_required",
+    "autumn2026": "open",
+    "autumn2026Note": "广发证券 2027 届校园招聘已于 2026-06 启动；投递经招聘官网 gf.hotjob.cn 或邮箱 gfhr@gf.com.cn",
+    "source": "official",
+    "fetchStatus": "partial",
     "sources": [
+      {
+        "type": "official",
+        "title": "广发证券2027届校园招聘（官方启动，2026-06）",
+        "url": "https://finance.sina.cn/2026-06-04/detail-iniahhrn9131968.d.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官方公告转载（含海报，文字未全抓取）；岗位详情与投递截止以招聘官网 gf.hotjob.cn 为准"
+      },
       {
         "type": "manual",
         "title": "个人求职目录 quant-job-index.html",
         "url": "docs/quant-job-index.html",
         "accessedAt": "2026-08-09",
         "status": "partial",
-        "note": "目录整理于 2026-08-09；岗位详情需到官网招聘页确认"
+        "note": "原目录条目；本次按 2027 届官方校招信息更新"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
       }
     ],
     "createdAt": "2026-08-09",
@@ -4970,24 +5018,40 @@
   {
     "id": "gfsec-fintech-algo",
     "companyId": "gfsec",
-    "title": "金融科技算法方向",
-    "description": "岗位信息整理自个人求职目录（docs/quant-job-index.html）；职责、任职要求与投递详情请以官网招聘页为准。",
+    "title": "金融科技工程师（AI&Code赛道·2027届校招）",
+    "description": "广发证券 2027 届校园招聘金融科技工程师（AI&Code 赛道），含大模型及算法研发、系统研发、大数据方向，工作地点广州/深圳/上海；面向 2027 届硕士/博士。",
     "salary": "示例：面议",
     "salaryIsEstimate": true,
-    "applyUrl": "http://job.gf.com.cn",
+    "applyUrl": "https://gf.hotjob.cn",
     "officialUrl": "https://www.gf.com.cn",
-    "autumn2026": "unknown",
-    "autumn2026Note": "目录未标注届别；是否在招需官网确认。",
-    "source": "manual",
-    "fetchStatus": "manual_required",
+    "autumn2026": "open",
+    "autumn2026Note": "广发证券 2027 届校园招聘已于 2026-06 启动；投递经招聘官网 gf.hotjob.cn 或邮箱 gfhr@gf.com.cn",
+    "source": "official",
+    "fetchStatus": "partial",
     "sources": [
+      {
+        "type": "official",
+        "title": "广发证券2027届校园招聘（官方启动，2026-06）",
+        "url": "https://finance.sina.cn/2026-06-04/detail-iniahhrn9131968.d.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官方公告转载（含海报，文字未全抓取）；岗位详情与投递截止以招聘官网 gf.hotjob.cn 为准"
+      },
       {
         "type": "manual",
         "title": "个人求职目录 quant-job-index.html",
         "url": "docs/quant-job-index.html",
         "accessedAt": "2026-08-09",
         "status": "partial",
-        "note": "目录整理于 2026-08-09；岗位详情需到官网招聘页确认"
+        "note": "原目录条目；本次按 2027 届官方校招信息更新"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
       }
     ],
     "createdAt": "2026-08-09",
@@ -5432,6 +5496,2569 @@
         "note": "目录整理于 2026-08-09；岗位详情需到官网招聘页确认"
       }
     ],
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "gfam-quant-researcher",
+    "companyId": "gfam",
+    "title": "量化研究员（资产管理方向·2027届校招）",
+    "description": "广发资管量化研究员岗位：参与股票因子研究，挖掘价量/基本面信息与股价波动的联系；运用深度学习（树模型、神经网络、时间序列、强化学习、集成学习等）提高预测能力；跟进学术论文与公开竞赛获取量化预测灵感。广发资管为广发证券全资子公司，本岗随广发证券 2027 届校园招聘招录（含资产管理业务方向），面向 2027 届硕士及以上、理工科背景（统计/数学/计算机/物理/电子等）。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://gf.hotjob.cn",
+    "officialUrl": "https://www.gfam.com.cn",
+    "autumn2026": "open",
+    "autumn2026Note": "广发资管量化岗随广发证券 2027 届校招（2026-06 已启动，含资产管理方向）统一投递；此前 2026 届专属校招（报名截止 2026-08-05）已结束",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "广发证券2027届校园招聘简章（含资产管理业务方向）",
+        "url": "http://job.hust.edu.cn/zpinfo1/2406643.htm",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "高校就业网转载的校招简章；投递经 gf.hotjob.cn 或邮箱 gfhr@gf.com.cn"
+      },
+      {
+        "type": "manual",
+        "title": "今日招聘网转载的广发资管量化研究员职位（2026届）",
+        "url": "http://ganzi.jrzp.com/job3872142.shtml",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方平台转载的 2026 届岗位，职责/要求可作参考；页面抓取受限"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "广发资管官网（gfam.com.cn）为 JS 应用，未见招聘内容；Boss 直聘账号处于 code=36 风控期。薪资未核实，以面议为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "gfam-fixed-income-trader",
+    "companyId": "gfam",
+    "title": "固收交易员（应届·随2027届校招）",
+    "description": "广发资管固收交易员岗位：参与以量化策略和机构行为分析为代表的基于交易视角的策略开发与研究；有量化或编程基础、熟悉 Python 者优先。面向应届硕士；广发资管为广发证券全资子公司，本岗随广发证券 2027 届校园招聘招录（含 FICC/固收方向）。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://gf.hotjob.cn",
+    "officialUrl": "https://www.gfam.com.cn",
+    "autumn2026": "open",
+    "autumn2026Note": "应届可投；随广发证券 2027 届校招（含 FICC 方向）统一投递，投递经招聘官网 gf.hotjob.cn",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "广发证券2027届校园招聘简章（含资产管理业务方向）",
+        "url": "http://job.hust.edu.cn/zpinfo1/2406643.htm",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "高校就业网转载的校招简章；投递经 gf.hotjob.cn 或邮箱 gfhr@gf.com.cn"
+      },
+      {
+        "type": "manual",
+        "title": "今日招聘网转载的广发资管固收交易员职位",
+        "url": "https://hezhou.jrzp.com/job4017850.shtml",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方平台转载；页面抓取受限"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "zhongtaisec-quant-researcher",
+    "companyId": "zhongtaisec",
+    "title": "量化研究员（金融工程方向·2027届校招）",
+    "description": "中泰证券 2027 届秋季校园招聘研究业务条线（北京/上海/深圳）量化研究/金融工程方向岗位，公告明确具体岗位以官方招聘网站 zts.hotjob.cn 为准。公司研究业务含宏观、策略、固定收益、金融工程等方向；其研究所金融工程团队在沪招聘金融工程分析师（参与量化策略开发、回测与优化，负责数据清洗、处理与统计分析、构建高质量数据库），要求国内外理工科（数学、统计、计算机等）、金融工程或相关专业硕士及以上，熟练掌握 Python 或 MATLAB，熟练使用 Wind 金融终端。面向 2027 届硕士及以上毕业生，报名截止 2026-08-16 24:00。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://zts.hotjob.cn",
+    "officialUrl": "https://www.95538.cn",
+    "autumn2026": "open",
+    "autumn2026Note": "中泰证券 2027 届秋季校园招聘已确认启动（2026-07-31~08-06 经山东省国资委及多所高校就业网发布公告，86 岗位拟招 227 人），报名截止 2026-08-16 24:00；投递经官方招聘网站 zts.hotjob.cn 或“中泰证券招聘”微信公众号",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "山东省国资委：2026年“才聚齐鲁 成就未来”中泰证券2027届秋季校园招聘公告",
+        "url": "http://gzw.shandong.gov.cn/articles/ch00223/202607/d1ed7546-3837-4782-a573-345e4c64deb8.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官方公告转载（省国资委/高校就业网），含业务条线与报名方式但未列具体岗位名称；具体量化岗位明细需登录 zts.hotjob.cn 手动查看"
+      },
+      {
+        "type": "official",
+        "title": "中泰证券研究所金融工程团队招聘（金融工程分析师/实习生）",
+        "url": "https://www.sohu.com/a/1000047773_121123920",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方转载的研究所金融工程团队招聘，职责/要求可作岗位参考；投递邮箱 heqq@zts.com.cn，正式校招仍以 zts.hotjob.cn 为准"
+      },
+      {
+        "type": "wechat",
+        "title": "“中泰证券招聘”官方微信公众号（校招公告经此发布）",
+        "url": "https://mp.weixin.qq.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公告明确要求关注“中泰证券招聘”公众号在线投递，但本轮未抓到直达 mp.weixin.qq.com 文章链接，正文需在微信内手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "中泰官方招聘网站 zts.hotjob.cn 为 JS 渲染，具体岗位明细需登录手动查看；薪资未核实，以面议为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "zhongtaisec-quant-dev",
+    "companyId": "zhongtaisec",
+    "title": "量化开发工程师（XTP极速交易·金融科技条线·2027届校招）",
+    "description": "中泰证券 2027 届秋季校园招聘金融科技条线（济南/上海）量化开发方向岗位，公告明确具体岗位以官方招聘网站 zts.hotjob.cn 为准。公司自主研发 XTP 极速交易系统，构建集极速行情、极速交易、算法交易、极速风控、专业客户端于一体的量化交易产品矩阵，服务近 300 家量化私募机构，主流量化私募覆盖率约 90%，为行业领先的量化交易平台。量化开发类岗位面向 2027 届硕士及以上（信息技术/理工类）毕业生，工作地点济南/上海，报名截止 2026-08-16 24:00。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://zts.hotjob.cn",
+    "officialUrl": "https://www.95538.cn",
+    "autumn2026": "open",
+    "autumn2026Note": "中泰证券 2027 届秋季校园招聘已确认启动（金融科技条线，济南/上海，硕士及以上），报名截止 2026-08-16 24:00；投递经 zts.hotjob.cn 或“中泰证券招聘”微信公众号",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "山东省国资委：2026年“才聚齐鲁 成就未来”中泰证券2027届秋季校园招聘公告",
+        "url": "http://gzw.shandong.gov.cn/articles/ch00223/202607/d1ed7546-3837-4782-a573-345e4c64deb8.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官方公告转载（含金融科技条线，工作地点济南/上海），未列具体岗位名称；量化开发岗位明细需登录 zts.hotjob.cn 手动查看"
+      },
+      {
+        "type": "official",
+        "title": "中泰证券 XTP 极速交易系统公开报道",
+        "url": "https://stock.stockstar.com/RB2021090900006491.shtml",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "上市公司董秘回复等公开报道，佐证 XTP 服务量化私募、构建量化交易产品矩阵；非招聘公告，岗位信息以 hotjob 为准"
+      },
+      {
+        "type": "wechat",
+        "title": "“中泰证券招聘”官方微信公众号（校招公告经此发布）",
+        "url": "https://mp.weixin.qq.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公告明确要求关注“中泰证券招聘”公众号在线投递，但本轮未抓到直达 mp.weixin.qq.com 文章链接，正文需在微信内手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "中泰官方招聘网站 zts.hotjob.cn 为 JS 渲染，具体岗位明细需登录手动查看；薪资未核实，以面议为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "zhongtaisec-investment-research",
+    "companyId": "zhongtaisec",
+    "title": "投资研究员（自营投资业务·2027届校招）",
+    "description": "中泰证券 2027 届秋季校园招聘投资业务条线（北京/上海/深圳）投研岗位，公告明确具体岗位以官方招聘网站 zts.hotjob.cn 为准。投资业务覆盖自营投资与研究，面向 2027 届硕士及以上毕业生，偏好金融类、理工类等复合背景，报名截止 2026-08-16 24:00。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://zts.hotjob.cn",
+    "officialUrl": "https://www.95538.cn",
+    "autumn2026": "open",
+    "autumn2026Note": "中泰证券 2027 届秋季校园招聘已确认启动（投资业务条线，北京/上海/深圳，硕士及以上），报名截止 2026-08-16 24:00；投递经 zts.hotjob.cn 或“中泰证券招聘”微信公众号",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "山东省国资委：2026年“才聚齐鲁 成就未来”中泰证券2027届秋季校园招聘公告",
+        "url": "http://gzw.shandong.gov.cn/articles/ch00223/202607/d1ed7546-3837-4782-a573-345e4c64deb8.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官方公告转载（含投资业务条线，工作地点北京/上海/深圳），未列具体岗位名称；岗位明细需登录 zts.hotjob.cn 手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "“中泰证券招聘”官方微信公众号（校招公告经此发布）",
+        "url": "https://mp.weixin.qq.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公告明确要求关注“中泰证券招聘”公众号在线投递，但本轮未抓到直达 mp.weixin.qq.com 文章链接，正文需在微信内手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "中泰官方招聘网站 zts.hotjob.cn 为 JS 渲染，具体岗位明细需登录手动查看；薪资未核实，以面议为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "zhongtaisec-am-quant",
+    "companyId": "zhongtaisec",
+    "title": "资管量化投资岗（中泰证券（上海）资管·2027届校招）",
+    "description": "中泰证券（上海）资产管理有限公司随中泰证券 2027 届秋季校园招聘统一招录（校招条线含“中泰证券（上海）资产管理有限公司”，工作地点上海）。公司资管业务具备公募基金与私募资产管理资格，提供现金管理类、货币类、债券类、权益类、量化类等多元化产品，量化投资相关岗位面向 2027 届硕士及以上毕业生，报名截止 2026-08-16 24:00，具体岗位以官方招聘网站 zts.hotjob.cn 为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://zts.hotjob.cn",
+    "officialUrl": "https://www.95538.cn",
+    "autumn2026": "open",
+    "autumn2026Note": "中泰证券 2027 届秋季校园招聘已确认启动（条线含中泰证券（上海）资管，上海，硕士及以上），报名截止 2026-08-16 24:00；投递经 zts.hotjob.cn 或“中泰证券招聘”微信公众号",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "山东省国资委：2026年“才聚齐鲁 成就未来”中泰证券2027届秋季校园招聘公告",
+        "url": "http://gzw.shandong.gov.cn/articles/ch00223/202607/d1ed7546-3837-4782-a573-345e4c64deb8.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官方公告转载（含中泰证券（上海）资管条线，工作地点上海），未列具体岗位名称；岗位明细需登录 zts.hotjob.cn 手动查看"
+      },
+      {
+        "type": "official",
+        "title": "中泰证券 2026 届秋季校园招聘资管岗位列表（粉笔职位库）",
+        "url": "https://www.fenbi.com/page/positions/9/432266",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方职位库转载的上届（2026 届）中泰资管岗位列表，供了解资管量化类岗位方向；本轮 2027 届具体岗位以 hotjob 为准"
+      },
+      {
+        "type": "wechat",
+        "title": "“中泰证券招聘”官方微信公众号（校招公告经此发布）",
+        "url": "https://mp.weixin.qq.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公告明确要求关注“中泰证券招聘”公众号在线投递，但本轮未抓到直达 mp.weixin.qq.com 文章链接，正文需在微信内手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "中泰官方招聘网站 zts.hotjob.cn 为 JS 渲染，具体岗位明细需登录手动查看；薪资未核实，以面议为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "guoxinsec-options-strategy",
+    "companyId": "guoxinsec",
+    "title": "场内期权策略研发岗（金融创新总部·2027届实习/校招方向）",
+    "description": "国信证券金融创新总部场内期权策略研发岗（深圳，编号 J13925）：负责期权策略研发，参与公司交易系统建设、优化迭代算法交易策略，跟踪市场动态并撰写研究报告，研究期权波动率曲面套利或预测类策略；要求国内外硕士及以上，数学、物理、金融工程、计算机等理工科专业，熟悉期权业务及规则，具备量化研究经验与较强程序设计与编程能力，深刻理解期权波动率模型及各类风险指标。该岗位信息来自国信证券 2027 届暑期实习项目（网申 2026-04-13~05-13，已截止），投递入口为官方招聘官网 guosen.zhiye.com。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://guosen.zhiye.com/campus/jobs",
+    "officialUrl": "https://www.guosen.com.cn",
+    "autumn2026": "unknown",
+    "autumn2026Note": "未找到国信证券 2027 届/2026 秋招正式启动的官方公告；本岗位来自 2027 届暑期实习（2026-04~05 已截止）。需关注 guosen.zhiye.com 或“国信证券招聘”公众号确认 2027 届秋季校招是否开放",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国信证券27届暑期实习岗位（wondercv 转载，含场内期权策略研发岗 J13925）",
+        "url": "https://www.wondercv.com/xiaozhao/guoxin-securities-2027-summer-shenzhen-fujian-5738-32077e/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方平台转载的 2027 届暑期实习岗位，职责/要求较完整，但网申已于 2026-05-13 截止；2027 届秋招是否重启需到 guosen.zhiye.com 手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "国信证券校园宣讲会推文（mp.weixin.qq.com）",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAxMDA3MjIwMw==&mid=2651945700&idx=6&sn=01b1ad9f72dacc8a1ed42c1e7bf617c3",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "抓到的是国信证券校园宣讲会推文，非 2027 届秋招启动公告；正文经搜索摘要部分可见，完整内容需在微信内手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "guosen.zhiye.com 为 JS 渲染，岗位明细需手动查看；2027 届秋招启动情况待官方确认；薪资未核实，以面议为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "guoxinsec-options-trader",
+    "companyId": "guoxinsec",
+    "title": "场内期权交易岗（金融创新总部·2027届实习/校招方向）",
+    "description": "国信证券金融创新总部场内期权交易岗（深圳，编号 J13924）：负责日常高频期权策略自动化交易的执行和风险管理，处理日常交易事务及自动化交易参数优化，跟踪分析市场动态，研究期权波动率曲面套利或预测类策略；要求国内外硕士及以上理工科（数学、物理、金融工程、计算机），熟悉期权业务及规则、期权定价模型，熟练使用 Python，熟悉 Linux 系统。该岗位信息来自国信证券 2027 届暑期实习项目（网申 2026-04-13~05-13，已截止），投递入口为官方招聘官网 guosen.zhiye.com。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://guosen.zhiye.com/campus/jobs",
+    "officialUrl": "https://www.guosen.com.cn",
+    "autumn2026": "unknown",
+    "autumn2026Note": "未找到国信证券 2027 届/2026 秋招正式启动的官方公告；本岗位来自 2027 届暑期实习（2026-04~05 已截止）。需关注 guosen.zhiye.com 或“国信证券招聘”公众号确认 2027 届秋季校招是否开放",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国信证券27届暑期实习岗位（wondercv 转载，含场内期权交易岗 J13924）",
+        "url": "https://www.wondercv.com/xiaozhao/guoxin-securities-2027-summer-shenzhen-fujian-5738-32077e/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方平台转载的 2027 届暑期实习岗位，职责/要求较完整，但网申已于 2026-05-13 截止；2027 届秋招是否重启需到 guosen.zhiye.com 手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "国信证券校园宣讲会推文（mp.weixin.qq.com）",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAxMDA3MjIwMw==&mid=2651945700&idx=6&sn=01b1ad9f72dacc8a1ed42c1e7bf617c3",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "抓到的是国信证券校园宣讲会推文，非 2027 届秋招启动公告；正文经搜索摘要部分可见，完整内容需在微信内手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "guosen.zhiye.com 为 JS 渲染，岗位明细需手动查看；2027 届秋招启动情况待官方确认；薪资未核实，以面议为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "guoxinsec-prime-broker",
+    "companyId": "guoxinsec",
+    "title": "机构业务顾问（量化私募/衍生品方向·校园招聘）",
+    "description": "国信证券 2026 校园招聘“国信新青年，金融新力量”机构业务顾问岗位（北京，招聘 10-20 人）：负责资本市场业务、机构销售、资产配置等，跟进量化私募管理人并完成存量客户资产配置，整合公司研究服务、种子基金、产品代销、托管外包、经纪准入、融资融券、衍生品等业务，为金融机构提供机构主经纪商（PB）综合服务。招聘专业明确包含金融工程（含金融工程、金融科技方向等），面向本科及以上应届生，需通过证券/基金从业资格考试。投递入口为官方招聘官网 guosen.zhiye.com。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://guosen.zhiye.com/campus/jobs",
+    "officialUrl": "https://www.guosen.com.cn",
+    "autumn2026": "unknown",
+    "autumn2026Note": "未找到国信证券 2027 届/2026 秋招正式启动的官方公告；本岗位来自 2026 届校园招聘。需关注 guosen.zhiye.com 或“国信证券招聘”公众号确认 2027 届秋季校招是否开放",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国信证券2026校园招聘公告（对外经济贸易大学就业网转载）",
+        "url": "https://aeo.uibe.edu.cn/front/zpxx.jspa?tid=2036648549902450689",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "高校就业网转载的 2026 校园招聘（机构业务顾问岗，职责含量化私募/衍生品 PB），非 2027 届秋招；最新岗位需到 guosen.zhiye.com 手动查看"
+      },
+      {
+        "type": "official",
+        "title": "国信证券北京分公司2026校园招聘机构业务顾问（牛企直聘转载）",
+        "url": "https://campus.niuqizp.com/job-vws5ZZCnn.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方招聘平台转载，职责与投递邮箱（honghuan@guosen.com.cn）可参考；非官方一手页面"
+      },
+      {
+        "type": "wechat",
+        "title": "国信证券校园宣讲会推文（mp.weixin.qq.com）",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAxMDA3MjIwMw==&mid=2651945700&idx=6&sn=01b1ad9f72dacc8a1ed42c1e7bf617c3",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "抓到的是国信证券校园宣讲会推文，非 2027 届秋招启动公告；正文经搜索摘要部分可见，完整内容需在微信内手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "guosen.zhiye.com 为 JS 渲染，岗位明细需手动查看；2027 届秋招启动情况待官方确认；薪资未核实，以面议为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "guoxinsec-derivatives-intern",
+    "companyId": "guoxinsec",
+    "title": "衍生品业务实习生（北京·校园招聘）",
+    "description": "国信证券衍生品业务实习生岗位（北京，编号 J13992）：本科及以上，面向在校生/应届生，属衍生品业务方向实习，无经验要求；2026-07-27~2026-08-03 批次开放报名（2026Q3 批次，已截止）。投递入口为官方招聘官网 guosen.zhiye.com；2027 届秋季校招是否启动待官方确认。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://guosen.zhiye.com/campus/jobs",
+    "officialUrl": "https://www.guosen.com.cn",
+    "autumn2026": "unknown",
+    "autumn2026Note": "未找到国信证券 2027 届/2026 秋招正式启动的官方公告；本岗位为 2026Q3 批次实习（报名 2026-07-27~08-03，已截止）。需关注 guosen.zhiye.com 或“国信证券招聘”公众号确认 2027 届秋季校招是否开放",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国信证券校园招聘（13个实习岗位1个应届生岗位·2026Q3更新）",
+        "url": "https://m.fenbi.com/page/exam-information-detail/467959929657345",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方职位库转载的 2026Q3 批次岗位（含衍生品业务实习生 J13992），报名已截止；最新岗位需到 guosen.zhiye.com 手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "国信证券校园宣讲会推文（mp.weixin.qq.com）",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAxMDA3MjIwMw==&mid=2651945700&idx=6&sn=01b1ad9f72dacc8a1ed42c1e7bf617c3",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "抓到的是国信证券校园宣讲会推文，非 2027 届秋招启动公告；正文经搜索摘要部分可见，完整内容需在微信内手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "guosen.zhiye.com 为 JS 渲染，岗位明细需手动查看；2027 届秋招启动情况待官方确认；薪资未核实，以面议为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "guojinsec-quant-research-llm",
+    "companyId": "guojinsec",
+    "title": "量化研究岗（LLM/强化学习方向·2027届校招提前批/暑期实习）",
+    "description": "国金证券量化投资中心量化研究岗，属『2026年暑期实习暨2027届校园招聘』提前批（2027届暑期实习批次）。核心职责：开发基于机器学习与LLM的量化策略，进行NLP文本分析、深度学习建模、数据清洗与策略优化。任职要求：计算机、统计、数学、金融工程、物理等专业，硕士及以上学历；掌握Python及机器学习框架（Scikit-learn、TensorFlow、PyTorch、NLP技术、Transformer模型）。工作地点北京/上海/成都/深圳。实习期2026年7-10月，实习期满答辩通过可获转正Offer或秋招直通资格。薪资面议。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://gjzq.zhiye.com/",
+    "officialUrl": "https://gjzq.zhiye.com/",
+    "autumn2026": "open",
+    "autumn2026Note": "2027届校园招聘已正式启动（2026年5月『2026年暑期实习暨2027届校园招聘』提前批公告，网申已于2026年5月下旬截止）；2027届秋季校园招聘主批次预计2026年9月启动，当前处于批次过渡期，请关注 gjzq.zhiye.com 官网当前开放岗位。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国金证券招聘官网（gjzq.zhiye.com）",
+        "url": "https://gjzq.zhiye.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/登录，岗位列表与开放状态未能读取，需在浏览器手动查看"
+      },
+      {
+        "type": "official",
+        "title": "国金证券2026年暑期实习暨2027届校园招聘公告（牛企校招转载）",
+        "url": "https://campus.niuqizp.com/job-vrk5ZMtnt.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "完整获取2027届校招公告：岗位类别（投资交易/证券研究/金融科技等）、工作地点（北京/上海/成都/深圳）、三个招聘批次与投递入口 gjzq.zhiye.com"
+      },
+      {
+        "type": "official",
+        "title": "国金证券2027届暑期实习岗位（WonderCV汇总页）",
+        "url": "https://www.wondercv.com/xiaozhao/sinolink-2026-summer-internship-9616-0f3e9b/",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "完整获取量化投资中心量化研究岗（LLM/强化学习方向）岗位职责与任职要求；未披露薪资"
+      },
+      {
+        "type": "wechat",
+        "title": "公众号『国金证券招聘』校招公告原文",
+        "url": "https://mp.weixin.qq.com/s/lCtRkaIzm1rjlSP-4GBhng",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文有环境验证墙（环境异常）未能抓取；搜索摘要确认2027届校招提前批启动、投递入口为 gjzq.zhiye.com 与公众号『国金证券招聘』"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "岗位职责/要求来自第三方汇总页（WonderCV）转发的官方岗位，未核实到官方原文；薪资未披露，按面议处理。投递前请以 gjzq.zhiye.com 官网为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "guojinsec-derivatives-intern-equity",
+    "companyId": "guojinsec",
+    "title": "自营-衍生品部-实习生（权益方向·2027届及以后）",
+    "description": "国金证券自营衍生品部实习生（权益方向，J16621），工作地点上海浦东新区紫竹国际大厦。职责：协助股票、ETF、期货、期权等权益及衍生品标的的跟踪与研究，参与权益相关量化策略的回测与优化；协助期权定价、波动率及衍生品数据整理分析；日常投研数据处理、市场复盘及报告整理。任职要求：重点高校2027年及以后毕业硕士研究生，金融工程、数学、统计、计算机、金融等专业优先；具备Python编程能力，熟练使用Wind等金融数据终端，有AI coding agent使用经验者优先。实习每周3天、为期3个月。实习僧平台标注薪资100-150元/天（第三方，未经官方核实）。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://gjzq.zhiye.com/",
+    "officialUrl": "https://gjzq.zhiye.com/",
+    "autumn2026": "open",
+    "autumn2026Note": "2027届校园招聘已正式启动（2026年5月提前批，网申已于2026年5月下旬截止）；2027届秋季校园招聘主批次预计2026年9月启动，本衍生品实习岗面向2027年及以后毕业、可持续投递，请关注 gjzq.zhiye.com 官网当前开放岗位。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国金证券招聘官网（gjzq.zhiye.com）",
+        "url": "https://gjzq.zhiye.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/登录，岗位列表与开放状态未能读取，需在浏览器手动查看"
+      },
+      {
+        "type": "official",
+        "title": "国金证券自营-衍生品部-实习生-权益方向（实习僧J16621）",
+        "url": "https://www.shixiseng.com/intern/inn_qvgct3xfybuv",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "完整获取岗位职责、任职要求、工作地点与面向对象；薪资100-150元/天为实习僧平台标注（第三方，未经官方核实）"
+      },
+      {
+        "type": "wechat",
+        "title": "公众号『国金证券招聘』校招公告原文",
+        "url": "https://mp.weixin.qq.com/s/lCtRkaIzm1rjlSP-4GBhng",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文有环境验证墙（环境异常）未能抓取；搜索摘要确认2027届校招提前批启动、投递入口为 gjzq.zhiye.com"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "岗位为第三方平台（实习僧）发布的官方岗位信息；薪资为实习僧平台标注（100-150元/天），未经官方核实，按面议处理。投递前请以 gjzq.zhiye.com 官网为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "guojinsec-quant-risk-model",
+    "companyId": "guojinsec",
+    "title": "风险管理部-融资类业务风险管理岗（量化建模方向·2027届）",
+    "description": "国金证券风险管理部融资类业务风险管理岗（2027届校招/实习批次），工作地点以官网为准。职责：搭建量化模型（信用评估、压力测试等），参与融资融券等融资类业务全流程风险管理，输出风险评估报告。任职要求：硕士及以上学历，金融/统计/计算机/财会等专业，掌握SQL/Python、建模回测、数据分析、风险计量。岗位职责含较强的量化建模内容，方向偏风险管理。薪资面议。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://gjzq.zhiye.com/",
+    "officialUrl": "https://gjzq.zhiye.com/",
+    "autumn2026": "open",
+    "autumn2026Note": "2027届校园招聘已正式启动（2026年5月提前批，网申已于2026年5月下旬截止）；2027届秋季校园招聘主批次预计2026年9月启动，请关注 gjzq.zhiye.com 官网当前开放岗位。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国金证券招聘官网（gjzq.zhiye.com）",
+        "url": "https://gjzq.zhiye.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/登录，岗位列表与开放状态未能读取，需在浏览器手动查看"
+      },
+      {
+        "type": "official",
+        "title": "国金证券2027届暑期实习岗位（WonderCV汇总页）",
+        "url": "https://www.wondercv.com/xiaozhao/sinolink-2026-summer-internship-9616-0f3e9b/",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "完整获取风险管理部融资类业务风险管理岗职责（搭建量化模型：信用评估、压力测试等）与任职要求（SQL/Python、建模回测、风险计量）；未披露薪资"
+      },
+      {
+        "type": "wechat",
+        "title": "公众号『国金证券招聘』校招公告原文",
+        "url": "https://mp.weixin.qq.com/s/lCtRkaIzm1rjlSP-4GBhng",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文有环境验证墙（环境异常）未能抓取；搜索摘要确认2027届校招提前批启动、投递入口为 gjzq.zhiye.com"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "岗位职责/要求来自第三方汇总页（WonderCV）转发的官方岗位，未核实到官方原文；薪资未披露，按面议处理。投递前请以 gjzq.zhiye.com 官网为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "changjiangsec-quant-intern",
+    "companyId": "changjiangsec",
+    "title": "证券投资部-量化暑期实习生（武汉·2027届优先）",
+    "description": "长江证券证券投资部量化暑期实习生（武汉，J11210），工作地点武汉市江汉区淮海路88号长江证券大厦。两个方向：量化开发（参与股票高频策略/机器学习策略研究，协助开发高频研究、回测与交易系统，参与量化投研开发、底层数据维护与系统开发，量化数据分析与因子挖掘）；量化研究（参与宏观大类资产配置研究，风格配置/风格择时/行业配置研究）。任职要求：硕士研究生及以上学历在读，计算机、软件工程、应用数学、统计、金融工程等专业优先；编程基本功扎实，掌握Python/C++、常用算法与数据结构，熟练掌握SQL及数据库操作；有数据挖掘/统计分析经验或对量化高频交易有经验/浓厚兴趣者优先；2027届毕业生优先。实习期不少于3个月、每周不少于4天，能尽快到岗者优先。提供导师带教、实习证明、实习津贴及转正机会。薪资面议。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://cjzq.zhiye.com/campus",
+    "officialUrl": "https://cjzq.zhiye.com/campus",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2027届量化/衍生品暑期实习批次已开放（J11210/J11215，招聘期至2026-08-31）；但2027届秋季校园招聘（2026年秋招季主批次）公告尚未检索到官方启动证据，需关注 cjzq.zhiye.com 及公众号『长江证券招聘』确认。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "长江证券招聘官网（cjzq.zhiye.com/campus）",
+        "url": "https://cjzq.zhiye.com/campus",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/登录，岗位列表与开放状态未能读取，需在浏览器手动查看"
+      },
+      {
+        "type": "official",
+        "title": "长江证券证券投资部量化暑期实习生（武汉）（实习僧J11210）",
+        "url": "https://www.shixiseng.com/intern/inn_ujswhm6qkejf",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "完整获取岗位职责（量化开发/量化研究两方向）、任职要求、工作地点；页面标注『当前职位已下线』，招聘期至2026-08-31，投递前需以官网为准"
+      },
+      {
+        "type": "official",
+        "title": "长江证券证券投资部量化暑期实习生（武汉）（实习僧联盟转载，天府招聘云）",
+        "url": "https://league.rc114.com/Union/Position?jobid=D747C059-E517-4CE5-973A-0880252095DC",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "与实习僧为同一岗位，职责/要求一致，完整获取；未披露薪资"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "该岗位为长江证券通过实习僧平台发布的暑期实习（第三方平台，非官网直接发布），薪资未披露、按面议处理；实习僧页面标注『当前职位已下线』，投递前请以 cjzq.zhiye.com 官网或公众号『长江证券招聘』为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "changjiangsec-derivatives-risk-intern",
+    "companyId": "changjiangsec",
+    "title": "衍生品风险管理暑期实习生（武汉·2027届优先）",
+    "description": "长江证券衍生品风险管理暑期实习生（武汉，J11215），工作地点武汉市江汉区淮海路88号长江证券大厦。职责：负责场外衍生品定价、对冲模型的研究工作；监控交易执行与风险管理，及时汇报异动情况及解决交易中出现的问题；负责场外业务损益归因及其他分析工作。任职要求：硕士研究生及以上学历，金融工程、经济、财会、数学、计算机等专业优先；了解金融衍生品或有编程经验者优先，掌握C++或Python；2027届毕业生优先。实习期不少于3个月、每周不少于4天，能尽快到岗者优先。提供导师带教、实习证明、实习津贴及转正机会。薪资面议。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://cjzq.zhiye.com/campus",
+    "officialUrl": "https://cjzq.zhiye.com/campus",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2027届量化/衍生品暑期实习批次已开放（J11210/J11215，招聘期至2026-08-31）；但2027届秋季校园招聘（2026年秋招季主批次）公告尚未检索到官方启动证据，需关注 cjzq.zhiye.com 及公众号『长江证券招聘』确认。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "长江证券招聘官网（cjzq.zhiye.com/campus）",
+        "url": "https://cjzq.zhiye.com/campus",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/登录，岗位列表与开放状态未能读取，需在浏览器手动查看"
+      },
+      {
+        "type": "official",
+        "title": "长江证券衍生品风险管理暑期实习生（武汉）（实习僧J11215）",
+        "url": "https://www.shixiseng.com/intern/inn_svjemelwpyci",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "完整获取岗位职责（场外衍生品定价、对冲模型研究等）、任职要求、工作地点；页面标注『当前职位已下线』，招聘期至2026-08-31，投递前需以官网为准"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "该岗位为长江证券通过实习僧平台发布的暑期实习（第三方平台，非官网直接发布），薪资未披露、按面议处理；实习僧页面标注『当前职位已下线』，投递前请以 cjzq.zhiye.com 官网或公众号『长江证券招聘』为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "changjiangsec-institute-quant-fineng",
+    "companyId": "changjiangsec",
+    "title": "研究所暑期实习-总量研究（金融工程/另类策略方向·2027届）",
+    "description": "长江证券研究所2026年暑期实习（面向2027届毕业生），总量研究组含金融工程、另类策略方向。研究所连续4年蝉联『最佳研究团队』第1名（2022-2025），覆盖宏观、策略、行业、固收、金融工程等研究体系。工作地点上海、深圳、北京。职责：协助完成信息收集、数据整理及初步分析、维护数据库；跟踪海内外经济政策与资本市场变化；完成指定课题研究和深度研究辅助；独立撰写深度报告并参与研究所统一答辩考核，面试通过后由研究所统一分配至具体小组。任职要求：2027届应届毕业生（毕业时间2026年8月1日-2027年7月31日），硕士研究生及以上学历，专业不限；实习期不少于3个月、线下现场实习。招聘流程：网申投递→线上测评→部门面试→实习考察→日常答辩→留用答辩→正式录用。薪资面议。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://cjzq.zhiye.com/campus",
+    "officialUrl": "https://cjzq.zhiye.com/campus",
+    "autumn2026": "unknown",
+    "autumn2026Note": "研究所暑期实习批次（面向2027届，含金融工程/另类策略）网申已于2026年5月31日截止；2027届秋季校园招聘（2026年秋招季主批次）公告尚未检索到官方启动证据，需关注 cjzq.zhiye.com 及公众号『长江证券招聘』确认。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "长江证券招聘官网（cjzq.zhiye.com/campus）",
+        "url": "https://cjzq.zhiye.com/campus",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/登录，岗位列表与开放状态未能读取，需在浏览器手动查看"
+      },
+      {
+        "type": "official",
+        "title": "长江证券研究所2026暑期实习公告（WonderCV汇总页）",
+        "url": "https://www.wondercv.com/xiaozhao/changjiang-securities-2026-summer-intern-10255-9aaf0c/",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "完整获取研究所2026暑期实习公告：总量研究（含金融工程/另类策略方向）、面向2027届、工作地点（上海/深圳/北京）、流程与留用机制；未披露薪资"
+      },
+      {
+        "type": "wechat",
+        "title": "公众号『长江证券研究所』暑期实习公告原文",
+        "url": "https://mp.weixin.qq.com/s/zl4szmYQDoqM5Vuy7OQl7g",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文有环境验证墙（环境异常）未能抓取；搜索摘要确认研究所暑期实习面向2027届、总量研究含金融工程/另类策略方向"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "岗位信息来自第三方汇总页（WonderCV）转发的官方研究所公告；薪资未披露，按面议处理。投递前请以 cjzq.zhiye.com 官网为准。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "guotai-investment-trainee",
+    "companyId": "guotai",
+    "title": "投研管培生（2027届“菁英计划”，量化方向定岗）",
+    "description": "国泰基金2026年“菁英计划”校招开放岗位之一，工作地上海。面向国内外院校在读学生，2027届在校生通过全流程考核后可获留用offer。投研条线课题涵盖行业研究、AI赋能投研、多资产策略等，奥赛/量化竞赛获奖为加分项；量化投资部（老牌量化团队，2014年成立，产品覆盖指增/主动量化/被动ETF）为投研定岗方向之一。简历投递邮箱 hr@gtfund.com，招满即止。岗位详情以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://gtfund.zhiye.com/campus/jobs",
+    "officialUrl": "https://gtfund.zhiye.com/campus/jobs",
+    "autumn2026": "unknown",
+    "autumn2026Note": "已确认2026年“菁英计划”（面向2027届，投研管培生/财富管培生，可留用）已开启；但未找到独立的“2026秋招”（autumn2026）轮次启动公告，缺少官方秋招公告，需手动查看官网校招平台 gtfund.zhiye.com/campus/jobs 与公众号“国泰基金招聘”确认秋招是否启动。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国泰基金官方校园招聘网申平台",
+        "url": "https://gtfund.zhiye.com/campus/jobs",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染，岗位列表未能抓取，需手动查看确认当前秋招/实习岗位"
+      },
+      {
+        "type": "official",
+        "title": "国泰基金官网“加入我们”页面",
+        "url": "http://www.gtfund.com/about/joinus/index.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面为历史内容（校招信息停留在2015年），实际校招走 gtfund.zhiye.com 平台"
+      },
+      {
+        "type": "official",
+        "title": "国泰基金校园招聘简章（宁波大学商学院转载）",
+        "url": "https://nbubs.nbu.edu.cn/info/2834/253340.htm",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "官方校招简章转载：开放岗位为投研管培生/财富管培生，投递邮箱 hr@gtfund.com；未注明具体届别与截止日期"
+      },
+      {
+        "type": "wechat",
+        "title": "招聘｜国泰基金“菁英计划”全球招募（微信公众号“国泰基金招聘”）",
+        "url": "https://mp.weixin.qq.com/s/p1Q7FmSIerI-6lEYe9wSNw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信文章正文未抓取（环境异常/验证墙），需手动查看公众号“国泰基金招聘”确认岗位详情"
+      },
+      {
+        "type": "secondary",
+        "title": "上海财经大学商学院就业信息：国泰基金2026年“菁英计划”全面开启",
+        "url": "https://cob.sufe.edu.cn/en/Home/Detail/27626",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "正文为图片未能提取，文字部分确认菁英计划已开启、公司成立于1998年、截至2025年末管理规模约1.49万亿元"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未官方确认，填“示例：面议”。第三方渠道曾提及投研管培生年薪约20-35万，未经官方核实，仅供参考。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "guotai-quant-researcher-summer",
+    "companyId": "guotai",
+    "title": "量化研究员（2026暑期实习·“菁英计划”留用通道）",
+    "description": "国泰基金2026暑期实习投研核心岗位之一（量化研究员/资产配置研究员），另有数据开发工程师等技术岗。依托老牌量化团队（量化投资部，2014年成立，团队近30人，产品线覆盖指增/主动量化/被动ETF）。面向在校生（本科/硕士/博士均在招募范围，推测以2027届为主，原文未明说），网申滚动筛选、招满即止，可“超前留用”。该岗位信息主要来自第三方分析文章，官方校招页未直接抓到单列岗位，需以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://gtfund.zhiye.com/8/jobs",
+    "officialUrl": "https://gtfund.zhiye.com/campus/jobs",
+    "autumn2026": "unknown",
+    "autumn2026Note": "该岗位为2026暑期实习（据第三方文章截止2026-06-02），通过考核可转2027届留用offer；独立的“2026秋招”轮次未见启动公告，需手动确认官网校招平台与公众号。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "secondary",
+        "title": "upjianli：国泰基金2026暑期实习值得投吗？留用机会与岗位难度全解析",
+        "url": "https://upjianli.com/jianlixiezuo/2443.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "第三方分析文章，正文完整读取：列出量化研究员/资产配置研究员/数据开发工程师等暑期实习岗位，网申 https://gtfund.zhiye.com/8/jobs，截止2026-06-02，可超前留用；非官方渠道，未经官方核实"
+      },
+      {
+        "type": "official",
+        "title": "国泰基金官方校园招聘网申平台",
+        "url": "https://gtfund.zhiye.com/campus/jobs",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染，未抓取到单列量化岗位，需手动查看确认暑期实习/校招岗位"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号“国泰基金招聘”",
+        "url": "https://mp.weixin.qq.com/s/p1Q7FmSIerI-6lEYe9wSNw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文未抓取（微信环境异常/验证），需手动查看公众号“国泰基金招聘”"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "该岗位为暑期实习留用通道，非独立秋招岗位；薪资未确认，填“示例：面议”。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "penghua-assistant-quant-researcher",
+    "companyId": "penghua",
+    "title": "助理研究员（量化方向）",
+    "description": "鹏华基金研究部助理研究员（量化方向），工作地点深圳。来自鹏华基金2026年春招及暑期实习招聘：2026届毕业生走校园招聘通道，2027届毕业生（2026年9月-2027年8月毕业的应届研究生）走暑期实习通道，通过课题答辩及面试后可直通2027届秋季校园招聘offer。岗位详情以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://job.phfund.com.cn",
+    "officialUrl": "https://job.phfund.com.cn",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2026春招及暑期实习（27届走实习通道，可直通2027届秋招offer）已开启（发布2026-03-27）；独立的“2026秋招”（autumn2026）轮次（预计9-10月发放offer）截至2026-08-09未见启动公告，需手动关注 job.phfund.com.cn 与公众号“鹏华基金招聘”确认秋招启动。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "secondary",
+        "title": "牛企招聘转载：鹏华基金2026年春招及暑期实习招聘岗位列表",
+        "url": "https://campus.niuqizp.com/job-vym5ZZnZC.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "第三方校招平台转载官方公告：岗位列表完整（含助理研究员（量化）-研究部-深圳），26届走校招通道、27届走实习通道可直通2027届秋招offer；发布2026-03-27"
+      },
+      {
+        "type": "official",
+        "title": "鹏华基金招聘官网",
+        "url": "https://job.phfund.com.cn",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染（SPA），岗位列表未能抓取，需手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "鹏华基金2026年春招（微信公众号“鹏华基金招聘”）",
+        "url": "https://mp.weixin.qq.com/s/MwtimVYQ0ZztBRIwjmQmfQ",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文未抓取（微信环境异常/验证），需手动查看公众号“鹏华基金招聘”"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未官方确认，填“示例：面议”。招聘对象以硕士及以上应届研究生为主（公开报道，未核实）。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "penghua-quant-assistant",
+    "companyId": "penghua",
+    "title": "助理量化研究员（指数与量化投资部）",
+    "description": "鹏华基金指数与量化投资部助理量化研究员，工作地点上海、深圳。来自鹏华基金2026年春招及暑期实习招聘：2026届走校园招聘通道，2027届走暑期实习通道（通过答辩及面试可直通2027届秋招offer）。指数与量化投资部负责指数及量化投资，该岗位为量化/指数增强方向的核心储备岗位。岗位详情以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://job.phfund.com.cn",
+    "officialUrl": "https://job.phfund.com.cn",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2026春招及暑期实习（27届走实习通道，可直通2027届秋招offer）已开启（发布2026-03-27）；独立的“2026秋招”（autumn2026）轮次（预计9-10月发放offer）截至2026-08-09未见启动公告，需手动关注 job.phfund.com.cn 与公众号“鹏华基金招聘”确认秋招启动。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "secondary",
+        "title": "牛企招聘转载：鹏华基金2026年春招及暑期实习招聘岗位列表",
+        "url": "https://campus.niuqizp.com/job-vym5ZZnZC.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "第三方校招平台转载官方公告：岗位列表完整（含助理量化研究员-指数与量化投资部-上海、深圳），26届走校招通道、27届走实习通道可直通2027届秋招offer；发布2026-03-27"
+      },
+      {
+        "type": "official",
+        "title": "鹏华基金招聘官网",
+        "url": "https://job.phfund.com.cn",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染（SPA），岗位列表未能抓取，需手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "鹏华基金2026年春招（微信公众号“鹏华基金招聘”）",
+        "url": "https://mp.weixin.qq.com/s/MwtimVYQ0ZztBRIwjmQmfQ",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文未抓取（微信环境异常/验证），需手动查看公众号“鹏华基金招聘”"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未官方确认，填“示例：面议”。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "penghua-fintech-engineer",
+    "companyId": "penghua",
+    "title": "助理金融工程师（大数据与金融工程）",
+    "description": "鹏华基金大数据与金融工程部助理金融工程师，工作地点深圳。来自鹏华基金2026年春招及暑期实习招聘：2026届走校园招聘通道，2027届走暑期实习通道（通过答辩及面试可直通2027届秋招offer）。面向硕士及以上，偏好数理/计算机/金融工程复合背景（公开报道，未核实）。岗位详情以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://job.phfund.com.cn",
+    "officialUrl": "https://job.phfund.com.cn",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2026春招及暑期实习（27届走实习通道，可直通2027届秋招offer）已开启（发布2026-03-27）；独立的“2026秋招”（autumn2026）轮次（预计9-10月发放offer）截至2026-08-09未见启动公告，需手动关注 job.phfund.com.cn 与公众号“鹏华基金招聘”确认秋招启动。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "secondary",
+        "title": "牛企招聘转载：鹏华基金2026年春招及暑期实习招聘岗位列表",
+        "url": "https://campus.niuqizp.com/job-vym5ZZnZC.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "第三方校招平台转载官方公告：岗位列表完整（含助理金融工程师-大数据与金融工程部-深圳），26届走校招通道、27届走实习通道可直通2027届秋招offer；发布2026-03-27"
+      },
+      {
+        "type": "official",
+        "title": "鹏华基金招聘官网",
+        "url": "https://job.phfund.com.cn",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染（SPA），岗位列表未能抓取，需手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "鹏华基金2026年春招（微信公众号“鹏华基金招聘”）",
+        "url": "https://mp.weixin.qq.com/s/MwtimVYQ0ZztBRIwjmQmfQ",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文未抓取（微信环境异常/验证），需手动查看公众号“鹏华基金招聘”"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未官方确认，填“示例：面议”。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "penghua-ml-developer",
+    "companyId": "penghua",
+    "title": "助理开发工程师（机器学习/系统开发）",
+    "description": "鹏华基金金融科技部助理开发工程师（系统开发、机器学习方向），工作地点深圳。来自鹏华基金2026年春招及暑期实习招聘：2026届走校园招聘通道，2027届走暑期实习通道（通过答辩及面试可直通2027届秋招offer）。机器学习方向与量化投研的算法/工程支持直接相关。岗位详情以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://job.phfund.com.cn",
+    "officialUrl": "https://job.phfund.com.cn",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2026春招及暑期实习（27届走实习通道，可直通2027届秋招offer）已开启（发布2026-03-27）；独立的“2026秋招”（autumn2026）轮次（预计9-10月发放offer）截至2026-08-09未见启动公告，需手动关注 job.phfund.com.cn 与公众号“鹏华基金招聘”确认秋招启动。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "secondary",
+        "title": "牛企招聘转载：鹏华基金2026年春招及暑期实习招聘岗位列表",
+        "url": "https://campus.niuqizp.com/job-vym5ZZnZC.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "第三方校招平台转载官方公告：岗位列表完整（含助理开发工程师（系统开发、机器学习）-金融科技部-深圳），26届走校招通道、27届走实习通道可直通2027届秋招offer；发布2026-03-27"
+      },
+      {
+        "type": "official",
+        "title": "鹏华基金招聘官网",
+        "url": "https://job.phfund.com.cn",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染（SPA），岗位列表未能抓取，需手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "鹏华基金2026年春招（微信公众号“鹏华基金招聘”）",
+        "url": "https://mp.weixin.qq.com/s/MwtimVYQ0ZztBRIwjmQmfQ",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文未抓取（微信环境异常/验证），需手动查看公众号“鹏华基金招聘”"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未官方确认，填“示例：面议”。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "penghua-data-analyst",
+    "companyId": "penghua",
+    "title": "数据分析助理（登记结算部）",
+    "description": "鹏华基金登记结算部数据分析助理，工作地点深圳。来自鹏华基金2026年春招及暑期实习招聘：2026届走校园招聘通道，2027届走暑期实习通道（通过答辩及面试可直通2027届秋招offer）。数据相关岗位，与量化投研的数据基础工作相关。岗位详情以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://job.phfund.com.cn",
+    "officialUrl": "https://job.phfund.com.cn",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2026春招及暑期实习（27届走实习通道，可直通2027届秋招offer）已开启（发布2026-03-27）；独立的“2026秋招”（autumn2026）轮次（预计9-10月发放offer）截至2026-08-09未见启动公告，需手动关注 job.phfund.com.cn 与公众号“鹏华基金招聘”确认秋招启动。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "secondary",
+        "title": "牛企招聘转载：鹏华基金2026年春招及暑期实习招聘岗位列表",
+        "url": "https://campus.niuqizp.com/job-vym5ZZnZC.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "第三方校招平台转载官方公告：岗位列表完整（含数据分析助理-登记结算部-深圳），26届走校招通道、27届走实习通道可直通2027届秋招offer；发布2026-03-27"
+      },
+      {
+        "type": "official",
+        "title": "鹏华基金招聘官网",
+        "url": "https://job.phfund.com.cn",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染（SPA），岗位列表未能抓取，需手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "鹏华基金2026年春招（微信公众号“鹏华基金招聘”）",
+        "url": "https://mp.weixin.qq.com/s/MwtimVYQ0ZztBRIwjmQmfQ",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文未抓取（微信环境异常/验证），需手动查看公众号“鹏华基金招聘”"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未官方确认，填“示例：面议”。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "penghua-fund-researcher-fof",
+    "companyId": "penghua",
+    "title": "助理基金研究员（资产配置与基金投资部/FOF方向）",
+    "description": "鹏华基金资产配置与基金投资部助理基金研究员，工作地点上海，FOF/基金优选方向。来自鹏华基金2026年春招及暑期实习招聘：2026届走校园招聘通道，2027届走暑期实习通道（通过答辩及面试可直通2027届秋招offer）。FOF及基金优选是量化/配置能力的重要应用方向。岗位详情以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://job.phfund.com.cn",
+    "officialUrl": "https://job.phfund.com.cn",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2026春招及暑期实习（27届走实习通道，可直通2027届秋招offer）已开启（发布2026-03-27）；独立的“2026秋招”（autumn2026）轮次（预计9-10月发放offer）截至2026-08-09未见启动公告，需手动关注 job.phfund.com.cn 与公众号“鹏华基金招聘”确认秋招启动。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "secondary",
+        "title": "牛企招聘转载：鹏华基金2026年春招及暑期实习招聘岗位列表",
+        "url": "https://campus.niuqizp.com/job-vym5ZZnZC.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "第三方校招平台转载官方公告：岗位列表完整（含助理基金研究员-资产配置与基金投资部-上海），26届走校招通道、27届走实习通道可直通2027届秋招offer；发布2026-03-27"
+      },
+      {
+        "type": "official",
+        "title": "鹏华基金招聘官网",
+        "url": "https://job.phfund.com.cn",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染（SPA），岗位列表未能抓取，需手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "鹏华基金2026年春招（微信公众号“鹏华基金招聘”）",
+        "url": "https://mp.weixin.qq.com/s/MwtimVYQ0ZztBRIwjmQmfQ",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文未抓取（微信环境异常/验证），需手动查看公众号“鹏华基金招聘”"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未官方确认，填“示例：面议”。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "ccbfund-quant-researcher",
+    "companyId": "ccbfund",
+    "title": "研究员（投研条线·基本面/量化研究方向）（2026届校招）",
+    "description": "研究各细分行业及上市公司或其他信用主体、基础设施、国际市场等，通过基本面或量化方法进行深度分析并出具研究报告，发现优质标的，提出投资建议，为投资组合做出业绩贡献。招聘3人，工作地点北京。专业要求：经济金融类、理工类等相关专业，具有生物医药、冶金、金融工程、数理统计等复合专业背景者优先，对基本面研究或量化研究有浓厚兴趣，有良好的数据敏感度和市场判断力。来源：建信基金2026年度校园招聘公告（2025年9月发布）。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "http://job.ccb.com",
+    "officialUrl": "http://job.ccb.com",
+    "autumn2026": "unknown",
+    "autumn2026Note": "未发现建信基金2027届/2026秋招已启动的确凿公告。最近为2026届校招（2025年9月秋招公告、2026年3月春招公告）。2026秋招启动信息需手动关注job.ccb.com（校园招聘-子公司-建信基金）及'中国建设银行人才招聘'公众号。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "建信基金管理有限责任公司2026年度校园招聘公告",
+        "url": "https://m.huatu.com/jinrong/2025/0909/2832312.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "招聘资讯转载，含研究员岗完整职责与任职要求（投研条线，3人，北京，基本面/量化方法）"
+      },
+      {
+        "type": "official",
+        "title": "中国建设银行'诚聘英才'频道（建信基金校招报名入口）",
+        "url": "http://job.ccb.com",
+        "accessedAt": "2026-08-09",
+        "status": "manual_required",
+        "note": "官方报名入口，需注册后进入校园招聘-子公司-建信基金查看并报名；本次未登录逐岗位核对"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号（建信基金官方招聘推文未抓到）",
+        "url": "https://www.ccbfund.cn",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "搜索到的微信推文为建信养老金管理公司（建行集团内另一主体）的招聘，非建信基金；建信基金官方公众号招聘推文正文未抓到。可关注'建信基金'公众号，或'中国建设银行人才招聘'公众号→校园招聘→子公司→建信基金手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未查到官方确认值，按'示例：面议'占位。该岗位为2026届校招，非2027届/2026秋招。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "ccbfund-fintech-dev",
+    "companyId": "ccbfund",
+    "title": "金融科技岗（应用系统与数据服务研发）（2026届校招）",
+    "description": "运用前沿科技理论、先进技术实践开展应用系统和数据服务研发、科技架构建设、信息安全保障等工作，提升投资研究、客户服务、风控管理、基金运营、经营管理数字化智能化水平。招聘3人，工作地点北京。专业要求：计算机类、通信类、数学类、金融工程类、统计学类、经济金融类等相关专业，或具备计算机及数学技能的其他理工类专业；精通一门及以上编程语言。笔试科目为信息技术类。来源：建信基金2026年度校园招聘公告（2025年9月发布）。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "http://job.ccb.com",
+    "officialUrl": "http://job.ccb.com",
+    "autumn2026": "unknown",
+    "autumn2026Note": "未发现建信基金2027届/2026秋招已启动的确凿公告。最近为2026届校招（2025年9月秋招公告、2026年3月春招公告）。2026秋招启动信息需手动关注job.ccb.com及'中国建设银行人才招聘'公众号。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "建信基金管理有限责任公司2026年度校园招聘公告",
+        "url": "https://m.huatu.com/jinrong/2025/0909/2832312.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "招聘资讯转载，含金融科技岗完整职责与任职要求（营运条线，3人，北京，编程语言要求）"
+      },
+      {
+        "type": "official",
+        "title": "中国建设银行'诚聘英才'频道（建信基金校招报名入口）",
+        "url": "http://job.ccb.com",
+        "accessedAt": "2026-08-09",
+        "status": "manual_required",
+        "note": "官方报名入口，需注册后进入校园招聘-子公司-建信基金查看并报名；本次未登录逐岗位核对"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号（建信基金官方招聘推文未抓到）",
+        "url": "https://www.ccbfund.cn",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "搜索到的微信推文为建信养老金管理公司（建行集团内另一主体）的招聘，非建信基金；建信基金官方公众号招聘推文正文未抓到。可关注'建信基金'公众号手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未查到官方确认值，按'示例：面议'占位。该岗位为2026届校招，非2027届/2026秋招。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "ccbfund-tech-talent",
+    "companyId": "ccbfund",
+    "title": "科技类专项人才（营运条线·应用系统与数据服务研发）（2026届春季校招）",
+    "description": "负责应用系统和数据服务研发、科技架构建设、信息安全保障等。招聘1人，工作地点北京。专业要求：计算机类、通信类、数学类、金融工程类、统计学类、经济金融类等相关专业，精通一门及以上编程语言。笔试科目为信息技术类。报名通过中国建设银行官网'诚聘英才'频道（job.ccb.com）或'中国建设银行人才招聘'公众号。来源：建信基金2026年度春季校园招聘公告（2026年3月发布）。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "http://job.ccb.com",
+    "officialUrl": "http://job.ccb.com",
+    "autumn2026": "unknown",
+    "autumn2026Note": "未发现建信基金2027届/2026秋招已启动的确凿公告。最近为2026届春季校招（2026年3月，报名期3月18日-3月31日）。2026秋招启动信息需手动关注job.ccb.com及'中国建设银行人才招聘'公众号。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "2026建信基金管理有限责任公司春季校园招聘公告",
+        "url": "https://www.offcn.com/yinhang/2026/0313/72375.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "招聘资讯转载，含科技类专项人才岗位职责与要求"
+      },
+      {
+        "type": "official",
+        "title": "中国建设银行'诚聘英才'频道（建信基金校招报名入口）",
+        "url": "http://job.ccb.com",
+        "accessedAt": "2026-08-09",
+        "status": "manual_required",
+        "note": "官方报名入口，需注册后进入校园招聘-子公司-建信基金查看并报名；本次未登录逐岗位核对"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号（建信基金官方招聘推文未抓到）",
+        "url": "https://www.ccbfund.cn",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "建信基金官方公众号招聘推文正文未抓到。可关注'建信基金'公众号，或'中国建设银行人才招聘'公众号→校园招聘→子公司→建信基金手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未查到官方确认值，按'示例：面议'占位。该岗位为2026届春季校招，非2027届/2026秋招。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "yinhua-assistant-industry-researcher",
+    "companyId": "yinhua",
+    "title": "助理行业研究员（2026届春招公告；2027届校招热招中）",
+    "description": "实时跟踪市场动态，密切关注所负责行业及上市公司，完成数据和资料收集与分析；在资深研究员指导下搭建分析框架、深入研究上市公司并撰写深度研究报告，为投资提供研究支持；按要求协助课题研究。2026届国内及海外知名大学金融、经济、数学、统计等相关专业硕士及博士研究生；掌握Python、C++、Java、数据库、Matlab等计算机语言者及CFA/CPA/FRM持证者优先。招聘1人，工作地点北京/上海。来源：银华基金2026年春季校园招聘公告（对外经贸大学就业网及第三方校招平台转载）。",
+    "salary": "15000-20000元/月（第三方校招平台，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/campus-recruitment/yhfund/143004",
+    "officialUrl": "https://app.mokahr.com/campus-recruitment/yhfund/143004",
+    "autumn2026": "open",
+    "autumn2026Note": "银华基金2027届校园招聘确已启动：Mokahr校招平台页面明确面向'2027届国内外硕士及以上应届生'并设有'2027届毕业生热招岗位'板块。但该平台需JS渲染，本次未能抓取具体岗位名单；本岗位职责描述取自2026届春季校招公告，2027届对应岗位名称与职责需登录Mokahr或关注'银华基金招聘'公众号手动核实。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "银华基金2027届校园招聘（Mokahr校招平台）",
+        "url": "https://app.mokahr.com/campus-recruitment/yhfund/143004",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/存在重定向，'2027届毕业生热招岗位'名单未抓取，需手动查看具体职位"
+      },
+      {
+        "type": "official",
+        "title": "银华基金2026年春季校园招聘公告（对外经贸大学就业网）",
+        "url": "https://career.uibe.edu.cn/front/zpxx.jspa?tid=2026892109579059201",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "高校就业网转载官方公告，含研究员类岗位完整职责与任职要求"
+      },
+      {
+        "type": "official",
+        "title": "银华基金助理行业研究员校招职位（牛企直聘）",
+        "url": "https://campus.niuqizp.com/job-vmr5tzNaN.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "第三方校招聚合平台转载，含薪资区间15000-20000元/月（未经官方核实）、岗位职责与要求"
+      },
+      {
+        "type": "wechat",
+        "title": "银华基金公众号招聘推文",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU2MzUzNjIzMw==&mid=2247483776&idx=1&sn=dd9834687b9626d8747122f9b6210e03",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "抓到的为历史招聘推文（2024届校园招聘宣传片），2027届校招推文正文未抓到；可关注'银华基金'或'银华基金招聘'公众号手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资15000-20000元/月来自第三方校招平台（牛企直聘），未经官方核实，已标注。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "yinhua-macro-rate-researcher",
+    "companyId": "yinhua",
+    "title": "宏观利率研究员（2026届春招公告；2027届校招热招中）",
+    "description": "跟踪分析高频数据、经济数据、宏观政策及重大事件并撰写点评；撰写专题研究报告，提供利率策略投资建议；与同行交流掌握市场动态。2026届国内及海外知名大学金融、经济、数学、统计等相关专业硕士及博士研究生；掌握Python、C++、Java、数据库、Matlab等计算机语言者及CFA/CPA/FRM持证者优先；英文流利。工作地点北京。来源：银华基金2026年春季校园招聘公告（对外经贸大学就业网）。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/campus-recruitment/yhfund/143004",
+    "officialUrl": "https://app.mokahr.com/campus-recruitment/yhfund/143004",
+    "autumn2026": "open",
+    "autumn2026Note": "银华基金2027届校园招聘确已启动：Mokahr校招平台页面明确面向'2027届国内外硕士及以上应届生'并设有'2027届毕业生热招岗位'板块。但该平台需JS渲染，本次未能抓取具体岗位名单；本岗位职责描述取自2026届春季校招公告，2027届对应岗位名称与职责需登录Mokahr或关注'银华基金招聘'公众号手动核实。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "银华基金2027届校园招聘（Mokahr校招平台）",
+        "url": "https://app.mokahr.com/campus-recruitment/yhfund/143004",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/存在重定向，'2027届毕业生热招岗位'名单未抓取，需手动查看具体职位"
+      },
+      {
+        "type": "official",
+        "title": "银华基金2026年春季校园招聘公告（对外经贸大学就业网）",
+        "url": "https://career.uibe.edu.cn/front/zpxx.jspa?tid=2026892109579059201",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "高校就业网转载官方公告，含宏观利率研究员完整职责与任职要求"
+      },
+      {
+        "type": "wechat",
+        "title": "银华基金公众号招聘推文",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU2MzUzNjIzMw==&mid=2247483776&idx=1&sn=dd9834687b9626d8747122f9b6210e03",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "抓到的为历史招聘推文（2024届校园招聘宣传片），2027届校招推文正文未抓到；可关注'银华基金'或'银华基金招聘'公众号手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未查到官方确认值，按'示例：面议'占位。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "yinhua-credit-researcher",
+    "companyId": "yinhua",
+    "title": "信用研究员（2026届春招公告；2027届校招热招中）",
+    "description": "把握宏观经济形势，跟踪行业高频信息，协助建立和维护行业信用评价数据库和模型；协助信用债日常评级及债券池维护；对发债主体进行跟踪调研并撰写报告；完成专题研究报告。2026届国内及海外知名大学金融、经济、数学、统计等相关专业硕士及博士研究生；系统学习过固定收益和财务会计课程且成绩优秀；具备财务分析与数据处理能力；掌握编程语言者及CFA/CPA/FRM持证者优先。工作地点北京。来源：银华基金2026年春季校园招聘公告（对外经贸大学就业网）。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/campus-recruitment/yhfund/143004",
+    "officialUrl": "https://app.mokahr.com/campus-recruitment/yhfund/143004",
+    "autumn2026": "open",
+    "autumn2026Note": "银华基金2027届校园招聘确已启动：Mokahr校招平台页面明确面向'2027届国内外硕士及以上应届生'并设有'2027届毕业生热招岗位'板块。但该平台需JS渲染，本次未能抓取具体岗位名单；本岗位职责描述取自2026届春季校招公告，2027届对应岗位名称与职责需登录Mokahr或关注'银华基金招聘'公众号手动核实。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "银华基金2027届校园招聘（Mokahr校招平台）",
+        "url": "https://app.mokahr.com/campus-recruitment/yhfund/143004",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/存在重定向，'2027届毕业生热招岗位'名单未抓取，需手动查看具体职位"
+      },
+      {
+        "type": "official",
+        "title": "银华基金2026年春季校园招聘公告（对外经贸大学就业网）",
+        "url": "https://career.uibe.edu.cn/front/zpxx.jspa?tid=2026892109579059201",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "高校就业网转载官方公告，含信用研究员完整职责与任职要求"
+      },
+      {
+        "type": "wechat",
+        "title": "银华基金公众号招聘推文",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU2MzUzNjIzMw==&mid=2247483776&idx=1&sn=dd9834687b9626d8747122f9b6210e03",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "抓到的为历史招聘推文（2024届校园招聘宣传片），2027届校招推文正文未抓到；可关注'银华基金'或'银华基金招聘'公众号手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未查到官方确认值，按'示例：面议'占位。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "yinhua-trading-compliance-dev",
+    "companyId": "yinhua",
+    "title": "交易合规控制专员（金融工程/数据监控方向）（2026届春招公告）",
+    "description": "完成产品的事前、事中、事后投资限额监控；识别、评估、监测和报告投资限额合规风险；利用开发工具完成监控数据整理、监控逻辑开发和监控界面开发。2026届计算机、数学、物理、金融工程、会计、统计等相关专业硕士；具备基本金融财务知识，英文优秀；掌握编程语言者优先。工作地点北京。来源：银华基金2026年春季校园招聘公告（对外经贸大学就业网）。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/campus-recruitment/yhfund/143004",
+    "officialUrl": "https://app.mokahr.com/campus-recruitment/yhfund/143004",
+    "autumn2026": "open",
+    "autumn2026Note": "银华基金2027届校园招聘确已启动：Mokahr校招平台页面明确面向'2027届国内外硕士及以上应届生'并设有'2027届毕业生热招岗位'板块。但该平台需JS渲染，本次未能抓取具体岗位名单；本岗位职责描述取自2026届春季校招公告，2027届对应岗位名称与职责需登录Mokahr或关注'银华基金招聘'公众号手动核实。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "银华基金2027届校园招聘（Mokahr校招平台）",
+        "url": "https://app.mokahr.com/campus-recruitment/yhfund/143004",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/存在重定向，'2027届毕业生热招岗位'名单未抓取，需手动查看具体职位"
+      },
+      {
+        "type": "official",
+        "title": "银华基金2026年春季校园招聘公告（对外经贸大学就业网）",
+        "url": "https://career.uibe.edu.cn/front/zpxx.jspa?tid=2026892109579059201",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "高校就业网转载官方公告，含交易合规控制专员完整职责与任职要求"
+      },
+      {
+        "type": "wechat",
+        "title": "银华基金公众号招聘推文",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU2MzUzNjIzMw==&mid=2247483776&idx=1&sn=dd9834687b9626d8747122f9b6210e03",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "抓到的为历史招聘推文（2024届校园招聘宣传片），2027届校招推文正文未抓到；可关注'银华基金'或'银华基金招聘'公众号手动查看"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未查到官方确认值，按'示例：面议'占位。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "gtjafutures-quant-strategy-researcher-2027",
+    "companyId": "gtjafutures",
+    "title": "量化策略研究员（2027届·金衍同盟）",
+    "description": "国泰君安期货『金衍同盟』2027届招聘（校招预选拔/暑期实习暨校招）量化金融类岗位，方向为量化策略研究与实盘跟踪优化，覆盖 Alpha、衍生品套利、做市、CTA 等策略方向。面向 2027 届应届毕业生（毕业时间 2026-10 至 2027-07，专业不限，理工/金融/统计背景优先，硕士及以上者佳）。金衍同盟含 7 月初上海专项培训班（免费，含金融工程与量化投资等课程）与 7-9 月暑期实习，表现优异者进入 10-12 月 offer 发放环节。工作地点：上海、杭州、宁波、北京、广州、深圳等。岗位职责细节以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180",
+    "officialUrl": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180",
+    "autumn2026": "ended",
+    "autumn2026Note": "金衍同盟2027届（秋招预选拔）网申已于2026-06-20 24:00截止（官方公告第三方转载）；该计划为2027届校招主通道，当前处于暑期实习阶段、10-12月发放offer。正式2026秋招批次是否另行开放，需手动确认 Mokahr 校招页 app.mokahr.com/campus-recruitment/gtjaqh/147180",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国泰君安期货校招投递入口（Mokahr，经官网 /r/u 跳转）",
+        "url": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网 www.gtjaqh.com 首页无招聘入口；www.gtjaqh.com/r/u 跳转至 Mokahr 校招系统，需 JS 渲染，岗位列表未能抓取，请手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "国泰君安期货金衍同盟2027届公告（公众号原文）",
+        "url": "https://mp.weixin.qq.com/s/BsdULmOvjT5-C9j9XehWTw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文被验证墙拦截（当前环境异常），未能读取正文；岗位清单取自第三方转载，请手动打开公众号原文核实"
+      },
+      {
+        "type": "official",
+        "title": "金衍同盟招聘公告（第三方转载 offcn，2026-06-02）",
+        "url": "http://m.offcn.com/gqzp/2026/0602/241315.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方转载官方公众号公告：面向2027届、网申截止2026-06-20（已过）、量化金融类含量化策略研究员/量化开发工程师/量化交易员/机器学习算法工程师"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未披露（面议）；金衍新星计划（2026届，另一计划）宣传称'SSP薪资+六险二金'，仅供参考、未核实。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "gtjafutures-quant-dev-engineer-2027",
+    "companyId": "gtjafutures",
+    "title": "量化开发工程师（2027届·金衍同盟）",
+    "description": "国泰君安期货『金衍同盟』2027届招聘（校招预选拔/暑期实习暨校招）量化金融类岗位，方向为量化交易/研究系统与工具开发、行情与交易数据 ETL、仿真交易与策略平台建设等。面向 2027 届应届毕业生，计算机/软件/电子/通信等专业优先，熟练使用 C++/Python 者佳。金衍同盟含 7 月初上海专项培训班与 7-9 月暑期实习，10-12 月发放 offer。工作地点：上海、杭州、宁波、北京、广州、深圳等。岗位职责细节以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180",
+    "officialUrl": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180",
+    "autumn2026": "ended",
+    "autumn2026Note": "金衍同盟2027届（秋招预选拔）网申已于2026-06-20 24:00截止（官方公告第三方转载）；该计划为2027届校招主通道，当前处于暑期实习阶段、10-12月发放offer。正式2026秋招批次是否另行开放，需手动确认 Mokahr 校招页 app.mokahr.com/campus-recruitment/gtjaqh/147180",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国泰君安期货校招投递入口（Mokahr，经官网 /r/u 跳转）",
+        "url": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网 www.gtjaqh.com 首页无招聘入口；www.gtjaqh.com/r/u 跳转至 Mokahr 校招系统，需 JS 渲染，岗位列表未能抓取，请手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "国泰君安期货金衍同盟2027届公告（公众号原文）",
+        "url": "https://mp.weixin.qq.com/s/BsdULmOvjT5-C9j9XehWTw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文被验证墙拦截（当前环境异常），未能读取正文；岗位清单取自第三方转载，请手动打开公众号原文核实"
+      },
+      {
+        "type": "official",
+        "title": "金衍同盟招聘公告（第三方转载 offcn，2026-06-02）",
+        "url": "http://m.offcn.com/gqzp/2026/0602/241315.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方转载官方公众号公告：面向2027届、网申截止2026-06-20（已过）、量化金融类含量化策略研究员/量化开发工程师/量化交易员/机器学习算法工程师"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未披露（面议）。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "gtjafutures-quant-trader-2027",
+    "companyId": "gtjafutures",
+    "title": "量化交易员（2027届·金衍同盟）",
+    "description": "国泰君安期货『金衍同盟』2027届招聘（校招预选拔/暑期实习暨校招）量化金融类岗位，方向为量化交易执行与实盘交易，对量化、衍生品交易有热情者优先。面向 2027 届应届毕业生。金衍同盟含 7 月初上海专项培训班与 7-9 月暑期实习，10-12 月发放 offer。工作地点：上海、杭州、宁波、北京、广州、深圳等。岗位职责细节以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180",
+    "officialUrl": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180",
+    "autumn2026": "ended",
+    "autumn2026Note": "金衍同盟2027届（秋招预选拔）网申已于2026-06-20 24:00截止（官方公告第三方转载）；该计划为2027届校招主通道，当前处于暑期实习阶段、10-12月发放offer。正式2026秋招批次是否另行开放，需手动确认 Mokahr 校招页 app.mokahr.com/campus-recruitment/gtjaqh/147180",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国泰君安期货校招投递入口（Mokahr，经官网 /r/u 跳转）",
+        "url": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网 www.gtjaqh.com 首页无招聘入口；www.gtjaqh.com/r/u 跳转至 Mokahr 校招系统，需 JS 渲染，岗位列表未能抓取，请手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "国泰君安期货金衍同盟2027届公告（公众号原文）",
+        "url": "https://mp.weixin.qq.com/s/BsdULmOvjT5-C9j9XehWTw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文被验证墙拦截（当前环境异常），未能读取正文；岗位清单取自第三方转载，请手动打开公众号原文核实"
+      },
+      {
+        "type": "official",
+        "title": "金衍同盟招聘公告（第三方转载 offcn，2026-06-02）",
+        "url": "http://m.offcn.com/gqzp/2026/0602/241315.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方转载官方公众号公告：面向2027届、网申截止2026-06-20（已过）、量化金融类含量化策略研究员/量化开发工程师/量化交易员/机器学习算法工程师"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未披露（面议）。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "gtjafutures-ml-engineer-2027",
+    "companyId": "gtjafutures",
+    "title": "机器学习算法工程师（2027届·金衍同盟）",
+    "description": "国泰君安期货『金衍同盟』2027届招聘（校招预选拔/暑期实习暨校招）量化金融类岗位，方向为机器学习/深度学习算法在量化投研中的应用。面向 2027 届应届毕业生，数学、计算机、统计、AI 等专业背景优先。金衍同盟含 7 月初上海专项培训班与 7-9 月暑期实习，10-12 月发放 offer。工作地点：上海、杭州、宁波、北京、广州、深圳等。岗位职责细节以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180",
+    "officialUrl": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180",
+    "autumn2026": "ended",
+    "autumn2026Note": "金衍同盟2027届（秋招预选拔）网申已于2026-06-20 24:00截止（官方公告第三方转载）；该计划为2027届校招主通道，当前处于暑期实习阶段、10-12月发放offer。正式2026秋招批次是否另行开放，需手动确认 Mokahr 校招页 app.mokahr.com/campus-recruitment/gtjaqh/147180",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国泰君安期货校招投递入口（Mokahr，经官网 /r/u 跳转）",
+        "url": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网 www.gtjaqh.com 首页无招聘入口；www.gtjaqh.com/r/u 跳转至 Mokahr 校招系统，需 JS 渲染，岗位列表未能抓取，请手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "国泰君安期货金衍同盟2027届公告（公众号原文）",
+        "url": "https://mp.weixin.qq.com/s/BsdULmOvjT5-C9j9XehWTw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文被验证墙拦截（当前环境异常），未能读取正文；岗位清单取自第三方转载，请手动打开公众号原文核实"
+      },
+      {
+        "type": "official",
+        "title": "金衍同盟招聘公告（第三方转载 offcn，2026-06-02）",
+        "url": "http://m.offcn.com/gqzp/2026/0602/241315.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方转载官方公众号公告：面向2027届、网申截止2026-06-20（已过）、量化金融类含量化策略研究员/量化开发工程师/量化交易员/机器学习算法工程师"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪资未披露（面议）。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "citicfutures-fixed-income-quant-research",
+    "companyId": "citicfutures",
+    "title": "固定收益量化研究岗（2026届校招·研究所）",
+    "description": "中信期货『总部未来星』2026届春季校园招聘（研究所）岗位，方向为固定收益量化研究。面向 2026 届硕士/博士（境内 2025-09 至 2026-08 毕业、境外 2025-01 至 2026-08 毕业），理工类、经济金融类、财务管理类专业优先；工作地点上海、北京、深圳。该届春招总部简历接收已于 2026-04-19 截止（官方公告），2026 秋招/2027 届是否开启待官方确认。",
+    "salary": "1万元起/月（第三方转载，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://campus.yingjiesheng.com/citicsf/",
+    "officialUrl": "https://citicsfzp.zhiye.com/",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2026届总部未来星春招已于2026-04-19截止（官方公告转载）；未见2026秋招/2027届官方公告，是否开启需手动确认招聘官网 citicsfzp.zhiye.com 或公众号『中信期货』",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中信期货招聘官网（citicsfzp.zhiye.com，官网『人才招聘』入口）",
+        "url": "https://citicsfzp.zhiye.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "招聘官网为 JS 应用，仅显示门户标题，岗位列表未加载，请手动查看"
+      },
+      {
+        "type": "official",
+        "title": "中信期货校园招聘投递页（yingjiesheng）",
+        "url": "https://campus.yingjiesheng.com/citicsf/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "显示2026届总部春季校招与分支机构2026届校招，总部截止2026-04-19（已过）；具体岗位需进入子页面查看，未提及2027届"
+      },
+      {
+        "type": "manual",
+        "title": "河北工业大学就业网转载《中信期货2026届总部未来星春季校招》",
+        "url": "https://career.hebut.edu.cn/correcruit/content/id/76895.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "高校就业网转载官方公告，岗位清单完整（研究所固定收益量化研究岗等）；薪酬标注'10000元以上'，第三方口径，未经官方核实"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪酬'10000元以上/月'来自高校就业网转载，第三方口径，未经官方核实。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "citicfutures-quant-strategy",
+    "companyId": "citicfutures",
+    "title": "量化策略岗（2026届校招·中信中证资本）",
+    "description": "中信期货全资子公司中信中证资本管理有限公司『2026届校招』投研交易类岗位，方向为量化策略开发。工作地点上海。面向 2026 届硕士/博士。该届校招简历接收已于 2026-04-19 截止（官方公告），2026 秋招/2027 届是否开启待官方确认。",
+    "salary": "1万元起/月（第三方转载，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://campus.yingjiesheng.com/citicsf/",
+    "officialUrl": "https://citicsfzp.zhiye.com/",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2026届总部未来星春招已于2026-04-19截止（官方公告转载）；未见2026秋招/2027届官方公告，是否开启需手动确认招聘官网 citicsfzp.zhiye.com 或公众号『中信期货』",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中信期货招聘官网（citicsfzp.zhiye.com，官网『人才招聘』入口）",
+        "url": "https://citicsfzp.zhiye.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "招聘官网为 JS 应用，仅显示门户标题，岗位列表未加载，请手动查看"
+      },
+      {
+        "type": "official",
+        "title": "中信期货校园招聘投递页（yingjiesheng）",
+        "url": "https://campus.yingjiesheng.com/citicsf/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "显示2026届总部春季校招与分支机构2026届校招，总部截止2026-04-19（已过）；具体岗位需进入子页面查看，未提及2027届"
+      },
+      {
+        "type": "manual",
+        "title": "河北工业大学就业网转载《中信期货2026届总部未来星春季校招》",
+        "url": "https://career.hebut.edu.cn/correcruit/content/id/76895.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "高校就业网转载官方公告，岗位清单完整（中信中证资本含量化策略岗/量化交易岗/做市交易岗/衍生品风控岗）；薪酬标注'10000元以上'，第三方口径，未经官方核实"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪酬'10000元以上/月'来自高校就业网转载，第三方口径，未经官方核实。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "citicfutures-quant-trading",
+    "companyId": "citicfutures",
+    "title": "量化交易岗（商品/权益）（2026届校招·中信中证资本）",
+    "description": "中信期货全资子公司中信中证资本管理有限公司『2026届校招』投研交易类岗位，方向为量化交易（商品）、量化交易（权益）。工作地点上海。面向 2026 届硕士/博士。该届校招简历接收已于 2026-04-19 截止（官方公告），2026 秋招/2027 届是否开启待官方确认。",
+    "salary": "1万元起/月（第三方转载，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://campus.yingjiesheng.com/citicsf/",
+    "officialUrl": "https://citicsfzp.zhiye.com/",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2026届总部未来星春招已于2026-04-19截止（官方公告转载）；未见2026秋招/2027届官方公告，是否开启需手动确认招聘官网 citicsfzp.zhiye.com 或公众号『中信期货』",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中信期货招聘官网（citicsfzp.zhiye.com，官网『人才招聘』入口）",
+        "url": "https://citicsfzp.zhiye.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "招聘官网为 JS 应用，仅显示门户标题，岗位列表未加载，请手动查看"
+      },
+      {
+        "type": "official",
+        "title": "中信期货校园招聘投递页（yingjiesheng）",
+        "url": "https://campus.yingjiesheng.com/citicsf/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "显示2026届总部春季校招与分支机构2026届校招，总部截止2026-04-19（已过）；具体岗位需进入子页面查看，未提及2027届"
+      },
+      {
+        "type": "manual",
+        "title": "河北工业大学就业网转载《中信期货2026届总部未来星春季校招》",
+        "url": "https://career.hebut.edu.cn/correcruit/content/id/76895.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "高校就业网转载官方公告，岗位清单完整（中信中证资本含量化策略岗/量化交易岗/做市交易岗/衍生品风控岗）；薪酬标注'10000元以上'，第三方口径，未经官方核实"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪酬'10000元以上/月'来自高校就业网转载，第三方口径，未经官方核实。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "citicfutures-derivatives-risk",
+    "companyId": "citicfutures",
+    "title": "衍生品风控岗（2026届校招·中信中证资本）",
+    "description": "中信期货全资子公司中信中证资本管理有限公司『2026届校招』投研交易类岗位，方向为衍生品风险管理与风控模型，偏好金融工程、数学、统计等复合背景。工作地点上海。面向 2026 届硕士/博士。该届校招简历接收已于 2026-04-19 截止（官方公告），2026 秋招/2027 届是否开启待官方确认。",
+    "salary": "1万元起/月（第三方转载，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://campus.yingjiesheng.com/citicsf/",
+    "officialUrl": "https://citicsfzp.zhiye.com/",
+    "autumn2026": "unknown",
+    "autumn2026Note": "2026届总部未来星春招已于2026-04-19截止（官方公告转载）；未见2026秋招/2027届官方公告，是否开启需手动确认招聘官网 citicsfzp.zhiye.com 或公众号『中信期货』",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中信期货招聘官网（citicsfzp.zhiye.com，官网『人才招聘』入口）",
+        "url": "https://citicsfzp.zhiye.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "招聘官网为 JS 应用，仅显示门户标题，岗位列表未加载，请手动查看"
+      },
+      {
+        "type": "official",
+        "title": "中信期货校园招聘投递页（yingjiesheng）",
+        "url": "https://campus.yingjiesheng.com/citicsf/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "显示2026届总部春季校招与分支机构2026届校招，总部截止2026-04-19（已过）；具体岗位需进入子页面查看，未提及2027届"
+      },
+      {
+        "type": "manual",
+        "title": "河北工业大学就业网转载《中信期货2026届总部未来星春季校招》",
+        "url": "https://career.hebut.edu.cn/correcruit/content/id/76895.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "高校就业网转载官方公告，岗位清单完整（中信中证资本含量化策略岗/量化交易岗/做市交易岗/衍生品风控岗）；薪酬标注'10000元以上'，第三方口径，未经官方核实"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（账号风控中，本轮未搜索）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "薪酬'10000元以上/月'来自高校就业网转载，第三方口径，未经官方核实。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "yonganfutures-quant-researcher-2026",
+    "companyId": "yonganfutures",
+    "title": "量化研究员（『黄埔联盟』2027届投研提前批）",
+    "description": "永安期货『黄埔联盟』定向培养量化投研人才（量化研究及应用方向），面向2027届国内外优质高校研究生（专业不限），项目整体招聘80-100人。流程：报名（2026-06-26截止）→ 笔试面试（5-6月）→ 杭州专业培训约三周（7月，含量化研究及应用、衍生品基础知识、大宗商品研究方法、期现业务实务、大类资产配置等）→ 实习（8-10月）→ 11-12月录用并签订三方、毕业后入职。工作地点：杭州、北京、上海、南京、无锡、宁波等。第三方转载投递方式：邮箱 hplm@yafco.com，联系电话 0571-88371932 / 0571-88370910 / 0571-87338619（未经官方核实）。以上整理自高校就业网及第三方招聘站转载，请以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
+    "officialUrl": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
+    "autumn2026": "unknown",
+    "autumn2026Note": "『黄埔联盟』2026年度提前批报名已于2026-06-26截止，属春季提前批（面向2027届），并非2026秋季招聘；截至2026-08-09未见永安期货正式2026秋招（2027届）官方公告，是否开启未获官方确认，需手动打开官网招聘页确认 [TODO]",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "永安期货官网『诚聘英才』招聘信息/校园招聘/校园宣讲",
+        "url": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网招聘导航『招聘信息』『校园招聘』『校园宣讲』三项均指向此页，但页面为动态加载（JS渲染），未展示具体岗位列表；需手动打开官网查看岗位与投递入口 [TODO]"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（永安期货）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看 Boss直聘上永安期货的量化岗位 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号『永安期货』",
+        "url": "https://mp.weixin.qq.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "未能在本次会话检索到『永安期货』公众号2026招聘推文的具体文章链接（WebSearch 预算已耗尽），公众号正文未抓取；需用户手动在微信内搜索『永安期货 校招/秋招 量化』确认 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "浙江工商大学金融学院转载『永安期货2026年度黄埔联盟实习生暨2027届投研提前批招聘简章』",
+        "url": "https://jrxy.zjsu.edu.cn/2026/0421/c3110a222022/page.htm",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "高校就业网转载的官方招聘简章；WebFetch因SSL证书不匹配（jrxy.zjsu.edu.cn 证书对应 *.zjgsu.edu.cn）未能读取正文，岗位与报名信息经搜索引擎摘要确认（量化研究员、报名截止2026-06-26、投递 hplm@yafco.com）。第三方转载，未经官网核实。"
+      },
+      {
+        "type": "manual",
+        "title": "牛企直聘·永安期货2026实习/校招岗位列表",
+        "url": "https://campus.niuqizp.com/schedule-7ykU5zZNz.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方招聘聚合站展示永安期货2026实习/校招岗位：大宗商品分析师、量化研究员、期现经理，招聘城市杭州/北京/上海/南京/无锡/宁波。第三方转载，未经官网核实。"
+      }
+    ],
+    "notes": "『黄埔联盟』项目信息来自高校就业网及第三方招聘站转载（报名已于2026-06-26截止，面向2027届）；薪资无官方信息，标注为面议。2026秋招是否开启未获官方确认。投递邮箱 hplm@yafco.com 与联系电话为第三方转载，未经官网核实。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "yonganfutures-commodity-analyst-2026",
+    "companyId": "yonganfutures",
+    "title": "大宗商品分析师 / 定向培养分析师（『黄埔联盟』2027届投研提前批）",
+    "description": "永安期货『黄埔联盟』大宗商品研究/定向培养分析师方向，培训含大宗商品研究方法、期现业务实务、大类资产配置等；面向2027届国内外优质高校研究生（专业不限），项目整体招聘80-100人；工作地点杭州、北京、上海、南京、无锡、宁波等。报名截止2026-06-26（已截止）。第三方转载投递方式：邮箱 hplm@yafco.com（未经官方核实）。以上整理自高校就业网及第三方招聘站转载，请以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
+    "officialUrl": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
+    "autumn2026": "unknown",
+    "autumn2026Note": "同『黄埔联盟』提前批，2026-06-26已截止；2026秋招（2027届）是否开启未获官方确认，需手动查看官网招聘页 [TODO]",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "永安期货官网『诚聘英才』招聘信息/校园招聘/校园宣讲",
+        "url": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网招聘导航『招聘信息』『校园招聘』『校园宣讲』三项均指向此页，但页面为动态加载（JS渲染），未展示具体岗位列表；需手动打开官网查看岗位与投递入口 [TODO]"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（永安期货）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看 Boss直聘上永安期货的量化岗位 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号『永安期货』",
+        "url": "https://mp.weixin.qq.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "未能在本次会话检索到『永安期货』公众号2026招聘推文的具体文章链接（WebSearch 预算已耗尽），公众号正文未抓取；需用户手动在微信内搜索确认 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "牛企直聘·永安期货2026实习/校招岗位列表",
+        "url": "https://campus.niuqizp.com/schedule-7ykU5zZNz.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方招聘聚合站展示永安期货2026实习/校招岗位：大宗商品分析师、量化研究员、期现经理，招聘城市杭州/北京/上海/南京/无锡/宁波。第三方转载，未经官网核实。"
+      }
+    ],
+    "notes": "分析师岗位为『黄埔联盟』项目培养方向之一（第三方招聘站/高校就业网转载确认）；薪资无官方信息，标注为面议。2026秋招是否开启未获官方确认。投递邮箱 hplm@yafco.com 为第三方转载，未经官网核实。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "yonganfutures-futures-arbitrage-2026",
+    "companyId": "yonganfutures",
+    "title": "期现经理（大宗商品期现业务/套保方向，『黄埔联盟』）",
+    "description": "永安期货『黄埔联盟』期现业务方向岗位（期现业务实务培训），面向2027届国内外优质高校研究生（专业不限），项目整体招聘80-100人；工作地点杭州、北京、上海、南京、无锡、宁波等。报名截止2026-06-26（已截止）。第三方转载投递方式：邮箱 hplm@yafco.com（未经官方核实）。以上整理自高校就业网及第三方招聘站转载，请以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
+    "officialUrl": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
+    "autumn2026": "unknown",
+    "autumn2026Note": "同『黄埔联盟』提前批，2026-06-26已截止；2026秋招（2027届）是否开启未获官方确认，需手动查看官网招聘页 [TODO]",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "永安期货官网『诚聘英才』招聘信息/校园招聘/校园宣讲",
+        "url": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网招聘导航『招聘信息』『校园招聘』『校园宣讲』三项均指向此页，但页面为动态加载（JS渲染），未展示具体岗位列表；需手动打开官网查看岗位与投递入口 [TODO]"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（永安期货）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看 Boss直聘上永安期货的量化岗位 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号『永安期货』",
+        "url": "https://mp.weixin.qq.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "未能在本次会话检索到『永安期货』公众号2026招聘推文的具体文章链接（WebSearch 预算已耗尽），公众号正文未抓取；需用户手动在微信内搜索确认 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "牛企直聘·永安期货2026实习/校招岗位列表",
+        "url": "https://campus.niuqizp.com/schedule-7ykU5zZNz.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方招聘聚合站展示永安期货2026实习/校招岗位：大宗商品分析师、量化研究员、期现经理，招聘城市杭州/北京/上海/南京/无锡/宁波。第三方转载，未经官网核实。"
+      }
+    ],
+    "notes": "期现经理为『黄埔联盟』项目培养方向之一（第三方招聘站/高校就业网转载确认），属大宗商品期现/套保业务方向；薪资无官方信息，标注为面议。2026秋招是否开启未获官方确认。投递邮箱 hplm@yafco.com 为第三方转载，未经官网核实。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "galaxyfutures-quant-researcher-2026",
+    "companyId": "galaxyfutures",
+    "title": "量化研究岗（国债期货/股指期货/股指期权/大类资产配置，北京/上海）",
+    "description": "银河期货量化研究方向岗位：研究方向为国债期货、股指期货、股指期权、大类资产配置；任职要求数学、物理、统计、计算机、金融工程等专业，熟练运用Python。第三方渠道转载称投递邮箱 yhqhzp@163.com（未经官方核实）。工作地点：北京/上海。另猎聘平台显示银河期货『期货量化研究员』薪资10-20K/月（2026-01-25更新，第三方未核实）。请以官网『诚聘英才』页面为准。",
+    "salary": "10-20K/月（猎聘，第三方渠道，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.yhqh.com.cn/col499/list.html",
+    "officialUrl": "https://www.yhqh.com.cn/col499/list.html",
+    "autumn2026": "unknown",
+    "autumn2026Note": "截至2026-08-09未见银河期货正式2026秋招（2027届）官方公告；第三方渠道显示的『2026招聘』为2026年春季/上半年发布（2026-04前后），是否属于2026秋季招聘未获官方确认，需手动打开官网诚聘英才页确认 [TODO]",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "银河期货官网『诚聘英才』校园招聘（col499）",
+        "url": "https://www.yhqh.com.cn/col499/list.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网『诚聘英才』含校园招聘/社会招聘/实习生招募三个子页（col499/col500/col501），页面显示筛选栏（招聘部门含研究所、数字金融业务部等）与表格框架，但岗位行需动态加载、内容为JS混淆载荷，未展示具体岗位；需手动打开官网查看量化研究岗与投递入口 [TODO]"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（银河期货）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看 Boss直聘上银河期货的量化岗位 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号『银河期货』",
+        "url": "https://mp.weixin.qq.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "未能在本次会话检索到『银河期货』公众号2026招聘推文的具体文章链接（WebSearch 预算已耗尽），公众号正文未抓取；需用户手动在微信内搜索『银河期货 校招/秋招 量化』确认 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "51jrq·银河期货量化研究岗",
+        "url": "https://www.51jrq.com/vita/company/2021?p=2",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方招聘站转载银河期货『量化研究岗（北京/上海）』：研究方向国债期货/股指期货/股指期权/大类资产配置，要求数学/物理/统计/计算机/金融工程专业、熟练运用Python，转载称投递邮箱 yhqhzp@163.com。第三方渠道，未经官方核实。"
+      },
+      {
+        "type": "manual",
+        "title": "猎聘·银河期货 期货量化研究员（10-20K）",
+        "url": "https://m.liepin.com/city-meizhou/zpqhlhu1g5o/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "猎聘平台『期货量化研究员（10-20k）』归属银河期货，2026-01-25更新；第三方渠道，未经官方核实，页面为聚合站（梅州期货量化招聘网）展示，需手动确认。"
+      }
+    ],
+    "notes": "量化研究岗信息来自第三方招聘渠道（51jrq/猎聘），未经官方核实；薪资10-20K/月为猎聘第三方数据，标注为估计值。2026秋招是否开启未获官方确认。投递邮箱 yhqhzp@163.com 为第三方转载，未经官网核实。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "galaxyfutures-quant-trader-derui-2026",
+    "companyId": "galaxyfutures",
+    "title": "量化交易员（银河德睿资本·风险管理子公司，上海）",
+    "description": "银河期货全资风险管理子公司银河德睿资本管理有限公司（上海）量化交易员岗位：挖掘和分析海量市场数据、研究市场运行规律、发现市场定价无效之处；开发和维护期权/期货相关策略（交易策略、报单策略、风险管理策略）。任职要求：统招硕士及以上学历，数学、计算机、金融工程、统计等相关专业（对期权有所了解）；具备一定编程能力，熟悉C++/Python/Java等至少一门语言；善于定量分析、逻辑能力强。（应届生求职网转载，2026-05-06发布，第三方未核实。）注意：招聘主体为银河期货全资风险管理子公司，非银河期货本部，投递入口以子公司或官网渠道为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://example.com/galaxyfutures-apply",
+    "officialUrl": "https://example.com/galaxyfutures-apply",
+    "autumn2026": "unknown",
+    "autumn2026Note": "该岗位为第三方渠道发布的量化交易岗（2026-05-06），是否为2026秋季招聘未获官方确认；银河期货/银河德睿2026秋招（2027届）是否开启需手动查看官网或子公司渠道 [TODO]",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "银河期货官网『诚聘英才』校园招聘（col499）",
+        "url": "https://www.yhqh.com.cn/col499/list.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网招聘页需JS渲染/内容混淆，未展示具体岗位；子公司银河德睿的投递入口在官网未见独立入口，需手动查看 [TODO]"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（银河期货/银河德睿）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看 Boss直聘上银河期货/银河德睿的量化岗位 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号『银河期货』",
+        "url": "https://mp.weixin.qq.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "未能在本次会话检索到『银河期货』公众号2026招聘推文的具体文章链接（WebSearch 预算已耗尽），公众号正文未抓取；需用户手动在微信内搜索确认 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "应届生求职网·银河德睿资本 量化交易员（上海）",
+        "url": "https://m.yingjiesheng.com/job-007-856-895.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "应届生求职网转载『银河德睿资本管理有限公司 量化交易员（上海）』，2026-05-06发布，全职；银河德睿为银河期货风险管理子公司（国企背景）。第三方转载，未经官方核实。"
+      }
+    ],
+    "notes": "量化交易员岗位信息来自应届生求职网转载（招聘主体为银河期货全资风险管理子公司银河德睿资本，上海）；薪资无官方信息，标注为面议。2026秋招是否开启未获官方确认。applyUrl 为占位符，实际投递入口需手动确认 [TODO]。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "galaxyfutures-fintech-ai-2026",
+    "companyId": "galaxyfutures",
+    "title": "信息技术/AI产品经理岗（2026校园招聘，上海，金融科技方向）",
+    "description": "银河期货2026年校园招聘信息技术类岗位（合计招聘5人，硕士学历）：信息技术部综合管理岗、信息系统运维岗、技术服务岗、机房管理岗、AI产品经理；专业要求计算机、统计、金融、财务管理/会计等，工作地点上海虹口区。第三方渠道（牛企直聘）显示年薪18万/年、六险二金等福利，职位明细发布于2026-04-10。属金融科技/信息技术方向，与量化基础设施相关。以上为第三方转载，未经官方核实，请以官网『诚聘英才』页面为准。",
+    "salary": "18万/年（第三方渠道，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.yhqh.com.cn/col499/list.html",
+    "officialUrl": "https://www.yhqh.com.cn/col499/list.html",
+    "autumn2026": "unknown",
+    "autumn2026Note": "该批次为2026-04-10发布的校园招聘（第三方渠道），属春季/上半年批次；截至2026-08-09未见银河期货正式2026秋招（2027届）官方公告，是否开启未获官方确认，需手动查看官网诚聘英才页 [TODO]",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "银河期货官网『诚聘英才』校园招聘（col499）",
+        "url": "https://www.yhqh.com.cn/col499/list.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网招聘页需JS渲染/内容混淆，未展示具体岗位；需手动打开官网查看信息技术类岗位与投递入口 [TODO]"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（银河期货）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看 Boss直聘上银河期货的量化/科技岗位 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号『银河期货』",
+        "url": "https://mp.weixin.qq.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "未能在本次会话检索到『银河期货』公众号2026招聘推文的具体文章链接（WebSearch 预算已耗尽），公众号正文未抓取；需用户手动在微信内搜索确认 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "牛企直聘·银河期货2026校园招聘信息技术类岗位",
+        "url": "https://campus.niuqizp.com/job-vrs5ZCCza.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方聚合站（牛企直聘）展示银河期货2026校园招聘信息技术类岗位（综合管理/运维/技术服务/机房管理/AI产品经理，5人，硕士，上海虹口，年薪18万/年），职位明细发布于2026-04-10。第三方转载，未经官方核实。"
+      }
+    ],
+    "notes": "信息技术/AI产品经理岗位信息来自第三方聚合站（牛企直聘）转载，未经官方核实；薪资18万/年为第三方数据，标注为估计值。2026秋招是否开启未获官方确认。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "cofcofutures-options-quant-analyst-2026",
+    "companyId": "cofcofutures",
+    "title": "期权量化分析师（2026届春季校招）",
+    "description": "中粮期货2026春季校园招聘·研究分析类岗位：期权量化分析师（研究分析类含期权量化分析师、研究岗）。面向2026届应届生，本科及以上；工作地点：北京/上海/济南/成都/乌鲁木齐。负责期权定价与量化策略研究分析。招聘流程：简历投递→笔试→面试→岗前实习→OFFER→入职。岗位信息来自第三方转载的官方公众号公告，未经官方原文核实，请以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "http://campus.51job.com/cofco",
+    "officialUrl": "http://www.zlqh.com/campus_recruitment.html",
+    "autumn2026": "unknown",
+    "autumn2026Note": "已确认中粮期货2026春季校招（2026届）于2026-03-30启动、含本岗位；未获得2026年秋季（2027届）校招的官方公告证据，故 autumn2026 标 unknown。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中粮期货官网·校园招聘页",
+        "url": "http://www.zlqh.com/campus_recruitment.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面显示'暂无数据'，岗位列表需JS渲染或尚未发布；官网投递入口指向中粮集团2026届校招页 http://campus.51job.com/cofco"
+      },
+      {
+        "type": "wechat",
+        "title": "中粮期货2026校园招聘正式启动（官方公众号推文）",
+        "url": "https://mp.weixin.qq.com/s/Hu2m5K_cmY9KigExW-mgkw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文被反爬验证墙（'环境异常'）拦截，未读到原文；岗位信息来自第三方转载（牛企直聘 campus.niuqizp.com/job-vyk5ZzNna.html、得早学 deizao.net 转载，公告2026-03-31发布），未经官方原文核实"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（风控期）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "岗位信息来自第三方平台转载的中粮期货官方公众号公告（2026春季校招，网申2026-03-30启动），标注为第三方、未经官方原文核实。薪资官方仅表述'具有市场竞争力的薪酬包'，未公布具体数字；第三方（小红书）流传平均月薪约12.3k-19.5k，未经官方核实，故 salary 记面议。投递入口为官方网申页 http://campus.51job.com/cofco（中粮集团2026届校园招聘，最多三个平行志愿）。autumn2026 未获官方秋招公告证据。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "cofcofutures-research-2026",
+    "companyId": "cofcofutures",
+    "title": "研究岗（2026届春季校招）",
+    "description": "中粮期货2026春季校园招聘·研究分析类岗位：研究岗（研究分析类含期权量化分析师、研究岗）。面向2026届应届生，本科及以上；工作地点：北京/上海/济南/成都/乌鲁木齐。中粮期货以农产品期货、套期保值为特色，研究岗侧重产业/品种研究。岗位信息来自第三方转载的官方公众号公告，未经官方原文核实，请以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "http://campus.51job.com/cofco",
+    "officialUrl": "http://www.zlqh.com/campus_recruitment.html",
+    "autumn2026": "unknown",
+    "autumn2026Note": "已确认中粮期货2026春季校招（2026届）于2026-03-30启动、含本岗位；未获得2026年秋季（2027届）校招的官方公告证据，故 autumn2026 标 unknown。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中粮期货官网·校园招聘页",
+        "url": "http://www.zlqh.com/campus_recruitment.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面显示'暂无数据'，岗位列表需JS渲染或尚未发布；官网投递入口指向中粮集团2026届校招页 http://campus.51job.com/cofco"
+      },
+      {
+        "type": "wechat",
+        "title": "中粮期货2026校园招聘正式启动（官方公众号推文）",
+        "url": "https://mp.weixin.qq.com/s/Hu2m5K_cmY9KigExW-mgkw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文被反爬验证墙（'环境异常'）拦截，未读到原文；岗位信息来自第三方转载（牛企直聘、得早学），未经官方原文核实"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（风控期）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "岗位信息来自第三方平台转载的中粮期货官方公众号公告（2026春季校招），标注为第三方、未经官方原文核实。薪资官方仅表述'具有市场竞争力的薪酬包'，具体数字未公布，salary 记面议。投递入口为官方网申页 http://campus.51job.com/cofco。autumn2026 未获官方秋招公告证据。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "cofcofutures-otc-derivatives-trader-2026",
+    "companyId": "cofcofutures",
+    "title": "场外衍生品交易岗（2026届春季校招）",
+    "description": "中粮期货2026春季校园招聘·金融交易类岗位：场外衍生品交易岗（金融交易类含场外衍生品交易岗、交易执行岗）。面向2026届应届生，本科及以上；工作地点：北京/上海/济南/成都/乌鲁木齐。负责场外衍生品（OTC）交易相关业务。岗位信息来自第三方转载的官方公众号公告，未经官方原文核实，请以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "http://campus.51job.com/cofco",
+    "officialUrl": "http://www.zlqh.com/campus_recruitment.html",
+    "autumn2026": "unknown",
+    "autumn2026Note": "已确认中粮期货2026春季校招（2026届）于2026-03-30启动、含本岗位；未获得2026年秋季（2027届）校招的官方公告证据，故 autumn2026 标 unknown。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中粮期货官网·校园招聘页",
+        "url": "http://www.zlqh.com/campus_recruitment.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面显示'暂无数据'，岗位列表需JS渲染或尚未发布；官网投递入口指向中粮集团2026届校招页 http://campus.51job.com/cofco"
+      },
+      {
+        "type": "wechat",
+        "title": "中粮期货2026校园招聘正式启动（官方公众号推文）",
+        "url": "https://mp.weixin.qq.com/s/Hu2m5K_cmY9KigExW-mgkw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文被反爬验证墙（'环境异常'）拦截，未读到原文；岗位信息来自第三方转载（牛企直聘、得早学），未经官方原文核实"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（风控期）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "岗位信息来自第三方平台转载的中粮期货官方公众号公告（2026春季校招），标注为第三方、未经官方原文核实。薪资官方仅表述'具有市场竞争力的薪酬包'，具体数字未公布，salary 记面议。投递入口为官方网申页 http://campus.51job.com/cofco。autumn2026 未获官方秋招公告证据。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "cofcofutures-trading-execution-2026",
+    "companyId": "cofcofutures",
+    "title": "交易执行岗（2026届春季校招）",
+    "description": "中粮期货2026春季校园招聘·金融交易类岗位：交易执行岗（金融交易类含场外衍生品交易岗、交易执行岗）。面向2026届应届生，本科及以上；工作地点：北京/上海/济南/成都/乌鲁木齐。负责交易执行相关业务。岗位信息来自第三方转载的官方公众号公告，未经官方原文核实，请以官网为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "http://campus.51job.com/cofco",
+    "officialUrl": "http://www.zlqh.com/campus_recruitment.html",
+    "autumn2026": "unknown",
+    "autumn2026Note": "已确认中粮期货2026春季校招（2026届）于2026-03-30启动、含本岗位；未获得2026年秋季（2027届）校招的官方公告证据，故 autumn2026 标 unknown。",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中粮期货官网·校园招聘页",
+        "url": "http://www.zlqh.com/campus_recruitment.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面显示'暂无数据'，岗位列表需JS渲染或尚未发布；官网投递入口指向中粮集团2026届校招页 http://campus.51job.com/cofco"
+      },
+      {
+        "type": "wechat",
+        "title": "中粮期货2026校园招聘正式启动（官方公众号推文）",
+        "url": "https://mp.weixin.qq.com/s/Hu2m5K_cmY9KigExW-mgkw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文被反爬验证墙（'环境异常'）拦截，未读到原文；岗位信息来自第三方转载（牛企直聘、得早学），未经官方原文核实"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（风控期）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "岗位信息来自第三方平台转载的中粮期货官方公众号公告（2026春季校招），标注为第三方、未经官方原文核实。薪资官方仅表述'具有市场竞争力的薪酬包'，具体数字未公布，salary 记面议。投递入口为官方网申页 http://campus.51job.com/cofco。autumn2026 未获官方秋招公告证据。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "cscfutures-quant-researcher-2026",
+    "companyId": "cscfutures",
+    "title": "量化研究员（校招/秋招，需手动确认）",
+    "description": "中信建投期货量化研究方向岗位（占位模板，未确认当前是否开放）。期货公司量化研究方向典型岗位，可能涉及量化策略研究与开发、CTA、做市等。具体职责、任职要求、招聘批次以 cfc108.zhiye.com 招聘平台实际发布为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://cfc108.zhiye.com/campus",
+    "officialUrl": "https://cfc108.zhiye.com/",
+    "autumn2026": "unknown",
+    "autumn2026Note": "未获得中信建投期货2026秋招/校招的官方公告证据；招聘平台含'校园招聘（校招职位）'板块，但岗位列表需JS渲染无法读取。",
+    "source": "manual",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中信建投期货·人才招聘平台（cfc108.zhiye.com）",
+        "url": "https://cfc108.zhiye.com/",
+        "accessedAt": "2026-08-09",
+        "status": "manual_required",
+        "note": "招聘平台为JS渲染SPA，导航含'校园招聘/校招职位/社会招聘/实习生招聘'，但岗位列表需浏览器手动查看，未检索到量化岗位具体空缺。校招入口 https://cfc108.zhiye.com/campus ；社招总部 https://cfc108.zhiye.com/social/jobs?queryId=376f3d41-2654-4af3-876d-4653df0ecb41"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（风控期）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "占位条目（未核实）：本岗位未确认开放，标题为期货公司量化方向典型岗位模板，需手动打开 cfc108.zhiye.com 招聘平台确认实际空缺、职责、要求与批次。薪资未确认。autumn2026 未获官方证据。公司官网 https://www.cfc108.com 经官网'防范假冒网站声明'核实。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "cscfutures-derivatives-risk-2026",
+    "companyId": "cscfutures",
+    "title": "衍生品风险控制岗（校招/社招，需手动确认）",
+    "description": "中信建投期货衍生品风控方向岗位（占位模板，未确认当前是否开放）。期货公司衍生品/风险管理方向典型岗位，可能涉及场外衍生品风控、套保风控、期货风控等。具体职责、任职要求、招聘批次以 cfc108.zhiye.com 招聘平台实际发布为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://cfc108.zhiye.com/social/jobs?queryId=376f3d41-2654-4af3-876d-4653df0ecb41",
+    "officialUrl": "https://cfc108.zhiye.com/",
+    "autumn2026": "unknown",
+    "autumn2026Note": "未获得中信建投期货2026秋招/校招的官方公告证据；招聘平台岗位列表需JS渲染无法读取。",
+    "source": "manual",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中信建投期货·人才招聘平台（cfc108.zhiye.com）",
+        "url": "https://cfc108.zhiye.com/",
+        "accessedAt": "2026-08-09",
+        "status": "manual_required",
+        "note": "招聘平台为JS渲染SPA，导航含'校园招聘/校招职位/社会招聘/实习生招聘'，但岗位列表需浏览器手动查看，未检索到衍生品风控岗位具体空缺。社招总部入口 https://cfc108.zhiye.com/social/jobs?queryId=376f3d41-2654-4af3-876d-4653df0ecb41"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（风控期）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "占位条目（未核实）：本岗位未确认开放，标题为期货公司衍生品风控方向典型岗位模板，需手动打开 cfc108.zhiye.com 招聘平台确认实际空缺、职责、要求与批次。薪资未确认。autumn2026 未获官方证据。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "cscfutures-fintech-dev-2026",
+    "companyId": "cscfutures",
+    "title": "金融科技/量化开发岗（校招/社招，需手动确认）",
+    "description": "中信建投期货金融科技/量化开发方向岗位（占位模板，未确认当前是否开放）。期货公司金融科技方向典型岗位，可能涉及交易系统开发、量化回测/交易系统、C++/Python开发等。具体职责、任职要求、招聘批次以 cfc108.zhiye.com 招聘平台实际发布为准。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://cfc108.zhiye.com/social/jobs?queryId=376f3d41-2654-4af3-876d-4653df0ecb41",
+    "officialUrl": "https://cfc108.zhiye.com/",
+    "autumn2026": "unknown",
+    "autumn2026Note": "未获得中信建投期货2026秋招/校招的官方公告证据；招聘平台岗位列表需JS渲染无法读取。",
+    "source": "manual",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中信建投期货·人才招聘平台（cfc108.zhiye.com）",
+        "url": "https://cfc108.zhiye.com/",
+        "accessedAt": "2026-08-09",
+        "status": "manual_required",
+        "note": "招聘平台为JS渲染SPA，导航含'校园招聘/校招职位/社会招聘/实习生招聘'，但岗位列表需浏览器手动查看，未检索到金融科技/量化开发岗位具体空缺。社招总部入口 https://cfc108.zhiye.com/social/jobs?queryId=376f3d41-2654-4af3-876d-4653df0ecb41"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（风控期）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "账号处于 code=36 风控期，需用户手动查看"
+      }
+    ],
+    "notes": "占位条目（未核实）：本岗位未确认开放，标题为期货公司金融科技方向典型岗位模板，需手动打开 cfc108.zhiye.com 招聘平台确认实际空缺、职责、要求与批次。薪资未确认。autumn2026 未获官方证据。",
     "createdAt": "2026-08-09",
     "updatedAt": "2026-08-09"
   }
