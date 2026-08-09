@@ -18,7 +18,7 @@ description: 调研公募/私募基金公司及券商（证券公司）的量化
 ## 工作流（按顺序执行）
 
 1. **归一化公司**：确定正式公司名、英文 slug id、类型（`public` 公募 / `private` 私募 / `securities` 券商）、所在地。
-2. **并行调研三来源**：官网（WebSearch + WebFetch）、Boss直聘（**优先本机 boss-cli 真实搜索**，见下）、微信公众号（WebSearch + WebFetch）。每个来源产出一条 `sources[]` 记录，无论成败都要记录。Boss 直聘注意：先跑认证检查，再按公司过滤搜索。
+2. **并行调研三来源**：官网（WebSearch + WebFetch）、Boss直聘（**优先本机 boss-agent-cli 真实搜索**，见下）、微信公众号（WebSearch + WebFetch）。每个来源产出一条 `sources[]` 记录，无论成败都要记录。Boss 直聘注意：先跑认证检查，再按公司过滤搜索。
 3. **聚合 `fetchStatus`**（规则见下）。
 4. **输出可读报告**（固定模板）。
 5. **写盘**：读现有 `data/companies.json`、`data/jobs.json` → 按 id upsert → 原子写回。优先用脚本 `scripts/merge_and_write.mjs`（会做校验）。数据目录取 `QUANT_JOB_DATA_DIR` 环境变量，**未设置时默认就是 `D:\workspace\job\data`（网站真实数据目录）**；该环境变量只在测试/沙盒场景使用。
@@ -32,13 +32,13 @@ description: 调研公募/私募基金公司及券商（证券公司）的量化
 - WebFetch 招聘页或具体岗位页，提取：岗位名、职责、任职要求、薪资区间（如有）、投递入口、秋招信息。
 - 降级：页面需 JS 渲染 / 登录 / 抓取失败 → `status: "partial"`，note 写明缺什么、去哪手动看，保留 URL。
 
-### Boss 直聘（优先用 boss-cli 真实数据）
-- **首选本机 boss-cli** 直接搜索 Boss直聘 API 拿真实岗位数据（用户自己的登录会话，非绕过登录墙）。完整命令、字段映射、认证与降级规则见 `references/research-sources.md`。
-- **认证分层**（`__zp_stoken__` 是分钟级令牌，登录 cookie 是 ~7 天级，二者要分开看待）：
-  - **日常**：每次调研前跑 `scripts/boss_auth_check.py`。若只是 stoken 过期（最常见），它会**自动 mint**（把已有登录 cookie 交给无头 Edge 跑一次页面 JS，约 5 秒，无需扫码），打印 `AUTH_OK` 后直接搜索。
-  - **`AUTH_NEEDED`（mint 也救不回来 = 登录 cookie 真过期，约 7 天一次）**：用户在场时，请用户运行 `python scripts/boss_login_ui.py`（弹出二维码 PNG 图片，手机 Boss直聘 APP 扫码确认，约 10 秒，脚本自动补 mint）。无人值守环境（子代理/自动评估，用户无法扫码）**不要等待扫码**，直接把 Boss 来源标为 `blocked`，note "登录态已过期，需用户运行 boss_login_ui.py 扫码"，报告清单标 `[TODO]`，继续官网与公众号来源。
-- **纪律**：只读（search/detail/cities/status），禁止 greet/batch-greet；不打印 cookie；不并行跑命令，每个任务 `search` ≤3 次、优先公司全称精确搜索；stoken 过期优先自动 mint（`--mint-only`），不要每次都让人扫码；**触发 `code=36` 风控立即停搜**并降级 blocked（详见 references/research-sources.md）。
-- 降级：boss-cli 不可用/认证失败 → WebSearch 摘要 + `status: "blocked"`，note "登录墙，需手动查看"，保留搜索结果与职位页链接。
+### Boss 直聘（优先用 boss-agent-cli 真实数据）
+- **首选本机 boss-agent-cli**（`C:\Users\DDOSvoid\.local\bin\boss.exe`）直接搜索 Boss直聘拿真实岗位数据（用户自己的登录会话，非绕过登录墙）。工具自带加密凭证存储，stoken 过期自动刷新。完整命令、字段映射、认证与降级规则见 `references/research-sources.md`。
+- **认证分层**（`__zp_stoken__` 是分钟级令牌、登录 cookie 是 ~7 天级，二者要分开看待）：
+  - **日常**：每次调研前跑 `scripts/boss_auth_check.py`（内部跑 `boss --json status`，只读）。输出 `AUTH_OK` 即登录态健康，直接搜索。stoken 过期时工具内部自动刷新，无需额外操作。
+  - **`AUTH_NEEDED`（= 登录 cookie 真过期，约 7 天一次）**：用户在场时，请用户启动独立 Edge CDP（`--user-data-dir=C:\Users\DDOSvoid\.boss-agent\edge-cdp --remote-debugging-port=9222`，在其中登录 zhipin 后）再 `boss login --cdp`。无人值守环境（子代理/自动评估，用户无法扫码）**不要等待登录**，直接把 Boss 来源标为 `blocked`，note "登录态已过期，需用户运行 boss login --cdp 重新登录"，报告清单标 `[TODO]`，继续官网与公众号来源。
+- **纪律**：只读（search/detail/cities/status），禁止 greet/batch-greet；不打印 cookie（status 输出已自动 REDACTED）；不并行跑命令，每个任务 `search` ≤3 次、优先公司全称精确搜索；`--json` 是全局选项要放在命令名前；**触发 `code=36` 风控立即停搜**并降级 blocked（详见 references/research-sources.md）。
+- 降级：boss 不可用/认证失败 → WebSearch 摘要 + `status: "blocked"`，note "登录墙，需手动查看"，保留搜索结果与职位页链接。
 
 ### 微信公众号
 - 查询：`"微信公众号 {公司} 2026 校园招聘"`、`"{公司} 秋招 量化 公众号"`。
@@ -51,7 +51,7 @@ description: 调研公募/私募基金公司及券商（证券公司）的量化
 - `fetchStatus` 聚合：全部 `complete` → `complete`；至少一条 `complete` → `partial`；全 `blocked`/`manual` → `manual_required`。
 - **薪资分三种情况处理**：
   - 官方来源确认（招聘页/官方公告写明区间）→ `salaryIsEstimate: false`，如实填写，并把官方来源放进 `sources[]`。
-  - **来自第三方渠道**（Boss直聘搜索摘要、boss-cli 实时数据、论坛、小红书、媒体爆料等）→ `salaryIsEstimate: true`，`salary` 保留数字但明确标注来源，如 `"30-50万/年（Boss直聘，未经官方核实）"`，同时在 `notes` 注明"薪资来自第三方，未核实"。这很重要——数字可以给出，但绝不能让它看起来像是官方确认的。boss-cli 是实时数据、比搜索引擎摘要可靠，但**仍是第三方**，同样要标注。
+  - **来自第三方渠道**（Boss直聘搜索摘要、boss-agent-cli 实时数据、论坛、小红书、媒体爆料等）→ `salaryIsEstimate: true`，`salary` 保留数字但明确标注来源，如 `"30-50万/年（Boss直聘，未经官方核实）"`，同时在 `notes` 注明"薪资来自第三方，未核实"。这很重要——数字可以给出，但绝不能让它看起来像是官方确认的。boss-agent-cli 是实时数据、比搜索引擎摘要可靠，但**仍是第三方**，同样要标注。
   - 完全没查到 → `salary: "示例：面议"`、`salaryIsEstimate: true`。
 - 投递链接未知：`applyUrl: "https://example.com/<companyId>-apply"` 占位并标注。
 - 报告"需手动确认清单"中的每一项都要标注能否本次解决：能解决就写具体操作；**因登录墙/验证墙/需人工投递等本次无法解决的，用 `[TODO]` 前缀**，如 "`[TODO]` 打开 Boss直聘职位页手动确认岗位详情"。这让后续处理有明确的待办清单。
@@ -95,11 +95,11 @@ description: 调研公募/私募基金公司及券商（证券公司）的量化
 ## 参考资料
 
 - `references/data-schema.md` —— 字段定义、取值枚举、合并约定（写盘前必读）
-- `references/research-sources.md` —— 三来源查找策略、别名映射、降级模板、**Boss直聘 boss-cli 完整命令与字段映射**
+- `references/research-sources.md` —— 三来源查找策略、别名映射、降级模板、**Boss直聘 boss-agent-cli 完整命令与字段映射**
 
 ## 辅助脚本（scripts/）
 
-- `boss_auth_check.py` —— 检查 boss-cli 认证状态；stoken 过期自动 mint（每次调研前跑）
-- `boss_mint_stoken.mjs` —— 无头 Edge 刷新 `__zp_stoken__`（5 秒，无需扫码；boss_auth_check 内部调用，也可单独 `node boss_mint_stoken.mjs <凭证路径>`）
-- `boss_login_ui.py` —— 扫码登录（约 7 天一次）：弹二维码 PNG 图片，手机 APP 扫码 → 自动补 mint 写凭证；`--mint-only` 只刷 stoken 不扫码
+- `boss_auth_check.py` —— 检查 boss-agent-cli 认证状态（跑 `boss --json status`，只读；stoken 过期由工具自动刷新）。每次调研前跑
 - `merge_and_write.mjs` —— 把调研结果按 schema 合并写盘
+
+> 旧 boss-cli 工具（boss_mint_stoken.mjs / boss_login_ui.py / boss_login.cmd）已随切换归档到 `scripts/legacy/`，仅作历史参考，不再使用。
