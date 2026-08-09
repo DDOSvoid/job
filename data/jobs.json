@@ -875,12 +875,12 @@
   {
     "id": "ubiquant-quant-dev-intern",
     "companyId": "ubiquant",
-    "title": "量化实现实习生 / Quant Developer实习生",
-    "description": "九坤日常/暑期实习岗，提供转正机会。职责：研究股票、期货、期权等市场的量化模型；为研究员策略实现提供数据和技术支持；使用概率、统计或机器学习方法分析市场及交易。要求：硕士及以上（统计、数学、物理、计算机、金融等专业），熟练使用至少一门编程语言（如Python、C++），扎实的计算机理论基础，每周5天、实习3个月。工作地点：北京海淀（五道口/赛尔大厦）。投递：官网 ubiquant.com/careers 或 Boss直聘搜索'九坤投资'。（第三方招聘渠道转载，详情请以官网为准）",
-    "salary": "800-1000元/天（第三方招聘渠道（猎聘/全职网转Boss直聘职位），未经官方核实）",
+    "title": "量化实现实习生（交易开发方向）",
+    "description": "九坤日常/暑期实习岗，提供转正机会。职责：研究股票、期货、期权等市场的量化模型；为研究员策略实现提供数据和技术支持；使用概率、统计或机器学习方法分析市场及交易。要求：硕士及以上（统计、数学、物理、计算机、金融等专业），熟练使用至少一门编程语言（如Python、C++），扎实的计算机理论基础。Boss直聘当前在上海虹口/北京海淀双城挂出（2026-08-09 实时），本科及以上、每周4天、实习2-3个月，薪资1000-1200元/天。投递：Boss直聘搜索『九坤投资』或官网 ubiquant.com/careers。（详情请以官网为准）",
+    "salary": "1000-1200元/天（Boss直聘实时，未经官方核实）",
     "salaryIsEstimate": true,
-    "applyUrl": "https://www.ubiquant.com/careers",
-    "officialUrl": "https://m.zhipin.com/companys/eb0b7bac0a8698020nB92d66.html",
+    "applyUrl": "https://www.zhipin.com/job_detail/509346c78f8d57bb0nFy3928FFdU.html",
+    "officialUrl": "https://www.ubiquant.com/careers",
     "autumn2026": "unknown",
     "autumn2026Note": "实习岗，非秋招批次；2026/2027届在校生可投，转正通道存在，需以官网/Boss直聘当前状态为准",
     "source": "boss",
@@ -888,11 +888,19 @@
     "sources": [
       {
         "type": "boss",
+        "title": "Boss直聘·九坤投资 量化实现实习生（交易开发方向）",
+        "url": "https://www.zhipin.com/job_detail/509346c78f8d57bb0nFy3928FFdU.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-09）：北京海淀/上海虹口双城挂出，1000-1200元/天，本科，4天/周，2-3个月"
+      },
+      {
+        "type": "boss",
         "title": "Boss直聘·九坤投资（北京）有限公司公司页",
         "url": "https://m.zhipin.com/companys/eb0b7bac0a8698020nB92d66.html",
         "accessedAt": "2026-08-09",
         "status": "blocked",
-        "note": "Boss直聘有安全验证墙；搜索摘要显示公司在招含'量化实现实习生'等职位，详情需手动查看"
+        "note": "公司页有安全验证墙，无法直接读取公司全部在招职位；已通过实时搜索获取本条岗位数据"
       },
       {
         "type": "official",
@@ -900,10 +908,10 @@
         "url": "https://www.quanzhi.com/job/69679729e69285a80525604c",
         "accessedAt": "2026-08-09",
         "status": "partial",
-        "note": "第三方聚合页完整展示职责/要求/薪资（800-1000元/天）与福利；该职位在聚合页显示'已结束'，是否仍在招需以官网为准"
+        "note": "第三方聚合页展示职责/要求与福利；该职位在聚合页显示'已结束'，是否仍在招以官网为准"
       }
     ],
-    "notes": "薪资800-1000元/天来自第三方招聘渠道转载，未经官方核实。职位在第三方聚合页显示'已结束'，但九坤实习岗常态化开放，投递前请核实当前状态。",
+    "notes": "薪资1000-1200元/天来自Boss直聘实时搜索（2026-08-09），未经官方核实；此前第三方转载显示800-1000元/天。Boss直聘当前在京/沪双城挂出同岗位。投递前请以Boss直聘/官网当前状态为准。",
     "createdAt": "2026-08-09",
     "updatedAt": "2026-08-09"
   },
@@ -1008,8 +1016,8 @@
     "id": "minghong-quant-research-intern-2026",
     "companyId": "minghong",
     "title": "量化研究实习生（2026实习·面向2027届及以后）",
-    "description": "2026实习岗位（面向2027届及以后在校生，可转正，实习地点上海/北京/香港）。岗位职责：利用各种金融数据分析工具，参与数据、指标的发掘与加工；对市场数据进行统计分析、建立有效模型；研究和开发量化投资策略；从交易执行、风控处理等各方面优化改进策略。要求：国内外顶尖高校计算机、统计、数学、物理等理工科，数学基础扎实，掌握C++/Python/R等语言；加分项为量化实习经验、竞赛获奖、学术论文。Boss直聘显示：上海虹口区江湾、本科及以上、每周4天、实习3个月。投递：官网 join.mhfunds.com；邮箱 campushr@mhfunds.com。（岗位详情以官网为准）",
-    "salary": "面议（Boss直聘职位未标注薪资；第三方统计明汯公司整体月薪约9.56K，未经官方核实）",
+    "description": "2026实习岗位（面向2027届及以后在校生，可转正，实习地点上海/北京/香港）。岗位职责：利用各种金融数据分析工具，参与数据、指标的发掘与加工；对市场数据进行统计分析、建立有效模型；研究和开发量化投资策略；从交易执行、风控处理等各方面优化改进策略。要求：国内外顶尖高校计算机、统计、数学、物理等理工科，数学基础扎实，掌握C++/Python/R等语言；加分项为量化实习经验、竞赛获奖、学术论文。Boss直聘显示：上海虹口区、本科及以上、每周4天、实习3个月，薪资300-400元/天。投递：官网 join.mhfunds.com；邮箱 campushr@mhfunds.com。（岗位详情以官网为准）",
+    "salary": "300-400元/天（Boss直聘实时，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://join.mhfunds.com",
     "officialUrl": "https://www.zhipin.com/job_detail/83357a07049026c91H143dS-FVFR.html",
@@ -1020,11 +1028,11 @@
     "sources": [
       {
         "type": "boss",
-        "title": "Boss直聘·明汯投资 量化研究实习生（boss-cli实时搜索）",
+        "title": "Boss直聘·明汯投资 量化研究实习生（boss-agent-cli实时搜索）",
         "url": "https://www.zhipin.com/job_detail/83357a07049026c91H143dS-FVFR.html",
         "accessedAt": "2026-08-09",
         "status": "complete",
-        "note": "boss-cli 实时搜索（用户已登录账号）获取真实岗位数据：上海虹口区江湾、本科、4天/周、3个月，福利含五险一金/年终奖/餐补等；详情页需登录"
+        "note": "boss-agent-cli 实时搜索（2026-08-09）：上海虹口区、本科、4天/周、3个月、300-400元/天，福利含五险一金/年终奖/餐补等"
       },
       {
         "type": "wechat",
@@ -1035,7 +1043,7 @@
         "note": "微信文章有环境验证墙，正文未直接抓取；经摘要确认2026实习岗位清单、投递方式与转正通道"
       }
     ],
-    "notes": "岗位数据来自Boss直聘实时搜索（boss-cli，2026-08-09），薪资未标注；第三方统计薪资未经官方核实。",
+    "notes": "岗位与薪资数据来自Boss直聘实时搜索（boss-agent-cli，2026-08-09，300-400元/天），薪资未经官方核实。",
     "createdAt": "2026-08-09",
     "updatedAt": "2026-08-09"
   },
@@ -1317,10 +1325,10 @@
     "id": "lingjun-quant-researcher-2026",
     "companyId": "lingjun",
     "title": "量化研究员（股票/期货·校招/社招）",
-    "description": "负责量化投资策略的研究与开发，挖掘股票/期货市场的Alpha信号与因子，构建并优化量化模型，跟踪市场与前沿研究。任职要求：顶尖院校硕博为主，数学/统计/物理/计算机等理工科背景，数理功底扎实、编程能力突出（Python/C++）；量化实习经验、竞赛获奖（IMO/ICPC等）、顶会论文为加分项。工作地点：北京、上海（另有香港、新加坡办公点）。（依据官网校招/社招入口与第三方招聘帖整理，详情请以官网为准）",
-    "salary": "40-70K/月（第三方渠道·猎聘职位展示，未经官方核实；不同职位页区间为40-60K/50-70K/30-60K不等）",
+    "description": "负责量化投资策略的研究与开发，挖掘股票/期货市场的Alpha信号与因子，构建并优化量化模型，跟踪市场与前沿研究。任职要求：顶尖院校硕博为主，数学/统计/物理/计算机等理工科背景，数理功底扎实、编程能力突出（Python/C++）；量化实习经验、竞赛获奖（IMO/ICPC等）、顶会论文为加分项。工作地点：上海（浦东）、北京（另有香港、新加坡办公点）。（依据官网校招/社招入口与第三方招聘帖整理，详情请以官网为准）",
+    "salary": "40-70K/月（第三方渠道：猎聘展示40-60K/50-70K/30-60K不等、Boss直聘实时50-70K，均未经官方核实）",
     "salaryIsEstimate": true,
-    "applyUrl": "https://www.lingjuninvest.com/campus-recruitment",
+    "applyUrl": "https://www.zhipin.com/job_detail/e3a8a0398c6b2bed0nB63tq6GFZY.html",
     "officialUrl": "https://www.lingjuninvest.com/social-recruitment",
     "autumn2026": "unknown",
     "autumn2026Note": "社招持续开放；2026秋季校园招聘（2027届）截至2026-08-09未见官方公告，是否开启2026秋招未获官方确认，需关注官网『加入我们』及公众号『灵均投资招聘』。",
@@ -1361,14 +1369,14 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘搜索：灵均投资 量化研究员",
-        "url": "https://www.zhipin.com",
+        "title": "Boss直聘·灵均投资 量化研究员",
+        "url": "https://www.zhipin.com/job_detail/e3a8a0398c6b2bed0nB63tq6GFZY.html",
         "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『灵均投资』查看 [TODO]"
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-09）：上海浦东、50-70K、经验不限、学历不限；此前账号风控（code=36）已解除，实时数据可读"
       }
     ],
-    "notes": "岗位存在性经官网校招/社招入口及猎聘、小红书等第三方招聘渠道确认；岗位JD详情与薪资需以官网MOKA系统/猎聘职位页为准。薪资来自第三方渠道（猎聘），未经官方核实。",
+    "notes": "岗位存在性经官网校招/社招入口、猎聘及Boss直聘实时搜索确认；薪资来自第三方渠道（猎聘40-60K/50-70K/30-60K不等、Boss直聘实时50-70K），未经官方核实。",
     "createdAt": "2026-08-09",
     "updatedAt": "2026-08-09"
   },
@@ -8059,6 +8067,33 @@
       }
     ],
     "notes": "占位条目（未核实）：本岗位未确认开放，标题为期货公司金融科技方向典型岗位模板，需手动打开 cfc108.zhiye.com 招聘平台确认实际空缺、职责、要求与批次。薪资未确认。autumn2026 未获官方证据。",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "qilin-boss-quant-research-intern-2026",
+    "companyId": "qilin",
+    "title": "量化研究实习生（可转正）",
+    "description": "Boss直聘实时在招（2026-08-09）：上海虹口，本科及以上，每周4天，实习2个月起，可转正。技能方向：量化策略/因子/高频/深度学习/股票/模型。职责与任职要求详见职位页。投递：Boss直聘搜索『启林投资』（70 Capital）。",
+    "salary": "1000-2000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/8814427784055ab403N43dW4EFVW.html",
+    "officialUrl": "https://www.70capital.com",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习岗（可转正），面向在校生，非秋招批次；是否参与2027届秋招需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·启林投资 量化研究实习生（可转正）",
+        "url": "https://www.zhipin.com/job_detail/8814427784055ab403N43dW4EFVW.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-09）：上海虹口、本科、1000-2000元/天、4天/周、2个月起、可转正"
+      }
+    ],
+    "notes": "数据来自Boss直聘实时搜索（boss-agent-cli，2026-08-09），薪资未经官方核实。",
     "createdAt": "2026-08-09",
     "updatedAt": "2026-08-09"
   }
