@@ -888,11 +888,19 @@
     "sources": [
       {
         "type": "boss",
-        "title": "Boss直聘·九坤投资 量化实现实习生（交易开发方向）（2026-08-11 实时确认）",
+        "title": "Boss直聘·九坤投资 量化实现实习生（交易开发方向）（上海·2026-08-11 实时确认）",
         "url": "https://www.zhipin.com/job_detail/adab9465e52738110nJ739S_FVtY.html",
         "accessedAt": "2026-08-11",
         "status": "complete",
         "note": "boss-agent-cli 实时搜索（2026-08-11）：上海虹口、本科、1000-1200元/天，4天/周，2-3个月"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·九坤投资 量化实现实习生（交易开发方向）（北京·2026-08-11 实时确认）",
+        "url": "https://www.zhipin.com/job_detail/509346c78f8d57bb0nFy3928FFdU.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京海淀、本科、1000-1200元/天；技能 C++/Linux/数据库/编译器/分布式"
       },
       {
         "type": "boss",
@@ -911,7 +919,7 @@
         "note": "第三方聚合页展示职责/要求与福利；该职位在聚合页显示'已结束'，是否仍在招以官网为准"
       }
     ],
-    "notes": "薪资1000-1200元/天来自Boss直聘实时搜索（2026-08-09 与 2026-08-11 两次确认），未经官方核实。Boss直聘当前在京/沪双城挂出同岗位。投递前请以Boss直聘/官网当前状态为准。",
+    "notes": "薪资1000-1200元/天来自Boss直聘实时搜索（2026-08-09 与 2026-08-11 两次确认），未经官方核实。Boss直聘当前在京/沪双城挂出同岗位（北京 job_detail 509346c7...，2026-08-11 确认）。投递前请以Boss直聘/官网当前状态为准。",
     "createdAt": "2026-08-09",
     "updatedAt": "2026-08-11"
   },
@@ -8156,6 +8164,384 @@
       }
     ],
     "notes": "薪资 400-500元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "minghong-quant-research-intern-bj",
+    "companyId": "minghong",
+    "title": "量化研究实习生",
+    "description": "明汯投资 量化研究实习生（Boss直聘 2026-08-11 实时在招，北京海淀区）。本科，薪资 450-500元/天。投递：Boss直聘搜索『明汯投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "450-500元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/80d10fe0b123169c0nV-2ti9EVBY.html",
+    "officialUrl": "https://join.mhfunds.com",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习岗，非秋招批次",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·明汯投资 量化研究实习生（北京海淀）",
+        "url": "https://www.zhipin.com/job_detail/80d10fe0b123169c0nV-2ti9EVBY.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京海淀、本科、450-500元/天"
+      }
+    ],
+    "notes": "薪资 450-500元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "qilin-boss-quant-trader-2026",
+    "companyId": "qilin",
+    "title": "量化交易员",
+    "description": "启林投资 量化交易员（Boss直聘 2026-08-11 实时在招，上海虹口区）。经验不限、本科，薪资 12-20K。技能方向：股票/期货/股指期货交易员、Python/R/Matlab、量化交易经验、证券/基金从业资格等。投递：Boss直聘搜索『启林投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "12-20K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/459deb41373a0fb20nJ72t68EVBQ.html",
+    "officialUrl": "https://example.com/qilin",
+    "autumn2026": "unknown",
+    "autumn2026Note": "交易员岗，经验不限；是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·启林投资 量化交易员",
+        "url": "https://www.zhipin.com/job_detail/459deb41373a0fb20nJ72t68EVBQ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海虹口、经验不限、本科、12-20K"
+      }
+    ],
+    "notes": "薪资 12-20K 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "yinnuo-boss-quant-research-intern-2026",
+    "companyId": "yinnuo",
+    "title": "量化投资研究实习生",
+    "description": "因诺资产 量化投资研究实习生（Boss直聘 2026-08-11 实时在招，北京西城区）。本科，薪资 300-600元/天。技能方向：机器学习、股票、衍生品、二级市场投资。投递：Boss直聘搜索『因诺资产』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "300-600元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/c7fff06118abe9021XF_3dS8GFBV.html",
+    "officialUrl": "https://example.com/yinnuo",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习岗，非秋招批次",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·因诺资产 量化投资研究实习生",
+        "url": "https://www.zhipin.com/job_detail/c7fff06118abe9021XF_3dS8GFBV.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京西城、本科、300-600元/天"
+      }
+    ],
+    "notes": "薪资 300-600元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "qianshuo-quant-research-intern",
+    "companyId": "qianshuo-investment",
+    "title": "量化研究员（实习）",
+    "description": "千朔投资 量化研究员（实习）（Boss直聘 2026-08-11 实时在招，上海浦东新区）。本科，薪资 600-1000元/天。投递：Boss直聘搜索『千朔投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "600-1000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/c6567a463d6322330nJ-2tS6FlpQ.html",
+    "officialUrl": "https://example.com/qianshuo-investment",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习岗，非秋招批次",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·千朔投资 量化研究员（实习）",
+        "url": "https://www.zhipin.com/job_detail/c6567a463d6322330nJ-2tS6FlpQ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东、本科、600-1000元/天"
+      }
+    ],
+    "notes": "薪资 600-1000元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "pansong-quant-research-intern",
+    "companyId": "pansong-assets",
+    "title": "量化研究员-投资方向（日常实习）",
+    "description": "磐松资产 【日常实习】量化研究员-投资方向（Boss直聘 2026-08-11 实时在招，上海杨浦区）。本科，薪资 200-400元/天。投递：Boss直聘搜索『磐松资产』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "200-400元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/e9cdf9126967923a0nJ729y1FFJW.html",
+    "officialUrl": "https://example.com/pansong-assets",
+    "autumn2026": "unknown",
+    "autumn2026Note": "日常实习岗，非秋招批次",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·磐松资产 量化研究员-投资方向（日常实习）",
+        "url": "https://www.zhipin.com/job_detail/e9cdf9126967923a0nJ729y1FFJW.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海杨浦、本科、200-400元/天"
+      }
+    ],
+    "notes": "薪资 200-400元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "maoyuan-quant-research-intern",
+    "companyId": "maoyuan-quant",
+    "title": "量化研究员（应届/实习）",
+    "description": "茂源量化 量化研究员（应届/实习）（Boss直聘 2026-08-11 实时在招，沪/京/深三城：上海浦东、北京海淀、深圳南山）。本科，薪资 790-800元/天。投递：Boss直聘搜索『茂源量化』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "790-800元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/c8272716f23aac26031_2tm5ElNX.html",
+    "officialUrl": "https://example.com/maoyuan-quant",
+    "autumn2026": "unknown",
+    "autumn2026Note": "应届/实习均可，非标准秋招批次",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·茂源量化 量化研究员（应届/实习）",
+        "url": "https://www.zhipin.com/job_detail/c8272716f23aac26031_2tm5ElNX.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东/北京海淀/深圳南山三城同岗、本科、790-800元/天；京深 job_detail 2f868ee1/45fc5ae8"
+      }
+    ],
+    "notes": "薪资 790-800元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。同岗在京/深/沪三城挂出，本条目以沪为applyUrl。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jiaqi-quant-dev-intern",
+    "companyId": "jiaqi-investment",
+    "title": "量化开发实习生",
+    "description": "佳期投资 量化开发实习生（Boss直聘 2026-08-11 实时在招，上海浦东/北京海淀）。本科，薪资 1000-2000元/天。技能方向：C++、Python。投递：Boss直聘搜索『佳期投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "1000-2000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/3b1a510e1e3cdb1e0nFz39W5FVVZ.html",
+    "officialUrl": "https://example.com/jiaqi-investment",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习岗，非秋招批次",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·佳期投资 量化开发实习生",
+        "url": "https://www.zhipin.com/job_detail/3b1a510e1e3cdb1e0nFz39W5FVVZ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东/北京海淀、本科、1000-2000元/天；北京 job_detail d1dc09a7"
+      }
+    ],
+    "notes": "薪资 1000-2000元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。同岗在京/沪双城挂出，本条目以沪为applyUrl。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "wanyan-quant-dev-intern",
+    "companyId": "wanyan-assets",
+    "title": "量化开发工程师—实习/校招",
+    "description": "顽岩资产 量化开发工程师—实习/校招（Boss直聘 2026-08-11 实时在招，上海浦东新区）。本科，薪资 1000-2000元/天。技能方向：C++、量化交易开发。投递：Boss直聘搜索『顽岩资产』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "1000-2000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/f075dd509cae6a120nF83969FFZS.html",
+    "officialUrl": "https://example.com/wanyan-assets",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习/校招混合，非标准秋招批次",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·顽岩资产 量化开发工程师—实习/校招",
+        "url": "https://www.zhipin.com/job_detail/f075dd509cae6a120nF83969FFZS.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东、本科、1000-2000元/天"
+      }
+    ],
+    "notes": "薪资 1000-2000元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jiurun-quant-research-intern",
+    "companyId": "jiurun-investment",
+    "title": "量化研究员（实习可转正）",
+    "description": "玖润投资 量化研究员（实习可转正）（Boss直聘 2026-08-11 实时在招，上海黄浦区）。本科，薪资 200-400元/天。技能方向：机器学习、股票量化。投递：Boss直聘搜索『玖润投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "200-400元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/36143adc43bb59930nBz3NS7EVtZ.html",
+    "officialUrl": "https://example.com/jiurun-investment",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习岗（可转正），非秋招批次",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·玖润投资 量化研究员（实习可转正）",
+        "url": "https://www.zhipin.com/job_detail/36143adc43bb59930nBz3NS7EVtZ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海黄浦、本科、200-400元/天"
+      }
+    ],
+    "notes": "薪资 200-400元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。公司规模小、以主观/多头为主，量化属性请核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jim-quant-researcher",
+    "companyId": "jim-fund",
+    "title": "量化研究员（全职/实习）",
+    "description": "积沐基金 量化研究员（全职/实习）（Boss直聘 2026-08-11 实时在招，上海静安区）。经验不限、本科，薪资 15-30K。投递：Boss直聘搜索『积沐基金』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "15-30K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/0776a92a7cec885e03F939-9E1ZT.html",
+    "officialUrl": "https://example.com/jim-fund",
+    "autumn2026": "unknown",
+    "autumn2026Note": "全职/实习均可，非标准秋招批次",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·积沐基金 量化研究员（全职/实习）",
+        "url": "https://www.zhipin.com/job_detail/0776a92a7cec885e03F939-9E1ZT.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海静安、经验不限、本科、15-30K"
+      }
+    ],
+    "notes": "薪资 15-30K 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "debei-quant-research-intern",
+    "companyId": "debei-fund",
+    "title": "实习量化研究员",
+    "description": "德贝 实习量化研究员（Boss直聘 2026-08-11 实时在招，上海浦东新区）。本科，薪资 300-400元/天。技能方向：量化、股票、回测、因子研究。投递：Boss直聘搜索『德贝』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "300-400元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/83a6133a1e7e226a1Hx_2Nu5FVFY.html",
+    "officialUrl": "https://example.com/debei-fund",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习岗，非秋招批次",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·德贝 实习量化研究员",
+        "url": "https://www.zhipin.com/job_detail/83a6133a1e7e226a1Hx_2Nu5FVFY.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东、本科、300-400元/天"
+      }
+    ],
+    "notes": "薪资 300-400元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "taiyan-quant-strategy-researcher-intern",
+    "companyId": "taiyan-fund",
+    "title": "量化策略研究员（实习转正）",
+    "description": "太衍 量化策略研究员（实习转正）（Boss直聘 2026-08-11 实时在招，上海浦东新区）。在校/应届、学历不限，薪资 50-80K。投递：Boss直聘搜索『太衍』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "50-80K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/e8112691364c913303N729y8GVBT.html",
+    "officialUrl": "https://example.com/taiyan-fund",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习转正岗，面向在校/应届",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·太衍 量化策略研究员（实习转正）",
+        "url": "https://www.zhipin.com/job_detail/e8112691364c913303N729y8GVBT.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东、在校/应届、学历不限、50-80K"
+      }
+    ],
+    "notes": "薪资 50-80K 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "taiyan-quant-intern",
+    "companyId": "taiyan-fund",
+    "title": "量化实习生（可转正）",
+    "description": "太衍 量化实习生（可转正）（Boss直聘 2026-08-11 实时在招，上海浦东新区）。本科，薪资 1000-2000元/天。投递：Boss直聘搜索『太衍』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "1000-2000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/4aa572cc87e1d5fb03J42Ny5FFdV.html",
+    "officialUrl": "https://example.com/taiyan-fund",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习岗（可转正），非秋招批次",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·太衍 量化实习生（可转正）",
+        "url": "https://www.zhipin.com/job_detail/4aa572cc87e1d5fb03J42Ny5FFdV.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东、本科、1000-2000元/天"
+      }
+    ],
+    "notes": "薪资 1000-2000元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "peibang-quant-dev-intern",
+    "companyId": "peibang-fund",
+    "title": "量化开发实习生",
+    "description": "配邦 量化开发实习生（Boss直聘 2026-08-11 实时在招，上海）。本科，薪资 200-230元/天。技能方向：C++、Python、Linux开发/部署、量化交易开发。投递：Boss直聘搜索『配邦』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "200-230元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/37818376dd35ced10nB92di5F1RQ.html",
+    "officialUrl": "https://example.com/peibang-fund",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习岗，非秋招批次",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·配邦 量化开发实习生",
+        "url": "https://www.zhipin.com/job_detail/37818376dd35ced10nB92di5F1RQ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海、本科、200-230元/天"
+      }
+    ],
+    "notes": "薪资 200-230元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
   }

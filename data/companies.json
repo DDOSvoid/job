@@ -691,5 +691,115 @@
     "source": "manual",
     "createdAt": "2026-08-09",
     "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "qianshuo-investment",
+    "name": "千朔投资",
+    "type": "private",
+    "website": "https://example.com/qianshuo-investment",
+    "location": "上海",
+    "about": "上海千朔投资管理有限公司，量化私募，深耕中低频量化；第三方资料称2026年新晋百亿规模（私募排排网/东方财富，请核实）。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "pansong-assets",
+    "name": "磐松资产",
+    "type": "private",
+    "website": "https://example.com/pansong-assets",
+    "location": "上海",
+    "about": "上海磐松私募基金管理有限公司，量化私募，2025年曾新晋百亿量化私募（第三方信息，请核实）。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "maoyuan-quant",
+    "name": "茂源量化",
+    "type": "private",
+    "website": "https://example.com/maoyuan-quant",
+    "location": "上海",
+    "about": "茂源量化(海南)私募基金管理合伙企业(有限合伙)，百亿级量化私募，2013年成立（第三方信息，请核实）。注册地海南，Boss直聘在沪/京/深招聘。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jiaqi-investment",
+    "name": "佳期投资",
+    "type": "private",
+    "website": "https://example.com/jiaqi-investment",
+    "location": "上海",
+    "about": "上海佳期私募基金管理有限公司，百亿量化私募（第三方信息，请核实）。Boss直聘在沪/京招聘量化开发实习生。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "wanyan-assets",
+    "name": "顽岩资产",
+    "type": "private",
+    "website": "https://example.com/wanyan-assets",
+    "location": "上海",
+    "about": "上海顽岩私募基金管理有限公司，百亿量化私募，策略覆盖期货高频/CTA/指数增强（第三方信息，请核实）。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jiurun-investment",
+    "name": "玖润投资",
+    "type": "private",
+    "website": "https://example.com/jiurun-investment",
+    "location": "西安（上海招聘）",
+    "about": "西安玖润投资管理有限公司，规模较小私募（0-5亿，第三方信息）；策略以主观/多头为主，量化属性请核实。Boss直聘上海黄浦有量化研究员实习岗。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jim-fund",
+    "name": "积沐基金",
+    "type": "private",
+    "website": "https://example.com/jim-fund",
+    "location": "上海",
+    "about": "上海积沐私募基金管理有限公司，量化私募，策略偏AI/ML与另类数据（第三方信息，请核实）。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "debei-fund",
+    "name": "德贝",
+    "type": "private",
+    "website": "https://example.com/debei-fund",
+    "location": "上海",
+    "about": "上海德贝私募基金管理有限公司，量化CTA私募，2026年新晋百亿（第三方信息，请核实）。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "taiyan-fund",
+    "name": "太衍",
+    "type": "private",
+    "website": "https://example.com/taiyan-fund",
+    "location": "上海",
+    "about": "上海太衍私募基金管理有限公司，量化私募，成立于2025年，规模20-50亿（第三方信息，请核实）。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "peibang-fund",
+    "name": "配邦",
+    "type": "private",
+    "website": "https://example.com/peibang-fund",
+    "location": "上海",
+    "about": "上海配邦私募基金管理有限公司，量化私募，规模0-5亿（第三方信息，请核实）。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
   }
 ]
