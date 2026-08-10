@@ -11,6 +11,7 @@ const SECTIONS: { type: CompanyType; title: string; dot: string }[] = [
   { type: 'public', title: '公募基金', dot: 'pub' },
   { type: 'private', title: '量化私募', dot: 'hedge' },
   { type: 'securities', title: '证券公司', dot: 'sec' },
+  { type: 'tech', title: '科技/量化科技', dot: 'tech' },
 ]
 
 function hostOf(url: string): string {

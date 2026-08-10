@@ -28,13 +28,15 @@
   --purple: #5b21b6;
   --purple-soft: #f3f0fd;
 
-  /* 机构三分类色（参照个人求职目录 quant-job-index.html 的三分类设计） */
+  /* 机构四分类色（公募橙 / 私募青 / 券商靛 / 科技石墨） */
   --cat-pub: #b45b2a;
   --cat-pub-soft: #f7ece2;
   --cat-hedge: #0b6b6b;
   --cat-hedge-soft: #e2f0f0;
   --cat-sec: #4055a6;
   --cat-sec-soft: #e6eaf6;
+  --cat-tech: #5f6b7a;
+  --cat-tech-soft: #eef0f2;
 
   /* 等宽数字：报价/终端读数 */
   --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', 'JetBrains Mono', Menlo, Consolas,
@@ -457,7 +459,7 @@ h4 {
   outline-offset: 2px;
 }
 
-/* 机构分类色左条：三分类贯通岗位列表（公募橙 / 私募青 / 券商靛） */
+/* 机构分类色左条：四分类贯通岗位列表（公募橙 / 私募青 / 券商靛 / 科技石墨） */
 .job-row[data-type='public'] {
   border-left: 3px solid var(--cat-pub);
 }
@@ -468,6 +470,10 @@ h4 {
 
 .job-row[data-type='securities'] {
   border-left: 3px solid var(--cat-sec);
+}
+
+.job-row[data-type='tech'] {
+  border-left: 3px solid var(--cat-tech);
 }
 
 /* 模块化：模块间细分隔线 */
@@ -722,10 +728,11 @@ h4 {
 .badge-info    { background: var(--primary-soft); color: #1d4ed8; }
 .badge-neutral { background: var(--bg-subtle);    color: var(--text-secondary); }
 .badge-purple  { background: var(--purple-soft);  color: var(--purple); }
-/* 机构三分类徽章：公募橙 / 私募青 / 券商靛 */
+/* 机构四分类徽章：公募橙 / 私募青 / 券商靛 / 科技石墨 */
 .badge-pub   { background: var(--cat-pub-soft);   color: var(--cat-pub); }
 .badge-hedge { background: var(--cat-hedge-soft); color: var(--cat-hedge); }
 .badge-sec   { background: var(--cat-sec-soft);   color: var(--cat-sec); }
+.badge-tech  { background: var(--cat-tech-soft);  color: var(--cat-tech); }
 
 .chip {
   display: inline-block;
@@ -761,6 +768,10 @@ h4 {
 
 .cat-dot.sec {
   background: var(--cat-sec);
+}
+
+.cat-dot.tech {
+  background: var(--cat-tech);
 }
 
 /* ============================================================
@@ -1416,6 +1427,10 @@ input.grow {
   --cat: var(--cat-sec);
 }
 
+.dir-section[data-type='tech'] {
+  --cat: var(--cat-tech);
+}
+
 .dir-head {
   display: flex;
   align-items: center;
@@ -1701,6 +1716,10 @@ input.grow {
 
 .cat-stat.sec .cat-stat-num {
   color: var(--cat-sec);
+}
+
+.cat-stat.tech .cat-stat-num {
+  color: var(--cat-tech);
 }
 
 /* ============================================================

@@ -8544,5 +8544,1598 @@
     "notes": "薪资 200-230元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "huiyuanying-量化研究实习生",
+    "companyId": "huiyuanying",
+    "title": "量化研究实习生",
+    "description": "上海汇远盈私募基金管理有限公司 量化研究实习生（Boss直聘 2026-08-11 实时在招，上海浦东新区）。薪资 200-250元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『上海汇远盈私募基金管理有限公司』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "200-250元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/b05bffdbb07eaa930nZ72d61EVVS.html",
+    "officialUrl": "https://example.com/huiyuanying",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·上海汇远盈私募基金管理有限公司 量化研究实习生",
+        "url": "https://www.zhipin.com/job_detail/b05bffdbb07eaa930nZ72d61EVVS.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 200-250元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "liangkui-QuantDevelop",
+    "companyId": "liangkui",
+    "title": "Quant Developer 量化开发（Infra）",
+    "description": "上海量魁私募基金管理 Quant Developer 量化开发（Infra）（Boss直聘 2026-08-11 实时在招，上海虹口区）。薪资 25-50K·13薪（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『上海量魁私募基金管理』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "25-50K·13薪（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/5d1ba368c5a025810nZ90929F1RR.html",
+    "officialUrl": "https://example.com/liangkui",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·上海量魁私募基金管理 Quant Developer 量化开发（Infra）",
+        "url": "https://www.zhipin.com/job_detail/5d1ba368c5a025810nZ90929F1RR.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海虹口区、学历未注明、经验未注明、技能 ['C/C++', '要求数据开发经验', '其他数据开发经验', '非外包类', '金融行业经验', 'Python']"
+      }
+    ],
+    "notes": "薪资 25-50K·13薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "taigeyinghua-量化研究员",
+    "companyId": "taigeyinghua",
+    "title": "量化研究员",
+    "description": "上海钛戈英华科技 量化研究员（Boss直聘 2026-08-11 实时在招，杭州拱墅区）。薪资 350-500元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『上海钛戈英华科技』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "350-500元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/70a63bd4bb60edf303d53tW4EVBX.html",
+    "officialUrl": "https://example.com/taigeyinghua",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·上海钛戈英华科技 量化研究员",
+        "url": "https://www.zhipin.com/job_detail/70a63bd4bb60edf303d53tW4EVBX.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州拱墅区、学历未注明、经验未注明、技能 ['债券', '证券分析', '股票', '二级市场', '美股', '金融', '经济学', '量化交易']"
+      }
+    ],
+    "notes": "薪资 350-500元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "taigeyinghua-量化交易员",
+    "companyId": "taigeyinghua",
+    "title": "量化交易员",
+    "description": "上海钛戈英华科技 量化交易员（Boss直聘 2026-08-11 实时在招，杭州拱墅区）。薪资 20-40K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『上海钛戈英华科技』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "20-40K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/39a2aa8a31fdc4ee03x-3Nm-F1BT.html",
+    "officialUrl": "https://example.com/taigeyinghua",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·上海钛戈英华科技 量化交易员",
+        "url": "https://www.zhipin.com/job_detail/39a2aa8a31fdc4ee03x-3Nm-F1BT.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州拱墅区、学历未注明、经验未注明、技能 ['高频交易', '二级市场', '量化交易']"
+      }
+    ],
+    "notes": "薪资 20-40K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jiuqi-CTA量化实习生",
+    "companyId": "jiuqi",
+    "title": "CTA量化实习生",
+    "description": "久期科技 CTA量化实习生（Boss直聘 2026-08-11 实时在招，北京海淀区）。薪资 240-480元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『久期科技』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "240-480元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/27df54d14e4b1aaf0nJ-29m6FVRS.html",
+    "officialUrl": "https://example.com/jiuqi",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·久期科技 CTA量化实习生",
+        "url": "https://www.zhipin.com/job_detail/27df54d14e4b1aaf0nJ-29m6FVRS.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京海淀区、学历未注明、经验未注明、技能 ['CTA', '量化策略', '量化交易']"
+      }
+    ],
+    "notes": "薪资 240-480元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "metabit-量化研究员全职实习",
+    "companyId": "metabit",
+    "title": "量化研究员（全职/实习）",
+    "description": "乾象投资 量化研究员（全职/实习）（Boss直聘 2026-08-11 实时在招，北京朝阳区）。薪资 1000-2000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『乾象投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "1000-2000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/3f704621c30c9163031_39i1EFVX.html",
+    "officialUrl": "https://example.com/metabit",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·乾象投资 量化研究员（全职/实习）",
+        "url": "https://www.zhipin.com/job_detail/3f704621c30c9163031_39i1EFVX.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "metabit-量化研究员全职实习-2",
+    "companyId": "metabit",
+    "title": "量化研究员（全职/实习）",
+    "description": "乾象投资 量化研究员（全职/实习）（Boss直聘 2026-08-11 实时在招，北京朝阳区）。薪资 1000-2000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『乾象投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "1000-2000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/3f704621c30c9163031_39i1EFVX.html",
+    "officialUrl": "https://example.com/metabit",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·乾象投资 量化研究员（全职/实习）",
+        "url": "https://www.zhipin.com/job_detail/3f704621c30c9163031_39i1EFVX.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "guangyiwangda-量化开发实习生",
+    "companyId": "guangyiwangda",
+    "title": "量化开发实习生",
+    "description": "光亿旺达 量化开发实习生（Boss直聘 2026-08-11 实时在招，上海虹口区）。薪资 300-500元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『光亿旺达』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "300-500元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/123691dceaecd8fd0nJ53Nq7FFBV.html",
+    "officialUrl": "https://example.com/guangyiwangda",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·光亿旺达 量化开发实习生",
+        "url": "https://www.zhipin.com/job_detail/123691dceaecd8fd0nJ53Nq7FFBV.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海虹口区、学历未注明、经验未注明、技能 ['金融项目', 'RAG', 'Python', 'LangChain', '大数据框架', 'Agent 开发']"
+      }
+    ],
+    "notes": "薪资 300-500元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "lingxing-量化投资研究实习岗在读",
+    "companyId": "lingxing",
+    "title": "量化投资研究实习岗（在读）",
+    "description": "凌星投资 量化投资研究实习岗（在读）（Boss直聘 2026-08-11 实时在招，杭州）。薪资 1-6K·14薪（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『凌星投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "1-6K·14薪（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/eefb746ae7377ce61nN52968FVNY.html",
+    "officialUrl": "https://example.com/lingxing",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·凌星投资 量化投资研究实习岗（在读）",
+        "url": "https://www.zhipin.com/job_detail/eefb746ae7377ce61nN52968FVNY.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州、学历未注明、经验未注明、技能 ['证券从业资格', '衍生品', '掌握Python/R语言/Matlab/SQL等', '基金从业资格证', '股票', '资产/财富管理公司', '量化分析', '基金', '二级市场投资职位', '基金从业资格', '基金经理']"
+      }
+    ],
+    "notes": "薪资 1-6K·14薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "fande-量化研究员",
+    "companyId": "fande",
+    "title": "量化研究员",
+    "description": "凡德投资 量化研究员（Boss直聘 2026-08-11 实时在招，广州天河区）。薪资 30-50K·15薪（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『凡德投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "30-50K·15薪（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/2fbb345bbfd964941XZ-2t66ElNT.html",
+    "officialUrl": "https://example.com/fande",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·凡德投资 量化研究员",
+        "url": "https://www.zhipin.com/job_detail/2fbb345bbfd964941XZ-2t66ElNT.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：广州天河区、学历未注明、经验未注明、技能 ['实盘操作经验', '期货交易', '量化交易']"
+      }
+    ],
+    "notes": "薪资 30-50K·15薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jinhualun-量化开发工程师C",
+    "companyId": "jinhualun",
+    "title": "量化开发工程师（C++）",
+    "description": "进化论资产 量化开发工程师（C++）（Boss直聘 2026-08-11 实时在招，深圳南山区）。薪资 400-800元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『进化论资产』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "400-800元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/572a0a4360cb2b310nB42NS_EFVT.html",
+    "officialUrl": "https://example.com/jinhualun",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·进化论资产 量化开发工程师（C++）",
+        "url": "https://www.zhipin.com/job_detail/572a0a4360cb2b310nB42NS_EFVT.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：深圳南山区、学历未注明、经验未注明、技能 ['C++', 'Linux开发/部署经验', '量化交易开发经验', '编译器开发经验', '低延迟交易系统']"
+      }
+    ],
+    "notes": "薪资 400-800元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "lianhai-期货CTA策略量化研究员",
+    "companyId": "lianhai",
+    "title": "期货CTA策略量化研究员",
+    "description": "北京星鹏联海私募基金管理有限公司 期货CTA策略量化研究员（Boss直聘 2026-08-11 实时在招，北京东城区）。薪资 260-350元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『北京星鹏联海私募基金管理有限公司』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "260-350元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/4eb71f8d67de22d10nJ72Nq9GFpU.html",
+    "officialUrl": "https://example.com/lianhai",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·北京星鹏联海私募基金管理有限公司 期货CTA策略量化研究员",
+        "url": "https://www.zhipin.com/job_detail/4eb71f8d67de22d10nJ72Nq9GFpU.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京东城区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 260-350元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "linggan-量化基金经理",
+    "companyId": "linggan",
+    "title": "量化基金经理",
+    "description": "北京灵感探索信息技术 量化基金经理（Boss直聘 2026-08-11 实时在招，北京海淀区）。薪资 80-85K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『北京灵感探索信息技术』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "80-85K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/fb500b845a8364970nFz2di0GFNQ.html",
+    "officialUrl": "https://example.com/linggan",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·北京灵感探索信息技术 量化基金经理",
+        "url": "https://www.zhipin.com/job_detail/fb500b845a8364970nFz2di0GFNQ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京海淀区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 80-85K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "linggan-量化基金经理-2",
+    "companyId": "linggan",
+    "title": "量化基金经理",
+    "description": "北京灵感探索信息技术 量化基金经理（Boss直聘 2026-08-11 实时在招，北京海淀区）。薪资 80-85K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『北京灵感探索信息技术』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "80-85K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/fb500b845a8364970nFz2di0GFNQ.html",
+    "officialUrl": "https://example.com/linggan",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·北京灵感探索信息技术 量化基金经理",
+        "url": "https://www.zhipin.com/job_detail/fb500b845a8364970nFz2di0GFNQ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京海淀区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 80-85K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "lianghua-量化基金经理",
+    "companyId": "lianghua",
+    "title": "量化基金经理",
+    "description": "北京量化投资管理 量化基金经理（Boss直聘 2026-08-11 实时在招，北京朝阳区）。薪资 30-60K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『北京量化投资管理』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "30-60K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/f7d860ad91ac50dd0nJ539W0ElRQ.html",
+    "officialUrl": "https://example.com/lianghua",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·北京量化投资管理 量化基金经理",
+        "url": "https://www.zhipin.com/job_detail/f7d860ad91ac50dd0nJ539W0ElRQ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 30-60K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "banyang-量化研究员实习生A190",
+    "companyId": "banyang",
+    "title": "量化研究员（实习生）(A19067)",
+    "description": "半鞅私募基金 量化研究员（实习生）(A19067)（Boss直聘 2026-08-11 实时在招，上海浦东新区）。薪资 1000-2000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『半鞅私募基金』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "1000-2000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/0f2a98f8aaf6d7fc0nR90961EVVQ.html",
+    "officialUrl": "https://example.com/banyang",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·半鞅私募基金 量化研究员（实习生）(A19067)",
+        "url": "https://www.zhipin.com/job_detail/0f2a98f8aaf6d7fc0nR90961EVVQ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、学历未注明、经验未注明、技能 ['高频', '量化策略', '量化金融', '量化研究', '量化交易']"
+      }
+    ],
+    "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "boyi-量化开发助理",
+    "companyId": "boyi",
+    "title": "量化开发助理",
+    "description": "博弈资产 量化开发助理（Boss直聘 2026-08-11 实时在招，北京海淀区）。薪资 500-1000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『博弈资产』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "500-1000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/9192f4542562347c0nF-2Nu8ElVW.html",
+    "officialUrl": "https://example.com/boyi",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·博弈资产 量化开发助理",
+        "url": "https://www.zhipin.com/job_detail/9192f4542562347c0nF-2Nu8ElVW.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京海淀区、学历未注明、经验未注明、技能 ['C++', 'QT', '量化交易开发经验']"
+      }
+    ],
+    "notes": "薪资 500-1000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "bopu-量化开发工程师",
+    "companyId": "bopu",
+    "title": "量化开发工程师",
+    "description": "博普资产 量化开发工程师（Boss直聘 2026-08-11 实时在招，深圳福田区）。薪资 400-800元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『博普资产』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "400-800元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/3201e04d4770db8a03Zy3Nm4EVVW.html",
+    "officialUrl": "https://example.com/bopu",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·博普资产 量化开发工程师",
+        "url": "https://www.zhipin.com/job_detail/3201e04d4770db8a03Zy3Nm4EVVW.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：深圳福田区、学历未注明、经验未注明、技能 ['Python']"
+      }
+    ],
+    "notes": "薪资 400-800元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "nailao-量化策略研究员",
+    "companyId": "nailao",
+    "title": "量化策略研究员",
+    "description": "奶酪基金 量化策略研究员（Boss直聘 2026-08-11 实时在招，广州番禺区）。薪资 150-200元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『奶酪基金』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "150-200元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/08701292933715a00nF_29y1F1BZ.html",
+    "officialUrl": "https://example.com/nailao",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·奶酪基金 量化策略研究员",
+        "url": "https://www.zhipin.com/job_detail/08701292933715a00nF_29y1F1BZ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：广州番禺区、学历未注明、经验未注明、技能 ['量化研究', '研究员', '计算机', '金融工程', '编程', '统计学', '量化']"
+      }
+    ],
+    "notes": "薪资 150-200元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "yusi-量化分析师实习生",
+    "companyId": "yusi",
+    "title": "量化分析师（实习生）",
+    "description": "宇斯人工智能 量化分析师（实习生）（Boss直聘 2026-08-11 实时在招，杭州拱墅区）。薪资 350-500元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『宇斯人工智能』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "350-500元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/7d9c4308c9b09d4b0ndy3tq9FlpS.html",
+    "officialUrl": "https://example.com/yusi",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·宇斯人工智能 量化分析师（实习生）",
+        "url": "https://www.zhipin.com/job_detail/7d9c4308c9b09d4b0ndy3tq9FlpS.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州拱墅区、学历未注明、经验未注明、技能 ['策略验证', '量化投资', '金融']"
+      }
+    ],
+    "notes": "薪资 350-500元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "hongyuan-量化交易项目经理助理",
+    "companyId": "hongyuan",
+    "title": "量化交易项目经理助理",
+    "description": "宏源期货 量化交易项目经理助理（Boss直聘 2026-08-11 实时在招，北京西城区）。薪资 100-150元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『宏源期货』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "100-150元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/e941221a683094fb1XF43d2-F1NR.html",
+    "officialUrl": "https://example.com/hongyuan",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·宏源期货 量化交易项目经理助理",
+        "url": "https://www.zhipin.com/job_detail/e941221a683094fb1XF43d2-F1NR.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京西城区、学历未注明、经验未注明、技能 ['期货', '量化交易', '技术支持']"
+      }
+    ],
+    "notes": "薪资 100-150元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jushi-量化研究员",
+    "companyId": "jushi",
+    "title": "量化研究员",
+    "description": "巨石资本 量化研究员（Boss直聘 2026-08-11 实时在招，广州天河区）。薪资 80-130元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『巨石资本』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "80-130元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/e2e4b92331be1ea80nB609q1EFtV.html",
+    "officialUrl": "https://example.com/jushi",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·巨石资本 量化研究员",
+        "url": "https://www.zhipin.com/job_detail/e2e4b92331be1ea80nB609q1EFtV.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：广州天河区、学历未注明、经验未注明、技能 ['量化']"
+      }
+    ],
+    "notes": "薪资 80-130元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "shixin-AI量化研究平台资深工程",
+    "companyId": "shixin",
+    "title": "AI量化研究平台资深工程师",
+    "description": "拾新未来 AI量化研究平台资深工程师（Boss直聘 2026-08-11 实时在招，深圳）。薪资 40-70K·16薪（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『拾新未来』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "40-70K·16薪（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/581caec27b7b2bfe0nJ62d2-EVZS.html",
+    "officialUrl": "https://example.com/shixin",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·拾新未来 AI量化研究平台资深工程师",
+        "url": "https://www.zhipin.com/job_detail/581caec27b7b2bfe0nJ62d2-EVZS.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：深圳、学历未注明、经验未注明、技能 ['C++', '架构设计经验']"
+      }
+    ],
+    "notes": "薪资 40-70K·16薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "minghu-量化研究员校招实习留用",
+    "companyId": "minghu",
+    "title": "量化研究员（校招/实习留用）",
+    "description": "明湖汇 量化研究员（校招/实习留用）（Boss直聘 2026-08-11 实时在招，北京朝阳区）。薪资 30-60K·18薪（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『明湖汇』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "30-60K·18薪（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/02e63d3ec4f9484a0nF73dq5FVNV.html",
+    "officialUrl": "https://example.com/minghu",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·明湖汇 量化研究员（校招/实习留用）",
+        "url": "https://www.zhipin.com/job_detail/02e63d3ec4f9484a0nF73dq5FVNV.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 30-60K·18薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "minghu-量化研究实习生",
+    "companyId": "minghu",
+    "title": "量化研究实习生",
+    "description": "明湖汇 量化研究实习生（Boss直聘 2026-08-11 实时在招，北京朝阳区）。薪资 800-1600元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『明湖汇』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "800-1600元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/266a46a6ced400cd0nF73dq-GFdU.html",
+    "officialUrl": "https://example.com/minghu",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·明湖汇 量化研究实习生",
+        "url": "https://www.zhipin.com/job_detail/266a46a6ced400cd0nF73dq-GFdU.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 800-1600元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "shenxuan-量化开发工程师Quant",
+    "companyId": "shenxuan",
+    "title": "量化开发工程师（Quant Developer）",
+    "description": "杭州伸轩投资管理 量化开发工程师（Quant Developer）（Boss直聘 2026-08-11 实时在招，杭州拱墅区）。薪资 19-20K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『杭州伸轩投资管理』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "19-20K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/44c422df164735a10nV40964FlFT.html",
+    "officialUrl": "https://example.com/shenxuan",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·杭州伸轩投资管理 量化开发工程师（Quant Developer）",
+        "url": "https://www.zhipin.com/job_detail/44c422df164735a10nV40964FlFT.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州拱墅区、学历未注明、经验未注明、技能 ['听力残疾', '轻度/中度听力残疾', '机器学习经验', '视力残疾', 'Docker', '肢体残疾', '轻度/中度言语残疾', '言语残疾', 'MySQL', '运维开发经验', 'AI 量化', '云计算经验', 'Linux开发/部署经验', '轻度/中度视力残疾', '量化交易开发经验', 'Python', '肢体残疾无限制']"
+      }
+    ],
+    "notes": "薪资 19-20K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "shenxuan-量化开发工程师Quant-2",
+    "companyId": "shenxuan",
+    "title": "量化开发工程师（Quant Developer）",
+    "description": "杭州伸轩投资管理 量化开发工程师（Quant Developer）（Boss直聘 2026-08-11 实时在招，杭州拱墅区）。薪资 19-20K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『杭州伸轩投资管理』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "19-20K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/44c422df164735a10nV40964FlFT.html",
+    "officialUrl": "https://example.com/shenxuan",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·杭州伸轩投资管理 量化开发工程师（Quant Developer）",
+        "url": "https://www.zhipin.com/job_detail/44c422df164735a10nV40964FlFT.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州拱墅区、学历未注明、经验未注明、技能 ['听力残疾', '轻度/中度听力残疾', '机器学习经验', '视力残疾', 'Docker', '肢体残疾', '轻度/中度言语残疾', '言语残疾', 'MySQL', '运维开发经验', 'AI 量化', '云计算经验', 'Linux开发/部署经验', '轻度/中度视力残疾', '量化交易开发经验', 'Python', '肢体残疾无限制']"
+      }
+    ],
+    "notes": "薪资 19-20K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "yuanxi-量化研究员",
+    "companyId": "yuanxi",
+    "title": "量化研究员",
+    "description": "杭州元析量化科技 量化研究员（Boss直聘 2026-08-11 实时在招，杭州余杭区）。薪资 20-40K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『杭州元析量化科技』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "20-40K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/51ea99292e3980cf0nJ739i-F1NV.html",
+    "officialUrl": "https://example.com/yuanxi",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·杭州元析量化科技 量化研究员",
+        "url": "https://www.zhipin.com/job_detail/51ea99292e3980cf0nJ739i-F1NV.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州余杭区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 20-40K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "tianji-EA量化研究员",
+    "companyId": "tianji",
+    "title": "EA量化研究员",
+    "description": "杭州天玑智算科技 EA量化研究员（Boss直聘 2026-08-11 实时在招，杭州西湖区）。薪资 4-9K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『杭州天玑智算科技』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "4-9K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/d1d3ba6e089844f60nBy2tS-EFBV.html",
+    "officialUrl": "https://example.com/tianji",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·杭州天玑智算科技 EA量化研究员",
+        "url": "https://www.zhipin.com/job_detail/d1d3ba6e089844f60nBy2tS-EFBV.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州西湖区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 4-9K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "higgs-股票量化研究员",
+    "companyId": "higgs",
+    "title": "股票量化研究员",
+    "description": "杭州希格斯 股票量化研究员（Boss直聘 2026-08-11 实时在招，杭州滨江区）。薪资 700-1400元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『杭州希格斯』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "700-1400元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/3a18b5fa692578840nZ73du9EFNY.html",
+    "officialUrl": "https://example.com/higgs",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·杭州希格斯 股票量化研究员",
+        "url": "https://www.zhipin.com/job_detail/3a18b5fa692578840nZ73du9EFNY.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州滨江区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 700-1400元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "higgs-股票量化研究员-2",
+    "companyId": "higgs",
+    "title": "股票量化研究员",
+    "description": "杭州希格斯 股票量化研究员（Boss直聘 2026-08-11 实时在招，杭州滨江区）。薪资 700-1400元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『杭州希格斯』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "700-1400元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/3a18b5fa692578840nZ73du9EFNY.html",
+    "officialUrl": "https://example.com/higgs",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·杭州希格斯 股票量化研究员",
+        "url": "https://www.zhipin.com/job_detail/3a18b5fa692578840nZ73du9EFNY.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州滨江区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 700-1400元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "liangbu-量化开发工程师",
+    "companyId": "liangbu",
+    "title": "量化开发工程师",
+    "description": "杭州量步科技有限公司 量化开发工程师（Boss直聘 2026-08-11 实时在招，杭州余杭区）。薪资 15-30K·13薪（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『杭州量步科技有限公司』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "15-30K·13薪（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/cac8e2e7861f9aba1Hd-29y8EFZS.html",
+    "officialUrl": "https://example.com/liangbu",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·杭州量步科技有限公司 量化开发工程师",
+        "url": "https://www.zhipin.com/job_detail/cac8e2e7861f9aba1Hd-29y8EFZS.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州余杭区、学历未注明、经验未注明、技能 ['Pandas', 'Numpy', '量化交易开发经验', 'Python']"
+      }
+    ],
+    "notes": "薪资 15-30K·13薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "zhengding-量化研究员实习生暑期实习",
+    "companyId": "zhengding",
+    "title": "量化研究员实习生-暑期实习",
+    "description": "正定私募 量化研究员实习生-暑期实习（Boss直聘 2026-08-11 实时在招，北京海淀区）。薪资 1000-2000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『正定私募』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "1000-2000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/dbb1cd13cc11c21a0nZ609-0GFdV.html",
+    "officialUrl": "https://example.com/zhengding",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·正定私募 量化研究员实习生-暑期实习",
+        "url": "https://www.zhipin.com/job_detail/dbb1cd13cc11c21a0nZ609-0GFdV.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京海淀区、学历未注明、经验未注明、技能 ['策略研究']"
+      }
+    ],
+    "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "huika-量化研究实习生",
+    "companyId": "huika",
+    "title": "量化研究实习生",
+    "description": "汇卡天下科技有限公司 量化研究实习生（Boss直聘 2026-08-11 实时在招，广州番禺区）。薪资 19-20K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『汇卡天下科技有限公司』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "19-20K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/52099c16c3391e590nJ60tS9GFdW.html",
+    "officialUrl": "https://example.com/huika",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·汇卡天下科技有限公司 量化研究实习生",
+        "url": "https://www.zhipin.com/job_detail/52099c16c3391e590nJ60tS9GFdW.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：广州番禺区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 19-20K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "shengfeng-QuantDevelop",
+    "companyId": "shengfeng",
+    "title": "Quant Developer Intern｜量化开发实习生",
+    "description": "海南盛丰私募基金 Quant Developer Intern｜量化开发实习生（Boss直聘 2026-08-11 实时在招，深圳福田区）。薪资 300-600元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『海南盛丰私募基金』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "300-600元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/4b67699b215be28d03B_39y0FFZU.html",
+    "officialUrl": "https://example.com/shengfeng",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·海南盛丰私募基金 Quant Developer Intern｜量化开发实习生",
+        "url": "https://www.zhipin.com/job_detail/4b67699b215be28d03B_39y0FFZU.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：深圳福田区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 300-600元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "xiangyuan-股票量化研究员",
+    "companyId": "xiangyuan",
+    "title": "股票量化研究员",
+    "description": "湘源投资 股票量化研究员（Boss直聘 2026-08-11 实时在招，杭州）。薪资 10-15K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『湘源投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "10-15K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/cc459b543456004603V929-0FVVS.html",
+    "officialUrl": "https://example.com/xiangyuan",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·湘源投资 股票量化研究员",
+        "url": "https://www.zhipin.com/job_detail/cc459b543456004603V929-0FVVS.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州、学历未注明、经验未注明、技能 ['策略分析', '量化分析', '金融衍生品']"
+      }
+    ],
+    "notes": "薪资 10-15K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "aifanzhe-量化开发工程师Quant",
+    "companyId": "aifanzhe",
+    "title": "量化开发工程师（Quantitative Developer）",
+    "description": "爱凡哲投资管理 量化开发工程师（Quantitative Developer）（Boss直聘 2026-08-11 实时在招，上海浦东新区）。薪资 25-40K·15薪（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『爱凡哲投资管理』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "25-40K·15薪（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/58e1bbe2bfb4dc450nZz3dS_GFVU.html",
+    "officialUrl": "https://example.com/aifanzhe",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·爱凡哲投资管理 量化开发工程师（Quantitative Developer）",
+        "url": "https://www.zhipin.com/job_detail/58e1bbe2bfb4dc450nZz3dS_GFVU.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 25-40K·15薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "aifanzhe-量化开发工程师Quant-2",
+    "companyId": "aifanzhe",
+    "title": "量化开发工程师（Quantitative Developer）",
+    "description": "爱凡哲投资管理 量化开发工程师（Quantitative Developer）（Boss直聘 2026-08-11 实时在招，上海浦东新区）。薪资 25-40K·15薪（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『爱凡哲投资管理』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "25-40K·15薪（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/58e1bbe2bfb4dc450nZz3dS_GFVU.html",
+    "officialUrl": "https://example.com/aifanzhe",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·爱凡哲投资管理 量化开发工程师（Quantitative Developer）",
+        "url": "https://www.zhipin.com/job_detail/58e1bbe2bfb4dc450nZz3dS_GFVU.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 25-40K·15薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "ruixin-python量化开发",
+    "companyId": "ruixin",
+    "title": "python量化开发",
+    "description": "瑞鑫天算 python量化开发（Boss直聘 2026-08-11 实时在招，北京）。薪资 15-30K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『瑞鑫天算』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "15-30K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/f5651d295d91309d0nF90t-0GFpS.html",
+    "officialUrl": "https://example.com/ruixin",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·瑞鑫天算 python量化开发",
+        "url": "https://www.zhipin.com/job_detail/f5651d295d91309d0nF90t-0GFpS.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 15-30K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "hongqiang-量化开发实习生",
+    "companyId": "hongqiang",
+    "title": "量化开发实习生",
+    "description": "红墙泰和 量化开发实习生（Boss直聘 2026-08-11 实时在招，北京朝阳区）。薪资 600-1000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『红墙泰和』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "600-1000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/f6c69197684c2ab903F70tq1E1tU.html",
+    "officialUrl": "https://example.com/hongqiang",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·红墙泰和 量化开发实习生",
+        "url": "https://www.zhipin.com/job_detail/f6c69197684c2ab903F70tq1E1tU.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳区、学历未注明、经验未注明、技能 ['C++', 'STL', 'Boost', 'Linux开发/部署经验', '量化交易开发经验']"
+      }
+    ],
+    "notes": "薪资 600-1000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jukuan-量化开发实习生",
+    "companyId": "jukuan",
+    "title": "量化开发实习生",
+    "description": "聚宽投资 量化开发实习生（Boss直聘 2026-08-11 实时在招，北京朝阳区）。薪资 1000-2000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『聚宽投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "1000-2000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/ec6747ad7b1d3fcc0nR-3di7FlFY.html",
+    "officialUrl": "https://example.com/jukuan",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·聚宽投资 量化开发实习生",
+        "url": "https://www.zhipin.com/job_detail/ec6747ad7b1d3fcc0nR-3di7FlFY.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳区、学历未注明、经验未注明、技能 ['C++', 'C', '分布式经验', '架构设计经验', '量化交易开发经验']"
+      }
+    ],
+    "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jukuan-量化开发实习生-2",
+    "companyId": "jukuan",
+    "title": "量化开发实习生",
+    "description": "聚宽投资 量化开发实习生（Boss直聘 2026-08-11 实时在招，北京朝阳区）。薪资 1000-2000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『聚宽投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "1000-2000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/ec6747ad7b1d3fcc0nR-3di7FlFY.html",
+    "officialUrl": "https://example.com/jukuan",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·聚宽投资 量化开发实习生",
+        "url": "https://www.zhipin.com/job_detail/ec6747ad7b1d3fcc0nR-3di7FlFY.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳区、学历未注明、经验未注明、技能 ['C++', 'C', '分布式经验', '架构设计经验', '量化交易开发经验']"
+      }
+    ],
+    "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jukuan-量化策略实习生",
+    "companyId": "jukuan",
+    "title": "量化策略实习生",
+    "description": "聚宽投资 量化策略实习生（Boss直聘 2026-08-11 实时在招，北京朝阳区）。薪资 1000-2000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『聚宽投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "1000-2000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/40859029836f21450nR-3di5FFpR.html",
+    "officialUrl": "https://example.com/jukuan",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·聚宽投资 量化策略实习生",
+        "url": "https://www.zhipin.com/job_detail/40859029836f21450nR-3di5FFpR.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "yuewei-量化策略研究员AIAge",
+    "companyId": "yuewei",
+    "title": "量化策略研究员 （AI Agent 方向）",
+    "description": "跃威投资 量化策略研究员 （AI Agent 方向）（Boss直聘 2026-08-11 实时在招，上海浦东新区）。薪资 300-600元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『跃威投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "300-600元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/85a79fa2ab6433c30nB83di0EVVQ.html",
+    "officialUrl": "https://example.com/yuewei",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·跃威投资 量化策略研究员 （AI Agent 方向）",
+        "url": "https://www.zhipin.com/job_detail/85a79fa2ab6433c30nB83di0EVVQ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、学历未注明、经验未注明、技能 ['agent', '投资', '量化研究']"
+      }
+    ],
+    "notes": "薪资 300-600元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "yuanhe-量化开发实习生",
+    "companyId": "yuanhe",
+    "title": "量化开发实习生",
+    "description": "远和资产 量化开发实习生（Boss直聘 2026-08-11 实时在招，杭州余杭区）。薪资 600-800元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『远和资产』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "600-800元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/a8f2185d1f7472680nF-2d-7GFFX.html",
+    "officialUrl": "https://example.com/yuanhe",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·远和资产 量化开发实习生",
+        "url": "https://www.zhipin.com/job_detail/a8f2185d1f7472680nF-2d-7GFFX.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州余杭区、学历未注明、经验未注明、技能 ['C++', 'Python', 'Golang', '量化交易开发经验']"
+      }
+    ],
+    "notes": "薪资 600-800元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "yuanhe-量化开发实习生-2",
+    "companyId": "yuanhe",
+    "title": "量化开发实习生",
+    "description": "远和资产 量化开发实习生（Boss直聘 2026-08-11 实时在招，杭州余杭区）。薪资 600-800元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『远和资产』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "600-800元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/a8f2185d1f7472680nF-2d-7GFFX.html",
+    "officialUrl": "https://example.com/yuanhe",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·远和资产 量化开发实习生",
+        "url": "https://www.zhipin.com/job_detail/a8f2185d1f7472680nF-2d-7GFFX.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州余杭区、学历未注明、经验未注明、技能 ['C++', 'Python', 'Golang', '量化交易开发经验']"
+      }
+    ],
+    "notes": "薪资 600-800元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "lianghan-量化研究员",
+    "companyId": "lianghan",
+    "title": "量化研究员",
+    "description": "量函科技 量化研究员（Boss直聘 2026-08-11 实时在招，广州天河区）。薪资 800-1000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『量函科技』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "800-1000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/f78cee3a1130c4710nFz3tW9GVVZ.html",
+    "officialUrl": "https://example.com/lianghan",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·量函科技 量化研究员",
+        "url": "https://www.zhipin.com/job_detail/f78cee3a1130c4710nFz3tW9GVVZ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：广州天河区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 800-1000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "mingjia-量化模型研究员校招",
+    "companyId": "mingjia",
+    "title": "量化模型研究员（校招）",
+    "description": "铭珈资本 量化模型研究员（校招）（Boss直聘 2026-08-11 实时在招，深圳南山区）。薪资 20-25K·18薪（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『铭珈资本』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "20-25K·18薪（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/c95fcf9f3c3c054a1nN_3t25F1dT.html",
+    "officialUrl": "https://example.com/mingjia",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·铭珈资本 量化模型研究员（校招）",
+        "url": "https://www.zhipin.com/job_detail/c95fcf9f3c3c054a1nN_3t25F1dT.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：深圳南山区、学历未注明、经验未注明、技能 ['Java', 'Python']"
+      }
+    ],
+    "notes": "薪资 20-25K·18薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "feitu-量化开发实习生",
+    "companyId": "feitu",
+    "title": "量化开发实习生",
+    "description": "非凸科技 量化开发实习生（Boss直聘 2026-08-11 实时在招，北京东城区）。薪资 300-400元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『非凸科技』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "300-400元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/2e3a6a3eecbef16703R43N67FVRR.html",
+    "officialUrl": "https://example.com/feitu",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·非凸科技 量化开发实习生",
+        "url": "https://www.zhipin.com/job_detail/2e3a6a3eecbef16703R43N67FVRR.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京东城区、学历未注明、经验未注明、技能 ['C++', 'github', 'Rust', 'ACM', '开源', '量化交易']"
+      }
+    ],
+    "notes": "薪资 300-400元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "feitu-量化开发实习生-2",
+    "companyId": "feitu",
+    "title": "量化开发实习生",
+    "description": "非凸科技 量化开发实习生（Boss直聘 2026-08-11 实时在招，上海）。薪资 300-400元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『非凸科技』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "300-400元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/023ff9f91f1f02bc0nF72964F1NV.html",
+    "officialUrl": "https://example.com/feitu",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·非凸科技 量化开发实习生",
+        "url": "https://www.zhipin.com/job_detail/023ff9f91f1f02bc0nF72964F1NV.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海、学历未注明、经验未注明、技能 ['C++', 'OpenGL', '量化交易开发经验', 'RUST']"
+      }
+    ],
+    "notes": "薪资 300-400元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "feitu-量化策略实习生",
+    "companyId": "feitu",
+    "title": "量化策略实习生",
+    "description": "非凸科技 量化策略实习生（Boss直聘 2026-08-11 实时在招，上海浦东新区）。薪资 400-500元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『非凸科技』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "400-500元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/5d6878f5de56a6fe1HV609W9EFFR.html",
+    "officialUrl": "https://example.com/feitu",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·非凸科技 量化策略实习生",
+        "url": "https://www.zhipin.com/job_detail/5d6878f5de56a6fe1HV609W9EFFR.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、学历未注明、经验未注明、技能 ['竞赛', 'CMO', '量化', 'NOI', 'ACM']"
+      }
+    ],
+    "notes": "薪资 400-500元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "feima-初级量化分析员",
+    "companyId": "feima",
+    "title": "初级量化分析员",
+    "description": "非马 初级量化分析员（Boss直聘 2026-08-11 实时在招，上海浦东新区）。薪资 15-30K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『非马』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "15-30K（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/76859860a01c49060nJ-2ti-FVRW.html",
+    "officialUrl": "https://example.com/feima",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·非马 初级量化分析员",
+        "url": "https://www.zhipin.com/job_detail/76859860a01c49060nJ-2ti-FVRW.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 15-30K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "gaota-量化开发工程师C",
+    "companyId": "gaota",
+    "title": "量化开发工程师（C++）",
+    "description": "高塔量化 量化开发工程师（C++）（Boss直聘 2026-08-11 实时在招，深圳南山区）。薪资 800-1000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『高塔量化』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "800-1000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/cba88cdee775d8380nZ82N6-GVZY.html",
+    "officialUrl": "https://example.com/gaota",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·高塔量化 量化开发工程师（C++）",
+        "url": "https://www.zhipin.com/job_detail/cba88cdee775d8380nZ82N6-GVZY.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：深圳南山区、学历未注明、经验未注明、技能 ['C++', '量化交易开发经验']"
+      }
+    ],
+    "notes": "薪资 800-1000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "gaota-量化开发工程师C-2",
+    "companyId": "gaota",
+    "title": "量化开发工程师（C++）",
+    "description": "高塔量化 量化开发工程师（C++）（Boss直聘 2026-08-11 实时在招，深圳南山区）。薪资 800-1000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『高塔量化』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "800-1000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/cba88cdee775d8380nZ82N6-GVZY.html",
+    "officialUrl": "https://example.com/gaota",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·高塔量化 量化开发工程师（C++）",
+        "url": "https://www.zhipin.com/job_detail/cba88cdee775d8380nZ82N6-GVZY.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：深圳南山区、学历未注明、经验未注明、技能 ['C++', '量化交易开发经验']"
+      }
+    ],
+    "notes": "薪资 800-1000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jingchi-初级量化研究员",
+    "companyId": "jingchi",
+    "title": "初级量化研究员",
+    "description": "鲸驰寰宇 初级量化研究员（Boss直聘 2026-08-11 实时在招，深圳福田区）。薪资 40-70K·14薪（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『鲸驰寰宇』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "40-70K·14薪（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/08d635febd817ca5031429u9GVBZ.html",
+    "officialUrl": "https://example.com/jingchi",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·鲸驰寰宇 初级量化研究员",
+        "url": "https://www.zhipin.com/job_detail/08d635febd817ca5031429u9GVBZ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：深圳福田区、学历未注明、经验未注明、技能 ['因子挖掘', '量化研究', '高频数据处理', '策略研究开发', '多因子模型']"
+      }
+    ],
+    "notes": "薪资 40-70K·14薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jingchi-Rust量化工程师Qua",
+    "companyId": "jingchi",
+    "title": "Rust量化工程师（Quant Developer）",
+    "description": "鲸驰寰宇 Rust量化工程师（Quant Developer）（Boss直聘 2026-08-11 实时在招，深圳福田区）。薪资 30-60K·14薪（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『鲸驰寰宇』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "30-60K·14薪（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/439ae171d76a17660nZy0t20GVZZ.html",
+    "officialUrl": "https://example.com/jingchi",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·鲸驰寰宇 Rust量化工程师（Quant Developer）",
+        "url": "https://www.zhipin.com/job_detail/439ae171d76a17660nZy0t20GVZZ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：深圳福田区、学历未注明、经验未注明、技能 ['rust', '低延迟', 'Linux', '量化', '开发', '高频', '开源', '高性能']"
+      }
+    ],
+    "notes": "薪资 30-60K·14薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "mingyu-量化研究员实习表现优秀可",
+    "companyId": "mingyu",
+    "title": "量化研究员实习（表现优秀可留用）",
+    "description": "鸣瑜私募 量化研究员实习（表现优秀可留用）（Boss直聘 2026-08-11 实时在招，广州番禺区）。薪资 150-200元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『鸣瑜私募』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "150-200元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/db3596ef25d6bc6f03R_3dW6FlJT.html",
+    "officialUrl": "https://example.com/mingyu",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·鸣瑜私募 量化研究员实习（表现优秀可留用）",
+        "url": "https://www.zhipin.com/job_detail/db3596ef25d6bc6f03R_3dW6FlJT.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：广州番禺区、学历未注明、经验未注明、技能 ['因子挖掘', '资产配置', '量化研究', '基本面量化']"
+      }
+    ],
+    "notes": "薪资 150-200元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "pengbo-量化研究员实习生",
+    "companyId": "pengbo",
+    "title": "量化研究员（实习生）",
+    "description": "鹏博汇 量化研究员（实习生）（Boss直聘 2026-08-11 实时在招，深圳福田区）。薪资 500-1000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『鹏博汇』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "500-1000元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/fa95f24f2542fe5e0nZ83t25GFRW.html",
+    "officialUrl": "https://example.com/pengbo",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·鹏博汇 量化研究员（实习生）",
+        "url": "https://www.zhipin.com/job_detail/fa95f24f2542fe5e0nZ83t25GFRW.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：深圳福田区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 500-1000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "pengfu-量化投研实习生",
+    "companyId": "pengfu",
+    "title": "【量化投研】实习生",
+    "description": "鹏扶投资 【量化投研】实习生（Boss直聘 2026-08-11 实时在招，上海浦东新区）。薪资 700-1200元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『鹏扶投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "700-1200元/天（Boss直聘实时，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/f3bed73fbc34ce4903Vy3d-5F1JQ.html",
+    "officialUrl": "https://example.com/pengfu",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·鹏扶投资 【量化投研】实习生",
+        "url": "https://www.zhipin.com/job_detail/f3bed73fbc34ce4903Vy3d-5F1JQ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、学历未注明、经验未注明"
+      }
+    ],
+    "notes": "薪资 700-1200元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
   }
 ]

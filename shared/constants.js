@@ -1,12 +1,13 @@
 // 前后端与 skill 共用的枚举常量与中文显示映射。
 // 修改枚举时，请同步更新 src/constants.ts 中的类型与 src/types.ts 中的类型。
 
-export const COMPANY_TYPES = ['public', 'private', 'securities']
+export const COMPANY_TYPES = ['public', 'private', 'securities', 'tech']
 
 export const COMPANY_TYPE_LABELS = {
   public: '公募',
   private: '私募',
   securities: '券商',
+  tech: '科技',
 }
 
 export const JOB_SOURCES = ['official', 'boss', 'wechat', 'manual']

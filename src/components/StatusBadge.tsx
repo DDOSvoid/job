@@ -21,13 +21,23 @@ import {
   SOURCE_STATUS_LABELS,
 } from '../constants'
 
-type Tone = 'success' | 'warning' | 'danger' | 'info' | 'neutral' | 'purple' | 'pub' | 'hedge' | 'sec'
+type Tone =
+  | 'success'
+  | 'warning'
+  | 'danger'
+  | 'info'
+  | 'neutral'
+  | 'purple'
+  | 'pub'
+  | 'hedge'
+  | 'sec'
+  | 'tech'
 
 const toneClass = (tone: Tone) => `badge badge-${tone}`
 
 // 各枚举在界面上的语义配色
-// 公司类型：三分类色（公募橙 / 私募青 / 券商靛），见 styles.css --cat-*
-const typeTone: Record<CompanyType, Tone> = { public: 'pub', private: 'hedge', securities: 'sec' }
+// 公司类型：四分类色（公募橙 / 私募青 / 券商靛 / 科技石墨），见 styles.css --cat-*
+const typeTone: Record<CompanyType, Tone> = { public: 'pub', private: 'hedge', securities: 'sec', tech: 'tech' }
 const autumnTone: Record<AutumnStatus, Tone> = {
   open: 'success',
   not_started: 'info',
