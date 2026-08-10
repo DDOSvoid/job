@@ -1,6 +1,11 @@
 import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { useAppendTimeline, useCreateApplication, useJob } from '../hooks/useApi'
+import {
+  useAppendTimeline,
+  useCreateApplication,
+  useDeleteApplication,
+  useJob,
+} from '../hooks/useApi'
 import { todayStr } from '../constants'
 import { displaySalary } from '../lib/salary'
 import {
@@ -21,6 +26,7 @@ export default function JobDetailPage() {
   const jobQ = useJob(id ?? '')
   const createApp = useCreateApplication()
   const appendTl = useAppendTimeline()
+  const delApp = useDeleteApplication()
   const [actionError, setActionError] = useState<string | null>(null)
 
   if (jobQ.isLoading) return <p className="muted">加载中…</p>
@@ -53,7 +59,18 @@ export default function JobDetailPage() {
     }
   }
 
-  const submitting = createApp.isPending || appendTl.isPending
+  const handleDelete = async () => {
+    if (!application) return
+    if (!window.confirm(`确定删除这条投递记录？共 ${application.timeline.length} 条时间线，不可撤销。`)) return
+    setActionError(null)
+    try {
+      await delApp.mutateAsync(application.id)
+    } catch (e) {
+      setActionError((e as Error).message)
+    }
+  }
+
+  const submitting = createApp.isPending || appendTl.isPending || delApp.isPending
 
   return (
     <section>
@@ -184,6 +201,14 @@ export default function JobDetailPage() {
               submitting={submitting}
               error={actionError}
             />
+            <button
+              type="button"
+              className="btn btn-ghost btn-danger"
+              onClick={handleDelete}
+              disabled={submitting}
+            >
+              🗑 删除这条投递记录
+            </button>
           </div>
         )}
       </div>

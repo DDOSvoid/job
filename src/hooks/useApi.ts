@@ -84,3 +84,11 @@ export function useAppendTimeline() {
     onSuccess: invalidate,
   })
 }
+
+export function useDeleteApplication() {
+  const invalidate = useInvalidate()
+  return useMutation({
+    mutationFn: (id: string) => api.deleteApplication(id),
+    onSuccess: invalidate,
+  })
+}

@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { useCompanies, useInterviews } from '../hooks/useApi'
 import {
   CompanyTypeBadge,
@@ -29,6 +29,32 @@ interface InterviewFilter {
 
 const defaultFilter: InterviewFilter = { q: '', companyId: '', result: '', difficulty: '', source: '' }
 
+// 筛选状态 ⇄ URL search params：筛选后进面经详情、浏览器后退，可恢复筛选前的列表
+const FILTER_PARAM_KEYS: (keyof InterviewFilter)[] = ['q', 'companyId', 'result', 'difficulty', 'source']
+
+function filtersToParams(f: InterviewFilter): URLSearchParams {
+  const sp = new URLSearchParams()
+  for (const k of FILTER_PARAM_KEYS) {
+    const v = f[k]
+    if (v !== '') sp.set(k, v)
+  }
+  return sp
+}
+
+function paramsToFilters(sp: URLSearchParams): InterviewFilter {
+  const pick = <T extends string>(key: keyof InterviewFilter, allowed: T[]): '' | T => {
+    const v = sp.get(key)
+    return v && (allowed as string[]).includes(v) ? (v as T) : ''
+  }
+  return {
+    q: sp.get('q') ?? '',
+    companyId: sp.get('companyId') ?? '',
+    result: pick('result', INTERVIEW_RESULTS),
+    difficulty: pick('difficulty', INTERVIEW_DIFFICULTIES),
+    source: pick('source', INTERVIEW_SOURCES),
+  }
+}
+
 /**
  * 面试经历目录表：公司 | 岗位 | 结果 | 难度 | 来源。
  * 整行是单个 <Link>，故不使用外层多链接的 .dir-row 结构。
@@ -36,7 +62,8 @@ const defaultFilter: InterviewFilter = { q: '', companyId: '', result: '', diffi
 export default function InterviewListPage() {
   const interviewsQ = useInterviews()
   const companiesQ = useCompanies()
-  const [filters, setFilters] = useState<InterviewFilter>(defaultFilter)
+  const [searchParams, setSearchParams] = useSearchParams()
+  const [filters, setFilters] = useState<InterviewFilter>(() => paramsToFilters(searchParams))
 
   const companyById = useMemo(() => {
     const m = new Map<string, { name: string; type: CompanyType }>()
@@ -62,7 +89,11 @@ export default function InterviewListPage() {
       .sort((a, b) => (a.collectedAt === b.collectedAt ? 0 : a.collectedAt < b.collectedAt ? 1 : -1))
   }, [interviewsQ.data, filters])
 
-  const set = (patch: Partial<InterviewFilter>) => setFilters((f) => ({ ...f, ...patch }))
+  const set = (patch: Partial<InterviewFilter>) => {
+    const next = { ...filters, ...patch }
+    setFilters(next)
+    setSearchParams(filtersToParams(next), { replace: true })
+  }
   const hasActive = filters.q !== '' || filters.companyId !== '' || filters.result !== '' || filters.difficulty !== '' || filters.source !== ''
 
   return (
@@ -88,7 +119,7 @@ export default function InterviewListPage() {
             />
           </div>
           {hasActive && (
-            <button type="button" className="btn btn-ghost" onClick={() => setFilters(defaultFilter)}>
+            <button type="button" className="btn btn-ghost" onClick={() => set(defaultFilter)}>
               ✕ 清除筛选
             </button>
           )}

@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { useCompanies, useJobs } from '../hooks/useApi'
-import FilterBar, { defaultFilters, type FilterState } from '../components/FilterBar'
+import FilterBar, { filtersToParams, paramsToFilters, type FilterState } from '../components/FilterBar'
 import { CompanyTypeBadge } from '../components/StatusBadge'
 import { SkeletonGrid } from '../components/SkeletonCard'
 import EmptyState from '../components/EmptyState'
@@ -106,7 +106,14 @@ function DirRow({
 export default function CompanyListPage() {
   const companies = useCompanies()
   const jobsQ = useJobs()
-  const [filters, setFilters] = useState<FilterState>(defaultFilters)
+  // 筛选状态以 URL search params 为源：筛选后进公司详情、浏览器后退，可恢复筛选前的列表
+  const [searchParams, setSearchParams] = useSearchParams()
+  const [filters, setFilters] = useState<FilterState>(() => paramsToFilters(searchParams))
+
+  const updateFilters = (f: FilterState) => {
+    setFilters(f)
+    setSearchParams(filtersToParams(f), { replace: true })
+  }
 
   const list = useMemo(() => {
     const q = filters.q.trim().toLowerCase()
@@ -140,11 +147,11 @@ export default function CompanyListPage() {
     <section>
       <div className="page-head">
         <h1>机构目录</h1>
-        <p className="sub">{companies.data?.length ?? 0} 家机构 · 公募 / 私募 / 券商</p>
+        <p className="sub">{companies.data?.length ?? 0} 家机构 · 公募 / 私募 / 券商 / 科技</p>
       </div>
       <FilterBar
         filters={filters}
-        onChange={setFilters}
+        onChange={updateFilters}
         companies={companies.data ?? []}
         total={list.length}
         unit="家机构"

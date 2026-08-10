@@ -28,6 +28,44 @@ export const defaultFilters: FilterState = {
   sort: 'default',
 }
 
+// ---- 筛选状态 ⇄ URL search params ----
+// 列表页以 URL 为筛选状态源：筛选后进入详情页，浏览器后退时会恢复到筛选过的列表。
+
+const FILTER_PARAM_KEYS: (keyof FilterState)[] = ['companyId', 'type', 'autumn2026', 'stage', 'q', 'sort']
+
+const COMPANY_TYPES: CompanyType[] = ['public', 'private', 'securities', 'tech']
+const STAGES = Object.keys(APPLICATION_STAGE_LABELS) as ApplicationStage[]
+const SORTS = Object.keys(SORT_LABELS) as SortKey[]
+
+function parseParam<T extends string>(sp: URLSearchParams, key: string, allowed: T[]): '' | T {
+  const v = sp.get(key)
+  return v && (allowed as string[]).includes(v) ? (v as T) : ''
+}
+
+/** 把筛选状态序列化进 URLSearchParams（空值与默认排序不写入，保持 URL 干净）。 */
+export function filtersToParams(filters: FilterState): URLSearchParams {
+  const sp = new URLSearchParams()
+  for (const k of FILTER_PARAM_KEYS) {
+    const v = filters[k]
+    if (v === '' || (k === 'sort' && v === 'default')) continue
+    sp.set(k, v)
+  }
+  return sp
+}
+
+/** 从 URLSearchParams 解析筛选状态；非法/未知值回落为默认。 */
+export function paramsToFilters(sp: URLSearchParams): FilterState {
+  const q = sp.get('q') ?? ''
+  return {
+    companyId: sp.get('companyId') ?? '',
+    type: parseParam(sp, 'type', COMPANY_TYPES),
+    autumn2026: parseParam(sp, 'autumn2026', AUTUMN_STATUSES),
+    stage: parseParam(sp, 'stage', STAGES),
+    q,
+    sort: parseParam(sp, 'sort', SORTS) || 'default',
+  }
+}
+
 export interface FilterProps {
   filters: FilterState
   onChange: (f: FilterState) => void
@@ -99,6 +137,7 @@ export default function FilterBar({ filters, onChange, companies, showStage, tot
           <option value="public">公募</option>
           <option value="private">私募</option>
           <option value="securities">券商</option>
+          <option value="tech">科技</option>
         </select>
         <select
           value={filters.autumn2026}

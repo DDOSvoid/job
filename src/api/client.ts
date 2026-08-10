@@ -63,9 +63,10 @@ export const api = {
     return request('/applications')
   },
   createApplication(jobId: string, timeline: TimelineEntry[]): Promise<Application> {
+    // validateApplication 要求 id 必填；沿用后端默认规则 `app-<jobId>`
     return request('/applications', {
       method: 'POST',
-      body: JSON.stringify({ jobId, timeline }),
+      body: JSON.stringify({ id: `app-${jobId}`, jobId, timeline }),
     })
   },
   appendTimeline(
@@ -76,6 +77,9 @@ export const api = {
       method: 'POST',
       body: JSON.stringify(entry),
     })
+  },
+  deleteApplication(id: string): Promise<{ ok: true }> {
+    return request(`/applications/${encodeURIComponent(id)}`, { method: 'DELETE' })
   },
   getInterviews(filters: InterviewFilters = {}): Promise<Interview[]> {
     return request(`/interviews${qs({ ...filters })}`)

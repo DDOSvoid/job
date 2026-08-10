@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { useApplications, useCompanies, useJobs } from '../hooks/useApi'
-import FilterBar, { defaultFilters, type FilterState } from '../components/FilterBar'
+import FilterBar, { filtersToParams, paramsToFilters, type FilterState } from '../components/FilterBar'
 import JobRow from '../components/JobRow'
 import MarketStrip from '../components/MarketStrip'
 import { SkeletonList } from '../components/SkeletonCard'
@@ -46,7 +47,14 @@ export default function JobListPage() {
   const jobsQ = useJobs()
   const appsQ = useApplications()
 
-  const [filters, setFilters] = useState<FilterState>(defaultFilters)
+  // 筛选状态以 URL search params 为源：筛选后进详情、浏览器后退，可恢复筛选前的列表
+  const [searchParams, setSearchParams] = useSearchParams()
+  const [filters, setFilters] = useState<FilterState>(() => paramsToFilters(searchParams))
+
+  const updateFilters = (f: FilterState) => {
+    setFilters(f)
+    setSearchParams(filtersToParams(f), { replace: true })
+  }
 
   const jobs = jobsQ.data ?? []
   const apps = appsQ.data ?? []
@@ -82,7 +90,7 @@ export default function JobListPage() {
       <MarketStrip jobsTotal={jobs.length} autumnOpen={autumnOpen} appliedTotal={appliedTotal} />
       <FilterBar
         filters={filters}
-        onChange={setFilters}
+        onChange={updateFilters}
         companies={companies.data ?? []}
         showStage
         total={filtered.length}

@@ -1104,6 +1104,15 @@ input.grow {
   color: var(--text-secondary);
 }
 
+.btn-danger {
+  color: var(--danger);
+}
+
+.btn-danger:hover {
+  color: #b91c1c;
+  background: var(--danger-soft);
+}
+
 .btn-lg {
   padding: 10px 22px;
   font-size: 15px;
