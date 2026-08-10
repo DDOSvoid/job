@@ -20,12 +20,44 @@
 |---|---|---|
 | 牛客 nowcoder.com | 讨论区/面经帖结构清晰，很多可直接 WebFetch | 常可读到 complete |
 | 小红书 xiaohongshu.com | 需 App/登录，网页版常有验证，WebFetch 常拿不到正文 | 常 partial / blocked |
-| 知乎 zhihu.com | 登录墙常见，正文常需展开 | 常 partial / blocked |
+| 知乎 zhihu.com | 游客搜索已关闭、纯 HTTP 403；用本机 `zhihu_cdp.py`（用户自己登录的 Edge CDP）可读正文 | 用 CDP 可 complete；未登录/CDP 不可用则 partial / blocked |
 | 一亩三分地 1point3acres.com | 海外华人量化面经多，反爬 403 常见 | 常 partial（需搜索摘要） |
 | 其他论坛（力扣讨论、CSDN、虎扑等） | 看具体站点 | 视情况 |
 | 微信公众号 | 面试经历有时发在公众号 | 视情况 |
 
 一亩三分地的帖子 `source` 用专用值 `1point3acres`（不是 `forum`）。
+
+## 知乎（`zhihu_cdp.py` —— 用户自己的 Edge 登录态）
+
+知乎对非浏览器直连一律 403（实测 `curl` 被拦）、游客搜索已关闭，WebFetch 也被 claude.ai 域名层拦截。因此知乎正文走**专用工具** `scripts/zhihu_cdp.py`——驱动用户自己登录的 Edge（CDP），真实浏览器自己算 x-zse-96 签名、带真实 UA/cookie，**不逆向签名、不伪造 UA、不提取 cookie**（与 fund-quant 的 boss-agent-cli 同模式）。
+
+**前置（一次性）**：用户运行
+```bash
+PYTHONUTF8=1 python scripts/zhihu_cdp.py --json launch   # 弹出独立 Edge（端口 9223，profile ~/.zhihu-agent/edge-cdp，与日常浏览器隔离）
+```
+在弹出的窗口里登录 zhihu.com 一次，然后
+```bash
+PYTHONUTF8=1 python scripts/zhihu_cdp.py --json status   # 输出 logged_in: true 即可用
+```
+登录态约 7 天有效，过期后重新 `launch` 登录一次即可。
+
+**命令**（Windows 一律 `PYTHONUTF8=1 PYTHONIOENCODING=utf-8` 前缀；`--json` 放子命令前）：
+```bash
+# 搜知乎（返回 results: [{url, title, snippet}]）
+PYTHONUTF8=1 python scripts/zhihu_cdp.py --json search "九坤 量化 面经"
+# 读正文（专栏/问答页均可，返回渲染后 innerText + title + url）
+PYTHONUTF8=1 python scripts/zhihu_cdp.py --json read "https://zhuanlan.zhihu.com/p/647900875"
+# CDP/登录态检查
+PYTHONUTF8=1 python scripts/zhihu_cdp.py --json status
+```
+
+**纪律（硬性）**：
+- 只读用户登录后可见的内容，低频率：工具内置节流（命令间 3-6s，`~/.zhihu-agent/throttle.json` 全局生效）+ 单实例锁，**不要并行跑多个 zhihu 命令**；每任务 `search` ≤3 次、优先精确公司名查询，够用就转 `read`。
+- 知乎触发验证码/风控（搜索返回空、页面出验证）→ **立即停手**，标 `blocked`，note "知乎风控/验证，需手动查看"，报告清单标 `[TODO]`。不要反复重试硬闯。
+- **正文完整性**：专栏文章通常一次读全 → `complete`；问答页回答可能折叠（`read` 返回 `partial_reason` 提示"查看全部"未展开）→ `partial`，note 注明缺折叠回答、去哪看原文。
+- 抽取到的帖子标题/URL 是证据链核心，`sourceUrl` 用 `read` 返回的真实 URL（可能是登录后的 canonical URL），不编造。
+
+**降级**：CDP 不可用 / 用户未登录 / 工具报错 → 退回 WebSearch `"site:zhihu.com {公司} 量化 面经"` 摘要，标 `partial`（note "CDP 不可用，仅搜索摘要"），原文 URL 放 `sourceUrl`；搜索本身搜不到 → 不写条目。
 
 **降级判定**（写入 `sourceStatus`）：
 - WebFetch 完整读到帖子正文，题目/轮次齐全 → `complete`。

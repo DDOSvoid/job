@@ -194,24 +194,24 @@
     "rounds": [
       {
         "name": "简历面",
-        "content": "按帖子描述：九坤面试主要为简历面+专业面，多对一，时间约 1 小时，面试官穿着随意、无太多人际约束。"
+        "content": "多对一，时长约 1 小时；面试官穿着随意、公司无太多人际约束。主要考察简历与专业能力。"
       },
       {
         "name": "专业面",
-        "content": "同上帖：专业面环节；帖子正文被反爬拦截，具体题目未读到。"
+        "content": "帖子列出的参考题：金融类——期权定价、CAPM 模型、DCF、Black-Scholes、二项式模型、连贯风险度量、中心极限定理、空间套利、统计套利、套利定价理论（APT）、ARCH（自回归条件异方差性）、巴塞尔协议 III；编程类——C++ 特点、封装、epoll；经历类——描述在量化岗位/项目中工作的经历、具体涉及方面、遇到的问题及解决方式。"
       }
     ],
-    "summary": "知乎面经分享称九坤面试非常严格，流程为简历面+专业面，多对一，时长约 1 小时。",
+    "summary": "知乎面经称九坤面试非常严格，流程为简历面+专业面，多对一、时长约 1 小时；帖子列出金融/编程/经历三类参考题。",
     "result": "unknown",
     "difficulty": "unknown",
     "source": "zhihu",
     "sourceUrl": "https://zhuanlan.zhihu.com/p/647900875",
     "sourceTitle": "真实记录‼️九坤量化面试真题和经验分享",
-    "collectedAt": "2026-08-09",
-    "sourceStatus": "partial",
-    "notes": "知乎专栏被 403 反爬拦截，仅读到搜索摘要中的面试流程部分；真题细节缺失，请打开原文查看。发帖人自述，未经公司核验。",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "知乎专栏正文已完整读到（zhihu_cdp.py 用户登录态）；发帖人自述，未经公司核验。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-11"
   },
   {
     "id": "highflyer-interview-flow-interview",
@@ -414,20 +414,20 @@
     "rounds": [
       {
         "name": "笔面试综合",
-        "content": "知乎Pin《黑翼资产校招我劝你快跑，笔面试薪资解析》摘要：对黑翼资产校招笔试面试与薪资做解析，称年薪大致18薪左右、应届生约30万，并提及“黑翼资产金哥估计薪资在40-70左右”，在当下市场算有竞争力。"
+        "content": "知乎 Pin《黑翼资产校招我劝你快跑，笔面试薪资解析》正文：薪资——金哥估计黑翼应届生年薪在 40-70 万左右（当下市场有竞争力）；百亿及以下量化私募应届年薪基本约 30 万（18 薪左右）。笔试——国内量化公司笔试都较难，以编程和统计数学金融为主，随机过程与概率统计是关键。面试——建议重视精简自我介绍（Education background + Internships + Projects + Leadership），用 STAR 模板整理简历中的实习/项目，被问到时能完整讲出。"
       }
     ],
-    "summary": "黑翼资产校招笔面试薪资解析（知乎Pin）摘要：以薪资水平讨论为主（约18薪、应届30万起、资深40-70万），并涉及笔试面试难度与准备。正文被知乎反爬拦截，仅摘要。",
+    "summary": "黑翼资产校招笔面试薪资解析（知乎 Pin）：以薪资讨论为主（金哥估应届 40-70 万/年，18 薪），并给出笔试（编程+统计数学金融）与面试准备（自我介绍、STAR 模板）建议。",
     "result": "unknown",
     "difficulty": "unknown",
     "source": "zhihu",
     "sourceUrl": "https://www.zhihu.com/pin/1818369313788268545",
     "sourceTitle": "黑翼资产校招我劝你快跑，笔面试薪资解析 - 知乎",
-    "collectedAt": "2026-08-09",
-    "sourceStatus": "partial",
-    "notes": "知乎pin正文403（反爬），内容来自搜索结果摘要；该帖偏薪资解析，具体笔面试题目信息少，请打开原文核对",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "知乎 Pin 正文已完整读到（zhihu_cdp.py 用户登录态）；内容以薪资解析与笔试/面试准备建议为主，具体笔面试题目信息少；发帖人为量化猎头自述，未经公司核验。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-11"
   },
   {
     "id": "yinnuo-quant-interview-interview",
@@ -436,20 +436,20 @@
     "rounds": [
       {
         "name": "笔试+面试",
-        "content": "知乎《怎么准备国内量化分析师岗位的面试?》高赞回答摘要中提及因诺资产笔试+面试：考察脑筋急转弯和基本的随机微积分（来自绿宝书），并有6轮onsite、问题从随机微积分到编程；示例题：你在一个木板的x位置，5是末端、0是起点，每次有一半概率向左或向右走，问最终走到末端的概率。注：帖中题目与JP Morgan等公司内容混排，具体归属需核对原文。"
+        "content": "知乎《怎么准备国内量化分析师岗位的面试?》高赞回答仅提及「因诺资产笔试+面试」，未给出可确认归属因诺的具体题目。原摘要条目标注的「脑筋急转弯、基本的随机微积分、6 轮 onsite、木板行走概率题」，对照原文后该段紧跟「JP Morgan 卖方」条目，更可能属 JP Morgan 而非因诺。"
       }
     ],
-    "summary": "知乎量化面试准备问答的高赞回答中提及因诺资产笔试+面试（脑筋急转弯、随机微积分、编程，来自绿宝书），并含木板行走（赌徒破产）类概率题。因题目与其他公司内容混排，归属待核对。正文被知乎反爬拦截，仅摘要。",
+    "summary": "知乎量化面试准备问答中提到因诺资产有笔试+面试，但无具体题目归属可确认；原条目标注的题目疑属 JP Morgan，已在本次核对中修正。",
     "result": "unknown",
     "difficulty": "unknown",
     "source": "zhihu",
     "sourceUrl": "https://www.zhihu.com/question/62031149",
     "sourceTitle": "怎么准备国内量化分析师岗位的面试? - 知乎",
-    "collectedAt": "2026-08-09",
-    "sourceStatus": "partial",
-    "notes": "知乎问答正文403（反爬），内容来自DDG搜索结果摘要；回答为通用量化面试准备帖，因诺仅被提及，题目与其他公司（如JP Morgan）内容混排，归属不确定，请打开原文核对",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "知乎问答正文已完整读到（zhihu_cdp.py 用户登录态）。修正：早期仅凭搜索摘要将「脑筋急转弯、随机微积分、6 轮 onsite、木板行走概率题」归给因诺；对照原文该段位于「JP Morgan 卖方」之后，更可能属 JP Morgan。因诺在此帖中仅被提及「笔试+面试」，无具体题目归属可确认。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-11"
   },
   {
     "id": "mengxi-2024-spring-written-test-interview",
@@ -503,20 +503,20 @@
     "rounds": [
       {
         "name": "面试",
-        "content": "发帖人称去年面过一次千象资产,整体感觉比较高效;面试官问得比较深入,既有策略层面的探讨,也会聊到一些具体落地的细节,感觉比较看重逻辑链条是否完整。"
+        "content": "发帖人自称去年面过一次千象资产：面试官问得比较深入，既有策略层面的探讨，也会聊到一些具体落地的细节，比较看重逻辑链条是否完整、能否把思路讲清楚；问题都还算合理，没有故意刁难；面完 HR 还专门回访面试体验。总体中性偏上。"
       }
     ],
-    "summary": "千象资产面试体验:面试官问得深入,兼顾策略层面与落地细节,看重逻辑链条完整性。",
+    "summary": "千象资产面试体验：面试官问得深入，兼顾策略层面与落地细节，看重逻辑链条完整性；面完 HR 回访体验。",
     "result": "unknown",
     "difficulty": "unknown",
     "source": "zhihu",
     "sourceUrl": "https://www.zhihu.com/question/477515980/answers/updated",
     "sourceTitle": "千象资产私募怎么样?好像最近进了量化私募百亿阵营?",
-    "collectedAt": "2026-08-09",
-    "sourceStatus": "partial",
-    "notes": "知乎页面WebFetch返回403,仅取搜索摘要;无具体题目。请打开原文核对。",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "知乎问答正文已完整读到（zhihu_cdp.py 用户登录态）；发帖人自述，未经公司核验。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-11"
   },
   {
     "id": "qianxiang-dev-written-test-2024-interview",
@@ -525,21 +525,21 @@
     "rounds": [
       {
         "name": "笔试(开发类)",
-        "content": "面向开发类的笔试,题目均为系统设计题,需要根据说明和需求设计系统,难度较大;共四题,文中仅展示两题,其余题目放在付费'知识星球'内。",
-        "date": "2024"
+        "date": "2024",
+        "content": "面向开发类的笔试均为系统设计题，共 4 题，公开 2 题。题目一（20 分）：设计系统 S——输入来自顺序队列 QL(FIFO)、输出写入 QR；数据 Xi,j（i=信息源，约 5000 个；j=序号，每源 10 万~50 万），前置系统 2 小时内集中写入形成「洪峰」；处理逻辑 Yij=F(Yi,j-1, Xi,j) 须严格按 X 顺序处理；要求降低端到端时延、给出服务器选型，并回归现实设计 QL/QR 读写方案。题目二：设计报单流速控制组件 OrderController——任意 N 毫秒窗口内最多允许 M 个请求通过后端（allow 返回 true/false），优化 allow 运行效率给出时间复杂度，并论证能否做到与 N/M 无关。"
       }
     ],
-    "summary": "千象资产2024年开发类笔试:全部为系统设计题,共4题,难度较大。",
+    "summary": "千象资产 2024 年开发类笔试：全部为系统设计题，共 4 题（公开 2 题），难度较大。",
     "result": "unknown",
     "difficulty": "unknown",
     "source": "zhihu",
     "sourceUrl": "https://zhuanlan.zhihu.com/p/705285364",
     "sourceTitle": "最难系统设计题!千象资产开发类笔试2024",
-    "collectedAt": "2026-08-09",
-    "sourceStatus": "partial",
-    "notes": "知乎专栏WebFetch返回403,仅取搜索摘要;完整题目在付费知识星球。请打开原文核对。",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "知乎专栏正文已完整读到（zhihu_cdp.py 用户登录态）；共 4 题仅公开 2 题，其余在付费「知识星球」内（未绕过付费墙，如实标注）。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-11"
   },
   {
     "id": "qilin-written-round1-2023-interview",
@@ -724,25 +724,25 @@
   {
     "id": "efund-zhihu-quant-cpp-interview",
     "companyId": "efund",
-    "jobTitle": "量化研究员(暑期实习)",
+    "jobTitle": "量化分析师",
     "rounds": [
       {
         "name": "一面",
-        "content": "与牛客2023暑实易方达量化分析师一面为同一场20分钟Zoom面试,该帖额外补充两条追问:Q6 为什么对C++感兴趣;Q7 看过哪些C++(相关书籍/内容)。其余环节(自我介绍、量化定义、实习深挖、quant比赛、ML理论、反问)基本一致。",
-        "date": "2023"
+        "date": "2023",
+        "content": "知乎专栏《易方达量化分析师面试经验》正文（20 分钟 Zoom 面试）：Q1 自我介绍；Q2 对量化的定义；Q3 深挖实习简历；Q4 聊参加过的 quant 比赛；Q5 机器学习的理论知识考察；Q6 为什么对 C++ 感兴趣；Q7 看过哪些 C++ 的书籍；Q8 是否有过高频交易相关的经验；Q9 你对高频交易的理解。"
       }
     ],
-    "summary": "知乎帖子,内容与牛客2023暑实易方达量化分析师一面基本重合,额外补充了关于C++兴趣与学习内容的追问(Q6/Q7)。原帖被反爬拦截,仅能依据搜索引擎摘要整理。",
+    "summary": "知乎帖子记录易方达量化分析师 20 分钟 Zoom 面试，Q1-Q9 覆盖自我介绍、量化定义、实习深挖、quant 比赛、ML 理论、C++ 兴趣与学习、高频交易经验与理解。",
     "result": "unknown",
     "difficulty": "unknown",
     "source": "zhihu",
     "sourceUrl": "https://zhuanlan.zhihu.com/p/641856436",
     "sourceTitle": "易方达量化分析师面试经验‼️公募量化面试",
-    "collectedAt": "2026-08-09",
-    "sourceStatus": "partial",
-    "notes": "知乎专栏WebFetch返回403,正文未读到,仅取DuckDuckGo搜索摘要(C++追问部分来自摘要)。请打开原文核对完整题目。社区自述内容,未经官方核实。",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "知乎专栏正文已完整读到（zhihu_cdp.py 用户登录态）；发帖人自述，未经官方核实。与牛客 2023 暑实易方达量化分析师一面（20 分钟 Zoom）疑为同一场或同源，面试题基本一致（该帖补充 Q6-Q9）。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-11"
   },
   {
     "id": "harvest-bilibili-quantrisk-oa-1-interview",
