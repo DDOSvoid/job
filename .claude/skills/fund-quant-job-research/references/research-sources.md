@@ -32,6 +32,23 @@
 
 **首选**：用本机 boss-agent-cli（`C:\Users\DDOSvoid\.local\bin\boss.exe`，下称 `boss`）直接搜索 Boss直聘，拿**真实岗位数据**（非搜索引擎摘要）。它是用户自己的登录会话，不是绕过登录墙——只是用 CLI 方式访问用户已登录的账号。工具自带凭证存储（`~/.boss-agent/auth/session.enc`，Fernet 加密），stoken（`__zp_stoken__`，分钟级）过期时内部自动刷新，无需每次手动 mint。
 
+### 全局限速：所有查询一律走 boss_throttle.py（防风控 code=36）
+
+批量调研时连续快速调用 boss 命令（尤其 `search`/`detail`）会被风控判定"账户存在异常行为"（`code=36`），是**账号级风险**。为此提供包装器 `scripts/boss_throttle.py`，**除认证探测外，任何 boss 查询命令一律经它执行，禁止直接调 boss.exe**：
+
+```bash
+python <skill-dir>/scripts/boss_throttle.py --json search "<量化关键词>" --city <城市>
+python <skill-dir>/scripts/boss_throttle.py --interval 20 --json detail <security_id> --job-id <job_id>
+python <skill-dir>/scripts/boss_throttle.py --check        # 只读查看当前节流状态
+```
+
+- **串行化 + 最小间隔（硬性）**：两次 boss 命令**开始执行**至少间隔 `--interval` 秒（默认 12s，另加 `--jitter` 随机抖动 0-4s）。间隔状态存 `~/.boss-agent/throttle.json`，**跨进程、跨终端、跨连续 shell 调用全局生效**——即使多个子代理并行调研也不会撞车。
+- **触发 code=36 自动冷却（硬性）**：包装器检测到输出含 code=36/异常行为 → 把冷却推到 `--cooldown` 秒后（默认 30 分钟），期间任何后续命令都等到冷却结束才执行，并打印警告、返回非 0。调用方仍须按纪律立即把 Boss 来源标 `blocked`、改用官网/公众号来源。
+- **search 预算软提醒**：1 小时滚动窗口内 `search` 达到 `--search-budget`（默认 20）时打印剩余预算提醒，不硬性拦截（每任务 ≤3 次的纪律由调用方掌握）。
+- 节流日志只写 stderr，`--json` 的 stdout 原样透传，不会污染 JSON 解析。
+- **唯一例外**：`boss_auth_check.py` 的认证探测保持直连 boss.exe（必须是一次性快速只读探针）；其余查询一律走包装器。
+- 批量成本估算：N 条命令额外耗时 ≈ N × 14s（默认间隔），大批量调研要留足时间预算。
+
 ### 0. 认证检查（每次必做）
 
 ```bash
@@ -60,9 +77,10 @@ PYTHONUTF8=1 PYTHONIOENCODING=utf-8 python <skill-dir>/scripts/boss_auth_check.p
 ### 1. 搜索公司岗位
 
 ```bash
-PYTHONUTF8=1 PYTHONIOENCODING=utf-8 boss --json search "<量化关键词>" --city <城市>
+python <skill-dir>/scripts/boss_throttle.py --json search "<量化关键词>" --city <城市>
 ```
 
+- 一律经 `boss_throttle.py` 执行（见上文"全局限速"）。包装器自身已强制 UTF-8，无需 `PYTHONUTF8` 前缀。
 - `--json` 是**全局选项**，必须放在命令前（`boss --json search ...`，不是 `search --json`）。
 - 城市名用中文（北京/上海/杭州/深圳等），可用 `boss cities` 查支持的城市。
 - **不要直接搜公司名**（如 `search "幻方"` 会返回一堆无关的"幻方*"公司）。正确做法：搜量化关键词 + 城市，然后在结果里按 `company` 过滤目标公司。
@@ -86,9 +104,9 @@ PYTHONUTF8=1 PYTHONIOENCODING=utf-8 boss --json search "<量化关键词>" --cit
 ### 3. 取详情（可选，增强 description）
 
 ```bash
-PYTHONUTF8=1 PYTHONIOENCODING=utf-8 boss --json detail <security_id> --job-id <job_id>
+python <skill-dir>/scripts/boss_throttle.py --json detail <security_id> --job-id <job_id>
 ```
-可拿到职责/要求正文充实 `job.description`。注意：detail 偶尔会触发内部令牌刷新而变慢（可能数秒~几十秒），超时后重试一次即可，不要死等。
+可拿到职责/要求正文充实 `job.description`。同样经 `boss_throttle.py` 执行（保持限速）。注意：detail 偶尔会触发内部令牌刷新而变慢（可能数秒~几十秒），超时后重试一次即可，不要死等。
 
 ### 4. 记录 sources[] 与降级
 
@@ -111,8 +129,8 @@ PYTHONUTF8=1 PYTHONIOENCODING=utf-8 boss --json detail <security_id> --job-id <j
 
 - **只读**：只用 `search` / `detail` / `cities` / `status`。**禁止** `greet` / `batch-greet`（打招呼=主动投递，必须用户亲自操作）。
 - cookie 是用户凭证：不打印、不写入任何日志或报告。`boss --json status` 的输出里 token 字段已 `[REDACTED]`，无需手动脱敏。
-- 尊重限速：**不要并行跑多个 boss 命令**，一次一个，之间留间隔（几秒）。**控制搜索量**：每个调研任务 boss `search` 总计 ≤3 次，优先用"公司全称"精确搜索而非泛搜关键词；够用就停，拿到的岗位再 `detail` 拉详情。
-- **风控 code=36**：搜索返回 `code=36 您的账户存在异常行为` → **立即停止一切 boss 命令**（不要在风控期间反复重试或继续搜索），把 Boss 来源标为 `blocked`，note "触发 Boss 风控，暂停 boss 搜索；风控通常 20-60 分钟自行解除"，报告清单标 `[TODO]`，改用官网/公众号来源。Boss 风控是账号级风险，宁可少拿数据也不要触发。
+- 尊重限速：**所有 boss 查询命令一律经 `boss_throttle.py` 执行**（全局限速，默认 12s 最小间隔，跨进程/终端全局生效），**不要直接调 boss.exe、不要并行跑多个 boss 命令**。**控制搜索量**：每个调研任务 boss `search` 总计 ≤3 次，优先用"公司全称"精确搜索而非泛搜关键词；够用就停，拿到的岗位再 `detail` 拉详情。
+- **风控 code=36**：搜索返回 `code=36 您的账户存在异常行为` → **立即停止一切 boss 命令**（不要在风控期间反复重试或继续搜索；包装器检测到会自动进入 30 分钟冷却，期间命令会一直等到冷却结束），把 Boss 来源标为 `blocked`，note "触发 Boss 风控，暂停 boss 搜索；风控通常 20-60 分钟自行解除"，报告清单标 `[TODO]`，改用官网/公众号来源。Boss 风控是账号级风险，宁可少拿数据也不要触发。
 - stoken（`__zp_stoken__`，分钟级）过期时工具内部自动刷新，通常无需干预；若搜索连续报环境异常，先跑 `boss --json status` / `boss status --live` 确认登录态，再重跑一次搜索，**不要立刻让用户重新扫码**。只有 status 明确 `logged_in: false`（cookie 过期）才需要 `boss login`。批量调研时先跑一次 `boss --json status` 确认健康再连续执行命令。
 
 ## 微信公众号
