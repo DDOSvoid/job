@@ -1025,6 +1025,146 @@ h4 {
   color: var(--text-secondary);
 }
 
+/* 多选筛选：chip 组 + 多选下拉 */
+.chip-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chip-label {
+  font-size: 13px;
+  color: var(--muted);
+  flex: none;
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filter-chip {
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 13px;
+  line-height: 1.5;
+  background: var(--card);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+
+.filter-chip:hover {
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+
+.filter-chip.on {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.multiselect {
+  position: relative;
+}
+
+.multiselect-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color 0.12s ease, box-shadow 0.12s ease;
+}
+
+.multiselect-btn:hover {
+  border-color: var(--border-strong);
+}
+
+.multiselect-btn.open {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-soft);
+}
+
+.multiselect-label {
+  color: var(--muted);
+}
+
+.multiselect-value {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.multiselect-caret {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.multiselect-panel {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 260px;
+  max-width: 360px;
+  padding: 8px;
+  background: var(--card);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.multiselect-search {
+  width: 100%;
+}
+
+.multiselect-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow-y: auto;
+  max-height: 240px;
+}
+
+.multiselect-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.multiselect-item:hover {
+  background: var(--bg-subtle);
+}
+
+.multiselect-item input {
+  flex: none;
+  accent-color: var(--primary);
+}
+
+.multiselect-empty {
+  padding: 8px;
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+}
+
 /* ============================================================
    表单控件 / 按钮
    ============================================================ */
@@ -1460,11 +1600,9 @@ input.grow {
 }
 
 .dir-table {
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--card);
-  overflow: hidden;
-  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .dir-row-head,
@@ -1478,26 +1616,29 @@ input.grow {
   align-items: center;
   padding: 9px 18px;
   background: var(--bg-subtle);
-  border-bottom: 1px solid var(--border);
+  border-radius: var(--radius-sm);
   color: var(--muted);
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.02em;
 }
 
+/* 每行独立卡片：行间 gap 隔离，最左侧色条不再连成连续竖条 */
 .dir-row {
   align-items: start;
   padding: 14px 18px;
+  border: 1px solid var(--border);
   border-left: 3px solid var(--cat);
-  border-bottom: 1px solid var(--border);
-}
-
-.dir-row:last-child {
-  border-bottom: none;
+  border-radius: var(--radius-sm);
+  background: var(--card);
+  box-shadow: var(--shadow);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
 }
 
 .dir-row:hover {
   background: var(--bg-subtle);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-1px);
 }
 
 .dir-cell {
@@ -1589,7 +1730,7 @@ input.grow {
   align-items: center;
   padding: 9px 18px;
   background: var(--bg-subtle);
-  border-bottom: 1px solid var(--border);
+  border-radius: var(--radius-sm);
   color: var(--muted);
   font-size: 12px;
   font-weight: 600;
@@ -1599,18 +1740,20 @@ input.grow {
 .iv-row {
   align-items: center;
   padding: 12px 18px;
+  border: 1px solid var(--border);
   border-left: 3px solid var(--cat, var(--cat-hedge));
-  border-bottom: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--card);
+  box-shadow: var(--shadow);
   color: inherit;
   text-decoration: none;
-}
-
-.iv-row:last-child {
-  border-bottom: none;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
 }
 
 .iv-row:hover {
   background: var(--bg-subtle);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-1px);
 }
 
 .iv-company {

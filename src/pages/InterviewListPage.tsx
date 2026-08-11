@@ -7,6 +7,8 @@ import {
   InterviewResultBadge,
   InterviewSourceBadge,
 } from '../components/StatusBadge'
+import ChipGroup from '../components/ChipGroup'
+import MultiSelect from '../components/MultiSelect'
 import { SkeletonGrid } from '../components/SkeletonCard'
 import EmptyState from '../components/EmptyState'
 import {
@@ -21,37 +23,40 @@ import type { CompanyType, InterviewDifficulty, InterviewResult, InterviewSource
 
 interface InterviewFilter {
   q: string
-  companyId: string
-  result: '' | InterviewResult
-  difficulty: '' | InterviewDifficulty
-  source: '' | InterviewSource
+  /** 多选：空数组 = 不过滤 */
+  companyId: string[]
+  result: InterviewResult[]
+  difficulty: InterviewDifficulty[]
+  source: InterviewSource[]
 }
 
-const defaultFilter: InterviewFilter = { q: '', companyId: '', result: '', difficulty: '', source: '' }
+const defaultFilter: InterviewFilter = { q: '', companyId: [], result: [], difficulty: [], source: [] }
 
-// 筛选状态 ⇄ URL search params：筛选后进面经详情、浏览器后退，可恢复筛选前的列表
-const FILTER_PARAM_KEYS: (keyof InterviewFilter)[] = ['q', 'companyId', 'result', 'difficulty', 'source']
-
+// 筛选状态 ⇄ URL search params：筛选后进面经详情、浏览器后退，可恢复筛选前的列表。
+// 多选值用逗号 join 进单个参数。
 function filtersToParams(f: InterviewFilter): URLSearchParams {
   const sp = new URLSearchParams()
-  for (const k of FILTER_PARAM_KEYS) {
-    const v = f[k]
-    if (v !== '') sp.set(k, v)
-  }
+  if (f.q) sp.set('q', f.q)
+  if (f.companyId.length) sp.set('companyId', f.companyId.join(','))
+  if (f.result.length) sp.set('result', f.result.join(','))
+  if (f.difficulty.length) sp.set('difficulty', f.difficulty.join(','))
+  if (f.source.length) sp.set('source', f.source.join(','))
   return sp
 }
 
+function parseList<T extends string>(sp: URLSearchParams, key: string, allowed: T[]): T[] {
+  const raw = sp.get(key)
+  if (!raw) return []
+  return raw.split(',').filter((v): v is T => (allowed as string[]).includes(v))
+}
+
 function paramsToFilters(sp: URLSearchParams): InterviewFilter {
-  const pick = <T extends string>(key: keyof InterviewFilter, allowed: T[]): '' | T => {
-    const v = sp.get(key)
-    return v && (allowed as string[]).includes(v) ? (v as T) : ''
-  }
   return {
     q: sp.get('q') ?? '',
-    companyId: sp.get('companyId') ?? '',
-    result: pick('result', INTERVIEW_RESULTS),
-    difficulty: pick('difficulty', INTERVIEW_DIFFICULTIES),
-    source: pick('source', INTERVIEW_SOURCES),
+    companyId: (sp.get('companyId') ?? '').split(',').filter(Boolean),
+    result: parseList(sp, 'result', INTERVIEW_RESULTS),
+    difficulty: parseList(sp, 'difficulty', INTERVIEW_DIFFICULTIES),
+    source: parseList(sp, 'source', INTERVIEW_SOURCES),
   }
 }
 
@@ -75,10 +80,10 @@ export default function InterviewListPage() {
     const q = filters.q.trim().toLowerCase()
     return (interviewsQ.data ?? [])
       .filter((iv) => {
-        if (filters.companyId && iv.companyId !== filters.companyId) return false
-        if (filters.result && iv.result !== filters.result) return false
-        if (filters.difficulty && iv.difficulty !== filters.difficulty) return false
-        if (filters.source && iv.source !== filters.source) return false
+        if (filters.companyId.length && !filters.companyId.includes(iv.companyId)) return false
+        if (filters.result.length && !filters.result.includes(iv.result)) return false
+        if (filters.difficulty.length && !filters.difficulty.includes(iv.difficulty)) return false
+        if (filters.source.length && !filters.source.includes(iv.source)) return false
         if (q) {
           const hay = `${iv.companyName ?? ''} ${iv.jobTitle} ${iv.summary ?? ''} ${iv.sourceTitle ?? ''}`.toLowerCase()
           if (!hay.includes(q)) return false
@@ -94,7 +99,12 @@ export default function InterviewListPage() {
     setFilters(next)
     setSearchParams(filtersToParams(next), { replace: true })
   }
-  const hasActive = filters.q !== '' || filters.companyId !== '' || filters.result !== '' || filters.difficulty !== '' || filters.source !== ''
+  const hasActive =
+    filters.q !== '' ||
+    filters.companyId.length > 0 ||
+    filters.result.length > 0 ||
+    filters.difficulty.length > 0 ||
+    filters.source.length > 0
 
   return (
     <section>
@@ -125,38 +135,32 @@ export default function InterviewListPage() {
           )}
         </div>
         <div className="filter-row">
-          <select value={filters.companyId} onChange={(e) => set({ companyId: e.target.value })} aria-label="按公司筛选">
-            <option value="">全部公司</option>
-            {(companiesQ.data ?? []).map((c) => (
-              <option key={c.id} value={c.id}>
-                {c.name}
-              </option>
-            ))}
-          </select>
-          <select value={filters.result} onChange={(e) => set({ result: e.target.value as InterviewFilter['result'] })} aria-label="按结果筛选">
-            <option value="">面试结果</option>
-            {INTERVIEW_RESULTS.map((r) => (
-              <option key={r} value={r}>
-                {INTERVIEW_RESULT_LABELS[r]}
-              </option>
-            ))}
-          </select>
-          <select value={filters.difficulty} onChange={(e) => set({ difficulty: e.target.value as InterviewFilter['difficulty'] })} aria-label="按难度筛选">
-            <option value="">面试难度</option>
-            {INTERVIEW_DIFFICULTIES.map((d) => (
-              <option key={d} value={d}>
-                {INTERVIEW_DIFFICULTY_LABELS[d]}
-              </option>
-            ))}
-          </select>
-          <select value={filters.source} onChange={(e) => set({ source: e.target.value as InterviewFilter['source'] })} aria-label="按来源筛选">
-            <option value="">来源平台</option>
-            {INTERVIEW_SOURCES.map((s) => (
-              <option key={s} value={s}>
-                {INTERVIEW_SOURCE_LABELS[s]}
-              </option>
-            ))}
-          </select>
+          <MultiSelect
+            label="公司"
+            options={(companiesQ.data ?? []).map((c) => ({ value: c.id, label: c.name }))}
+            values={filters.companyId}
+            onChange={(v) => set({ companyId: v })}
+            allLabel="全部公司"
+            searchPlaceholder="搜索公司…"
+          />
+          <ChipGroup
+            label="结果"
+            options={INTERVIEW_RESULTS.map((r) => ({ value: r, label: INTERVIEW_RESULT_LABELS[r] }))}
+            values={filters.result}
+            onChange={(v) => set({ result: v })}
+          />
+          <ChipGroup
+            label="难度"
+            options={INTERVIEW_DIFFICULTIES.map((d) => ({ value: d, label: INTERVIEW_DIFFICULTY_LABELS[d] }))}
+            values={filters.difficulty}
+            onChange={(v) => set({ difficulty: v })}
+          />
+          <ChipGroup
+            label="来源"
+            options={INTERVIEW_SOURCES.map((s) => ({ value: s, label: INTERVIEW_SOURCE_LABELS[s] }))}
+            values={filters.source}
+            onChange={(v) => set({ source: v })}
+          />
         </div>
         <p className="filter-count">
           共 <b>{list.length}</b> 条{hasActive && '（已筛选）'}

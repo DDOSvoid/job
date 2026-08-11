@@ -19,10 +19,11 @@ function applyFilters(
   const q = filters.q.trim().toLowerCase()
   const filtered = jobs.filter((j) => {
     const info = companyInfo(j.companyId)
-    if (filters.companyId && j.companyId !== filters.companyId) return false
-    if (filters.autumn2026 && j.autumn2026 !== filters.autumn2026) return false
-    if (filters.type && info.type !== filters.type) return false
-    if (filters.stage && appByJob.get(j.id) !== filters.stage) return false
+    if (filters.companyId.length && !filters.companyId.includes(j.companyId)) return false
+    if (filters.autumn2026.length && !filters.autumn2026.includes(j.autumn2026)) return false
+    if (filters.type.length && (!info.type || !filters.type.includes(info.type))) return false
+    const appStage = appByJob.get(j.id)
+    if (filters.stage.length && (!appStage || !filters.stage.includes(appStage))) return false
     if (q) {
       const hay = `${j.title} ${info.name} ${j.description ?? ''} ${j.salary ?? ''}`.toLowerCase()
       if (!hay.includes(q)) return false

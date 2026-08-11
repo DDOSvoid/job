@@ -118,7 +118,7 @@ export default function CompanyListPage() {
   const list = useMemo(() => {
     const q = filters.q.trim().toLowerCase()
     return (companies.data ?? []).filter((c) => {
-      if (filters.type && c.type !== filters.type) return false
+      if (filters.type.length && !filters.type.includes(c.type)) return false
       if (q) {
         const hay = `${c.name} ${c.location ?? ''} ${c.about ?? ''}`.toLowerCase()
         if (!hay.includes(q)) return false
@@ -153,6 +153,8 @@ export default function CompanyListPage() {
         filters={filters}
         onChange={updateFilters}
         companies={companies.data ?? []}
+        showCompany={false}
+        showAutumn={false}
         total={list.length}
         unit="家机构"
       />

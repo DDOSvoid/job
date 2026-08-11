@@ -1,5 +1,13 @@
-import { APPLICATION_STAGE_LABELS, AUTUMN_STATUSES, AUTUMN_STATUS_LABELS } from '../constants'
+import {
+  APPLICATION_STAGE_LABELS,
+  APPLICATION_STAGES,
+  AUTUMN_STATUS_LABELS,
+  AUTUMN_STATUSES,
+  COMPANY_TYPE_LABELS,
+} from '../constants'
 import type { AutumnStatus, ApplicationStage, CompanyType } from '../types'
+import ChipGroup from './ChipGroup'
+import MultiSelect from './MultiSelect'
 
 export type SortKey = 'default' | 'recent' | 'autumn' | 'verified'
 
@@ -11,57 +19,62 @@ export const SORT_LABELS: Record<SortKey, string> = {
 }
 
 export interface FilterState {
-  companyId: string
-  type: '' | CompanyType
-  autumn2026: '' | AutumnStatus
-  stage: '' | ApplicationStage
+  /** 多选：空数组 = 不过滤 */
+  companyId: string[]
+  type: CompanyType[]
+  autumn2026: AutumnStatus[]
+  stage: ApplicationStage[]
   q: string
   sort: SortKey
 }
 
 export const defaultFilters: FilterState = {
-  companyId: '',
-  type: '',
-  autumn2026: '',
-  stage: '',
+  companyId: [],
+  type: [],
+  autumn2026: [],
+  stage: [],
   q: '',
   sort: 'default',
 }
 
 // ---- 筛选状态 ⇄ URL search params ----
 // 列表页以 URL 为筛选状态源：筛选后进入详情页，浏览器后退时会恢复到筛选过的列表。
-
-const FILTER_PARAM_KEYS: (keyof FilterState)[] = ['companyId', 'type', 'autumn2026', 'stage', 'q', 'sort']
+// 多选值用逗号 join 进单个参数（取值不含逗号）。
 
 const COMPANY_TYPES: CompanyType[] = ['public', 'private', 'securities', 'tech']
-const STAGES = Object.keys(APPLICATION_STAGE_LABELS) as ApplicationStage[]
 const SORTS = Object.keys(SORT_LABELS) as SortKey[]
+
+function parseList<T extends string>(sp: URLSearchParams, key: string, allowed: T[]): T[] {
+  const raw = sp.get(key)
+  if (!raw) return []
+  return raw.split(',').filter((v): v is T => (allowed as string[]).includes(v))
+}
 
 function parseParam<T extends string>(sp: URLSearchParams, key: string, allowed: T[]): '' | T {
   const v = sp.get(key)
   return v && (allowed as string[]).includes(v) ? (v as T) : ''
 }
 
-/** 把筛选状态序列化进 URLSearchParams（空值与默认排序不写入，保持 URL 干净）。 */
+/** 把筛选状态序列化进 URLSearchParams（空数组与默认排序不写入，保持 URL 干净）。 */
 export function filtersToParams(filters: FilterState): URLSearchParams {
   const sp = new URLSearchParams()
-  for (const k of FILTER_PARAM_KEYS) {
-    const v = filters[k]
-    if (v === '' || (k === 'sort' && v === 'default')) continue
-    sp.set(k, v)
-  }
+  if (filters.companyId.length) sp.set('companyId', filters.companyId.join(','))
+  if (filters.type.length) sp.set('type', filters.type.join(','))
+  if (filters.autumn2026.length) sp.set('autumn2026', filters.autumn2026.join(','))
+  if (filters.stage.length) sp.set('stage', filters.stage.join(','))
+  if (filters.q) sp.set('q', filters.q)
+  if (filters.sort !== 'default') sp.set('sort', filters.sort)
   return sp
 }
 
 /** 从 URLSearchParams 解析筛选状态；非法/未知值回落为默认。 */
 export function paramsToFilters(sp: URLSearchParams): FilterState {
-  const q = sp.get('q') ?? ''
   return {
-    companyId: sp.get('companyId') ?? '',
-    type: parseParam(sp, 'type', COMPANY_TYPES),
-    autumn2026: parseParam(sp, 'autumn2026', AUTUMN_STATUSES),
-    stage: parseParam(sp, 'stage', STAGES),
-    q,
+    companyId: (sp.get('companyId') ?? '').split(',').filter(Boolean),
+    type: parseList(sp, 'type', COMPANY_TYPES),
+    autumn2026: parseList(sp, 'autumn2026', AUTUMN_STATUSES),
+    stage: parseList(sp, 'stage', APPLICATION_STAGES),
+    q: sp.get('q') ?? '',
     sort: parseParam(sp, 'sort', SORTS) || 'default',
   }
 }
@@ -70,16 +83,32 @@ export interface FilterProps {
   filters: FilterState
   onChange: (f: FilterState) => void
   companies: { id: string; name: string }[]
+  showCompany?: boolean
+  showType?: boolean
+  showAutumn?: boolean
   showStage?: boolean
   total?: number
   unit?: string
 }
 
-export default function FilterBar({ filters, onChange, companies, showStage, total, unit = '条' }: FilterProps) {
+export default function FilterBar({
+  filters,
+  onChange,
+  companies,
+  showCompany = true,
+  showType = true,
+  showAutumn = true,
+  showStage,
+  total,
+  unit = '条',
+}: FilterProps) {
   const set = (patch: Partial<FilterState>) => onChange({ ...filters, ...patch })
   const hasActive =
-    filters.companyId !== '' || filters.type !== '' || filters.autumn2026 !== '' ||
-    filters.stage !== '' || filters.q !== ''
+    filters.companyId.length > 0 ||
+    filters.type.length > 0 ||
+    filters.autumn2026.length > 0 ||
+    filters.stage.length > 0 ||
+    filters.q !== ''
   const reset = () => onChange(defaultFilters)
 
   return (
@@ -115,57 +144,44 @@ export default function FilterBar({ filters, onChange, companies, showStage, tot
           </button>
         )}
       </div>
-      <div className="filter-row">
-        <select
-          value={filters.companyId}
-          onChange={(e) => set({ companyId: e.target.value })}
-          aria-label="按公司筛选"
-        >
-          <option value="">全部公司</option>
-          {companies.map((c) => (
-            <option key={c.id} value={c.id}>
-              {c.name}
-            </option>
-          ))}
-        </select>
-        <select
-          value={filters.type}
-          onChange={(e) => set({ type: e.target.value as FilterState['type'] })}
-          aria-label="按类型筛选"
-        >
-          <option value="">机构类型</option>
-          <option value="public">公募</option>
-          <option value="private">私募</option>
-          <option value="securities">券商</option>
-          <option value="tech">科技</option>
-        </select>
-        <select
-          value={filters.autumn2026}
-          onChange={(e) => set({ autumn2026: e.target.value as FilterState['autumn2026'] })}
-          aria-label="按秋招状态筛选"
-        >
-          <option value="">秋招状态</option>
-          {AUTUMN_STATUSES.map((s) => (
-            <option key={s} value={s}>
-              {AUTUMN_STATUS_LABELS[s]}
-            </option>
-          ))}
-        </select>
-        {showStage && (
-          <select
-            value={filters.stage}
-            onChange={(e) => set({ stage: e.target.value as FilterState['stage'] })}
-            aria-label="按申请状态筛选"
-          >
-            <option value="">申请状态</option>
-            {Object.entries(APPLICATION_STAGE_LABELS).map(([k, v]) => (
-              <option key={k} value={k}>
-                {v}
-              </option>
-            ))}
-          </select>
-        )}
-      </div>
+      {(showCompany || showType || showAutumn || showStage) && (
+        <div className="filter-row">
+          {showCompany && (
+            <MultiSelect
+              label="公司"
+              options={companies.map((c) => ({ value: c.id, label: c.name }))}
+              values={filters.companyId}
+              onChange={(v) => set({ companyId: v })}
+              allLabel="全部公司"
+              searchPlaceholder="搜索公司…"
+            />
+          )}
+          {showType && (
+            <ChipGroup
+              label="类型"
+              options={COMPANY_TYPES.map((t) => ({ value: t, label: COMPANY_TYPE_LABELS[t] }))}
+              values={filters.type}
+              onChange={(v) => set({ type: v })}
+            />
+          )}
+          {showAutumn && (
+            <ChipGroup
+              label="秋招"
+              options={AUTUMN_STATUSES.map((s) => ({ value: s, label: AUTUMN_STATUS_LABELS[s] }))}
+              values={filters.autumn2026}
+              onChange={(v) => set({ autumn2026: v })}
+            />
+          )}
+          {showStage && (
+            <ChipGroup
+              label="进展"
+              options={APPLICATION_STAGES.map((s) => ({ value: s, label: APPLICATION_STAGE_LABELS[s] }))}
+              values={filters.stage}
+              onChange={(v) => set({ stage: v })}
+            />
+          )}
+        </div>
+      )}
       {typeof total === 'number' && (
         <p className="filter-count">
           共 <b>{total}</b> {unit}
