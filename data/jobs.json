@@ -4,7 +4,7 @@
     "companyId": "highflyer",
     "title": "量化策略研究员（量化研究员）",
     "description": "研究和开发量化策略，应用机器学习/深度学习对大量历史数据进行分析统计、寻找市场规律，挖掘股票市场中性 Alpha 模型/因子并测试。任职要求综合自第三方招聘帖（请以官网为准）：985/海外知名高校硕士及以上，数学/统计/物理/计算机等理工科背景，熟练使用 Python/C++，竞赛获奖/顶会论文加分。工作地点以杭州为主（第三方渠道亦提及上海）。",
-    "salary": "60-200万/年（第三方渠道，未经官方核实）",
+    "salary": "80-110K·16薪（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://app.mokahr.com/apply/high-flyer/4604",
     "officialUrl": "https://www.high-flyer.cn/join",
@@ -31,11 +31,11 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘（boss-cli 搜索）",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "触发 Boss 风控（code=36 账户存在异常行为），已暂停 boss-cli 搜索；风控通常 20-60 分钟自行解除。需手动打开 Boss直聘搜索『幻方 量化研究员』确认 [TODO]"
+        "title": "Boss直聘·幻方量化 深度学习科学家/研究员（2026-08-11 实时确认）",
+        "url": "https://www.zhipin.com/job_detail/306e45855745be631HB53N6_EFFU.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州拱墅、在校/应届本科、80-110K·16薪；技能 机器学习/大模型算法/NLP/模型加速/C++/Python；未经官方核实"
       },
       {
         "type": "wechat",
@@ -46,9 +46,9 @@
         "note": "公众号『幻方量化』历史招聘推文可搜到（2019 春招+社招、2021 校招），但 2026 校招推文未确认；文章正文被微信验证墙拦截，需手动查看 [TODO]"
       }
     ],
-    "notes": "量化研究员岗位已在官网招聘系统（Moka ATS）确认在招（当前为社会招聘性质）；薪资来自第三方渠道（小红书/猎聘），未经官方核实。2026 秋招状态未确认，见 autumn2026Note。投递邮箱参考 talent@high-flyer.cn / job@high-flyer.cn（来自公开招聘帖，未在官网核实）。另有关联 DeepSeek 招聘入口 https://app.mokahr.com/social-recruitment/high-flyer/140576（幻方&DeepSeek 共用招聘系统）。",
+    "notes": "量化研究员岗位已在官网招聘系统（Moka ATS）确认在招（当前为社会招聘性质）；薪资来自第三方渠道（小红书/猎聘），未经官方核实。2026 秋招状态未确认，见 autumn2026Note。投递邮箱参考 talent@high-flyer.cn / job@high-flyer.cn（来自公开招聘帖，未在官网核实）。另有关联 DeepSeek 招聘入口 https://app.mokahr.com/social-recruitment/high-flyer/140576（幻方&DeepSeek 共用招聘系统）。；2026-08-11 Boss直聘实时确认：幻方深度学习科学家/研究员（杭州拱墅，80-110K·16薪）",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "campus"
   },
   {
@@ -83,16 +83,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·明汯投资量化岗位检索",
-        "url": "https://www.zhipin.com/zhaopin/a6ce91396e33a7601XJ42Ni-EQ~~",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘（2026-08-11 实时搜索·环境异常）",
+        "url": "https://www.zhipin.com/search?query=%E6%98%8E%E6%B1%AF%E6%8A%95%E8%B5%84&city=%E4%B8%8A%E6%B5%B7",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "Boss直聘有安全验证墙；搜索摘要显示明汯在Boss直聘在招'量化开发工程师（2026校招）'等岗位，量化研究员具体职位页需手动核实"
+        "note": "2026-08-11 实时搜索触发 TOKEN_REFRESH_FAILED（您的环境存在异常，recoverable=false），按纪律立即停搜；需手动在Boss直聘确认在招岗位 [TODO]"
       }
     ],
-    "notes": "薪资为行业第三方参考，官方公告未披露具体薪资。岗位详情请以官网为准。",
+    "notes": "薪资为行业第三方参考，官方公告未披露具体薪资。岗位详情请以官网为准。；2026-08-11 Boss实时搜索遇环境异常（TOKEN_REFRESH_FAILED），未能返回在招岗位，保留 blocked",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -135,16 +135,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘·衍复投资（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E8%A1%8D%E5%A4%8D%E6%8A%95%E8%B5%84&city=101020100",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『衍复投资』查看 [TODO]"
+        "note": "2026-08-11 实时搜索返回 9 条在招（量化系统/高频系统/量化实现/C++实习等），未含量化研究员；该岗位不在 Boss 上公开，走官网投递 [TODO]"
       }
     ],
-    "notes": "薪资为第三方渠道数字（2021春招校招base 40万+/年、2023水木社区社招月薪30k-60k×15-18薪），未经官方核实；官方未披露具体薪资。岗位详情请以官网为准。",
+    "notes": "薪资为第三方渠道数字（2021春招校招base 40万+/年、2023水木社区社招月薪30k-60k×15-18薪），未经官方核实；官方未披露具体薪资。岗位详情请以官网为准。 Boss直聘实时（2026-08-11）：搜索『衍复投资』（上海）返回 9 条在招岗位，未含量化研究员/策略研究员；Boss 上以量化系统开发/高频系统开发/量化实现等开发岗为主，研究员岗位需走官网/公众号投递。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -152,7 +152,7 @@
     "companyId": "winbao",
     "title": "量化研究员（量子飞跃计划·应届&实习·2026届秋招）",
     "description": "稳博投资『量子飞跃计划』2026届校园招聘岗位（应届&实习均可）。岗位职责：开发因子模型；使用统计检验评估模型对数据的拟合程度及预测表现；应用机器学习算法提升模型的泛化能力和稳定性（2025春季批次岗位描述另含图神经网络/RNN混合模型、时间序列预测等方向）。任职要求：计算机、数学、物理等理工科相关专业，本科/硕士/博士；加分项为奥赛获奖、顶会论文、ACM奖牌。工作地点：上海浦东新区（源深路1088号平安财富大厦9楼）。投递：简历以『求职-姓名-职位名称』为标题发送至 hr@wenbofund.com，或通过招聘平台 mh.hire66.com 投递/扫码投递。招聘流程：简历评估→电话沟通→线上笔试→2至3轮面试→offer→入职。『量子飞跃计划』自2023年启动，创始团队亲授、实盘策略开发、定制化成长路径，最快60天获得转正offer。（依据2026届秋招公告/高校就业网与第三方转载整理，岗位详情请以官网为准）",
-    "salary": "面议（第三方渠道提及量化研究员实习年薪可达70万元/年（江苏24365就业平台），未经官方核实）",
+    "salary": "35-65K·16薪（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://mh.hire66.com/position?secret_key=O8wvS7JBcc",
     "officialUrl": "https://www.wenbofund.com/contact/hire.html",
@@ -195,16 +195,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·稳博投资",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『稳博投资』查看 [TODO]"
+        "title": "Boss直聘·稳博投资 量化研究员（实习|校招）",
+        "url": "https://www.zhipin.com/job_detail/8f0f2905159ad4780nBy3tq_GFdS.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、在校/应届本科、35-65K·16薪；对应官网量子飞跃计划量化研究员岗位，未经官方核实"
       }
     ],
-    "notes": "薪资未获官方披露；第三方渠道（江苏24365就业平台）称量化研究员实习年薪可达70万/年，未经官方核实。岗位详情请以官网为准。投递邮箱 hr@wenbofund.com（标题『求职-姓名-职位名称』），招聘平台 mh.hire66.com。",
+    "notes": "薪资未获官方披露；第三方渠道（江苏24365就业平台）称量化研究员实习年薪可达70万/年，未经官方核实。岗位详情请以官网为准。投递邮箱 hr@wenbofund.com（标题『求职-姓名-职位名称』），招聘平台 mh.hire66.com。 Boss直聘实时（2026-08-11）：量化研究员（实习|校招）35-65K·16薪、上海浦东新区、在校/应届本科。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -771,16 +771,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·九坤投资（北京）有限公司公司页",
-        "url": "https://m.zhipin.com/companys/eb0b7bac0a8698020nB92d66.html",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘（2026-08-11 实时搜索·环境异常）",
+        "url": "https://www.zhipin.com/search?query=%E4%B9%9D%E5%9D%A4&city=%E5%8C%97%E4%BA%AC",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "Boss直聘详情页有安全验证墙；本机 boss-cli 本次会话因账户风控（code=36，先前批量搜索触发）未能返回实时岗位，需用户稍后手动在 Boss直聘 搜索'九坤'确认当前在招量化岗位与薪资"
+        "note": "2026-08-11 实时搜索触发 TOKEN_REFRESH_FAILED（您的环境存在异常，recoverable=false），按纪律立即停搜；需手动在Boss直聘确认在招岗位 [TODO]"
       }
     ],
-    "notes": "岗位详情依据2026春招/秋招公告与高校就业网、校招聚合站转载整理，官方岗位页需JS渲染未直接读取，请以官网为准。薪资为第三方渠道（小红书、媒体）数字，官方未披露具体区间。",
+    "notes": "岗位详情依据2026春招/秋招公告与高校就业网、校招聚合站转载整理，官方岗位页需JS渲染未直接读取，请以官网为准。薪资为第三方渠道（小红书、媒体）数字，官方未披露具体区间。；2026-08-11 Boss实时搜索遇环境异常（TOKEN_REFRESH_FAILED），未能返回在招岗位，保留 blocked",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -807,16 +807,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·九坤投资公司页（在招岗位检索）",
-        "url": "https://m.zhipin.com/companys/eb0b7bac0a8698020nB92d66.html",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘（2026-08-11 实时搜索·环境异常）",
+        "url": "https://www.zhipin.com/search?query=%E4%B9%9D%E5%9D%A4&city=%E5%8C%97%E4%BA%AC",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "Boss直聘有安全验证墙；本次 boss-cli 会话因账户风控未能实时搜索，公司页搜索摘要显示九坤在招含大模型算法实习生（至知创新研究院）等岗位，需手动核实"
+        "note": "2026-08-11 实时搜索触发 TOKEN_REFRESH_FAILED（您的环境存在异常，recoverable=false），按纪律立即停搜；需手动在Boss直聘确认在招岗位 [TODO]"
       }
     ],
-    "notes": "薪资数字来自第三方薪资分享帖（小红书），未经官方核实，官方公告未披露薪资。岗位详情请以官网为准。",
+    "notes": "薪资数字来自第三方薪资分享帖（小红书），未经官方核实，官方公告未披露薪资。岗位详情请以官网为准。；2026-08-11 Boss实时搜索遇环境异常（TOKEN_REFRESH_FAILED），未能返回在招岗位，保留 blocked",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "campus"
   },
   {
@@ -843,16 +843,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·九坤投资公司页（在招岗位检索）",
-        "url": "https://m.zhipin.com/companys/eb0b7bac0a8698020nB92d66.html",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘（2026-08-11 实时搜索·环境异常）",
+        "url": "https://www.zhipin.com/search?query=%E4%B9%9D%E5%9D%A4&city=%E5%8C%97%E4%BA%AC",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "Boss直聘有安全验证墙；本次会话 boss-cli 因账户风控未能实时搜索，需手动核实"
+        "note": "2026-08-11 实时搜索触发 TOKEN_REFRESH_FAILED（您的环境存在异常，recoverable=false），按纪律立即停搜；需手动在Boss直聘确认在招岗位 [TODO]"
       }
     ],
-    "notes": "薪资为行业参考（第三方），官方未披露。岗位详情请以官网为准。",
+    "notes": "薪资为行业参考（第三方），官方未披露。岗位详情请以官网为准。；2026-08-11 Boss实时搜索遇环境异常（TOKEN_REFRESH_FAILED），未能返回在招岗位，保留 blocked",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "campus"
   },
   {
@@ -879,16 +879,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·九坤投资公司页",
-        "url": "https://m.zhipin.com/companys/eb0b7bac0a8698020nB92d66.html",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘（2026-08-11 实时搜索·环境异常）",
+        "url": "https://www.zhipin.com/search?query=%E4%B9%9D%E5%9D%A4&city=%E5%8C%97%E4%BA%AC",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "Boss直聘有安全验证墙；需手动核实当前是否在招"
+        "note": "2026-08-11 实时搜索触发 TOKEN_REFRESH_FAILED（您的环境存在异常，recoverable=false），按纪律立即停搜；需手动在Boss直聘确认在招岗位 [TODO]"
       }
     ],
-    "notes": "岗位存在性经校招公告确认，但岗位详情与薪资信息较少，需手动查看官网/MOKA。",
+    "notes": "岗位存在性经校招公告确认，但岗位详情与薪资信息较少，需手动查看官网/MOKA。；2026-08-11 Boss实时搜索遇环境异常（TOKEN_REFRESH_FAILED），未能返回在招岗位，保留 blocked",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "campus"
   },
   {
@@ -1127,16 +1127,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘·衍复投资（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E8%A1%8D%E5%A4%8D%E6%8A%95%E8%B5%84&city=101020100",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『衍复投资』查看 [TODO]"
+        "note": "2026-08-11 实时搜索返回 9 条在招，未含机器学习研究员岗位；该岗位不在 Boss 上公开，走官网投递 [TODO]"
       }
     ],
-    "notes": "薪资为第三方渠道数字（2021春招校招base 40万+/年、实习月薪2万/食宿全包），未经官方核实；官方未披露具体薪资。岗位详情请以官网为准。",
+    "notes": "薪资为第三方渠道数字（2021春招校招base 40万+/年、实习月薪2万/食宿全包），未经官方核实；官方未披露具体薪资。岗位详情请以官网为准。 Boss直聘实时（2026-08-11）：搜索『衍复投资』（上海）返回 9 条在招岗位，未含机器学习研究员；需走官网/公众号投递。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "campus"
   },
   {
@@ -1144,7 +1144,7 @@
     "companyId": "yanfu",
     "title": "量化实现工程师 / Quantitative Developer（校招+实习）",
     "description": "岗位职责：负责策略研究需求的设计和实现；负责量化研究平台的开发和维护。任职要求：2025/2026届本科及以上，计算机相关专业；熟练掌握数据结构和算法；熟练掌握C++；加分项为数理基础好、熟悉常用机器学习算法、熟悉GPU使用或底层库优化、熟悉机器学习平台工具。工作地点：上海徐汇区。应聘流程（开发工程岗）：简历初筛→笔试测评→初面→终面→OFFER。投递：官网投递门户 yanfuinvestments1.zhiye.com、邮箱 quant@yanfuinvestments.com、微信公众号「衍复投资」菜单栏『招贤纳士』。（依据官网招聘页与第三方招聘帖整理，详情请以官网为准）",
-    "salary": "15k-30k/月（实习，第三方渠道，未经官方核实）",
+    "salary": "20-40K·16薪（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://yanfuinvestments1.zhiye.com/",
     "officialUrl": "https://yanfuinvestments.com/join",
@@ -1179,16 +1179,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘·衍复投资 量化实现工程师（可实习）",
+        "url": "https://www.zhipin.com/job_detail/316b0f8c628788431X173di9EFJT.html",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『衍复投资』查看 [TODO]"
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海徐汇区、1-3年、本科、20-40K·16薪，技能 机器学习/GPU；对应官网量化实现工程师岗位（校招+实习），未经官方核实"
       }
     ],
-    "notes": "薪资15k-30k/月来自第三方招聘渠道（实习岗），未经官方核实。岗位详情请以官网为准。",
+    "notes": "薪资15k-30k/月来自第三方招聘渠道（实习岗），未经官方核实。岗位详情请以官网为准。 Boss直聘实时（2026-08-11）：量化实现工程师（可实习）20-40K·16薪、上海徐汇区、1-3年本科，技能 机器学习/GPU。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -1196,7 +1196,7 @@
     "companyId": "winbao",
     "title": "量化开发工程师（量子飞跃计划·应届&实习·2026届秋招）",
     "description": "稳博投资『量子飞跃计划』2026届校园招聘岗位（应届&实习均可）。岗位职责：策略部署与执行平台开发；回测平台开发与优化；与研究人员紧密合作，根据需求编写简洁有效的Python脚本。任职要求：计算机、数学、物理等理工科相关专业，本科/硕士/博士；有量化行业经验或ACM竞赛获奖者加分。工作地点：上海浦东新区（源深路1088号平安财富大厦9楼）。投递：简历以『求职-姓名-职位名称』为标题发送至 hr@wenbofund.com，或通过招聘平台 mh.hire66.com 投递/扫码投递。招聘流程：简历评估→电话沟通→线上笔试→2至3轮面试→offer→入职。（依据2026届秋招公告/高校就业网与第三方转载整理，岗位详情请以官网为准）",
-    "salary": "示例：面议",
+    "salary": "600-1000元/天（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://mh.hire66.com/position?secret_key=O8wvS7JBcc",
     "officialUrl": "https://www.wenbofund.com/contact/hire.html",
@@ -1231,16 +1231,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·稳博投资",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『稳博投资』查看 [TODO]"
+        "title": "Boss直聘·稳博投资 量化开发工程师（实习｜校招）",
+        "url": "https://www.zhipin.com/job_detail/49fff45517cba8b81HN739m-FFdR.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、硕士、600-1000元/天、3天/周、6个月，技能 C++/量化交易开发经验；对应官网量子飞跃计划量化开发工程师岗位，未经官方核实"
       }
     ],
-    "notes": "薪资未获官方披露，第三方渠道未见稳定数字，按面议处理。岗位详情请以官网为准。投递邮箱 hr@wenbofund.com（标题『求职-姓名-职位名称』），招聘平台 mh.hire66.com。",
+    "notes": "薪资未获官方披露，第三方渠道未见稳定数字，按面议处理。岗位详情请以官网为准。投递邮箱 hr@wenbofund.com（标题『求职-姓名-职位名称』），招聘平台 mh.hire66.com。 Boss直聘实时（2026-08-11）：量化开发工程师（实习|校招）600-1000元/天、上海浦东新区、硕士、3天/周、6个月，技能 C++/量化交易开发经验。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -1248,7 +1248,7 @@
     "companyId": "winbao",
     "title": "机器学习量化研究员（社招·上海）",
     "description": "岗位职责：研发创新型AI算法优化量化交易策略；基于机器学习/深度学习分析海量历史数据，挖掘市场规律与因子；开发优化统计模型，提升预测能力与泛化性；监控策略表现并持续迭代交易系统。任职要求：数学/计算机/金融等专业全日制本科及以上；精通Python、C++，熟悉Linux开发环境；扎实的机器学习与统计分析基础；极强的数据敏感性与逻辑思维能力；热爱AI+金融，有创新精神和团队协作意识。工作地点：上海（浦东新区源深路1088号平安财富大厦9楼）。投递：简历以『求职-姓名-职位名称』为标题发送至 hr@wenbofund.com，或扫描页面二维码投递。（岗位详情与薪资以官网为准）",
-    "salary": "示例：面议",
+    "salary": "40-70K·14薪（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://mh.hire66.com/position?secret_key=O8wvS7JBcc",
     "officialUrl": "https://www.wenbofund.com/contact/hire.html",
@@ -1267,16 +1267,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·稳博投资",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『稳博投资』查看 [TODO]"
+        "title": "Boss直聘·稳博投资 量化研究员（机器学习方向）",
+        "url": "https://www.zhipin.com/job_detail/61ca868963773bfc3nZ_2Nq7EFE~.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、经验不限、硕士、40-70K·14薪，技能 机器学习/人工智能/算法交易"
       }
     ],
-    "notes": "薪资未披露，按面议处理；岗位存在性与详情经官网招聘页完整确认。",
+    "notes": "薪资未披露，按面议处理；岗位存在性与详情经官网招聘页完整确认。 Boss直聘实时（2026-08-11）：量化研究员（机器学习方向）40-70K·14薪、上海浦东新区、经验不限、硕士。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "social"
   },
   {
@@ -1284,7 +1284,7 @@
     "companyId": "winbao",
     "title": "量化平台开发工程师（社招·上海）",
     "description": "岗位职责：①实时计算平台开发与优化（实时数据管道、任务调度、SLA监控告警）；②风控告警平台开发与优化（实时风险指标计算引擎、告警规则引擎、风险仪表盘）；③交易管理平台开发与优化（交易指令管理、执行状态跟踪、交易成本归因分析）。任职要求：计算机/电子/自动化等专业全日制本科及以上；精通C++、Python、算法、机器学习；有量化行业经验者加分，ACM竞赛获奖者加分；有独立发现问题并设计方案解决问题的能力。工作地点：上海（浦东新区源深路1088号平安财富大厦9楼）。投递：简历以『求职-姓名-职位名称』为标题发送至 hr@wenbofund.com，或扫描页面二维码投递。（岗位详情与薪资以官网为准）",
-    "salary": "示例：面议",
+    "salary": "25-35K·14薪（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://mh.hire66.com/position?secret_key=O8wvS7JBcc",
     "officialUrl": "https://www.wenbofund.com/contact/hire.html",
@@ -1303,16 +1303,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·稳博投资",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『稳博投资』查看 [TODO]"
+        "title": "Boss直聘·稳博投资 量化交易平台开发工程师",
+        "url": "https://www.zhipin.com/job_detail/1f81eb03993ee8de1nZ62dS5EVFT.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、经验不限、本科、25-35K·14薪，技能 消息队列/Linux/计算机软件"
       }
     ],
-    "notes": "薪资未披露，按面议处理；岗位存在性与详情经官网招聘页完整确认。",
+    "notes": "薪资未披露，按面议处理；岗位存在性与详情经官网招聘页完整确认。 Boss直聘实时（2026-08-11）：量化交易平台开发工程师（社招，经验不限）25-35K·14薪、上海浦东新区；另设量化平台开发工程师实习岗 400-800元/天。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "social"
   },
   {
@@ -1320,7 +1320,7 @@
     "companyId": "lingjun",
     "title": "量化研究实习生（因子/机器学习方向·日常实习，可转正）",
     "description": "因子方向——参与数据分析与建模，评估因子对交易策略的影响，挖掘有效Alpha因子；机器学习方向——将机器学习/深度学习应用于金融数据建模与量化策略研发。任职要求：2026年12月及以后毕业的在读生，可稳定线下实习6个月及以上；有量化私募或券商量化投研部因子相关实习经验者优先；熟练使用 Python（numpy/scipy/pandas），掌握统计或机器学习模型；官网日常实习要求每周到岗不少于4天、实习至少3个月。工作地点：北京、上海。投递：官网校园招聘页（MOKA 招聘系统）或邮箱 jiasitong@lingjuninvest.com / intern@lingjuninvest.com / Campus@lingjuninvest.com。（依据官网校招页与第三方内推帖整理，详情请以官网为准）",
-    "salary": "面议（官方未披露；实习薪资需与HR确认，未经官方核实）",
+    "salary": "800-1000元/天（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://www.lingjuninvest.com/campus-recruitment",
     "officialUrl": "https://www.lingjuninvest.com/campus-recruitment",
@@ -1355,16 +1355,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘搜索：灵均投资 量化",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『灵均投资』查看 [TODO]"
+        "title": "Boss直聘·灵均投资 量化研究实习生（因子方向）（2026-08-11 实时确认）",
+        "url": "https://www.zhipin.com/job_detail/b4c54e469b2757bf03F82di9FFZV.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京海淀、本科、800-1000元/天，因子研究方向实习；未经官方核实"
       }
     ],
-    "notes": "岗位存在性经官网校招页（全年日常实习）与第三方内推帖确认；薪资官方未披露。2026秋招状态未确认，见 autumn2026Note。",
+    "notes": "岗位存在性经官网校招页（全年日常实习）与第三方内推帖确认；薪资官方未披露。2026秋招状态未确认，见 autumn2026Note。；2026-08-11 Boss直聘实时确认：Boss直聘·灵均投资 量化研究实习生（因子方向）",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -1432,7 +1432,7 @@
     "companyId": "lingjun",
     "title": "量化开发工程师 / C++开发工程师",
     "description": "负责量化研究基础设施、回测框架、交易系统的设计与开发（C++/Python）；参与策略实现与算法执行优化，提升系统性能。任职要求：计算机/软件工程等理工科背景，C++ 与 Python 功底扎实，熟悉分布式/低延迟系统者优先。工作地点：北京、上海。（依据官网社会招聘方向与第三方招聘帖整理，详情请以官网为准）",
-    "salary": "面议（官方未披露；行业第三方参考约30-80K/月不等，未经官方核实）",
+    "salary": "30-50K·16薪（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://www.lingjuninvest.com/social-recruitment",
     "officialUrl": "https://app.mokahr.com/social-recruitment/lingjuninvest/46355",
@@ -1459,16 +1459,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘搜索：灵均投资 量化开发",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『灵均投资』查看 [TODO]"
+        "title": "Boss直聘·灵均投资 量化开发工程师-头部量化私募（2026-08-11 实时确认）",
+        "url": "https://www.zhipin.com/job_detail/96316a1dc8209bf70nB42tW7GFJS.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京海淀、1-3年硕士、30-50K·16薪；技能 C++/Linux；未经官方核实"
       }
     ],
-    "notes": "岗位存在性经官网社招方向与小红书/CSDN等第三方招聘帖确认；详细JD与薪资需以官网MOKA系统为准。",
+    "notes": "岗位存在性经官网社招方向与小红书/CSDN等第三方招聘帖确认；详细JD与薪资需以官网MOKA系统为准。；2026-08-11 Boss直聘实时确认：Boss直聘·灵均投资 量化开发工程师-头部量化私募",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "campus"
   },
   {
@@ -1951,23 +1951,23 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘·白鹭资管（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E7%99%BD%E9%B9%AD%E8%B5%84%E7%AE%A1&city=%E4%B8%8A%E6%B5%B7",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『白鹭资管』查看 [TODO]"
+        "note": "2026-08-11 实时搜索（杭州/上海共3次）：仅返回 C++开发实习生（350-500元/天，上海浦东）与产品运营实习生（250-300元/天，杭州上城），未含资深量化研究员（中高频alpha）在招；该岗位为社招且可能仅通过官网 Moka 门户/猎聘挂出，需官网确认 [TODO]"
       }
     ],
-    "notes": "薪资来自猎聘（第三方渠道，标注面议），未经官方核实。岗位为社招性质。投递渠道：官网 Moka 门户 app.mokahr.com/apply/hzbailu/36103、邮箱 career@hz-bailu.com。",
+    "notes": "薪资来自猎聘（第三方渠道，标注面议），未经官方核实。岗位为社招性质。投递渠道：官网 Moka 门户 app.mokahr.com/apply/hzbailu/36103、邮箱 career@hz-bailu.com。；2026-08-11 Boss直聘实时搜索3次未命中该岗位，保持 blocked",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "campus"
   },
   {
     "id": "egret-quant-research-intern",
     "companyId": "egret",
-    "title": "量化研究实习生（机器学习/因子/高频方向，日常·暑期，上海）",
-    "description": "白鹭资管量化研究实习生岗位（现场实习，上海，日常/暑期批次）。方向：1）机器学习方向——基于金融数据（股票/期货/期权）进行量化模型研究，利用机器学习/深度学习推动策略研究与模型训练；2）因子方向——收集处理数据，研究挖掘和加工股票/期货因子；3）股票高频方向——研究、挖掘和加工各种中高频因子。任职要求（综合历史招聘帖）：国内外知名院校本科及以上，数学、统计、物理、计算机等理工科专业；扎实数理统计能力，熟悉机器学习/深度学习者优先；熟练使用 Python/C++；每周出勤至少三天、连续三个月及以上。（岗位存在性经 2022-2024 年公众号/校园招聘帖确认，当前是否在招未核实，详情请以官方渠道为准）",
+    "title": "量化研究实习生（机器学习/因子/高频方向，日常·暑期，上海/北京）",
+    "description": "白鹭资管量化研究实习生岗位（现场实习，上海/北京，日常/暑期批次）。方向：1）机器学习方向——基于金融数据（股票/期货/期权）进行量化模型研究，利用机器学习/深度学习推动策略研究与模型训练；2）因子方向——收集处理数据，研究挖掘和加工股票/期货因子；3）股票高频方向——研究、挖掘和加工各种中高频因子（高频方向 base 北京）。任职要求（综合历史招聘帖）：国内外知名院校本科及以上，数学、统计、物理、计算机等理工科专业；扎实数理统计能力，熟悉机器学习/深度学习者优先；熟练使用 Python/C++；每周出勤至少三天、连续三个月及以上。",
     "salary": "示例：面议",
     "salaryIsEstimate": true,
     "applyUrl": "https://app.mokahr.com/apply/hzbailu/36103",
@@ -1975,7 +1975,7 @@
     "autumn2026": "unknown",
     "autumn2026Note": "实习岗非秋招批次。白鹭 2023/2024届校招公告含量化研究员/量化研究实习/开发实习岗位；2026秋招（2027届）是否开启未获官方确认，需关注公众号『白鹭资管招聘』或官网 Moka 门户手动查看 [TODO]",
     "source": "official",
-    "fetchStatus": "manual_required",
+    "fetchStatus": "partial",
     "sources": [
       {
         "type": "official",
@@ -2003,16 +2003,32 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘·白鹭资管（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E7%99%BD%E9%B9%AD%E8%B5%84%E7%AE%A1&city=%E4%B8%8A%E6%B5%B7",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『白鹭资管』查看 [TODO]"
+        "note": "2026-08-11 实时搜索（杭州/上海共3次）：仅返回 C++开发实习生（350-500元/天，上海浦东）与产品运营实习生（250-300元/天，杭州上城），未含机器学习/因子/高频方向的量化研究实习在招；该方向实习可能仅通过官网 Moka 门户挂出，需官网确认 [TODO]"
+      },
+      {
+        "type": "official",
+        "title": "白鹭资管校园招聘网申链接（Moka）",
+        "url": "https://app.mokahr.com/campus_apply/hzbailu/36104",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "经搜索摘要确认官网校招网申链接为 app.mokahr.com/campus_apply/hzbailu/36104，含量化研究员/量化研究实习/量化开发实习岗位；页面需 JS 渲染未直接读取岗位列表 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "实习僧·白鹭资管2026最新实习/校园招聘信息",
+        "url": "https://www.shixiseng.com/com/com_bpolxmy849n9",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "实习僧页面确认白鹭资管 2026 最新实习与校园招聘信息在更；正文未直接抓取"
       }
     ],
-    "notes": "岗位存在性经 2022-2024 年公众号/校园招聘帖确认，薪资未披露。当前是否在招、2026届/2027届批次未核实，投递前请通过官网 Moka 门户、邮箱 career@hz-bailu.com 或公众号『白鹭资管招聘』确认。",
+    "notes": "岗位存在性经 2022-2024 年公众号/校园招聘帖确认，薪资未披露。当前是否在招、2026届/2027届批次未核实，投递前请通过官网 Moka 门户、邮箱 career@hz-bailu.com 或公众号『白鹭资管招聘』确认。；2026-08-11 Boss直聘实时搜索3次未命中该岗位，保持 blocked；2026-08-11 补充：确认官网校招网申链接 app.mokahr.com/campus_apply/hzbailu/36104 与实习僧 2026 在更信息，fetchStatus 由 manual_required 升为 partial（薪资仍未披露、在招状态需 Moka 页面最终确认）",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -2020,7 +2036,7 @@
     "companyId": "qianxiang",
     "title": "量化策略实习生（Alpha/CTA）·2026届校园招聘",
     "description": "千象资产2026届校园招聘实习岗位（上海）。在导师带领下钻研基础数据，构建、测试并评价新因子、完善因子库；运用数学、统计或机器学习方法改进现有组合因子算法；研究组合最优化方法以提高持仓收益、降低风险。任职要求：985或海外知名高校硕士及以上学历（特别优秀者可放宽至本科），统计、计算机、数学、物理等理工科专业优先；较强编程功底（C++或Python等）；有量化经验或挖掘因子经验者优先；实习时间至少3个月。工作地点：上海市浦东新区福山路500号城建国际中心602-605室。投递邮箱 hr@qxinvest.com（邮件主题：姓名+岗位+最快到岗时间+实习时长+信息获取来源）。（依据2026届校园招聘简章转载整理，详情请以官方渠道为准）",
-    "salary": "示例：面议",
+    "salary": "25-50K（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://www.qxinvest.com/stationWebsite/w/h?mt=2&mc=3816892&cc=236920624",
     "officialUrl": "https://www.qxinvest.com/stationWebsite/w/h?mt=2&mc=3816892&cc=236920624",
@@ -2055,16 +2071,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『千象资产』查看 [TODO]"
+        "title": "Boss直聘·千象资产 量化策略研究员（Alpha/CTA）",
+        "url": "https://www.zhipin.com/job_detail/d0956934f97d75490ndz3tm7FlZV.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、经验不限、本科、25-50K，技能 量化研究；对应2026届校招量化策略实习生岗位方向，Boss未单列实习岗，未经官方核实"
       }
     ],
-    "notes": "薪资未披露，按面议处理。岗位信息来自2026届校园招聘简章转载（搜索摘要，页面503），未经官方详情页核实。投递邮箱 hr@qxinvest.com。",
+    "notes": "薪资未披露，按面议处理。岗位信息来自2026届校园招聘简章转载（搜索摘要，页面503），未经官方详情页核实。投递邮箱 hr@qxinvest.com。 Boss直聘实时（2026-08-11）：量化策略研究员（Alpha/CTA）25-50K、上海浦东新区、经验不限、本科，技能 量化研究；Boss未单独挂量化策略实习生岗，此为在招最接近岗位。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -2107,16 +2123,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘·千象资产（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E5%8D%83%E8%B1%A1%E8%B5%84%E4%BA%A7&city=101020100",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『千象资产』查看 [TODO]"
+        "note": "2026-08-11 实时搜索返回 15 条在招，未含海外CTA研究员实习生；需确认该岗位是否仍在招 [TODO]"
       }
     ],
-    "notes": "薪资未披露，按面议处理。岗位信息来自2026届校园招聘简章转载（搜索摘要，页面503），未经官方详情页核实。投递邮箱 hr@qxinvest.com。",
+    "notes": "薪资未披露，按面议处理。岗位信息来自2026届校园招聘简章转载（搜索摘要，页面503），未经官方详情页核实。投递邮箱 hr@qxinvest.com。 Boss直聘实时（2026-08-11）：搜索『千象资产』（上海）返回 15 条在招，未含海外CTA研究员实习生岗位；在招CTA相关为 CTA投资经理/研究员 30-50K、CTA研究员 20-40K。海外CTA实习岗是否在招需确认。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -2151,16 +2167,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘·千象资产（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E5%8D%83%E8%B1%A1%E8%B5%84%E4%BA%A7&city=101020100",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『千象资产』查看 [TODO]"
+        "note": "2026-08-11 实时搜索返回 15 条在招，未含海外CTA数据实习生；需确认该岗位是否仍在招 [TODO]"
       }
     ],
-    "notes": "薪资300-400元/天来自牛客网（第三方渠道），未经官方核实。牛客职位显示已结束，投递前请核实当前状态。投递邮箱 hr@qxinvest.com。",
+    "notes": "薪资300-400元/天来自牛客网（第三方渠道），未经官方核实。牛客职位显示已结束，投递前请核实当前状态。投递邮箱 hr@qxinvest.com。 Boss直聘实时（2026-08-11）：搜索『千象资产』（上海）返回 15 条在招，未含海外CTA数据实习生岗位；该实习岗在Boss无公开职位，需确认当前状态。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -2168,8 +2184,8 @@
     "companyId": "tianyan",
     "title": "量化研究员（2027校园招聘·校招/实习，含多方向）",
     "description": "天演资本2027校园招聘岗位（面向2026/2027届应届毕业生，校招/实习均可）。研究方向涵盖：中低频（A股及境外股票、期货、期权、可转债）、低延时（股票、期货、ETF）、固收（国债、国债期货、利率互换）、股票日内alpha、中低频衍生品。任职要求：国内外顶级大学硕士及以上学历，数学、计算机等相关学科功底扎实；精通Python/Matlab/C++/C#至少一门；有系统定量研究经验（不限定金融行业）；博士学历、相关竞赛金牌或一区期刊论文、百亿量化实习经验者优先。工作地点：上海（浦东前滩中心59-60层）。薪资：月薪4万及以上，绩效奖金上不封顶（公司2027校园招聘公告口径）。招聘流程：简历投递→人力面试→线上笔试→业务面试→offer（官网口径为2-3轮面试）。投递：官网 tianyancapital.com→『加入天演』，或投递邮箱 hr@tianyancapital.com（邮件命名『应聘-姓名-职位名称』），或扫码投递。（依据2027校园招聘公告、虹口区人民政府2026-08-05招聘信息与官网整理，详情请以官网为准）",
-    "salary": "月薪4万及以上（公司2027校园招聘公告/虹口区政府招聘平台，绩效奖金上不封顶）",
-    "salaryIsEstimate": false,
+    "salary": "40-70K·24薪（Boss直聘，未经官方核实）",
+    "salaryIsEstimate": true,
     "applyUrl": "https://www.tianyancapital.com/zh/join-us",
     "officialUrl": "https://app.mokahr.com/social-recruitment/tianyancapital/98901",
     "autumn2026": "open",
@@ -2203,16 +2219,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·天演资本",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『天演资本』查看 [TODO]"
+        "title": "Boss直聘·天演资本 股票日内alpha研究员（校招）",
+        "url": "https://www.zhipin.com/job_detail/6bee85b53b40d4d60nJ709i1EVtX.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、在校/应届、硕士、40-70K·24薪；天演研究员岗统一此口径，对应2027校招量化研究员，未经官方核实"
       }
     ],
-    "notes": "岗位存在性经2027校园招聘公告、虹口区政府招聘信息与官网确认；薪资『月薪4万及以上』为公司2027校园招聘公告口径（经虹口区政府招聘平台与多家高校就业网转载），未获官网岗位页单独披露。具体JD请以官网为准。",
+    "notes": "岗位存在性经2027校园招聘公告、虹口区政府招聘信息与官网确认；薪资『月薪4万及以上』为公司2027校园招聘公告口径（经虹口区政府招聘平台与多家高校就业网转载），未获官网岗位页单独披露。具体JD请以官网为准。 Boss直聘实时（2026-08-11）：天演资本研究员类岗位统一口径 40-70K·24薪（上海浦东，硕士）；含 股票日内alpha研究员（校招，在校/应届）、股票量化研究员、因子组合研究员、中低频衍生品量化研究员等。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -2220,7 +2236,7 @@
     "companyId": "tianyan",
     "title": "量化开发工程师 / 量化交易员（固收方向·2027校园招聘）",
     "description": "天演资本2027校园招聘岗位（面向2026/2027届应届毕业生）。方向：固收（国债、国债期货、利率互换）。岗位负责固收方向的量化交易/开发相关工作。任职要求：顶尖院校理工科背景，编程能力扎实。工作地点：上海。投递：官网 tianyancapital.com→『加入天演』，或邮箱 hr@tianyancapital.com（邮件命名『应聘-姓名-职位名称』）。招聘流程：简历投递→人力面试→线上笔试→业务面试→offer。（依据2027校园招聘公告整理，岗位详情请以官网为准）",
-    "salary": "示例：面议（同批2027校招公告研究/技术岗普遍口径月薪4万起，该岗未单独披露，未经核实）",
+    "salary": "40-45K（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://www.tianyancapital.com/zh/join-us",
     "officialUrl": "https://app.mokahr.com/social-recruitment/tianyancapital/98901",
@@ -2247,16 +2263,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·天演资本",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『天演资本』查看 [TODO]"
+        "title": "Boss直聘·天演资本 量化交易员（MJ000104）",
+        "url": "https://www.zhipin.com/job_detail/9e050042c9036fb00nF62NW8EldT.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海、1-3年、硕士、40-45K，技能 程序化交易/商品ETF/交易执行及算法优化；对应2027校招量化开发/量化交易员岗位，未经官方核实"
       }
     ],
-    "notes": "岗位存在性经2027校园招聘公告确认；该岗未单独披露薪资与JD，详情请以官网为准。",
+    "notes": "岗位存在性经2027校园招聘公告确认；该岗未单独披露薪资与JD，详情请以官网为准。 Boss直聘实时（2026-08-11）：量化交易员（MJ000104）40-45K、上海、1-3年、硕士，技能 程序化交易/商品ETF/交易系统迭代/交易执行及算法优化；对应量化开发工程师/量化交易员（固收方向）岗位的交易员方向。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "campus"
   },
   {
@@ -2291,16 +2307,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·天演资本",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘·天演资本（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E5%A4%A9%E6%BC%94%E8%B5%84%E6%9C%AC&city=101020100",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『天演资本』查看 [TODO]"
+        "note": "2026-08-11 实时搜索返回 15 条在招，未含 Python后端开发工程师；需官网确认该岗位是否在招 [TODO]"
       }
     ],
-    "notes": "岗位存在性与薪资口径经2027校园招聘公告确认（牛企直聘/清华就业转载公告原文）。具体JD请以官网为准。",
+    "notes": "岗位存在性与薪资口径经2027校园招聘公告确认（牛企直聘/清华就业转载公告原文）。具体JD请以官网为准。 Boss直聘实时（2026-08-11）：搜索『天演资本』（上海）返回 15 条在招，未含 Python后端开发工程师岗位；在招技术岗为 资深策略开发工程师 35-40K（5-10年）、网络系统工程师 28-40K·18薪。Python后端校招岗需官网确认。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "campus"
   },
   {
@@ -2308,7 +2324,7 @@
     "companyId": "heiyi",
     "title": "量化策略研究员 / 机器学习研究员（2026届秋招，已结束）",
     "description": "黑翼资产2026届全球校园招聘（26届秋招）岗位，含量化策略研究员、机器学习研究员、深度学习算法研究员、AI交叉领域研究员等研究类岗位。职责：从海量数据中挖掘有效因子、迭代优化交易策略；开发金融预测模型，挖掘数据信号；研究前沿AI与大模型技术在量化投资中的应用。任职要求：2026届海内外知名院校硕士、博士，计算机/人工智能/统计/电子工程/数学等相关专业；编程能力出色，精通Python/C++，熟悉数据结构与算法，掌握机器学习/深度学习原理，熟练使用PyTorch/TensorFlow；有量化机构/AI实验室实习经历、顶会论文、算法竞赛获奖者优先。工作地点：北京、上海、成都。招聘流程：简历投递→面试→在线笔试→offer。投递：官网 blackwingasset.com『职位招聘』，或邮箱 hr@blackwingasset.com（邮件名『姓名-毕业院校及专业-岗位-期望工作城市』）。（依据2026届秋招公告整理，详情请以官网为准）",
-    "salary": "40-55K·20薪（Boss直聘搜索摘要，第三方渠道，未经官方核实）",
+    "salary": "35-50K·20薪（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23",
     "officialUrl": "https://blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23",
@@ -2343,16 +2359,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·黑翼资产",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『黑翼资产』查看 [TODO]"
+        "title": "Boss直聘·黑翼资产 机器学习研究员（实习转正）-北京（2026-08-11 实时确认）",
+        "url": "https://www.zhipin.com/job_detail/3881f4d808be0e6503B_2dq-EFFU.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳、在校/应届硕士、35-50K·20薪；技能 深度学习/大模型算法/NLP/强化学习/C++/Python；未经官方核实"
       }
     ],
-    "notes": "薪资40-55K·20薪来自Boss直聘搜索摘要（北京·机器学习研究员），第三方渠道未经官方核实，官方未披露薪资。2026届秋招批次已结束，记录供参考；官网当前在招为社招岗位。",
+    "notes": "薪资40-55K·20薪来自Boss直聘搜索摘要（北京·机器学习研究员），第三方渠道未经官方核实，官方未披露薪资。2026届秋招批次已结束，记录供参考；官网当前在招为社招岗位。；2026-08-11 Boss直聘实时确认：Boss直聘·黑翼资产 机器学习研究员（实习转正）-北京",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "social"
   },
   {
@@ -2360,7 +2376,7 @@
     "companyId": "heiyi",
     "title": "量化开发工程师（2026届秋招，已结束；官网社招在招）",
     "description": "黑翼资产2026届全球校园招聘（26届秋招）岗位之一，同时为官网当前社招在招岗位。职责：开发投研平台，为量化投研全流程提供技术支持；负责量化交易/研究系统的开发与优化。任职要求：2026届海内外知名院校硕士、博士，计算机/电子/电子信息/数学等相关专业；精通Python/C++，熟悉数据结构与算法，掌握机器学习原理。工作地点：北京、上海、成都。投递：官网 blackwingasset.com『职位招聘』，或邮箱 hr@blackwingasset.com。（依据2026届秋招公告与官网招聘页整理，详情请以官网为准）",
-    "salary": "示例：面议（官方未披露）",
+    "salary": "30-50K（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23",
     "officialUrl": "https://blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23",
@@ -2395,16 +2411,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·黑翼资产",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『黑翼资产』查看 [TODO]"
+        "title": "Boss直聘·黑翼资产 量化开发工程师（股票）（2026-08-11 实时确认）",
+        "url": "https://www.zhipin.com/job_detail/d39a0deab18084090nF-3du6GVJX.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳、经验不限本科、30-50K；技能 C++/Java/Python/Golang；未经官方核实"
       }
     ],
-    "notes": "2026届秋招批次已结束；官网当前在招为社招性质量化开发工程师，薪资未披露。",
+    "notes": "2026届秋招批次已结束；官网当前在招为社招性质量化开发工程师，薪资未披露。；2026-08-11 Boss直聘实时确认：Boss直聘·黑翼资产 量化开发工程师（股票）",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "social"
   },
   {
@@ -2412,7 +2428,7 @@
     "companyId": "heiyi",
     "title": "量化研究实习（新翼甄选营·2027/2028届，提前批已截止；日常实习开放）",
     "description": "黑翼资产『新翼甄选营』实习项目（面向2027/2028届海内外知名高校硕士、博士）及日常量化研究实习。研究方向：因子挖掘、模型构建、策略研究。项目内容：6周独立完成一个真实策略研究课题，资深研究员全程指导，答辩通过即获日常实习Offer，有高机率获得转正机会。任职要求：计算机、人工智能、统计、电子工程、数学、物理等理工科专业；编程能力出色，精通Python/C++，掌握机器学习/深度学习原理，熟练使用PyTorch/TensorFlow；有量化机构AI实验室实习经历、国际顶级期刊论文、国际竞赛获奖者优先。工作地点：北京、上海、成都。投递：发送简历至 hr@blackwingasset.com（邮件标题『新翼甄选营-姓名-毕业院校及专业-意向城市』），或通过官方招聘网站/公众号选择【新翼甄选营】投递。福利：极具竞争力的薪资、餐补、零食饮料、定期团建。（依据新翼甄选营公告与日常实习招聘信息整理，详情请以官网为准）",
-    "salary": "500-550元/天（Boss直聘搜索摘要·日常量化研究实习，第三方渠道，未经官方核实）",
+    "salary": "500-1000元/天（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23",
     "officialUrl": "https://blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23",
@@ -2447,16 +2463,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘·黑翼资产",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『黑翼资产』查看 [TODO]"
+        "title": "Boss直聘·黑翼资产 量化研究员实习生（2026-08-11 实时确认）",
+        "url": "https://www.zhipin.com/job_detail/66841e73cc9eb7580nRz2dm4EFNS.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳、硕士、500-1000元/天，4天/周、3个月；未经官方核实"
       }
     ],
-    "notes": "薪资500-550元/天来自Boss直聘搜索摘要（量化研究实习生·股票/CTA，北京朝阳区），第三方渠道未经官方核实；新翼甄选营官方标注『极具竞争力的薪资』未披露数字。2027届正式秋招未官宣。",
+    "notes": "薪资500-550元/天来自Boss直聘搜索摘要（量化研究实习生·股票/CTA，北京朝阳区），第三方渠道未经官方核实；新翼甄选营官方标注『极具竞争力的薪资』未披露数字。2027届正式秋招未官宣。；2026-08-11 Boss直聘实时确认：Boss直聘·黑翼资产 量化研究员实习生",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -2464,7 +2480,7 @@
     "companyId": "yinnuo",
     "title": "量化投资研究员（『因诺英才』2026届校招）",
     "description": "岗位职责：负责量化投资策略研究及实盘交易，策略方向覆盖套利/选股/Alpha/CTA等（『因诺英才』多策略体系）。任职要求（依据2026届校招简章与『因诺英才』计划转载整理，请以官网为准）：国内外知名高校理工科及金融等相关专业，硕博士优先；至少熟悉一门编程语言（C++/Python）；加分项为ACM-ICPC/数学建模等竞赛获奖、顶会/顶刊（NeurIPS/ICML/KDD等）论文、头部量化私募或AI大厂实习/项目经验。工作地点：北京西城区庄胜广场南翼18层、上海虹口区白玉兰广场43楼03单元。投递：resume@innoam.com（标题格式以公众号『因诺招聘』为准）、『因诺招聘』公众号一键投递、HR微信 innoamHR、校招系统 app.mokahr.com/campus-recruitment/innoam/142310。招聘流程：简历投递→线上笔试→面试→offer发放。",
-    "salary": "示例：面议",
+    "salary": "30-50K（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://app.mokahr.com/campus-recruitment/innoam/142310",
     "officialUrl": "http://www.innoam.com/index.php?catid=4",
@@ -2507,16 +2523,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『因诺资产』查看 [TODO]"
+        "title": "Boss直聘·因诺资产 量化投资研究员（上海）",
+        "url": "https://www.zhipin.com/job_detail/06326fc7dc0550e303d_2N-8F1pQ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海虹口区、经验不限、硕士、30-50K；对应因诺英才2026届校招量化投资研究员岗位，未经官方核实"
       }
     ],
-    "notes": "岗位存在性经2026届校招简章（全职网转载）与『因诺英才』计划公告确认；官方未披露薪资，按面议处理。投递邮箱 resume@innoam.com、公众号『因诺招聘』、HR微信 innoamHR。岗位详情请以官网/公众号为准。",
+    "notes": "岗位存在性经2026届校招简章（全职网转载）与『因诺英才』计划公告确认；官方未披露薪资，按面议处理。投递邮箱 resume@innoam.com、公众号『因诺招聘』、HR微信 innoamHR。岗位详情请以官网/公众号为准。 Boss直聘实时（2026-08-11）：量化投资研究员（上海）30-50K、上海虹口区、经验不限、硕士。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -2524,7 +2540,7 @@
     "companyId": "yinnuo",
     "title": "量化投资实习生 / 大模型量化投资实习生（『因诺英才』2026暑期实习·面向2027届）",
     "description": "『因诺英才』计划实习岗位（2026暑期实习/日常实习，面向2026年9月至2027年8月毕业的2027届本硕博），含量化投资实习生（股票/CTA/期权小组均招聘）与大模型量化投资实习生（『破界计划』，大模型×量化应用方向，重点岗位为大模型量化研究员）。任职要求（依据2026暑期实习公告与公众号转载整理，请以官网为准）：国内外知名高校理工科（计算机/电子工程/数学/统计/物理等）专业、硕士及以上优先；扎实的深度学习（DL）/强化学习（RL）基础；顶会/顶刊（NeurIPS/ICLR/EMNLP/ACL等）一作、奥赛金银牌/ICPC-CCPC金牌/Kaggle Grandmaster等竞赛获奖、头部量化私募或AI大厂实习/项目经验优先。工作地点：北京西城区庄胜广场南翼18层、上海虹口区白玉兰广场43楼03单元。投递：resume@innoam.com（标题『暑期实习+岗位名称+姓名+毕业时间』，正文注明可到岗时间/实习时长/实习地点）、公众号『因诺招聘』、HR微信 innoamHR。",
-    "salary": "1-1.1万元/月（量化投资实习生，第三方渠道（海投网/招聘帖），未经官方核实）",
+    "salary": "300-600元/天（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://app.mokahr.com/campus-recruitment/innoam/142310",
     "officialUrl": "http://www.innoam.com/index.php?catid=4",
@@ -2575,16 +2591,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『因诺资产』查看 [TODO]"
+        "title": "Boss直聘·因诺资产 量化投资实习生（上海）",
+        "url": "https://www.zhipin.com/job_detail/78f601c2f88a15621XJ939i-FFtY.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海虹口区、硕士、300-600元/天、4天/周，技能 因子挖掘/机器学习/量化投资/神经网络；对应因诺英才2026暑期实习岗位，未经官方核实"
       }
     ],
-    "notes": "实习薪资1-1.1万元/月来自第三方招聘渠道（海投网等），未经官方核实；C++实习生第三方参考300-500元/天。岗位详情请以官网/公众号为准。",
+    "notes": "实习薪资1-1.1万元/月来自第三方招聘渠道（海投网等），未经官方核实；C++实习生第三方参考300-500元/天。岗位详情请以官网/公众号为准。 Boss直聘实时（2026-08-11）：量化投资实习生（上海）300-600元/天、虹口区、硕士、4天/周，技能 因子挖掘/机器学习/量化投资/神经网络；另设大模型开发工程师（上海）40-60K·16薪。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -2592,7 +2608,7 @@
     "companyId": "yinnuo",
     "title": "C++开发工程师（量化开发·2026届校招/实习生）",
     "description": "岗位职责：负责量化交易系统、行情系统、回测平台、数据平台的开发与优化。任职要求（依据2026届校招简章与实习帖整理，请以官网为准）：计算机、电子、自动化等相关专业；精通C/C++，有Linux下C/C++开发经验，熟悉Java/Python/Go中至少一种；了解分布式/微服务架构（grpc、brpc），熟悉Redis、MySQL等数据库；了解高性能计算、低延迟通讯技术（ZeroMQ、共享内存、无锁队列）者优先；实习岗需长期线下约5个月，表现优秀可申请转正，优先2027届。工作地点：北京西城区（全职岗）；实习岗北京/上海。投递：resume@innoam.com、公众号『因诺招聘』、HR微信 innoamHR。",
-    "salary": "示例：面议（C++实习生第三方参考300-500元/天，未经官方核实）",
+    "salary": "25-50K·16薪（Boss直聘，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://app.mokahr.com/campus-recruitment/innoam/142310",
     "officialUrl": "http://www.innoam.com/index.php?catid=4",
@@ -2635,16 +2651,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『因诺资产』查看 [TODO]"
+        "title": "Boss直聘·因诺资产 c++开发工程师",
+        "url": "https://www.zhipin.com/job_detail/4e16dafb03e9c6660nF73tq6EFRW.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海虹口区、1-3年、本科、25-50K·16薪，技能 C++/MySQL/Redis/量化交易开发经验；为在招最接近的C++开发岗，未经官方核实"
       }
     ],
-    "notes": "岗位存在性经2026届校招简章与实习帖确认；全职薪资未披露按面议处理，C++实习生300-500元/天为第三方渠道数字，未经官方核实。岗位详情请以官网为准。",
+    "notes": "岗位存在性经2026届校招简章与实习帖确认；全职薪资未披露按面议处理，C++实习生300-500元/天为第三方渠道数字，未经官方核实。岗位详情请以官网为准。 Boss直聘实时（2026-08-11）：c++开发工程师 25-50K·16薪（1-3年，上海虹口，技能 C++/MySQL/Redis）；另有 C++开发工程师（上海）30-50K·16薪（3-5年）、低延迟交易开发工程师 40-60K。校招/实习C++岗未见单独挂出。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -2687,16 +2703,16 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘·因诺资产（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E5%9B%A0%E8%AF%BA%E8%B5%84%E4%BA%A7&city=101020100",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『因诺资产』查看 [TODO]"
+        "note": "2026-08-11 实时搜索返回 11 条在招，未含量化交易员岗位；需官网/公众号确认是否在招 [TODO]"
       }
     ],
-    "notes": "薪资12-17k·15薪来自『因诺英才』计划第三方招聘帖（猎聘/招聘聚合页），未经官方核实；该岗位偏交易执行方向，与量化研究岗相邻。岗位详情请以官网为准。",
+    "notes": "薪资12-17k·15薪来自『因诺英才』计划第三方招聘帖（猎聘/招聘聚合页），未经官方核实；该岗位偏交易执行方向，与量化研究岗相邻。岗位详情请以官网为准。 Boss直聘实时（2026-08-11）：搜索『因诺资产』（上海）返回 11 条在招，未含『量化交易员』岗位；交易相关在招为低延迟交易开发工程师（40-60K，上海虹口）。是否仍在招需官网/公众号确认。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "campus"
   },
   {
@@ -2704,7 +2720,7 @@
     "companyId": "mengxi",
     "title": "量化策略研究员（2026届校招）",
     "description": "岗位职责：跟踪市场价格变动，研究投资逻辑，挖掘有效因子，研究、优化和改进交易策略，参与新策略开发。任职要求（依据2026届校招公告与官网整理，请以官网为准）：海内外顶尖高校理工科专业（数学、物理、统计、计算机、金融工程等），数理基础扎实，熟练掌握Python/MATLAB/C++中至少一种；加分项为顶会/顶刊论文、Kaggle等竞赛获奖、量化策略研究经历。工作地点：上海浦东新区（线下办公）。投递：zhaopin@mxifund.com，邮件主题与简历命名『【2026校招】姓名-学校-学院-专业-毕业年月-岗位』（多志愿在邮件正文注明优先级）。招聘流程：简历投递→简历筛选→专业笔试→面试→offer发放。",
-    "salary": "示例：面议",
+    "salary": "月薪 1.2万以上（官方校招信息为 12000以上；第三方估算 1.2-2.5万/月，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://mxifund.com/career",
     "officialUrl": "https://mxifund.com/career",
@@ -2755,16 +2771,24 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘（2026-08-11 实时搜索·环境异常）",
+        "url": "https://www.zhipin.com/search?query=%E8%92%99%E7%8E%BA%E6%8A%95%E8%B5%84&city=%E4%B8%8A%E6%B5%B7",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『蒙玺投资』查看 [TODO]"
+        "note": "2026-08-11 实时搜索：第一次搜索返回 0 条在招，第二次搜索触发 TOKEN_REFRESH_FAILED（您的环境存在异常，recoverable=false），按纪律立即停搜；需手动在Boss直聘确认蒙玺投资在招岗位 [TODO]"
+      },
+      {
+        "type": "official",
+        "title": "蒙玺投资2026届校园招聘（浙江大学就业网校招信息转载）",
+        "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=3DE1F703DBF3C13DE0653A68DD0E9B18",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "经搜索摘要确认官方校招信息显示月薪 12000以上（未披露完整区间），另据全站招聘转载页（quanzhi.com）确认 2026 届校招正式启动、三大岗位与投递邮箱 zhaopin@mxifund.com；页面未直接抓取 [TODO]"
       }
     ],
-    "notes": "岗位存在性经2026届校招公告、官网career页与『蒙』新计划公告确认；官方未披露薪资，按面议处理。投递邮箱 zhaopin@mxifund.com。岗位详情请以官网为准。",
+    "notes": "岗位存在性经2026届校招公告、官网career页与『蒙』新计划公告确认；官方未披露薪资，按面议处理。投递邮箱 zhaopin@mxifund.com。岗位详情请以官网为准。；2026-08-11 Boss实时搜索遇环境异常（TOKEN_REFRESH_FAILED），未能返回蒙玺投资在招岗位，保留 blocked；2026-08-11 补充：官方校招信息显示月薪 12000以上（浙大就业网），第三方估算 1.2-2.5万/月，均未经官方核实完整区间",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -2772,7 +2796,7 @@
     "companyId": "mengxi",
     "title": "机器学习研究员（AI）/ AI算法研究员（2026届校招）",
     "description": "岗位职责：将机器学习、深度学习模型应用于量化交易策略开发，追踪前沿AI模型技术，利用深度学习对历史数据进行研究分析；『蒙』新计划暑期实习批要求突出对Agent架构及深度时序/图神经网络（GNN）的研究经历。任职要求（依据2026届校招公告与官网整理，请以官网为准）：海内外顶尖高校理工科（数学、物理、统计、计算机、金融工程等），编程能力突出，对深度时序模型和图神经网络有深入研究优先；加分项为顶会/顶刊论文、Kaggle等竞赛获奖、AI编程工具（Cursor、Claude Code、Codex等）精通。工作地点：上海浦东新区（另设合肥AI Lab）。投递：zhaopin@mxifund.com，邮件主题与简历命名『【2026校招】姓名-学校-学院-专业-毕业年月-岗位』。",
-    "salary": "示例：面议",
+    "salary": "月薪 1.2万以上（官方校招信息为 12000以上；第三方估算 1.2-2.5万/月，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://mxifund.com/career",
     "officialUrl": "https://mxifund.com/career",
@@ -2823,16 +2847,24 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘（2026-08-11 实时搜索·环境异常）",
+        "url": "https://www.zhipin.com/search?query=%E8%92%99%E7%8E%BA%E6%8A%95%E8%B5%84&city=%E4%B8%8A%E6%B5%B7",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『蒙玺投资』查看 [TODO]"
+        "note": "2026-08-11 实时搜索：第一次搜索返回 0 条在招，第二次搜索触发 TOKEN_REFRESH_FAILED（您的环境存在异常，recoverable=false），按纪律立即停搜；需手动在Boss直聘确认蒙玺投资在招岗位 [TODO]"
+      },
+      {
+        "type": "official",
+        "title": "蒙玺投资2026届校园招聘（浙江大学就业网校招信息转载）",
+        "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=3DE1F703DBF3C13DE0653A68DD0E9B18",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "经搜索摘要确认官方校招信息显示月薪 12000以上（未披露完整区间），另据全站招聘转载页（quanzhi.com）确认 2026 届校招正式启动、三大岗位与投递邮箱 zhaopin@mxifund.com；页面未直接抓取 [TODO]"
       }
     ],
-    "notes": "岗位存在性经2026届校招公告与『蒙』新计划公告确认；官方未披露薪资，按面议处理。投递邮箱 zhaopin@mxifund.com。岗位详情请以官网为准。",
+    "notes": "岗位存在性经2026届校招公告与『蒙』新计划公告确认；官方未披露薪资，按面议处理。投递邮箱 zhaopin@mxifund.com。岗位详情请以官网为准。；2026-08-11 Boss实时搜索遇环境异常（TOKEN_REFRESH_FAILED），未能返回蒙玺投资在招岗位，保留 blocked；2026-08-11 补充：官方校招信息显示月薪 12000以上（浙大就业网），第三方估算 1.2-2.5万/月，均未经官方核实完整区间",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -2840,7 +2872,7 @@
     "companyId": "mengxi",
     "title": "算法开发工程师（2026届校招）",
     "description": "岗位职责：参与策略研究平台开发与优化，负责策略实盘交易的落地与持续优化，衔接投研团队与技术团队；或优化维护高性能低延迟交易系统。任职要求（依据2026届校招公告与官网整理，请以官网为准）：海内外顶尖高校理工科（计算机等），熟练掌握C++、Python；有低延迟或高性能计算经验者加分。工作地点：上海浦东新区（线下办公）。投递：zhaopin@mxifund.com，邮件主题与简历命名『【2026校招】姓名-学校-学院-专业-毕业年月-岗位』。",
-    "salary": "示例：面议",
+    "salary": "月薪 1.2万以上（官方校招信息为 12000以上；第三方估算 1.2-2.5万/月，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://mxifund.com/career",
     "officialUrl": "https://mxifund.com/career",
@@ -2891,16 +2923,24 @@
       },
       {
         "type": "boss",
-        "title": "Boss直聘",
-        "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
+        "title": "Boss直聘（2026-08-11 实时搜索·环境异常）",
+        "url": "https://www.zhipin.com/search?query=%E8%92%99%E7%8E%BA%E6%8A%95%E8%B5%84&city=%E4%B8%8A%E6%B5%B7",
+        "accessedAt": "2026-08-11",
         "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『蒙玺投资』查看 [TODO]"
+        "note": "2026-08-11 实时搜索：第一次搜索返回 0 条在招，第二次搜索触发 TOKEN_REFRESH_FAILED（您的环境存在异常，recoverable=false），按纪律立即停搜；需手动在Boss直聘确认蒙玺投资在招岗位 [TODO]"
+      },
+      {
+        "type": "official",
+        "title": "蒙玺投资2026届校园招聘（浙江大学就业网校招信息转载）",
+        "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=3DE1F703DBF3C13DE0653A68DD0E9B18",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "经搜索摘要确认官方校招信息显示月薪 12000以上（未披露完整区间），另据全站招聘转载页（quanzhi.com）确认 2026 届校招正式启动、三大岗位与投递邮箱 zhaopin@mxifund.com；页面未直接抓取 [TODO]"
       }
     ],
-    "notes": "岗位存在性经2026届校招公告与『蒙』新计划公告确认；官方未披露薪资，按面议处理。投递邮箱 zhaopin@mxifund.com。岗位详情请以官网为准。",
+    "notes": "岗位存在性经2026届校招公告与『蒙』新计划公告确认；官方未披露薪资，按面议处理。投递邮箱 zhaopin@mxifund.com。岗位详情请以官网为准。；2026-08-11 Boss实时搜索遇环境异常（TOKEN_REFRESH_FAILED），未能返回蒙玺投资在招岗位，保留 blocked；2026-08-11 补充：官方校招信息显示月薪 12000以上（浙大就业网），第三方估算 1.2-2.5万/月，均未经官方核实完整区间",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
   },
   {
@@ -10377,6 +10417,206 @@
       }
     ],
     "notes": "薪资 700-1200元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
+  },
+  {
+    "id": "highflyer-quant-dev-2026",
+    "companyId": "highflyer",
+    "title": "量化开发工程师（校招，上海/杭州）",
+    "description": "负责交易系统、投研系统、回测系统的开发与优化，要求精通 C++/Python，具备良好的系统工程能力。任职要求综合自第三方公开招聘帖（请以官网为准）：985/海外知名高校本科及以上，计算机等理工科背景，有竞赛获奖/开源项目经验者加分。工作地点以杭州为主（第三方渠道亦提及上海）。",
+    "salary": "年包约 40-80 万（行业第三方渠道，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/apply/high-flyer/4604",
+    "officialUrl": "https://www.high-flyer.cn/join",
+    "autumn2026": "unknown",
+    "autumn2026Note": "官网招聘入口（Moka ATS）当前标注为『幻方&DeepSeek 社会招聘』，未见独立 2026 届校招入口；第三方渠道显示 2026 量化秋招季已开启，岗位为幻方公开招募常设岗位，是否正式启动 2026 秋招未获官方确认，需手动打开 Moka 页面确认 [TODO]",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "幻方量化公开招聘（搜狐号转载，2026）",
+        "url": "https://www.sohu.com/a/1045336885_122014422",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "经搜索摘要确认幻方公开招聘含量化研究员/量化开发工程师/量化交易员等岗位；正文未直接抓取 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "小红书·幻方量化——量化研究员/量化开发工程师/量化交易员（招聘帖）",
+        "url": "https://www.xiaohongshu.com/discovery/item/682d69b30000000023015576",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "招聘帖确认量化开发工程师岗位与薪资区间（40-80万/年，第三方口径）；小红书正文需登录，仅搜索摘要 [TODO]"
+      }
+    ],
+    "notes": "岗位存在性经第三方公开招聘帖确认；薪资为行业第三方口径，未经官方核实。2026 秋招状态未确认，见 autumn2026Note。投递请走官网 Moka 门户或公众号『幻方量化』确认在招岗位 [TODO]",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
+  },
+  {
+    "id": "highflyer-ml-researcher-2026",
+    "companyId": "highflyer",
+    "title": "机器学习/深度学习研究员（AGI 方向，校招）",
+    "description": "负责将机器学习/深度学习技术应用于量化投研与 AGI 方向研发（模型训练、算法研究），幻方『核心人才计划』聚焦 AI 与量化深度融合。任职要求综合自第三方招聘帖（请以官网为准）：985/海外知名高校硕博，AI/机器学习背景，有顶会论文、开源项目经验者加分。工作地点以杭州为主。",
+    "salary": "年包约 80-200 万（行业第三方渠道，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/apply/high-flyer/4604",
+    "officialUrl": "https://www.high-flyer.cn/join",
+    "autumn2026": "unknown",
+    "autumn2026Note": "官网招聘入口（Moka ATS）当前标注为『幻方&DeepSeek 社会招聘』，未见独立 2026 届校招入口；第三方渠道显示 2026 量化秋招季已开启，岗位为幻方公开招募常设岗位，是否正式启动 2026 秋招未获官方确认，需手动打开 Moka 页面确认 [TODO]",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "幻方量化公开招聘（搜狐号转载，2026）",
+        "url": "https://www.sohu.com/a/1045336885_122014422",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "经搜索摘要确认幻方招聘含深度学习研究员（AGI方向）等岗位；正文未直接抓取 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "小红书·幻方量化 秋招多岗位（含 intern）招聘帖",
+        "url": "https://www.xiaohongshu.com/discovery/item/66ab21e5000000002701efde",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "招聘帖确认幻方秋招多岗位，机器学习研究员薪资区间 80-200万/年（第三方口径）；小红书正文需登录，仅搜索摘要 [TODO]"
+      }
+    ],
+    "notes": "岗位存在性经第三方公开招聘帖确认；薪资为行业第三方口径，未经官方核实。2026 秋招状态未确认，见 autumn2026Note。投递请走官网 Moka 门户或公众号『幻方量化』确认在招岗位 [TODO]",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
+  },
+  {
+    "id": "highflyer-quant-trader",
+    "companyId": "highflyer",
+    "title": "量化交易员（校招/社招）",
+    "description": "负责量化策略的实盘交易执行、交易系统监控与优化，配合策略研究落地。任职要求综合自第三方公开招聘帖（请以官网为准）：理工科背景，熟悉二级市场交易规则，具备程序化交易经验者加分。工作地点以杭州为主。",
+    "salary": "面议（第三方渠道未披露稳定数字）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/apply/high-flyer/4604",
+    "officialUrl": "https://www.high-flyer.cn/join",
+    "autumn2026": "unknown",
+    "autumn2026Note": "官网招聘入口（Moka ATS）当前标注为『幻方&DeepSeek 社会招聘』，未见独立 2026 届校招入口；第三方渠道显示 2026 量化秋招季已开启，岗位为幻方公开招募常设岗位，是否正式启动 2026 秋招未获官方确认，需手动打开 Moka 页面确认 [TODO]",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "幻方量化公开招聘（搜狐号转载，2026）",
+        "url": "https://www.sohu.com/a/1045336885_122014422",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "经搜索摘要确认幻方公开招聘含量化交易员岗位；正文未直接抓取 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "小红书·幻方量化——量化研究员/量化开发工程师/量化交易员（招聘帖）",
+        "url": "https://www.xiaohongshu.com/discovery/item/68536e8e000000001203c287",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "招聘帖确认量化交易员岗位存在；薪资未披露；小红书正文需登录，仅搜索摘要 [TODO]"
+      }
+    ],
+    "notes": "岗位存在性经第三方公开招聘帖确认；薪资未披露按面议。2026 秋招状态未确认，见 autumn2026Note。投递请走官网 Moka 门户或公众号『幻方量化』确认在招岗位 [TODO]",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
+  },
+  {
+    "id": "egret-quant-dev-intern",
+    "companyId": "egret",
+    "title": "量化开发实习生（C++ 方向，北京/上海）",
+    "description": "白鹭资管量化开发实习生岗位（C++ 方向，北京/上海，现场实习）。参与量化交易/回测系统的开发与维护。任职要求综合历史招聘帖：国内外知名院校计算机等理工科专业，精通 C++，熟悉 Linux 与常用数据结构算法。（岗位存在性经 Boss直聘 2026-08-11 实时搜索确认：上海浦东在招，350-500元/天）",
+    "salary": "350-500元/天（Boss直聘，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/apply/hzbailu/36103",
+    "officialUrl": "https://app.mokahr.com/apply/hzbailu/36103",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习岗非秋招批次。白鹭 2023/2024届校招公告含量化开发实习岗位；当前 C++ 开发实习在 Boss直聘确认在招（2026-08-11 实时搜索），2026秋招（2027届）是否开启未获官方确认，需关注公众号『白鹭资管招聘』或官网 Moka 门户 [TODO]",
+    "source": "boss",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·白鹭资管（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E7%99%BD%E9%B9%AD%E8%B5%84%E7%AE%A1&city=%E4%B8%8A%E6%B5%B7",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "2026-08-11 实时搜索确认白鹭资管在招 C++开发实习生（350-500元/天，上海浦东）；具体职位页 URL 未取到，投递请走官网 Moka 门户或邮箱 career@hz-bailu.com 确认 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "水木社区转载·白鹭资管量化开发实习生招聘（北京/上海）",
+        "url": "https://m.newsmth.net/article/Career_Campus/639179?au=EgretAsset",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "经搜索摘要确认白鹭资管量化开发实习生（C++，北京/上海）岗位；正文未直接抓取"
+      }
+    ],
+    "notes": "岗位存在性经 Boss直聘 2026-08-11 实时搜索确认在招；薪资来自 Boss直聘（第三方渠道，未经官方核实）。投递渠道：官网 Moka 门户 app.mokahr.com/apply/hzbailu/36103、邮箱 career@hz-bailu.com 或公众号『白鹭资管招聘』",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
+  },
+  {
+    "id": "dunyu-quant-research-intern",
+    "companyId": "dunyu-investment",
+    "title": "量化研究员（实习生）",
+    "description": "【岗位职责】深入海量金融数据进行研究分析、挖掘有效信号，开发和优化量化模型策略；对数据进行科学统计与分析，发掘金融市场运行规律，形成并验证投资策略（策略化、数据处理、历史回测、策略报告）；跟踪、分析、评估和改进量化策略表现；参与公司专项研究课题。每周实习不少于 2-3 天，可远程实习，至少实习半年以上，公司希望长期合作培养核心成员。\n【岗位要求】211/985 等国内外知名院校，理工科或金融等相关专业，本科及以上，欢迎大四保研、研一或时间充裕同学；具备扎实编程功底，精通 Python/R/Matlab/C++ 至少一门，熟悉数据结构和算法；对量化策略研究有浓厚兴趣，有相关实习经验或知名期刊文献者优先；数理逻辑与研究能力强，理解统计模型、机器学习算法。（来源：Boss直聘职位页实时抓取，2026-08-11）",
+    "salary": "200-400元/天（Boss直聘，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/8398673d0831b6a30nR-39-6GVJS.html",
+    "officialUrl": "https://example.com/dunyu-investment",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习岗非秋招批次。公司在招量化研究实习（每周2-3天、可远程、至少半年）；2026 秋招（2027届）是否开启未获官方确认，需关注公司后续公告 [TODO]",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·敦钰投资 量化研究员（实习生）（2026-08-11 实时确认）",
+        "url": "https://www.zhipin.com/job_detail/8398673d0831b6a30nR-39-6GVJS.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "用户已登录 Edge（CDP）实时抓取职位页：量化研究员（实习生），200-400元/天，上海或远程，每周2-3天、至少半年；岗位描述含公司介绍（自称备案量化私募，编号 P1032164）；未经官方核实"
+      }
+    ],
+    "notes": "薪资来自 Boss直聘实时数据（第三方渠道，未经官方核实）。岗位为公司核心成员培养型实习，每周2-3天可远程。公司官网未核实。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
+  },
+  {
+    "id": "guangpu-quant-research-intern",
+    "companyId": "guangpu-investment",
+    "title": "量化研究员（因子/高频方向·实习）",
+    "description": "【岗位职责】基于逐笔委托、逐笔成交和盘口深度数据等，协助研究股票、债券、期货市场的高频交易策略，进行数据分析、因子研究、模型构建；基于交易日志等数据，研究、维护、改进现有交易执行逻辑，提升报单成交率并降低交易执行成本。\n【任职要求】海内外重点大学在读本科（大三、或已取得硕士 Offer 的大四）或研究生，专业为计算机科学、数学、统计学或相关领域；熟练掌握至少一种编程语言（Python、C++ 等）；具备良好数据分析能力，能处理大规模数据。（来源：Boss直聘职位页实时抓取，2026-08-11）",
+    "salary": "500-800元/天（Boss直聘，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/0df2f1c69b24782403B709W8E1ZZ.html",
+    "officialUrl": "https://example.com/guangpu-investment",
+    "autumn2026": "unknown",
+    "autumn2026Note": "实习岗非秋招批次。公司在招因子/高频方向量化研究实习（500-800元/天）；公司全称与 2026 秋招（2027届）状态未核实，需手动确认 [TODO]",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·光谱投资 量化研究员（因子研究方向）（2026-08-11 实时确认）",
+        "url": "https://www.zhipin.com/job_detail/0df2f1c69b24782403B709W8E1ZZ.html",
+        "accessedAt": "2026-08-11",
+        "status": "complete",
+        "note": "用户已登录 Edge（CDP）实时抓取职位页：量化研究员（因子/高频方向·实习），500-800元/天，上海·浦东·陆家嘴；公司全称与备案待核实；未经官方核实"
+      }
+    ],
+    "notes": "薪资来自 Boss直聘实时数据（第三方渠道，未经官方核实）。岗位为高频/因子方向实习。公司全称与官网未核实，投递前建议在 Boss直聘职位页确认公司资质 [TODO]。",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11",
     "recruitmentType": "intern"

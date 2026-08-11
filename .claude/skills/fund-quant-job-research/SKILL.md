@@ -33,12 +33,12 @@ description: 调研公募/私募基金公司及券商（证券公司）的量化
 - 降级：页面需 JS 渲染 / 登录 / 抓取失败 → `status: "partial"`，note 写明缺什么、去哪手动看，保留 URL。
 
 ### Boss 直聘（优先用 boss-agent-cli 真实数据）
-- **首选本机 boss-agent-cli**（`C:\Users\DDOSvoid\.local\bin\boss.exe`）直接搜索 Boss直聘拿真实岗位数据（用户自己的登录会话，非绕过登录墙）。工具自带加密凭证存储，stoken 过期自动刷新。完整命令、字段映射、认证与降级规则见 `references/research-sources.md`。**所有查询命令一律经 `scripts/boss_throttle.py` 执行**（全局限速、防风控，见下），不直接调 boss.exe。
+- **首选本机 boss-agent-cli**（`C:\Users\DDOSvoid\.local\bin\boss.exe`）直接搜索 Boss直聘拿真实岗位数据（用户自己的登录会话，非绕过登录墙）。工具自带加密凭证存储，stoken 过期自动刷新。完整命令、字段映射、认证与降级规则见 `references/research-sources.md`。**所有查询命令一律经 `scripts/boss_throttle.py` 执行**（全局限速、防风控，见下），不直接调 boss.exe。**触发 `code=36`/`TOKEN_REFRESH_FAILED` 风控时，包装器会自动切到 CDP 网页版（`scripts/boss_cdp.py`）搜索同一查询**——用户浏览器登录态还在，网页版仍可读岗位数据；CDP 网页版也失败才标 blocked。
 - **认证分层**（`__zp_stoken__` 是分钟级令牌、登录 cookie 是 ~7 天级，二者要分开看待）：
   - **日常**：每次调研前跑 `scripts/boss_auth_check.py`（内部跑 `boss --json status`，只读）。输出 `AUTH_OK` 即登录态健康，直接搜索。stoken 过期时工具内部自动刷新，无需额外操作。
   - **`AUTH_NEEDED`（= 登录 cookie 真过期，约 7 天一次）**：用户在场时，请用户启动独立 Edge CDP（`--user-data-dir=C:\Users\DDOSvoid\.boss-agent\edge-cdp --remote-debugging-port=9222`，在其中登录 zhipin 后）再 `boss login --cdp`。无人值守环境（子代理/自动评估，用户无法扫码）**不要等待登录**，直接把 Boss 来源标为 `blocked`，note "登录态已过期，需用户运行 boss login --cdp 重新登录"，报告清单标 `[TODO]`，继续官网与公众号来源。
-- **纪律**：只读（search/detail/cities/status），禁止 greet/batch-greet；不打印 cookie（status 输出已自动 REDACTED）；**所有查询命令一律经 `scripts/boss_throttle.py` 执行**（包装器做全局限速：串行 + 默认 12s 最小间隔，跨进程/终端全局生效；检测到 `code=36` 自动进入 30 分钟冷却），不直接调 boss.exe；每个调研任务 `search` ≤3 次、优先公司全称精确搜索；`--json` 是全局选项要放在命令名前；**触发 `code=36` 风控立即停搜**并降级 blocked（详见 references/research-sources.md）。
-- 降级：boss 不可用/认证失败 → WebSearch 摘要 + `status: "blocked"`，note "登录墙，需手动查看"，保留搜索结果与职位页链接。
+- **纪律**：只读（search/detail/cities/status），禁止 greet/batch-greet；不打印 cookie（status 输出已自动 REDACTED）；**所有查询命令一律经 `scripts/boss_throttle.py` 执行**（包装器做全局限速：串行 + 默认 12s 最小间隔，跨进程/终端全局生效；检测到 `code=36` 自动进入 30 分钟冷却，并**自动切 CDP 网页版回退**），不直接调 boss.exe；每个调研任务 `search` ≤3 次、优先公司全称精确搜索；`--json` 是全局选项要放在命令名前；**风控时不要反复重试**——包装器会自动切 CDP 网页版同查询，CDP 也失败才标 blocked + `[TODO]`（详见 references/research-sources.md）。
+- 降级：boss 不可用/认证失败 → 先试 CDP 网页版（`boss_cdp.py --json status` / `--json search`，见 references/research-sources.md"CDP 网页版回退"节）；CDP 也拿不到才 WebSearch 摘要 + `status: "blocked"`，note "登录墙，需手动查看"，保留搜索结果与职位页链接。
 
 ### 微信公众号
 - 查询：`"微信公众号 {公司} 2026 校园招聘"`、`"{公司} 秋招 量化 公众号"`。
@@ -100,7 +100,8 @@ description: 调研公募/私募基金公司及券商（证券公司）的量化
 ## 辅助脚本（scripts/）
 
 - `boss_auth_check.py` —— 检查 boss-agent-cli 认证状态（跑 `boss --json status`，只读；stoken 过期由工具自动刷新）。每次调研前跑
-- `boss_throttle.py` —— boss 命令全局限速包装器（防 `code=36` 风控）：所有查询命令走它执行，串行 + 最小间隔、触发风控自动冷却。`--check` 看当前节流状态
+- `boss_throttle.py` —— boss 命令全局限速包装器（防 `code=36` 风控）：所有查询命令走它执行，串行 + 最小间隔、触发风控自动冷却并**自动切 CDP 网页版回退**。`--check` 看当前节流状态
+- `boss_cdp.py` —— CDP 网页版搜索（用用户自己已登录的 Edge，端口 9222）：`search` / `detail` / `status` / `launch`，输出 JSON。boss 风控时由包装器自动调用；也可手动用。**列表页薪资是字体混淆（PUA）读不到，真实薪资走 `detail`**
 - `merge_and_write.mjs` —— 把调研结果按 schema 合并写盘
 
 > 旧 boss-cli 工具（boss_mint_stoken.mjs / boss_login_ui.py / boss_login.cmd）已随切换归档到 `scripts/legacy/`，仅作历史参考，不再使用。

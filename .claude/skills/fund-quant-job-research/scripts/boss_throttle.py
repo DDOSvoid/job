@@ -10,10 +10,12 @@
    interval 秒**（默认 12s，含随机抖动），即使跨多个进程/终端/连续 shell 调用也生效。
    （内部用 next_slot 递增实现，进程崩溃只留一个未来时刻的槽位，无陈旧锁问题。）
 
-2. 风控冷却（硬性）
-   检测到输出含 code=36 / 异常行为 → 把冷却槽推到 cooldown 秒后（默认 30 分钟），
-   期间任何后续命令都会等到冷却结束才执行；同时打印警告并返回非 0。这保证了
-   触发风控后不会被"换一条命令再试一次"继续加重账号风险。
+2. 风控冷却 + CDP 回退（硬性）
+   检测到输出含 code=36 / 异常行为 / TOKEN_REFRESH_FAILED → 把冷却槽推到
+   cooldown 秒后（默认 30 分钟），期间任何后续命令都会等到冷却结束才执行；
+   同时打印警告。对 search 命令，会**自动切换到 CDP 网页版**（scripts/boss_cdp.py，
+   同一查询）——API 通道被风控挡了，但用户自己的浏览器登录态还在，网页版仍能
+   读到岗位数据。CDP 也失败时才要求调用方把 Boss 来源标 blocked。
 
 3. 搜索预算可见（软性）
    统计 1 小时滚动窗口内的 search 次数，超过阈值打印剩余预算提醒（不硬性拦截，
@@ -69,9 +71,12 @@ DEFAULT_JITTER = 4.0
 DEFAULT_COOLDOWN = float(os.environ.get("BOSS_THROTTLE_COOLDOWN", "1800"))
 DEFAULT_BUDGET = 20
 LOCK_STALE_SECS = 60
-# Boss 风控返回的特征串（搜索返回 code=36 您的账户存在异常行为）
+# Boss 风控返回的特征串（搜索返回 code=36 您的账户存在异常行为；或令牌刷新失败=环境异常）
 CODE36_MARKERS = ("code=36", "code\":36", "账户存在异常行为", "异常行为", "风控")
+RISK_MARKERS = CODE36_MARKERS + ("TOKEN_REFRESH_FAILED", "您的环境存在异常")
 CMD_TIMEOUT = 120
+# CDP 回退（boss_cdp.py）需要启动/重启 Edge + 页面渲染，给更长的预算
+CDP_TIMEOUT = 300
 
 
 def _log(msg):
@@ -223,7 +228,9 @@ def parse_args(argv):
 
 
 def run_boss(boss_args):
-    """执行 boss.exe，stdout/stderr 原样透传；返回 (returncode, combined_output)。"""
+    """执行 boss.exe，捕获但**不自动透传**；返回 (returncode, stdout, stderr)。
+    是否透传、透传哪部分由调用方决定（风控时不会把 boss 的错误 JSON 混进
+    CDP 回退的 stdout）。"""
     env = dict(os.environ)
     env.setdefault("PYTHONUTF8", "1")
     env.setdefault("PYTHONIOENCODING", "utf-8")
@@ -239,17 +246,60 @@ def run_boss(boss_args):
         )
     except FileNotFoundError:
         _log(f"找不到 boss.exe：{BOSS}（请检查 BOSS_CLI_BIN）")
-        return 127, ""
+        return 127, "", ""
     except subprocess.TimeoutExpired:
         _log(f"boss 命令超时（>{CMD_TIMEOUT}s），未完成")
-        return 124, ""
+        return 124, "", ""
+    return proc.returncode, proc.stdout or "", proc.stderr or ""
+
+
+def cdp_fallback(boss_args):
+    """风控后切换到 CDP 网页版搜索同一查询（scripts/boss_cdp.py）。
+
+    仅对 `search` 命令生效（detail 等不做网页回退）。从 boss 参数里解析出
+    查询词与 --city，调 boss_cdp.py，并把它输出的 JSON 原样透传为 stdout。
+    返回 CDP 子进程退出码；非 search / 参数无法解析返回 None（调用方应标 blocked）。
+    """
+    if detect_cmd(boss_args) != "search":
+        return None
+    if "search" not in boss_args:
+        return None
+    si = boss_args.index("search")
+    if si + 1 >= len(boss_args) or boss_args[si + 1].startswith("-"):
+        _log("CDP 回退：无法从搜索参数中解析查询词")
+        return None
+    query = boss_args[si + 1]
+    city = None
+    j = si + 2
+    while j < len(boss_args):
+        if boss_args[j] == "--city" and j + 1 < len(boss_args):
+            city = boss_args[j + 1]
+            break
+        j += 1
+    cdp_py = os.path.join(os.path.dirname(os.path.abspath(__file__)), "boss_cdp.py")
+    cmd = [sys.executable, cdp_py, "--json", "search", query]
+    if city:
+        cmd += ["--city", city]
+    _log(f"CDP 回退：python boss_cdp.py --json search \"{query}\" --city {city or '（默认城市）'}")
+    try:
+        proc = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=CDP_TIMEOUT,
+        )
+    except subprocess.TimeoutExpired:
+        _log(f"CDP 回退超时（>{CDP_TIMEOUT}s），未完成")
+        return 1
     if proc.stdout:
         sys.stdout.write(proc.stdout)
         sys.stdout.flush()
     if proc.stderr:
         sys.stderr.write(proc.stderr)
         sys.stderr.flush()
-    return proc.returncode, (proc.stdout or "") + (proc.stderr or "")
+    return proc.returncode
 
 
 def cmd_check():
@@ -273,7 +323,13 @@ def main():
 
     if bypass:
         _log("--bypass：跳过节流直接执行（紧急诊断用，注意风控风险）")
-        rc, _ = run_boss(boss_args)
+        rc, out, err = run_boss(boss_args)
+        if out:
+            sys.stdout.write(out)
+            sys.stdout.flush()
+        if err:
+            sys.stderr.write(err)
+            sys.stderr.flush()
         return rc
 
     if not boss_args:
@@ -288,15 +344,34 @@ def main():
         _log(f"等待 {wait:.1f}s（限速间隔 {interval:.0f}-{interval + jitter:.0f}s）")
         time.sleep(wait)
 
-    rc, combined = run_boss(boss_args)
+    rc, out, err = run_boss(boss_args)
+    risk_marker = next((m for m in RISK_MARKERS if m in (out + err)), None)
 
-    if rc != 0 and any(m in combined for m in CODE36_MARKERS):
+    if rc != 0 and risk_marker:
         push_cooldown(cooldown)
         _log(
-            f"⚠️ 检测到 Boss 风控（code=36），已进入 {cooldown / 60:.0f} 分钟冷却。"
-            "请停止所有 boss 命令，把 Boss 来源标为 blocked，改用官网/公众号来源。"
+            f"⚠️ 检测到 Boss 风控（{risk_marker}），已进入 {cooldown / 60:.0f} 分钟冷却。"
+            "将尝试切换到 CDP 网页版搜索同一查询…"
         )
+        cdp_rc = cdp_fallback(boss_args)
+        if cdp_rc is not None:
+            # CDP 的 JSON 已透传为 stdout；CDP 自身失败时也会输出可解析的错误 JSON
+            return cdp_rc
+        _log("CDP 回退不可用（非 search 命令或参数无法解析）。把 Boss 来源标为 blocked，改用官网/公众号来源。")
+        if out:
+            sys.stdout.write(out)
+            sys.stdout.flush()
+        if err:
+            sys.stderr.write(err)
+            sys.stderr.flush()
         return 1
+
+    if out:
+        sys.stdout.write(out)
+        sys.stdout.flush()
+    if err:
+        sys.stderr.write(err)
+        sys.stderr.flush()
 
     if rc == 0 and cmd == "search":
         searches = _record(cmd)

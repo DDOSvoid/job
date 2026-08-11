@@ -43,11 +43,52 @@ python <skill-dir>/scripts/boss_throttle.py --check        # 只读查看当前�
 ```
 
 - **串行化 + 最小间隔（硬性）**：两次 boss 命令**开始执行**至少间隔 `--interval` 秒（默认 12s，另加 `--jitter` 随机抖动 0-4s）。间隔状态存 `~/.boss-agent/throttle.json`，**跨进程、跨终端、跨连续 shell 调用全局生效**——即使多个子代理并行调研也不会撞车。
-- **触发 code=36 自动冷却（硬性）**：包装器检测到输出含 code=36/异常行为 → 把冷却推到 `--cooldown` 秒后（默认 30 分钟），期间任何后续命令都等到冷却结束才执行，并打印警告、返回非 0。调用方仍须按纪律立即把 Boss 来源标 `blocked`、改用官网/公众号来源。
+- **触发 code=36 自动冷却 + CDP 回退（硬性）**：包装器检测到输出含 code=36/异常行为/TOKEN_REFRESH_FAILED → 把冷却推到 `--cooldown` 秒后（默认 30 分钟），期间任何后续命令都等到冷却结束才执行，并打印警告；同时**自动切换到 CDP 网页版搜索同一查询**（`scripts/boss_cdp.py`，见下）——API 通道被风控挡了，但用户自己的浏览器登录态还在，网页版仍能读到岗位数据。CDP 回退输出的 JSON 原样透传为 stdout；**只有 CDP 也失败时**，调用方才把 Boss 来源标 `blocked`、改用官网/公众号来源。
 - **search 预算软提醒**：1 小时滚动窗口内 `search` 达到 `--search-budget`（默认 20）时打印剩余预算提醒，不硬性拦截（每任务 ≤3 次的纪律由调用方掌握）。
 - 节流日志只写 stderr，`--json` 的 stdout 原样透传，不会污染 JSON 解析。
 - **唯一例外**：`boss_auth_check.py` 的认证探测保持直连 boss.exe（必须是一次性快速只读探针）；其余查询一律走包装器。
 - 批量成本估算：N 条命令额外耗时 ≈ N × 14s（默认间隔），大批量调研要留足时间预算。
+
+### CDP 网页版回退（boss 风控时自动切换）
+
+当 boss-agent-cli（API 通道）触发风控（`code=36` / `TOKEN_REFRESH_FAILED` / `您的环境存在异常`）时，`boss_throttle.py` 会在进入冷却的同时**自动切换到 CDP 网页版**——用**用户自己已登录的 Edge**（`C:\Users\DDOSvoid\.boss-agent\edge-cdp` 配置，端口 9222）打开 zhipin.com 网页版、搜索**同一查询**，并把它输出的 JSON 原样透传为 stdout。调用方拿到的是 CDP 的结果，**不需要自己再调 boss_cdp.py**。
+
+只有 CDP 网页版也失败（网页侧风控/登录墙/限流）时，才把 Boss 来源标 `blocked`、走官网/公众号降级。
+
+```bash
+# 手动直接用 CDP 网页版（一般不需要——风控时包装器会自动调；手动场景见下）
+python <skill-dir>/scripts/boss_cdp.py --json search "<量化关键词>" --city <城市>
+python <skill-dir>/scripts/boss_cdp.py --json detail <job_id>    # 真实薪资（详情页是明文）
+python <skill-dir>/scripts/boss_cdp.py --json status             # 只读看 CDP/登录态
+python <skill-dir>/scripts/boss_cdp.py --json launch             # 启动/重启 CDP Edge（一般由工具自动做）
+```
+
+#### CDP search 输出 → job 字段映射
+
+| CDP 返回字段 | 网站 job 字段 | 说明 |
+|---|---|---|
+| `title` | `title` | 岗位名 |
+| `company` | （company.name） | 公司名 |
+| `location` | company.location / 备注 | 城市·区·商圈，如 "上海·浦东新区·陆家嘴" |
+| `tags` | `description` 的一部分 | 周天数/实习期/学历等，如 "4天/周"、"3个月"、"本科" |
+| `job_id` | sources.url | 构造职位页 URL |
+| `url` | sources.url | `https://www.zhipin.com/job_detail/<job_id>.html` |
+
+#### 列表页薪资是字体混淆的（重要）
+
+Boss 网页版对**列表页**（搜索结果卡片）的薪资数字做了字体混淆：数字映射到 Unicode 私用区字符（PUA，`\uE000`–`\uF8FF`），CDP 读出来是一串乱码/空。**不要逆向解码这套反爬字体**（属绕过反爬，违反边界）。正确做法：
+
+- CDP search 对每个卡片输出 `salary: ""` + `salary_obfuscated: true`（如实标记读不到数字）。
+- 需要真实薪资 → 用 `detail` 命令打开岗位详情页：详情页薪资是**明文**（如 `"200-250元/天"`），直接可取。
+
+#### CDP 纪律（与 boss 一致）
+
+- **只用用户自己已登录的 Edge 会话（CDP）**：不逆向签名、不伪造 UA、不提取 cookie 值。
+- **只读**：`search` / `detail` / `status` / `launch`；不自动解验证码——遇到风控/验证页面 → 立即停止 → 标 `blocked`。
+- **内置节流 + 单实例锁**（`~/.boss-agent/cdp_throttle.json`）：命令间默认 15-25s 间隔；同一时刻只有一个 CDP 命令在跑（串行，防 Edge 冲突）。
+- **每个调研任务 `search` ≤3 次**（与 boss 共用预算口径）。
+- `status` 输出含 `ws`（调试通道是否就绪）与 `logged_in`（是否已登录 zhipin）。**AUTH_NEEDED 时先试 `boss_cdp.py --json status`**：浏览器若还登着，网页版仍可用，不必急着 `boss login`；只有 status 明确未登录才需要重新登录。
+- Edge 关着 / 9222 未就绪时，`launch` 会自动拉起 Edge（独立 profile，不碰主浏览器）；若端口被占但不是 zhipin 调试会话，按上文"CDP 登录"节重启。
 
 ### 0. 认证检查（每次必做）
 
@@ -58,7 +99,7 @@ PYTHONUTF8=1 PYTHONIOENCODING=utf-8 python <skill-dir>/scripts/boss_auth_check.p
 - 输出 `AUTH_OK` → 直接进搜索。
 - 输出 `AUTH_NEEDED` / 退出码非 0 = 登录态缺失或 cookie（wt2/wbg/zp_at，~7 天级）真过期。重新登录（二选一）：
   - **用户在场**：启动独立 Edge CDP（见下"CDP 登录"）后 `boss login --cdp`；或用本机已登录浏览器提取 `boss login --cookie-source chrome|firefox|edge`。
-  - **无人值守环境**（子代理/自动评估，用户不在场无法扫码）→ **不等待扫码**，直接把 Boss 来源标为 `blocked`，note "登录态已过期，需用户运行 boss login --cdp 重新登录"，报告清单标 `[TODO]`，继续官网与公众号来源。
+  - **无人值守环境**（子代理/自动评估，用户不在场无法扫码）→ **不等待扫码**。先试 `boss_cdp.py --json status`：如果浏览器（CDP Edge）还登着 zhipin，网页版搜索仍可用，直接改用 CDP 网页版拿数据（见下"CDP 网页版回退"）。只有 CDP 也未登录时才把 Boss 来源标为 `blocked`，note "登录态已过期，需用户运行 boss login --cdp 重新登录"，报告清单标 `[TODO]`，继续官网与公众号来源。
 - `boss` 不可用（找不到可执行文件 / 持续超时）→ 降级到 WebSearch 摘要方式（见下方"降级"）。
 
 ### CDP 登录（重新登录用，约 7 天一次）
@@ -130,7 +171,7 @@ python <skill-dir>/scripts/boss_throttle.py --json detail <security_id> --job-id
 - **只读**：只用 `search` / `detail` / `cities` / `status`。**禁止** `greet` / `batch-greet`（打招呼=主动投递，必须用户亲自操作）。
 - cookie 是用户凭证：不打印、不写入任何日志或报告。`boss --json status` 的输出里 token 字段已 `[REDACTED]`，无需手动脱敏。
 - 尊重限速：**所有 boss 查询命令一律经 `boss_throttle.py` 执行**（全局限速，默认 12s 最小间隔，跨进程/终端全局生效），**不要直接调 boss.exe、不要并行跑多个 boss 命令**。**控制搜索量**：每个调研任务 boss `search` 总计 ≤3 次，优先用"公司全称"精确搜索而非泛搜关键词；够用就停，拿到的岗位再 `detail` 拉详情。
-- **风控 code=36**：搜索返回 `code=36 您的账户存在异常行为` → **立即停止一切 boss 命令**（不要在风控期间反复重试或继续搜索；包装器检测到会自动进入 30 分钟冷却，期间命令会一直等到冷却结束），把 Boss 来源标为 `blocked`，note "触发 Boss 风控，暂停 boss 搜索；风控通常 20-60 分钟自行解除"，报告清单标 `[TODO]`，改用官网/公众号来源。Boss 风控是账号级风险，宁可少拿数据也不要触发。
+- **风控 code=36**：搜索返回 `code=36 您的账户存在异常行为` / `TOKEN_REFRESH_FAILED` → **立即停止一切 boss 命令**（不要在风控期间反复重试或继续搜索）。包装器检测到后会自动进入 30 分钟冷却，并**自动切换到 CDP 网页版（boss_cdp.py）搜索同一查询**——API 通道被风控挡了，但用户自己的浏览器登录态还在，网页版仍能读到岗位数据。**CDP 网页版也失败**（网页侧风控/登录墙/限流）才把 Boss 来源标为 `blocked`，note "触发 Boss 风控，API 与网页版均失败；风控通常 20-60 分钟自行解除"，报告清单标 `[TODO]`，改用官网/公众号来源。Boss 风控是账号级风险，宁可少拿数据也不要触发。
 - stoken（`__zp_stoken__`，分钟级）过期时工具内部自动刷新，通常无需干预；若搜索连续报环境异常，先跑 `boss --json status` / `boss status --live` 确认登录态，再重跑一次搜索，**不要立刻让用户重新扫码**。只有 status 明确 `logged_in: false`（cookie 过期）才需要 `boss login`。批量调研时先跑一次 `boss --json status` 确认健康再连续执行命令。
 
 ## 微信公众号

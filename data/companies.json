@@ -1274,5 +1274,27 @@
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "dunyu-investment",
+    "name": "敦钰投资",
+    "type": "private",
+    "website": "https://example.com/dunyu-investment",
+    "location": "上海",
+    "about": "上海敦钰投资管理有限公司，成立于2015年10月，量化私募证券投资基金管理人（岗位描述内公司自称中基协备案，登记编号 P1032164），专注量化 CTA/量化选股/套利等策略；核心团队来自国内外对冲基金/券商/公募/交易所，量化从业 15 年以上。招聘经 Boss直聘实时确认（2026-08-11：量化研究员实习生 200-400元/天）。官网未核实，用 example.com 占位，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "guangpu-investment",
+    "name": "光谱投资",
+    "type": "private",
+    "website": "https://example.com/guangpu-investment",
+    "location": "上海",
+    "about": "上海地区量化私募（经 Boss直聘网页版实时搜索发现：量化研究员·因子/高频方向实习在招，500-800元/天，工作地上海·浦东·陆家嘴）。公司全称与中基协备案待核实，请核实。官网未核实，用 example.com 占位。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
   }
 ]
