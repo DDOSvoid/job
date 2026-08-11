@@ -18,6 +18,7 @@
 | sources[].status | `complete` / `partial` / `manual_required` / `blocked` |
 | job.fetchStatus | `complete` / `partial` / `manual_required` |
 | job.autumn2026 | `open` / `not_started` / `ended` / `unknown` |
+| job.recruitmentType | `campus`（校招）/ `social`（社招）/ `intern`（实习）/ `unknown`（未知）；按岗位标题/描述关键词判定，无信号标 `unknown` |
 
 ## company
 
@@ -53,6 +54,7 @@
   "officialUrl": "https://www.high-flyer.cn/campus",
   "autumn2026": "unknown",
   "autumn2026Note": "示例占位，未核实",
+  "recruitmentType": "campus",
   "source": "official",
   "fetchStatus": "manual_required",
   "sources": [

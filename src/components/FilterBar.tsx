@@ -4,8 +4,10 @@ import {
   AUTUMN_STATUS_LABELS,
   AUTUMN_STATUSES,
   COMPANY_TYPE_LABELS,
+  RECRUITMENT_TYPE_LABELS,
+  RECRUITMENT_TYPES,
 } from '../constants'
-import type { AutumnStatus, ApplicationStage, CompanyType } from '../types'
+import type { AutumnStatus, ApplicationStage, CompanyType, RecruitmentType } from '../types'
 import ChipGroup from './ChipGroup'
 import MultiSelect from './MultiSelect'
 
@@ -23,6 +25,7 @@ export interface FilterState {
   companyId: string[]
   type: CompanyType[]
   autumn2026: AutumnStatus[]
+  recruitmentType: RecruitmentType[]
   stage: ApplicationStage[]
   q: string
   sort: SortKey
@@ -32,6 +35,7 @@ export const defaultFilters: FilterState = {
   companyId: [],
   type: [],
   autumn2026: [],
+  recruitmentType: [],
   stage: [],
   q: '',
   sort: 'default',
@@ -61,6 +65,7 @@ export function filtersToParams(filters: FilterState): URLSearchParams {
   if (filters.companyId.length) sp.set('companyId', filters.companyId.join(','))
   if (filters.type.length) sp.set('type', filters.type.join(','))
   if (filters.autumn2026.length) sp.set('autumn2026', filters.autumn2026.join(','))
+  if (filters.recruitmentType.length) sp.set('recruitmentType', filters.recruitmentType.join(','))
   if (filters.stage.length) sp.set('stage', filters.stage.join(','))
   if (filters.q) sp.set('q', filters.q)
   if (filters.sort !== 'default') sp.set('sort', filters.sort)
@@ -73,6 +78,7 @@ export function paramsToFilters(sp: URLSearchParams): FilterState {
     companyId: (sp.get('companyId') ?? '').split(',').filter(Boolean),
     type: parseList(sp, 'type', COMPANY_TYPES),
     autumn2026: parseList(sp, 'autumn2026', AUTUMN_STATUSES),
+    recruitmentType: parseList(sp, 'recruitmentType', RECRUITMENT_TYPES),
     stage: parseList(sp, 'stage', APPLICATION_STAGES),
     q: sp.get('q') ?? '',
     sort: parseParam(sp, 'sort', SORTS) || 'default',
@@ -86,6 +92,7 @@ export interface FilterProps {
   showCompany?: boolean
   showType?: boolean
   showAutumn?: boolean
+  showRecruitment?: boolean
   showStage?: boolean
   total?: number
   unit?: string
@@ -98,6 +105,7 @@ export default function FilterBar({
   showCompany = true,
   showType = true,
   showAutumn = true,
+  showRecruitment = true,
   showStage,
   total,
   unit = '条',
@@ -107,6 +115,7 @@ export default function FilterBar({
     filters.companyId.length > 0 ||
     filters.type.length > 0 ||
     filters.autumn2026.length > 0 ||
+    filters.recruitmentType.length > 0 ||
     filters.stage.length > 0 ||
     filters.q !== ''
   const reset = () => onChange(defaultFilters)
@@ -144,7 +153,7 @@ export default function FilterBar({
           </button>
         )}
       </div>
-      {(showCompany || showType || showAutumn || showStage) && (
+      {(showCompany || showType || showAutumn || showRecruitment || showStage) && (
         <div className="filter-row">
           {showCompany && (
             <MultiSelect
@@ -170,6 +179,14 @@ export default function FilterBar({
               options={AUTUMN_STATUSES.map((s) => ({ value: s, label: AUTUMN_STATUS_LABELS[s] }))}
               values={filters.autumn2026}
               onChange={(v) => set({ autumn2026: v })}
+            />
+          )}
+          {showRecruitment && (
+            <ChipGroup
+              label="招聘"
+              options={RECRUITMENT_TYPES.map((r) => ({ value: r, label: RECRUITMENT_TYPE_LABELS[r] }))}
+              values={filters.recruitmentType}
+              onChange={(v) => set({ recruitmentType: v })}
             />
           )}
           {showStage && (

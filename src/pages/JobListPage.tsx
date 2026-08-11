@@ -24,6 +24,8 @@ function applyFilters(
     if (filters.type.length && (!info.type || !filters.type.includes(info.type))) return false
     const appStage = appByJob.get(j.id)
     if (filters.stage.length && (!appStage || !filters.stage.includes(appStage))) return false
+    const rt = j.recruitmentType ?? 'unknown'
+    if (filters.recruitmentType.length && !filters.recruitmentType.includes(rt)) return false
     if (q) {
       const hay = `${j.title} ${info.name} ${j.description ?? ''} ${j.salary ?? ''}`.toLowerCase()
       if (!hay.includes(q)) return false

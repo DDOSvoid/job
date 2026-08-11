@@ -5,6 +5,7 @@ import {
   SOURCE_STATUSES,
   FETCH_STATUS,
   AUTUMN_STATUS,
+  RECRUITMENT_TYPES,
   APPLICATION_STAGES,
   INTERVIEW_SOURCES,
   INTERVIEW_RESULTS,
@@ -40,6 +41,7 @@ export function validateJob(j, { companies }) {
   if (j?.source && !inEnum(j.source, JOB_SOURCES)) errors.push('source 非法')
   if (j?.fetchStatus && !inEnum(j.fetchStatus, FETCH_STATUS)) errors.push('fetchStatus 非法')
   if (j?.autumn2026 && !inEnum(j.autumn2026, AUTUMN_STATUS)) errors.push('autumn2026 非法')
+  if (j?.recruitmentType != null && !inEnum(j.recruitmentType, RECRUITMENT_TYPES)) errors.push('recruitmentType 非法')
   if (j?.salary !== undefined && typeof j.salary !== 'string') errors.push('salary 必须是字符串')
   if (j?.sources !== undefined) {
     if (!Array.isArray(j.sources)) errors.push('sources 必须是数组')

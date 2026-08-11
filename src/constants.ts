@@ -8,6 +8,7 @@ import type {
   InterviewResult,
   InterviewSource,
   JobSource,
+  RecruitmentType,
   SourceStatus,
 } from './types'
 
@@ -66,6 +67,15 @@ export const APPLICATION_STAGE_LABELS: Record<ApplicationStage, string> = {
 }
 
 export const AUTUMN_STATUSES: AutumnStatus[] = ['open', 'not_started', 'ended', 'unknown']
+
+export const RECRUITMENT_TYPE_LABELS: Record<RecruitmentType, string> = {
+  campus: '校招',
+  social: '社招',
+  intern: '实习',
+  unknown: '未知',
+}
+
+export const RECRUITMENT_TYPES: RecruitmentType[] = ['campus', 'social', 'intern', 'unknown']
 
 export const INTERVIEW_SOURCE_LABELS: Record<InterviewSource, string> = {
   xiaohongshu: '小红书',

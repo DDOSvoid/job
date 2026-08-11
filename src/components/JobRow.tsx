@@ -3,7 +3,7 @@ import type { ApplicationStage, CompanyType, Job } from '../types'
 import CompanyAvatar from './CompanyAvatar'
 import PipelineBar from './PipelineBar'
 import SalaryDisplay from './SalaryDisplay'
-import { AutumnBadge, CompanyTypeBadge, FetchBadge, SourceTypeBadge } from './StatusBadge'
+import { AutumnBadge, CompanyTypeBadge, FetchBadge, RecruitmentTypeBadge, SourceTypeBadge } from './StatusBadge'
 
 interface Props {
   job: Job
@@ -47,6 +47,7 @@ export default function JobRow({ job, stage, companyType }: Props) {
         <div className="mod-label">进展</div>
         <div className="mod-badges">
           <AutumnBadge status={job.autumn2026} />
+          <RecruitmentTypeBadge recruitmentType={job.recruitmentType} />
           {stage && <PipelineBar stage={stage} />}
         </div>
         <div className="mod-sub">

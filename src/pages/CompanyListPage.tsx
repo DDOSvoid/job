@@ -155,6 +155,7 @@ export default function CompanyListPage() {
         companies={companies.data ?? []}
         showCompany={false}
         showAutumn={false}
+        showRecruitment={false}
         total={list.length}
         unit="家机构"
       />

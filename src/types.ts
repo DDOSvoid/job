@@ -3,6 +3,7 @@ export type JobSource = 'official' | 'boss' | 'wechat' | 'manual'
 export type FetchStatus = 'complete' | 'partial' | 'manual_required'
 export type SourceStatus = FetchStatus | 'blocked'
 export type AutumnStatus = 'open' | 'not_started' | 'ended' | 'unknown'
+export type RecruitmentType = 'campus' | 'social' | 'intern' | 'unknown'
 export type ApplicationStage =
   | 'interested'
   | 'applied'
@@ -49,6 +50,7 @@ export interface Job {
   officialUrl: string
   autumn2026: AutumnStatus
   autumn2026Note?: string
+  recruitmentType?: RecruitmentType
   source: JobSource
   fetchStatus: FetchStatus
   sources: SourceItem[]

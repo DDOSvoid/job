@@ -7,6 +7,7 @@ import type {
   InterviewResult,
   InterviewSource,
   JobSource,
+  RecruitmentType,
   SourceStatus,
 } from '../types'
 import {
@@ -18,6 +19,7 @@ import {
   INTERVIEW_RESULT_LABELS,
   INTERVIEW_SOURCE_LABELS,
   JOB_SOURCE_LABELS,
+  RECRUITMENT_TYPE_LABELS,
   SOURCE_STATUS_LABELS,
 } from '../constants'
 
@@ -61,6 +63,12 @@ const sourceTone: Record<SourceStatus, Tone> = {
   blocked: 'danger',
 }
 const sourceTypeTone: Record<JobSource, Tone> = { official: 'info', boss: 'purple', wechat: 'warning', manual: 'neutral' }
+const recruitmentTypeTone: Record<RecruitmentType, Tone> = {
+  campus: 'info',
+  social: 'warning',
+  intern: 'purple',
+  unknown: 'neutral',
+}
 const interviewResultTone: Record<InterviewResult, Tone> = {
   offer: 'success',
   no_offer: 'danger',
@@ -128,6 +136,15 @@ export function InterviewResultBadge({ result }: { result: InterviewResult }) {
 
 export function InterviewDifficultyBadge({ difficulty }: { difficulty: InterviewDifficulty }) {
   return <span className={toneClass(interviewDifficultyTone[difficulty])}>{INTERVIEW_DIFFICULTY_LABELS[difficulty]}</span>
+}
+
+export function RecruitmentTypeBadge({ recruitmentType }: { recruitmentType?: RecruitmentType }) {
+  const rt = recruitmentType ?? 'unknown'
+  return (
+    <span className={toneClass(recruitmentTypeTone[rt])} title="招聘类型">
+      {RECRUITMENT_TYPE_LABELS[rt]}
+    </span>
+  )
 }
 
 export function InterviewSourceBadge({ source }: { source: InterviewSource }) {

@@ -48,7 +48,8 @@
     ],
     "notes": "量化研究员岗位已在官网招聘系统（Moka ATS）确认在招（当前为社会招聘性质）；薪资来自第三方渠道（小红书/猎聘），未经官方核实。2026 秋招状态未确认，见 autumn2026Note。投递邮箱参考 talent@high-flyer.cn / job@high-flyer.cn（来自公开招聘帖，未在官网核实）。另有关联 DeepSeek 招聘入口 https://app.mokahr.com/social-recruitment/high-flyer/140576（幻方&DeepSeek 共用招聘系统）。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "minghong-quant-researcher-2026",
@@ -91,7 +92,8 @@
     ],
     "notes": "薪资为行业第三方参考，官方公告未披露具体薪资。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "yanfu-quant-researcher-2026",
@@ -142,7 +144,8 @@
     ],
     "notes": "薪资为第三方渠道数字（2021春招校招base 40万+/年、2023水木社区社招月薪30k-60k×15-18薪），未经官方核实；官方未披露具体薪资。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "winbao-quant-researcher-2026",
@@ -201,7 +204,8 @@
     ],
     "notes": "薪资未获官方披露；第三方渠道（江苏24365就业平台）称量化研究员实习年薪可达70万/年，未经官方核实。岗位详情请以官网为准。投递邮箱 hr@wenbofund.com（标题『求职-姓名-职位名称』），招聘平台 mh.hire66.com。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "efund-quant-researcher-2026",
@@ -252,7 +256,8 @@
     ],
     "notes": "岗位职责与任职要求依据 2026 届校招/2026 暑期招聘公告及行业转载整理，官方岗位详情页需 JS 渲染未能直接读取，请以官网为准。薪资来自第三方渠道（小红书薪资分享帖、猎聘招聘页），未经官方核实，官方招聘公告未公布薪资区间，实际以 offer 为准。",
     "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "updatedAt": "2026-08-06",
+    "recruitmentType": "campus"
   },
   {
     "id": "chinaamc-quant-researcher-2026",
@@ -287,7 +292,8 @@
     ],
     "notes": "该批次秋招已结束，仅作记录。薪资未披露。",
     "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "updatedAt": "2026-08-06",
+    "recruitmentType": "campus"
   },
   {
     "id": "fullgoal-quant-researcher-2026",
@@ -330,7 +336,8 @@
     ],
     "notes": "官方未单独公开量化研究员岗位 JD；投研类岗位需到宣讲会/MOKA 系统查询；2026 届秋招批次已结束。",
     "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "updatedAt": "2026-08-06",
+    "recruitmentType": "campus"
   },
   {
     "id": "chinaamc-quant-researcher-2027",
@@ -381,7 +388,8 @@
     ],
     "notes": "官网未披露薪资。小红书第三方渠道称华夏基金2026春招（2026届）量化研究员应届硕士起薪约18-30万/年（第三方渠道，未经官方核实），仅供参考。",
     "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "updatedAt": "2026-08-06",
+    "recruitmentType": "intern"
   },
   {
     "id": "chinaamc-hft-algorithm-2027",
@@ -416,7 +424,8 @@
     ],
     "notes": "官网未披露薪资。",
     "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "updatedAt": "2026-08-06",
+    "recruitmentType": "intern"
   },
   {
     "id": "chinaamc-quant-researcher-shanghai",
@@ -451,7 +460,8 @@
     ],
     "notes": "薪资与岗位信息均来自51金融圈/猎聘第三方渠道（未经官方核实）。",
     "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "updatedAt": "2026-08-06",
+    "recruitmentType": "social"
   },
   {
     "id": "fullgoal-quant-intern-2026",
@@ -494,7 +504,8 @@
     ],
     "notes": "薪资未披露（第三方渠道未见数字），按面议处理；招聘信息来自 2025-12 北大未名BBS，需核实是否仍在招。",
     "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "updatedAt": "2026-08-06",
+    "recruitmentType": "intern"
   },
   {
     "id": "southern-quant-researcher-2026",
@@ -545,7 +556,8 @@
     ],
     "notes": "薪资来自第三方渠道（2024届校招公示/统计网站），未经官方核实；官方招聘简章未披露具体薪资。2026届秋招主窗口已结束，如需投递请关注 2027 届招聘。",
     "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "updatedAt": "2026-08-06",
+    "recruitmentType": "intern"
   },
   {
     "id": "southern-quant-trader-2026",
@@ -604,7 +616,8 @@
     ],
     "notes": "薪资未在官方简章披露，第三方统计（公司整体）未经官方核实。2026届秋招主窗口已结束，该岗位 2026 届春季补招亦有开放。",
     "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "updatedAt": "2026-08-06",
+    "recruitmentType": "campus"
   },
   {
     "id": "guangfa-quant-researcher-2026",
@@ -663,7 +676,8 @@
     ],
     "notes": "薪资未公布，占位为『示例：面议』（第三方渠道猎聘亦显示面议，未经官方核实）；招聘流程：网申→在线测评(60 分钟认知测试)→面试(笔试)→实习考察(2-4 周)→高管面试→Offer；2026 届秋招已结束。",
     "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "updatedAt": "2026-08-06",
+    "recruitmentType": "intern"
   },
   {
     "id": "guangfa-quant-intern-2027",
@@ -722,7 +736,8 @@
     ],
     "notes": "薪资未公布，占位为『示例：面议』；实习网申已截止；第三方（小红书）评价实习薪资偏低、正式岗薪资激励好，均未经官方核实。",
     "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "updatedAt": "2026-08-06",
+    "recruitmentType": "intern"
   },
   {
     "id": "ubiquant-quant-strategy-researcher-2026",
@@ -765,7 +780,8 @@
     ],
     "notes": "岗位详情依据2026春招/秋招公告与高校就业网、校招聚合站转载整理，官方岗位页需JS渲染未直接读取，请以官网为准。薪资为第三方渠道（小红书、媒体）数字，官方未披露具体区间。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "ubiquant-ai-algorithm-researcher-2026",
@@ -800,7 +816,8 @@
     ],
     "notes": "薪资数字来自第三方薪资分享帖（小红书），未经官方核实，官方公告未披露薪资。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "ubiquant-quant-dev-2026",
@@ -835,7 +852,8 @@
     ],
     "notes": "薪资为行业参考（第三方），官方未披露。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "ubiquant-quant-risk-researcher-2026",
@@ -870,7 +888,8 @@
     ],
     "notes": "岗位存在性经校招公告确认，但岗位详情与薪资信息较少，需手动查看官网/MOKA。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "ubiquant-quant-dev-intern",
@@ -921,7 +940,8 @@
     ],
     "notes": "薪资1000-1200元/天来自Boss直聘实时搜索（2026-08-09 与 2026-08-11 两次确认），未经官方核实。Boss直聘当前在京/沪双城挂出同岗位（北京 job_detail 509346c7...，2026-08-11 确认）。投递前请以Boss直聘/官网当前状态为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "minghong-quant-dev-2026",
@@ -964,7 +984,8 @@
     ],
     "notes": "薪资 45-75K·15薪 来自 Boss直聘实时搜索（2026-08-11），未经官方核实；2026-08-09 摘要曾为 35-50K，薪资区间以当前职位页为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "minghong-deep-learning-researcher-2026",
@@ -999,7 +1020,8 @@
     ],
     "notes": "薪资为行业第三方参考，官方未披露。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "minghong-ai-infra-2026",
@@ -1026,7 +1048,8 @@
     ],
     "notes": "岗位存在性经校招公告确认，详情信息较少，需手动查看官网。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "minghong-quant-research-intern-2026",
@@ -1061,7 +1084,8 @@
     ],
     "notes": "岗位与薪资数据来自Boss直聘实时搜索（boss-agent-cli，2026-08-09，300-400元/天），薪资未经官方核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "yanfu-ml-researcher-2026",
@@ -1112,7 +1136,8 @@
     ],
     "notes": "薪资为第三方渠道数字（2021春招校招base 40万+/年、实习月薪2万/食宿全包），未经官方核实；官方未披露具体薪资。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "yanfu-quant-dev-2026",
@@ -1163,7 +1188,8 @@
     ],
     "notes": "薪资15k-30k/月来自第三方招聘渠道（实习岗），未经官方核实。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "winbao-quant-dev-2026",
@@ -1214,7 +1240,8 @@
     ],
     "notes": "薪资未获官方披露，第三方渠道未见稳定数字，按面议处理。岗位详情请以官网为准。投递邮箱 hr@wenbofund.com（标题『求职-姓名-职位名称』），招聘平台 mh.hire66.com。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "winbao-ml-quant-researcher",
@@ -1249,7 +1276,8 @@
     ],
     "notes": "薪资未披露，按面议处理；岗位存在性与详情经官网招聘页完整确认。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "social"
   },
   {
     "id": "winbao-quant-platform-dev",
@@ -1284,7 +1312,8 @@
     ],
     "notes": "薪资未披露，按面议处理；岗位存在性与详情经官网招聘页完整确认。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "social"
   },
   {
     "id": "lingjun-quant-research-intern-2026",
@@ -1335,7 +1364,8 @@
     ],
     "notes": "岗位存在性经官网校招页（全年日常实习）与第三方内推帖确认；薪资官方未披露。2026秋招状态未确认，见 autumn2026Note。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "lingjun-quant-researcher-2026",
@@ -1394,7 +1424,8 @@
     ],
     "notes": "岗位存在性经官网校招/社招入口、猎聘及Boss直聘实时搜索确认；薪资来自第三方渠道（猎聘40-60K/50-70K/30-60K不等、Boss直聘实时50-70K），未经官方核实。2026-08-11 上海浦东量化研究员职位再次实时确认。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "lingjun-quant-dev-2026",
@@ -1437,7 +1468,8 @@
     ],
     "notes": "岗位存在性经官网社招方向与小红书/CSDN等第三方招聘帖确认；详细JD与薪资需以官网MOKA系统为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "harvest-quant-researcher-risk-2026",
@@ -1488,7 +1520,8 @@
     ],
     "notes": "薪资官方未披露，标注为面议。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "harvest-index-quant-analyst-2026",
@@ -1539,7 +1572,8 @@
     ],
     "notes": "薪资官方未披露，标注为面议。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "harvest-algorithm-engineer-2026",
@@ -1590,7 +1624,8 @@
     ],
     "notes": "算法工程师属金融科技类（大模型方向），与量化策略/智能投研系统相关；薪资官方未披露，标注为面议。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "bosera-quant-researcher-2026",
@@ -1649,7 +1684,8 @@
     ],
     "notes": "官方公告未披露薪资（第三方显示『提供有市场竞争力的薪酬』，未经官方核实），按面议处理。2026届春招+暑期实习批次网申已截止（2026-06-30），投递前请核实当前开放状态。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "bosera-fixed-income-quant-researcher-2026",
@@ -1708,7 +1744,8 @@
     ],
     "notes": "官方公告未披露薪资，按面议处理。2026届春招+暑期实习批次网申已截止（2026-06-30），投递前请核实当前开放状态。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "bosera-quant-ai-researcher-2026",
@@ -1767,7 +1804,8 @@
     ],
     "notes": "官方公告未披露薪资，按面议处理。2026届春招+暑期实习批次网申已截止（2026-06-30），投递前请核实当前开放状态。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "cmsfund-quant-assistant-researcher-2026",
@@ -1818,7 +1856,8 @@
     ],
     "notes": "岗位职责依据2026春招公告（微信公众号/牛企直聘转载）整理；官方未披露薪资，按面议处理。该批次网申已截止。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "cmsfund-quant-research-intern-2027",
@@ -1877,7 +1916,8 @@
     ],
     "notes": "实习补贴 15000-19999 元/月 来自官方招聘简章（多所高校就业网转载，如香港中文大学（深圳）职业发展处标注 Salary Range:15000-19999、中南大学标注15000-17500），为实习期月薪补贴而非年薪；官方简章为留用导向（答辩通过发留用Offer）。该批次网申已截止。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "egret-quant-researcher-shanghai",
@@ -1920,7 +1960,8 @@
     ],
     "notes": "薪资来自猎聘（第三方渠道，标注面议），未经官方核实。岗位为社招性质。投递渠道：官网 Moka 门户 app.mokahr.com/apply/hzbailu/36103、邮箱 career@hz-bailu.com。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "egret-quant-research-intern",
@@ -1971,7 +2012,8 @@
     ],
     "notes": "岗位存在性经 2022-2024 年公众号/校园招聘帖确认，薪资未披露。当前是否在招、2026届/2027届批次未核实，投递前请通过官网 Moka 门户、邮箱 career@hz-bailu.com 或公众号『白鹭资管招聘』确认。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "qianxiang-quant-strategy-intern-2026",
@@ -2022,7 +2064,8 @@
     ],
     "notes": "薪资未披露，按面议处理。岗位信息来自2026届校园招聘简章转载（搜索摘要，页面503），未经官方详情页核实。投递邮箱 hr@qxinvest.com。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "qianxiang-overseas-cta-researcher-intern-2026",
@@ -2073,7 +2116,8 @@
     ],
     "notes": "薪资未披露，按面议处理。岗位信息来自2026届校园招聘简章转载（搜索摘要，页面503），未经官方详情页核实。投递邮箱 hr@qxinvest.com。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "qianxiang-overseas-cta-data-intern",
@@ -2116,7 +2160,8 @@
     ],
     "notes": "薪资300-400元/天来自牛客网（第三方渠道），未经官方核实。牛客职位显示已结束，投递前请核实当前状态。投递邮箱 hr@qxinvest.com。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "tianyan-quant-researcher-2027",
@@ -2167,7 +2212,8 @@
     ],
     "notes": "岗位存在性经2027校园招聘公告、虹口区政府招聘信息与官网确认；薪资『月薪4万及以上』为公司2027校园招聘公告口径（经虹口区政府招聘平台与多家高校就业网转载），未获官网岗位页单独披露。具体JD请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "tianyan-quant-dev-2027",
@@ -2210,7 +2256,8 @@
     ],
     "notes": "岗位存在性经2027校园招聘公告确认；该岗未单独披露薪资与JD，详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "tianyan-python-backend-dev-2027",
@@ -2253,7 +2300,8 @@
     ],
     "notes": "岗位存在性与薪资口径经2027校园招聘公告确认（牛企直聘/清华就业转载公告原文）。具体JD请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "heiyi-quant-researcher-2026",
@@ -2304,7 +2352,8 @@
     ],
     "notes": "薪资40-55K·20薪来自Boss直聘搜索摘要（北京·机器学习研究员），第三方渠道未经官方核实，官方未披露薪资。2026届秋招批次已结束，记录供参考；官网当前在招为社招岗位。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "social"
   },
   {
     "id": "heiyi-quant-dev-2026",
@@ -2355,7 +2404,8 @@
     ],
     "notes": "2026届秋招批次已结束；官网当前在招为社招性质量化开发工程师，薪资未披露。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "social"
   },
   {
     "id": "heiyi-quant-research-intern-2027",
@@ -2406,7 +2456,8 @@
     ],
     "notes": "薪资500-550元/天来自Boss直聘搜索摘要（量化研究实习生·股票/CTA，北京朝阳区），第三方渠道未经官方核实；新翼甄选营官方标注『极具竞争力的薪资』未披露数字。2027届正式秋招未官宣。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "yinnuo-quant-researcher-2026",
@@ -2465,7 +2516,8 @@
     ],
     "notes": "岗位存在性经2026届校招简章（全职网转载）与『因诺英才』计划公告确认；官方未披露薪资，按面议处理。投递邮箱 resume@innoam.com、公众号『因诺招聘』、HR微信 innoamHR。岗位详情请以官网/公众号为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "yinnuo-quant-intern-2026",
@@ -2532,7 +2584,8 @@
     ],
     "notes": "实习薪资1-1.1万元/月来自第三方招聘渠道（海投网等），未经官方核实；C++实习生第三方参考300-500元/天。岗位详情请以官网/公众号为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "yinnuo-quant-dev-2026",
@@ -2591,7 +2644,8 @@
     ],
     "notes": "岗位存在性经2026届校招简章与实习帖确认；全职薪资未披露按面议处理，C++实习生300-500元/天为第三方渠道数字，未经官方核实。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "yinnuo-quant-trader-2026",
@@ -2642,7 +2696,8 @@
     ],
     "notes": "薪资12-17k·15薪来自『因诺英才』计划第三方招聘帖（猎聘/招聘聚合页），未经官方核实；该岗位偏交易执行方向，与量化研究岗相邻。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "mengxi-quant-strategy-researcher-2026",
@@ -2709,7 +2764,8 @@
     ],
     "notes": "岗位存在性经2026届校招公告、官网career页与『蒙』新计划公告确认；官方未披露薪资，按面议处理。投递邮箱 zhaopin@mxifund.com。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "mengxi-ml-researcher-2026",
@@ -2776,7 +2832,8 @@
     ],
     "notes": "岗位存在性经2026届校招公告与『蒙』新计划公告确认；官方未披露薪资，按面议处理。投递邮箱 zhaopin@mxifund.com。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "mengxi-quant-dev-2026",
@@ -2843,7 +2900,8 @@
     ],
     "notes": "岗位存在性经2026届校招公告与『蒙』新计划公告确认；官方未披露薪资，按面议处理。投递邮箱 zhaopin@mxifund.com。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "jingshun-etf-research-intern-sz",
@@ -2886,7 +2944,8 @@
     ],
     "notes": "官方招聘系统发布的量化/指数方向实习岗，薪资未公布（面议）。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "jingshun-etf-research-intern-sh",
@@ -2929,7 +2988,8 @@
     ],
     "notes": "官方招聘系统指数/ETF研究方向实习岗，薪资未公布（面议）。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "jingshun-fixed-income-research-quant-2027",
@@ -2980,7 +3040,8 @@
     ],
     "notes": "明确将量化列为固收研究方向之一，属量化相关投研岗。薪资未公布（面议）。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "jingshun-industry-research-2026",
@@ -3031,7 +3092,8 @@
     ],
     "notes": "普通行业研究岗（非量化），按任务要求如实收录并标注岗位方向；用于佐证景顺长城2026届校招已结束。薪资未公布（面议）。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "htb-quant-research-intern",
@@ -3066,7 +3128,8 @@
     ],
     "notes": "官网招聘页当前挂出的量化方向岗位。薪资未公布（面议）。历史版本（2025-12-25浙江工商大学转发）标注为2025届毕业，届别标注随招聘周期滚动。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "htb-capital-trader-2026",
@@ -3101,7 +3164,8 @@
     ],
     "notes": "交易方向（资金交易），非量化岗，供参考并用于佐证华泰柏瑞2026届校招状态。薪资未公布（面议）。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "huaan-quant-researcher-2026",
@@ -3152,7 +3216,8 @@
     ],
     "notes": "2026届校招已结束，具体薪资未公开；投递链接为占位。2027届暑期实习（含量化研究方向）请关注官网更新。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "huaan-fixed-income-quant-2026",
@@ -3203,7 +3268,8 @@
     ],
     "notes": "2026届校招已结束，具体薪资未公开；投递链接为占位。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "huaan-index-researcher-2027-summer",
@@ -3254,7 +3320,8 @@
     ],
     "notes": "当前在招岗位（2027届暑期实习）。薪资官方标注面议，未公开具体区间；与量化/指数增强相关的指数研究条线。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "zhongou-quant-research-2026",
@@ -3305,7 +3372,8 @@
     ],
     "notes": "26届校招已截止，具体薪资未公开；投递链接为占位。官方移动端投递渠道为公众号「中欧人才招聘」。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "zhongou-quant-research-2027",
@@ -3356,7 +3424,8 @@
     ],
     "notes": "当前在招岗位（27届校招）。薪资官方标注面议，未公开具体区间。公司提供高性能算力集群、成熟因子库与研究框架。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "zhongou-quant-risk-2027",
@@ -3407,7 +3476,8 @@
     ],
     "notes": "当前在招岗位（27届校招）。薪资官方标注面议，未公开具体区间。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "zhongou-quant-trading-2026",
@@ -3458,7 +3528,8 @@
     ],
     "notes": "26届校招已截止，详情仅来自搜索摘要，需手动确认；薪资未公开，投递链接为占位。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "chinauniversal-quant-researcher-2026",
@@ -3501,7 +3572,8 @@
     ],
     "notes": "薪资未披露，按面议处理；岗位职责与任职要求依据2026届校招公告与高校就业网转载整理，官方岗位详情页未直接抓取，请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "chinauniversal-quant-researcher-2027",
@@ -3560,7 +3632,8 @@
     ],
     "notes": "薪资未披露，按面议处理；岗位详情依据2027校园招聘公告及转载整理，请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "chinauniversal-index-analyst-2026",
@@ -3603,7 +3676,8 @@
     ],
     "notes": "薪资未披露，按面议处理；指数分析师岗位JD官方未公开，请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "chinauniversal-ai-algorithm-2027",
@@ -3638,7 +3712,8 @@
     ],
     "notes": "薪资未披露，按面议处理；机器学习方向岗位，官网在招。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "xingzheng-quant-researcher-2026",
@@ -3681,7 +3756,8 @@
     ],
     "notes": "薪资未披露，按面议处理；2026届秋招已结束，仅作记录。量化研究岗校招JD官方未公开，参考日常实习JD，请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "xingzheng-quant-research-intern",
@@ -3724,7 +3800,8 @@
     ],
     "notes": "薪资未披露，按面议处理；JD依据官网招聘系统在招岗位与搜索摘要整理，请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "xingzheng-deep-learning-intern",
@@ -3767,7 +3844,8 @@
     ],
     "notes": "薪资未披露，按面议处理；岗位信息来自搜索摘要，归属与在招状态需手动核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "jysld-quant-invest-researcher",
@@ -3793,7 +3871,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "social"
   },
   {
     "id": "jysld-quant-researcher-equity",
@@ -3819,7 +3898,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "jysld-quant-invest-intern",
@@ -3845,7 +3925,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "icbcs-quant-research-assistant",
@@ -3871,7 +3952,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "icbcs-data-analyst",
@@ -3897,7 +3979,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "tianhong-quant-researcher-index",
@@ -3923,7 +4006,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "tianhong-quant-index-intern",
@@ -3949,7 +4033,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "qilin-quant-researcher-hft",
@@ -3975,7 +4060,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "qilin-quant-researcher-ai",
@@ -4001,7 +4087,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "qilin-quant-researcher-fundamental",
@@ -4027,7 +4114,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "qilin-quant-researcher-portfolio",
@@ -4053,7 +4141,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "centuryfrontier-quant-researcher",
@@ -4079,7 +4168,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "centuryfrontier-ml-researcher",
@@ -4105,7 +4195,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "centuryfrontier-quant-dev",
@@ -4131,7 +4222,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "centuryfrontier-quant-trader",
@@ -4157,7 +4249,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "chengqi-quant-strategy-researcher",
@@ -4183,7 +4276,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "chengqi-ml-researcher",
@@ -4209,7 +4303,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "chengqi-data-researcher",
@@ -4235,7 +4330,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "chengqi-quant-strategy-intern",
@@ -4261,7 +4357,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "jinhualun-quant-researcher",
@@ -4287,7 +4384,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "jinhualun-quant-sys-engineer",
@@ -4313,7 +4411,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "jinhualun-ai-dev",
@@ -4339,7 +4438,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "jinde-quant-strategy-researcher",
@@ -4365,7 +4465,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "jinde-quant-dev",
@@ -4391,7 +4492,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "jinde-portfolio-researcher",
@@ -4417,7 +4519,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "sixie-quant-researcher-2027",
@@ -4443,7 +4546,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "kuande-quant-researcher",
@@ -4469,7 +4573,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "kuande-ml-researcher",
@@ -4495,7 +4600,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "citicsec-hft-quant-dev",
@@ -4521,7 +4627,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "citicsec-fixed-income-hft-dev",
@@ -4547,7 +4654,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "citicsec-ai-quant-fintech",
@@ -4573,7 +4681,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "cicc-quant-research-otc",
@@ -4599,7 +4708,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "cicc-derivative-quant",
@@ -4625,7 +4735,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "huataisec-quant-trading",
@@ -4651,7 +4762,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "huataisec-derivative-strategy",
@@ -4677,7 +4789,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "huataisec-ficc-fineng",
@@ -4703,7 +4816,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "huataisec-strategy-dev",
@@ -4729,7 +4843,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "gtht-otc-quant-dev",
@@ -4755,7 +4870,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "gtht-q-quant",
@@ -4781,7 +4897,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "gtht-derivative-invest",
@@ -4807,7 +4924,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "csc-fintech-quant-dev",
@@ -4833,7 +4951,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "cmssec-am-quant-invest",
@@ -4859,7 +4978,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "cmssec-derivative-market-quant",
@@ -4885,7 +5005,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "cmssec-otc-quant-research",
@@ -4911,7 +5032,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "gfsec-quant-dev",
@@ -4953,7 +5075,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "gfsec-ficc-research",
@@ -4995,7 +5118,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "gfsec-derivative-risk",
@@ -5037,7 +5161,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "gfsec-fintech-algo",
@@ -5079,7 +5204,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "swhysc-quant-invest",
@@ -5105,7 +5231,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "swhysc-derivative-quant-dev",
@@ -5131,7 +5258,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "swhysc-finmodel-mgmt",
@@ -5157,7 +5285,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "swhysc-rate-invest",
@@ -5183,7 +5312,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "dfzq-market-quant-dev",
@@ -5209,7 +5339,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "dfzq-financial-derivative-quant",
@@ -5235,7 +5366,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "dfzq-otc-pricing-hedge",
@@ -5261,7 +5393,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "xyzq-fixed-income-quant",
@@ -5287,7 +5420,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "xyzq-fixed-income-plus-quant-pm",
@@ -5313,7 +5447,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "xyzq-hft-rate-trader",
@@ -5339,7 +5474,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "xyzq-quant-research-assistant",
@@ -5365,7 +5501,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "chinastock-multi-asset-quant",
@@ -5391,7 +5528,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "chinastock-quant-trading",
@@ -5417,7 +5555,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "chinastock-otc-derivatives-ficc",
@@ -5443,7 +5582,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "ebscn-quant-strategy-dev",
@@ -5469,7 +5609,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "ebscn-qis-strategy",
@@ -5495,7 +5636,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "social"
   },
   {
     "id": "ebscn-proprietary-derivative",
@@ -5521,7 +5663,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "unknown"
   },
   {
     "id": "gfam-quant-researcher",
@@ -5564,7 +5707,8 @@
     ],
     "notes": "广发资管官网（gfam.com.cn）为 JS 应用，未见招聘内容；Boss 直聘账号处于 code=36 风控期。薪资未核实，以面议为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "gfam-fixed-income-trader",
@@ -5606,7 +5750,8 @@
       }
     ],
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "zhongtaisec-quant-researcher",
@@ -5657,7 +5802,8 @@
     ],
     "notes": "中泰官方招聘网站 zts.hotjob.cn 为 JS 渲染，具体岗位明细需登录手动查看；薪资未核实，以面议为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "zhongtaisec-quant-dev",
@@ -5708,7 +5854,8 @@
     ],
     "notes": "中泰官方招聘网站 zts.hotjob.cn 为 JS 渲染，具体岗位明细需登录手动查看；薪资未核实，以面议为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "zhongtaisec-investment-research",
@@ -5751,7 +5898,8 @@
     ],
     "notes": "中泰官方招聘网站 zts.hotjob.cn 为 JS 渲染，具体岗位明细需登录手动查看；薪资未核实，以面议为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "zhongtaisec-am-quant",
@@ -5802,7 +5950,8 @@
     ],
     "notes": "中泰官方招聘网站 zts.hotjob.cn 为 JS 渲染，具体岗位明细需登录手动查看；薪资未核实，以面议为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "guoxinsec-options-strategy",
@@ -5845,7 +5994,8 @@
     ],
     "notes": "guosen.zhiye.com 为 JS 渲染，岗位明细需手动查看；2027 届秋招启动情况待官方确认；薪资未核实，以面议为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "guoxinsec-options-trader",
@@ -5888,7 +6038,8 @@
     ],
     "notes": "guosen.zhiye.com 为 JS 渲染，岗位明细需手动查看；2027 届秋招启动情况待官方确认；薪资未核实，以面议为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "guoxinsec-prime-broker",
@@ -5939,7 +6090,8 @@
     ],
     "notes": "guosen.zhiye.com 为 JS 渲染，岗位明细需手动查看；2027 届秋招启动情况待官方确认；薪资未核实，以面议为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "guoxinsec-derivatives-intern",
@@ -5982,7 +6134,8 @@
     ],
     "notes": "guosen.zhiye.com 为 JS 渲染，岗位明细需手动查看；2027 届秋招启动情况待官方确认；薪资未核实，以面议为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "guojinsec-quant-research-llm",
@@ -6041,7 +6194,8 @@
     ],
     "notes": "岗位职责/要求来自第三方汇总页（WonderCV）转发的官方岗位，未核实到官方原文；薪资未披露，按面议处理。投递前请以 gjzq.zhiye.com 官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "guojinsec-derivatives-intern-equity",
@@ -6092,7 +6246,8 @@
     ],
     "notes": "岗位为第三方平台（实习僧）发布的官方岗位信息；薪资为实习僧平台标注（100-150元/天），未经官方核实，按面议处理。投递前请以 gjzq.zhiye.com 官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "guojinsec-quant-risk-model",
@@ -6143,7 +6298,8 @@
     ],
     "notes": "岗位职责/要求来自第三方汇总页（WonderCV）转发的官方岗位，未核实到官方原文；薪资未披露，按面议处理。投递前请以 gjzq.zhiye.com 官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "changjiangsec-quant-intern",
@@ -6194,7 +6350,8 @@
     ],
     "notes": "该岗位为长江证券通过实习僧平台发布的暑期实习（第三方平台，非官网直接发布），薪资未披露、按面议处理；实习僧页面标注『当前职位已下线』，投递前请以 cjzq.zhiye.com 官网或公众号『长江证券招聘』为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "changjiangsec-derivatives-risk-intern",
@@ -6237,7 +6394,8 @@
     ],
     "notes": "该岗位为长江证券通过实习僧平台发布的暑期实习（第三方平台，非官网直接发布），薪资未披露、按面议处理；实习僧页面标注『当前职位已下线』，投递前请以 cjzq.zhiye.com 官网或公众号『长江证券招聘』为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "changjiangsec-institute-quant-fineng",
@@ -6288,7 +6446,8 @@
     ],
     "notes": "岗位信息来自第三方汇总页（WonderCV）转发的官方研究所公告；薪资未披露，按面议处理。投递前请以 cjzq.zhiye.com 官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "guotai-investment-trainee",
@@ -6355,7 +6514,8 @@
     ],
     "notes": "薪资未官方确认，填“示例：面议”。第三方渠道曾提及投研管培生年薪约20-35万，未经官方核实，仅供参考。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "guotai-quant-researcher-summer",
@@ -6406,7 +6566,8 @@
     ],
     "notes": "该岗位为暑期实习留用通道，非独立秋招岗位；薪资未确认，填“示例：面议”。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "penghua-assistant-quant-researcher",
@@ -6457,7 +6618,8 @@
     ],
     "notes": "薪资未官方确认，填“示例：面议”。招聘对象以硕士及以上应届研究生为主（公开报道，未核实）。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "penghua-quant-assistant",
@@ -6508,7 +6670,8 @@
     ],
     "notes": "薪资未官方确认，填“示例：面议”。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "penghua-fintech-engineer",
@@ -6559,7 +6722,8 @@
     ],
     "notes": "薪资未官方确认，填“示例：面议”。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "penghua-ml-developer",
@@ -6610,7 +6774,8 @@
     ],
     "notes": "薪资未官方确认，填“示例：面议”。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "penghua-data-analyst",
@@ -6661,7 +6826,8 @@
     ],
     "notes": "薪资未官方确认，填“示例：面议”。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "penghua-fund-researcher-fof",
@@ -6712,7 +6878,8 @@
     ],
     "notes": "薪资未官方确认，填“示例：面议”。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "ccbfund-quant-researcher",
@@ -6763,7 +6930,8 @@
     ],
     "notes": "薪资未查到官方确认值，按'示例：面议'占位。该岗位为2026届校招，非2027届/2026秋招。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "ccbfund-fintech-dev",
@@ -6814,7 +6982,8 @@
     ],
     "notes": "薪资未查到官方确认值，按'示例：面议'占位。该岗位为2026届校招，非2027届/2026秋招。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "ccbfund-tech-talent",
@@ -6865,7 +7034,8 @@
     ],
     "notes": "薪资未查到官方确认值，按'示例：面议'占位。该岗位为2026届春季校招，非2027届/2026秋招。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "yinhua-assistant-industry-researcher",
@@ -6924,7 +7094,8 @@
     ],
     "notes": "薪资15000-20000元/月来自第三方校招平台（牛企直聘），未经官方核实，已标注。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "yinhua-macro-rate-researcher",
@@ -6975,7 +7146,8 @@
     ],
     "notes": "薪资未查到官方确认值，按'示例：面议'占位。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "yinhua-credit-researcher",
@@ -7026,7 +7198,8 @@
     ],
     "notes": "薪资未查到官方确认值，按'示例：面议'占位。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "yinhua-trading-compliance-dev",
@@ -7077,7 +7250,8 @@
     ],
     "notes": "薪资未查到官方确认值，按'示例：面议'占位。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "gtjafutures-quant-strategy-researcher-2027",
@@ -7128,7 +7302,8 @@
     ],
     "notes": "薪资未披露（面议）；金衍新星计划（2026届，另一计划）宣传称'SSP薪资+六险二金'，仅供参考、未核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "gtjafutures-quant-dev-engineer-2027",
@@ -7179,7 +7354,8 @@
     ],
     "notes": "薪资未披露（面议）。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "gtjafutures-quant-trader-2027",
@@ -7230,7 +7406,8 @@
     ],
     "notes": "薪资未披露（面议）。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "gtjafutures-ml-engineer-2027",
@@ -7281,7 +7458,8 @@
     ],
     "notes": "薪资未披露（面议）。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "citicfutures-fixed-income-quant-research",
@@ -7332,7 +7510,8 @@
     ],
     "notes": "薪酬'10000元以上/月'来自高校就业网转载，第三方口径，未经官方核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "citicfutures-quant-strategy",
@@ -7383,7 +7562,8 @@
     ],
     "notes": "薪酬'10000元以上/月'来自高校就业网转载，第三方口径，未经官方核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "citicfutures-quant-trading",
@@ -7434,7 +7614,8 @@
     ],
     "notes": "薪酬'10000元以上/月'来自高校就业网转载，第三方口径，未经官方核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "citicfutures-derivatives-risk",
@@ -7485,7 +7666,8 @@
     ],
     "notes": "薪酬'10000元以上/月'来自高校就业网转载，第三方口径，未经官方核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "yonganfutures-quant-researcher-2026",
@@ -7544,7 +7726,8 @@
     ],
     "notes": "『黄埔联盟』项目信息来自高校就业网及第三方招聘站转载（报名已于2026-06-26截止，面向2027届）；薪资无官方信息，标注为面议。2026秋招是否开启未获官方确认。投递邮箱 hplm@yafco.com 与联系电话为第三方转载，未经官网核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "yonganfutures-commodity-analyst-2026",
@@ -7595,7 +7778,8 @@
     ],
     "notes": "分析师岗位为『黄埔联盟』项目培养方向之一（第三方招聘站/高校就业网转载确认）；薪资无官方信息，标注为面议。2026秋招是否开启未获官方确认。投递邮箱 hplm@yafco.com 为第三方转载，未经官网核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "yonganfutures-futures-arbitrage-2026",
@@ -7646,7 +7830,8 @@
     ],
     "notes": "期现经理为『黄埔联盟』项目培养方向之一（第三方招聘站/高校就业网转载确认），属大宗商品期现/套保业务方向；薪资无官方信息，标注为面议。2026秋招是否开启未获官方确认。投递邮箱 hplm@yafco.com 为第三方转载，未经官网核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "galaxyfutures-quant-researcher-2026",
@@ -7705,7 +7890,8 @@
     ],
     "notes": "量化研究岗信息来自第三方招聘渠道（51jrq/猎聘），未经官方核实；薪资10-20K/月为猎聘第三方数据，标注为估计值。2026秋招是否开启未获官方确认。投递邮箱 yhqhzp@163.com 为第三方转载，未经官网核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "galaxyfutures-quant-trader-derui-2026",
@@ -7756,7 +7942,8 @@
     ],
     "notes": "量化交易员岗位信息来自应届生求职网转载（招聘主体为银河期货全资风险管理子公司银河德睿资本，上海）；薪资无官方信息，标注为面议。2026秋招是否开启未获官方确认。applyUrl 为占位符，实际投递入口需手动确认 [TODO]。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "galaxyfutures-fintech-ai-2026",
@@ -7807,7 +7994,8 @@
     ],
     "notes": "信息技术/AI产品经理岗位信息来自第三方聚合站（牛企直聘）转载，未经官方核实；薪资18万/年为第三方数据，标注为估计值。2026秋招是否开启未获官方确认。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "cofcofutures-options-quant-analyst-2026",
@@ -7850,7 +8038,8 @@
     ],
     "notes": "岗位信息来自第三方平台转载的中粮期货官方公众号公告（2026春季校招，网申2026-03-30启动），标注为第三方、未经官方原文核实。薪资官方仅表述'具有市场竞争力的薪酬包'，未公布具体数字；第三方（小红书）流传平均月薪约12.3k-19.5k，未经官方核实，故 salary 记面议。投递入口为官方网申页 http://campus.51job.com/cofco（中粮集团2026届校园招聘，最多三个平行志愿）。autumn2026 未获官方秋招公告证据。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "cofcofutures-research-2026",
@@ -7893,7 +8082,8 @@
     ],
     "notes": "岗位信息来自第三方平台转载的中粮期货官方公众号公告（2026春季校招），标注为第三方、未经官方原文核实。薪资官方仅表述'具有市场竞争力的薪酬包'，具体数字未公布，salary 记面议。投递入口为官方网申页 http://campus.51job.com/cofco。autumn2026 未获官方秋招公告证据。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "cofcofutures-otc-derivatives-trader-2026",
@@ -7936,7 +8126,8 @@
     ],
     "notes": "岗位信息来自第三方平台转载的中粮期货官方公众号公告（2026春季校招），标注为第三方、未经官方原文核实。薪资官方仅表述'具有市场竞争力的薪酬包'，具体数字未公布，salary 记面议。投递入口为官方网申页 http://campus.51job.com/cofco。autumn2026 未获官方秋招公告证据。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "cofcofutures-trading-execution-2026",
@@ -7979,7 +8170,8 @@
     ],
     "notes": "岗位信息来自第三方平台转载的中粮期货官方公众号公告（2026春季校招），标注为第三方、未经官方原文核实。薪资官方仅表述'具有市场竞争力的薪酬包'，具体数字未公布，salary 记面议。投递入口为官方网申页 http://campus.51job.com/cofco。autumn2026 未获官方秋招公告证据。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "cscfutures-quant-researcher-2026",
@@ -8014,7 +8206,8 @@
     ],
     "notes": "占位条目（未核实）：本岗位未确认开放，标题为期货公司量化方向典型岗位模板，需手动打开 cfc108.zhiye.com 招聘平台确认实际空缺、职责、要求与批次。薪资未确认。autumn2026 未获官方证据。公司官网 https://www.cfc108.com 经官网'防范假冒网站声明'核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "cscfutures-derivatives-risk-2026",
@@ -8049,7 +8242,8 @@
     ],
     "notes": "占位条目（未核实）：本岗位未确认开放，标题为期货公司衍生品风控方向典型岗位模板，需手动打开 cfc108.zhiye.com 招聘平台确认实际空缺、职责、要求与批次。薪资未确认。autumn2026 未获官方证据。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "cscfutures-fintech-dev-2026",
@@ -8084,7 +8278,8 @@
     ],
     "notes": "占位条目（未核实）：本岗位未确认开放，标题为期货公司金融科技方向典型岗位模板，需手动打开 cfc108.zhiye.com 招聘平台确认实际空缺、职责、要求与批次。薪资未确认。autumn2026 未获官方证据。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "campus"
   },
   {
     "id": "qilin-boss-quant-research-intern-2026",
@@ -8111,7 +8306,8 @@
     ],
     "notes": "数据来自Boss直聘实时搜索（boss-agent-cli，2026-08-09），薪资未经官方核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "recruitmentType": "intern"
   },
   {
     "id": "lingjun-quant-researcher-bj",
@@ -8138,7 +8334,8 @@
     ],
     "notes": "薪资 50-70K 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "minghong-quant-dev-intern",
@@ -8165,7 +8362,8 @@
     ],
     "notes": "薪资 400-500元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "minghong-quant-research-intern-bj",
@@ -8192,7 +8390,8 @@
     ],
     "notes": "薪资 450-500元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "qilin-boss-quant-trader-2026",
@@ -8219,7 +8418,8 @@
     ],
     "notes": "薪资 12-20K 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "yinnuo-boss-quant-research-intern-2026",
@@ -8246,7 +8446,8 @@
     ],
     "notes": "薪资 300-600元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "qianshuo-quant-research-intern",
@@ -8273,7 +8474,8 @@
     ],
     "notes": "薪资 600-1000元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "pansong-quant-research-intern",
@@ -8300,7 +8502,8 @@
     ],
     "notes": "薪资 200-400元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "maoyuan-quant-research-intern",
@@ -8327,7 +8530,8 @@
     ],
     "notes": "薪资 790-800元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。同岗在京/深/沪三城挂出，本条目以沪为applyUrl。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "jiaqi-quant-dev-intern",
@@ -8354,7 +8558,8 @@
     ],
     "notes": "薪资 1000-2000元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。同岗在京/沪双城挂出，本条目以沪为applyUrl。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "wanyan-quant-dev-intern",
@@ -8381,7 +8586,8 @@
     ],
     "notes": "薪资 1000-2000元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "jiurun-quant-research-intern",
@@ -8408,7 +8614,8 @@
     ],
     "notes": "薪资 200-400元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。公司规模小、以主观/多头为主，量化属性请核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "jim-quant-researcher",
@@ -8435,7 +8642,8 @@
     ],
     "notes": "薪资 15-30K 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "debei-quant-research-intern",
@@ -8462,7 +8670,8 @@
     ],
     "notes": "薪资 300-400元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "taiyan-quant-strategy-researcher-intern",
@@ -8489,7 +8698,8 @@
     ],
     "notes": "薪资 50-80K 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "taiyan-quant-intern",
@@ -8516,7 +8726,8 @@
     ],
     "notes": "薪资 1000-2000元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "peibang-quant-dev-intern",
@@ -8543,7 +8754,8 @@
     ],
     "notes": "薪资 200-230元/天 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "liangkui-QuantDevelop",
@@ -8570,7 +8782,8 @@
     ],
     "notes": "薪资 25-50K·13薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "taigeyinghua-量化研究员",
@@ -8597,7 +8810,8 @@
     ],
     "notes": "薪资 350-500元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "taigeyinghua-量化交易员",
@@ -8624,7 +8838,8 @@
     ],
     "notes": "薪资 20-40K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "jiuqi-CTA量化实习生",
@@ -8651,7 +8866,8 @@
     ],
     "notes": "薪资 240-480元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "metabit-量化研究员全职实习",
@@ -8678,7 +8894,8 @@
     ],
     "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "metabit-量化研究员全职实习-2",
@@ -8705,7 +8922,8 @@
     ],
     "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "guangyiwangda-量化开发实习生",
@@ -8732,7 +8950,8 @@
     ],
     "notes": "薪资 300-500元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "lingxing-量化投资研究实习岗在读",
@@ -8759,7 +8978,8 @@
     ],
     "notes": "薪资 1-6K·14薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "fande-量化研究员",
@@ -8786,7 +9006,8 @@
     ],
     "notes": "薪资 30-50K·15薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "jinhualun-量化开发工程师C",
@@ -8813,7 +9034,8 @@
     ],
     "notes": "薪资 400-800元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "lianhai-期货CTA策略量化研究员",
@@ -8840,7 +9062,8 @@
     ],
     "notes": "薪资 260-350元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "linggan-量化基金经理",
@@ -8867,7 +9090,8 @@
     ],
     "notes": "薪资 80-85K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "linggan-量化基金经理-2",
@@ -8894,7 +9118,8 @@
     ],
     "notes": "薪资 80-85K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "lianghua-量化基金经理",
@@ -8921,7 +9146,8 @@
     ],
     "notes": "薪资 30-60K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "banyang-量化研究员实习生A190",
@@ -8948,7 +9174,8 @@
     ],
     "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "boyi-量化开发助理",
@@ -8975,7 +9202,8 @@
     ],
     "notes": "薪资 500-1000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "bopu-量化开发工程师",
@@ -9002,7 +9230,8 @@
     ],
     "notes": "薪资 400-800元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "nailao-量化策略研究员",
@@ -9029,7 +9258,8 @@
     ],
     "notes": "薪资 150-200元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "yusi-量化分析师实习生",
@@ -9056,7 +9286,8 @@
     ],
     "notes": "薪资 350-500元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "hongyuan-量化交易项目经理助理",
@@ -9083,7 +9314,8 @@
     ],
     "notes": "薪资 100-150元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "jushi-量化研究员",
@@ -9110,7 +9342,8 @@
     ],
     "notes": "薪资 80-130元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "shixin-AI量化研究平台资深工程",
@@ -9137,7 +9370,8 @@
     ],
     "notes": "薪资 40-70K·16薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "minghu-量化研究员校招实习留用",
@@ -9164,7 +9398,8 @@
     ],
     "notes": "薪资 30-60K·18薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "minghu-量化研究实习生",
@@ -9191,7 +9426,8 @@
     ],
     "notes": "薪资 800-1600元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "shenxuan-量化开发工程师Quant",
@@ -9218,7 +9454,8 @@
     ],
     "notes": "薪资 19-20K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "shenxuan-量化开发工程师Quant-2",
@@ -9245,7 +9482,8 @@
     ],
     "notes": "薪资 19-20K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "yuanxi-量化研究员",
@@ -9272,7 +9510,8 @@
     ],
     "notes": "薪资 20-40K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "tianji-EA量化研究员",
@@ -9299,7 +9538,8 @@
     ],
     "notes": "薪资 4-9K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "higgs-股票量化研究员",
@@ -9326,7 +9566,8 @@
     ],
     "notes": "薪资 700-1400元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "higgs-股票量化研究员-2",
@@ -9353,7 +9594,8 @@
     ],
     "notes": "薪资 700-1400元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "liangbu-量化开发工程师",
@@ -9380,7 +9622,8 @@
     ],
     "notes": "薪资 15-30K·13薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "zhengding-量化研究员实习生暑期实习",
@@ -9407,7 +9650,8 @@
     ],
     "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "huika-量化研究实习生",
@@ -9434,7 +9678,8 @@
     ],
     "notes": "薪资 19-20K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "shengfeng-QuantDevelop",
@@ -9461,7 +9706,8 @@
     ],
     "notes": "薪资 300-600元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "xiangyuan-股票量化研究员",
@@ -9488,7 +9734,8 @@
     ],
     "notes": "薪资 10-15K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "aifanzhe-量化开发工程师Quant",
@@ -9515,7 +9762,8 @@
     ],
     "notes": "薪资 25-40K·15薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "aifanzhe-量化开发工程师Quant-2",
@@ -9542,7 +9790,8 @@
     ],
     "notes": "薪资 25-40K·15薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "ruixin-python量化开发",
@@ -9569,7 +9818,8 @@
     ],
     "notes": "薪资 15-30K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "hongqiang-量化开发实习生",
@@ -9596,7 +9846,8 @@
     ],
     "notes": "薪资 600-1000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "jukuan-量化开发实习生",
@@ -9623,7 +9874,8 @@
     ],
     "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "jukuan-量化开发实习生-2",
@@ -9650,7 +9902,8 @@
     ],
     "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "jukuan-量化策略实习生",
@@ -9677,7 +9930,8 @@
     ],
     "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "yuewei-量化策略研究员AIAge",
@@ -9704,7 +9958,8 @@
     ],
     "notes": "薪资 300-600元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "yuanhe-量化开发实习生",
@@ -9731,7 +9986,8 @@
     ],
     "notes": "薪资 600-800元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "yuanhe-量化开发实习生-2",
@@ -9758,7 +10014,8 @@
     ],
     "notes": "薪资 600-800元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "lianghan-量化研究员",
@@ -9785,7 +10042,8 @@
     ],
     "notes": "薪资 800-1000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "mingjia-量化模型研究员校招",
@@ -9812,7 +10070,8 @@
     ],
     "notes": "薪资 20-25K·18薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "feitu-量化开发实习生",
@@ -9839,7 +10098,8 @@
     ],
     "notes": "薪资 300-400元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "feitu-量化开发实习生-2",
@@ -9866,7 +10126,8 @@
     ],
     "notes": "薪资 300-400元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "feitu-量化策略实习生",
@@ -9893,7 +10154,8 @@
     ],
     "notes": "薪资 400-500元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "feima-初级量化分析员",
@@ -9920,7 +10182,8 @@
     ],
     "notes": "薪资 15-30K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "gaota-量化开发工程师C",
@@ -9947,7 +10210,8 @@
     ],
     "notes": "薪资 800-1000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "gaota-量化开发工程师C-2",
@@ -9974,7 +10238,8 @@
     ],
     "notes": "薪资 800-1000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "jingchi-初级量化研究员",
@@ -10001,7 +10266,8 @@
     ],
     "notes": "薪资 40-70K·14薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "jingchi-Rust量化工程师Qua",
@@ -10028,7 +10294,8 @@
     ],
     "notes": "薪资 30-60K·14薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "campus"
   },
   {
     "id": "mingyu-量化研究员实习表现优秀可",
@@ -10055,7 +10322,8 @@
     ],
     "notes": "薪资 150-200元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "pengbo-量化研究员实习生",
@@ -10082,7 +10350,8 @@
     ],
     "notes": "薪资 500-1000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   },
   {
     "id": "pengfu-量化投研实习生",
@@ -10109,6 +10378,7 @@
     ],
     "notes": "薪资 700-1200元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-08-11",
+    "recruitmentType": "intern"
   }
 ]

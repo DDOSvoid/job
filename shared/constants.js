@@ -47,6 +47,16 @@ export const AUTUMN_STATUS_LABELS = {
   unknown: '待确认',
 }
 
+// 岗位招聘类型：校招 / 社招 / 实习；unknown 为无信号兜底
+export const RECRUITMENT_TYPES = ['campus', 'social', 'intern', 'unknown']
+
+export const RECRUITMENT_TYPE_LABELS = {
+  campus: '校招',
+  social: '社招',
+  intern: '实习',
+  unknown: '未知',
+}
+
 export const APPLICATION_STAGES = [
   'interested',
   'applied',

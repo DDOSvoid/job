@@ -12,6 +12,7 @@ import {
   AutumnBadge,
   CompanyTypeBadge,
   FetchBadge,
+  RecruitmentTypeBadge,
   SourceBadge,
   SourceTypeBadge,
   StageBadge,
@@ -87,6 +88,7 @@ export default function JobDetailPage() {
           </>
         )}
         <AutumnBadge status={job.autumn2026} />
+        <RecruitmentTypeBadge recruitmentType={job.recruitmentType} />
         <FetchBadge status={job.fetchStatus} />
       </div>
 

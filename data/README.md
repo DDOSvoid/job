@@ -43,6 +43,7 @@
   "officialUrl": "https://example.com/highflyer-careers",
   "autumn2026": "unknown",
   "autumn2026Note": "示例占位，未核实",
+  "recruitmentType": "unknown",
   "source": "manual",
   "fetchStatus": "manual_required",
   "sources": [
@@ -61,7 +62,8 @@
 }
 ```
 
-- `autumn2026`: `open`（秋招已开启）| `not_started` | `ended` | `unknown`（待确认）
+- `autumn2026`: `open`（秋招已开启）| `not_started` | `ended` | `unknown`（待确认）——**秋招窗口状态**，不等同于招聘类型
+- `recruitmentType`: `campus`（校招）| `social`（社招）| `intern`（实习）| `unknown`（未知）——岗位招聘类型，由岗位自身文本关键词判定，无信号如实标 `unknown`
 - `fetchStatus`: `complete`（已抓取完整）| `partial`（部分抓取）| `manual_required`（需手动确认）
 - `salaryIsEstimate: true` 时 `salary` 必须以"示例"开头，界面会加黄标。
 - `sources[]` 是证据链，每条含来源类型、URL、抓取状态（`status` 可为 `complete`/`partial`/`manual_required`/`blocked`）与说明。**未核实的信息必须如实标注，禁止编造。**
