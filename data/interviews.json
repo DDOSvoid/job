@@ -1257,5 +1257,593 @@
     "notes": "CSDN博客正文已完整读取。正文未注明面试年份（博客较老，约2013年前后），rounds.date 留空。岗位为金融工程，面试官提到「高性能计算」，接近量化开发方向。作者自述结果不理想但未确认被拒。",
     "createdAt": "2026-08-09",
     "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "ubiquant-algorithm-xhs-interview",
+    "companyId": "ubiquant",
+    "jobTitle": "算法研究员（计算机视觉/大模型 Agent 方向）",
+    "rounds": [
+      {
+        "name": "一面",
+        "date": "2025-12-04",
+        "content": "约 45 分钟。时间线：12.3 HR 联系，12.4 一面。环节：1）介绍团队工作；2）自我介绍、挖简历、介绍项目实习；3）Agent 有哪些常用技术；4）Agent 框架方面；5）RL 方面；6）大模型 decoder-only 方面；7）Agent 在金融量化领域应用；8）反问。"
+      }
+    ],
+    "summary": "算法岗一面约 45 分钟，围绕 Agent 常用技术、Agent 框架、强化学习（RL）、大模型 decoder-only、Agent 在量化金融的应用展开，另有自我介绍/挖简历/团队介绍与反问。发帖人自嘲“面试官感觉好累”、称“应要求修改只写了大概”，题目为大纲级别。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/6931bf49000000000d03a2cd?xsec_token=ABVQBoRxwlhUNA8c_ahglohxPQ_uxkWPEmlQIJdG3vcIw%3D&xsec_source=pc_search",
+    "sourceTitle": "ubiquant算法面经",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态）；发帖人自述，未经公司核验。面试结果未明示。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "ubiquant-ai-infra-round1-xhs-interview",
+    "companyId": "ubiquant",
+    "jobTitle": "量化开发（AI Infra，日常实习）",
+    "rounds": [
+      {
+        "name": "一面",
+        "date": "2026-01",
+        "content": "自我介绍 → 对着项目深挖，面试官让打开代码逐行看，重点问 GEMM（矩阵乘法）/ GEMV（矩阵向量乘法）算子怎么优化；Profiling：除了检测运行时间还用过什么分析工具（作者答 Nsight Systems 看时间线，面试官指出应深入分析 MF（显存吞吐）与 UR（利用率）等核心指标，判断卡在计算还是访存，建议研究 CUTLASS 库或代码生成工具）；手撕 GEMM 的 Naive 版本与 Shared Memory 版本，并解释如何通过 Shared Memory 减少 Global Memory 访问进行优化。"
+      }
+    ],
+    "summary": "AI Infra 日常实习一面，偏 HPC/CUDA：项目逐行代码深挖（GEMM/GEMV 算子优化）、Profiling 方法追问（Nsight Systems 与 MF/UR 指标、CUTLASS/代码生成建议）、手撕 GEMM（Naive + Shared Memory 两版）。发帖人称“面得心力交瘁”“看到自己和顶级量化要求的差距”，一面后不再继续。",
+    "result": "unknown",
+    "difficulty": "hard",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/697add41000000002202e2e3?xsec_token=ABlpbpM_BIX0leoFTRHwj5lkdmHzssmf8BE3Ogdd0poMA%3D&xsec_source=pc_search",
+    "sourceTitle": "[日常实习] AI infra九坤量化 一面复盘",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态）；发帖人自述，未经公司核验。难度为发帖人自评（头部量化要求高）。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "ubiquant-ai-infra-round3-xhs-interview",
+    "companyId": "ubiquant",
+    "jobTitle": "量化开发（AI Infra，日常实习）",
+    "rounds": [
+      {
+        "name": "三面",
+        "date": "2026-02",
+        "content": "自我介绍 → 动态量化和静态量化的区别；对算子融合（Operator Fusion）的理解、为什么要融合、底层怎么实现；CUDA 底层概念：Bank Conflict（存储体冲突）与 Shared Memory，为什么产生冲突、怎么消除；代码 Review：打开工程挑一个前向传播函数，问里面的 Slicing（切片）操作怎么做、会不会增加显存负担，并现场找该切片在 PyTorch 底层对应的 C++ 实现文件（面试官允许用 AI 或搜索引擎）；回顾二面留的小项目作业，用 Nsight Compute（NCU）对着图表逐项问，指出分析中的错误，教怎么看 Memory Frequency 与利用率；难题：Attention 的 K/Q/V 为什么主流做法是融合成一个大矩阵计算、而不是开三个 CUDA Stream 并行计算（作者答 Memory Bound 显存带宽瓶颈，面试官说方向对但还有其他因素）；反问。面试官建议学 DSL 与 Triton、多读 PyTorch 和 CUDA 源码文档及 profiling 工具的 guidebook。"
+      }
+    ],
+    "summary": "AI Infra 日常实习三面（发帖人称“体验最好的一场”“像上高质量技术课”）：动态/静态量化、算子融合、CUDA Bank Conflict 与 Shared Memory、前向函数 Slicing 代码 Review（定位 PyTorch 底层 C++ 实现）、Nsight Compute 二面作业复盘、Attention KQV 融合 vs 三个 CUDA Stream 的显存带宽问题。",
+    "result": "unknown",
+    "difficulty": "hard",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/69844ce60000000022022dbd?xsec_token=ABly20pDMMtMsOsMPOrhHJ3R9HX3UQkIdqGjsJX6fJaM4%3D&xsec_source=pc_search",
+    "sourceTitle": "[日常实习] 九坤量化 ai infra 三面复盘",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态）；二面留有项目作业（二面过程未见单独发帖）；结果未明示。发帖人自述，未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "ubiquant-quant-research-prep-xhs-interview",
+    "companyId": "ubiquant",
+    "jobTitle": "量化研究（准备帖）",
+    "rounds": [
+      {
+        "name": "准备题示例",
+        "content": "第1题｜九坤投资的核心投资策略是什么？和同类量化私募有什么差异？答题框架（策略解构法）：核心策略类型（统计套利/高频/中频/基本面量化）、技术特点（数据源、模型架构、交易执行）、策略容量和竞争优势、九坤的差异化在哪里。作者给出“60分回答”示例：听说九坤投资主要做量化策略，用的是机器学习模型，收益还不错。"
+      }
+    ],
+    "summary": "博主整理的九坤量化研究部面试准备帖（2026 校招季），以“核心投资策略”模拟题 + 策略解构法答题框架为主，非真实面试轮次记录。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/6a5067f20000000017028e2d?xsec_token=ABBag9lHZ_igAxSSWb8iDrW7NqlVcfsfLvIk-BO57DwJU%3D&xsec_source=pc_search",
+    "sourceTitle": "九坤投资｜量化研究部｜面经分享",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "partial",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态），但属博主备考/模拟题帖，非求职者第一视角轮次记录；仅展示第 1 题与答题框架。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "ubiquant-risk-round1-xhs-interview",
+    "companyId": "ubiquant",
+    "jobTitle": "量化风险（岗位名未明示）",
+    "rounds": [
+      {
+        "name": "一面",
+        "date": "2025-05",
+        "content": "发帖人称收到九坤量化风险岗面试，“好像是一个小时 coding”；具体题目未公开（帖中称“需要面经或笔经可私聊”）。"
+      }
+    ],
+    "summary": "九坤量化风险一面：约 1 小时 coding；发帖人在帖中仅给出“蹲面筋”的框架，正文无题目细节，面经需私聊获取。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/681c0fbd0000000021005e59?xsec_token=ABjuLJTAw2nhaKJVC4plglxcA2MiENum4tm9Bkm38SYtk%3D&xsec_source=pc_search",
+    "sourceTitle": "九坤量化风险一面",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "partial",
+    "notes": "小红书正文完整读到但内容极少（约 1 小时 coding，无题目细节，面经需私聊）；属发帖人引流帖。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "highflyer-dev-4questions-xhs-interview",
+    "companyId": "highflyer",
+    "jobTitle": "量化开发",
+    "rounds": [
+      {
+        "name": "面试题（概率统计+智力题）",
+        "date": "2024-04",
+        "content": "博主整理的自称幻方量化开发考过的 4 道概率统计和 Brain Teaser 题：1）麦当劳可订购 6、9、20 盒麦乐鸡块，求最大的不能通过上述任意组合凑出的数量；2）调酒师有三品脱与五品脱两个杯子，顾客点四品脱啤酒，无量杯但有无限量啤酒，如何量出四品脱；3）盒中两枚硬币（一枚两面都是正面、一枚一正一反），随机选一枚观察一面，若这一面是正面，另一面也是正面的概率；4）酒鬼站在长 (a+b) 米大桥上，距左端 a 米、距右端 b 米，每次以 1/2 概率随机向左或向右移动一米，走到任意一端结束，求左右两端下桥的概率与下桥所需期望移动次数。"
+      }
+    ],
+    "summary": "博主整理的幻方量化开发面试题 4 道（麦乐鸡块组合数、量杯量酒、双面硬币条件概率、酒鬼随机游走期望），覆盖概率统计与智力题。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/66250f22000000001c00af9e?xsec_token=ABWoR-LfX0S4HbjF2-vGIP5B5yiJUpatw0S4MCU644XnQ%3D&xsec_source=pc_search",
+    "sourceTitle": "幻方量化面试考了这四道题",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "partial",
+    "notes": "内容完整读到（xiaohongshu_cdp.py 用户登录态），但为求职咨询机构（职博咨询BroadCareer）整理的题单，非求职者第一视角轮次记录；题目归属“幻方量化开发”为博主转述。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "highflyer-strategy-prep-xhs-interview",
+    "companyId": "highflyer",
+    "jobTitle": "量化研究（策略研发部，准备帖）",
+    "rounds": [
+      {
+        "name": "准备题示例",
+        "content": "第1题｜幻方量化的核心投资策略是什么？和同类量化私募有什么差异？答题框架（策略解构法）：核心策略类型（统计套利/高频/中频/基本面量化）、技术特点（数据源、模型架构、交易执行）、策略容量和竞争优势、幻方量化的差异化在哪里。作者给出“60分回答”示例。"
+      }
+    ],
+    "summary": "博主整理的幻方量化策略研发部面试准备帖（2026 校招季），模拟题 + 策略解构法答题框架，非真实面试轮次记录。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/6a4f8551000000001102c18d?xsec_token=ABSlS3JLOCtc9NagZ0tn-oZwOtMrIRwvoSz3tQGhhyOh0%3D&xsec_source=pc_search",
+    "sourceTitle": "幻方量化｜策略研发部｜面经",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "partial",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态），但属博主备考/模拟题帖（与九坤量化研究部准备帖同模板），非求职者第一视角轮次记录。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "minghong-factor-intern-xhs-interview",
+    "companyId": "minghong",
+    "jobTitle": "量化研究实习生（美股因子方向，暑期时段日常实习）",
+    "rounds": [
+      {
+        "name": "简历面+因子头脑风暴",
+        "content": "无笔试。与面试官约在晚上，整体分两部分：简历面——主要对早期两段做中低频股票的实习经历感兴趣，作者介绍自己构建因子的一些见解，面试官未对因子的具体内容与构建方法深究；因子思路头脑风暴——面试官先假设拿到某字段的简单数据，然后带着作者一点一点搞出一个像样的因子，期间会给提示和指引，氛围轻松。"
+      }
+    ],
+    "summary": "明汯量化研究实习生（美股因子）面试：无笔试，简历面 + 因子思路头脑风暴，面试官耐心引导；作者最终拿到 offer，但因研究方向已从因子转向更对口的岗位而选择未去。",
+    "result": "offer",
+    "difficulty": "unknown",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/69cd405f000000001a02938b?xsec_token=AB32yNa1OeHLMnMO6r50dUkDp52kY2wYm_7KccgP3pTJk%3D&xsec_source=pc_search",
+    "sourceTitle": "量化实习｜笔面经历｜明汯投资",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态）；作者拿到 offer 但最终未去；帖声明“不会透露题目，仅分享流程”。面试具体日期未标注（帖 2026-04-01 发布，称“秋招即将结束”）。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "minghong-cpp-round1-xhs-interview",
+    "companyId": "minghong",
+    "jobTitle": "量化开发（C++）",
+    "rounds": [
+      {
+        "name": "一面",
+        "date": "2023-06",
+        "content": "发帖人自述明汯 C++ 一面“确实挺难”，但未在帖中展开题目细节。"
+      }
+    ],
+    "summary": "明汯 C++ 一面：发帖人仅表示“确实挺难”，未披露具体题目（帖标注春招）。",
+    "result": "unknown",
+    "difficulty": "hard",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/6481bf41000000000703bce1?xsec_token=ABuwbXnTcx5aplj_S2P47EpgmeFZxDzk-6aWyBOL97M_g%3D&xsec_source=pc_search",
+    "sourceTitle": "明汯投资 C++一面",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "partial",
+    "notes": "小红书正文完整读到但内容极少（仅“确实挺难”），无题目细节；难度为发帖人自评。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "kuande-zhihu-abingcbc-interview",
+    "companyId": "kuande",
+    "jobTitle": "量化开发（C++/Go 方向）",
+    "rounds": [
+      {
+        "name": "一面",
+        "date": "2023",
+        "content": "发帖人称第一次面量化，全程没做算法题，一面纯八股、二面纯场景题，问得特别深入，特别是二面面试官，感觉非常有水平（发帖人评价“想去”）。"
+      }
+    ],
+    "summary": "宽德投资量化开发首面（24届春秋招，Go/C++ 方向）：一面纯八股、二面纯场景题，问得深入，二面面试官水平高，发帖人评价正面。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "zhihu",
+    "sourceUrl": "https://zhuanlan.zhihu.com/p/614889396",
+    "sourceTitle": "漫漫找工路——24届春秋招实录",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "知乎专栏正文完整读到（zhihu_cdp.py 用户登录态）；为多公司面经帖中的宽德部分（中流985软工硕，方向 Go/C++）；具体题目未展开。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "yanfu-zhihu-abingcbc-interview",
+    "companyId": "yanfu",
+    "jobTitle": "量化开发（C++）",
+    "rounds": [
+      {
+        "name": "面试",
+        "date": "2023",
+        "content": "全程 C++ 八股，各种 modern C++ 的特性，问到怀疑人生；发帖人自评量化要求太高、想回互联网。"
+      }
+    ],
+    "summary": "衍复投资量化开发面试（24届秋招）：全程 C++ 八股，覆盖各种 modern C++ 特性，发帖人自评难度高。",
+    "result": "unknown",
+    "difficulty": "hard",
+    "source": "zhihu",
+    "sourceUrl": "https://zhuanlan.zhihu.com/p/614889396",
+    "sourceTitle": "漫漫找工路——24届春秋招实录",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "知乎专栏正文完整读到（zhihu_cdp.py 用户登录态）；为多公司面经帖中的衍复部分；具体八股题目未展开。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "ubiquant-zhihu-yegggg-interview",
+    "companyId": "ubiquant",
+    "jobTitle": "量化（岗位未明确）",
+    "rounds": [
+      {
+        "name": "一轮笔试",
+        "content": "测试编程：给了快照数据，按照文档要求推测出成交&撤单，以及其它微观结构的分析。"
+      },
+      {
+        "name": "二轮电面（tech）",
+        "content": "A、B、C 三个人依次在 0-100 选数字，之后随机一个点，离得近的人获胜，问 A 的策略，以及若 A 固定在 0，B 的策略；抛硬币，HTH 停下的期望。"
+      },
+      {
+        "name": "三轮 PM 面",
+        "content": "简历面，之后就没回信了。"
+      }
+    ],
+    "summary": "九坤（帖中以 JQ 代称）量化面试：一轮笔试考编程与微观结构分析（快照数据推测成交/撤单），二轮 tech 电面考策略博弈（0-100 选数字）与抛硬币停时概率，三轮 PM 简历面后无回信。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "zhihu",
+    "sourceUrl": "https://www.zhihu.com/question/602338724/answer/3039552360",
+    "sourceTitle": "去面试量化私募基金公司会被提问哪些问题呢？",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "知乎问答正文完整读到（zhihu_cdp.py 用户登录态）；为量化猎头Andy 引用的好友（@yegggg）面经，多公司帖中的九坤（JQ）部分；原文用 JQ 代称九坤。三轮 PM 面后无回信。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "yanfu-zhihu-yegggg-interview",
+    "companyId": "yanfu",
+    "jobTitle": "量化（岗位未明确）",
+    "rounds": [
+      {
+        "name": "一轮笔试",
+        "content": "概率统计 + 一些数学题，感觉没有特别难。"
+      },
+      {
+        "name": "二轮电面",
+        "content": "问了一些线性回归的问题，像 R 方在不同情景下的变化。"
+      }
+    ],
+    "summary": "衍复（帖中以 YF 代称）量化面试：一轮笔试概率统计+数学题（难度一般），二轮电面考线性回归（R 方不同情景下的变化）。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "zhihu",
+    "sourceUrl": "https://www.zhihu.com/question/602338724/answer/3039552360",
+    "sourceTitle": "去面试量化私募基金公司会被提问哪些问题呢？",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "知乎问答正文完整读到（zhihu_cdp.py 用户登录态）；为量化猎头Andy 引用的好友（@yegggg）面经，多公司帖中的衍复（YF）部分；原文用 YF 代称衍复。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "tianyan-zhihu-yegggg-interview",
+    "companyId": "tianyan",
+    "jobTitle": "量化（岗位未明确）",
+    "rounds": [
+      {
+        "name": "一轮现场",
+        "content": "根据简历问了一些机器学习的问题，试图问 BS 公式怎么推导，答不记得了。"
+      },
+      {
+        "name": "二轮笔试",
+        "content": "发了一些 T0 的 features 和股票价格，让预测一分钟的收益。"
+      }
+    ],
+    "summary": "天演（帖中以 TY 代称）量化面试：一轮现场面简历+机器学习，被问 BS 公式推导；二轮笔试给 T0 features 和股价预测一分钟收益。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "zhihu",
+    "sourceUrl": "https://www.zhihu.com/question/602338724/answer/3039552360",
+    "sourceTitle": "去面试量化私募基金公司会被提问哪些问题呢？",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "知乎问答正文完整读到（zhihu_cdp.py 用户登录态）；为量化猎头Andy 引用的好友（@yegggg）面经，多公司帖中的天演（TY）部分；原文用 TY 代称天演。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "qianxiang-zhihu-yegggg-interview",
+    "companyId": "qianxiang",
+    "jobTitle": "量化（岗位未明确）",
+    "rounds": [
+      {
+        "name": "现场两轮",
+        "content": "基本是了解简历，会问为什么不用其它方法处理特征。"
+      }
+    ],
+    "summary": "千象（帖中以 QX 代称）量化面试：现场两轮，以简历为主，追问特征处理的备选方法。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "zhihu",
+    "sourceUrl": "https://www.zhihu.com/question/602338724/answer/3039552360",
+    "sourceTitle": "去面试量化私募基金公司会被提问哪些问题呢？",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "知乎问答正文完整读到（zhihu_cdp.py 用户登录态）；为量化猎头Andy 引用的好友（@yegggg）面经，多公司帖中的千象（QX）部分；原文用 QX 代称千象。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "chengqi-zhihu-yegggg-interview",
+    "companyId": "chengqi",
+    "jobTitle": "量化（岗位未明确）",
+    "rounds": [
+      {
+        "name": "一轮笔试",
+        "content": "比较简单。"
+      },
+      {
+        "name": "二轮 tech 电面",
+        "content": "问了跟佳期一样的题，还有一个没有数字和加减乘除的计算器，只有三角函数、反三角函数、exp、log 之类的计算，问怎么得到 2。"
+      }
+    ],
+    "summary": "诚奇（帖中以 CQ 代称）量化面试：一轮笔试较简单，二轮 tech 电面问与佳期相同的题 + 计算器难题（仅三角函数/反三角函数/exp/log，如何得到 2）。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "zhihu",
+    "sourceUrl": "https://www.zhihu.com/question/602338724/answer/3039552360",
+    "sourceTitle": "去面试量化私募基金公司会被提问哪些问题呢？",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "知乎问答正文完整读到（zhihu_cdp.py 用户登录态）；为量化猎头Andy 引用的好友（@yegggg）面经，多公司帖中的诚奇（CQ）部分；原文用 CQ 代称诚奇。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "lingjun-python-backend-xhs-interview",
+    "companyId": "lingjun",
+    "jobTitle": "量化开发（Python 后端，实习）",
+    "rounds": [
+      {
+        "name": "一面",
+        "date": "2024-10",
+        "content": "自我介绍；未来规划（面试官担心毕设影响实习）；公司专注后端开发，希望有 python/web/数据库开发能力，会看网站和软件用了什么技术、怎样设计的；有没有接触过服务端；对 python 了解多少；对 python 框架了解多少；项目需求目的是什么；系统后端框架是什么（面试官建议多了解框架内容）；了解装饰器吗（让写一个装饰器代码题）；写一道代码题：读取某一文件夹下所有文件的名字和内容。"
+      }
+    ],
+    "summary": "灵均投资 python 后端开发实习一面：以 Python 后端技术栈（框架、装饰器、文件读取）与项目设计为主，发帖人自评对后端框架不熟、后期需查漏补缺。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/6708bf2f000000001b022f6c?xsec_token=ABe9qMcGt7KuEl0q_WXfCJMRvo3HlDu9XarCfRwbxd2JM%3D&xsec_source=pc_search",
+    "sourceTitle": "实习｜灵均投资｜python后端开发",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态）；发帖人自评对后端框架不熟、后期需要查漏补缺；结果未明示。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "lingjun-multistrategy-prep-xhs-interview",
+    "companyId": "lingjun",
+    "jobTitle": "量化研究（多策略部，准备帖）",
+    "rounds": [
+      {
+        "name": "准备题示例",
+        "content": "第1题｜灵均投资的多策略矩阵是怎么运作的？多策略比单一策略好在哪里？答题框架（策略架构分析法）：多策略的类型（Alpha 策略+CTA+套利+宏观）、策略之间的相关性分析、风险预算和资金分配、多策略的优势和局限。"
+      }
+    ],
+    "summary": "博主整理的灵均多策略部面试准备帖（2026 校招季），以“多策略矩阵”模拟题 + 策略架构分析法答题框架为主，非真实面试轮次记录。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/6a50bd6d0000000015025fc8?xsec_token=ABBag9lHZ_igAxSSWb8iDrWz2-8ZuMOQj5Nv960RU2tVI%3D&xsec_source=pc_search",
+    "sourceTitle": "灵均投资｜多策略部｜面经分享",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "partial",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态），但属博主备考/模拟题帖（与九坤/幻方准备帖同模板），非求职者第一视角轮次记录。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "kuande-xhs-bingcuixueli-interview",
+    "companyId": "kuande",
+    "jobTitle": "量化开发（实习）",
+    "rounds": [
+      {
+        "name": "一面",
+        "date": "2024-07",
+        "content": "投递中后期，HR 问实习地点考虑哪里；一面通过后发会议链接邀请听分享会，作者因在公司加班没听完；二面面试官正是分享会第二个分享者，问作者分享会听完感觉怎样，作者如实说没听完，随后被问得一塌糊涂挂掉。"
+      }
+    ],
+    "summary": "宽德量化开发实习：一面过、受邀听分享会但没听完；二面面试官恰为分享会第二分享者，作者因没听完被问垮挂掉。",
+    "result": "no_offer",
+    "difficulty": "unknown",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/6693f63500000000030274d3?xsec_token=AB0s4yaP6Ep4lvlydxItcOWcDhKDBL0co7X-D4EyqLuWg%3D&xsec_source=pc_search",
+    "sourceTitle": "量化实习面试经历分享（二）",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态）；多公司帖中的宽德部分；作者因没听完分享会，二面被面试官问垮（帖中“红温”）而挂。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "ubiquant-xhs-bingcuixueli-interview",
+    "companyId": "ubiquant",
+    "jobTitle": "量化开发（实习）",
+    "rounds": [
+      {
+        "name": "一面",
+        "date": "2024-07",
+        "content": "笔试比较简单；一面问题回答顺利，半小时左右面试官说“那我就问到这吧”，紧接着说“我们来写两道题吧”；作者此前量化面试从未遇到 coding 环节、没准备，题写得一塌糊涂。"
+      }
+    ],
+    "summary": "九坤量化开发实习：笔试简单、一面顺利，半小时后面试官临时加两道 coding 题，作者没准备写垮。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/6693f63500000000030274d3?xsec_token=AB0s4yaP6Ep4lvlydxItcOWcDhKDBL0co7X-D4EyqLuWg%3D&xsec_source=pc_search",
+    "sourceTitle": "量化实习面试经历分享（二）",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态）；多公司帖中的九坤部分；作者称“不出意外，题写的一塌糊涂”，结果未明示但推测不佳。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "metabit-xhs-bingcuixueli-interview",
+    "companyId": "metabit",
+    "jobTitle": "量化开发（实习）",
+    "rounds": [
+      {
+        "name": "三轮面试（当天推完）",
+        "date": "2024",
+        "content": "乾象是作者面的最早一家，面试效率很高，当天下午直接三轮面试推完；结果二面写题写拉了，作者称此前确实很少碰到题写不出来的情况，自信心蛮受打击的。"
+      }
+    ],
+    "summary": "乾象投资量化开发面试（转量化方向首面）：效率极高，当天下午三轮面试推完，二面写题写拉，作者自信心受打击。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/669163fc0000000005007d1d?xsec_token=AB6WqLCecIJSpU-SHh426IVPlTOgZqAwRUXNhPdJ19HBI%3D&xsec_source=pc_search",
+    "sourceTitle": "量化实习面试经历分享（一）",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态）；多公司帖中的乾象部分（作者 985CS硕 今年三月转战量化开发，照排名挨个投）；二面写题写拉后结果未明示，作者自评受打击。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jiaqi-xhs-bingcuixueli-interview",
+    "companyId": "jiaqi-investment",
+    "jobTitle": "量化开发（实习）",
+    "rounds": [
+      {
+        "name": "一面",
+        "date": "2024",
+        "content": "一面体验很好，作者评价佳期是“白月光”（离学校近、给得多、一面体验好），但最终被挂。"
+      },
+      {
+        "name": "笔试",
+        "date": "2024",
+        "content": "笔试四小时四道题，题目难度确实很高，有两道完全想不出优化方法，只能暴力去做；最后一题假设了一个中断场景，作者印象很深。作者想把四道题都做完，结果最后匆匆忙忙写了份报告，估计也挺降分的；笔试之后流程就结束了。"
+      }
+    ],
+    "summary": "佳期投资量化开发面试：一面体验好（作者称“白月光”），笔试四小时四道题难度高（两道只能暴力、最后一题中断场景），笔试后流程结束被挂。",
+    "result": "no_offer",
+    "difficulty": "hard",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/669163fc0000000005007d1d?xsec_token=AB6WqLCecIJSpU-SHh426IVPlTOgZqAwRUXNhPdJ19HBI%3D&xsec_source=pc_search",
+    "sourceTitle": "量化实习面试经历分享（一）",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态）；多公司帖中的佳期部分；作者明说被挂；笔试难度高、四道题中两道无优化思路。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "liangkui-xhs-bingcuixueli-interview",
+    "companyId": "liangkui",
+    "jobTitle": "量化开发（实习）",
+    "rounds": [
+      {
+        "name": "笔试",
+        "date": "2024",
+        "content": "量魁是一家较小的私募，规模不到 50e；笔试体量大、耗时长，作者在实验室从晚上八点多做到凌晨两点多，第二天还得去快手实习（mentor 关心他是否病了）。"
+      }
+    ],
+    "summary": "量魁（上海量魁私募基金管理）量化开发笔试：公司规模不到 50e 的小私募，笔试体量极大，作者从晚 8 点做到凌晨 2 点。",
+    "result": "unknown",
+    "difficulty": "unknown",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/669163fc0000000005007d1d?xsec_token=AB6WqLCecIJSpU-SHh426IVPlTOgZqAwRUXNhPdJ19HBI%3D&xsec_source=pc_search",
+    "sourceTitle": "量化实习面试经历分享（一）",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态）；多公司帖中的量魁部分；公司规模不到 50e；笔试耗时极长（晚 8 点到凌晨 2 点多），结果未明示。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "metabit-xhs-fuwuqi-qiuxiang-interview",
+    "companyId": "metabit",
+    "jobTitle": "量化研究实习（暑期）／量化研究员（全职）",
+    "rounds": [
+      {
+        "name": "暑期实习-一轮 数学/概率",
+        "date": "2026",
+        "content": "无笔试；做了两个概率/统计相关的题，需共享屏幕，把解题流程写在白板上。题目难度不算大，作者当时有些紧张做得比较慢，好在面试官很耐心，面完就给了 pass。"
+      },
+      {
+        "name": "暑期实习-二轮 C++",
+        "date": "2026",
+        "content": "做一个 C++ 的小项目，需共享屏幕，把代码写在特定区域。作者提示 Agent 时代下考察 C++ 的公司比以前少了，很多同学不重视这一块，投递前一定要好好准备；面完就给了 pass。"
+      },
+      {
+        "name": "暑期实习-三轮 Python&算法",
+        "date": "2026",
+        "content": "用 Python 做一个算法题，作者先快速给出一个较暴力的求解方法，随后面试官给提示，顺着提示去优化时间复杂度，到最后也没做出来，但面试官也给了 pass。"
+      },
+      {
+        "name": "暑期实习-Leader 简历面",
+        "date": "2026",
+        "content": "大致是 4 轮技术面+1 轮 hr 面，技术面（前 4 轮）大致顺序是 数学题 - C++ - Python&算法 - Leader简历面；作者过三轮技术面后，因收到心仪的暑期实习，向 HR 告知将机会留给更合适的同学，遂流程中断。"
+      },
+      {
+        "name": "全职-Leader 直聊",
+        "date": "2026",
+        "content": "过了许久 HR 联系，称有一个岗位和作者履历非常符合，可直接跳掉之前做过的所有流程、直接和 Leader 聊，聊得来直接全职 offer。作者向面试官表示自己已经很久没做因子了、其实不那么匹配；面试官表示作者想做的方向组里已经有人做了而且做得比较好，暂时不考虑招新的同学，遂无后续。"
+      }
+    ],
+    "summary": "乾象投资量化岗两段经历（同一作者）：暑期实习无笔试，4 轮技术面+1 轮 hr 面（数学题-C++-Python&算法-Leader 简历面），过三轮后因拿到心仪实习自行中断；全职量化研究员（逐笔数据 feature/因子方向）直接与 Leader 聊，因方向不匹配无后续。",
+    "result": "unknown",
+    "difficulty": "medium",
+    "source": "xiaohongshu",
+    "sourceUrl": "https://www.xiaohongshu.com/explore/69dba442000000002102d6a0?xsec_token=ABc-Cs5YaD_mj0Dde3zXgHWCJXRLvrAWk96VIYAXcT0Ds%3D&xsec_source=pc_search",
+    "sourceTitle": "[量化暑期+全职] 笔面经历｜乾象投资",
+    "collectedAt": "2026-08-11",
+    "sourceStatus": "complete",
+    "notes": "小红书正文完整读到（xiaohongshu_cdp.py 用户登录态）；作者“服务器繁忙..后面忘了”，声明不透露题目仅分享流程；暑期实习部分过三轮技术面后主动中断（把机会留给更合适的同学），全职部分因方向不匹配无后续。未经公司核验。",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
   }
 ]

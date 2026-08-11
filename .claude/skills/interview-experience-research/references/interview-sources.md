@@ -19,7 +19,7 @@
 | 来源 | 特点 | 正文可读性 |
 |---|---|---|
 | 牛客 nowcoder.com | 讨论区/面经帖结构清晰，很多可直接 WebFetch | 常可读到 complete |
-| 小红书 xiaohongshu.com | 需 App/登录，网页版常有验证，WebFetch 常拿不到正文 | 常 partial / blocked |
+| 小红书 xiaohongshu.com | 搜索/评论需登录；正文内嵌在 `__INITIAL_STATE__`（Vue Ref 结构）；WebFetch 只能拿到登录墙；用本机 `xiaohongshu_cdp.py`（用户自己登录的 Edge CDP）可读正文 | 用 CDP 可 complete；未登录/CDP 不可用则 partial / blocked |
 | 知乎 zhihu.com | 游客搜索已关闭、纯 HTTP 403；用本机 `zhihu_cdp.py`（用户自己登录的 Edge CDP）可读正文 | 用 CDP 可 complete；未登录/CDP 不可用则 partial / blocked |
 | 一亩三分地 1point3acres.com | 海外华人量化面经多，反爬 403 常见 | 常 partial（需搜索摘要） |
 | 其他论坛（力扣讨论、CSDN、虎扑等） | 看具体站点 | 视情况 |
@@ -70,6 +70,40 @@ PYTHONUTF8=1 python scripts/zhihu_cdp.py --json status
 - **绝不编造**题目/轮次/结果/日期/URL。正文里没有的轮次不写，题目记不清就只写帖子里有的。
 - 一个帖子通常只算一条 interview；同一公司不同帖子 → 多条不同 id 的 interview。
 - 帖子内容矛盾（如两个人对同岗位面试轮数说法不一）→ 每条独立记录，notes 里互相注明存疑。
+
+## 小红书（`xiaohongshu_cdp.py` —— 用户自己的 Edge 登录态）
+
+小红书网页版搜索/浏览需登录（`web_session` 是 httpOnly cookie，`document.cookie` 看不到，登录态从页面状态 `st.user.loggedIn` 判断）；正文不在 DOM 里，内嵌在 `window.__INITIAL_STATE__`，且是 **Vue reactive 结构**（字段是 Ref，需 `.value`/`._value` 解包，用 `'__v_isRef' in v` 探测）。纯 HTTP 抓取/WebFetch 只能拿到登录墙。因此小红书正文走**专用工具** `scripts/xiaohongshu_cdp.py`——驱动用户自己登录的 Edge（CDP），真实浏览器自己算 xsec 签名、带真实 UA/cookie，**不逆向签名、不伪造 UA、不提取 cookie 值**（登录态只做布尔判断，与 zhihu_cdp.py / boss-agent-cli 同模式）。
+
+**前置（一次性）**：用户运行
+```bash
+PYTHONUTF8=1 python scripts/xiaohongshu_cdp.py --json launch   # 弹出独立 Edge（端口 9224，profile ~/.xiaohongshu-agent/edge-cdp，与日常浏览器隔离）
+```
+在弹出的窗口里登录 xiaohongshu.com 一次，然后
+```bash
+PYTHONUTF8=1 python scripts/xiaohongshu_cdp.py --json status   # 输出 logged_in: true、login_user 即可用
+```
+登录态约 7 天有效，过期后重新 `launch` 登录一次即可。
+
+**命令**（Windows 一律 `PYTHONUTF8=1 PYTHONIOENCODING=utf-8` 前缀；`--json` 放子命令前）：
+```bash
+# 搜笔记（返回 results: [{url, title, snippet}]，title 取 displayTitle；snippet 由作者+点赞数拼成，卡片无 desc）
+PYTHONUTF8=1 python scripts/xiaohongshu_cdp.py --json search "九坤 量化 面经"
+# 读正文（笔记 URL 必须带 xsec_token，bare URL 会 404；返回 title + content + date + author + tags + type + url）
+PYTHONUTF8=1 python scripts/xiaohongshu_cdp.py --json read "https://www.xiaohongshu.com/explore/{note_id}?xsec_token={token}&xsec_source=pc_search"
+# CDP/登录态检查（登录态看 logged_in/login_user，不看 cookie）
+PYTHONUTF8=1 python scripts/xiaohongshu_cdp.py --json status
+```
+
+**纪律（硬性）**：
+- 只读用户登录后可见的内容，低频率：工具内置节流（命令间 3-6s，`~/.xiaohongshu-agent/throttle.json` 全局生效）+ 单实例锁，**不要并行跑多个 xhs 命令**；每任务 `search` ≤3 次、优先精确公司名查询，够用就转 `read`。
+- 小红书触发验证/风控（搜索返回空、页面出现"验证/访问过于频繁"等，>30 req/min 会弹验证码）→ **立即停手**，标 `blocked`，note "小红书风控/验证，需手动查看"，报告清单标 `[TODO]`。不要反复重试硬闯。
+- **正文完整性**：`read` 一次读到完整 `content` → `complete`；读到的内容明显不完整（图为主/被折叠）→ `partial`，note 注明缺什么、去哪看原文。
+- 笔记 URL 必须带 `xsec_token`（search 结果里会带，直接用那条 URL 去 read）；`sourceUrl` 用 `read` 返回的真实 URL，不编造。
+
+**降级**：CDP 不可用 / 用户未登录 / 工具报错 → 退回 WebSearch `"site:xiaohongshu.com {公司} 面经"` 摘要，标 `partial`（note "CDP 不可用，仅搜索摘要"），原文 URL 放 `sourceUrl`；搜索本身搜不到 → 不写条目。
+
+**降级判定**（写入 `sourceStatus`）同知乎一节：正文完整读到 → `complete`；只有摘要/读到一半 → `partial`；登录墙/验证墙 → `blocked` + `[TODO]`；完全搜不到 → 不写条目。**`complete` 只表示正文完整读到，不表示内容经官方核验**——小红书帖子是发帖人自述，报告标注"未经公司/官方核验"。
 
 ## 链接卫生
 
