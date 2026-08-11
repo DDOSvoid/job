@@ -1481,7 +1481,7 @@
     "applyUrl": "https://s.jsfund.cn/4bmPt",
     "officialUrl": "http://www.jsfund.cn/main/AboutHarvest/JoinUs/index.shtml",
     "autumn2026": "open",
-    "autumn2026Note": "嘉实2027届校园招聘2026-03-13全面开启、自3月起滚动进行，官网研究类在招岗位含『量化研究员（风险管理方向）』，截至2026-08-09仍在投递窗口（第三方聚合站单条批次显示结束时间2026-08-08，官网滚动招聘以官网为准）；2026届校招批次已于2025秋-2026春陆续结束/补录。",
+    "autumn2026Note": "嘉实2027届校园招聘2026-03-13全面开启、自3月起滚动进行，官网研究类在招岗位含『量化研究员（风险管理方向）』，截至2026-08-09仍在投递窗口（第三方聚合站单条批次显示结束时间2026-08-08，官网滚动招聘以官网为准）；2026届校招批次已于2025秋-2026春陆续结束/补录。；2026-08-12 复核仍在投递窗口",
     "source": "official",
     "fetchStatus": "partial",
     "sources": [
@@ -1520,7 +1520,7 @@
     ],
     "notes": "薪资官方未披露，标注为面议。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "intern"
   },
   {
@@ -1533,7 +1533,7 @@
     "applyUrl": "https://s.jsfund.cn/4bmPp",
     "officialUrl": "http://www.jsfund.cn/main/AboutHarvest/JoinUs/index.shtml",
     "autumn2026": "open",
-    "autumn2026Note": "嘉实2027届校园招聘自2026-03-13全面开启、滚动进行，官网研究类在招岗位含『指数与量化投资分析师』，截至2026-08-09仍在投递窗口。",
+    "autumn2026Note": "嘉实2027届校园招聘自2026-03-13全面开启、滚动进行，官网研究类在招岗位含『指数与量化投资分析师』，截至2026-08-09仍在投递窗口。；2026-08-12 复核仍在投递窗口",
     "source": "official",
     "fetchStatus": "partial",
     "sources": [
@@ -1572,7 +1572,7 @@
     ],
     "notes": "薪资官方未披露，标注为面议。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "intern"
   },
   {
@@ -1585,7 +1585,7 @@
     "applyUrl": "https://s.jsfund.cn/4bmPF",
     "officialUrl": "http://www.jsfund.cn/main/AboutHarvest/JoinUs/index.shtml",
     "autumn2026": "open",
-    "autumn2026Note": "嘉实2027届校招金融科技类在招岗位，截至2026-08-09在投递窗口。",
+    "autumn2026Note": "嘉实2027届校招金融科技类在招岗位，截至2026-08-09在投递窗口。；2026-08-12 复核仍在投递窗口",
     "source": "official",
     "fetchStatus": "partial",
     "sources": [
@@ -1624,7 +1624,7 @@
     ],
     "notes": "算法工程师属金融科技类（大模型方向），与量化策略/智能投研系统相关；薪资官方未披露，标注为面议。岗位详情请以官网为准。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "campus"
   },
   {
@@ -1637,7 +1637,7 @@
     "applyUrl": "https://bosera.hotjob.cn/",
     "officialUrl": "https://bosera.hotjob.cn/",
     "autumn2026": "ended",
-    "autumn2026Note": "2026届春季校园招聘（2026-03发布）与2026届暑期实习（2026-05/06发布）网申截止均为2026-06-30（已结束；各转载平台截止日期略有出入：5/18、6/17、6/30，以官网为准）；2027届秋招（2026年秋招季）尚未启动，预计2026年9月开启，请关注 bosera.hotjob.cn 及公众号『博时基金招聘』。",
+    "autumn2026Note": "2026届春季校园招聘（2026-03发布）与2026届暑期实习（2026-05/06发布）网申截止均为2026-06-30（已结束；各转载平台截止日期略有出入：5/18、6/17、6/30，以官网为准）；2027届秋招（2026年秋招季）尚未启动，预计2026年9月开启，请关注 bosera.hotjob.cn 及公众号『博时基金招聘』。；2026-08-12 复核：应届生求职网显示博时在招『指数量化研究员』（2026-07-22发布、面向2026/2027届、深圳，详见新岗位 bosera-index-quant-researcher-2026），2027届正式秋招官方公告截至该日未见",
     "source": "official",
     "fetchStatus": "partial",
     "sources": [
@@ -1677,14 +1677,14 @@
         "type": "boss",
         "title": "Boss直聘·博时基金",
         "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『博时基金』查看 [TODO]"
+        "accessedAt": "2026-08-12",
+        "status": "complete",
+        "note": "2026-08-12 实时搜索『博时』（深圳）：仅命中同名无关公司（博时体育俱乐部/广州博时信息科技等），无博时基金量化岗位挂出；公募量化岗主要走官网校招渠道（bosera.hotjob.cn）"
       }
     ],
     "notes": "官方公告未披露薪资（第三方显示『提供有市场竞争力的薪酬』，未经官方核实），按面议处理。2026届春招+暑期实习批次网申已截止（2026-06-30），投递前请核实当前开放状态。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "intern"
   },
   {
@@ -1697,7 +1697,7 @@
     "applyUrl": "https://bosera.hotjob.cn/",
     "officialUrl": "https://bosera.hotjob.cn/",
     "autumn2026": "ended",
-    "autumn2026Note": "2026届春季校园招聘与2026届暑期实习网申截止均为2026-06-30（已结束）；2027届秋招（2026年秋招季）尚未启动，预计2026年9月开启，请关注 bosera.hotjob.cn 及公众号『博时基金招聘』。",
+    "autumn2026Note": "2026届春季校园招聘与2026届暑期实习网申截止均为2026-06-30（已结束）；2027届秋招（2026年秋招季）尚未启动，预计2026年9月开启，请关注 bosera.hotjob.cn 及公众号『博时基金招聘』。；2026-08-12 复核：应届生求职网显示博时在招『指数量化研究员』（2026-07-22发布、面向2026/2027届、深圳，详见新岗位 bosera-index-quant-researcher-2026），2027届正式秋招官方公告截至该日未见",
     "source": "official",
     "fetchStatus": "partial",
     "sources": [
@@ -1737,14 +1737,14 @@
         "type": "boss",
         "title": "Boss直聘·博时基金",
         "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『博时基金』查看 [TODO]"
+        "accessedAt": "2026-08-12",
+        "status": "complete",
+        "note": "2026-08-12 实时搜索『博时』（深圳）：仅命中同名无关公司（博时体育俱乐部/广州博时信息科技等），无博时基金量化岗位挂出；公募量化岗主要走官网校招渠道（bosera.hotjob.cn）"
       }
     ],
     "notes": "官方公告未披露薪资，按面议处理。2026届春招+暑期实习批次网申已截止（2026-06-30），投递前请核实当前开放状态。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "intern"
   },
   {
@@ -1757,7 +1757,7 @@
     "applyUrl": "https://bosera.hotjob.cn/",
     "officialUrl": "https://bosera.hotjob.cn/",
     "autumn2026": "ended",
-    "autumn2026Note": "2026届春季校园招聘与2026届暑期实习网申截止均为2026-06-30（已结束）；2027届秋招（2026年秋招季）尚未启动，预计2026年9月开启，请关注 bosera.hotjob.cn 及公众号『博时基金招聘』。",
+    "autumn2026Note": "2026届春季校园招聘与2026届暑期实习网申截止均为2026-06-30（已结束）；2027届秋招（2026年秋招季）尚未启动，预计2026年9月开启，请关注 bosera.hotjob.cn 及公众号『博时基金招聘』。；2026-08-12 复核：应届生求职网显示博时在招『指数量化研究员』（2026-07-22发布、面向2026/2027届、深圳，详见新岗位 bosera-index-quant-researcher-2026），2027届正式秋招官方公告截至该日未见",
     "source": "official",
     "fetchStatus": "partial",
     "sources": [
@@ -1797,14 +1797,14 @@
         "type": "boss",
         "title": "Boss直聘·博时基金",
         "url": "https://www.zhipin.com",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号风控冷却中（code=36），需用户稍后手动在Boss直聘搜索『博时基金』查看 [TODO]"
+        "accessedAt": "2026-08-12",
+        "status": "complete",
+        "note": "2026-08-12 实时搜索『博时』（深圳）：仅命中同名无关公司（博时体育俱乐部/广州博时信息科技等），无博时基金量化岗位挂出；公募量化岗主要走官网校招渠道（bosera.hotjob.cn）"
       }
     ],
     "notes": "官方公告未披露薪资，按面议处理。2026届春招+暑期实习批次网申已截止（2026-06-30），投递前请核实当前开放状态。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "intern"
   },
   {
@@ -1817,7 +1817,7 @@
     "applyUrl": "https://cmfchina.zhiye.com/campus/jobs",
     "officialUrl": "https://cmfchina.zhiye.com/campus/jobs",
     "autumn2026": "ended",
-    "autumn2026Note": "2026年春季校园招聘（面向2026及2027届硕士/博士）简历接收截止2026-03-10（页面另有网申时间 2026-01-23~2026-02-10 标注，两者不一致需以官方为准），该批次已结束。",
+    "autumn2026Note": "2026年春季校园招聘（面向2026及2027届硕士/博士）简历接收截止2026-03-10（页面另有网申时间 2026-01-23~2026-02-10 标注，两者不一致需以官方为准），该批次已结束。；2026-08-12 复核，截至该日仍未见2027届秋招官方公告",
     "source": "official",
     "fetchStatus": "partial",
     "sources": [
@@ -1856,7 +1856,7 @@
     ],
     "notes": "岗位职责依据2026春招公告（微信公众号/牛企直聘转载）整理；官方未披露薪资，按面议处理。该批次网申已截止。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "campus"
   },
   {
@@ -1869,7 +1869,7 @@
     "applyUrl": "https://cmfchina.zhiye.com/campus/jobs",
     "officialUrl": "https://cmfchina.zhiye.com/campus/jobs",
     "autumn2026": "not_started",
-    "autumn2026Note": "2026暑期实习（面向2027届）网申已于2026-05-15截止（已结束）；2026秋季正式秋招（2027届）尚未启动，预计2026年秋季（8-9月）开启，请关注 cmfchina.zhiye.com 及官方公众号。",
+    "autumn2026Note": "2026暑期实习（面向2027届）网申已于2026-05-15截止（已结束）；2026秋季正式秋招（2027届）尚未启动，预计2026年秋季（8-9月）开启，请关注 cmfchina.zhiye.com 及官方公众号。；2026-08-12 复核，截至该日仍未见2027届秋招官方公告",
     "source": "official",
     "fetchStatus": "partial",
     "sources": [
@@ -1916,7 +1916,7 @@
     ],
     "notes": "实习补贴 15000-19999 元/月 来自官方招聘简章（多所高校就业网转载，如香港中文大学（深圳）职业发展处标注 Salary Range:15000-19999、中南大学标注15000-17500），为实习期月薪补贴而非年薪；官方简章为留用导向（答辩通过发留用Offer）。该批次网申已截止。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "intern"
   },
   {
@@ -7719,7 +7719,7 @@
     "applyUrl": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
     "officialUrl": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
     "autumn2026": "unknown",
-    "autumn2026Note": "『黄埔联盟』2026年度提前批报名已于2026-06-26截止，属春季提前批（面向2027届），并非2026秋季招聘；截至2026-08-09未见永安期货正式2026秋招（2027届）官方公告，是否开启未获官方确认，需手动打开官网招聘页确认 [TODO]",
+    "autumn2026Note": "『黄埔联盟』2026年度提前批报名已于2026-06-26截止，属春季提前批（面向2027届），并非2026秋季招聘；截至2026-08-09未见永安期货正式2026秋招（2027届）官方公告，是否开启未获官方确认，需手动打开官网招聘页确认 [TODO]；2026-08-12 复核，2027届秋招官方公告仍未见",
     "source": "manual",
     "fetchStatus": "partial",
     "sources": [
@@ -7735,9 +7735,9 @@
         "type": "boss",
         "title": "Boss直聘（永安期货）",
         "url": "https://www.zhipin.com/",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号处于 code=36 风控期，需用户手动查看 Boss直聘上永安期货的量化岗位 [TODO]"
+        "accessedAt": "2026-08-12",
+        "status": "complete",
+        "note": "2026-08-12 实时搜索『永安期货』（杭州）：仅社招非量化岗——产业经理8-10K、网络工程师15-20K·18薪、网金研究投顾15-20K、高级分析师15-25K，无量化岗位挂出；量化投研走『黄埔联盟』官网渠道"
       },
       {
         "type": "wechat",
@@ -7766,7 +7766,7 @@
     ],
     "notes": "『黄埔联盟』项目信息来自高校就业网及第三方招聘站转载（报名已于2026-06-26截止，面向2027届）；薪资无官方信息，标注为面议。2026秋招是否开启未获官方确认。投递邮箱 hplm@yafco.com 与联系电话为第三方转载，未经官网核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "intern"
   },
   {
@@ -7779,7 +7779,7 @@
     "applyUrl": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
     "officialUrl": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
     "autumn2026": "unknown",
-    "autumn2026Note": "同『黄埔联盟』提前批，2026-06-26已截止；2026秋招（2027届）是否开启未获官方确认，需手动查看官网招聘页 [TODO]",
+    "autumn2026Note": "同『黄埔联盟』提前批，2026-06-26已截止；2026秋招（2027届）是否开启未获官方确认，需手动查看官网招聘页 [TODO]；2026-08-12 复核，2027届秋招官方公告仍未见",
     "source": "manual",
     "fetchStatus": "partial",
     "sources": [
@@ -7795,9 +7795,9 @@
         "type": "boss",
         "title": "Boss直聘（永安期货）",
         "url": "https://www.zhipin.com/",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号处于 code=36 风控期，需用户手动查看 Boss直聘上永安期货的量化岗位 [TODO]"
+        "accessedAt": "2026-08-12",
+        "status": "complete",
+        "note": "2026-08-12 实时搜索『永安期货』（杭州）：仅社招非量化岗——产业经理8-10K、网络工程师15-20K·18薪、网金研究投顾15-20K、高级分析师15-25K，无量化岗位挂出；量化投研走『黄埔联盟』官网渠道"
       },
       {
         "type": "wechat",
@@ -7818,7 +7818,7 @@
     ],
     "notes": "分析师岗位为『黄埔联盟』项目培养方向之一（第三方招聘站/高校就业网转载确认）；薪资无官方信息，标注为面议。2026秋招是否开启未获官方确认。投递邮箱 hplm@yafco.com 为第三方转载，未经官网核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "campus"
   },
   {
@@ -7831,7 +7831,7 @@
     "applyUrl": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
     "officialUrl": "https://www.yafco.com/zoujinyongan.html?id=8&jumpMark=4",
     "autumn2026": "unknown",
-    "autumn2026Note": "同『黄埔联盟』提前批，2026-06-26已截止；2026秋招（2027届）是否开启未获官方确认，需手动查看官网招聘页 [TODO]",
+    "autumn2026Note": "同『黄埔联盟』提前批，2026-06-26已截止；2026秋招（2027届）是否开启未获官方确认，需手动查看官网招聘页 [TODO]；2026-08-12 复核，2027届秋招官方公告仍未见",
     "source": "manual",
     "fetchStatus": "partial",
     "sources": [
@@ -7847,9 +7847,9 @@
         "type": "boss",
         "title": "Boss直聘（永安期货）",
         "url": "https://www.zhipin.com/",
-        "accessedAt": "2026-08-09",
-        "status": "blocked",
-        "note": "账号处于 code=36 风控期，需用户手动查看 Boss直聘上永安期货的量化岗位 [TODO]"
+        "accessedAt": "2026-08-12",
+        "status": "complete",
+        "note": "2026-08-12 实时搜索『永安期货』（杭州）：仅社招非量化岗——产业经理8-10K、网络工程师15-20K·18薪、网金研究投顾15-20K、高级分析师15-25K，无量化岗位挂出；量化投研走『黄埔联盟』官网渠道"
       },
       {
         "type": "wechat",
@@ -7870,7 +7870,7 @@
     ],
     "notes": "期现经理为『黄埔联盟』项目培养方向之一（第三方招聘站/高校就业网转载确认），属大宗商品期现/套保业务方向；薪资无官方信息，标注为面议。2026秋招是否开启未获官方确认。投递邮箱 hplm@yafco.com 为第三方转载，未经官网核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "campus"
   },
   {
@@ -7883,7 +7883,7 @@
     "applyUrl": "https://www.yhqh.com.cn/col499/list.html",
     "officialUrl": "https://www.yhqh.com.cn/col499/list.html",
     "autumn2026": "unknown",
-    "autumn2026Note": "截至2026-08-09未见银河期货正式2026秋招（2027届）官方公告；第三方渠道显示的『2026招聘』为2026年春季/上半年发布（2026-04前后），是否属于2026秋季招聘未获官方确认，需手动打开官网诚聘英才页确认 [TODO]",
+    "autumn2026Note": "截至2026-08-09未见银河期货正式2026秋招（2027届）官方公告；第三方渠道显示的『2026招聘』为2026年春季/上半年发布（2026-04前后），是否属于2026秋季招聘未获官方确认，需手动打开官网诚聘英才页确认 [TODO]；2026-08-12 复核，截至该日仍未见2027届秋招官方公告；第三方机构页提及银河期货量化交易部实习（北京，1-3个月）来源存疑，需核实 [TODO]",
     "source": "manual",
     "fetchStatus": "partial",
     "sources": [
@@ -7930,7 +7930,7 @@
     ],
     "notes": "量化研究岗信息来自第三方招聘渠道（51jrq/猎聘），未经官方核实；薪资10-20K/月为猎聘第三方数据，标注为估计值。2026秋招是否开启未获官方确认。投递邮箱 yhqhzp@163.com 为第三方转载，未经官网核实。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "campus"
   },
   {
@@ -7943,7 +7943,7 @@
     "applyUrl": "https://example.com/galaxyfutures-apply",
     "officialUrl": "https://example.com/galaxyfutures-apply",
     "autumn2026": "unknown",
-    "autumn2026Note": "该岗位为第三方渠道发布的量化交易岗（2026-05-06），是否为2026秋季招聘未获官方确认；银河期货/银河德睿2026秋招（2027届）是否开启需手动查看官网或子公司渠道 [TODO]",
+    "autumn2026Note": "该岗位为第三方渠道发布的量化交易岗（2026-05-06），是否为2026秋季招聘未获官方确认；银河期货/银河德睿2026秋招（2027届）是否开启需手动查看官网或子公司渠道 [TODO]；2026-08-12 复核，截至该日仍未见2027届秋招官方公告；第三方机构页提及银河期货量化交易部实习（北京，1-3个月）来源存疑，需核实 [TODO]",
     "source": "manual",
     "fetchStatus": "partial",
     "sources": [
@@ -7982,7 +7982,7 @@
     ],
     "notes": "量化交易员岗位信息来自应届生求职网转载（招聘主体为银河期货全资风险管理子公司银河德睿资本，上海）；薪资无官方信息，标注为面议。2026秋招是否开启未获官方确认。applyUrl 为占位符，实际投递入口需手动确认 [TODO]。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "campus"
   },
   {
@@ -7995,7 +7995,7 @@
     "applyUrl": "https://www.yhqh.com.cn/col499/list.html",
     "officialUrl": "https://www.yhqh.com.cn/col499/list.html",
     "autumn2026": "unknown",
-    "autumn2026Note": "该批次为2026-04-10发布的校园招聘（第三方渠道），属春季/上半年批次；截至2026-08-09未见银河期货正式2026秋招（2027届）官方公告，是否开启未获官方确认，需手动查看官网诚聘英才页 [TODO]",
+    "autumn2026Note": "该批次为2026-04-10发布的校园招聘（第三方渠道），属春季/上半年批次；截至2026-08-09未见银河期货正式2026秋招（2027届）官方公告，是否开启未获官方确认，需手动查看官网诚聘英才页 [TODO]；2026-08-12 复核，截至该日仍未见2027届秋招官方公告；第三方机构页提及银河期货量化交易部实习（北京，1-3个月）来源存疑，需核实 [TODO]",
     "source": "manual",
     "fetchStatus": "partial",
     "sources": [
@@ -8034,7 +8034,7 @@
     ],
     "notes": "信息技术/AI产品经理岗位信息来自第三方聚合站（牛企直聘）转载，未经官方核实；薪资18万/年为第三方数据，标注为估计值。2026秋招是否开启未获官方确认。",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09",
+    "updatedAt": "2026-08-12",
     "recruitmentType": "campus"
   },
   {
@@ -10620,5 +10620,57 @@
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11",
     "recruitmentType": "intern"
+  },
+  {
+    "id": "bosera-index-quant-researcher-2026",
+    "companyId": "bosera",
+    "title": "指数量化研究员（面向2026/2027届）",
+    "description": "博时基金投资研究交易类岗位：指数量化研究员（工作地点深圳，总部）。岗位方向：量化因子和投资策略研究、AI技术在量化投资中的应用、金融数据处理与特征提取、AI模型训练与调优等。任职要求：熟练掌握Python编程语言，熟悉PyTorch框架者优先；数学、统计学、计算机科学等相关专业背景；对量化金融和人工智能投资有浓厚兴趣。投递：电脑端 https://bosera.hotjob.cn/，移动端关注公众号『博时基金招聘』，每位同学最多可申请两个职位。（依据应届生求职网/高校就业网第三方转载整理，岗位详情请以官网 bosera.hotjob.cn 为准）",
+    "salary": "1-1.5万/月（应届生求职网，第三方渠道，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://bosera.hotjob.cn/",
+    "officialUrl": "https://bosera.hotjob.cn/",
+    "autumn2026": "open",
+    "autumn2026Note": "应届生求职网显示博时基金『指数量化研究员』在招（2026-07-22发布，面向2026/2027届，深圳）；博时2027届正式秋招（2026年秋招季）官方公告截至2026-08-12未见，岗位是否延续至秋招窗口未获官方确认，投递走官网 bosera.hotjob.cn",
+    "source": "manual",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "博时基金招聘官网（bosera.hotjob.cn）",
+        "url": "https://bosera.hotjob.cn/",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "页面需JS渲染，岗位列表未能直接读取，需手动在浏览器查看 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "应届生求职网·博时基金管理 指数量化研究员（深圳）",
+        "url": "https://m.yingjiesheng.com/jobdetail/172996216",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "应届生求职网（网才）展示博时基金『指数量化研究员』岗位：薪资约1-1.5万/月，2026-07-22发布，公司博时基金管理；第三方转载，未经官方核实"
+      },
+      {
+        "type": "manual",
+        "title": "gdrc.org.cn·博时基金招聘岗位列表（含指数量化研究员）",
+        "url": "https://www.gdrc.org.cn/job/detail-60686.html",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "第三方招聘站列表含博时基金『指数研究员、量化研究员、固收信用研究员、固收量化研究员、交易员、行业研究员、指量AI研究员、固收转债』等，指数量化研究员在列；第三方转载，未经官方核实"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（博时基金）",
+        "url": "https://www.zhipin.com",
+        "accessedAt": "2026-08-12",
+        "status": "complete",
+        "note": "2026-08-12 实时搜索『博时』（深圳）：仅命中同名无关公司（博时体育俱乐部/广州博时信息科技），无博时基金量化岗位挂出；公募量化岗主要走官网校招渠道"
+      }
+    ],
+    "notes": "指数量化研究员为博时基金投资研究交易类在招岗位（2026-07下旬出现在应届生求职网等第三方渠道，面向2026/2027届）；薪资1-1.5万/月为应届生求职网第三方数据，标注为估计值。投递入口以官网 bosera.hotjob.cn 为准。",
+    "createdAt": "2026-08-12",
+    "updatedAt": "2026-08-12",
+    "recruitmentType": "campus"
   }
 ]
