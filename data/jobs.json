@@ -8546,33 +8546,6 @@
     "updatedAt": "2026-08-11"
   },
   {
-    "id": "huiyuanying-量化研究实习生",
-    "companyId": "huiyuanying",
-    "title": "量化研究实习生",
-    "description": "上海汇远盈私募基金管理有限公司 量化研究实习生（Boss直聘 2026-08-11 实时在招，上海浦东新区）。薪资 200-250元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『上海汇远盈私募基金管理有限公司』或职位页。（岗位详情以 Boss直聘/官网为准）",
-    "salary": "200-250元/天（Boss直聘实时，未经官方核实）",
-    "salaryIsEstimate": true,
-    "applyUrl": "https://www.zhipin.com/job_detail/b05bffdbb07eaa930nZ72d61EVVS.html",
-    "officialUrl": "https://example.com/huiyuanying",
-    "autumn2026": "unknown",
-    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
-    "source": "boss",
-    "fetchStatus": "complete",
-    "sources": [
-      {
-        "type": "boss",
-        "title": "Boss直聘·上海汇远盈私募基金管理有限公司 量化研究实习生",
-        "url": "https://www.zhipin.com/job_detail/b05bffdbb07eaa930nZ72d61EVVS.html",
-        "accessedAt": "2026-08-11",
-        "status": "complete",
-        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、学历未注明、经验未注明"
-      }
-    ],
-    "notes": "薪资 200-250元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
     "id": "liangkui-QuantDevelop",
     "companyId": "liangkui",
     "title": "Quant Developer 量化开发（Infra）",

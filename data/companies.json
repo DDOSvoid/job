@@ -803,17 +803,6 @@
     "updatedAt": "2026-08-11"
   },
   {
-    "id": "huiyuanying",
-    "name": "上海汇远盈私募基金管理有限公司",
-    "type": "private",
-    "website": "https://example.com/huiyuanying",
-    "location": "上海",
-    "about": "全称上海汇远盈私募基金管理有限公司，2022年成立并完成私募证券投资管理人备案，专注债券固收及固收+策略。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
     "id": "liangkui",
     "name": "上海量魁私募基金管理",
     "type": "private",
