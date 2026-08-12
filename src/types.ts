@@ -12,9 +12,22 @@ export type ApplicationStage =
   | 'offer'
   | 'rejected'
   | 'withdrawn'
-export type InterviewSource = 'xiaohongshu' | 'nowcoder' | 'zhihu' | '1point3acres' | 'forum' | 'manual'
+export type InterviewSource =
+  | 'xiaohongshu'
+  | 'nowcoder'
+  | 'zhihu'
+  | '1point3acres'
+  | 'csdn'
+  | 'cnblogs'
+  | 'bilibili'
+  | 'wenku'
+  | 'book118'
+  | 'questionbank'
+  | 'zhidao'
+  | 'aggregator'
+  | 'career'
+  | 'manual'
 export type InterviewResult = 'offer' | 'no_offer' | 'in_progress' | 'unknown'
-export type InterviewDifficulty = 'easy' | 'medium' | 'hard' | 'unknown'
 
 export interface Company {
   id: string
@@ -91,15 +104,22 @@ export interface InterviewRound {
   date?: string
 }
 
+export interface InterviewQuestion {
+  round: string
+  date?: string
+  text: string
+}
+
 export interface Interview {
   id: string
   companyId: string
   companyName?: string | null
   jobTitle: string
   rounds: InterviewRound[]
+  /** 从各轮 content 拆出的逐条题目；缺失时详情页降级用 rounds 展示 */
+  questions?: InterviewQuestion[]
   summary: string
   result: InterviewResult
-  difficulty: InterviewDifficulty
   source: InterviewSource
   sourceUrl: string
   sourceTitle?: string

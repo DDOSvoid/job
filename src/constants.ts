@@ -4,7 +4,6 @@ import type {
   ApplicationStage,
   CompanyType,
   FetchStatus,
-  InterviewDifficulty,
   InterviewResult,
   InterviewSource,
   JobSource,
@@ -82,7 +81,15 @@ export const INTERVIEW_SOURCE_LABELS: Record<InterviewSource, string> = {
   nowcoder: '牛客',
   zhihu: '知乎',
   '1point3acres': '一亩三分地',
-  forum: '论坛',
+  csdn: 'CSDN博客',
+  cnblogs: '博客园',
+  bilibili: 'B站',
+  wenku: '百度文库',
+  book118: '原创力文档',
+  questionbank: '题库站',
+  zhidao: '百度知道',
+  aggregator: '内容农场',
+  career: '求职辅导',
   manual: '手动',
 }
 
@@ -91,7 +98,15 @@ export const INTERVIEW_SOURCES: InterviewSource[] = [
   'nowcoder',
   'zhihu',
   '1point3acres',
-  'forum',
+  'csdn',
+  'cnblogs',
+  'bilibili',
+  'wenku',
+  'book118',
+  'questionbank',
+  'zhidao',
+  'aggregator',
+  'career',
   'manual',
 ]
 
@@ -103,15 +118,6 @@ export const INTERVIEW_RESULT_LABELS: Record<InterviewResult, string> = {
 }
 
 export const INTERVIEW_RESULTS: InterviewResult[] = ['offer', 'no_offer', 'in_progress', 'unknown']
-
-export const INTERVIEW_DIFFICULTY_LABELS: Record<InterviewDifficulty, string> = {
-  easy: '简单',
-  medium: '中等',
-  hard: '困难',
-  unknown: '未知',
-}
-
-export const INTERVIEW_DIFFICULTIES: InterviewDifficulty[] = ['easy', 'medium', 'hard', 'unknown']
 
 export function todayStr(): string {
   const d = new Date()

@@ -3,7 +3,6 @@ import { Link, useSearchParams } from 'react-router-dom'
 import { useCompanies, useInterviews } from '../hooks/useApi'
 import {
   CompanyTypeBadge,
-  InterviewDifficultyBadge,
   InterviewResultBadge,
   InterviewSourceBadge,
 } from '../components/StatusBadge'
@@ -12,25 +11,22 @@ import MultiSelect from '../components/MultiSelect'
 import { SkeletonGrid } from '../components/SkeletonCard'
 import EmptyState from '../components/EmptyState'
 import {
-  INTERVIEW_DIFFICULTIES,
-  INTERVIEW_DIFFICULTY_LABELS,
   INTERVIEW_RESULTS,
   INTERVIEW_RESULT_LABELS,
   INTERVIEW_SOURCES,
   INTERVIEW_SOURCE_LABELS,
 } from '../constants'
-import type { CompanyType, InterviewDifficulty, InterviewResult, InterviewSource } from '../types'
+import type { CompanyType, InterviewResult, InterviewSource } from '../types'
 
 interface InterviewFilter {
   q: string
   /** 多选：空数组 = 不过滤 */
   companyId: string[]
   result: InterviewResult[]
-  difficulty: InterviewDifficulty[]
   source: InterviewSource[]
 }
 
-const defaultFilter: InterviewFilter = { q: '', companyId: [], result: [], difficulty: [], source: [] }
+const defaultFilter: InterviewFilter = { q: '', companyId: [], result: [], source: [] }
 
 // 筛选状态 ⇄ URL search params：筛选后进面经详情、浏览器后退，可恢复筛选前的列表。
 // 多选值用逗号 join 进单个参数。
@@ -39,7 +35,6 @@ function filtersToParams(f: InterviewFilter): URLSearchParams {
   if (f.q) sp.set('q', f.q)
   if (f.companyId.length) sp.set('companyId', f.companyId.join(','))
   if (f.result.length) sp.set('result', f.result.join(','))
-  if (f.difficulty.length) sp.set('difficulty', f.difficulty.join(','))
   if (f.source.length) sp.set('source', f.source.join(','))
   return sp
 }
@@ -55,13 +50,12 @@ function paramsToFilters(sp: URLSearchParams): InterviewFilter {
     q: sp.get('q') ?? '',
     companyId: (sp.get('companyId') ?? '').split(',').filter(Boolean),
     result: parseList(sp, 'result', INTERVIEW_RESULTS),
-    difficulty: parseList(sp, 'difficulty', INTERVIEW_DIFFICULTIES),
     source: parseList(sp, 'source', INTERVIEW_SOURCES),
   }
 }
 
 /**
- * 面试经历目录表：公司 | 岗位 | 结果 | 难度 | 来源。
+ * 面试经历目录表：公司 | 岗位 | 结果 | 来源。
  * 整行是单个 <Link>，故不使用外层多链接的 .dir-row 结构。
  */
 export default function InterviewListPage() {
@@ -76,13 +70,17 @@ export default function InterviewListPage() {
     return m
   }, [companiesQ.data])
 
+  // 有面经的公司数（区别于 companies.json 总家数）
+  const coveredCount = useMemo(() => {
+    return new Set((interviewsQ.data ?? []).map((iv) => iv.companyId)).size
+  }, [interviewsQ.data])
+
   const list = useMemo(() => {
     const q = filters.q.trim().toLowerCase()
     return (interviewsQ.data ?? [])
       .filter((iv) => {
         if (filters.companyId.length && !filters.companyId.includes(iv.companyId)) return false
         if (filters.result.length && !filters.result.includes(iv.result)) return false
-        if (filters.difficulty.length && !filters.difficulty.includes(iv.difficulty)) return false
         if (filters.source.length && !filters.source.includes(iv.source)) return false
         if (q) {
           const hay = `${iv.companyName ?? ''} ${iv.jobTitle} ${iv.summary ?? ''} ${iv.sourceTitle ?? ''}`.toLowerCase()
@@ -103,14 +101,15 @@ export default function InterviewListPage() {
     filters.q !== '' ||
     filters.companyId.length > 0 ||
     filters.result.length > 0 ||
-    filters.difficulty.length > 0 ||
     filters.source.length > 0
 
   return (
     <section>
       <div className="page-head">
         <h1>面试经历</h1>
-        <p className="sub">{interviewsQ.data?.length ?? 0} 条量化面经 · 小红书 / 牛客 / 知乎 / 论坛</p>
+        <p className="sub">
+          {interviewsQ.data?.length ?? 0} 条量化面经 · 覆盖 {coveredCount} 家公司
+        </p>
       </div>
 
       <div className="filter-bar">
@@ -150,12 +149,6 @@ export default function InterviewListPage() {
             onChange={(v) => set({ result: v })}
           />
           <ChipGroup
-            label="难度"
-            options={INTERVIEW_DIFFICULTIES.map((d) => ({ value: d, label: INTERVIEW_DIFFICULTY_LABELS[d] }))}
-            values={filters.difficulty}
-            onChange={(v) => set({ difficulty: v })}
-          />
-          <ChipGroup
             label="来源"
             options={INTERVIEW_SOURCES.map((s) => ({ value: s, label: INTERVIEW_SOURCE_LABELS[s] }))}
             values={filters.source}
@@ -180,7 +173,6 @@ export default function InterviewListPage() {
             <span>公司</span>
             <span>岗位</span>
             <span>结果</span>
-            <span>难度</span>
             <span>来源</span>
           </div>
           {list.map((iv) => {
@@ -200,9 +192,6 @@ export default function InterviewListPage() {
                 </div>
                 <div className="dir-cell">
                   <InterviewResultBadge result={iv.result} />
-                </div>
-                <div className="dir-cell">
-                  <InterviewDifficultyBadge difficulty={iv.difficulty} />
                 </div>
                 <div className="dir-cell iv-source-cell">
                   <span className="iv-source-top">

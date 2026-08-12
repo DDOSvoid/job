@@ -7,10 +7,9 @@
 
 | 枚举 | 取值 |
 |---|---|
-| interview.source | `xiaohongshu`（小红书）/ `nowcoder`（牛客）/ `zhihu`（知乎）/ `1point3acres`（一亩三分地）/ `forum`（论坛）/ `manual`（手动） |
+| interview.source | `xiaohongshu`（小红书）/ `nowcoder`（牛客）/ `zhihu`（知乎）/ `1point3acres`（一亩三分地）/ `csdn`（CSDN博客）/ `cnblogs`（博客园）/ `bilibili`（B站）/ `wenku`（百度文库）/ `book118`（原创力文档）/ `questionbank`（题库站）/ `zhidao`（百度知道）/ `aggregator`（内容农场）/ `career`（求职辅导）/ `manual`（手动） |
 | interview.sourceStatus | `complete` / `partial` / `manual_required` / `blocked`（复用 job 的 SOURCE_STATUSES） |
 | interview.result | `offer`（拿到Offer）/ `no_offer`（未通过）/ `in_progress`（进行中）/ `unknown`（未知） |
-| interview.difficulty | `easy`（简单）/ `medium`（中等）/ `hard`（困难）/ `unknown`（未知） |
 
 **sourceStatus 语义（与 job.fetchStatus 不同，务必分清）**：
 - `complete` 只表示"帖子正文被完整读到、题目细节齐全"，**不表示内容经公司/官方核实**。
@@ -27,9 +26,13 @@
     { "name": "一面", "content": "自我介绍 + 概率题：掷骰子直到出现6的期望次数", "date": "2026-07" },
     { "name": "二面", "content": "手撕二叉树层序遍历，追问红黑树" }
   ],
+  "questions": [
+    { "round": "一面", "date": "2026-07", "text": "自我介绍" },
+    { "round": "一面", "text": "概率题：掷骰子直到出现6的期望次数" },
+    { "round": "二面", "text": "手撕二叉树层序遍历，追问红黑树" }
+  ],
   "summary": "整体感受：两轮技术面，偏概率统计与脑筋急转弯。",
   "result": "unknown",
-  "difficulty": "medium",
   "source": "nowcoder",
   "sourceUrl": "https://www.nowcoder.com/discuss/xxxxx",
   "sourceTitle": "九坤量化实习面经",
@@ -46,8 +49,9 @@
 - `companyId`：**必须已在 `data/companies.json` 中存在**。库内为主（63 家公司优先）；确属新公司时，先向用户确认公司类型（公募/私募/券商），再用 fund-quant-job-research 的 `merge_and_write.mjs` 把公司写进 companies.json，再写面试经历。
 - `jobTitle`：面试的岗位名（按帖子描述，不必与库内 job 完全同名）。
 - `rounds[]`：每轮必填 `name`（如"一面/HR面/笔试"）与 `content`（该轮主要题目/内容）；`date` 可选。**只能写帖子里确实出现的内容，不能脑补**。
+- `questions[]`（可选）：从各轮 `content` 里拆出的逐条题目，每项 `{ round, date?, text }`（`round` 沿用所属轮次的 `name`，`text` 为一条题目的原文；`date` 从该轮继承）。详情页会逐条展示；缺失时前端降级为把 `rounds` 整段展示，所以**可拆则拆、拆不清楚就整段放进一条**（题库站/叙述类内容保持 1 条）。只能从原文拆，不能脑补题号或补充内容。
 - `summary`：整体感受的短摘要（可选但建议）。
-- `result`/`difficulty`：帖子有明确说法才填；说不清就 `unknown`。
+- `result`：帖子有明确说法才填；说不清就 `unknown`。
 - `source`/`sourceUrl`：来源平台 + **真实帖子 URL（必填）**。`sourceUrl` 不能是 `example.com` 占位——这是证据链核心，绝不编造。
 - `sourceTitle`：帖子标题（用于列表展示，可选）。
 - `collectedAt`：本 skill 抓取整理日期（今日）。

@@ -1,7 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import { useCompanies, useInterview } from '../hooks/useApi'
 import {
-  InterviewDifficultyBadge,
   InterviewResultBadge,
   InterviewSourceBadge,
   SourceBadge,
@@ -33,6 +32,11 @@ export default function InterviewDetailPage() {
 
   const company = companiesQ.data?.find((c) => c.id === interview.companyId) ?? null
 
+  // 逐条题目优先用 questions；未来 skill 新写条目未拆题时降级为每轮整段。
+  const questions = interview.questions?.length
+    ? interview.questions
+    : interview.rounds.map((r) => ({ round: r.name, date: r.date, text: r.content }))
+
   return (
     <section>
       <Link to="/interviews" className="link">
@@ -44,7 +48,7 @@ export default function InterviewDetailPage() {
           {company?.name ?? interview.companyName ?? '未知公司'} · {interview.jobTitle}
         </h1>
         <p className="sub">
-          <InterviewResultBadge result={interview.result} /> <InterviewDifficultyBadge difficulty={interview.difficulty} />
+          <InterviewResultBadge result={interview.result} />
         </p>
       </div>
 
@@ -82,33 +86,19 @@ export default function InterviewDetailPage() {
       </div>
 
       <div className="card detail-card">
-        <h3>面试轮次（{interview.rounds.length}）</h3>
+        <h3>面试题目（{questions.length}）</h3>
         <div className="iv-rounds">
-          {interview.rounds.map((r, i) => (
+          {questions.map((q, i) => (
             <div key={i} className="iv-round">
               <div className="iv-round-head">
-                <span className="iv-round-name">{r.name}</span>
-                {r.date && <span className="muted small">{r.date}</span>}
+                <span className="iv-round-name">{q.round}</span>
+                {q.date && <span className="muted small">{q.date}</span>}
               </div>
-              <p className="iv-round-content pre-line">{r.content}</p>
+              <p className="iv-round-content pre-line">{q.text}</p>
             </div>
           ))}
         </div>
       </div>
-
-      {interview.summary && (
-        <div className="card detail-card">
-          <h3>整体感受</h3>
-          <p className="pre-line">{interview.summary}</p>
-        </div>
-      )}
-
-      {interview.notes && (
-        <div className="card detail-card">
-          <h3>备注</h3>
-          <p className="muted pre-line">{interview.notes}</p>
-        </div>
-      )}
     </section>
   )
 }

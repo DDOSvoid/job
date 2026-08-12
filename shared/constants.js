@@ -79,15 +79,38 @@ export const APPLICATION_STAGE_LABELS = {
 
 export const COMPANY_SOURCES = ['example', 'skill', 'manual']
 
-// 面试经历（interview）：来源平台 / 结果 / 难度
-export const INTERVIEW_SOURCES = ['xiaohongshu', 'nowcoder', 'zhihu', '1point3acres', 'forum', 'manual']
+// 面试经历（interview）：来源平台（论坛已按平台细分）/ 结果
+export const INTERVIEW_SOURCES = [
+  'xiaohongshu',
+  'nowcoder',
+  'zhihu',
+  '1point3acres',
+  'csdn',
+  'cnblogs',
+  'bilibili',
+  'wenku',
+  'book118',
+  'questionbank',
+  'zhidao',
+  'aggregator',
+  'career',
+  'manual',
+]
 
 export const INTERVIEW_SOURCE_LABELS = {
   xiaohongshu: '小红书',
   nowcoder: '牛客',
   zhihu: '知乎',
   '1point3acres': '一亩三分地',
-  forum: '论坛',
+  csdn: 'CSDN博客',
+  cnblogs: '博客园',
+  bilibili: 'B站',
+  wenku: '百度文库',
+  book118: '原创力文档',
+  questionbank: '题库站',
+  zhidao: '百度知道',
+  aggregator: '内容农场',
+  career: '求职辅导',
   manual: '手动',
 }
 
@@ -97,14 +120,5 @@ export const INTERVIEW_RESULT_LABELS = {
   offer: '拿到Offer',
   no_offer: '未通过',
   in_progress: '进行中',
-  unknown: '未知',
-}
-
-export const INTERVIEW_DIFFICULTY = ['easy', 'medium', 'hard', 'unknown']
-
-export const INTERVIEW_DIFFICULTY_LABELS = {
-  easy: '简单',
-  medium: '中等',
-  hard: '困难',
   unknown: '未知',
 }

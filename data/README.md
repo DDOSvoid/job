@@ -98,9 +98,12 @@
   "rounds": [
     { "name": "一面", "content": "自我介绍 + 概率题", "date": "2026-07" }
   ],
+  "questions": [
+    { "round": "一面", "date": "2026-07", "text": "自我介绍" },
+    { "round": "一面", "text": "概率题：掷骰子直到出现6的期望次数" }
+  ],
   "summary": "两轮技术面，偏概率统计。",
   "result": "unknown",
-  "difficulty": "medium",
   "source": "nowcoder",
   "sourceUrl": "https://www.nowcoder.com/discuss/xxxxx",
   "sourceTitle": "九坤量化实习面经",
@@ -112,9 +115,10 @@
 ```
 
 - `rounds[]` 每轮含 `name`（如"一面"）与 `content`（该轮主要题目/内容），`date` 可选。
-- `source`: `xiaohongshu`（小红书）| `nowcoder`（牛客）| `zhihu`（知乎）| `1point3acres`（一亩三分地）| `forum`（论坛）| `manual`（手动）
+- `questions[]` 可选：从各轮 `content` 拆出的逐条题目，每项 `{ round, date?, text }`；详情页逐条展示，缺失时降级用 `rounds` 整段展示。
+- `source`: `xiaohongshu`（小红书）| `nowcoder`（牛客）| `zhihu`（知乎）| `1point3acres`（一亩三分地）| `csdn`（CSDN博客）| `cnblogs`（博客园）| `bilibili`（B站）| `wenku`（百度文库）| `book118`（原创力文档）| `questionbank`（题库站）| `zhidao`（百度知道）| `aggregator`（内容农场）| `career`（求职辅导）| `manual`（手动）
 - `sourceStatus`: `complete`（正文完整读到）| `partial` | `manual_required` | `blocked`（登录墙）——**注意它只表示"帖子正文读到多少"，不代表内容经官方核实**；社区面经是发帖人自述。
-- `result`: `offer` | `no_offer` | `in_progress` | `unknown`；`difficulty`: `easy` | `medium` | `hard` | `unknown`
+- `result`: `offer` | `no_offer` | `in_progress` | `unknown`
 - `sourceUrl` 必填且为真实帖子 URL；`companyId` 必须已存在于 companies.json。
 
 ## 编辑约定

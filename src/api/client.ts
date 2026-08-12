@@ -42,7 +42,6 @@ export interface JobFilters {
 export interface InterviewFilters {
   companyId?: string
   result?: string
-  difficulty?: string
   source?: string
 }
 

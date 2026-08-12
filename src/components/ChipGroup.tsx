@@ -12,7 +12,7 @@ interface ChipGroupProps<T extends string> {
 
 /**
  * 多选筛选：一组可点击切换的胶囊 chip。空数组 = 不过滤（全选）。
- * 用于取值较少的枚举筛选（类型/秋招状态/进展/结果/难度/来源等）。
+ * 用于取值较少的枚举筛选（类型/秋招状态/进展/结果/来源等）。
  */
 export default function ChipGroup<T extends string>({ label, options, values, onChange }: ChipGroupProps<T>) {
   const toggle = (v: T) => {

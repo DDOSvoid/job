@@ -1,6 +1,6 @@
 ---
 name: interview-experience-research
-description: 从网络社区（小红书、牛客、知乎、论坛等）搜集量化岗位（量化研究员、量化开发、量化实习等）的面试经历/面经，提取公司、岗位、面试轮次、主要题目、结果、难度、来源链接，输出中文调研报告，并按 schema 写入 D:\workspace\job\data\interviews.json（招聘记录网站的"面试经历"板块）。当用户提到"面试经历""面经""面试题""X 的面试分享""小红书/牛客上的量化面试""查一下某公司的面试流程"等，或要求搜集/更新面试经历数据时，务必使用本技能；公司别名（九坤/Ubiquant、幻方/High-Flyer、明汯等）也应触发。
+description: 从网络社区（小红书、牛客、知乎、各平台论坛等）搜集量化岗位（量化研究员、量化开发、量化实习等）的面试经历/面经，提取公司、岗位、面试轮次、逐条面试题目、结果、来源链接，输出中文调研报告，并按 schema 写入 D:\workspace\job\data\interviews.json（招聘记录网站的"面试经历"板块）。当用户提到"面试经历""面经""面试题""X 的面试分享""小红书/牛客上的量化面试""查一下某公司的面试流程"等，或要求搜集/更新面试经历数据时，务必使用本技能；公司别名（九坤/Ubiquant、幻方/High-Flyer、明汯等）也应触发。
 ---
 
 # 面试经历调研（interview-experience-research）
@@ -19,7 +19,7 @@ description: 从网络社区（小红书、牛客、知乎、论坛等）搜集�
 
 1. **归一化公司**：确定 `companyId`（必须已在 companies.json 中；新公司先确认类型、写库）。
 2. **搜索来源**：按 `references/interview-sources.md` 的查询模板找帖子。牛客/其他论坛用 WebSearch；**知乎用 `scripts/zhihu_cdp.py --json search "<查询>"`**、**小红书用 `scripts/xiaohongshu_cdp.py --json search "<查询>"`**（均需用户已登录对应平台 CDP；返回真实结果 URL 列表，优先于对应 site: 的 WebSearch 摘要）。
-3. **读正文提取**：读帖子正文。牛客等可用 WebFetch；**知乎用 `scripts/zhihu_cdp.py --json read "<url>"`**、**小红书用 `scripts/xiaohongshu_cdp.py --json read "<url>"`**（返回渲染后正文，含轮次/题目/作者/时间；小红书返回 `date`、`tags`、`author`）。提取岗位、轮次（`name`/`content`/`date`）、结果、难度、帖子标题与原始 URL。
+3. **读正文提取**：读帖子正文。牛客等可用 WebFetch；**知乎用 `scripts/zhihu_cdp.py --json read "<url>"`**、**小红书用 `scripts/xiaohongshu_cdp.py --json read "<url>"`**（返回渲染后正文，含轮次/题目/作者/时间；小红书返回 `date`、`tags`、`author`）。提取岗位、轮次（`name`/`content`/`date`）、逐条题目（`questions[]`，从轮次内容里拆）、结果、帖子标题与原始 URL。
 4. **聚合 `sourceStatus`**：按降级规则（见下）。
 5. **输出可读报告**（固定模板）。
 6. **写盘**：把 interview 条目组成 payload（`{ "interviews": [...] }`），用 `scripts/merge_and_write_interviews.mjs` 合并写盘。该脚本只写 interviews.json；需要新增公司时先用 fund-quant-job-research 的 `merge_and_write.mjs` 把公司写进 companies.json。
@@ -43,7 +43,7 @@ description: 从网络社区（小红书、牛客、知乎、论坛等）搜集�
 公司 / companyId / 找到的帖子数 / 各来源命中情况
 
 ## 二、面经汇总表
-| 岗位 | 轮次概要 | 结果 | 难度 | 来源平台 | 原文链接 |
+| 岗位 | 轮次概要 | 结果 | 来源平台 | 原文链接 |
 
 ## 三、分来源详情
 ### 牛客

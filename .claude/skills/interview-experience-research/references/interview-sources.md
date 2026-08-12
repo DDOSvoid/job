@@ -25,7 +25,7 @@
 | 其他论坛（力扣讨论、CSDN、虎扑等） | 看具体站点 | 视情况 |
 | 微信公众号 | 面试经历有时发在公众号 | 视情况 |
 
-一亩三分地的帖子 `source` 用专用值 `1point3acres`（不是 `forum`）。
+一亩三分地的帖子 `source` 用专用值 `1point3acres`。来源按具体平台细分：CSDN → `csdn`、博客园 → `cnblogs`、B站 → `bilibili`、百度文库 → `wenku`、原创力文档 → `book118`、题库站（如 zcmima）→ `questionbank`、百度知道 → `zhidao`、淘宝书店等聚合页 → `aggregator`、求职辅导类 → `career`。
 
 ## 知乎（`zhihu_cdp.py` —— 用户自己的 Edge 登录态）
 

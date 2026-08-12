@@ -9,7 +9,6 @@ import {
   APPLICATION_STAGES,
   INTERVIEW_SOURCES,
   INTERVIEW_RESULTS,
-  INTERVIEW_DIFFICULTY,
 } from '../shared/constants.js'
 import { readCollection } from './store.js'
 
@@ -86,8 +85,16 @@ export function validateInterview(i, { companies }) {
       if (r?.date !== undefined && !/^\d{4}(?:-\d{2}(?:-\d{2})?|春招|秋招|春|秋)?$/.test(r.date)) errors.push(`rounds[${idx}].date 格式应为 YYYY / YYYY-MM / YYYY-MM-DD 或 YYYY春招/秋招`)
     })
   if (i?.result !== undefined && !inEnum(i.result, INTERVIEW_RESULTS)) errors.push('result 非法')
-  if (i?.difficulty !== undefined && !inEnum(i.difficulty, INTERVIEW_DIFFICULTY)) errors.push('difficulty 非法')
   if (i?.source && !inEnum(i.source, INTERVIEW_SOURCES)) errors.push('source 非法')
+  if (i?.questions !== undefined) {
+    if (!Array.isArray(i.questions)) errors.push('questions 必须是数组')
+    else
+      i.questions.forEach((q, idx) => {
+        if (!isStr(q?.text)) errors.push(`questions[${idx}].text 缺失`)
+        if (q?.date !== undefined && !/^\d{4}(?:-\d{2}(?:-\d{2})?|春招|秋招|春|秋)?$/.test(q.date))
+          errors.push(`questions[${idx}].date 格式应为 YYYY / YYYY-MM / YYYY-MM-DD 或 YYYY春招/秋招`)
+      })
+  }
   if (i?.sourceStatus && !inEnum(i.sourceStatus, SOURCE_STATUSES)) errors.push('sourceStatus 非法')
   if (i?.sourceUrl !== undefined && typeof i.sourceUrl !== 'string') errors.push('sourceUrl 必须是字符串')
   if (i?.collectedAt !== undefined && !DATE_RE.test(i.collectedAt)) errors.push('collectedAt 格式应为 YYYY-MM-DD')
