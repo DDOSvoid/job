@@ -1,6 +1,9 @@
 # Dependencies
 node_modules/
 
+# Scratch / one-off scripts
+tmp/
+
 # Build output
 dist/
 dist-ssr/
