@@ -6,6 +6,7 @@ import type {
   InterviewResult,
   InterviewSource,
   JobSource,
+  QuestionCategory,
   RecruitmentType,
   SourceStatus,
 } from '../types'
@@ -17,6 +18,7 @@ import {
   INTERVIEW_RESULT_LABELS,
   INTERVIEW_SOURCE_LABELS,
   JOB_SOURCE_LABELS,
+  QUESTION_CATEGORY_LABELS,
   RECRUITMENT_TYPE_LABELS,
   SOURCE_STATUS_LABELS,
 } from '../constants'
@@ -60,7 +62,13 @@ const sourceTone: Record<SourceStatus, Tone> = {
   manual_required: 'neutral',
   blocked: 'danger',
 }
-const sourceTypeTone: Record<JobSource, Tone> = { official: 'info', boss: 'purple', wechat: 'warning', manual: 'neutral' }
+const sourceTypeTone: Record<JobSource | 'secondary', Tone> = {
+  official: 'info',
+  boss: 'purple',
+  wechat: 'warning',
+  manual: 'neutral',
+  secondary: 'neutral',
+}
 const recruitmentTypeTone: Record<RecruitmentType, Tone> = {
   campus: 'info',
   social: 'warning',
@@ -72,6 +80,17 @@ const interviewResultTone: Record<InterviewResult, Tone> = {
   no_offer: 'danger',
   in_progress: 'warning',
   unknown: 'neutral',
+}
+const questionCategoryTone: Record<QuestionCategory, Tone> = {
+  probability: 'info',
+  machine_learning: 'purple',
+  algo: 'info',
+  portfolio: 'hedge',
+  dev: 'tech',
+  system_design: 'sec',
+  hr: 'neutral',
+  brainteaser: 'warning',
+  other: 'neutral',
 }
 const interviewSourceTone: Record<InterviewSource, Tone> = {
   xiaohongshu: 'purple',
@@ -122,7 +141,7 @@ export function SourceBadge({ status }: { status: SourceStatus }) {
   )
 }
 
-export function SourceTypeBadge({ type }: { type: JobSource }) {
+export function SourceTypeBadge({ type }: { type: JobSource | 'secondary' }) {
   return (
     <span className={toneClass(sourceTypeTone[type])} title="信息来源">
       {JOB_SOURCE_LABELS[type]}
@@ -147,6 +166,14 @@ export function InterviewSourceBadge({ source }: { source: InterviewSource }) {
   return (
     <span className={toneClass(interviewSourceTone[source])} title="信息来源">
       {INTERVIEW_SOURCE_LABELS[source]}
+    </span>
+  )
+}
+
+export function QuestionCategoryBadge({ category }: { category: QuestionCategory }) {
+  return (
+    <span className={toneClass(questionCategoryTone[category])} title="题目分类">
+      {QUESTION_CATEGORY_LABELS[category]}
     </span>
   )
 }

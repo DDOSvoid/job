@@ -4,10 +4,18 @@ import {
   AUTUMN_STATUS_LABELS,
   AUTUMN_STATUSES,
   COMPANY_TYPE_LABELS,
+  FETCH_STATUSES,
+  FETCH_STATUS_LABELS,
   RECRUITMENT_TYPE_LABELS,
   RECRUITMENT_TYPES,
 } from '../constants'
-import type { AutumnStatus, ApplicationStage, CompanyType, RecruitmentType } from '../types'
+import type {
+  AutumnStatus,
+  ApplicationStage,
+  CompanyType,
+  FetchStatus,
+  RecruitmentType,
+} from '../types'
 import ChipGroup from './ChipGroup'
 import MultiSelect from './MultiSelect'
 
@@ -27,6 +35,7 @@ export interface FilterState {
   autumn2026: AutumnStatus[]
   recruitmentType: RecruitmentType[]
   stage: ApplicationStage[]
+  fetchStatus: FetchStatus[]
   q: string
   sort: SortKey
 }
@@ -37,6 +46,7 @@ export const defaultFilters: FilterState = {
   autumn2026: [],
   recruitmentType: [],
   stage: [],
+  fetchStatus: [],
   q: '',
   sort: 'default',
 }
@@ -67,6 +77,7 @@ export function filtersToParams(filters: FilterState): URLSearchParams {
   if (filters.autumn2026.length) sp.set('autumn2026', filters.autumn2026.join(','))
   if (filters.recruitmentType.length) sp.set('recruitmentType', filters.recruitmentType.join(','))
   if (filters.stage.length) sp.set('stage', filters.stage.join(','))
+  if (filters.fetchStatus.length) sp.set('fetchStatus', filters.fetchStatus.join(','))
   if (filters.q) sp.set('q', filters.q)
   if (filters.sort !== 'default') sp.set('sort', filters.sort)
   return sp
@@ -80,6 +91,7 @@ export function paramsToFilters(sp: URLSearchParams): FilterState {
     autumn2026: parseList(sp, 'autumn2026', AUTUMN_STATUSES),
     recruitmentType: parseList(sp, 'recruitmentType', RECRUITMENT_TYPES),
     stage: parseList(sp, 'stage', APPLICATION_STAGES),
+    fetchStatus: parseList(sp, 'fetchStatus', FETCH_STATUSES),
     q: sp.get('q') ?? '',
     sort: parseParam(sp, 'sort', SORTS) || 'default',
   }
@@ -94,6 +106,7 @@ export interface FilterProps {
   showAutumn?: boolean
   showRecruitment?: boolean
   showStage?: boolean
+  showFetchStatus?: boolean
   total?: number
   unit?: string
 }
@@ -107,6 +120,7 @@ export default function FilterBar({
   showAutumn = true,
   showRecruitment = true,
   showStage,
+  showFetchStatus,
   total,
   unit = '条',
 }: FilterProps) {
@@ -117,6 +131,7 @@ export default function FilterBar({
     filters.autumn2026.length > 0 ||
     filters.recruitmentType.length > 0 ||
     filters.stage.length > 0 ||
+    filters.fetchStatus.length > 0 ||
     filters.q !== ''
   const reset = () => onChange(defaultFilters)
 
@@ -153,7 +168,7 @@ export default function FilterBar({
           </button>
         )}
       </div>
-      {(showCompany || showType || showAutumn || showRecruitment || showStage) && (
+      {(showCompany || showType || showAutumn || showRecruitment || showStage || showFetchStatus) && (
         <div className="filter-row">
           {showCompany && (
             <MultiSelect
@@ -195,6 +210,14 @@ export default function FilterBar({
               options={APPLICATION_STAGES.map((s) => ({ value: s, label: APPLICATION_STAGE_LABELS[s] }))}
               values={filters.stage}
               onChange={(v) => set({ stage: v })}
+            />
+          )}
+          {showFetchStatus && (
+            <ChipGroup
+              label="抓取"
+              options={FETCH_STATUSES.map((s) => ({ value: s, label: FETCH_STATUS_LABELS[s] }))}
+              values={filters.fetchStatus}
+              onChange={(v) => set({ fetchStatus: v })}
             />
           )}
         </div>

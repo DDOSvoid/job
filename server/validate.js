@@ -9,6 +9,7 @@ import {
   APPLICATION_STAGES,
   INTERVIEW_SOURCES,
   INTERVIEW_RESULTS,
+  QUESTION_CATEGORIES,
 } from '../shared/constants.js'
 import { readCollection } from './store.js'
 
@@ -28,6 +29,14 @@ export function validateCompany(c) {
   if (!isStr(c?.name)) errors.push('name 缺失')
   if (!inEnum(c?.type, COMPANY_TYPES)) errors.push(`type 必须是 ${COMPANY_TYPES.join('/')}`)
   if (c?.source && !inEnum(c.source, COMPANY_SOURCES)) errors.push('source 非法')
+  if (c?.sources !== undefined) {
+    if (!Array.isArray(c.sources)) errors.push('sources 必须是数组')
+    else
+      c.sources.forEach((s, i) => {
+        if (!isStr(s?.url)) errors.push(`sources[${i}].url 缺失`)
+        if (!inEnum(s?.status, SOURCE_STATUSES)) errors.push(`sources[${i}].status 非法`)
+      })
+  }
   return errors
 }
 
@@ -42,14 +51,13 @@ export function validateJob(j, { companies }) {
   if (j?.autumn2026 && !inEnum(j.autumn2026, AUTUMN_STATUS)) errors.push('autumn2026 非法')
   if (j?.recruitmentType != null && !inEnum(j.recruitmentType, RECRUITMENT_TYPES)) errors.push('recruitmentType 非法')
   if (j?.salary !== undefined && typeof j.salary !== 'string') errors.push('salary 必须是字符串')
-  if (j?.sources !== undefined) {
-    if (!Array.isArray(j.sources)) errors.push('sources 必须是数组')
-    else
-      j.sources.forEach((s, i) => {
-        if (!isStr(s?.url)) errors.push(`sources[${i}].url 缺失`)
-        if (!inEnum(s?.status, SOURCE_STATUSES)) errors.push(`sources[${i}].status 非法`)
-      })
-  }
+  if (!Array.isArray(j?.sources) || j.sources.length !== 1) {
+    errors.push('sources 必须恰好 1 条（一岗一来源）')
+  } else
+    j.sources.forEach((s, i) => {
+      if (!isStr(s?.url)) errors.push(`sources[${i}].url 缺失`)
+      if (!inEnum(s?.status, SOURCE_STATUSES)) errors.push(`sources[${i}].status 非法`)
+    })
   return errors
 }
 
@@ -98,5 +106,23 @@ export function validateInterview(i, { companies }) {
   if (i?.sourceStatus && !inEnum(i.sourceStatus, SOURCE_STATUSES)) errors.push('sourceStatus 非法')
   if (i?.sourceUrl !== undefined && typeof i.sourceUrl !== 'string') errors.push('sourceUrl 必须是字符串')
   if (i?.collectedAt !== undefined && !DATE_RE.test(i.collectedAt)) errors.push('collectedAt 格式应为 YYYY-MM-DD')
+  return errors
+}
+
+// 真实面试题目（question）：一条帖子可拆成多条题目记录，每条独立入库。
+// companyId 可空（null = 通用/汇总，帖子未点名公司）。
+export function validateQuestion(q, { companies }) {
+  const errors = []
+  if (!isStr(q?.id)) errors.push('id 缺失')
+  if (q?.companyId != null && !companies.some((c) => c.id === q.companyId))
+    errors.push(`companyId '${q.companyId}' 不存在`)
+  if (!inEnum(q?.category, QUESTION_CATEGORIES)) errors.push(`category 必须是 ${QUESTION_CATEGORIES.join('/')}`)
+  if (!isStr(q?.text)) errors.push('text 缺失')
+  if (q?.source && !inEnum(q.source, INTERVIEW_SOURCES)) errors.push('source 非法')
+  if (!isStr(q?.sourceUrl)) errors.push('sourceUrl 缺失')
+  if (q?.sourceStatus && !inEnum(q.sourceStatus, SOURCE_STATUSES)) errors.push('sourceStatus 非法')
+  if (q?.collectedAt !== undefined && !DATE_RE.test(q.collectedAt)) errors.push('collectedAt 格式应为 YYYY-MM-DD')
+  if (q?.sourceDate !== undefined && !/^\d{4}(?:-\d{2}(?:-\d{2})?)?$/.test(q.sourceDate))
+    errors.push('sourceDate 格式应为 YYYY / YYYY-MM / YYYY-MM-DD')
   return errors
 }

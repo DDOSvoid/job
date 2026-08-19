@@ -17,6 +17,7 @@ export const JOB_SOURCE_LABELS = {
   boss: 'Boss直聘',
   wechat: '微信公众号',
   manual: '手动',
+  secondary: '转载',
 }
 
 // 单条来源抓取状态（比 job.fetchStatus 多一个 blocked：登录墙/反爬拦住了）
@@ -112,6 +113,31 @@ export const INTERVIEW_SOURCE_LABELS = {
   aggregator: '内容农场',
   career: '求职辅导',
   manual: '手动',
+}
+
+// 真实面试题目（question）：题目分类；来源复用 INTERVIEW_SOURCES（同平台抓取）
+export const QUESTION_CATEGORIES = [
+  'probability',
+  'machine_learning',
+  'algo',
+  'portfolio',
+  'dev',
+  'system_design',
+  'hr',
+  'brainteaser',
+  'other',
+]
+
+export const QUESTION_CATEGORY_LABELS = {
+  probability: '数理统计',
+  machine_learning: '机器学习',
+  algo: '数据结构与算法',
+  portfolio: '投资组合/因子',
+  dev: '量化开发/C++',
+  system_design: '系统设计',
+  hr: 'HR/行为面',
+  brainteaser: '脑筋急转弯',
+  other: '其他',
 }
 
 export const INTERVIEW_RESULTS = ['offer', 'no_offer', 'in_progress', 'unknown']

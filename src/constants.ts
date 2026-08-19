@@ -7,6 +7,7 @@ import type {
   InterviewResult,
   InterviewSource,
   JobSource,
+  QuestionCategory,
   RecruitmentType,
   SourceStatus,
 } from './types'
@@ -18,11 +19,12 @@ export const COMPANY_TYPE_LABELS: Record<CompanyType, string> = {
   tech: '科技',
 }
 
-export const JOB_SOURCE_LABELS: Record<JobSource, string> = {
+export const JOB_SOURCE_LABELS: Record<JobSource | 'secondary', string> = {
   official: '官网',
   boss: 'Boss直聘',
   wechat: '微信公众号',
   manual: '手动',
+  secondary: '转载',
 }
 
 export const SOURCE_STATUS_LABELS: Record<SourceStatus, string> = {
@@ -32,11 +34,15 @@ export const SOURCE_STATUS_LABELS: Record<SourceStatus, string> = {
   blocked: '无法抓取',
 }
 
+export const SOURCE_STATUSES: SourceStatus[] = ['complete', 'partial', 'manual_required', 'blocked']
+
 export const FETCH_STATUS_LABELS: Record<FetchStatus, string> = {
   complete: '已抓取完整',
   partial: '部分抓取',
   manual_required: '需手动确认',
 }
+
+export const FETCH_STATUSES: FetchStatus[] = ['complete', 'partial', 'manual_required']
 
 export const AUTUMN_STATUS_LABELS: Record<AutumnStatus, string> = {
   open: '秋招已开启',
@@ -118,6 +124,30 @@ export const INTERVIEW_RESULT_LABELS: Record<InterviewResult, string> = {
 }
 
 export const INTERVIEW_RESULTS: InterviewResult[] = ['offer', 'no_offer', 'in_progress', 'unknown']
+
+export const QUESTION_CATEGORY_LABELS: Record<QuestionCategory, string> = {
+  probability: '数理统计',
+  machine_learning: '机器学习',
+  algo: '数据结构与算法',
+  portfolio: '投资组合/因子',
+  dev: '量化开发/C++',
+  system_design: '系统设计',
+  hr: 'HR/行为面',
+  brainteaser: '脑筋急转弯',
+  other: '其他',
+}
+
+export const QUESTION_CATEGORIES: QuestionCategory[] = [
+  'probability',
+  'machine_learning',
+  'algo',
+  'portfolio',
+  'dev',
+  'system_design',
+  'hr',
+  'brainteaser',
+  'other',
+]
 
 export function todayStr(): string {
   const d = new Date()

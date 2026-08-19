@@ -5,6 +5,7 @@ const navItems = [
   { to: '/', label: '岗位', end: true },
   { to: '/companies', label: '公司', end: false },
   { to: '/interviews', label: '面试', end: false },
+  { to: '/questions', label: '题目', end: false },
   { to: '/stats', label: '统计', end: false },
 ]
 

@@ -2,12 +2,13 @@
 
 本目录是网站数据的**唯一事实源**。前端只读、后端读写、`fund-quant-job-research` skill 直接写入。
 
-四个文件均为 JSON 数组：
+五个文件均为 JSON 数组：
 
 - `companies.json` —— 公司（公募/私募/券商）
 - `jobs.json` —— 岗位
 - `applications.json` —— 申请推进进程
 - `interviews.json` —— 面试经历（由 `interview-experience-research` skill 写入）
+- `questions.json` —— 真实面试题目（一条帖子拆成多条逐题记录，由 `interview-experience-research` skill 写入）
 
 ## company
 
@@ -27,6 +28,7 @@
 
 - `type`: `public`（公募）| `private`（私募）| `securities`（券商）
 - `source`: `example`（示例占位）| `skill`（skill 调研）| `manual`（手动）
+- `sources[]`（可选）：**公司级信息来源**——官网「加入我们」/招聘系统/公众号/校招公告转载等，按 url 去重。岗位自身最相关来源留在 `job.sources`，公司级渠道一律上移到公司（不要写进 job）。
 - 所有链接用 `https://example.com/...` 占位时，`about`/`notes` 需注明"示例/未核实"。
 
 ## job
@@ -66,7 +68,7 @@
 - `recruitmentType`: `campus`（校招）| `social`（社招）| `intern`（实习）| `unknown`（未知）——岗位招聘类型，由岗位自身文本关键词判定，无信号如实标 `unknown`
 - `fetchStatus`: `complete`（已抓取完整）| `partial`（部分抓取）| `manual_required`（需手动确认）
 - `salaryIsEstimate: true` 时 `salary` 必须以"示例"开头，界面会加黄标。
-- `sources[]` 是证据链，每条含来源类型、URL、抓取状态（`status` 可为 `complete`/`partial`/`manual_required`/`blocked`）与说明。**未核实的信息必须如实标注，禁止编造。**
+- `sources[]` 是**一岗一来源**：必须恰好 1 条，为该岗位最相关来源（岗位级招聘页/申请短链/点名该岗位的第三方帖子）。公司级渠道（官网/招聘系统/公众号/公告转载）不写进这里，而是进 `company.sources`。每条含来源类型、URL、抓取状态（`status` 可为 `complete`/`partial`/`manual_required`/`blocked`）与说明。**未核实的信息必须如实标注，禁止编造。**
 
 ## application
 
@@ -120,6 +122,32 @@
 - `sourceStatus`: `complete`（正文完整读到）| `partial` | `manual_required` | `blocked`（登录墙）——**注意它只表示"帖子正文读到多少"，不代表内容经官方核实**；社区面经是发帖人自述。
 - `result`: `offer` | `no_offer` | `in_progress` | `unknown`
 - `sourceUrl` 必填且为真实帖子 URL；`companyId` 必须已存在于 companies.json。
+
+## question
+
+```json
+{
+  "id": "q-20250930-efund-qresearch-01",
+  "companyId": "efund",
+  "jobTitle": "量化研究",
+  "category": "portfolio",
+  "text": "请解释因子投资的基本原理，以及常见的因子类型（如价值、成长、动量）。",
+  "source": "nowcoder",
+  "sourceUrl": "https://www.nowcoder.com/discuss/802558059049467904",
+  "sourceTitle": "易方达量化研究面经",
+  "sourceStatus": "complete",
+  "sourceDate": "2025-09-30",
+  "collectedAt": "2026-08-20",
+  "createdAt": "2026-08-20",
+  "updatedAt": "2026-08-20"
+}
+```
+
+- `companyId`：**必须存在于 companies.json，或为 `null`**（null = 通用/汇总题，帖子未点名具体公司，前端展示为"通用/汇总"）。
+- `category`: `probability`（数理统计）| `machine_learning`（机器学习）| `algo`（数据结构与算法）| `portfolio`（投资组合/因子）| `dev`（量化开发/C++）| `system_design`（系统设计）| `hr`（HR/行为面）| `brainteaser`（脑筋急转弯）| `other`（其他）
+- `source` / `sourceStatus` 与 interview 同枚举（`sourceStatus` 只表示题目读到多少，不代表官方核实）。
+- 一条帖子拆多条记录（追问独立成条、标注"（追问）"）；`companyHint`/`round`/`note` 可选。
+- `sourceUrl` 必填且为真实帖子 URL；`sourceDate` 允许 `YYYY-MM-DD` / `YYYY-MM` / `YYYY`。
 
 ## 编辑约定
 

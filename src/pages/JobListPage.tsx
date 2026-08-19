@@ -26,6 +26,7 @@ function applyFilters(
     if (filters.stage.length && (!appStage || !filters.stage.includes(appStage))) return false
     const rt = j.recruitmentType ?? 'unknown'
     if (filters.recruitmentType.length && !filters.recruitmentType.includes(rt)) return false
+    if (filters.fetchStatus.length && !filters.fetchStatus.includes(j.fetchStatus)) return false
     if (q) {
       const hay = `${j.title} ${info.name} ${j.description ?? ''} ${j.salary ?? ''}`.toLowerCase()
       if (!hay.includes(q)) return false
@@ -96,6 +97,7 @@ export default function JobListPage() {
         onChange={updateFilters}
         companies={companies.data ?? []}
         showStage
+        showFetchStatus
         total={filtered.length}
         unit="个岗位"
       />

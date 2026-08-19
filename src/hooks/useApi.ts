@@ -48,6 +48,18 @@ export function useInterview(id: string) {
   })
 }
 
+export function useQuestions() {
+  return useQuery({ queryKey: ['questions'], queryFn: () => api.getQuestions() })
+}
+
+export function useQuestion(id: string) {
+  return useQuery({
+    queryKey: ['question', id],
+    queryFn: () => api.getQuestion(id),
+    enabled: !!id,
+  })
+}
+
 // 变更后使相关查询失效，刷新界面
 function useInvalidate() {
   const qc = useQueryClient()
@@ -59,6 +71,8 @@ function useInvalidate() {
     qc.invalidateQueries({ queryKey: ['companies'] })
     qc.invalidateQueries({ queryKey: ['interviews'] })
     qc.invalidateQueries({ queryKey: ['interview'] })
+    qc.invalidateQueries({ queryKey: ['questions'] })
+    qc.invalidateQueries({ queryKey: ['question'] })
   }
 }
 

@@ -1955,3 +1955,74 @@ input.grow {
     transition: none;
   }
 }
+
+/* 真实面试题目列表（question 卡片） */
+.q-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.q-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.q-main {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.q-main .badge {
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.q-text {
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--text);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.q-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}
+
+.q-company {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.q-hint {
+  font-size: 0.8rem;
+}
+
+.q-source {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.q-source-title {
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.q-date {
+  margin-left: auto;
+}

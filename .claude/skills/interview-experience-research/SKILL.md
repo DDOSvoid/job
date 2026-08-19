@@ -1,13 +1,13 @@
 ---
 name: interview-experience-research
-description: 从网络社区（小红书、牛客、知乎、各平台论坛等）搜集量化岗位（量化研究员、量化开发、量化实习等）的面试经历/面经，提取公司、岗位、面试轮次、逐条面试题目、结果、来源链接，输出中文调研报告，并按 schema 写入 D:\workspace\job\data\interviews.json（招聘记录网站的"面试经历"板块）。当用户提到"面试经历""面经""面试题""X 的面试分享""小红书/牛客上的量化面试""查一下某公司的面试流程"等，或要求搜集/更新面试经历数据时，务必使用本技能；公司别名（九坤/Ubiquant、幻方/High-Flyer、明汯等）也应触发。
+description: 从网络社区（小红书、牛客、知乎、各平台论坛等）搜集量化岗位（量化研究员、量化开发、量化实习等）的面试经历/面经，提取公司、岗位、面试轮次、逐条面试题目、结果、来源链接，输出中文调研报告，并按 schema 写入 D:\workspace\job\data\interviews.json（招聘记录网站的"面试经历"板块）和 D:\workspace\job\data\questions.json（"真实面试题目"题库，一条帖子拆成多条逐题记录，跨公司/按分类筛选）。当用户提到"面试经历""面经""面试题""真实面试题目""题库""X 的面试分享""小红书/牛客上的量化面试""查一下某公司的面试流程"等，或要求搜集/更新面试经历与题目数据时，务必使用本技能；公司别名（九坤/Ubiquant、幻方/High-Flyer、明汯等）也应触发。
 ---
 
 # 面试经历调研（interview-experience-research）
 
 ## 目标与边界
 
-**目标**：为给定公司/岗位从社区帖子搜集真实的量化面试经历，产出（1）中文调研报告（2）schema 合规的 `interview` JSON 条目，按 id upsert 合并进 `data/interviews.json`（数据目录可用 `QUANT_JOB_DATA_DIR` 环境变量覆盖，便于沙盒/测试）。
+**目标**：为给定公司/岗位从社区帖子搜集真实的量化面试经历，产出（1）中文调研报告（2）schema 合规的 `interview` JSON 条目（按 id upsert 合并进 `data/interviews.json`）与（3）逐条 `question` 条目（一条帖子拆成多条题目，合并进 `data/questions.json`）。数据目录可用 `QUANT_JOB_DATA_DIR` 环境变量覆盖，便于沙盒/测试。
 
 **边界**：只读社区公开或**用户已登录账号可见**的内容；**不绕过任何登录墙或反爬机制**（牛客等正文需登录时，禁止抓包、伪造 UA、Cookie 提取、付费墙绕过——拿不到就降级）。**知乎/小红书例外（与 fund-quant 的 boss-agent-cli 同模式）**：`scripts/zhihu_cdp.py` / `scripts/xiaohongshu_cdp.py` 驱动**用户自己登录的 Edge**（CDP）读正文——真实浏览器自己算签名、带真实 UA 与 cookie，不逆向、不伪装、不提取 cookie 值（登录态只做布尔判断）；只读用户登录后可见的页面、低频率访问（工具内置节流+单实例锁），知乎/小红书触发验证/风控立即停手降级 `blocked`。**绝不编造**题目/轮次/结果/日期/URL——正文读不到就如实标 `partial`/`blocked`/`manual_required` 并保留来源链接，报告清单加 `[TODO]`。这条边界是硬性的——面经的价值在于可信，编造的题目只会误导用户。
 
@@ -19,12 +19,13 @@ description: 从网络社区（小红书、牛客、知乎、各平台论坛等�
 
 1. **归一化公司**：确定 `companyId`（必须已在 companies.json 中；新公司先确认类型、写库）。
 2. **搜索来源**：按 `references/interview-sources.md` 的查询模板找帖子。牛客/其他论坛用 WebSearch；**知乎用 `scripts/zhihu_cdp.py --json search "<查询>"`**、**小红书用 `scripts/xiaohongshu_cdp.py --json search "<查询>"`**（均需用户已登录对应平台 CDP；返回真实结果 URL 列表，优先于对应 site: 的 WebSearch 摘要）。
-3. **读正文提取**：读帖子正文。牛客等可用 WebFetch；**知乎用 `scripts/zhihu_cdp.py --json read "<url>"`**、**小红书用 `scripts/xiaohongshu_cdp.py --json read "<url>"`**（返回渲染后正文，含轮次/题目/作者/时间；小红书返回 `date`、`tags`、`author`）。提取岗位、轮次（`name`/`content`/`date`）、逐条题目（`questions[]`，从轮次内容里拆）、结果、帖子标题与原始 URL。
-4. **聚合 `sourceStatus`**：按降级规则（见下）。
-5. **输出可读报告**（固定模板）。
-6. **写盘**：把 interview 条目组成 payload（`{ "interviews": [...] }`），用 `scripts/merge_and_write_interviews.mjs` 合并写盘。该脚本只写 interviews.json；需要新增公司时先用 fund-quant-job-research 的 `merge_and_write.mjs` 把公司写进 companies.json。
+3. **读正文提取**：读帖子正文。牛客等可用 WebFetch；**知乎用 `scripts/zhihu_cdp.py --json read "<url>"`**、**小红书用 `scripts/xiaohongshu_cdp.py --json read "<url>"`**（返回渲染后正文，含轮次/题目/作者/时间；小红书返回 `date`、`tags`、`author`）。提取岗位、轮次（`name`/`content`/`date`）、逐条题目、结果、帖子标题与原始 URL。
+4. **拆题目**：从正文把**每道独立题目各成一条 `question` 记录**（追问单独成条、标注"（追问）"；帖子未点名公司 → `companyId: null` 通用题；图片题/付费墙读不到就降级不编造）。详见 `references/question-schema.md`。
+5. **聚合 `sourceStatus`**：按降级规则（见下）。
+6. **输出可读报告**（固定模板）。
+7. **写盘**：把 interview 条目组成 payload（`{ "interviews": [...] }`）用 `scripts/merge_and_write_interviews.mjs` 合并写盘；把 question 条目组成 payload（`{ "questions": [...] }`）用 `scripts/merge_and_write_questions.mjs` 合并写盘。两个脚本各自只写自己的文件；需要新增公司时先用 fund-quant-job-research 的 `merge_and_write.mjs` 把公司写进 companies.json。
 
-来源策略、降级规则与链接卫生在 `references/interview-sources.md`，动手前先读它；字段定义与枚举在 `references/interview-schema.md`，写盘前对照。
+来源策略、降级规则与链接卫生在 `references/interview-sources.md`，动手前先读它；interview 字段定义与枚举在 `references/interview-schema.md`，question 字段定义与拆分规则在 `references/question-schema.md`，写盘前分别对照。
 
 ## 提取与降级要点
 
@@ -33,6 +34,7 @@ description: 从网络社区（小红书、牛客、知乎、各平台论坛等�
 - 降级判定：正文完整 → `complete`；只有摘要/标题 → `partial`；登录墙/验证墙 → `blocked`；搜不到 → 不写条目。
 - `sourceUrl` 必填且必须是真实原始帖子 URL——绝不编造、不用 example.com 占位。
 - 同岗位多条帖子 → 多条不同 id 的 interview；帖子内容矛盾时各自记录、notes 互注存疑。
+- **题库记录（questions.json）逐题入库**：一条帖子拆多条，`id` 用 `q-<yyyymmdd>-<slug>-<nn>`；题目有公司归属填 `companyId`，未点名公司填 `null`（通用题）；追问独立成条；正文读不到题目（图片/付费墙）绝不硬编——标 `partial` + `note` 说明差什么。
 
 ## 输出 1：可读报告（固定模板）
 
@@ -61,21 +63,27 @@ description: 从网络社区（小红书、牛客、知乎、各平台论坛等�
 
 ## 输出 2：结构化 JSON（写盘）
 
-- 字段完全遵循 `references/interview-schema.md`，写盘前必须对照。
-- payload 只含 `interviews`：
+- interview 字段完全遵循 `references/interview-schema.md`，question 字段完全遵循 `references/question-schema.md`，写盘前分别对照。
+- interview payload 只含 `interviews`：
   ```bash
   node <skill-dir>/scripts/merge_and_write_interviews.mjs "${QUANT_JOB_DATA_DIR:-D:\workspace\job\data}" <payload.json>
   ```
-- 若需新增公司：先 `node <fund-quant-skill>/scripts/merge_and_write.mjs ...` 写入该公司，再合并 interviews。
-- 写盘后提示用户到网站"面试"板块点刷新查看新条目。
+- question payload 只含 `questions`：
+  ```bash
+  node <skill-dir>/scripts/merge_and_write_questions.mjs "${QUANT_JOB_DATA_DIR:-D:\workspace\job\data}" <payload.json>
+  ```
+- 若需新增公司：先 `node <fund-quant-skill>/scripts/merge_and_write.mjs ...` 写入该公司，再合并 interviews / questions。
+- 写盘后提示用户到网站"面试"/"题目"板块点刷新查看新条目。
 
 ## 参考资料
 
-- `references/interview-schema.md` —— 字段定义、取值枚举、合并约定、反例（写盘前必读）
+- `references/interview-schema.md` —— interview 字段定义、取值枚举、合并约定、反例（写盘前必读）
+- `references/question-schema.md` —— question 字段定义、枚举、**逐题拆分规则**、合并约定、反例（写盘前必读）
 - `references/interview-sources.md` —— 查询模板、各来源降级、链接卫生
 
 ## 辅助脚本（scripts/）
 
-- `merge_and_write_interviews.mjs` —— 把调研结果按 schema 合并写盘（只写 interviews.json，校验 companyId/rounds/sourceUrl）
+- `merge_and_write_interviews.mjs` —— 合并写盘 interview（只写 interviews.json，校验 companyId/rounds/sourceUrl）
+- `merge_and_write_questions.mjs` —— 合并写盘 question（只写 questions.json，校验 companyId 存在或 null/category/text/sourceUrl/sourceStatus，从 shared/constants.js 取枚举；原子写回）
 - `zhihu_cdp.py` —— 知乎正文读取工具（CDP 驱动用户自己的 Edge；命令 status/search/read/launch，见 `references/interview-sources.md` 的知乎章节）。**前置**：用户先 `launch` 并在弹出的 Edge 里登录 zhihu.com 一次。
 - `xiaohongshu_cdp.py` —— 小红书笔记读取工具（同模式；命令 status/search/read/probe/launch，见 `references/interview-sources.md` 的小红书章节）。**前置**：用户先 `launch` 并在弹出的 Edge 里登录 xiaohongshu.com 一次。小红书正文优先读 `__INITIAL_STATE__`（Vue Ref 需解包），`read` 返回 `date`/`author`/`tags`。

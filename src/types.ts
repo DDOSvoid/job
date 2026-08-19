@@ -28,6 +28,16 @@ export type InterviewSource =
   | 'career'
   | 'manual'
 export type InterviewResult = 'offer' | 'no_offer' | 'in_progress' | 'unknown'
+export type QuestionCategory =
+  | 'probability'
+  | 'machine_learning'
+  | 'algo'
+  | 'portfolio'
+  | 'dev'
+  | 'system_design'
+  | 'hr'
+  | 'brainteaser'
+  | 'other'
 
 export interface Company {
   id: string
@@ -40,10 +50,15 @@ export interface Company {
   createdAt: string
   updatedAt: string
   jobCount?: number
+  /** 公司级信息来源（官网/招聘系统/公众号/公告转载等），按 url 去重 */
+  sources?: SourceItem[]
 }
 
+/** 来源条目类型：official/boss/wechat/manual 之外，转载聚合（牛企/upjianli 等）记作 secondary */
+export type SourceItemType = JobSource | 'secondary'
+
 export interface SourceItem {
-  type: JobSource
+  type: SourceItemType
   title: string
   url: string
   accessedAt: string
@@ -66,6 +81,7 @@ export interface Job {
   recruitmentType?: RecruitmentType
   source: JobSource
   fetchStatus: FetchStatus
+  /** 一岗一来源：恰好 1 条，为该岗位最相关来源 */
   sources: SourceItem[]
   notes?: string
   createdAt: string
@@ -131,5 +147,33 @@ export interface Interview {
 }
 
 export interface InterviewDetail extends Interview {
+  company: Company | null
+}
+
+export interface Question {
+  id: string
+  /** 可空：null = 通用/汇总（帖子未点名公司） */
+  companyId: string | null
+  companyName?: string | null
+  /** 帖子匿名提到公司时的线索（如"某复"，疑似衍复），不当作确定归属 */
+  companyHint?: string
+  jobTitle?: string
+  category: QuestionCategory
+  text: string
+  /** 笔试/一面/二面/HR面 等，可选 */
+  round?: string
+  source: InterviewSource
+  sourceUrl: string
+  sourceTitle?: string
+  sourceStatus: SourceStatus
+  /** 帖子发布日期，可选：YYYY / YYYY-MM / YYYY-MM-DD */
+  sourceDate?: string
+  note?: string
+  collectedAt: string
+  createdAt: string
+  updatedAt: string
+}
+
+export interface QuestionDetail extends Question {
   company: Company | null
 }

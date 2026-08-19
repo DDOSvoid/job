@@ -7,6 +7,8 @@ import type {
   InterviewDetail,
   Job,
   JobDetail,
+  Question,
+  QuestionDetail,
   TimelineEntry,
 } from '../types'
 
@@ -85,5 +87,11 @@ export const api = {
   },
   getInterview(id: string): Promise<InterviewDetail> {
     return request(`/interviews/${encodeURIComponent(id)}`)
+  },
+  getQuestions(): Promise<Question[]> {
+    return request('/questions')
+  },
+  getQuestion(id: string): Promise<QuestionDetail> {
+    return request(`/questions/${encodeURIComponent(id)}`)
   },
 }
