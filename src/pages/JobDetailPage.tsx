@@ -151,7 +151,7 @@ export default function JobDetailPage() {
       </div>
 
       <div className="card detail-card">
-        <h3>信息来源（{job.sources.length}）</h3>
+        <h3>信息来源</h3>
         <ul className="source-list">
           {job.sources.map((s, i) => (
             <li key={i} className="source-item">

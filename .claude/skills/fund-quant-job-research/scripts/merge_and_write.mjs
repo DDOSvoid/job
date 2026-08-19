@@ -51,6 +51,18 @@ function upsert(list, item) {
   else list.push(item)
 }
 
+// 公司级来源按 url 去重（同一 URL 只保留一条）
+function dedupSources(items) {
+  if (!Array.isArray(items)) return items
+  const seen = new Set()
+  return items.filter((s) => {
+    if (!s || !s.url) return true
+    if (seen.has(s.url)) return false
+    seen.add(s.url)
+    return true
+  })
+}
+
 const companies = readFile('companies.json')
 const jobs = readFile('jobs.json')
 
@@ -59,10 +71,14 @@ const companyIds = new Set(companies.map((c) => c.id))
 const errors = []
 for (const c of payload.companies ?? []) {
   if (!c.id || !c.name || !c.type) errors.push(`company ${c.id ?? '(无 id)'}: 缺少 id/name/type`)
+  if (c.sources !== undefined && !Array.isArray(c.sources)) errors.push(`company ${c.id ?? '(无 id)'}: sources 必须是数组`)
   companyIds.add(c.id)
 }
 for (const j of payload.jobs ?? []) {
   if (!j.id || !j.title) errors.push(`job ${j.id ?? '(无 id)'}: 缺少 id/title`)
+  if (!Array.isArray(j.sources) || j.sources.length !== 1)
+    errors.push(`job ${j.id ?? '(无 id)'}: sources 必须恰好 1 条（一岗一来源）`)
+  else if (!j.sources[0]?.url) errors.push(`job ${j.id ?? '(无 id)'}: sources[0].url 缺失`)
   if (!companyIds.has(j.companyId)) errors.push(`job ${j.id ?? '(无 id)'}: companyId '${j.companyId}' 不存在`)
 }
 
@@ -74,6 +90,7 @@ if (errors.length > 0) {
 
 const created = { companies: [], jobs: [] }
 for (const c of payload.companies ?? []) {
+  if (c.sources) c.sources = dedupSources(c.sources)
   if (!companies.some((x) => x.id === c.id)) created.companies.push(c.id)
   upsert(companies, c)
 }

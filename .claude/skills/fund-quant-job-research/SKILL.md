@@ -18,7 +18,7 @@ description: 调研公募/私募基金公司及券商（证券公司）的量化
 ## 工作流（按顺序执行）
 
 1. **归一化公司**：确定正式公司名、英文 slug id、类型（`public` 公募 / `private` 私募 / `securities` 券商）、所在地。
-2. **并行调研三来源**：官网（WebSearch + WebFetch）、Boss直聘（**优先本机 boss-agent-cli 真实搜索**，见下）、微信公众号（WebSearch + WebFetch）。每个来源产出一条 `sources[]` 记录，无论成败都要记录。Boss 直聘注意：先跑认证检查，再按公司过滤搜索。
+2. **并行调研三来源**：官网（WebSearch + WebFetch）、Boss直聘（**优先本机 boss-agent-cli 真实搜索**，见下）、微信公众号（WebSearch + WebFetch）。每个来源产出一条 `sources[]` 记录，无论成败都要记录；**来源分流**：公司级渠道（官网「加入我们」/招聘系统/公众号/校招公告转载等）进 `company.sources[]`；岗位级来源（点名该岗位的招聘页/申请短链/第三方岗位帖）进该岗位 `job.sources[]`，每岗位只保留 1 条最相关来源。Boss 直聘注意：先跑认证检查，再按公司过滤搜索。
 3. **聚合 `fetchStatus`**（规则见下）。
 4. **输出可读报告**（固定模板）。
 5. **写盘**：读现有 `data/companies.json`、`data/jobs.json` → 按 id upsert → 原子写回。优先用脚本 `scripts/merge_and_write.mjs`（会做校验）。数据目录取 `QUANT_JOB_DATA_DIR` 环境变量，**未设置时默认就是 `D:\workspace\job\data`（网站真实数据目录）**；该环境变量只在测试/沙盒场景使用。
@@ -48,7 +48,8 @@ description: 调研公募/私募基金公司及券商（证券公司）的量化
 ## 优雅降级总规则
 
 - 每个 `sources[]` 项必须带 `status`；非 `complete` 必须有 `note` 说明缺什么、用户去哪手动看。
-- `fetchStatus` 聚合：全部 `complete` → `complete`；至少一条 `complete` → `partial`；全 `blocked`/`manual` → `manual_required`。
+- `fetchStatus` 聚合（一岗一来源）：该岗位 `job.sources[0].status` 为 `complete` → `complete`；`partial` → `partial`；`blocked`/`manual_required` → `manual_required`。
+- 每个岗位 `job.sources[]` **必须恰好 1 条**（一岗一来源）；公司级来源一律进 `company.sources[]`（按 url 去重），不要塞进 job。
 - **薪资分三种情况处理**：
   - 官方来源确认（招聘页/官方公告写明区间）→ `salaryIsEstimate: false`，如实填写，并把官方来源放进 `sources[]`。
   - **来自第三方渠道**（Boss直聘搜索摘要、boss-agent-cli 实时数据、论坛、小红书、媒体爆料等）→ `salaryIsEstimate: true`，`salary` 保留数字但明确标注来源，如 `"30-50万/年（Boss直聘，未经官方核实）"`，同时在 `notes` 注明"薪资来自第三方，未核实"。这很重要——数字可以给出，但绝不能让它看起来像是官方确认的。boss-agent-cli 是实时数据、比搜索引擎摘要可靠，但**仍是第三方**，同样要标注。
@@ -85,6 +86,7 @@ description: 调研公募/私募基金公司及券商（证券公司）的量化
 ## 输出 2：结构化 JSON（写盘）
 
 - 字段完全遵循 `references/data-schema.md`，写盘前必须对照。
+- `job.sources[]` 恰好 1 条（该岗位最相关来源）；`company.sources[]`（可选）放公司级来源，按 url 去重。
 - 把要写入的条目组成一个 payload（`{ "companies": [...], "jobs": [...] }`），用脚本合并：
   ```bash
   node <skill-dir>/scripts/merge_and_write.mjs "${QUANT_JOB_DATA_DIR:-D:\workspace\job\data}" <payload.json>

@@ -1,69 +1,164 @@
 [
   {
-    "id": "highflyer",
-    "name": "幻方量化",
+    "id": "aifanzhe",
+    "name": "爱凡哲投资管理",
     "type": "private",
-    "website": "https://www.high-flyer.cn",
-    "location": "杭州",
-    "about": "国内头部量化私募（AI 驱动量化投资），总部杭州，法定主体为浙江九章资产管理有限公司，关联 DeepSeek；管理规模数百亿，以深度学习与大规模计算为核心。官网招聘入口 https://www.high-flyer.cn/join（官网已核实）。",
-    "source": "skill",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "ubiquant",
-    "name": "九坤投资",
-    "type": "private",
-    "website": "https://www.ubiquant.com",
-    "location": "北京",
-    "about": "九坤投资（北京）有限公司成立于2012年，国内头部量化对冲基金公司，截至2025年四季度管理规模约800亿元人民币，服务高净值客户20000+；投研与技术团队90%以上毕业于清北及海外常青藤。量化岗位以『梧桐计划』（2020年起）面向全球本硕博应届生招聘。",
-    "source": "skill",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "minghong",
-    "name": "明汯投资",
-    "type": "private",
-    "website": "https://www.mhfunds.com",
+    "website": "https://example.com/aifanzhe",
     "location": "上海",
-    "about": "上海明汯投资管理有限公司成立于2014年，注册于上海虹口，国内较早将人工智能技术成功应用于金融市场的量化私募机构，是国内首批管理规模突破500亿元的量化私募管理人之一，在上海、北京、香港、纽约设有办公室。",
+    "about": "爱凡哲投资管理有限公司，2017年底备案的量化私募基金管理人，主营股票、期货、期权量化投资，管理规模约20-50亿元。。官网未核实，请核实。",
     "source": "skill",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
   },
   {
-    "id": "yanfu",
-    "name": "衍复投资",
+    "id": "banyang",
+    "name": "半鞅私募基金",
     "type": "private",
-    "website": "https://yanfuinvestments.com",
+    "website": "https://example.com/banyang",
     "location": "上海",
-    "about": "上海衍复投资管理有限公司成立于2019年，量化私募，总部上海徐汇区（保利西岸C座7楼），2026年落户北京、两地同步招聘；以自主研发的量化投资系统持续追求稳健长期回报，管理规模位于行业第一梯队。官网招聘入口 https://yanfuinvestments.com/join（官网已核实）。",
+    "about": "上海半鞅私募基金管理合伙企业（有限合伙），2021年成立的量化私募管理人，采用量价模型与机器学习策略。。官网未核实，请核实。",
     "source": "skill",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
   },
   {
-    "id": "winbao",
-    "name": "稳博投资",
+    "id": "bopu",
+    "name": "博普资产",
     "type": "private",
-    "website": "https://www.wenbofund.com",
-    "location": "上海",
-    "about": "上海稳博投资管理有限公司成立于2014年，专注科技的量化私募机构，总部上海浦东新区，业务覆盖商品期货、股指、证券、期权，管理规模300亿+（第三方说法，请核实）。投研团队70+人，90%以上毕业于国内外顶尖高校。招聘以『量子飞跃计划』校园招聘为主（自2023年起面向应届生，量化研究员/量化开发工程师面向2026/2027届持续招聘）；官网招聘页 https://www.wenbofund.com/contact/hire.html，官方招聘公众号『稳博Recruiting』。",
+    "website": "https://example.com/bopu",
+    "location": "深圳",
+    "about": "深圳前海博普资产管理有限公司，博普科技全资子公司，私募证券投资基金管理人，量化策略覆盖套利、股票量化、CTA，规模约50-100亿元。。官网未核实，请核实。",
     "source": "skill",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
   },
   {
-    "id": "efund",
-    "name": "易方达基金",
+    "id": "bosera",
+    "name": "博时基金",
     "type": "public",
-    "website": "https://www.efunds.com.cn",
-    "location": "广州",
-    "about": "国内头部公募基金公司，成立于2001年，总部广州；截至2025年底管理规模超4.1万亿元。校招投研类含量化研究员、指数研究员等量化相关岗位。",
+    "website": "https://www.bosera.com",
+    "location": "深圳",
+    "about": "博时基金管理有限公司成立于1998年7月13日，中国内地首批五家基金管理公司之一，总部深圳，在北京、上海设分公司。截至2025-12-31管理403只公募基金、管理资产总规模逾16746亿元，累计分红逾2258亿元。招聘网申唯一渠道为招聘官网 bosera.hotjob.cn（官网 www.bosera.com 页脚『加入我们』指向该平台）及官方公众号『博时基金招聘』；2026届春季校招与暑期实习均含量化研究员、固收量化研究员、指量AI研究员等量化相关岗位。",
     "source": "skill",
-    "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "博时基金招聘官网（bosera.hotjob.cn）",
+        "url": "https://bosera.hotjob.cn/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染，正文未能读取岗位列表与当前开放状态；官网 www.bosera.com 页脚『加入我们』指向此平台，需手动在浏览器查看"
+      },
+      {
+        "type": "official",
+        "title": "博时基金2026届暑期实习招聘（对外经济贸易大学就业网转载）",
+        "url": "https://aeo.uibe.edu.cn/front/zpxx.jspa?tid=2054129584613396482",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "确认投资研究交易类含量化研究员/固收量化研究员/指量AI研究员等，面向2026/2027届；未披露JD/薪资/截止日期"
+      },
+      {
+        "type": "wechat",
+        "title": "公众号『博时基金招聘』（清华经管学院职业发展中心转载原文）",
+        "url": "https://mp.weixin.qq.com/s/XDnmOdVecV4PJLAv8H0D4w",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信正文有环境验证墙（环境异常）未能抓取；搜索摘要确认2026春季校招启动、网申截止2026-06-30、投递入口为公众号『博时基金招聘』"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·博时基金",
+        "url": "https://www.zhipin.com",
+        "accessedAt": "2026-08-12",
+        "status": "complete",
+        "note": "2026-08-12 实时搜索『博时』（深圳）：仅命中同名无关公司（博时体育俱乐部/广州博时信息科技等），无博时基金量化岗位挂出；公募量化岗主要走官网校招渠道（bosera.hotjob.cn）"
+      }
+    ]
+  },
+  {
+    "id": "boyi",
+    "name": "博弈资产",
+    "type": "private",
+    "website": "https://example.com/boyi",
+    "location": "青岛",
+    "about": "青岛博弈资产管理有限公司，2017年成立并备案，科技驱动量化资产管理，主观+量化选股，管理规模超30亿元，曾获金牛奖。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "ccbfund",
+    "name": "建信基金管理有限责任公司",
+    "type": "public",
+    "website": "https://www.ccbfund.cn",
+    "location": "北京",
+    "about": "中国建设银行旗下银行系公募基金公司，成立于2005年9月，截至2025年底资产管理总规模约1.52万亿元，布局量化与固收+业务（请以官网为准）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中国建设银行'诚聘英才'频道（建信基金校招报名入口）",
+        "url": "http://job.ccb.com",
+        "accessedAt": "2026-08-09",
+        "status": "manual_required",
+        "note": "官方报名入口，需注册后进入校园招聘-子公司-建信基金查看并报名；本次未登录逐岗位核对"
+      }
+    ]
+  },
+  {
+    "id": "centuryfrontier",
+    "name": "世纪前沿",
+    "type": "private",
+    "website": "https://www.centuryfrontier.com",
+    "location": "深圳",
+    "about": "百亿量化私募，深圳前海注册，中长周期Alpha与高频执行均有积累。招聘邮箱 recruiter@centuryfrontier.com。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "changjiangsec",
+    "name": "长江证券",
+    "type": "securities",
+    "website": "https://www.cjsc.com",
+    "location": "武汉（总部，江汉区淮海路88号）",
+    "about": "长江证券股份有限公司（Changjiang Securities，A股000783），前身湖北证券公司1991年设立，2007年上市，总部湖北武汉（江汉区淮海路88号），中国第6家上市券商、湖北唯一全牌照证券公司；旗下有长江保荐、长江资管、长江期货、长信基金等子公司。2027届量化/衍生品/金融工程暑期实习岗已发布（证券投资部量化J11210、衍生品风险管理J11215、研究所金融工程/另类策略），投递入口为招聘官网 cjzq.zhiye.com 及公众号『长江证券招聘』。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "长江证券招聘官网（cjzq.zhiye.com/campus）",
+        "url": "https://cjzq.zhiye.com/campus",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/登录，岗位列表与开放状态未能读取，需在浏览器手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "公众号『长江证券研究所』暑期实习公告原文",
+        "url": "https://mp.weixin.qq.com/s/zl4szmYQDoqM5Vuy7OQl7g",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文有环境验证墙（环境异常）未能抓取；搜索摘要确认研究所暑期实习面向2027届、总量研究含金融工程/另类策略方向"
+      }
+    ]
+  },
+  {
+    "id": "chengqi",
+    "name": "诚奇资产",
+    "type": "private",
+    "website": "https://www.cqfunds.com",
+    "location": "北京（投研办，主体上海诚奇）",
+    "about": "百亿量化私募，北京海淀设投研办公室（2020年），招聘主体为上海诚奇。招聘邮箱 talent@cqfunds.com。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
   },
   {
     "id": "chinaamc",
@@ -74,71 +169,138 @@
     "about": "华夏基金管理有限公司成立于1998年4月，国内首批全国性公募基金管理公司之一，总部设于北京，管理资产规模超3万亿元，服务个人投资者超2.4亿人。旗下全资子公司包括华夏财富、华夏资本、华夏基金（香港）等。",
     "source": "skill",
     "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
+    "updatedAt": "2026-08-06",
+    "sources": [
+      {
+        "type": "official",
+        "title": "华夏基金招聘官网（应届生招聘页）",
+        "url": "http://chinaamc.zhiye.com/yjszw",
+        "accessedAt": "2026-08-06",
+        "status": "partial",
+        "note": "页面需JS渲染，当前显示暂无在招职位；岗位详情请在浏览器查看"
+      },
+      {
+        "type": "official",
+        "title": "华夏基金招聘官网（实习生招聘页）",
+        "url": "http://chinaamc.zhiye.com/sxszw",
+        "accessedAt": "2026-08-06",
+        "status": "partial",
+        "note": "页面需JS渲染，当前显示暂无在招职位；岗位详情请在浏览器查看"
+      },
+      {
+        "type": "wechat",
+        "title": "华夏基金招聘（微信公众号 chinaamc_job）",
+        "url": "https://mp.weixin.qq.com",
+        "accessedAt": "2026-08-06",
+        "status": "partial",
+        "note": "官方公众号为招聘唯一动态发布渠道；未抓到可直接引用的推文正文，需手动关注查看"
+      }
+    ]
   },
   {
-    "id": "fullgoal",
-    "name": "富国基金",
-    "type": "public",
-    "website": "https://www.fullgoal.com.cn",
-    "location": "上海",
-    "about": "成立于 1999 年的公募基金管理公司（首批十家公募之一，\"老十家\"），总部上海浦东，权益/固收/量化多线发展，非货币公募管理规模约 8885 亿元（官网数据）。",
-    "source": "skill",
-    "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
-  },
-  {
-    "id": "southern",
-    "name": "南方基金",
-    "type": "public",
-    "website": "http://www.nffund.com",
-    "location": "深圳",
-    "about": "南方基金管理股份有限公司，1998年3月成立，国内首批规范基金管理公司之一，总部位于深圳，在北京、上海、南京、成都、合肥等地设分公司。",
-    "source": "skill",
-    "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
-  },
-  {
-    "id": "guangfa",
-    "name": "广发基金",
-    "type": "public",
-    "website": "http://www.gffunds.com.cn",
-    "location": "广州",
-    "about": "广发基金管理有限公司成立于 2003 年，国内领先的公募基金公司，截至 2025-12-31 管理资产规模超 2 万亿元，产品覆盖主动权益、固收、指数、量化对冲等全品类（请以官网为准）。",
-    "source": "skill",
-    "createdAt": "2026-08-06",
-    "updatedAt": "2026-08-06"
-  },
-  {
-    "id": "lingjun",
-    "name": "灵均投资",
-    "type": "private",
-    "website": "https://www.lingjuninvest.com",
+    "id": "chinastock",
+    "name": "中国银河证券",
+    "type": "securities",
+    "website": "https://www.chinastock.com.cn",
     "location": "北京",
-    "about": "灵均投资（宁波灵均投资管理合伙企业（有限合伙））成立于2014年6月，国内首批量化私募机构之一、中国证券投资基金业协会会员单位（登记编号P1004526），专注量化投资；管理规模超600亿元（第三方信息，官网未披露具体数字），策略覆盖量化选股、指数增强、多空多策略、市场中性；在北京海淀、上海浦东设办公区，另有香港关联公司；投研团队硕博占比超85%。官网『加入我们』入口 https://www.lingjuninvest.com/overview（官网已核实）。",
-    "source": "skill",
+    "about": "头部券商（China Galaxy Securities），总部北京。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
     "createdAt": "2026-08-09",
     "updatedAt": "2026-08-09"
   },
   {
-    "id": "harvest",
-    "name": "嘉实基金",
+    "id": "chinauniversal",
+    "name": "汇添富基金",
     "type": "public",
-    "website": "https://www.jsfund.cn",
-    "location": "北京",
-    "about": "嘉实基金管理有限公司成立于1999年3月，老牌公募基金公司，总部北京朝阳区（建国门外大街21号国际俱乐部C座12A层），上海设办公室，管理资产规模超1万亿元、累计服务客户超1亿。量化相关岗位（指数与量化投资分析师、量化研究员（风险管理方向）、算法工程师等）通过官网招聘 www.jsfund.cn/jobs 与 MOKA 招聘系统投递（官网已核实）。",
+    "website": "https://www.99fund.com",
+    "location": "上海（总部：上海市黄浦区外马路728号汇添富基金大厦）",
+    "about": "汇添富基金管理股份有限公司成立于2005年，国内领先的综合性公募基金公司，总部上海，资产管理总规模超1.2万亿元（截至2025-06-30），员工超900人，业务涵盖公募、私募资管、养老金、国际业务等七大板块，被誉为『选股专家』；设有量化投资部，校招含助理量化分析师、助理指数分析师等量化相关岗位。官网 www.99fund.com（首页无招聘入口，已核实），校园招聘网申系统 htffund.zhiye.com/campus，官方招聘公众号『汇添富基金招聘』（htffund_job）。",
     "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "汇添富基金2026秋季校园招聘公告（对外经济贸易大学就业网）",
+        "url": "https://aeo.uibe.edu.cn/front/zpxx.jspa?tid=1978000241969971201",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公告确认助理量化分析师等岗位在列、投递链接 https://bsurl.cn/4hjwGYBP；岗位JD需进入各职位详情页手动查看"
+      },
+      {
+        "type": "official",
+        "title": "『添才计划』汇添富基金2027校园招聘暑期选拔（牛企直聘转载）",
+        "url": "https://campus.niuqizp.com/job-v8y5Zzzta.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "确认岗位列表（含助理量化分析师、助理指数分析师）、投递截止2026-05-10、投递渠道；岗位JD需官网确认"
+      },
+      {
+        "type": "official",
+        "title": "汇添富基金2027校园招聘公告（中公国企招聘网转载）",
+        "url": "http://m.offcn.com/gqzp/2026/0515/238161.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "转载公众号原文，确认投递截止2026-05-17（延期）及岗位清单；正文为转载，需公众号原文核实"
+      },
+      {
+        "type": "wechat",
+        "title": "汇添富基金招聘 公众号·2027校园招聘公告",
+        "url": "https://mp.weixin.qq.com/s/2imaPbgz2zvLPznbGK1Q4Q",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "微信环境验证墙（环境异常），正文未能抓取，需手动在微信打开查看 [TODO]"
+      }
+    ]
+  },
+  {
+    "id": "cicc",
+    "name": "中金公司",
+    "type": "securities",
+    "website": "https://www.cicc.com",
+    "location": "北京",
+    "about": "头部投行券商（CICC），公众号「中金Career」。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
     "createdAt": "2026-08-09",
     "updatedAt": "2026-08-09"
   },
   {
-    "id": "bosera",
-    "name": "博时基金",
-    "type": "public",
-    "website": "https://www.bosera.com",
-    "location": "深圳",
-    "about": "博时基金管理有限公司成立于1998年7月13日，中国内地首批五家基金管理公司之一，总部深圳，在北京、上海设分公司。截至2025-12-31管理403只公募基金、管理资产总规模逾16746亿元，累计分红逾2258亿元。招聘网申唯一渠道为招聘官网 bosera.hotjob.cn（官网 www.bosera.com 页脚『加入我们』指向该平台）及官方公众号『博时基金招聘』；2026届春季校招与暑期实习均含量化研究员、固收量化研究员、指量AI研究员等量化相关岗位。",
-    "source": "skill",
+    "id": "citicfutures",
+    "name": "中信期货有限公司",
+    "type": "securities",
+    "website": "https://www.citicsf.com",
+    "location": "深圳（总部，招聘覆盖上海/北京/深圳）",
+    "about": "中信期货有限公司（CITIC Futures Co., Ltd.），中信证券全资子公司、中信集团金融控股体系重要成员，成立于1993年，注册资本76亿元，2025年6月末客户保证金规模超1600亿元，员工逾2000人，国内头部期货公司；旗下设中信中证资本、中信寰球商贸、信期国际控股等全资子公司。官网 www.citicsf.com（已核实），『人才招聘』入口 https://citicsfzp.zhiye.com；2026届校招以『总部未来星』（信梦想，期未来）春季校招为主，投递 https://campus.yingjiesheng.com/citicsf/，面向2026届、总部简历接收已于2026-04-19截止。注意：与母公司中信证券（citicsec）为不同公司，本条目独立。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中信期货招聘官网（citicsfzp.zhiye.com，官网『人才招聘』入口）",
+        "url": "https://citicsfzp.zhiye.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "招聘官网为 JS 应用，仅显示门户标题，岗位列表未加载，请手动查看"
+      },
+      {
+        "type": "manual",
+        "title": "河北工业大学就业网转载《中信期货2026届总部未来星春季校招》",
+        "url": "https://career.hebut.edu.cn/correcruit/content/id/76895.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "高校就业网转载官方公告，岗位清单完整（研究所固定收益量化研究岗等）；薪酬标注'10000元以上'，第三方口径，未经官方核实"
+      }
+    ]
+  },
+  {
+    "id": "citicsec",
+    "name": "中信证券",
+    "type": "securities",
+    "website": "http://www.cs.ecitic.com",
+    "location": "北京（注册深圳）",
+    "about": "头部证券公司，注册地深圳、总部北京。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
     "createdAt": "2026-08-09",
     "updatedAt": "2026-08-09"
   },
@@ -151,7 +313,188 @@
     "about": "招商基金管理有限公司成立于2002年12月，国内第一家中外合资基金管理公司，总部深圳福田（招商银行大厦）；截至2025年末总资产管理规模超1.59万亿元，非货币管理规模近5900亿元；业务覆盖投研、营销、运营等，量化投资部设有量化研究员/量化研究岗。唯一官方网站 www.cmfchina.com，招聘官网 cmfchina.zhiye.com（官网已核实）。",
     "source": "skill",
     "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "招商基金招聘官网（校园招聘·岗位直达）",
+        "url": "https://cmfchina.zhiye.com/campus/jobs",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染，岗位列表未能直接读取，请手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "招商基金2026春招公告（微信公众号）",
+        "url": "https://mp.weixin.qq.com/s/hMG3HrlXYtxiXx9BR-7fOw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信正文有环境验证墙，未能抓取；岗位名称/要求经牛企直聘转载与搜索摘要确认"
+      },
+      {
+        "type": "official",
+        "title": "招商基金2026年暑期实习招聘（对外经济贸易大学就业网转载）",
+        "url": "https://career.uibe.edu.cn/front/zpxx.jspa?tid=2053729208504455169",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "获取通用任职要求（2027届硕士及以上）、网申截止2026-05-15、工作地点深圳/上海/北京；未披露单独岗位JD与实习补贴"
+      },
+      {
+        "type": "wechat",
+        "title": "招商基金2026暑期实习招聘公告（微信公众号）",
+        "url": "https://mp.weixin.qq.com",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号文章有环境验证墙，正文未能抓取；投递入口为官网/公众号菜单，请手动查看"
+      }
+    ]
+  },
+  {
+    "id": "cmssec",
+    "name": "招商证券",
+    "type": "securities",
+    "website": "https://www.cmschina.com",
+    "location": "深圳",
+    "about": "头部券商（China Merchants Securities），总部深圳。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
     "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "cofcofutures",
+    "name": "中粮期货有限公司",
+    "type": "securities",
+    "website": "http://www.zlqh.com/",
+    "location": "北京",
+    "about": "中粮集团旗下期货公司（中粮资本控股、中国人寿参股，AA类期货公司），以农产品期货、套期保值与风险管理为特色；总部北京市东城区建国门内大街8号中粮广场。官网经官网'重要提示'声明核实为 www.zlqh.com（2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "wechat",
+        "title": "中粮期货2026校园招聘正式启动（官方公众号推文）",
+        "url": "https://mp.weixin.qq.com/s/Hu2m5K_cmY9KigExW-mgkw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文被反爬验证墙（'环境异常'）拦截，未读到原文；岗位信息来自第三方转载（牛企直聘 campus.niuqizp.com/job-vyk5ZzNna.html、得早学 deizao.net 转载，公告2026-03-31发布），未经官方原文核实"
+      }
+    ]
+  },
+  {
+    "id": "csc",
+    "name": "中信建投证券",
+    "type": "securities",
+    "website": "https://www.csc108.com",
+    "location": "北京",
+    "about": "头部券商（China Securities，CSC），总部北京。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "cscfutures",
+    "name": "中信建投期货有限公司",
+    "type": "securities",
+    "website": "https://www.cfc108.com",
+    "location": "重庆（总部）/ 北京",
+    "about": "中信建投证券全资子公司（有限责任公司法人独资，注册资本14亿元），总部重庆，经营范围含商品/金融期货经纪、期货投资咨询、资产管理、基金销售。官网经官网'防范假冒网站声明'核实为 www.cfc108.com（2026-08-09）。注意：与'中信建投证券(csc)'为不同公司，此处独立建条目。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "中信建投期货招聘（Mokahr）",
+        "url": "https://app.mokahr.com/",
+        "accessedAt": "2026-08-12",
+        "status": "manual_required",
+        "note": "官方招聘平台岗位列表需 JS 渲染，请手动查看确认岗位与届别"
+      }
+    ]
+  },
+  {
+    "id": "debei-fund",
+    "name": "德贝",
+    "type": "private",
+    "website": "https://example.com/debei-fund",
+    "location": "上海",
+    "about": "上海德贝私募基金管理有限公司，量化CTA私募，2026年新晋百亿（第三方信息，请核实）。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "dfzq",
+    "name": "东方证券",
+    "type": "securities",
+    "website": "https://www.dfzq.com.cn",
+    "location": "上海",
+    "about": "上海券商（Orient Securities），总部上海。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "东方证券官网（dfzq.com.cn）",
+        "url": "https://www.dfzq.com.cn/",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "官网招聘入口未直接读取到岗位列表，需手动查看 [TODO]"
+      }
+    ]
+  },
+  {
+    "id": "dunyu-investment",
+    "name": "敦钰投资",
+    "type": "private",
+    "website": "https://example.com/dunyu-investment",
+    "location": "上海",
+    "about": "上海敦钰投资管理有限公司，成立于2015年10月，量化私募证券投资基金管理人（岗位描述内公司自称中基协备案，登记编号 P1032164），专注量化 CTA/量化选股/套利等策略；核心团队来自国内外对冲基金/券商/公募/交易所，量化从业 15 年以上。招聘经 Boss直聘实时确认（2026-08-11：量化研究员实习生 200-400元/天）。官网未核实，用 example.com 占位，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "ebscn",
+    "name": "光大证券",
+    "type": "securities",
+    "website": "https://www.ebscn.com",
+    "location": "上海",
+    "about": "头部券商（Everbright Securities），总部上海。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "efund",
+    "name": "易方达基金",
+    "type": "public",
+    "website": "https://www.efunds.com.cn",
+    "location": "广州",
+    "about": "国内头部公募基金公司，成立于2001年，总部广州；截至2025年底管理规模超4.1万亿元。校招投研类含量化研究员、指数研究员等量化相关岗位。",
+    "source": "skill",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-06",
+    "sources": [
+      {
+        "type": "official",
+        "title": "易方达基金招聘官网（校园招聘）",
+        "url": "https://job.efunds.com.cn",
+        "accessedAt": "2026-08-06",
+        "status": "partial",
+        "note": "招聘官网跳转 hotjob.cn 平台（wecruit.hotjob.cn/SU67ac68866202cc7916aea66e），页面需 JS 渲染，正文未能读取；岗位列表与流程经高校就业网及媒体转载确认"
+      },
+      {
+        "type": "wechat",
+        "title": "【宣讲会】3月26日：易方达基金2026年暑期招聘（公众号）",
+        "url": "https://mp.weixin.qq.com/s/zeRi3I6r3aTS8nN2uy5yvw",
+        "accessedAt": "2026-08-06",
+        "status": "partial",
+        "note": "公众号正文需微信验证，未能抓取；经搜索摘要确认投研类含量化研究员，网申截止 2026-04-06（已结束），官方公众号为'易方达微招聘'"
+      }
+    ]
   },
   {
     "id": "egret",
@@ -162,29 +505,456 @@
     "about": "浙江白鹭资产管理股份有限公司（简称白鹭资管），成立于2013年，总部杭州、上海两地设办公室，专注于二级市场量化投资与交易（Alpha量化选股、CTA、期权等），2022年5月资产管理规模突破百亿（第三方渠道亦称约90亿，请核实）；中国唯一连续多年蝉联多策略金牛奖的量化私募。官网招聘入口为 Moka 招聘门户 https://app.mokahr.com/apply/hzbailu/36103 ，官方招聘公众号『白鹭资管招聘』，投递邮箱 career@hz-bailu.com（官网已核实）。",
     "source": "skill",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "白鹭资管官网联系页（招聘入口）",
+        "url": "https://www.egretquant.com/contactus/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网确认招聘入口为 Moka 系统 app.mokahr.com/apply/hzbailu/36103；Moka 页面需 JS 渲染/多次重定向未能读取岗位列表，请手动查看 [TODO]"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·白鹭资管（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E7%99%BD%E9%B9%AD%E8%B5%84%E7%AE%A1&city=%E4%B8%8A%E6%B5%B7",
+        "accessedAt": "2026-08-11",
+        "status": "blocked",
+        "note": "2026-08-11 实时搜索（杭州/上海共3次）：仅返回 C++开发实习生（350-500元/天，上海浦东）与产品运营实习生（250-300元/天，杭州上城），未含资深量化研究员（中高频alpha）在招；该岗位为社招且可能仅通过官网 Moka 门户/猎聘挂出，需官网确认 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号『白鹭资管招聘』（2023届/2024届校招公告）",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAxNTc0Mjg0Mg==&mid=2653334663&idx=2&sn=f36bc8513dc09e04f535af8457964cf7",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号『白鹭资管招聘』2023届校招推文确认含量化研究员/量化研究实习/开发实习岗位；推文正文有验证墙未直接抓取，当前校招/实习是否开放需在微信内关注公众号手动查看 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "水木社区/腾讯云转载·白鹭资管实习与校招帖",
+        "url": "https://www.newsmth.net/nForum/article/Career_Campus/639488?p=1",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "2023-08-28『2024校园招聘』帖确认量化研究实习（上海·机器学习/因子/高频方向）与量化研究员（股票高频/ML-DL，上海）；2022-03『社招+实习』帖确认量化研究实习生（日常/暑期）；投递 career@hz-bailu.com；当前是否在招需核实 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "实习僧·白鹭资管2026最新实习/校园招聘信息",
+        "url": "https://www.shixiseng.com/com/com_bpolxmy849n9",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "实习僧页面确认白鹭资管 2026 最新实习与校园招聘信息在更；正文未直接抓取"
+      }
+    ]
   },
   {
-    "id": "qianxiang",
-    "name": "千象资产",
+    "id": "fande",
+    "name": "凡德投资",
     "type": "private",
-    "website": "https://www.qxinvest.com",
+    "website": "https://example.com/fande",
+    "location": "广州",
+    "about": "广东凡德投资有限公司，2012年成立、2014年完成私募管理人备案，基本面量化私募，管理规模约4亿元。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "feima",
+    "name": "非马",
+    "type": "private",
+    "website": "https://example.com/feima",
     "location": "上海",
-    "about": "上海千象资产管理有限公司（简称千象资产），成立于2014年7月，总部上海（浦东新区福山路500号城建国际中心），在北京、广州、香港设办公室，专注量化投资（数据挖掘+数学建模+计算机技术投资国内二级市场），管理规模超百亿，居行业前列；曾获五届中国证券报『金牛奖』、上证报『金阳光奖』、证券时报『金长江奖』、中国基金报『英华奖』等权威奖项。官网『加入千象』招聘入口 https://www.qxinvest.com/stationWebsite/w/h?mt=2&mc=3816892&cc=236920624 ，官方公众号『千象资产』/招聘公众号『千象资产招聘』，投递邮箱 hr@qxinvest.com（官网已核实）。",
+    "about": "上海非马投资管理有限公司，成立于2014年，中国基金业协会私募基金管理人，管理规模约5-10亿元，主营二级市场证券投资，擅长大宗商品期货与股票投资。。官网未核实，请核实。",
     "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "feitu",
+    "name": "非凸科技",
+    "type": "tech",
+    "website": "https://example.com/feitu",
+    "location": "上海",
+    "about": "上海非凸智能科技有限公司，成立于2018年，专注智能算法交易与数智交易系统，为券商、量化私募等金融机构提供算法交易解决方案，核心团队来自华尔街资管与一线互联网公司。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "fullgoal",
+    "name": "富国基金",
+    "type": "public",
+    "website": "https://www.fullgoal.com.cn",
+    "location": "上海",
+    "about": "成立于 1999 年的公募基金管理公司（首批十家公募之一，\"老十家\"），总部上海浦东，权益/固收/量化多线发展，非货币公募管理规模约 8885 亿元（官网数据）。",
+    "source": "skill",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-06",
+    "sources": [
+      {
+        "type": "wechat",
+        "title": "微信公众号 富国基金 校园招聘",
+        "url": "https://mp.weixin.qq.com",
+        "accessedAt": "2026-08-06",
+        "status": "manual_required",
+        "note": "未检索到富国基金官方公众号 2026 秋招/校招推文，需手动关注公众号查看"
+      }
+    ]
+  },
+  {
+    "id": "galaxyfutures",
+    "name": "银河期货有限公司",
+    "type": "securities",
+    "website": "https://www.yhqh.com.cn",
+    "location": "北京",
+    "about": "银河期货有限公司，由中国银河证券全资控股（隶属中国银河金融控股），中国首批成立的期货公司之一，总部北京，在全国30余城设分支。业务涵盖期货与期权经纪、交易咨询、资产管理、基金销售、场外衍生品、期现业务、做市业务等。量化/衍生品相关岗位（量化研究岗等）及全资风险管理子公司银河德睿资本管理有限公司（上海）的量化交易岗见诸第三方招聘渠道。官网 www.yhqh.com.cn 已核实；注意：与中国银河证券（chinastock，官网 chinastock.com.cn）为不同法人主体，本条目独立。官网『诚聘英才』校园/社会/实习招聘页需JS渲染，岗位列表需手动查看。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "银河期货官网『诚聘英才』校园招聘（col499）",
+        "url": "https://www.yhqh.com.cn/col499/list.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网『诚聘英才』含校园招聘/社会招聘/实习生招募三个子页（col499/col500/col501），页面显示筛选栏（招聘部门含研究所、数字金融业务部等）与表格框架，但岗位行需动态加载、内容为JS混淆载荷，未展示具体岗位；需手动打开官网查看量化研究岗与投递入口 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号『银河期货』",
+        "url": "https://mp.weixin.qq.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "未能在本次会话检索到『银河期货』公众号2026招聘推文的具体文章链接（WebSearch 预算已耗尽），公众号正文未抓取；需用户手动在微信内搜索『银河期货 校招/秋招 量化』确认 [TODO]"
+      }
+    ]
+  },
+  {
+    "id": "gaota",
+    "name": "高塔量化",
+    "type": "tech",
+    "website": "https://example.com/gaota",
+    "location": "深圳/香港",
+    "about": "高塔量化科技有限公司（Contrarian Technology Limited），2022年在香港注册，另设深圳高塔量化科技有限公司，为专注量化交易与区块链应用的金融科技初创公司。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "gfam",
+    "name": "广发资管",
+    "type": "securities",
+    "website": "https://www.gfam.com.cn",
+    "location": "广州",
+    "about": "广发证券资产管理（广东）有限公司（广发资管）是广发证券全资资产管理子公司，办公地广州天河区广发证券大厦；量化岗以股票因子研究、深度学习模型为特色，随广发证券 2027 届校园招聘统一招录（含资产管理方向）。官网为 JS 应用，招聘页内容需手动查看。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "广发证券2027届校园招聘简章（含资产管理业务方向）",
+        "url": "http://job.hust.edu.cn/zpinfo1/2406643.htm",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "高校就业网转载的校招简章；投递经 gf.hotjob.cn 或邮箱 gfhr@gf.com.cn"
+      }
+    ]
+  },
+  {
+    "id": "gfsec",
+    "name": "广发证券",
+    "type": "securities",
+    "website": "https://www.gf.com.cn",
+    "location": "广州",
+    "about": "头部券商，总部广州，A+H 上市，行业排名前列。2027 届校园招聘已于 2026-06 启动（含量化开发/金融科技/FICC 投研/衍生品风控等方向）。招聘官网 gf.hotjob.cn。",
+    "source": "manual",
     "createdAt": "2026-08-09",
     "updatedAt": "2026-08-09"
   },
   {
-    "id": "tianyan",
-    "name": "天演资本",
+    "id": "gtht",
+    "name": "国泰海通证券",
+    "type": "securities",
+    "website": "https://www.gtht.com",
+    "location": "上海",
+    "about": "原国泰君安+海通证券合并而成的头部券商，总部上海。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国泰海通证券2027届校园招聘公告（公众号）",
+        "url": "https://mp.weixin.qq.com/s/SfzzBBdrIS5TYA7A50CKMA",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "公众号公告确认2027届校招启动、网申截止2026-04-30、流程与时间节点；量化研究为总部权益业务领域岗位"
+      },
+      {
+        "type": "manual",
+        "title": "国泰海通校招官网网申入口",
+        "url": "https://hr.gtht.com",
+        "accessedAt": "2026-08-12",
+        "status": "manual_required",
+        "note": "网申需PC端进行，本次未完成投递，岗位详情以官网为准"
+      }
+    ]
+  },
+  {
+    "id": "gtjafutures",
+    "name": "国泰君安期货有限公司",
+    "type": "securities",
+    "website": "https://www.gtjaqh.com",
+    "location": "上海",
+    "about": "国泰君安期货有限公司（GUOTAI JUNAN FUTURES CO.,LTD.），国泰海通证券股份有限公司全资子公司（原国泰君安证券旗下期货子公司），注册资本70亿元，总部上海，服务网点覆盖29个省/直辖市，是国内首批获得金融期货全面结算业务资格的期货公司、中国金融期货交易所一号会员。官网 www.gtjaqh.com（已核实，首页无招聘入口）；校园招聘以『金衍同盟』（2027届秋招预选拔）与『金衍新星』（2026届）计划为主，校招投递入口 www.gtjaqh.com/r/u 跳转至 Mokahr 校招系统 app.mokahr.com/campus-recruitment/gtjaqh/147180（已核实）。注意：与母公司国泰海通证券（gtht）为不同公司，本条目独立。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国泰君安期货校招投递入口（Mokahr，经官网 /r/u 跳转）",
+        "url": "https://app.mokahr.com/campus-recruitment/gtjaqh/147180",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网 www.gtjaqh.com 首页无招聘入口；www.gtjaqh.com/r/u 跳转至 Mokahr 校招系统，需 JS 渲染，岗位列表未能抓取，请手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "国泰君安期货金衍同盟2027届公告（公众号原文）",
+        "url": "https://mp.weixin.qq.com/s/BsdULmOvjT5-C9j9XehWTw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文被验证墙拦截（当前环境异常），未能读取正文；岗位清单取自第三方转载，请手动打开公众号原文核实"
+      }
+    ]
+  },
+  {
+    "id": "guangfa",
+    "name": "广发基金",
+    "type": "public",
+    "website": "http://www.gffunds.com.cn",
+    "location": "广州",
+    "about": "广发基金管理有限公司成立于 2003 年，国内领先的公募基金公司，截至 2025-12-31 管理资产规模超 2 万亿元，产品覆盖主动权益、固收、指数、量化对冲等全品类（请以官网为准）。",
+    "source": "skill",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-06",
+    "sources": [
+      {
+        "type": "official",
+        "title": "广发基金招聘官网（飞书招聘门户）",
+        "url": "https://gffunds.jobs.feishu.cn/index",
+        "accessedAt": "2026-08-06",
+        "status": "partial",
+        "note": "招聘主页需 JS 渲染，岗位列表未抓取；官网 http://www.gffunds.com.cn/recruitment 302 跳转至此，请手动查看"
+      },
+      {
+        "type": "official",
+        "title": "东方财富：易方达、广发、嘉实、南方、博时集体启动 2026 届秋招",
+        "url": "https://fund.eastmoney.com/a/202509113511004720.html",
+        "accessedAt": "2026-08-06",
+        "status": "complete",
+        "note": "媒体报道广发基金 2026 届秋招于 2025 年 9 月启动，投研布局含指数、量化研究员"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号「广发基金招聘」2026 秋招补录公告",
+        "url": "https://mp.weixin.qq.com/s/U-kUUq3BURrDtBHYgoD0QA",
+        "accessedAt": "2026-08-06",
+        "status": "blocked",
+        "note": "正文需验证码（环境异常）未抓取；投递入口为公众号菜单『加入我们→校园招聘』，请手动查看"
+      },
+      {
+        "type": "official",
+        "title": "牛客网：广发基金管理有限公司企业页（27 届实习批次）",
+        "url": "https://www.nowcoder.com/enterprise/21562",
+        "accessedAt": "2026-08-06",
+        "status": "partial",
+        "note": "页面框架可见 27 届实习网申 2026-03-18~2026-04-26，岗位列表为 0，需点击子页面查看"
+      }
+    ]
+  },
+  {
+    "id": "guangpu-investment",
+    "name": "光谱投资",
     "type": "private",
-    "website": "https://www.tianyancapital.com",
-    "location": "上海（总部/注册地）；北京、深圳、香港设办公室",
-    "about": "上海天演私募基金管理有限公司（曾用名北京天演资本管理有限公司，2022年7月注册地由北京迁至上海），成立于2014年8月，国内首批量化私募管理人之一，管理规模约300亿（第三方口径，官网未披露具体数字），已在中国证券投资基金业协会登记备案（AMAC P1004907）。总部办公地为上海浦东（银城中路501号上海中心大厦；近期招聘信息显示办公地含浦东前滩中心），在上海、北京、深圳、香港设有办公室。专注量化投资，构建以多因子模型为核心的量化投研体系，策略覆盖股票、CTA、多资产；研究团队博士占比50%+，员工论文见于NeurIPS、AAAI、ICML、Nature等。官网『加入天演』入口 https://www.tianyancapital.com/zh/join-us（官网已核实）。注：任务标注深圳，但公司注册地/总部为上海，深圳为分支办公室。",
+    "website": "https://example.com/guangpu-investment",
+    "location": "上海",
+    "about": "上海地区量化私募（经 Boss直聘网页版实时搜索发现：量化研究员·因子/高频方向实习在招，500-800元/天，工作地上海·浦东·陆家嘴）。公司全称与中基协备案待核实，请核实。官网未核实，用 example.com 占位。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "guangyiwangda",
+    "name": "光亿旺达",
+    "type": "private",
+    "website": "https://example.com/guangyiwangda",
+    "location": "上海",
+    "about": "上海光亿旺达私募基金管理有限公司，原名上海拾麦资产管理，已备案私募证券投资基金管理人，管理规模约10-20亿元，旗下有量化及股票策略产品。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "guojinsec",
+    "name": "国金证券",
+    "type": "securities",
+    "website": "https://www.gjzq.com.cn",
+    "location": "成都（注册地）/上海（办公）",
+    "about": "国金证券股份有限公司（Sinolink Securities，A股600109），前身成都证券1990年设立，注册地四川成都（青羊区东城根上街95号），上海等地设办公/分支机构；主营证券经纪、投资银行、证券投资、资产管理，控股国金资管、国金期货、国金基金。2026年暑期实习暨2027届校园招聘已正式启动（含量化研究、衍生品、金融科技方向），投递入口为招聘官网 gjzq.zhiye.com 及公众号『国金证券招聘』。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国金证券招聘官网（gjzq.zhiye.com）",
+        "url": "https://gjzq.zhiye.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/登录，岗位列表与开放状态未能读取，需在浏览器手动查看"
+      },
+      {
+        "type": "official",
+        "title": "国金证券2026年暑期实习暨2027届校园招聘公告（牛企校招转载）",
+        "url": "https://campus.niuqizp.com/job-vrk5ZMtnt.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "完整获取2027届校招公告：岗位类别（投资交易/证券研究/金融科技等）、工作地点（北京/上海/成都/深圳）、三个招聘批次与投递入口 gjzq.zhiye.com"
+      },
+      {
+        "type": "wechat",
+        "title": "公众号『国金证券招聘』校招公告原文",
+        "url": "https://mp.weixin.qq.com/s/lCtRkaIzm1rjlSP-4GBhng",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文有环境验证墙（环境异常）未能抓取；搜索摘要确认2027届校招提前批启动、投递入口为 gjzq.zhiye.com 与公众号『国金证券招聘』"
+      }
+    ]
+  },
+  {
+    "id": "guotai",
+    "name": "国泰基金管理有限公司",
+    "type": "public",
+    "website": "https://www.gtfund.com",
+    "location": "上海",
+    "about": "国泰基金成立于1998年3月，国内首批规范成立的基金管理公司之一（官网确认），总部上海（官网ICP备案沪）。主营公募基金，兼社保、企业年金、专户等。量化投资部为业内老牌量化团队（2014年成立，团队近30人），产品线覆盖指数/指增/主动量化/ETF，被誉为“行业ETF超市”（量化团队资料来自公开报道，请核实）。截至2025年末各类资产管理规模约1.49万亿元（校招公告披露）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "国泰基金官方校园招聘网申平台",
+        "url": "https://gtfund.zhiye.com/campus/jobs",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染，岗位列表未能抓取，需手动查看确认当前秋招/实习岗位"
+      },
+      {
+        "type": "official",
+        "title": "国泰基金官网“加入我们”页面",
+        "url": "http://www.gtfund.com/about/joinus/index.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面为历史内容（校招信息停留在2015年），实际校招走 gtfund.zhiye.com 平台"
+      },
+      {
+        "type": "wechat",
+        "title": "招聘｜国泰基金“菁英计划”全球招募（微信公众号“国泰基金招聘”）",
+        "url": "https://mp.weixin.qq.com/s/p1Q7FmSIerI-6lEYe9wSNw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信文章正文未抓取（环境异常/验证墙），需手动查看公众号“国泰基金招聘”确认岗位详情"
+      },
+      {
+        "type": "secondary",
+        "title": "上海财经大学商学院就业信息：国泰基金2026年“菁英计划”全面开启",
+        "url": "https://cob.sufe.edu.cn/en/Home/Detail/27626",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "正文为图片未能提取，文字部分确认菁英计划已开启、公司成立于1998年、截至2025年末管理规模约1.49万亿元"
+      },
+      {
+        "type": "secondary",
+        "title": "upjianli：国泰基金2026暑期实习值得投吗？留用机会与岗位难度全解析",
+        "url": "https://upjianli.com/jianlixiezuo/2443.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "第三方分析文章，正文完整读取：列出量化研究员/资产配置研究员/数据开发工程师等暑期实习岗位，网申 https://gtfund.zhiye.com/8/jobs，截止2026-06-02，可超前留用；非官方渠道，未经官方核实"
+      }
+    ]
+  },
+  {
+    "id": "guoxinsec",
+    "name": "国信证券",
+    "type": "securities",
+    "website": "https://www.guosen.com.cn",
+    "location": "深圳",
+    "about": "国信证券股份有限公司，1994 年成立，全国性大型综合类券商，总部深圳，深交所上市（002736），全国 117 个城市设分公司及营业部，员工超 1.2 万人。官方招聘官网 guosen.zhiye.com（校招网申 guosen.zhiye.com/campus/jobs），另有“国信证券招聘”微信公众号。金融创新总部（深圳）设场内期权策略研发、场内期权交易等量化/衍生品岗位；2027 届暑期实习（2026-04~05）已结束，2027 届秋季校园招聘是否启动待官方发布确认。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "wechat",
+        "title": "国信证券校园宣讲会推文（mp.weixin.qq.com）",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAxMDA3MjIwMw==&mid=2651945700&idx=6&sn=01b1ad9f72dacc8a1ed42c1e7bf617c3",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "抓到的是国信证券校园宣讲会推文，非 2027 届秋招启动公告；正文经搜索摘要部分可见，完整内容需在微信内手动查看"
+      },
+      {
+        "type": "official",
+        "title": "国信证券2026校园招聘公告（对外经济贸易大学就业网转载）",
+        "url": "https://aeo.uibe.edu.cn/front/zpxx.jspa?tid=2036648549902450689",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "高校就业网转载的 2026 校园招聘（机构业务顾问岗，职责含量化私募/衍生品 PB），非 2027 届秋招；最新岗位需到 guosen.zhiye.com 手动查看"
+      },
+      {
+        "type": "manual",
+        "title": "国信证券招聘官网（guosen.zhiye.com）",
+        "url": "https://guosen.zhiye.com/",
+        "accessedAt": "2026-08-12",
+        "status": "manual_required",
+        "note": "官网校招岗位列表需 JS 渲染，请手动查看确认该岗位及其他2027届岗位"
+      }
+    ]
+  },
+  {
+    "id": "harvest",
+    "name": "嘉实基金",
+    "type": "public",
+    "website": "https://www.jsfund.cn",
+    "location": "北京",
+    "about": "嘉实基金管理有限公司成立于1999年3月，老牌公募基金公司，总部北京朝阳区（建国门外大街21号国际俱乐部C座12A层），上海设办公室，管理资产规模超1万亿元、累计服务客户超1亿。量化相关岗位（指数与量化投资分析师、量化研究员（风险管理方向）、算法工程师等）通过官网招聘 www.jsfund.cn/jobs 与 MOKA 招聘系统投递（官网已核实）。",
     "source": "skill",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "嘉实基金招聘官网（加入我们）",
+        "url": "http://www.jsfund.cn/main/AboutHarvest/JoinUs/index.shtml",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "官网招聘页完整列出研究类/金融科技类在招岗位（指数与量化投资分析师、量化研究员（风险管理方向）、算法工程师等），统一走MOKA招聘系统；校招流程：简历投递→在线笔试→面试→校招实习→Offer"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号「嘉实招聘」· 2027届校园招聘",
+        "url": "https://mp.weixin.qq.com/s/DFhlZJmh4E3cpFwaZgdsIA",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "微信文章有环境验证墙（环境异常），正文未抓取；公众号『嘉实招聘』为唯一移动端投递渠道，需手动查看 [TODO]"
+      }
+    ]
   },
   {
     "id": "heiyi",
@@ -195,40 +965,145 @@
     "about": "上海黑翼资产管理有限公司，成立于2014年5月，国内较早成立的量化私募之一，管理规模约400亿+（截至2025年末第三方口径；官网页脚口径超200亿，未披露精确数字），曾连续6-7年蝉联中国私募金牛奖；注册地上海（崇明区），总部办公地北京朝阳区（新源里琨莎中心/亮马桥），上海浦东、成都太古里设办公室。两位创始人陈泽浩（北大数学学士、斯坦福统计博士）与邹倚天（斯坦福电子工程硕士）均为华尔街归国量化投资经理；采用『股票量化+CTA』双核心策略（量化选股、指数增强、市场中性、多策略、量化CTA），已实现全流程AI量化投资，研发人员占比约70%。官网『职位招聘』入口 https://www.blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23（官网已核实）。",
     "source": "skill",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "黑翼资产2026届全球校园招聘公告（牛企直聘转载）",
+        "url": "https://campus.niuqizp.com/job-vlU555nLN.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "确认26届秋招岗位清单（机器学习研究员、量化策略研究员、量化开发工程师等）、网申时间2025-09-03~2025-11-02、投递方式与招聘流程"
+      },
+      {
+        "type": "official",
+        "title": "黑翼资产官网『职位招聘』页",
+        "url": "https://blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网当前在招列表含CTA研究员、股票量化研究员、量化开发工程师、数据开发工程师、市场营销（社招性质）；校园招聘/社会招聘栏目存在但未展示具体校招岗位明细"
+      },
+      {
+        "type": "wechat",
+        "title": "黑翼资产官方微信公众号（gh_cd732f16789e）",
+        "url": "https://mp.weixin.qq.com/s/Lk7KzA6k09U3ehytEV9wbA",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信『环境异常』验证墙拦截，正文未抓取；官方声明确认『黑翼资产』『黑翼小站』为官方公众号，需手动在微信搜索查看 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "黑翼资产官方微信公众号（黑翼资产/黑翼小站）",
+        "url": "https://mp.weixin.qq.com",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信正文未抓取，需手动查看 [TODO]"
+      },
+      {
+        "type": "official",
+        "title": "黑翼资产新翼甄选营实习项目公告（牛企直聘转载）",
+        "url": "https://campus.niuqizp.com/job-vsr5ztzaL.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "确认新翼甄选营面向2027/2028届、6周项目制、答辩通过获日常实习Offer与转正机会、投递邮箱hr@blackwingasset.com、网申2026-05-29~2026-06-30"
+      },
+      {
+        "type": "official",
+        "title": "黑翼资产日常实习招聘（牛企直聘转载）",
+        "url": "https://campus.niuqizp.com/schedule-7y8m5aazN.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "确认日常量化研究实习在招，城市北京/上海/成都，方向含因子挖掘、模型构建、策略研究；未披露薪资"
+      }
+    ]
   },
   {
-    "id": "yinnuo",
-    "name": "因诺资产",
+    "id": "higgs",
+    "name": "杭州希格斯",
     "type": "private",
-    "website": "http://www.innoam.com",
-    "location": "上海",
-    "about": "因诺（上海）资产管理有限公司，2014年9月成立的量化私募基金管理人（中基协备案号P1006164），管理规模约200-300亿元（第三方说法，官网未披露具体数字，请核实），团队130+人、投研人员硕士占比100%、博士超40%，曾获金牛奖、金阳光奖、金长江奖、英华奖等近150项大奖。总部/注册地上海虹口，另在北京西城设办公区（注意：任务给定为『杭州』，但官网与工商/行业信息一致显示公司注册于上海，未见杭州实体，请核实）。招聘以『因诺英才』精英招聘计划（面向顶尖高校硕博）与『破界计划』（大模型×量化）为主，含量化投资研究员、量化交易员、量化开发（C++/Python）、量化数据等方向。官网 www.innoam.com，招聘公众号『因诺招聘』，投递邮箱 resume@innoam.com，校招投递系统 app.mokahr.com/campus-recruitment/innoam/142310。",
+    "website": "https://example.com/higgs",
+    "location": "杭州",
+    "about": "杭州希格斯投资管理有限公司，2018年成立的高频量化私募，股票、期货、期权全自动量化交易，规模约20-50亿元。。官网未核实，请核实。",
     "source": "skill",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
   },
   {
-    "id": "mengxi",
-    "name": "蒙玺投资",
+    "id": "highflyer",
+    "name": "幻方量化",
     "type": "private",
-    "website": "https://mxifund.com",
-    "location": "上海",
-    "about": "上海蒙玺投资管理有限公司，2016年1月成立的稳健型量化私募机构，国内低延迟量化先行者之一；资管规模200多亿元（官网口径，2026届校招公告为110多亿，各来源不一，请核实），员工90余人、投研团队60余人；总部上海浦东新区杨高南路759号陆家嘴世纪金融广场2号楼26楼，另设合肥AI Lab。以低延迟交易、另类数据（全球200+数据源）与AI深度布局见长，曾获金牛奖、英华奖、金阳光奖等。官网 mxifund.com，招聘页 mxifund.com/career，招聘邮箱 zhaopin@mxifund.com。2026届校招与『蒙』新计划暑期实习均含量化策略研究员、机器学习研究员（AI）、算法开发工程师三大岗位。",
+    "website": "https://www.high-flyer.cn",
+    "location": "杭州",
+    "about": "国内头部量化私募（AI 驱动量化投资），总部杭州，法定主体为浙江九章资产管理有限公司，关联 DeepSeek；管理规模数百亿，以深度学习与大规模计算为核心。官网招聘入口 https://www.high-flyer.cn/join（官网已核实）。",
     "source": "skill",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "幻方量化官网「加入我们」",
+        "url": "https://www.high-flyer.cn/join",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网招聘入口，页面跳转至 Moka ATS；官网页面本身无独立岗位列表，未见 2026 校招横幅"
+      },
+      {
+        "type": "wechat",
+        "title": "幻方量化微信公众号",
+        "url": "https://mp.weixin.qq.com/s/o12kMXVoWwWPMY4yAWogQw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号『幻方量化』历史招聘推文可搜到（2019 春招+社招、2021 校招），但 2026 校招推文未确认；文章正文被微信验证墙拦截，需手动查看 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "幻方量化公开招聘（搜狐号转载，2026）",
+        "url": "https://www.sohu.com/a/1045336885_122014422",
+        "accessedAt": "2026-08-11",
+        "status": "partial",
+        "note": "经搜索摘要确认幻方公开招聘含量化研究员/量化开发工程师/量化交易员等岗位；正文未直接抓取 [TODO]"
+      }
+    ]
   },
   {
-    "id": "jingshun",
-    "name": "景顺长城基金管理有限公司",
-    "type": "public",
-    "website": "https://www.igwfmc.com",
-    "location": "深圳（总部，北京/上海/广州设分公司）",
-    "about": "国内首家中美合资基金管理公司（美国景顺集团与长城证券共同发起，2003年6月成立），总部深圳，管理资产规模超5400亿元。拥有权益、固收、量化、ETF/指数、资产配置等综合投研体系；量化投资团队知名，黎海威任公司副总经理、量化及指数投资部总经理兼基金经理（天天基金/新浪财经资料）。招聘系统：invescogreatwall.zhiye.com/Campus；招聘公众号『景顺长城基金招聘』。",
+    "id": "hongqiang",
+    "name": "红墙泰和",
+    "type": "private",
+    "website": "https://example.com/hongqiang",
+    "location": "上海",
+    "about": "上海红墙泰和基金管理有限公司，量化私募基金管理人，擅长高频交易与机器学习，管理规模约10-50亿元。。官网未核实，请核实。",
     "source": "skill",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "hongyuan",
+    "name": "宏源期货",
+    "type": "securities",
+    "website": "https://example.com/hongyuan",
+    "location": "北京",
+    "about": "宏源期货有限公司，1995年成立，申万宏源集团全资控股的国有期货公司，经营商品/金融期货经纪、期货投资咨询、资产管理。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11",
+    "sources": [
+      {
+        "type": "official",
+        "title": "宏源期货官网（hyfutures.com）",
+        "url": "https://www.hyfutures.com/",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "官网招聘入口未直接读取到岗位列表，需手动查看 [TODO]"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（宏源期货）",
+        "url": "https://www.zhipin.com",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "本轮未对宏源期货单独搜索 Boss；期货公司量化岗在 Boss 上有挂出可能，需手动搜索『宏源期货』确认 [TODO]"
+      }
+    ]
   },
   {
     "id": "htb",
@@ -250,172 +1125,25 @@
     "about": "国内首批公募基金管理公司之一（1998年6月成立），总部位于上海陆家嘴；指数与量化投资部负责指数/量化产品，指数与量化团队知名（简介来自官网及公开资料，请核实）。",
     "source": "skill",
     "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "zhongou",
-    "name": "中欧基金管理有限公司",
-    "type": "public",
-    "website": "https://www.zofund.com",
-    "location": "上海",
-    "about": "2006年7月成立的公募基金管理公司，总部位于上海陆家嘴（上海中心大厦）；投研覆盖主动权益、固定收益、多资产与量化投资，量化投资部设量化研究等岗位（简介来自官网及公开资料，请核实）。",
-    "source": "skill",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "chinauniversal",
-    "name": "汇添富基金",
-    "type": "public",
-    "website": "https://www.99fund.com",
-    "location": "上海（总部：上海市黄浦区外马路728号汇添富基金大厦）",
-    "about": "汇添富基金管理股份有限公司成立于2005年，国内领先的综合性公募基金公司，总部上海，资产管理总规模超1.2万亿元（截至2025-06-30），员工超900人，业务涵盖公募、私募资管、养老金、国际业务等七大板块，被誉为『选股专家』；设有量化投资部，校招含助理量化分析师、助理指数分析师等量化相关岗位。官网 www.99fund.com（首页无招聘入口，已核实），校园招聘网申系统 htffund.zhiye.com/campus，官方招聘公众号『汇添富基金招聘』（htffund_job）。",
-    "source": "skill",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "xingzheng",
-    "name": "兴证全球基金",
-    "type": "public",
-    "website": "https://www.xqfunds.com",
-    "location": "上海（总部：上海市浦东新区芳甸路1155号嘉里城办公楼28楼）",
-    "about": "兴证全球基金管理有限公司（原『兴全基金』）成立于2003年9月30日，总部上海，权益投研知名的公募基金公司，12次荣获『金牛基金管理有限公司』称号，截至2025年末总资产管理规模超8000亿元；设有量化与衍生品部，校招含量化研究岗。官网 www.xqfunds.com（底部『诚聘加盟』入口，经搜索核实；WebFetch直连报协议解析错误，建议浏览器打开），校园招聘平台 sc.hotjob.cn/wt/AIFMC/web/index/campus，投递邮箱 campus@xqfunds.com。",
-    "source": "skill",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "jysld",
-    "name": "交银施罗德基金",
-    "type": "public",
-    "website": "https://www.fund001.com",
-    "location": "上海",
-    "about": "银行系公募基金，交银施罗德（Bank of Communications Schroder），上海总部。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "icbcs",
-    "name": "工银瑞信基金",
-    "type": "public",
-    "website": "https://www.icbcubs.com.cn",
-    "location": "北京",
-    "about": "银行系公募基金，工银瑞信（ICBC Credit Suisse），北京总部。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "tianhong",
-    "name": "天弘基金",
-    "type": "public",
-    "website": "http://www.thfund.com.cn",
-    "location": "北京（注册地天津）",
-    "about": "知名公募基金（余额宝管理方），办公地北京、注册地天津。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "qilin",
-    "name": "启林投资",
-    "type": "private",
-    "website": "https://www.70capital.com",
-    "location": "上海",
-    "about": "中科大系百亿量化私募（70 Capital），上海注册与办公。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "centuryfrontier",
-    "name": "世纪前沿",
-    "type": "private",
-    "website": "https://www.centuryfrontier.com",
-    "location": "深圳",
-    "about": "百亿量化私募，深圳前海注册，中长周期Alpha与高频执行均有积累。招聘邮箱 recruiter@centuryfrontier.com。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "chengqi",
-    "name": "诚奇资产",
-    "type": "private",
-    "website": "https://www.cqfunds.com",
-    "location": "北京（投研办，主体上海诚奇）",
-    "about": "百亿量化私募，北京海淀设投研办公室（2020年），招聘主体为上海诚奇。招聘邮箱 talent@cqfunds.com。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "jinhualun",
-    "name": "进化论资产",
-    "type": "private",
-    "website": "https://www.jhlfund.com",
-    "location": "深圳",
-    "about": "深圳量化私募（Evolution Fund，jhlfund），以多策略见长。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "jinde",
-    "name": "金锝资产",
-    "type": "private",
-    "website": "https://www.jindefund.com",
-    "location": "上海",
-    "about": "上海量化私募，金锝（Jinde），多策略量化。招聘邮箱 jobs@jindefund.com。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "sixie",
-    "name": "思勰投资",
-    "type": "private",
-    "website": "https://www.sixiecapital.com",
-    "location": "上海",
-    "about": "上海量化私募（Sixie Capital），公众号「思勰投资招聘」。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "kuande",
-    "name": "宽德投资",
-    "type": "private",
-    "website": "https://www.wizardquant.com",
-    "location": "上海（北京研发中心）",
-    "about": "宽德（WizardQuant），上海注册总部，北京设研发中心，以高频起家。招聘邮箱 hr@wizardquant.com。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "citicsec",
-    "name": "中信证券",
-    "type": "securities",
-    "website": "http://www.cs.ecitic.com",
-    "location": "北京（注册深圳）",
-    "about": "头部证券公司，注册地深圳、总部北京。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "cicc",
-    "name": "中金公司",
-    "type": "securities",
-    "website": "https://www.cicc.com",
-    "location": "北京",
-    "about": "头部投行券商（CICC），公众号「中金Career」。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "华安基金校园招聘平台",
+        "url": "https://huaan.zhiye.com/campus",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网校招页当前仅展示2027届暑期实习岗位，2026届量化研究员已下架"
+      },
+      {
+        "type": "wechat",
+        "title": "公众号推文：招聘 | 华安基金2026年暑期实习招聘",
+        "url": "https://mp.weixin.qq.com/s/ELUoVpY29p0B0jA5DSbbDA",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信公众号正文未抓取（微信反爬验证页面），需在微信内手动查看"
+      }
+    ]
   },
   {
     "id": "huataisec",
@@ -429,301 +1157,26 @@
     "updatedAt": "2026-08-09"
   },
   {
-    "id": "gtht",
-    "name": "国泰海通证券",
-    "type": "securities",
-    "website": "https://www.gtht.com",
-    "location": "上海",
-    "about": "原国泰君安+海通证券合并而成的头部券商，总部上海。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "csc",
-    "name": "中信建投证券",
-    "type": "securities",
-    "website": "https://www.csc108.com",
-    "location": "北京",
-    "about": "头部券商（China Securities，CSC），总部北京。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "cmssec",
-    "name": "招商证券",
-    "type": "securities",
-    "website": "https://www.cmschina.com",
-    "location": "深圳",
-    "about": "头部券商（China Merchants Securities），总部深圳。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "gfsec",
-    "name": "广发证券",
-    "type": "securities",
-    "website": "https://www.gf.com.cn",
+    "id": "huika",
+    "name": "汇卡天下科技有限公司",
+    "type": "tech",
+    "website": "https://example.com/huika",
     "location": "广州",
-    "about": "头部券商，总部广州，A+H 上市，行业排名前列。2027 届校园招聘已于 2026-06 启动（含量化开发/金融科技/FICC 投研/衍生品风控等方向）。招聘官网 gf.hotjob.cn。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "swhysc",
-    "name": "申万宏源证券",
-    "type": "securities",
-    "website": "https://www.swhysc.com",
-    "location": "上海",
-    "about": "头部券商（申万宏源，Shenwan Hongyuan），总部上海。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "dfzq",
-    "name": "东方证券",
-    "type": "securities",
-    "website": "https://www.dfzq.com.cn",
-    "location": "上海",
-    "about": "上海券商（Orient Securities），总部上海。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "xyzq",
-    "name": "兴业证券",
-    "type": "securities",
-    "website": "https://www.xyzq.com.cn",
-    "location": "福州（总部）/上海",
-    "about": "头部券商（Industrial Securities），总部福州、上海办公。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "chinastock",
-    "name": "中国银河证券",
-    "type": "securities",
-    "website": "https://www.chinastock.com.cn",
-    "location": "北京",
-    "about": "头部券商（China Galaxy Securities），总部北京。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "ebscn",
-    "name": "光大证券",
-    "type": "securities",
-    "website": "https://www.ebscn.com",
-    "location": "上海",
-    "about": "头部券商（Everbright Securities），总部上海。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "gfam",
-    "name": "广发资管",
-    "type": "securities",
-    "website": "https://www.gfam.com.cn",
-    "location": "广州",
-    "about": "广发证券资产管理（广东）有限公司（广发资管）是广发证券全资资产管理子公司，办公地广州天河区广发证券大厦；量化岗以股票因子研究、深度学习模型为特色，随广发证券 2027 届校园招聘统一招录（含资产管理方向）。官网为 JS 应用，招聘页内容需手动查看。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "zhongtaisec",
-    "name": "中泰证券",
-    "type": "securities",
-    "website": "https://www.95538.cn",
-    "location": "济南（山东）",
-    "about": "中泰证券股份有限公司，前身齐鲁证券，2001 年成立，全国大型综合类上市券商（上交所 600918），总部位于山东济南（高新区经十路 7000 号汉峪金融商务中心），在全国 28 个省市设 48 家分公司、240 余家营业部。旗下 XTP 极速交易系统（中泰极速交易平台）服务近 300 家量化私募机构、贡献年超 5 万亿交易量，在量化圈知名。2027 届秋季校园招聘已启动（86 个岗位、拟招 227 人，报名截止 2026-08-16 24:00），经官方招聘网站 zts.hotjob.cn 或“中泰证券招聘”微信公众号投递，条线含投资业务、研究业务（含金融工程）、金融科技、中泰证券（上海）资管等。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "guoxinsec",
-    "name": "国信证券",
-    "type": "securities",
-    "website": "https://www.guosen.com.cn",
-    "location": "深圳",
-    "about": "国信证券股份有限公司，1994 年成立，全国性大型综合类券商，总部深圳，深交所上市（002736），全国 117 个城市设分公司及营业部，员工超 1.2 万人。官方招聘官网 guosen.zhiye.com（校招网申 guosen.zhiye.com/campus/jobs），另有“国信证券招聘”微信公众号。金融创新总部（深圳）设场内期权策略研发、场内期权交易等量化/衍生品岗位；2027 届暑期实习（2026-04~05）已结束，2027 届秋季校园招聘是否启动待官方发布确认。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "guojinsec",
-    "name": "国金证券",
-    "type": "securities",
-    "website": "https://www.gjzq.com.cn",
-    "location": "成都（注册地）/上海（办公）",
-    "about": "国金证券股份有限公司（Sinolink Securities，A股600109），前身成都证券1990年设立，注册地四川成都（青羊区东城根上街95号），上海等地设办公/分支机构；主营证券经纪、投资银行、证券投资、资产管理，控股国金资管、国金期货、国金基金。2026年暑期实习暨2027届校园招聘已正式启动（含量化研究、衍生品、金融科技方向），投递入口为招聘官网 gjzq.zhiye.com 及公众号『国金证券招聘』。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "changjiangsec",
-    "name": "长江证券",
-    "type": "securities",
-    "website": "https://www.cjsc.com",
-    "location": "武汉（总部，江汉区淮海路88号）",
-    "about": "长江证券股份有限公司（Changjiang Securities，A股000783），前身湖北证券公司1991年设立，2007年上市，总部湖北武汉（江汉区淮海路88号），中国第6家上市券商、湖北唯一全牌照证券公司；旗下有长江保荐、长江资管、长江期货、长信基金等子公司。2027届量化/衍生品/金融工程暑期实习岗已发布（证券投资部量化J11210、衍生品风险管理J11215、研究所金融工程/另类策略），投递入口为招聘官网 cjzq.zhiye.com 及公众号『长江证券招聘』。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "guotai",
-    "name": "国泰基金管理有限公司",
-    "type": "public",
-    "website": "https://www.gtfund.com",
-    "location": "上海",
-    "about": "国泰基金成立于1998年3月，国内首批规范成立的基金管理公司之一（官网确认），总部上海（官网ICP备案沪）。主营公募基金，兼社保、企业年金、专户等。量化投资部为业内老牌量化团队（2014年成立，团队近30人），产品线覆盖指数/指增/主动量化/ETF，被誉为“行业ETF超市”（量化团队资料来自公开报道，请核实）。截至2025年末各类资产管理规模约1.49万亿元（校招公告披露）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "penghua",
-    "name": "鹏华基金管理有限公司",
-    "type": "public",
-    "website": "https://www.phfund.com.cn",
-    "location": "深圳",
-    "about": "鹏华基金，国内首批规范成立的基金管理公司之一（基金行业“老十家”，公开报道，请核实），总部深圳。设有研究部、指数与量化投资部、资产配置与基金投资部（FOF）、金融科技部、大数据与金融工程部等，量化/FOF/指数增强为重点方向。2026年春招及暑期实习计划招聘规模较大（第三方渠道称约150人，未核实）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "ccbfund",
-    "name": "建信基金管理有限责任公司",
-    "type": "public",
-    "website": "https://www.ccbfund.cn",
-    "location": "北京",
-    "about": "中国建设银行旗下银行系公募基金公司，成立于2005年9月，截至2025年底资产管理总规模约1.52万亿元，布局量化与固收+业务（请以官网为准）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "yinhua",
-    "name": "银华基金管理股份有限公司",
-    "type": "public",
-    "website": "https://www.yhfund.com.cn",
-    "location": "北京",
-    "about": "全牌照、综合型公募基金公司，成立于2001年5月，管理规模（含子公司）超万亿，产品线覆盖股票、债券、QDII、FOF等，量化与指数投资业务（请以官网为准）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "gtjafutures",
-    "name": "国泰君安期货有限公司",
-    "type": "securities",
-    "website": "https://www.gtjaqh.com",
-    "location": "上海",
-    "about": "国泰君安期货有限公司（GUOTAI JUNAN FUTURES CO.,LTD.），国泰海通证券股份有限公司全资子公司（原国泰君安证券旗下期货子公司），注册资本70亿元，总部上海，服务网点覆盖29个省/直辖市，是国内首批获得金融期货全面结算业务资格的期货公司、中国金融期货交易所一号会员。官网 www.gtjaqh.com（已核实，首页无招聘入口）；校园招聘以『金衍同盟』（2027届秋招预选拔）与『金衍新星』（2026届）计划为主，校招投递入口 www.gtjaqh.com/r/u 跳转至 Mokahr 校招系统 app.mokahr.com/campus-recruitment/gtjaqh/147180（已核实）。注意：与母公司国泰海通证券（gtht）为不同公司，本条目独立。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "citicfutures",
-    "name": "中信期货有限公司",
-    "type": "securities",
-    "website": "https://www.citicsf.com",
-    "location": "深圳（总部，招聘覆盖上海/北京/深圳）",
-    "about": "中信期货有限公司（CITIC Futures Co., Ltd.），中信证券全资子公司、中信集团金融控股体系重要成员，成立于1993年，注册资本76亿元，2025年6月末客户保证金规模超1600亿元，员工逾2000人，国内头部期货公司；旗下设中信中证资本、中信寰球商贸、信期国际控股等全资子公司。官网 www.citicsf.com（已核实），『人才招聘』入口 https://citicsfzp.zhiye.com；2026届校招以『总部未来星』（信梦想，期未来）春季校招为主，投递 https://campus.yingjiesheng.com/citicsf/，面向2026届、总部简历接收已于2026-04-19截止。注意：与母公司中信证券（citicsec）为不同公司，本条目独立。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "yonganfutures",
-    "name": "永安期货股份有限公司",
-    "type": "securities",
-    "website": "https://www.yafco.com",
-    "location": "杭州",
-    "about": "永安期货股份有限公司，国内规模最大的期货公司之一，上交所A股上市（股票代码600927，另挂新三板833840），总部杭州（江干区新业路200号华峰国际商务大厦），官网唯一性经公司官方公告确认（www.yafco.com）。业务覆盖期货经纪、资产管理、风险管理等。量化/衍生品人才培养以『黄埔联盟』项目为特色（2026年度为实习生暨2027届投研提前批，含量化研究员、大宗商品分析师、期现经理等方向）；关联公司永安国富资产管理有限公司（由永安期货及原投资团队组建）亦在杭州招聘量化实习生。官网『诚聘英才』招聘页需JS渲染，岗位列表需手动查看。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "galaxyfutures",
-    "name": "银河期货有限公司",
-    "type": "securities",
-    "website": "https://www.yhqh.com.cn",
-    "location": "北京",
-    "about": "银河期货有限公司，由中国银河证券全资控股（隶属中国银河金融控股），中国首批成立的期货公司之一，总部北京，在全国30余城设分支。业务涵盖期货与期权经纪、交易咨询、资产管理、基金销售、场外衍生品、期现业务、做市业务等。量化/衍生品相关岗位（量化研究岗等）及全资风险管理子公司银河德睿资本管理有限公司（上海）的量化交易岗见诸第三方招聘渠道。官网 www.yhqh.com.cn 已核实；注意：与中国银河证券（chinastock，官网 chinastock.com.cn）为不同法人主体，本条目独立。官网『诚聘英才』校园/社会/实习招聘页需JS渲染，岗位列表需手动查看。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "cofcofutures",
-    "name": "中粮期货有限公司",
-    "type": "securities",
-    "website": "http://www.zlqh.com/",
-    "location": "北京",
-    "about": "中粮集团旗下期货公司（中粮资本控股、中国人寿参股，AA类期货公司），以农产品期货、套期保值与风险管理为特色；总部北京市东城区建国门内大街8号中粮广场。官网经官网'重要提示'声明核实为 www.zlqh.com（2026-08-09）。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "cscfutures",
-    "name": "中信建投期货有限公司",
-    "type": "securities",
-    "website": "https://www.cfc108.com",
-    "location": "重庆（总部）/ 北京",
-    "about": "中信建投证券全资子公司（有限责任公司法人独资，注册资本14亿元），总部重庆，经营范围含商品/金融期货经纪、期货投资咨询、资产管理、基金销售。官网经官网'防范假冒网站声明'核实为 www.cfc108.com（2026-08-09）。注意：与'中信建投证券(csc)'为不同公司，此处独立建条目。",
-    "source": "manual",
-    "createdAt": "2026-08-09",
-    "updatedAt": "2026-08-09"
-  },
-  {
-    "id": "qianshuo-investment",
-    "name": "千朔投资",
-    "type": "private",
-    "website": "https://example.com/qianshuo-investment",
-    "location": "上海",
-    "about": "上海千朔投资管理有限公司，量化私募，深耕中低频量化；第三方资料称2026年新晋百亿规模（私募排排网/东方财富，请核实）。官网未核实，请核实。",
+    "about": "广州汇卡天下信息科技有限公司，主营软件开发、区块链与信息系统集成；另有贵州汇卡天下做银行卡终端安装维护。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
   },
   {
-    "id": "pansong-assets",
-    "name": "磐松资产",
-    "type": "private",
-    "website": "https://example.com/pansong-assets",
-    "location": "上海",
-    "about": "上海磐松私募基金管理有限公司，量化私募，2025年曾新晋百亿量化私募（第三方信息，请核实）。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "maoyuan-quant",
-    "name": "茂源量化",
-    "type": "private",
-    "website": "https://example.com/maoyuan-quant",
-    "location": "上海",
-    "about": "茂源量化(海南)私募基金管理合伙企业(有限合伙)，百亿级量化私募，2013年成立（第三方信息，请核实）。注册地海南，Boss直聘在沪/京/深招聘。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "id": "icbcs",
+    "name": "工银瑞信基金",
+    "type": "public",
+    "website": "https://www.icbcubs.com.cn",
+    "location": "北京",
+    "about": "银行系公募基金，工银瑞信（ICBC Credit Suisse），北京总部。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
   },
   {
     "id": "jiaqi-investment",
@@ -732,28 +1185,6 @@
     "website": "https://example.com/jiaqi-investment",
     "location": "上海",
     "about": "上海佳期私募基金管理有限公司，百亿量化私募（第三方信息，请核实）。Boss直聘在沪/京招聘量化开发实习生。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "wanyan-assets",
-    "name": "顽岩资产",
-    "type": "private",
-    "website": "https://example.com/wanyan-assets",
-    "location": "上海",
-    "about": "上海顽岩私募基金管理有限公司，百亿量化私募，策略覆盖期货高频/CTA/指数增强（第三方信息，请核实）。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "jiurun-investment",
-    "name": "玖润投资",
-    "type": "private",
-    "website": "https://example.com/jiurun-investment",
-    "location": "西安（上海招聘）",
-    "about": "西安玖润投资管理有限公司，规模较小私募（0-5亿，第三方信息）；策略以主观/多头为主，量化属性请核实。Boss直聘上海黄浦有量化研究员实习岗。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
@@ -770,59 +1201,82 @@
     "updatedAt": "2026-08-11"
   },
   {
-    "id": "debei-fund",
-    "name": "德贝",
+    "id": "jinde",
+    "name": "金锝资产",
     "type": "private",
-    "website": "https://example.com/debei-fund",
+    "website": "https://www.jindefund.com",
     "location": "上海",
-    "about": "上海德贝私募基金管理有限公司，量化CTA私募，2026年新晋百亿（第三方信息，请核实）。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "about": "上海量化私募，金锝（Jinde），多策略量化。招聘邮箱 jobs@jindefund.com。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
   },
   {
-    "id": "taiyan-fund",
-    "name": "太衍",
-    "type": "private",
-    "website": "https://example.com/taiyan-fund",
-    "location": "上海",
-    "about": "上海太衍私募基金管理有限公司，量化私募，成立于2025年，规模20-50亿（第三方信息，请核实）。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "peibang-fund",
-    "name": "配邦",
-    "type": "private",
-    "website": "https://example.com/peibang-fund",
-    "location": "上海",
-    "about": "上海配邦私募基金管理有限公司，量化私募，规模0-5亿（第三方信息，请核实）。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "liangkui",
-    "name": "上海量魁私募基金管理",
-    "type": "private",
-    "website": "https://example.com/liangkui",
-    "location": "上海",
-    "about": "上海量魁私募基金管理有限公司（曾用名上海量魁资产管理），2015年成立、2017年备案的量化私募，管理规模约20-50亿元。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "taigeyinghua",
-    "name": "上海钛戈英华科技",
+    "id": "jingchi",
+    "name": "鲸驰寰宇",
     "type": "tech",
-    "website": "https://example.com/taigeyinghua",
-    "location": "上海",
-    "about": "上海钛戈英华科技有限公司，2025年4月新成立的AI量化交易金融科技初创公司，聚焦量化交易与投资风险管理。。官网未核实，请核实。",
+    "website": "https://example.com/jingchi",
+    "location": "深圳",
+    "about": "深圳市鲸驰寰宇科技有限公司，专注算法研究与技术开发的量化金融科技企业，团队自称加密量化团队，深耕高频与套利策略、期权做市与对冲模型研发。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jingshun",
+    "name": "景顺长城基金管理有限公司",
+    "type": "public",
+    "website": "https://www.igwfmc.com",
+    "location": "深圳（总部，北京/上海/广州设分公司）",
+    "about": "国内首家中美合资基金管理公司（美国景顺集团与长城证券共同发起，2003年6月成立），总部深圳，管理资产规模超5400亿元。拥有权益、固收、量化、ETF/指数、资产配置等综合投研体系；量化投资团队知名，黎海威任公司副总经理、量化及指数投资部总经理兼基金经理（天天基金/新浪财经资料）。招聘系统：invescogreatwall.zhiye.com/Campus；招聘公众号『景顺长城基金招聘』。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "wechat",
+        "title": "景顺长城基金招聘（微信公众号）",
+        "url": "https://mp.weixin.qq.com/s/-2GQxl9uWQvwNuUN8XQAsA",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文需微信环境验证（当前环境异常），未能读取正文；公众号为『景顺长城基金招聘』，需手动查看"
+      },
+      {
+        "type": "official",
+        "title": "景顺长城基金招聘系统-校园招聘（Campus）",
+        "url": "https://invescogreatwall.zhiye.com/Campus",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "岗位来自官方招聘系统2026-03-25发布的2027届暑期实习（固收研究岗含量化方向）；Campus页需JS渲染无法静态抓取，具体岗位页URL未留存"
+      },
+      {
+        "type": "official",
+        "title": "景顺长城基金2026届校招（北京大学就业信息网）",
+        "url": "https://scc.pku.edu.cn/frontpage/pku/html/recruitmentinfoForm.html?positionDetailId=b30285fa2fda47a1b863154b9174d4db",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "搜索摘要确认2025年12月发布2026届校招，行业研究岗-高端制造方向（深圳，招1人）；正文未抓取"
+      },
+      {
+        "type": "official",
+        "title": "景顺长城基金招聘系统-校园招聘",
+        "url": "https://invescogreatwall.zhiye.com/campus",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "官方招聘系统为 JS 应用，岗位列表需进入子页查看"
+      }
+    ]
+  },
+  {
+    "id": "jinhualun",
+    "name": "进化论资产",
+    "type": "private",
+    "website": "https://www.jhlfund.com",
+    "location": "深圳",
+    "about": "深圳量化私募（Evolution Fund，jhlfund），以多策略见长。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
   },
   {
     "id": "jiuqi",
@@ -836,45 +1290,100 @@
     "updatedAt": "2026-08-11"
   },
   {
-    "id": "metabit",
-    "name": "乾象投资",
+    "id": "jiurun-investment",
+    "name": "玖润投资",
     "type": "private",
-    "website": "https://example.com/metabit",
-    "location": "北京（上海设办公室）",
-    "about": "北京乾象私募基金管理有限公司（Metabit Trading），2018年成立、2023年管理规模突破百亿的AI量化私募。。官网未核实，请核实。",
+    "website": "https://example.com/jiurun-investment",
+    "location": "西安（上海招聘）",
+    "about": "西安玖润投资管理有限公司，规模较小私募（0-5亿，第三方信息）；策略以主观/多头为主，量化属性请核实。Boss直聘上海黄浦有量化研究员实习岗。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
   },
   {
-    "id": "guangyiwangda",
-    "name": "光亿旺达",
+    "id": "jukuan",
+    "name": "聚宽投资",
     "type": "private",
-    "website": "https://example.com/guangyiwangda",
+    "website": "https://example.com/jukuan",
+    "location": "北京",
+    "about": "北京聚宽投资管理有限公司，2017年备案的头部量化私募，JoinQuant聚宽量化投研平台母公司控股，管理规模约100亿元。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jushi",
+    "name": "巨石资本",
+    "type": "private",
+    "website": "https://example.com/jushi",
+    "location": "珠海/广州",
+    "about": "珠海巨石私募基金管理有限公司（巨石资产），2018年取得私募证券投资管理人资格，专注绝对收益，价值成长与量化对冲策略，规模约5-10亿元。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "jysld",
+    "name": "交银施罗德基金",
+    "type": "public",
+    "website": "https://www.fund001.com",
     "location": "上海",
-    "about": "上海光亿旺达私募基金管理有限公司，原名上海拾麦资产管理，已备案私募证券投资基金管理人，管理规模约10-20亿元，旗下有量化及股票策略产品。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "about": "银行系公募基金，交银施罗德（Bank of Communications Schroder），上海总部。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
   },
   {
-    "id": "lingxing",
-    "name": "凌星投资",
+    "id": "kuande",
+    "name": "宽德投资",
     "type": "private",
-    "website": "https://example.com/lingxing",
+    "website": "https://www.wizardquant.com",
+    "location": "上海（北京研发中心）",
+    "about": "宽德（WizardQuant），上海注册总部，北京设研发中心，以高频起家。招聘邮箱 hr@wizardquant.com。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "liangbu",
+    "name": "杭州量步科技有限公司",
+    "type": "tech",
+    "website": "https://example.com/liangbu",
     "location": "杭州",
-    "about": "杭州凌星投资管理有限公司，成立于2017年，经营范围含投资管理，曾招聘量化策略研究员与量化投研实习岗；备案状态待核实。。官网未核实，请核实。",
+    "about": "杭州量步科技有限公司，2024年成立，专注量化交易的初创公司，自建全自动交易平台。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
   },
   {
-    "id": "fande",
-    "name": "凡德投资",
+    "id": "lianghan",
+    "name": "量函科技",
+    "type": "tech",
+    "website": "https://example.com/lianghan",
+    "location": "广州/北京",
+    "about": "量函（广州）科技有限公司与量函（北京）科技有限责任公司，大数据、AI软件开发、数据处理及技术服务。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "lianghua",
+    "name": "北京量化投资管理",
     "type": "private",
-    "website": "https://example.com/fande",
-    "location": "广州",
-    "about": "广东凡德投资有限公司，2012年成立、2014年完成私募管理人备案，基本面量化私募，管理规模约4亿元。。官网未核实，请核实。",
+    "website": "https://example.com/lianghua",
+    "location": "北京",
+    "about": "北京量化投资管理有限公司，2014年成立，私募证券投资基金管理人，专注量化对冲基金业务，管理规模0-5亿元。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "liangkui",
+    "name": "上海量魁私募基金管理",
+    "type": "private",
+    "website": "https://example.com/liangkui",
+    "location": "上海",
+    "about": "上海量魁私募基金管理有限公司（曾用名上海量魁资产管理），2015年成立、2017年备案的量化私募，管理规模约20-50亿元。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
@@ -902,103 +1411,180 @@
     "updatedAt": "2026-08-11"
   },
   {
-    "id": "lianghua",
-    "name": "北京量化投资管理",
+    "id": "lingjun",
+    "name": "灵均投资",
     "type": "private",
-    "website": "https://example.com/lianghua",
+    "website": "https://www.lingjuninvest.com",
     "location": "北京",
-    "about": "北京量化投资管理有限公司，2014年成立，私募证券投资基金管理人，专注量化对冲基金业务，管理规模0-5亿元。。官网未核实，请核实。",
+    "about": "灵均投资（宁波灵均投资管理合伙企业（有限合伙））成立于2014年6月，国内首批量化私募机构之一、中国证券投资基金业协会会员单位（登记编号P1004526），专注量化投资；管理规模超600亿元（第三方信息，官网未披露具体数字），策略覆盖量化选股、指数增强、多空多策略、市场中性；在北京海淀、上海浦东设办公区，另有香港关联公司；投研团队硕博占比超85%。官网『加入我们』入口 https://www.lingjuninvest.com/overview（官网已核实）。",
     "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "灵均投资官网·校园招聘页（加入我们）",
+        "url": "https://www.lingjuninvest.com/campus-recruitment",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面确认全年开放日常实习、投递方式（MOKA/邮箱）、实习时长要求（≥3个月、每周≥4天）与转正机会；具体岗位JD在MOKA系统（需JS渲染），未直接读取"
+      },
+      {
+        "type": "wechat",
+        "title": "灵均投资招聘（官方微信公众号）",
+        "url": "https://mp.weixin.qq.com",
+        "accessedAt": "2026-08-09",
+        "status": "manual_required",
+        "note": "官网确认『灵均投资招聘』为官方招聘发布渠道，但未能检索到2026年校招推文正文链接，需手动在微信搜索关注查看 [TODO]"
+      },
+      {
+        "type": "official",
+        "title": "灵均投资MOKA招聘系统",
+        "url": "https://app.mokahr.com/social-recruitment/lingjuninvest/46355",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面多次重定向（超过10次）未能读取岗位列表，需手动打开浏览器查看"
+      },
+      {
+        "type": "official",
+        "title": "灵均投资官网·社会招聘入口（加入我们）",
+        "url": "https://www.lingjuninvest.com/social-recruitment",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "社招入口确认存在量化开发/IT类岗位方向；岗位列表在MOKA系统（需JS渲染），未直接读取"
+      },
+      {
+        "type": "manual",
+        "title": "小红书·灵均投资热招岗位帖",
+        "url": "https://www.xiaohongshu.com/discovery/item/69aea43400000000150391e1",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方帖子列出量化开发工程师、C++开发工程师（回测方向）、基础架构研发工程师等热招岗位，薪资未披露，未经官方核实"
+      }
+    ]
   },
   {
-    "id": "banyang",
-    "name": "半鞅私募基金",
+    "id": "lingxing",
+    "name": "凌星投资",
     "type": "private",
-    "website": "https://example.com/banyang",
-    "location": "上海",
-    "about": "上海半鞅私募基金管理合伙企业（有限合伙），2021年成立的量化私募管理人，采用量价模型与机器学习策略。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "boyi",
-    "name": "博弈资产",
-    "type": "private",
-    "website": "https://example.com/boyi",
-    "location": "青岛",
-    "about": "青岛博弈资产管理有限公司，2017年成立并备案，科技驱动量化资产管理，主观+量化选股，管理规模超30亿元，曾获金牛奖。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "bopu",
-    "name": "博普资产",
-    "type": "private",
-    "website": "https://example.com/bopu",
-    "location": "深圳",
-    "about": "深圳前海博普资产管理有限公司，博普科技全资子公司，私募证券投资基金管理人，量化策略覆盖套利、股票量化、CTA，规模约50-100亿元。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "nailao",
-    "name": "奶酪基金",
-    "type": "private",
-    "website": "https://example.com/nailao",
-    "location": "广东",
-    "about": "广东奶酪私募基金管理股份有限公司，2015年成立的私募证券投资基金管理人，以价值投资为核心。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "yusi",
-    "name": "宇斯人工智能",
-    "type": "tech",
-    "website": "https://example.com/yusi",
+    "website": "https://example.com/lingxing",
     "location": "杭州",
-    "about": "杭州宇斯人工智能科技有限责任公司，2022年成立的国家高新技术企业，专注AI算法与金融量化交叉，主营美股量化交易。。官网未核实，请核实。",
+    "about": "杭州凌星投资管理有限公司，成立于2017年，经营范围含投资管理，曾招聘量化策略研究员与量化投研实习岗；备案状态待核实。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
   },
   {
-    "id": "hongyuan",
-    "name": "宏源期货",
-    "type": "securities",
-    "website": "https://example.com/hongyuan",
-    "location": "北京",
-    "about": "宏源期货有限公司，1995年成立，申万宏源集团全资控股的国有期货公司，经营商品/金融期货经纪、期货投资咨询、资产管理。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "jushi",
-    "name": "巨石资本",
+    "id": "maoyuan-quant",
+    "name": "茂源量化",
     "type": "private",
-    "website": "https://example.com/jushi",
-    "location": "珠海/广州",
-    "about": "珠海巨石私募基金管理有限公司（巨石资产），2018年取得私募证券投资管理人资格，专注绝对收益，价值成长与量化对冲策略，规模约5-10亿元。。官网未核实，请核实。",
+    "website": "https://example.com/maoyuan-quant",
+    "location": "上海",
+    "about": "茂源量化(海南)私募基金管理合伙企业(有限合伙)，百亿级量化私募，2013年成立（第三方信息，请核实）。注册地海南，Boss直聘在沪/京/深招聘。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
   },
   {
-    "id": "shixin",
-    "name": "拾新未来",
-    "type": "tech",
-    "website": "https://example.com/shixin",
-    "location": "深圳",
-    "about": "深圳拾新未来科技资讯有限公司（TenX AI），绰瑞资产孵化的AI团队，打造量化投资垂直AI Agent，2026届校招开放AI量化研究员岗位。。官网未核实，请核实。",
+    "id": "mengxi",
+    "name": "蒙玺投资",
+    "type": "private",
+    "website": "https://mxifund.com",
+    "location": "上海",
+    "about": "上海蒙玺投资管理有限公司，2016年1月成立的稳健型量化私募机构，国内低延迟量化先行者之一；资管规模200多亿元（官网口径，2026届校招公告为110多亿，各来源不一，请核实），员工90余人、投研团队60余人；总部上海浦东新区杨高南路759号陆家嘴世纪金融广场2号楼26楼，另设合肥AI Lab。以低延迟交易、另类数据（全球200+数据源）与AI深度布局见长，曾获金牛奖、英华奖、金阳光奖等。官网 mxifund.com，招聘页 mxifund.com/career，招聘邮箱 zhaopin@mxifund.com。2026届校招与『蒙』新计划暑期实习均含量化策略研究员、机器学习研究员（AI）、算法开发工程师三大岗位。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "蒙玺投资官网「加入我们」",
+        "url": "https://mxifund.com/career",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网可访问，确认投递邮箱zhaopin@mxifund.com、校招/社招/实习投递格式与福利；『热招岗位』区块需JS渲染，在招岗位列表未直接读取，请手动查看 [TODO]"
+      },
+      {
+        "type": "official",
+        "title": "蒙玺投资2026届校园招聘正式启动（中国科学技术大学就业网转载）",
+        "url": "http://www.job.ustc.edu.cn/airtalk/info.aspx?itemid=9227",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "经搜索摘要确认公司简介、三大岗位（量化策略研究员/机器学习研究员/算法开发工程师）、招聘对象（2025.09-2026.08毕业生）、投递方式与秋招时间（2025-09-02~2025-11-01）；正文未直接抓取"
+      },
+      {
+        "type": "official",
+        "title": "『蒙』新计划·蒙玺投资2026年暑期实习（安徽省大学生就业服务平台转载）",
+        "url": "https://yun.ahbys.com/job2.html?jid=15917&cid=20197",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "确认面向2027届的提前批暑期实习（报名截至2026-06-20）、实习周期2026-06-01~09-30、通过考核答辩2026-10锁定2027届校招offer；正文未直接抓取"
+      },
+      {
+        "type": "wechat",
+        "title": "蒙玺投资2026届校园招聘正式启动（微信公众号）",
+        "url": "https://mp.weixin.qq.com/s/RjDIWkbtPY5G8FNdx-ZUUA",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号文章有环境验证墙，正文未直接抓取；经搜索摘要确认2026届校招岗位、投递邮箱与秋招时间，需手动查看 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "蒙玺投资2026年暑期实习（微信公众号）",
+        "url": "https://mp.weixin.qq.com/s/RurKwsEjAx-MdqdWwuuGZg",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号文章有环境验证墙，正文未直接抓取，需手动查看 [TODO]"
+      }
+    ]
+  },
+  {
+    "id": "metabit",
+    "name": "乾象投资",
+    "type": "private",
+    "website": "https://example.com/metabit",
+    "location": "北京（上海设办公室）",
+    "about": "北京乾象私募基金管理有限公司（Metabit Trading），2018年成立、2023年管理规模突破百亿的AI量化私募。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "minghong",
+    "name": "明汯投资",
+    "type": "private",
+    "website": "https://www.mhfunds.com",
+    "location": "上海",
+    "about": "上海明汯投资管理有限公司成立于2014年，注册于上海虹口，国内较早将人工智能技术成功应用于金融市场的量化私募机构，是国内首批管理规模突破500亿元的量化私募管理人之一，在上海、北京、香港、纽约设有办公室。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "明汯投资招聘官网（join.mhfunds.com）",
+        "url": "https://join.mhfunds.com/index",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网需JS渲染，仅见'明汯投资期待你的加入'，岗位详情经校招公告/高校就业网转载确认"
+      },
+      {
+        "type": "wechat",
+        "title": "「明汯人才招聘」公众号·2026校园招聘",
+        "url": "https://mp.weixin.qq.com/s/QOT9s3ytnPQ94aJjprE2RA",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信文章有环境验证墙，正文未直接抓取；经摘要确认岗位清单"
+      },
+      {
+        "type": "wechat",
+        "title": "「明汯人才招聘」公众号·2026实习生招聘公告",
+        "url": "https://mp.weixin.qq.com/s/F9fawZagiIQ9DY7O6_prRg",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信文章有环境验证墙，正文未直接抓取；经摘要确认2026实习岗位清单、投递方式与转正通道"
+      }
+    ]
   },
   {
     "id": "minghu",
@@ -1007,182 +1593,6 @@
     "website": "https://example.com/minghu",
     "location": "济南",
     "about": "山东明湖汇私募（投资）基金管理有限公司，2019年成立于济南，私募证券投资管理人，规模约20-50亿元，发行明湖汇修文量化1号等量化产品。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "shenxuan",
-    "name": "杭州伸轩投资管理",
-    "type": "private",
-    "website": "https://example.com/shenxuan",
-    "location": "杭州",
-    "about": "杭州伸轩投资管理有限公司（伸轩资本），2015年成立，AI策略量化研究，服务香港资管业务，涉及美股量化策略。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "yuanxi",
-    "name": "杭州元析量化科技",
-    "type": "tech",
-    "website": "https://example.com/yuanxi",
-    "location": "杭州",
-    "about": "杭州元析量化科技有限公司，2026年注册，AI算法与软件开发为主，招聘量化研究员、量化风控、量化工程师。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "tianji",
-    "name": "杭州天玑智算科技",
-    "type": "tech",
-    "website": "https://example.com/tianji",
-    "location": "杭州",
-    "about": "杭州天玑智算科技有限公司，2025年成立，AI软件开发与算力解决方案，运营超算中心，持有量化EA系统软件著作权。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "higgs",
-    "name": "杭州希格斯",
-    "type": "private",
-    "website": "https://example.com/higgs",
-    "location": "杭州",
-    "about": "杭州希格斯投资管理有限公司，2018年成立的高频量化私募，股票、期货、期权全自动量化交易，规模约20-50亿元。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "liangbu",
-    "name": "杭州量步科技有限公司",
-    "type": "tech",
-    "website": "https://example.com/liangbu",
-    "location": "杭州",
-    "about": "杭州量步科技有限公司，2024年成立，专注量化交易的初创公司，自建全自动交易平台。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "zhengding",
-    "name": "正定私募",
-    "type": "private",
-    "website": "https://example.com/zhengding",
-    "location": "北京",
-    "about": "北京正定私募基金管理合伙企业（有限合伙），2022年成立，量化私募，创始团队出自清华计算机系，规模约50-100亿元。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "huika",
-    "name": "汇卡天下科技有限公司",
-    "type": "tech",
-    "website": "https://example.com/huika",
-    "location": "广州",
-    "about": "广州汇卡天下信息科技有限公司，主营软件开发、区块链与信息系统集成；另有贵州汇卡天下做银行卡终端安装维护。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "shengfeng",
-    "name": "海南盛丰私募基金",
-    "type": "private",
-    "website": "https://example.com/shengfeng",
-    "location": "深圳（总部）·海南注册",
-    "about": "海南盛丰私募基金管理有限公司，2022年成立的量化私募，主打股票市场中性策略，2026年6月新晋百亿级量化私募。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "xiangyuan",
-    "name": "湘源投资",
-    "type": "private",
-    "website": "https://example.com/xiangyuan",
-    "location": "杭州",
-    "about": "杭州湘源投资有限公司，2013年成立、2017年备案的量化私募基金管理人，专注金融衍生产品定价与量化套利，管理规模约5-10亿元。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "aifanzhe",
-    "name": "爱凡哲投资管理",
-    "type": "private",
-    "website": "https://example.com/aifanzhe",
-    "location": "上海",
-    "about": "爱凡哲投资管理有限公司，2017年底备案的量化私募基金管理人，主营股票、期货、期权量化投资，管理规模约20-50亿元。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "ruixin",
-    "name": "瑞鑫天算",
-    "type": "private",
-    "website": "https://example.com/ruixin",
-    "location": "北京",
-    "about": "北京瑞鑫天算资产管理有限公司，2017年成立的量化私募证券基金管理人，专注多因子股票模型与CTA策略。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "hongqiang",
-    "name": "红墙泰和",
-    "type": "private",
-    "website": "https://example.com/hongqiang",
-    "location": "上海",
-    "about": "上海红墙泰和基金管理有限公司，量化私募基金管理人，擅长高频交易与机器学习，管理规模约10-50亿元。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "jukuan",
-    "name": "聚宽投资",
-    "type": "private",
-    "website": "https://example.com/jukuan",
-    "location": "北京",
-    "about": "北京聚宽投资管理有限公司，2017年备案的头部量化私募，JoinQuant聚宽量化投研平台母公司控股，管理规模约100亿元。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "yuewei",
-    "name": "跃威投资",
-    "type": "private",
-    "website": "https://example.com/yuewei",
-    "location": "上海",
-    "about": "上海跃威私募基金管理有限公司，2018年备案的私募证券基金管理人，核心策略为期权波动率套利，管理规模约10-20亿元。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "yuanhe",
-    "name": "远和资产",
-    "type": "private",
-    "website": "https://example.com/yuanhe",
-    "location": "杭州",
-    "about": "杭州远和私募基金有限公司，2025年备案的量化私募，专注A股中低频量化选股，百亿量化私募黑马。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "lianghan",
-    "name": "量函科技",
-    "type": "tech",
-    "website": "https://example.com/lianghan",
-    "location": "广州/北京",
-    "about": "量函（广州）科技有限公司与量函（北京）科技有限责任公司，大数据、AI软件开发、数据处理及技术服务。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
@@ -1199,56 +1609,45 @@
     "updatedAt": "2026-08-11"
   },
   {
-    "id": "feitu",
-    "name": "非凸科技",
-    "type": "tech",
-    "website": "https://example.com/feitu",
-    "location": "上海",
-    "about": "上海非凸智能科技有限公司，成立于2018年，专注智能算法交易与数智交易系统，为券商、量化私募等金融机构提供算法交易解决方案，核心团队来自华尔街资管与一线互联网公司。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "feima",
-    "name": "非马",
-    "type": "private",
-    "website": "https://example.com/feima",
-    "location": "上海",
-    "about": "上海非马投资管理有限公司，成立于2014年，中国基金业协会私募基金管理人，管理规模约5-10亿元，主营二级市场证券投资，擅长大宗商品期货与股票投资。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "gaota",
-    "name": "高塔量化",
-    "type": "tech",
-    "website": "https://example.com/gaota",
-    "location": "深圳/香港",
-    "about": "高塔量化科技有限公司（Contrarian Technology Limited），2022年在香港注册，另设深圳高塔量化科技有限公司，为专注量化交易与区块链应用的金融科技初创公司。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
-    "id": "jingchi",
-    "name": "鲸驰寰宇",
-    "type": "tech",
-    "website": "https://example.com/jingchi",
-    "location": "深圳",
-    "about": "深圳市鲸驰寰宇科技有限公司，专注算法研究与技术开发的量化金融科技企业，团队自称加密量化团队，深耕高频与套利策略、期权做市与对冲模型研发。。官网未核实，请核实。",
-    "source": "skill",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
-  },
-  {
     "id": "mingyu",
     "name": "鸣瑜私募",
     "type": "private",
     "website": "https://example.com/mingyu",
     "location": "广州",
     "about": "广州鸣瑜私募证券投资基金管理有限公司，成立于2018年，中国基金业协会登记私募管理人，管理规模约10-20亿元，专注量化中性、期货高频、期权套利等低风险量化策略。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "nailao",
+    "name": "奶酪基金",
+    "type": "private",
+    "website": "https://example.com/nailao",
+    "location": "广东",
+    "about": "广东奶酪私募基金管理股份有限公司，2015年成立的私募证券投资基金管理人，以价值投资为核心。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "pansong-assets",
+    "name": "磐松资产",
+    "type": "private",
+    "website": "https://example.com/pansong-assets",
+    "location": "上海",
+    "about": "上海磐松私募基金管理有限公司，量化私募，2025年曾新晋百亿量化私募（第三方信息，请核实）。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "peibang-fund",
+    "name": "配邦",
+    "type": "private",
+    "website": "https://example.com/peibang-fund",
+    "location": "上海",
+    "about": "上海配邦私募基金管理有限公司，量化私募，规模0-5亿（第三方信息，请核实）。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
@@ -1276,25 +1675,810 @@
     "updatedAt": "2026-08-11"
   },
   {
-    "id": "dunyu-investment",
-    "name": "敦钰投资",
+    "id": "penghua",
+    "name": "鹏华基金管理有限公司",
+    "type": "public",
+    "website": "https://www.phfund.com.cn",
+    "location": "深圳",
+    "about": "鹏华基金，国内首批规范成立的基金管理公司之一（基金行业“老十家”，公开报道，请核实），总部深圳。设有研究部、指数与量化投资部、资产配置与基金投资部（FOF）、金融科技部、大数据与金融工程部等，量化/FOF/指数增强为重点方向。2026年春招及暑期实习计划招聘规模较大（第三方渠道称约150人，未核实）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "鹏华基金招聘官网",
+        "url": "https://job.phfund.com.cn",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染（SPA），岗位列表未能抓取，需手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "鹏华基金2026年春招（微信公众号“鹏华基金招聘”）",
+        "url": "https://mp.weixin.qq.com/s/MwtimVYQ0ZztBRIwjmQmfQ",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号正文未抓取（微信环境异常/验证），需手动查看公众号“鹏华基金招聘”"
+      }
+    ]
+  },
+  {
+    "id": "qianshuo-investment",
+    "name": "千朔投资",
     "type": "private",
-    "website": "https://example.com/dunyu-investment",
+    "website": "https://example.com/qianshuo-investment",
     "location": "上海",
-    "about": "上海敦钰投资管理有限公司，成立于2015年10月，量化私募证券投资基金管理人（岗位描述内公司自称中基协备案，登记编号 P1032164），专注量化 CTA/量化选股/套利等策略；核心团队来自国内外对冲基金/券商/公募/交易所，量化从业 15 年以上。招聘经 Boss直聘实时确认（2026-08-11：量化研究员实习生 200-400元/天）。官网未核实，用 example.com 占位，请核实。",
+    "about": "上海千朔投资管理有限公司，量化私募，深耕中低频量化；第三方资料称2026年新晋百亿规模（私募排排网/东方财富，请核实）。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
   },
   {
-    "id": "guangpu-investment",
-    "name": "光谱投资",
+    "id": "qianxiang",
+    "name": "千象资产",
     "type": "private",
-    "website": "https://example.com/guangpu-investment",
+    "website": "https://www.qxinvest.com",
     "location": "上海",
-    "about": "上海地区量化私募（经 Boss直聘网页版实时搜索发现：量化研究员·因子/高频方向实习在招，500-800元/天，工作地上海·浦东·陆家嘴）。公司全称与中基协备案待核实，请核实。官网未核实，用 example.com 占位。",
+    "about": "上海千象资产管理有限公司（简称千象资产），成立于2014年7月，总部上海（浦东新区福山路500号城建国际中心），在北京、广州、香港设办公室，专注量化投资（数据挖掘+数学建模+计算机技术投资国内二级市场），管理规模超百亿，居行业前列；曾获五届中国证券报『金牛奖』、上证报『金阳光奖』、证券时报『金长江奖』、中国基金报『英华奖』等权威奖项。官网『加入千象』招聘入口 https://www.qxinvest.com/stationWebsite/w/h?mt=2&mc=3816892&cc=236920624 ，官方公众号『千象资产』/招聘公众号『千象资产招聘』，投递邮箱 hr@qxinvest.com（官网已核实）。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "千象资产官网『加入千象』招聘页",
+        "url": "https://www.qxinvest.com/stationWebsite/w/h?mt=2&mc=3816892&cc=236920624",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网『加入千象』页面展示『热招岗位』条目（2025-08-28）但正文为空/未发布；招聘平台 vipfunds.simu800.com 需登录，请手动查看 [TODO]"
+      },
+      {
+        "type": "official",
+        "title": "千象资产2026届校园招聘简章（鱼泡直聘校招转载）",
+        "url": "https://xyzp.haitou.cc/article/3464205.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面抓取返回503，岗位信息（量化策略实习生 Alpha/CTA、海外CTA研究员实习生；网申2025-10-14~2026-01-14；上海/北京/香港；投递 hr@qxinvest.com）来自两次独立搜索摘要，需以官方简章为准 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号『千象资产』『千象资产招聘』",
+        "url": "https://mp.weixin.qq.com",
+        "accessedAt": "2026-08-09",
+        "status": "manual_required",
+        "note": "官方公众号为招聘动态与投递渠道；未抓到可直接引用的2026校招推文正文（微信验证墙），需在微信内关注公众号手动查看 [TODO]"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·千象资产（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E5%8D%83%E8%B1%A1%E8%B5%84%E4%BA%A7&city=101020100",
+        "accessedAt": "2026-08-11",
+        "status": "blocked",
+        "note": "2026-08-11 实时搜索返回 15 条在招，未含海外CTA研究员实习生；需确认该岗位是否仍在招 [TODO]"
+      }
+    ]
+  },
+  {
+    "id": "qilin",
+    "name": "启林投资",
+    "type": "private",
+    "website": "https://www.70capital.com",
+    "location": "上海",
+    "about": "中科大系百亿量化私募（70 Capital），上海注册与办公。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "ruixin",
+    "name": "瑞鑫天算",
+    "type": "private",
+    "website": "https://example.com/ruixin",
+    "location": "北京",
+    "about": "北京瑞鑫天算资产管理有限公司，2017年成立的量化私募证券基金管理人，专注多因子股票模型与CTA策略。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
     "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "shengfeng",
+    "name": "海南盛丰私募基金",
+    "type": "private",
+    "website": "https://example.com/shengfeng",
+    "location": "深圳（总部）·海南注册",
+    "about": "海南盛丰私募基金管理有限公司，2022年成立的量化私募，主打股票市场中性策略，2026年6月新晋百亿级量化私募。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "shenxuan",
+    "name": "杭州伸轩投资管理",
+    "type": "private",
+    "website": "https://example.com/shenxuan",
+    "location": "杭州",
+    "about": "杭州伸轩投资管理有限公司（伸轩资本），2015年成立，AI策略量化研究，服务香港资管业务，涉及美股量化策略。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "shixin",
+    "name": "拾新未来",
+    "type": "tech",
+    "website": "https://example.com/shixin",
+    "location": "深圳",
+    "about": "深圳拾新未来科技资讯有限公司（TenX AI），绰瑞资产孵化的AI团队，打造量化投资垂直AI Agent，2026届校招开放AI量化研究员岗位。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "sixie",
+    "name": "思勰投资",
+    "type": "private",
+    "website": "https://www.sixiecapital.com",
+    "location": "上海",
+    "about": "上海量化私募（Sixie Capital），公众号「思勰投资招聘」。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "southern",
+    "name": "南方基金",
+    "type": "public",
+    "website": "http://www.nffund.com",
+    "location": "深圳",
+    "about": "南方基金管理股份有限公司，1998年3月成立，国内首批规范基金管理公司之一，总部位于深圳，在北京、上海、南京、成都、合肥等地设分公司。",
+    "source": "skill",
+    "createdAt": "2026-08-06",
+    "updatedAt": "2026-08-06",
+    "sources": [
+      {
+        "type": "official",
+        "title": "南方基金官方招聘平台（官网投递入口）",
+        "url": "https://wecruit.hotjob.cn/SU6138665dbef57c3b63841399/pb/index.html",
+        "accessedAt": "2026-08-06",
+        "status": "partial",
+        "note": "页面需 JS 渲染，岗位列表/当前开放状态未能获取，请手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "南方基金招聘 微信公众号（官方手机端投递渠道）",
+        "url": "https://mp.weixin.qq.com/s/NsEOD9bb7X1F3juQv7VuhQ",
+        "accessedAt": "2026-08-06",
+        "status": "partial",
+        "note": "公众号文章有环境验证墙，正文未能抓取；官方公众号「南方基金招聘」点击「加入南方」可投递，需手动查看"
+      },
+      {
+        "type": "official",
+        "title": "南方基金2027届暑期实习招聘&2026届春季补招（对外经济贸易大学就业网转载）",
+        "url": "https://career.uibe.edu.cn/front/zpxx.jspa?tid=2042138624199229441",
+        "accessedAt": "2026-08-06",
+        "status": "complete",
+        "note": "2026-04 简章中交易员（量化方向）仍标注为 2026 届校招开放岗位"
+      },
+      {
+        "type": "manual",
+        "title": "中公教育网·南方基金2027届校园招聘公告",
+        "url": "http://www.offcn.com/gqzp/2026/0402/230095.html",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "2027届校招公告转载：量化研究员（深圳/上海）、交易员（量化方向·深圳），面向2027届硕博（毕业时间2026.8-2027.7），网申截止2026-04-26，流程含实习留用、8月初起发offer。第三方转载，未经官方核实"
+      },
+      {
+        "type": "manual",
+        "title": "得早学就创·南方基金2027届校园招聘公告",
+        "url": "https://www.deizao.net/index/index/gonggaoxq/nwid/16971",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "2027届校园招聘公告转载（量化方向岗位确认）。第三方转载，未经官方核实"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（南方基金）",
+        "url": "https://www.zhipin.com",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "Round 1 实测公募量化岗基本不走 Boss（大厂以『某大型基金公司』匿名挂岗或仅官网校招）；本轮未对南方单独搜索，需手动在 Boss 搜索『南方基金』确认 [TODO]"
+      }
+    ]
+  },
+  {
+    "id": "swhysc",
+    "name": "申万宏源证券",
+    "type": "securities",
+    "website": "https://www.swhysc.com",
+    "location": "上海",
+    "about": "头部券商（申万宏源，Shenwan Hongyuan），总部上海。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "taigeyinghua",
+    "name": "上海钛戈英华科技",
+    "type": "tech",
+    "website": "https://example.com/taigeyinghua",
+    "location": "上海",
+    "about": "上海钛戈英华科技有限公司，2025年4月新成立的AI量化交易金融科技初创公司，聚焦量化交易与投资风险管理。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "taiyan-fund",
+    "name": "太衍",
+    "type": "private",
+    "website": "https://example.com/taiyan-fund",
+    "location": "上海",
+    "about": "上海太衍私募基金管理有限公司，量化私募，成立于2025年，规模20-50亿（第三方信息，请核实）。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "tianhong",
+    "name": "天弘基金",
+    "type": "public",
+    "website": "http://www.thfund.com.cn",
+    "location": "北京（注册地天津）",
+    "about": "知名公募基金（余额宝管理方），办公地北京、注册地天津。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "西南财经大学天府学院就业系统·天弘基金27届实习",
+        "url": "https://jy.tfswufe.edu.cn/home/index/employDetail/mcit/MDAwMDAwMDAwMJG6n3_Ed6imi4qQsMOen5mKz7a-smHRoslkzdGLeKKvjqaBh8WefduOpIyww6Bs1ZC6mdOzhtGnsnOeow.html",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "天弘基金27届实习批次转载，网申2026-03-18至2026-05-05。第三方转载，未经官方核实"
+      },
+      {
+        "type": "manual",
+        "title": "牛客网·天弘基金企业主页",
+        "url": "https://www.nowcoder.com/enterprise/1787",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "天弘基金企业招聘信息页（27届实习批次）。第三方平台，未经官方核实"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘（天弘基金）",
+        "url": "https://www.zhipin.com",
+        "accessedAt": "2026-08-12",
+        "status": "partial",
+        "note": "Round 1 实测公募量化岗基本不走 Boss；本轮未对天弘单独搜索，需手动在 Boss 搜索『天弘基金』确认 [TODO]"
+      }
+    ]
+  },
+  {
+    "id": "tianji",
+    "name": "杭州天玑智算科技",
+    "type": "tech",
+    "website": "https://example.com/tianji",
+    "location": "杭州",
+    "about": "杭州天玑智算科技有限公司，2025年成立，AI软件开发与算力解决方案，运营超算中心，持有量化EA系统软件著作权。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "tianyan",
+    "name": "天演资本",
+    "type": "private",
+    "website": "https://www.tianyancapital.com",
+    "location": "上海（总部/注册地）；北京、深圳、香港设办公室",
+    "about": "上海天演私募基金管理有限公司（曾用名北京天演资本管理有限公司，2022年7月注册地由北京迁至上海），成立于2014年8月，国内首批量化私募管理人之一，管理规模约300亿（第三方口径，官网未披露具体数字），已在中国证券投资基金业协会登记备案（AMAC P1004907）。总部办公地为上海浦东（银城中路501号上海中心大厦；近期招聘信息显示办公地含浦东前滩中心），在上海、北京、深圳、香港设有办公室。专注量化投资，构建以多因子模型为核心的量化投研体系，策略覆盖股票、CTA、多资产；研究团队博士占比50%+，员工论文见于NeurIPS、AAAI、ICML、Nature等。官网『加入天演』入口 https://www.tianyancapital.com/zh/join-us（官网已核实）。注：任务标注深圳，但公司注册地/总部为上海，深圳为分支办公室。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "天演资本官网『加入天演』/职位列表页",
+        "url": "https://www.tianyancapital.com/zh/join-us/jobs/index.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网确认『加入天演』招聘入口与量化研究员岗位画像；岗位列表跳转MOKA招聘系统（需JS渲染），官网页面未直接展示2027校招岗位详情"
+      },
+      {
+        "type": "wechat",
+        "title": "天演资本微信公众号·2027校园招聘推文",
+        "url": "https://mp.weixin.qq.com/s/pF1vKcQcQr2pOyk3xa19sA",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信『环境异常』验证墙拦截，正文未抓取；经高校就业平台转载确认2027校招岗位清单、月薪4万起与投递方式，需手动打开微信原文查看 [TODO]"
+      },
+      {
+        "type": "official",
+        "title": "天演资本2027校园招聘公告（牛企直聘/清华就业转载）",
+        "url": "https://campus.niuqizp.com/schedule-hr8rUCa5L.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "确认量化交易员/量化开发工程师（固收方向）岗位在列；未披露该岗单独薪资"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·天演资本（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E5%A4%A9%E6%BC%94%E8%B5%84%E6%9C%AC&city=101020100",
+        "accessedAt": "2026-08-11",
+        "status": "blocked",
+        "note": "2026-08-11 实时搜索返回 15 条在招，未含 Python后端开发工程师；需官网确认该岗位是否在招 [TODO]"
+      }
+    ]
+  },
+  {
+    "id": "ubiquant",
+    "name": "九坤投资",
+    "type": "private",
+    "website": "https://www.ubiquant.com",
+    "location": "北京",
+    "about": "九坤投资（北京）有限公司成立于2012年，国内头部量化对冲基金公司，截至2025年四季度管理规模约800亿元人民币，服务高净值客户20000+；投研与技术团队90%以上毕业于清北及海外常青藤。量化岗位以『梧桐计划』（2020年起）面向全球本硕博应届生招聘。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "wechat",
+        "title": "「梧桐计划」九坤投资2026年春季校园招聘（微信公众号：九坤投资招聘）",
+        "url": "https://mp.weixin.qq.com/s/36IckmvRulQy0tRWEoHvlw",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信文章有环境验证墙，正文未直接抓取；经搜索摘要确认梧桐计划岗位清单、投递方式（官网/recruiter@ubiquant.com/公众号）"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·九坤投资（北京）有限公司公司页",
+        "url": "https://m.zhipin.com/companys/eb0b7bac0a8698020nB92d66.html",
+        "accessedAt": "2026-08-09",
+        "status": "blocked",
+        "note": "公司页有安全验证墙，无法直接读取公司全部在招职位；已通过实时搜索获取本条岗位数据"
+      }
+    ]
+  },
+  {
+    "id": "wanyan-assets",
+    "name": "顽岩资产",
+    "type": "private",
+    "website": "https://example.com/wanyan-assets",
+    "location": "上海",
+    "about": "上海顽岩私募基金管理有限公司，百亿量化私募，策略覆盖期货高频/CTA/指数增强（第三方信息，请核实）。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "winbao",
+    "name": "稳博投资",
+    "type": "private",
+    "website": "https://www.wenbofund.com",
+    "location": "上海",
+    "about": "上海稳博投资管理有限公司成立于2014年，专注科技的量化私募机构，总部上海浦东新区，业务覆盖商品期货、股指、证券、期权，管理规模300亿+（第三方说法，请核实）。投研团队70+人，90%以上毕业于国内外顶尖高校。招聘以『量子飞跃计划』校园招聘为主（自2023年起面向应届生，量化研究员/量化开发工程师面向2026/2027届持续招聘）；官网招聘页 https://www.wenbofund.com/contact/hire.html，官方招聘公众号『稳博Recruiting』。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "稳博投资官网招聘页（wenbofund.com/contact/hire.html）",
+        "url": "https://www.wenbofund.com/contact/hire.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网招聘页确认公司招聘渠道（邮箱hr@wenbofund.com、扫码投递、招聘平台mh.hire66.com）；页面展示的岗位为社招（机构业务经理/机器学习量化研究员/量化平台开发工程师），未直接列出2026秋招量化研究员岗位详情"
+      },
+      {
+        "type": "official",
+        "title": "稳博投资2026届秋招·量子飞跃计划（牛企直聘转载企业公众号公告）",
+        "url": "https://campus.niuqizp.com/job-v8s555CZC.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "确认量化研究员/量化开发工程师两岗位、网申2025-09-03~2025-11-02、招聘流程与投递方式；未披露岗位JD与薪资"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号『稳博Recruiting』",
+        "url": "https://mp.weixin.qq.com",
+        "accessedAt": "2026-08-09",
+        "status": "manual_required",
+        "note": "官方招聘公众号『稳博Recruiting』为校招/社招动态发布与投递渠道；未检索到可直接引用的2026秋招推文正文，需在微信内搜索该公众号手动查看 [TODO]"
+      }
+    ]
+  },
+  {
+    "id": "xiangyuan",
+    "name": "湘源投资",
+    "type": "private",
+    "website": "https://example.com/xiangyuan",
+    "location": "杭州",
+    "about": "杭州湘源投资有限公司，2013年成立、2017年备案的量化私募基金管理人，专注金融衍生产品定价与量化套利，管理规模约5-10亿元。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "xingzheng",
+    "name": "兴证全球基金",
+    "type": "public",
+    "website": "https://www.xqfunds.com",
+    "location": "上海（总部：上海市浦东新区芳甸路1155号嘉里城办公楼28楼）",
+    "about": "兴证全球基金管理有限公司（原『兴全基金』）成立于2003年9月30日，总部上海，权益投研知名的公募基金公司，12次荣获『金牛基金管理有限公司』称号，截至2025年末总资产管理规模超8000亿元；设有量化与衍生品部，校招含量化研究岗。官网 www.xqfunds.com（底部『诚聘加盟』入口，经搜索核实；WebFetch直连报协议解析错误，建议浏览器打开），校园招聘平台 sc.hotjob.cn/wt/AIFMC/web/index/campus，投递邮箱 campus@xqfunds.com。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "兴证全球基金2026届校园招聘（牛企直聘转载企业公众号公告）",
+        "url": "https://campus.niuqizp.com/job-vwr55NLtM.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "确认2026届秋招含量化研究岗（投研类），网申2025-09-05~2025-11-04，招聘流程四步；岗位JD未公开"
+      },
+      {
+        "type": "official",
+        "title": "兴证全球基金招聘系统岗位列表（hotjob移动端）",
+        "url": "https://sc.hotjob.cn/wt/AIFMC/mobweb/v8/position/list",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "确认『量化研究岗（日常实习）』在招，工作地上海，要求大四保研及以上；JD细节经搜索摘要补充"
+      },
+      {
+        "type": "official",
+        "title": "兴业证券集团2027届暑期实习生招聘启事（安徽省大学生就业服务平台）",
+        "url": "https://yun.ahbys.com/job2.html?jid=12454&cid=19950",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "『兴火计划』为兴业证券集团暑期实习项目，兴证全球基金为其子公司；该深度学习实习岗是否属兴证全球需手动核实 [TODO]"
+      }
+    ]
+  },
+  {
+    "id": "xyzq",
+    "name": "兴业证券",
+    "type": "securities",
+    "website": "https://www.xyzq.com.cn",
+    "location": "福州（总部）/上海",
+    "about": "头部券商（Industrial Securities），总部福州、上海办公。整理自个人求职目录（docs/quant-job-index.html，2026-08-09）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09"
+  },
+  {
+    "id": "yanfu",
+    "name": "衍复投资",
+    "type": "private",
+    "website": "https://yanfuinvestments.com",
+    "location": "上海",
+    "about": "上海衍复投资管理有限公司成立于2019年，量化私募，总部上海徐汇区（保利西岸C座7楼），2026年落户北京、两地同步招聘；以自主研发的量化投资系统持续追求稳健长期回报，管理规模位于行业第一梯队。官网招聘入口 https://yanfuinvestments.com/join（官网已核实）。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "衍复投资官方招聘门户（知页ATS）",
+        "url": "https://yanfuinvestments1.zhiye.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需 JS 渲染，岗位列表未能直接读取；官网/公众号投递最终指向该门户，请手动查看 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号「衍复投资」（原 Yanfu Investments，微信号 yanfuinvestmens）",
+        "url": "https://mp.weixin.qq.com",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官方公众号2025-08-21发布《衍复投资2026届全球校园招聘正式启动》，菜单栏『招贤纳士』可查看并投递在招岗位；未抓到可直接引用的 mp.weixin.qq.com 文章正文，需手动查看 [TODO]"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·衍复投资（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E8%A1%8D%E5%A4%8D%E6%8A%95%E8%B5%84&city=101020100",
+        "accessedAt": "2026-08-11",
+        "status": "blocked",
+        "note": "2026-08-11 实时搜索返回 9 条在招（量化系统/高频系统/量化实现/C++实习等），未含量化研究员；该岗位不在 Boss 上公开，走官网投递 [TODO]"
+      },
+      {
+        "type": "official",
+        "title": "衍复投资官网「加入我们」招聘页",
+        "url": "https://yanfuinvestments.com/join",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "官网招聘页确认含策略研发工程师/量化实现工程师等开发类岗位（社招/校招/实习均有覆盖）"
+      }
+    ]
+  },
+  {
+    "id": "yinhua",
+    "name": "银华基金管理股份有限公司",
+    "type": "public",
+    "website": "https://www.yhfund.com.cn",
+    "location": "北京",
+    "about": "全牌照、综合型公募基金公司，成立于2001年5月，管理规模（含子公司）超万亿，产品线覆盖股票、债券、QDII、FOF等，量化与指数投资业务（请以官网为准）。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "银华基金2027届校园招聘（Mokahr校招平台）",
+        "url": "https://app.mokahr.com/campus-recruitment/yhfund/143004",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/存在重定向，'2027届毕业生热招岗位'名单未抓取，需手动查看具体职位"
+      },
+      {
+        "type": "official",
+        "title": "银华基金2026年春季校园招聘公告（对外经贸大学就业网）",
+        "url": "https://career.uibe.edu.cn/front/zpxx.jspa?tid=2026892109579059201",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "高校就业网转载官方公告，含研究员类岗位完整职责与任职要求"
+      },
+      {
+        "type": "wechat",
+        "title": "银华基金公众号招聘推文",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU2MzUzNjIzMw==&mid=2247483776&idx=1&sn=dd9834687b9626d8747122f9b6210e03",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "抓到的为历史招聘推文（2024届校园招聘宣传片），2027届校招推文正文未抓到；可关注'银华基金'或'银华基金招聘'公众号手动查看"
+      }
+    ]
+  },
+  {
+    "id": "yinnuo",
+    "name": "因诺资产",
+    "type": "private",
+    "website": "http://www.innoam.com",
+    "location": "上海",
+    "about": "因诺（上海）资产管理有限公司，2014年9月成立的量化私募基金管理人（中基协备案号P1006164），管理规模约200-300亿元（第三方说法，官网未披露具体数字，请核实），团队130+人、投研人员硕士占比100%、博士超40%，曾获金牛奖、金阳光奖、金长江奖、英华奖等近150项大奖。总部/注册地上海虹口，另在北京西城设办公区（注意：任务给定为『杭州』，但官网与工商/行业信息一致显示公司注册于上海，未见杭州实体，请核实）。招聘以『因诺英才』精英招聘计划（面向顶尖高校硕博）与『破界计划』（大模型×量化）为主，含量化投资研究员、量化交易员、量化开发（C++/Python）、量化数据等方向。官网 www.innoam.com，招聘公众号『因诺招聘』，投递邮箱 resume@innoam.com，校招投递系统 app.mokahr.com/campus-recruitment/innoam/142310。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "因诺（上海）资产管理有限公司2026届校园招聘简章（全职网转载）",
+        "url": "https://www.quanzhi.com/notice/68b0f3cf2e95e8aa84469375",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "第三方转载的官方校招简章，确认岗位列表（量化投资研究员/量化投资实习生/量化交易员/C++开发工程师/市场经理）、工作地点（北京西城、上海虹口）、投递方式（resume@innoam.com/公众号/HR微信/MOKA）"
+      },
+      {
+        "type": "official",
+        "title": "因诺资产官网「招贤纳士」",
+        "url": "http://www.innoam.com/index.php?catid=4",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网页面抓取失败（连接被关闭，疑似反爬），未能读取岗位详情；请手动打开官网查看 [TODO]"
+      },
+      {
+        "type": "official",
+        "title": "因诺资产校园招聘（MOKA ATS）",
+        "url": "https://app.mokahr.com/campus-recruitment/innoam/142310",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "页面需JS渲染/多次重定向，岗位列表未能直接读取；为官方校招投递入口，请手动查看 [TODO]"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号『因诺招聘』·2026届春季校园招聘",
+        "url": "https://mp.weixin.qq.com/s/32VbWh0qfG5cvDK7L2McdA",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号文章有环境验证墙，正文未直接抓取；经牛企直聘转载确认『因诺英才』2026届春季校招岗位与投递方式，需手动查看 [TODO]"
+      },
+      {
+        "type": "official",
+        "title": "因诺资产-英才计划日常实习（牛企直聘转载，来源公众号『因诺招聘』）",
+        "url": "https://campus.niuqizp.com/schedule-7Uk85atNZ.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "确认实习岗位清单（量化投资实习生/大模型量化投资实习生/C++开发实习生）、招聘城市北京/上海、网申时间与投递方式"
+      },
+      {
+        "type": "official",
+        "title": "因诺资产英才计划暑期CAMP正式启动·2027校园招聘（牛企直聘转载）",
+        "url": "https://campus.niuqizp.com/job-vss5zNaMt.html",
+        "accessedAt": "2026-08-09",
+        "status": "complete",
+        "note": "确认面向2027届（2026年9月-2027年8月毕业）的暑期实习/英才计划，岗位含量化投资实习生、大模型量化投资研究员、C++开发实习生，网申2026-05-22~06-22"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号『因诺招聘』",
+        "url": "https://mp.weixin.qq.com",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公众号为官方招聘动态发布与一键投递渠道；未抓到可直接引用的推文正文，需在微信内搜索『因诺招聘』手动查看 [TODO]"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·因诺资产（2026-08-11 实时搜索）",
+        "url": "https://www.zhipin.com/search?query=%E5%9B%A0%E8%AF%BA%E8%B5%84%E4%BA%A7&city=101020100",
+        "accessedAt": "2026-08-11",
+        "status": "blocked",
+        "note": "2026-08-11 实时搜索返回 11 条在招，未含量化交易员岗位；需官网/公众号确认是否在招 [TODO]"
+      }
+    ]
+  },
+  {
+    "id": "yonganfutures",
+    "name": "永安期货股份有限公司",
+    "type": "securities",
+    "website": "https://www.yafco.com",
+    "location": "杭州",
+    "about": "永安期货股份有限公司，国内规模最大的期货公司之一，上交所A股上市（股票代码600927，另挂新三板833840），总部杭州（江干区新业路200号华峰国际商务大厦），官网唯一性经公司官方公告确认（www.yafco.com）。业务覆盖期货经纪、资产管理、风险管理等。量化/衍生品人才培养以『黄埔联盟』项目为特色（2026年度为实习生暨2027届投研提前批，含量化研究员、大宗商品分析师、期现经理等方向）；关联公司永安国富资产管理有限公司（由永安期货及原投资团队组建）亦在杭州招聘量化实习生。官网『诚聘英才』招聘页需JS渲染，岗位列表需手动查看。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘（永安期货）",
+        "url": "https://www.zhipin.com/",
+        "accessedAt": "2026-08-12",
+        "status": "complete",
+        "note": "2026-08-12 实时搜索『永安期货』（杭州）：仅社招非量化岗——产业经理8-10K、网络工程师15-20K·18薪、网金研究投顾15-20K、高级分析师15-25K，无量化岗位挂出；量化投研走『黄埔联盟』官网渠道"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号『永安期货』",
+        "url": "https://mp.weixin.qq.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "未能在本次会话检索到『永安期货』公众号2026招聘推文的具体文章链接（WebSearch 预算已耗尽），公众号正文未抓取；需用户手动在微信内搜索『永安期货 校招/秋招 量化』确认 [TODO]"
+      },
+      {
+        "type": "manual",
+        "title": "浙江工商大学金融学院转载『永安期货2026年度黄埔联盟实习生暨2027届投研提前批招聘简章』",
+        "url": "https://jrxy.zjsu.edu.cn/2026/0421/c3110a222022/page.htm",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "高校就业网转载的官方招聘简章；WebFetch因SSL证书不匹配（jrxy.zjsu.edu.cn 证书对应 *.zjgsu.edu.cn）未能读取正文，岗位与报名信息经搜索引擎摘要确认（量化研究员、报名截止2026-06-26、投递 hplm@yafco.com）。第三方转载，未经官网核实。"
+      },
+      {
+        "type": "manual",
+        "title": "牛企直聘·永安期货2026实习/校招岗位列表",
+        "url": "https://campus.niuqizp.com/schedule-7ykU5zZNz.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "第三方招聘聚合站展示永安期货2026实习/校招岗位：大宗商品分析师、量化研究员、期现经理，招聘城市杭州/北京/上海/南京/无锡/宁波。第三方转载，未经官网核实。"
+      }
+    ]
+  },
+  {
+    "id": "yuanhe",
+    "name": "远和资产",
+    "type": "private",
+    "website": "https://example.com/yuanhe",
+    "location": "杭州",
+    "about": "杭州远和私募基金有限公司，2025年备案的量化私募，专注A股中低频量化选股，百亿量化私募黑马。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "yuanxi",
+    "name": "杭州元析量化科技",
+    "type": "tech",
+    "website": "https://example.com/yuanxi",
+    "location": "杭州",
+    "about": "杭州元析量化科技有限公司，2026年注册，AI算法与软件开发为主，招聘量化研究员、量化风控、量化工程师。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "yuewei",
+    "name": "跃威投资",
+    "type": "private",
+    "website": "https://example.com/yuewei",
+    "location": "上海",
+    "about": "上海跃威私募基金管理有限公司，2018年备案的私募证券基金管理人，核心策略为期权波动率套利，管理规模约10-20亿元。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "yusi",
+    "name": "宇斯人工智能",
+    "type": "tech",
+    "website": "https://example.com/yusi",
+    "location": "杭州",
+    "about": "杭州宇斯人工智能科技有限责任公司，2022年成立的国家高新技术企业，专注AI算法与金融量化交叉，主营美股量化交易。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "zhengding",
+    "name": "正定私募",
+    "type": "private",
+    "website": "https://example.com/zhengding",
+    "location": "北京",
+    "about": "北京正定私募基金管理合伙企业（有限合伙），2022年成立，量化私募，创始团队出自清华计算机系，规模约50-100亿元。。官网未核实，请核实。",
+    "source": "skill",
+    "createdAt": "2026-08-11",
+    "updatedAt": "2026-08-11"
+  },
+  {
+    "id": "zhongou",
+    "name": "中欧基金管理有限公司",
+    "type": "public",
+    "website": "https://www.zofund.com",
+    "location": "上海",
+    "about": "2006年7月成立的公募基金管理公司，总部位于上海陆家嘴（上海中心大厦）；投研覆盖主动权益、固定收益、多资产与量化投资，量化投资部设量化研究等岗位（简介来自官网及公开资料，请核实）。",
+    "source": "skill",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中欧基金校园招聘平台-校园招聘",
+        "url": "https://zofund.zhiye.com/campus",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官网校招页当前展示27届校招岗位，26届岗位已下架"
+      },
+      {
+        "type": "wechat",
+        "title": "公众号（中欧人才招聘）校招推文",
+        "url": "https://mp.weixin.qq.com/s/VVraA26hHovaoVktI4DQQQ",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "微信公众号正文未抓取（微信反爬验证页面），需在微信内手动查看"
+      },
+      {
+        "type": "manual",
+        "title": "第三方校招站-中欧基金26届秋招信息",
+        "url": "https://campus.niuqizp.com/schedule-hUU8rtazN.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "搜索摘要提及26届量化交易岗位（上海浦东、招聘3人、数学/计算机专业），原文未抓取，需手动确认"
+      }
+    ]
+  },
+  {
+    "id": "zhongtaisec",
+    "name": "中泰证券",
+    "type": "securities",
+    "website": "https://www.95538.cn",
+    "location": "济南（山东）",
+    "about": "中泰证券股份有限公司，前身齐鲁证券，2001 年成立，全国大型综合类上市券商（上交所 600918），总部位于山东济南（高新区经十路 7000 号汉峪金融商务中心），在全国 28 个省市设 48 家分公司、240 余家营业部。旗下 XTP 极速交易系统（中泰极速交易平台）服务近 300 家量化私募机构、贡献年超 5 万亿交易量，在量化圈知名。2027 届秋季校园招聘已启动（86 个岗位、拟招 227 人，报名截止 2026-08-16 24:00），经官方招聘网站 zts.hotjob.cn 或“中泰证券招聘”微信公众号投递，条线含投资业务、研究业务（含金融工程）、金融科技、中泰证券（上海）资管等。",
+    "source": "manual",
+    "createdAt": "2026-08-09",
+    "updatedAt": "2026-08-09",
+    "sources": [
+      {
+        "type": "official",
+        "title": "山东省国资委：2026年“才聚齐鲁 成就未来”中泰证券2027届秋季校园招聘公告",
+        "url": "http://gzw.shandong.gov.cn/articles/ch00223/202607/d1ed7546-3837-4782-a573-345e4c64deb8.html",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "官方公告转载（省国资委/高校就业网），含业务条线与报名方式但未列具体岗位名称；具体量化岗位明细需登录 zts.hotjob.cn 手动查看"
+      },
+      {
+        "type": "wechat",
+        "title": "“中泰证券招聘”官方微信公众号（校招公告经此发布）",
+        "url": "https://mp.weixin.qq.com/",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "公告明确要求关注“中泰证券招聘”公众号在线投递，但本轮未抓到直达 mp.weixin.qq.com 文章链接，正文需在微信内手动查看"
+      },
+      {
+        "type": "official",
+        "title": "中泰证券 XTP 极速交易系统公开报道",
+        "url": "https://stock.stockstar.com/RB2021090900006491.shtml",
+        "accessedAt": "2026-08-09",
+        "status": "partial",
+        "note": "上市公司董秘回复等公开报道，佐证 XTP 服务量化私募、构建量化交易产品矩阵；非招聘公告，岗位信息以 hotjob 为准"
+      }
+    ]
   }
 ]

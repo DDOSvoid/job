@@ -28,6 +28,14 @@
    - 页面需 JS 渲染 / 跳转 / 403 → `status: "partial"`，note "页面需 JS 渲染，请手动查看"。
    - 找不到官网或招聘页 → 不填 sources，`fetchStatus: "manual_required"`，报告里说明。
 
+## 来源分流（一岗一来源，重要）
+
+每条来源先判断归属，再写入：
+
+- **岗位级**（点名该岗位：官网具体岗位页、岗位申请短链、`Boss直聘·公司 岗位`、实习僧/猎聘等第三方岗位页）→ 写进该岗位 `job.sources[]`，**每岗位只保留 1 条最相关来源**。
+- **公司级**（官网「加入我们」/招聘系统/网申/公众号/校招公告/公告转载/公司页/岗位列表汇总页等）→ 写进 `company.sources[]`（按 url 去重）。
+- 同一来源既支撑某岗位、又属公司级渠道时（如官网校招页）：写进该 job 的 `sources[]`，同时进 `company.sources[]`——岗位级归 job、公司级归公司，互不排斥。
+
 ## Boss 直聘（优先用 boss-agent-cli 真实数据）
 
 **首选**：用本机 boss-agent-cli（`C:\Users\DDOSvoid\.local\bin\boss.exe`，下称 `boss`）直接搜索 Boss直聘，拿**真实岗位数据**（非搜索引擎摘要）。它是用户自己的登录会话，不是绕过登录墙——只是用 CLI 方式访问用户已登录的账号。工具自带凭证存储（`~/.boss-agent/auth/session.enc`，Fernet 加密），stoken（`__zp_stoken__`，分钟级）过期时内部自动刷新，无需每次手动 mint。
@@ -150,6 +158,8 @@ python <skill-dir>/scripts/boss_throttle.py --json detail <security_id> --job-id
 可拿到职责/要求正文充实 `job.description`。同样经 `boss_throttle.py` 执行（保持限速）。注意：detail 偶尔会触发内部令牌刷新而变慢（可能数秒~几十秒），超时后重试一次即可，不要死等。
 
 ### 4. 记录 sources[] 与降级
+
+Boss 岗位来源是**岗位级**（点名该岗位），写进该岗位 `job.sources[]`（每岗位 1 条最相关）；如果 Boss 只拿到公司聚合页/搜索无点名岗位，则是公司级，进 `company.sources[]`。
 
 - 搜索成功拿到岗位 → `sources[]` 加一条：
   ```json
