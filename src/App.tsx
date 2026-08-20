@@ -9,6 +9,7 @@ import StatsPage from './pages/StatsPage'
 import InterviewListPage from './pages/InterviewListPage'
 import InterviewDetailPage from './pages/InterviewDetailPage'
 import QuestionListPage from './pages/QuestionListPage'
+import QuestionDetailPage from './pages/QuestionDetailPage'
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -32,6 +33,7 @@ export default function App() {
             <Route path="/interviews" element={<InterviewListPage />} />
             <Route path="/interviews/:id" element={<InterviewDetailPage />} />
             <Route path="/questions" element={<QuestionListPage />} />
+            <Route path="/questions/:id" element={<QuestionDetailPage />} />
             <Route path="/stats" element={<StatsPage />} />
           </Route>
         </Routes>

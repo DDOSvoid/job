@@ -2,13 +2,14 @@
 
 本目录是网站数据的**唯一事实源**。前端只读、后端读写、`fund-quant-job-research` skill 直接写入。
 
-五个文件均为 JSON 数组：
+六个文件均为 JSON 数组：
 
 - `companies.json` —— 公司（公募/私募/券商）
 - `jobs.json` —— 岗位
 - `applications.json` —— 申请推进进程
 - `interviews.json` —— 面试经历（由 `interview-experience-research` skill 写入）
 - `questions.json` —— 真实面试题目（一条帖子拆成多条逐题记录，由 `interview-experience-research` skill 写入）
+- `answers.json` —— 用户/AI 对每道题的回答（用户在网站上自产，skill 不写入）
 
 ## company
 
@@ -149,7 +150,27 @@
 - 一条帖子拆多条记录（追问独立成条、标注"（追问）"）；`companyHint`/`round`/`note` 可选。
 - `sourceUrl` 必填且为真实帖子 URL；`sourceDate` 允许 `YYYY-MM-DD` / `YYYY-MM` / `YYYY`。
 
+## answer
+
+```json
+{
+  "id": "ans-q-20250728-dice-01",
+  "questionId": "q-20250728-dice-01",
+  "myAnswer": "我的回答（用户自产）",
+  "aiAnswer": "AI 生成的回答",
+  "aiModel": "deepseek-chat",
+  "aiGeneratedAt": "2026-08-20",
+  "createdAt": "2026-08-20",
+  "updatedAt": "2026-08-20"
+}
+```
+
+- 每道题至多一条，`id` = `ans-<questionId>`，`questionId` 必须存在于 questions.json。
+- 这是**用户/AI 自产数据**，由网站前端通过 `PUT /api/questions/:id/my-answer`、`POST /api/questions/:id/ai-answer` 写入，**skill 不写入该文件**（questions.json 才是 skill 的唯一事实源）。
+- `myAnswer` / `aiAnswer` 为空串表示清空（保存后字段省略）；`aiAnswer` 由后端生成端点写入（未配置 `AI_API_KEY` 时该端点返回 503「未接入」，不编造答案）。
+
 ## 编辑约定
 
 - 日期统一 `YYYY-MM-DD`；`rounds[].date` 额外允许 `YYYY-MM`、`YYYY`、`YYYY春招`/`YYYY秋招`（只知道年份或季节时如实记录，不编造月份）。
 - skill 写入时按 `id` upsert（同名覆盖、保留其余字段），并做原子写回。
+- answers.json 的写入由后端按 `ans-<questionId>` **整体替换**（不是合并字段），保证清空的字段真正消失。

@@ -8,11 +8,18 @@ import type {
   Job,
   JobDetail,
   Question,
+  QuestionAnswer,
   QuestionDetail,
   TimelineEntry,
 } from '../types'
 
-export class ApiError extends Error {}
+export class ApiError extends Error {
+  status: number
+  constructor(message: string, status: number) {
+    super(message)
+    this.status = status
+  }
+}
 
 async function request<T>(path: string, options?: RequestInit): Promise<T> {
   const res = await fetch(`/api${path}`, {
@@ -21,7 +28,7 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
   })
   const data = await res.json().catch(() => ({}))
   if (!res.ok) {
-    throw new ApiError(data.error || `请求失败：${res.status}`)
+    throw new ApiError(data.error || `请求失败：${res.status}`, res.status)
   }
   return data as T
 }
@@ -93,5 +100,19 @@ export const api = {
   },
   getQuestion(id: string): Promise<QuestionDetail> {
     return request(`/questions/${encodeURIComponent(id)}`)
+  },
+  /** 写入/修改我的回答；空串表示清空 */
+  updateMyAnswer(id: string, myAnswer: string): Promise<QuestionAnswer> {
+    return request(`/questions/${encodeURIComponent(id)}/my-answer`, {
+      method: 'PUT',
+      body: JSON.stringify({ myAnswer }),
+    })
+  },
+  /** 生成并保存 AI 回答；后端未配置 AI_API_KEY 时抛 503 ApiError */
+  generateAiAnswer(id: string): Promise<QuestionAnswer> {
+    return request(`/questions/${encodeURIComponent(id)}/ai-answer`, {
+      method: 'POST',
+      body: JSON.stringify({}),
+    })
   },
 }

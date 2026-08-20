@@ -126,3 +126,19 @@ export function validateQuestion(q, { companies }) {
     errors.push('sourceDate 格式应为 YYYY / YYYY-MM / YYYY-MM-DD')
   return errors
 }
+
+// 用户/AI 对某道题的回答（data/answers.json，一道题至多一条）。
+// myAnswer/aiAnswer 可为空字符串（表示清空）；非空时长度上限放宽到 5000。
+export function validateAnswer(a, { questions }) {
+  const errors = []
+  if (!isStr(a?.id)) errors.push('id 缺失')
+  if (!isStr(a?.questionId)) errors.push('questionId 缺失')
+  else if (!questions.some((q) => q.id === a.questionId)) errors.push(`questionId '${a.questionId}' 不存在`)
+  const strOrEmpty = (v, max = 5000) => v === undefined || v === '' || (typeof v === 'string' && v.length <= max)
+  if (!strOrEmpty(a?.myAnswer)) errors.push('myAnswer 应为字符串（≤ 5000 字符，空串表示清空）')
+  if (!strOrEmpty(a?.aiAnswer)) errors.push('aiAnswer 应为字符串（≤ 5000 字符，空串表示清空）')
+  if (a?.aiModel !== undefined && !isStr(a.aiModel, 200)) errors.push('aiModel 应为非空字符串')
+  if (a?.aiGeneratedAt !== undefined && !DATE_RE.test(a.aiGeneratedAt))
+    errors.push('aiGeneratedAt 格式应为 YYYY-MM-DD')
+  return errors
+}

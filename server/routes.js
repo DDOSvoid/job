@@ -6,7 +6,9 @@ import {
   validateTimelineEntry,
   validateInterview,
   validateQuestion,
+  validateAnswer,
 } from './validate.js'
+import { generateAnswer as aiGenerateAnswer } from './ai-provider.js'
 import { APPLICATION_STAGES } from '../shared/constants.js'
 
 function sendJSON(res, status, data) {
@@ -74,6 +76,32 @@ function upsertCollection(file, payload) {
     ;(exists ? updated : created).push(item.id)
   }
   return { list, created, updated }
+}
+
+// 答案记录（data/answers.json）按 questionId 合并：保留既有字段，空字符串字段 = 清空并省略。
+// id 恒为 `ans-<questionId>`。
+function buildAnswer(questionId, patch) {
+  const answers = readCollection('answers')
+  const existing = answers.find((a) => a.questionId === questionId)
+  const stamp = today()
+  const record = {
+    id: `ans-${questionId}`,
+    questionId,
+    createdAt: existing?.createdAt ?? stamp,
+    ...(existing ?? {}),
+    ...patch,
+    updatedAt: stamp,
+  }
+  if (record.myAnswer === '') delete record.myAnswer
+  if (record.aiAnswer === '') delete record.aiAnswer
+  return { answers, record }
+}
+
+// 答案记录按 id **整体替换**（不能像通用 upsert 那样合并，否则被清空的旧字段会残留回来）
+function upsertAnswer(list, record) {
+  const idx = list.findIndex((a) => a.id === record.id)
+  if (idx >= 0) list[idx] = record
+  else list.push(record)
 }
 
 export function createApiRouter() {
@@ -151,6 +179,51 @@ export function createApiRouter() {
         return
       }
 
+      // ---- 题目回答（data/answers.json，用户自产 + AI 生成）----
+      const myAnswerMatch = pathname.match(/^\/api\/questions\/([^/]+)\/my-answer$/)
+      if (myAnswerMatch && method === 'PUT') {
+        const questionId = decodeURIComponent(myAnswerMatch[1])
+        const body = await readBody(req)
+        const questions = readCollection('questions')
+        if (!questions.some((q) => q.id === questionId)) return sendJSON(res, 404, { error: '题目不存在' })
+        const myAnswer = typeof body.myAnswer === 'string' ? body.myAnswer.trim() : ''
+        const { answers, record } = buildAnswer(questionId, { myAnswer })
+        const errors = validateAnswer(record, { questions })
+        if (errors.length > 0) return sendJSON(res, 422, { error: errors.join('；') })
+        upsertAnswer(answers, record)
+        await writeCollection('answers', answers)
+        return sendJSON(res, 200, record)
+      }
+
+      const aiAnswerMatch = pathname.match(/^\/api\/questions\/([^/]+)\/ai-answer$/)
+      if (aiAnswerMatch && method === 'POST') {
+        const questionId = decodeURIComponent(aiAnswerMatch[1])
+        const body = await readBody(req)
+        const questions = readCollection('questions')
+        const question = questions.find((q) => q.id === questionId)
+        if (!question) return sendJSON(res, 404, { error: '题目不存在' })
+        const existing = readCollection('answers').find((a) => a.questionId === questionId)
+        const aiResult = await aiGenerateAnswer({
+          question: typeof body.question === 'string' && body.question.trim() ? body.question.trim() : question.text,
+          myAnswer: existing?.myAnswer,
+        })
+        if (!aiResult.ok) {
+          if (aiResult.reason === 'not_configured')
+            return sendJSON(res, 503, { error: 'AI 回答未接入：未配置 AI_API_KEY（见 server/ai-provider.js）' })
+          return sendJSON(res, 502, { error: `AI 生成失败：${aiResult.message}` })
+        }
+        const { answers, record } = buildAnswer(questionId, {
+          aiAnswer: aiResult.answer,
+          aiModel: aiResult.model,
+          aiGeneratedAt: today(),
+        })
+        const errors = validateAnswer(record, { questions })
+        if (errors.length > 0) return sendJSON(res, 422, { error: errors.join('；') })
+        upsertAnswer(answers, record)
+        await writeCollection('answers', answers)
+        return sendJSON(res, 200, record)
+      }
+
       // ---- 通用 CRUD ----
       const match = pathname.match(/^\/api\/(companies|jobs|applications|interviews|questions)(?:\/([^/]+))?$/)
       if (!match) return sendJSON(res, 404, { error: '未找到接口' })
@@ -217,7 +290,8 @@ export function createApiRouter() {
           const company = question.companyId
             ? (readCollection('companies').find((c) => c.id === question.companyId) ?? null)
             : null
-          return sendJSON(res, 200, { ...question, company })
+          const answer = readCollection('answers').find((a) => a.questionId === id) ?? null
+          return sendJSON(res, 200, { ...question, company, answer })
         }
       }
 

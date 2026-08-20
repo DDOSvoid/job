@@ -11,6 +11,7 @@ export const FILES = {
   applications: path.join(DATA_DIR, 'applications.json'),
   interviews: path.join(DATA_DIR, 'interviews.json'),
   questions: path.join(DATA_DIR, 'questions.json'),
+  answers: path.join(DATA_DIR, 'answers.json'),
 }
 
 /**

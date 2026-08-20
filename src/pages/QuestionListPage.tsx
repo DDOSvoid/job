@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { useCompanies, useQuestions } from '../hooks/useApi'
 import {
   InterviewSourceBadge,
@@ -197,7 +197,9 @@ export default function QuestionListPage() {
             <div key={q.id} className="card q-card">
               <div className="q-main">
                 <QuestionCategoryBadge category={q.category} />
-                <div className="q-text">{q.text}</div>
+                <Link to={`/questions/${q.id}`} className="q-text q-text-link" title="打开题目详情">
+                  {q.text}
+                </Link>
               </div>
               <div className="q-meta">
                 <span className="q-company">{q.companyName ?? '通用/汇总'}</span>

@@ -106,3 +106,19 @@ export function useDeleteApplication() {
     onSuccess: invalidate,
   })
 }
+
+export function useUpdateMyAnswer() {
+  const qc = useQueryClient()
+  return useMutation({
+    mutationFn: ({ id, myAnswer }: { id: string; myAnswer: string }) => api.updateMyAnswer(id, myAnswer),
+    onSuccess: (_rec, { id }) => qc.invalidateQueries({ queryKey: ['question', id] }),
+  })
+}
+
+export function useGenerateAiAnswer() {
+  const qc = useQueryClient()
+  return useMutation({
+    mutationFn: (id: string) => api.generateAiAnswer(id),
+    onSuccess: (_rec, id) => qc.invalidateQueries({ queryKey: ['question', id] }),
+  })
+}

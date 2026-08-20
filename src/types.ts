@@ -174,6 +174,23 @@ export interface Question {
   updatedAt: string
 }
 
+/** 用户/AI 对某道题的回答（data/answers.json，一道题至多一条，id = ans-<questionId>） */
+export interface QuestionAnswer {
+  id: string
+  questionId: string
+  /** 用户自己的回答；空串/省略 = 尚未写或已清空 */
+  myAnswer?: string
+  /** AI 生成的回答 */
+  aiAnswer?: string
+  /** 生成该回答的模型名 */
+  aiModel?: string
+  /** AI 回答生成日期 */
+  aiGeneratedAt?: string
+  createdAt: string
+  updatedAt: string
+}
+
 export interface QuestionDetail extends Question {
   company: Company | null
+  answer?: QuestionAnswer | null
 }
