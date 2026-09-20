@@ -17,7 +17,7 @@ description: 调研公募/私募基金公司及券商（证券公司）的量化
 
 ## 工作流（按顺序执行）
 
-1. **归一化公司**：确定正式公司名、英文 slug id、类型（`public` 公募 / `private` 私募 / `securities` 券商）、所在地。
+1. **归一化公司**：确定正式公司名、英文 slug id、类型（`public` 公募 / `private` 私募 / `securities` 券商 / `tech` 科技 / `bank` 银行 / `amc` 资管 / `soe` 国企集团）、所在地。
 2. **并行调研三来源**：官网（WebSearch + WebFetch）、Boss直聘（**优先本机 boss-agent-cli 真实搜索**，见下）、微信公众号（WebSearch + WebFetch）。每个来源产出一条 `sources[]` 记录，无论成败都要记录；**来源分流**：公司级渠道（官网「加入我们」/招聘系统/公众号/校招公告转载等）进 `company.sources[]`；岗位级来源（点名该岗位的招聘页/申请短链/第三方岗位帖）进该岗位 `job.sources[]`，每岗位只保留 1 条最相关来源。Boss 直聘注意：先跑认证检查，再按公司过滤搜索。
 3. **聚合 `fetchStatus`**（规则见下）。
 4. **输出可读报告**（固定模板）。

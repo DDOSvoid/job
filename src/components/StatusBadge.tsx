@@ -34,12 +34,23 @@ type Tone =
   | 'hedge'
   | 'sec'
   | 'tech'
+  | 'bank'
+  | 'amc'
+  | 'soe'
 
 const toneClass = (tone: Tone) => `badge badge-${tone}`
 
 // 各枚举在界面上的语义配色
-// 公司类型：四分类色（公募橙 / 私募青 / 券商靛 / 科技石墨），见 styles.css --cat-*
-const typeTone: Record<CompanyType, Tone> = { public: 'pub', private: 'hedge', securities: 'sec', tech: 'tech' }
+// 公司类型分类色（公募橙 / 私募青 / 券商靛 / 科技石墨 / 银行酒红 / 资管墨绿 / 国企藏青），见 styles.css --cat-*
+const typeTone: Record<CompanyType, Tone> = {
+  public: 'pub',
+  private: 'hedge',
+  securities: 'sec',
+  tech: 'tech',
+  bank: 'bank',
+  amc: 'amc',
+  soe: 'soe',
+}
 const autumnTone: Record<AutumnStatus, Tone> = {
   open: 'success',
   not_started: 'info',

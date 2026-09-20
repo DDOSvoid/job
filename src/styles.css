@@ -28,7 +28,7 @@
   --purple: #5b21b6;
   --purple-soft: #f3f0fd;
 
-  /* 机构四分类色（公募橙 / 私募青 / 券商靛 / 科技石墨） */
+  /* 机构分类色（公募橙 / 私募青 / 券商靛 / 科技石墨 / 银行酒红 / 资管墨绿 / 国企藏青） */
   --cat-pub: #b45b2a;
   --cat-pub-soft: #f7ece2;
   --cat-hedge: #0b6b6b;
@@ -37,6 +37,12 @@
   --cat-sec-soft: #e6eaf6;
   --cat-tech: #5f6b7a;
   --cat-tech-soft: #eef0f2;
+  --cat-bank: #9c2f45;
+  --cat-bank-soft: #f8e9ec;
+  --cat-amc: #2f6b4f;
+  --cat-amc-soft: #e6f1ec;
+  --cat-soe: #2d4a6b;
+  --cat-soe-soft: #e8eef4;
 
   /* 等宽数字：报价/终端读数 */
   --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', 'JetBrains Mono', Menlo, Consolas,
@@ -459,7 +465,7 @@ h4 {
   outline-offset: 2px;
 }
 
-/* 机构分类色左条：四分类贯通岗位列表（公募橙 / 私募青 / 券商靛 / 科技石墨） */
+/* 机构分类色左条：分类贯通岗位列表（公募橙 / 私募青 / 券商靛 / 科技石墨 / 银行酒红 / 资管墨绿 / 国企藏青） */
 .job-row[data-type='public'] {
   border-left: 3px solid var(--cat-pub);
 }
@@ -474,6 +480,18 @@ h4 {
 
 .job-row[data-type='tech'] {
   border-left: 3px solid var(--cat-tech);
+}
+
+.job-row[data-type='bank'] {
+  border-left: 3px solid var(--cat-bank);
+}
+
+.job-row[data-type='amc'] {
+  border-left: 3px solid var(--cat-amc);
+}
+
+.job-row[data-type='soe'] {
+  border-left: 3px solid var(--cat-soe);
 }
 
 /* 模块化：模块间细分隔线 */
@@ -728,11 +746,14 @@ h4 {
 .badge-info    { background: var(--primary-soft); color: #1d4ed8; }
 .badge-neutral { background: var(--bg-subtle);    color: var(--text-secondary); }
 .badge-purple  { background: var(--purple-soft);  color: var(--purple); }
-/* 机构四分类徽章：公募橙 / 私募青 / 券商靛 / 科技石墨 */
+/* 机构分类徽章：公募橙 / 私募青 / 券商靛 / 科技石墨 / 银行酒红 / 资管墨绿 / 国企藏青 */
 .badge-pub   { background: var(--cat-pub-soft);   color: var(--cat-pub); }
 .badge-hedge { background: var(--cat-hedge-soft); color: var(--cat-hedge); }
 .badge-sec   { background: var(--cat-sec-soft);   color: var(--cat-sec); }
 .badge-tech  { background: var(--cat-tech-soft);  color: var(--cat-tech); }
+.badge-bank  { background: var(--cat-bank-soft);  color: var(--cat-bank); }
+.badge-amc   { background: var(--cat-amc-soft);   color: var(--cat-amc); }
+.badge-soe   { background: var(--cat-soe-soft);   color: var(--cat-soe); }
 
 .chip {
   display: inline-block;
@@ -772,6 +793,18 @@ h4 {
 
 .cat-dot.tech {
   background: var(--cat-tech);
+}
+
+.cat-dot.bank {
+  background: var(--cat-bank);
+}
+
+.cat-dot.amc {
+  background: var(--cat-amc);
+}
+
+.cat-dot.soe {
+  background: var(--cat-soe);
 }
 
 /* ============================================================
@@ -1618,6 +1651,18 @@ textarea {
   --cat: var(--cat-tech);
 }
 
+.dir-section[data-type='bank'] {
+  --cat: var(--cat-bank);
+}
+
+.dir-section[data-type='amc'] {
+  --cat: var(--cat-amc);
+}
+
+.dir-section[data-type='soe'] {
+  --cat: var(--cat-soe);
+}
+
 .dir-head {
   display: flex;
   align-items: center;
@@ -1910,6 +1955,18 @@ textarea {
 
 .cat-stat.tech .cat-stat-num {
   color: var(--cat-tech);
+}
+
+.cat-stat.bank .cat-stat-num {
+  color: var(--cat-bank);
+}
+
+.cat-stat.amc .cat-stat-num {
+  color: var(--cat-amc);
+}
+
+.cat-stat.soe .cat-stat-num {
+  color: var(--cat-soe);
 }
 
 /* ============================================================

@@ -22,37 +22,9 @@
         "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、学历未注明、经验未注明"
       }
     ],
-    "notes": "薪资 25-40K·15薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "notes": "薪资 25-40K·15薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。 2026-08-23 复核：Boss直聘搜索『爱凡哲投资管理』（CDP 网页版 + boss-agent-cli API 两次）仅返回『投资经理助理/交易员』一条，本岗位未出现在在招列表，疑已下线/停招。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11",
-    "recruitmentType": "campus"
-  },
-  {
-    "id": "aifanzhe-量化开发工程师Quant-2",
-    "companyId": "aifanzhe",
-    "title": "量化开发工程师（Quantitative Developer）",
-    "description": "爱凡哲投资管理 量化开发工程师（Quantitative Developer）（Boss直聘 2026-08-11 实时在招，上海浦东新区）。薪资 25-40K·15薪（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『爱凡哲投资管理』或职位页。（岗位详情以 Boss直聘/官网为准）",
-    "salary": "25-40K·15薪（Boss直聘实时，未经官方核实）",
-    "salaryIsEstimate": true,
-    "applyUrl": "https://www.zhipin.com/job_detail/58e1bbe2bfb4dc450nZz3dS_GFVU.html",
-    "officialUrl": "https://example.com/aifanzhe",
-    "autumn2026": "unknown",
-    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
-    "source": "boss",
-    "fetchStatus": "complete",
-    "sources": [
-      {
-        "type": "boss",
-        "title": "Boss直聘·爱凡哲投资管理 量化开发工程师（Quantitative Developer）",
-        "url": "https://www.zhipin.com/job_detail/58e1bbe2bfb4dc450nZz3dS_GFVU.html",
-        "accessedAt": "2026-08-11",
-        "status": "complete",
-        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、学历未注明、经验未注明"
-      }
-    ],
-    "notes": "薪资 25-40K·15薪（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11",
+    "updatedAt": "2026-08-23",
     "recruitmentType": "campus"
   },
   {
@@ -2021,84 +1993,84 @@
     "id": "feitu-量化开发实习生",
     "companyId": "feitu",
     "title": "量化开发实习生",
-    "description": "非凸科技 量化开发实习生（Boss直聘 2026-08-11 实时在招，北京东城区）。薪资 300-400元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『非凸科技』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "description": "技能标签：C++ / github / Rust / ACM / 开源 / 量化交易\n\n岗位职责：\n1.设计并开发基于Rust的高性能，低时延算法交易系统；\n2.设计并开发数据处理平台，监控运维平台；\n3.设计并开发面向客户的高可用交易工具等；\n4.设计并开发策略相关的回测平台。\n任职要求：\n1. 本科及以上学历，编程基础扎实，具有良好的计算机理论基础；\n2.熟练掌握Linux操作，性能分析，具备Rust/C++/Java/Go丰富开发经验，熟悉常用的设计模式，有分布式相关经验加分，团队使用Rust；\n3.有研发高性能，低时延系统经验加分；\n4.对技术充满热情，思考深入，自我驱动，能快速学习新鲜事务。\n实习期表现优异提供转正机会；\n需要转Rust语言；\n有ACM/ICPC、NOI、CMO等竞赛奖项为加分项。\n\n工作地址：北京东城区中关村雍和航星科技园3号楼东侧一层\n（岗位详情由 Boss直聘实际职位页抓取，2026-09-13 CDP 复核）",
     "salary": "300-400元/天（Boss直聘实时，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://www.zhipin.com/job_detail/2e3a6a3eecbef16703R43N67FVRR.html",
     "officialUrl": "https://example.com/feitu",
-    "autumn2026": "unknown",
-    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "autumn2026": "open",
+    "autumn2026Note": "2026-09-13 CDP 复核：职位页在招，薪资 300-400元/天。职责描述与官方 Moka 门户「Rust开发实习工程师-北京」逐字一致，系同一岗位的两个挂载（Boss 侧为「量化开发实习生」）。",
     "source": "boss",
     "fetchStatus": "complete",
     "sources": [
       {
         "type": "boss",
-        "title": "Boss直聘·非凸科技 量化开发实习生",
+        "title": "Boss直聘·非凸科技 量化开发实习生（北京）",
         "url": "https://www.zhipin.com/job_detail/2e3a6a3eecbef16703R43N67FVRR.html",
-        "accessedAt": "2026-08-11",
+        "accessedAt": "2026-09-13",
         "status": "complete",
-        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京东城区、学历未注明、经验未注明、技能 ['C++', 'github', 'Rust', 'ACM', '开源', '量化交易']"
+        "note": "CDP 网页版复核（2026-09-13，用户已登录 Edge 会话，端口 9223）：职位在招，薪资 300-400元/天，北京东城区中关村雍和航星科技园3号楼东侧一层，招聘者「赵女士·招聘经理」。技能标签 C++/github/Rust/ACM/开源/量化交易。"
       }
     ],
-    "notes": "薪资 300-400元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "notes": "2026-09-13 复核：职位仍在招，薪资与 2026-08-11 记录一致。与官方门户「Rust开发实习工程师-北京」（feitu-2027-rust-dev-intern-beijing）职责描述逐字一致，疑为同一岗位，可考虑合并。薪资来自 Boss直聘（第三方），未经官方核实；官方 Moka 门户未披露薪资。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11",
+    "updatedAt": "2026-09-13",
     "recruitmentType": "intern"
   },
   {
     "id": "feitu-量化开发实习生-2",
     "companyId": "feitu",
     "title": "量化开发实习生",
-    "description": "非凸科技 量化开发实习生（Boss直聘 2026-08-11 实时在招，上海）。薪资 300-400元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『非凸科技』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "description": "技能标签：C++ / RUST / OpenGL / 量化交易开发经验\n\n岗位职责：\n1.设计并开发基于Rust的高性能，低时延算法交易系统；\n2.设计并开发数据处理平台，监控运维平台；\n3.设计并开发面向客户的高可用交易工具等；\n4.设计并开发策略相关的回测平台。\n任职要求：\n1. 本科及以上学历，编程基础扎实，具有良好的计算机理论基础；\n2.熟练掌握Linux操作，性能分析，具备Rust / C++丰富开发经验，熟悉常用的设计模式，有分布式相关经验加分，团队使用Rust；\n3.有研发高性能，低时延系统经验加分；\n4.对技术充满热情，思考深入，自我驱动，能快速学习新鲜事务。\n\n工作地址：上海徐汇区凯科国际大厦18F\n（岗位详情由 Boss直聘实际职位页抓取，2026-09-13 CDP 复核）",
     "salary": "300-400元/天（Boss直聘实时，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://www.zhipin.com/job_detail/023ff9f91f1f02bc0nF72964F1NV.html",
     "officialUrl": "https://example.com/feitu",
-    "autumn2026": "unknown",
-    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "autumn2026": "open",
+    "autumn2026Note": "2026-09-13 CDP 复核：职位页在招，薪资 300-400元/天。工作地为非凸上海总部（徐汇区凯科国际大厦18F）。",
     "source": "boss",
     "fetchStatus": "complete",
     "sources": [
       {
         "type": "boss",
-        "title": "Boss直聘·非凸科技 量化开发实习生",
+        "title": "Boss直聘·非凸科技 量化开发实习生（上海）",
         "url": "https://www.zhipin.com/job_detail/023ff9f91f1f02bc0nF72964F1NV.html",
-        "accessedAt": "2026-08-11",
+        "accessedAt": "2026-09-13",
         "status": "complete",
-        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海、学历未注明、经验未注明、技能 ['C++', 'OpenGL', '量化交易开发经验', 'RUST']"
+        "note": "CDP 网页版复核（2026-09-13，用户已登录 Edge 会话）：职位在招，薪资 300-400元/天，上海徐汇区凯科国际大厦18F，招聘者「张女士·招聘经理」。技能标签 C++/RUST/OpenGL/量化交易开发经验。"
       }
     ],
-    "notes": "薪资 300-400元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "notes": "2026-09-13 复核：职位仍在招，薪资与 2026-08-11 记录一致。官网 Moka 门户上海侧只有「后端开发实习工程师-上海」（AI 平台后端）与「数据处理开发实习生-上海」，职责描述与本条（Rust 低时延交易系统）均不逐字一致，未能确认与官网哪个岗位对应，需人工在门户复核。薪资来自 Boss直聘（第三方），未经官方核实。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11",
+    "updatedAt": "2026-09-13",
     "recruitmentType": "intern"
   },
   {
     "id": "feitu-量化策略实习生",
     "companyId": "feitu",
-    "title": "量化策略实习生",
-    "description": "非凸科技 量化策略实习生（Boss直聘 2026-08-11 实时在招，上海浦东新区）。薪资 400-500元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『非凸科技』或职位页。（岗位详情以 Boss直聘/官网为准）",
-    "salary": "400-500元/天（Boss直聘实时，未经官方核实）",
+    "title": "量化策略实习生（已下架）",
+    "description": "原 Boss直聘岗位「量化策略实习生」（上海浦东新区，400-500元/天）已于 2026-09-13 复核时确认下架。\n\n复核结果：访问原职位页返回「Oops! 您访问的页面不存在～」。\n\n官方门户当前对应的策略方向岗位（2026-09-11 发布，在招）：\n· 策略研究实习生-北京：https://app.mokahr.com/social-recruitment/ftkj/146869#/job/b4444303-ea86-4a12-a1e2-49e2c4bc2901\n· 策略研究实习生-上海：https://app.mokahr.com/social-recruitment/ftkj/146869#/job/06cbc34e-b702-4ae2-9f4b-bac917a2b851\n· 策略研究实习生-深圳：https://app.mokahr.com/social-recruitment/ftkj/146869#/job/ae46f0ff-5d03-4f12-9133-8f0399233496\n· 策略分析师实习生（沪/京/深）：https://app.mokahr.com/social-recruitment/ftkj/146869#/job/3ab63592-a47a-49b3-958f-3755a6a796ff",
+    "salary": "400-500元/天（Boss直聘，已下架，未经官方核实）",
     "salaryIsEstimate": true,
     "applyUrl": "https://www.zhipin.com/job_detail/5d6878f5de56a6fe1HV609W9EFFR.html",
     "officialUrl": "https://example.com/feitu",
-    "autumn2026": "unknown",
-    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "autumn2026": "ended",
+    "autumn2026Note": "2026-09-13 CDP 复核：Boss直聘该职位页已不存在（返回「您访问的页面不存在」），窗口已结束。官方门户现有对应方向岗位见 description。",
     "source": "boss",
-    "fetchStatus": "complete",
+    "fetchStatus": "manual_required",
     "sources": [
       {
         "type": "boss",
-        "title": "Boss直聘·非凸科技 量化策略实习生",
+        "title": "Boss直聘·非凸科技 量化策略实习生（职位已下架）",
         "url": "https://www.zhipin.com/job_detail/5d6878f5de56a6fe1HV609W9EFFR.html",
-        "accessedAt": "2026-08-11",
-        "status": "complete",
-        "note": "boss-agent-cli 实时搜索（2026-08-11）：上海浦东新区、学历未注明、经验未注明、技能 ['竞赛', 'CMO', '量化', 'NOI', 'ACM']"
+        "accessedAt": "2026-09-13",
+        "status": "manual_required",
+        "note": "CDP 网页版复核（2026-09-13）：页面返回「Oops! 您访问的页面不存在～」，职位已下架，无法读取岗位详情。2026-08-11 记录的在招信息与 400-500元/天薪资不再有效。"
       }
     ],
-    "notes": "薪资 400-500元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
+    "notes": "2026-09-13 复核为已下架。本条保留作历史记录；若不再需要可删除。当前该方向请以官方 Moka 门户的「策略研究实习生」（北京/上海/深圳）与「策略分析师实习生」为准。",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11",
+    "updatedAt": "2026-09-13",
     "recruitmentType": "intern"
   },
   {
@@ -2243,34 +2215,6 @@
   },
   {
     "id": "gaota-量化开发工程师C",
-    "companyId": "gaota",
-    "title": "量化开发工程师（C++）",
-    "description": "高塔量化 量化开发工程师（C++）（Boss直聘 2026-08-11 实时在招，深圳南山区）。薪资 800-1000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『高塔量化』或职位页。（岗位详情以 Boss直聘/官网为准）",
-    "salary": "800-1000元/天（Boss直聘实时，未经官方核实）",
-    "salaryIsEstimate": true,
-    "applyUrl": "https://www.zhipin.com/job_detail/cba88cdee775d8380nZ82N6-GVZY.html",
-    "officialUrl": "https://example.com/gaota",
-    "autumn2026": "unknown",
-    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
-    "source": "boss",
-    "fetchStatus": "complete",
-    "sources": [
-      {
-        "type": "boss",
-        "title": "Boss直聘·高塔量化 量化开发工程师（C++）",
-        "url": "https://www.zhipin.com/job_detail/cba88cdee775d8380nZ82N6-GVZY.html",
-        "accessedAt": "2026-08-11",
-        "status": "complete",
-        "note": "boss-agent-cli 实时搜索（2026-08-11）：深圳南山区、学历未注明、经验未注明、技能 ['C++', '量化交易开发经验']"
-      }
-    ],
-    "notes": "薪资 800-1000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11",
-    "recruitmentType": "intern"
-  },
-  {
-    "id": "gaota-量化开发工程师C-2",
     "companyId": "gaota",
     "title": "量化开发工程师（C++）",
     "description": "高塔量化 量化开发工程师（C++）（Boss直聘 2026-08-11 实时在招，深圳南山区）。薪资 800-1000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『高塔量化』或职位页。（岗位详情以 Boss直聘/官网为准）",
@@ -3271,34 +3215,6 @@
   },
   {
     "id": "higgs-股票量化研究员",
-    "companyId": "higgs",
-    "title": "股票量化研究员",
-    "description": "杭州希格斯 股票量化研究员（Boss直聘 2026-08-11 实时在招，杭州滨江区）。薪资 700-1400元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『杭州希格斯』或职位页。（岗位详情以 Boss直聘/官网为准）",
-    "salary": "700-1400元/天（Boss直聘实时，未经官方核实）",
-    "salaryIsEstimate": true,
-    "applyUrl": "https://www.zhipin.com/job_detail/3a18b5fa692578840nZ73du9EFNY.html",
-    "officialUrl": "https://example.com/higgs",
-    "autumn2026": "unknown",
-    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
-    "source": "boss",
-    "fetchStatus": "complete",
-    "sources": [
-      {
-        "type": "boss",
-        "title": "Boss直聘·杭州希格斯 股票量化研究员",
-        "url": "https://www.zhipin.com/job_detail/3a18b5fa692578840nZ73du9EFNY.html",
-        "accessedAt": "2026-08-11",
-        "status": "complete",
-        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州滨江区、学历未注明、经验未注明"
-      }
-    ],
-    "notes": "薪资 700-1400元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11",
-    "recruitmentType": "intern"
-  },
-  {
-    "id": "higgs-股票量化研究员-2",
     "companyId": "higgs",
     "title": "股票量化研究员",
     "description": "杭州希格斯 股票量化研究员（Boss直聘 2026-08-11 实时在招，杭州滨江区）。薪资 700-1400元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『杭州希格斯』或职位页。（岗位详情以 Boss直聘/官网为准）",
@@ -4434,34 +4350,6 @@
     "recruitmentType": "intern"
   },
   {
-    "id": "jukuan-量化开发实习生-2",
-    "companyId": "jukuan",
-    "title": "量化开发实习生",
-    "description": "聚宽投资 量化开发实习生（Boss直聘 2026-08-11 实时在招，北京朝阳区）。薪资 1000-2000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『聚宽投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
-    "salary": "1000-2000元/天（Boss直聘实时，未经官方核实）",
-    "salaryIsEstimate": true,
-    "applyUrl": "https://www.zhipin.com/job_detail/ec6747ad7b1d3fcc0nR-3di7FlFY.html",
-    "officialUrl": "https://example.com/jukuan",
-    "autumn2026": "unknown",
-    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
-    "source": "boss",
-    "fetchStatus": "complete",
-    "sources": [
-      {
-        "type": "boss",
-        "title": "Boss直聘·聚宽投资 量化开发实习生",
-        "url": "https://www.zhipin.com/job_detail/ec6747ad7b1d3fcc0nR-3di7FlFY.html",
-        "accessedAt": "2026-08-11",
-        "status": "complete",
-        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳区、学历未注明、经验未注明、技能 ['C++', 'C', '分布式经验', '架构设计经验', '量化交易开发经验']"
-      }
-    ],
-    "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11",
-    "recruitmentType": "intern"
-  },
-  {
     "id": "jukuan-量化策略实习生",
     "companyId": "jukuan",
     "title": "量化策略实习生",
@@ -4821,34 +4709,6 @@
     "recruitmentType": "campus"
   },
   {
-    "id": "linggan-量化基金经理-2",
-    "companyId": "linggan",
-    "title": "量化基金经理",
-    "description": "北京灵感探索信息技术 量化基金经理（Boss直聘 2026-08-11 实时在招，北京海淀区）。薪资 80-85K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『北京灵感探索信息技术』或职位页。（岗位详情以 Boss直聘/官网为准）",
-    "salary": "80-85K（Boss直聘实时，未经官方核实）",
-    "salaryIsEstimate": true,
-    "applyUrl": "https://www.zhipin.com/job_detail/fb500b845a8364970nFz2di0GFNQ.html",
-    "officialUrl": "https://example.com/linggan",
-    "autumn2026": "unknown",
-    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
-    "source": "boss",
-    "fetchStatus": "complete",
-    "sources": [
-      {
-        "type": "boss",
-        "title": "Boss直聘·北京灵感探索信息技术 量化基金经理",
-        "url": "https://www.zhipin.com/job_detail/fb500b845a8364970nFz2di0GFNQ.html",
-        "accessedAt": "2026-08-11",
-        "status": "complete",
-        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京海淀区、学历未注明、经验未注明"
-      }
-    ],
-    "notes": "薪资 80-85K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11",
-    "recruitmentType": "campus"
-  },
-  {
     "id": "lingjun-quant-dev-2026",
     "companyId": "lingjun",
     "title": "量化开发工程师 / C++开发工程师",
@@ -5102,34 +4962,6 @@
   },
   {
     "id": "metabit-量化研究员全职实习",
-    "companyId": "metabit",
-    "title": "量化研究员（全职/实习）",
-    "description": "乾象投资 量化研究员（全职/实习）（Boss直聘 2026-08-11 实时在招，北京朝阳区）。薪资 1000-2000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『乾象投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
-    "salary": "1000-2000元/天（Boss直聘实时，未经官方核实）",
-    "salaryIsEstimate": true,
-    "applyUrl": "https://www.zhipin.com/job_detail/3f704621c30c9163031_39i1EFVX.html",
-    "officialUrl": "https://example.com/metabit",
-    "autumn2026": "unknown",
-    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
-    "source": "boss",
-    "fetchStatus": "complete",
-    "sources": [
-      {
-        "type": "boss",
-        "title": "Boss直聘·乾象投资 量化研究员（全职/实习）",
-        "url": "https://www.zhipin.com/job_detail/3f704621c30c9163031_39i1EFVX.html",
-        "accessedAt": "2026-08-11",
-        "status": "complete",
-        "note": "boss-agent-cli 实时搜索（2026-08-11）：北京朝阳区、学历未注明、经验未注明"
-      }
-    ],
-    "notes": "薪资 1000-2000元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11",
-    "recruitmentType": "intern"
-  },
-  {
-    "id": "metabit-量化研究员全职实习-2",
     "companyId": "metabit",
     "title": "量化研究员（全职/实习）",
     "description": "乾象投资 量化研究员（全职/实习）（Boss直聘 2026-08-11 实时在招，北京朝阳区）。薪资 1000-2000元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『乾象投资』或职位页。（岗位详情以 Boss直聘/官网为准）",
@@ -6106,34 +5938,6 @@
   },
   {
     "id": "shenxuan-量化开发工程师Quant",
-    "companyId": "shenxuan",
-    "title": "量化开发工程师（Quant Developer）",
-    "description": "杭州伸轩投资管理 量化开发工程师（Quant Developer）（Boss直聘 2026-08-11 实时在招，杭州拱墅区）。薪资 19-20K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『杭州伸轩投资管理』或职位页。（岗位详情以 Boss直聘/官网为准）",
-    "salary": "19-20K（Boss直聘实时，未经官方核实）",
-    "salaryIsEstimate": true,
-    "applyUrl": "https://www.zhipin.com/job_detail/44c422df164735a10nV40964FlFT.html",
-    "officialUrl": "https://example.com/shenxuan",
-    "autumn2026": "unknown",
-    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
-    "source": "boss",
-    "fetchStatus": "complete",
-    "sources": [
-      {
-        "type": "boss",
-        "title": "Boss直聘·杭州伸轩投资管理 量化开发工程师（Quant Developer）",
-        "url": "https://www.zhipin.com/job_detail/44c422df164735a10nV40964FlFT.html",
-        "accessedAt": "2026-08-11",
-        "status": "complete",
-        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州拱墅区、学历未注明、经验未注明、技能 ['听力残疾', '轻度/中度听力残疾', '机器学习经验', '视力残疾', 'Docker', '肢体残疾', '轻度/中度言语残疾', '言语残疾', 'MySQL', '运维开发经验', 'AI 量化', '云计算经验', 'Linux开发/部署经验', '轻度/中度视力残疾', '量化交易开发经验', 'Python', '肢体残疾无限制']"
-      }
-    ],
-    "notes": "薪资 19-20K（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11",
-    "recruitmentType": "campus"
-  },
-  {
-    "id": "shenxuan-量化开发工程师Quant-2",
     "companyId": "shenxuan",
     "title": "量化开发工程师（Quant Developer）",
     "description": "杭州伸轩投资管理 量化开发工程师（Quant Developer）（Boss直聘 2026-08-11 实时在招，杭州拱墅区）。薪资 19-20K（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『杭州伸轩投资管理』或职位页。（岗位详情以 Boss直聘/官网为准）",
@@ -7690,34 +7494,6 @@
     "recruitmentType": "intern"
   },
   {
-    "id": "yuanhe-量化开发实习生-2",
-    "companyId": "yuanhe",
-    "title": "量化开发实习生",
-    "description": "远和资产 量化开发实习生（Boss直聘 2026-08-11 实时在招，杭州余杭区）。薪资 600-800元/天（Boss直聘实时，未经官方核实）。投递：Boss直聘搜索『远和资产』或职位页。（岗位详情以 Boss直聘/官网为准）",
-    "salary": "600-800元/天（Boss直聘实时，未经官方核实）",
-    "salaryIsEstimate": true,
-    "applyUrl": "https://www.zhipin.com/job_detail/a8f2185d1f7472680nF-2d-7GFFX.html",
-    "officialUrl": "https://example.com/yuanhe",
-    "autumn2026": "unknown",
-    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
-    "source": "boss",
-    "fetchStatus": "complete",
-    "sources": [
-      {
-        "type": "boss",
-        "title": "Boss直聘·远和资产 量化开发实习生",
-        "url": "https://www.zhipin.com/job_detail/a8f2185d1f7472680nF-2d-7GFFX.html",
-        "accessedAt": "2026-08-11",
-        "status": "complete",
-        "note": "boss-agent-cli 实时搜索（2026-08-11）：杭州余杭区、学历未注明、经验未注明、技能 ['C++', 'Python', 'Golang', '量化交易开发经验']"
-      }
-    ],
-    "notes": "薪资 600-800元/天（Boss直聘实时，未经官方核实） 来自 Boss直聘实时搜索（2026-08-11），未经官方核实。",
-    "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11",
-    "recruitmentType": "intern"
-  },
-  {
     "id": "yuanxi-量化研究员",
     "companyId": "yuanxi",
     "title": "量化研究员",
@@ -8108,5 +7884,1601 @@
     "createdAt": "2026-08-09",
     "updatedAt": "2026-08-20",
     "recruitmentType": "campus"
+  },
+  {
+    "id": "aifanzhe-投资经理助理交易员",
+    "companyId": "aifanzhe",
+    "title": "投资经理助理/交易员",
+    "description": "爱凡哲投资管理 投资经理助理/交易员（Boss直聘 2026-08-23 实时在招，上海浦东新区·中港汇·浦东1201）。面向在校/应届、本科。岗位职责：学习实践二级市场交易策略；跟随资深基金经理学习交易策略执行与风险管理；在基金经理带领下管理千万级以上基金账户、学习独立管理私募基金。岗位要求：理科、工科学历。薪资面议（Boss直聘本次未读到数字，未经官方核实）。投递：Boss直聘搜索『爱凡哲投资管理』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "面议（Boss直聘，未经官方核实；本次列表页/详情页/API 均未读到数字）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/c6362a7dcf6d9f4203R929y5EVtW.html",
+    "officialUrl": "https://example.com/aifanzhe",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·爱凡哲投资管理 投资经理助理/交易员",
+        "url": "https://www.zhipin.com/job_detail/c6362a7dcf6d9f4203R929y5EVtW.html",
+        "accessedAt": "2026-08-23",
+        "status": "partial",
+        "note": "boss-agent-cli 实时搜索+详情（2026-08-23）：上海浦东新区·陆家嘴、在校/应届、本科；岗位职责与地址已读，薪资字段本次未返回"
+      }
+    ],
+    "notes": "薪资来自 Boss直聘第三方，未经官方核实；本次列表页字体混淆、详情页与 API 薪资字段均未返回数字。岗位职责/地址来自 2026-08-23 详情页。",
+    "recruitmentType": "campus",
+    "createdAt": "2026-08-23",
+    "updatedAt": "2026-08-23"
+  },
+  {
+    "id": "banyang-交易系统开发工程师A175698",
+    "companyId": "banyang",
+    "title": "交易系统开发工程师(A175698)",
+    "description": "半鞅私募基金 交易系统开发工程师(A175698)（Boss直聘 2026-08-23 实时在招，上海浦东新区·华能上海大厦A座0310室）。职责：负责公司高频交易系统的维护、设计、开发、重构与性能优化，持续降低系统延迟、提升可靠性、优化可观测性；与策略团队紧密合作开发新模块、支持新策略交易；日常线上交易系统维护。要求：本科及以上，3+年大型交易系统核心模块开发经验。薪资面议（Boss直聘本次未读到数字，未经官方核实）。投递：Boss直聘搜索『半鞅私募基金』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "面议（Boss直聘，未经官方核实；本次未读到数字）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/96e7568b554d12850nR93N6_E1dW.html",
+    "officialUrl": "https://example.com/banyang",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·半鞅私募基金 交易系统开发工程师(A175698)",
+        "url": "https://www.zhipin.com/job_detail/96e7568b554d12850nR93N6_E1dW.html",
+        "accessedAt": "2026-08-23",
+        "status": "partial",
+        "note": "boss-agent-cli 实时搜索+详情（2026-08-23）：上海浦东新区、本科；列表标签『经验不限』但 JD 要求 3+年大型交易系统核心模块开发经验；薪资字段本次未返回"
+      }
+    ],
+    "notes": "薪资来自 Boss直聘第三方，未经官方核实；本次 API 薪资字段为空，未读到数字。列表标签『经验不限』与 JD『3+年大型交易系统核心模块开发经验』有出入，以 JD 为准。",
+    "recruitmentType": "social",
+    "createdAt": "2026-08-23",
+    "updatedAt": "2026-08-23"
+  },
+  {
+    "id": "banyang-平台开发工程师A28489",
+    "companyId": "banyang",
+    "title": "平台开发工程师(A28489)",
+    "description": "半鞅私募基金 平台开发工程师(A28489)（Boss直聘 2026-08-23 实时在招，上海浦东新区·华能上海大厦A座0310室）。职责：主导公司数据平台整体架构设计、技术选型与路线图规划，专注数据湖及 Lakehouse（Iceberg、DuckLake 等）落地；领导开发数据采集系统（实时行情、另类数据等多源异构）；规划数据质量与治理、监控告警及自动化运维体系；推动数据血缘（Data Lineage）体系；与各部门推动 HPC 训练集群数据存储部分性能优化。要求：计算机科学相关学历。薪资面议（Boss直聘本次未读到数字，未经官方核实）。投递：Boss直聘搜索『半鞅私募基金』或职位页。（岗位详情以 Boss直聘/官网为准）",
+    "salary": "面议（Boss直聘，未经官方核实；本次未读到数字）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/4d710b01cc26d8da0nR909i6FVJT.html",
+    "officialUrl": "https://example.com/banyang",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位来自 Boss直聘实时搜索，是否为校招批次需以官网为准",
+    "source": "boss",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·半鞅私募基金 平台开发工程师(A28489)",
+        "url": "https://www.zhipin.com/job_detail/4d710b01cc26d8da0nR909i6FVJT.html",
+        "accessedAt": "2026-08-23",
+        "status": "partial",
+        "note": "boss-agent-cli 实时搜索+详情（2026-08-23）：上海浦东新区、经验不限、本科；薪资字段本次未返回"
+      }
+    ],
+    "notes": "薪资来自 Boss直聘第三方，未经官方核实；本次 API 薪资字段为空，未读到数字。",
+    "recruitmentType": "social",
+    "createdAt": "2026-08-23",
+    "updatedAt": "2026-08-23"
+  },
+  {
+    "id": "icbc-2027-campus",
+    "companyId": "icbc",
+    "title": "2027 校园招聘（六类岗位）",
+    "description": "官方公告设六类岗位：星辰管培生、科技菁英、专业英才、客户经理、客服经理、服务代表；部分机构另设县域专项岗位。\n\n【科技／数据方向 - 与本站主题最相关】\n· 业务研发中心（总行直属，北京，95 人，5 个岗位）：「科技菁英计划-大数据应用岗」负责数据探索、数据分析、数据挖掘、数据建模、数据治理、数据安全与数据资产运营；另有信息安全岗、产品研发岗、技术研发岗（大模型／AI 在研发全链路应用）。专业要求计算机／网络、财务／金融，学历本科／硕士／博士。\n· 软件开发中心（总行直属，250 人）：设「科技菁英-数据科学岗」、全栈开发、后端开发（JavaEE）、测试开发、应用运维 SRE 等；工作地点珠海、广州、上海、北京、杭州、成都、西安。上海研发部方向为大数据及人工智能技术研究、经营分析与监管报送；成都研发部为交易风险／操作风险／合规风险。\n· 分行科技菁英分「研发经理方向」与「产品经理／数据方向」（数据挖掘、建模分析）。广东省分行科技菁英 200 人，含 AI+ 赋能、数据挖掘、建模分析；山东省分行风控安全方向含数学、应用统计、数理统计、风控建模。\n\n【报名条件】毕业时间 2026-01 至 2027-07；总行本部要求 CET6 ≥ 425（总行本部约 100 人：管培生 90 + 法律 10）；笔试时间 2026 年 10 月下旬；网上报名 2026-09-04 至 10-08。\n\n【人数】全行规模媒体口径约 1.88 万人。已见诸可靠转载的分项：总行本部 100、业务研发中心 95、软件开发中心 250、北京市分行 420、重庆市分行 290、宁波市分行 210。其余分行数字仅见于第三方汇总表，未经核验。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "open",
+    "autumn2026Note": "网上报名 2026-09-04 至 2026-10-08；笔试 2026 年 10 月下旬。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中国工商银行 2027 年度校园招聘（官方入口，需登录查看岗位明细）",
+        "url": "https://job.icbc.com.cn",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "JS 单页应用，本机抓取仅得空壳；岗位明细与分行人数未能取自官方页面，来自公告转载。"
+      }
+    ],
+    "notes": "官方招聘站为 JS 单页应用，无法直读岗位明细；以上内容来自高校就业网对官方公告的全文转载。\n待核验：各分行最终岗位表与人数（第三方汇总的上海 600／广东 1300／江苏 800／深圳 300 等均出自单一汇总表）；软件开发中心人数存在 250 与 300 两个口径；宁波市分行人数存在 210 与 200 两个口径。\n薪资未公开。第三方平台可见的平台字段数字（宁波市分行 12500-15000 元/月、重庆市分行 7500-10000 元/月）来自高校就业网职位表，非官方公告；自媒体「总包 8-18 万」等估算一律未采信。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://job.icbc.com.cn",
+    "officialUrl": "https://www.icbc.com.cn"
+  },
+  {
+    "id": "abchina-2027-campus",
+    "companyId": "abchina",
+    "title": "2027 校园招聘",
+    "description": "【科技／数据方向 - 与本站主题最相关】\n· 研发中心（总行直属机构，163 人）：「软件研发岗」负责银行核心业务、互联网金融、金融市场、精准营销、业务运营、信贷管理、风险监控、信息安全等应用领域研发与工程实施；「数据分析岗」负责大数据分析与建模、大数据基础能力建设，为营销、风控、决策提供大数据和人工智能服务。公告未按岗位分列人数。\n· 分行信息科技岗（以广西分行为例）：软件研发、人工智能应用开发、大数据分析挖掘、运行维护、网络安全；录用后直接安排至区分行本部信息科技部门。\n· 总行审计储备生（信息科技岗）：先 3 年分支行轮岗，期满择优遴选至总行驻当地审计分局。\n· 总行管理本部含数据分析、风险管理方向；总行直属机构含金融交易、投行、私人银行、数字风控等方向。\n\n【报名条件】境内外院校 2026、2027 届本科及以上，应于 2027-07-31 前毕业。志愿规则：最多投报两家总行非科技机构 + 两家总行科技机构 + 两家境内分行 + 两家子公司，每家机构最多 2 个岗位，平行志愿。报名即日起至 2026-10-08 24 时。\n\n【管培生】「菁穗培训生」今年精简为七大岗位：业务管理、财会管理、法律合规、党建综合、乡村振兴、产业金融、智慧银行。\n\n【注意】总行公告正文写明「总行科技类直属机构招聘信息另行公告」，需另查。\n\n【人数】研发中心 163 人；分行已披露：四川 1070、湖北 910、广西 520、辽宁 470、福建 430、甘肃 340、大连 40。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "open",
+    "autumn2026Note": "报名即日起至 2026-10-08 24:00。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中国农业银行 2027 年度校园招聘（官方入口）",
+        "url": "https://career.abchina.com.cn",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "JS 单页应用，本机抓取仅得空壳；岗位与人数来自公告转载。"
+      }
+    ],
+    "notes": "官方招聘站为 JS 单页应用，无法直读岗位明细；以上内容来自公告转载。\n待核验：总行科技类直属机构的另行公告；总行 38 个岗位的岗位详情；公告深链 career.abchina.com.cn/build/index.html#/NoticeDetails/110803628 是否为官方真实地址（未核验）。\n薪资未公开，未找到任何官方或高校平台数字。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://career.abchina.com.cn",
+    "officialUrl": "https://www.abchina.com"
+  },
+  {
+    "id": "boc-2027-campus",
+    "companyId": "boc",
+    "title": "2027 年全球校园招聘",
+    "description": "【官方岗位表（公告原文）】\n（一）总行：① 总行管理培训生 — 六个方向：信息科技、业务发展、金融市场、风险合规、综合管理、全球化（今年新增）；实践锻炼 1 年，先在境内机构及业务条线，再派境外机构，全球化方向结束后须外派 1–2 年。② 上海总部管理培训生 — 跨境业务、人民币交易、跨境清算方向，工作地上海。③ 小语种专项计划 — 德语、法语、西班牙语、葡萄牙语、瑞典语、匈牙利语、波兰语、捷克语、塞尔维亚语（去年 11 个语种收窄至 9 个）。\n（二）总行直属机构（10 家）：信用卡中心、养老金融中心、数字资产运营中心（数据分析岗：集团数据运营、数据分析、数据应用及前沿技术研究运用）、信息科技运营中心（北京/上海/合肥/呼和浩特：全行信息系统生产运营、集团网络安全防控、集团云建设）、软件中心（北京/深圳/西安/合肥/上海/武汉/成都）、国际结算单证处理中心、集约运营中心、远程银行中心、北京/上海高级研修院。\n（三）审计分部：审计员、审计数据分析员（审计数据分析系统管理、审计数据处理）。\n（四）境内分行：管理培训生、信息科技岗、营业网点业务岗（营销服务／综合服务）。\n（五至六）港澳台及海外机构、综合经营公司。\n\n【与本站主题最相关的岗位】\n· 软件中心（招聘计划 180 人）：信息科技岗，专业含计算机、信息安全、人工智能、信息与通信工程、自动化、数学。\n· 信息科技岗（风控模型开发）- 软件中心（上海）：专业为数学、数理统计、人工智能、自动化、金融工程；职责为风控领域模型建设、人工智能算法和建模。这是中行最接近量化／风控建模的校招岗位。\n· 数字资产运营中心数据分析岗、审计数据分析员。\n\n【报名条件】境内/境外院校均须 2026-01-01 至 2027-07-31 期间毕业且为毕业后初次就业。外语：总行 CET6 ≥ 425（或 TOEIC 715 / TOEFL iBT 85 / IELTS 6.5）；总行直属机构、审计分部、境内分行多数岗位 CET4 ≥ 425（该门槛来自对附件《招聘条件.pdf》的转载摘要，未直读 PDF）。\n\n【志愿】每人最多申请 5 个岗位；北京、上海、广东、深圳等境内一级分行或直属分行可申请 1–2 个，其他一级机构 1 个，全部平行志愿。\n\n【分行人数（已披露部分）】深圳 220（管培生 15、信息科技岗 30、营销服务岗 135、综合服务岗 40）、山西 283、广西 266、重庆 158、河北雄安 5。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "open",
+    "autumn2026Note": "报名截止北京时间 2026-10-09 24:00。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中国银行股份有限公司2027年全球校园招聘公告",
+        "url": "https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方公告原文已直读，岗位表与报名条件取自该页。投递入口见 https://campus.chinahr.com/pages/2027-boc 。"
+      }
+    ],
+    "notes": "官方公告原文已直读，岗位表为公告原文内容。\n外语门槛（CET6/CET4）来自对官方附件《中国银行股份有限公司2027年全球校园招聘条件.pdf》的转载摘要，该 PDF 本次未能直读，建议人工打开附件核实。\n薪资未公开，未找到任何官方或高校平台数字。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "officialUrl": "https://www.boc.cn",
+    "applyUrl": "https://campus.chinahr.com/pages/2027-boc"
+  },
+  {
+    "id": "ccb-2027-campus",
+    "companyId": "ccb",
+    "title": "2027 校园招聘（总部／总行直属机构／境内分支机构）",
+    "description": "【重要修正：PPT 的学历口径只适用于「总部」】\nPPT 原文写「应聘者须为具有境内外普通高等院校硕士研究生及以上学历的 2027 年应届毕业生」——经核实，该门槛仅适用于「总部」公告（110 人）。总行直属机构（11 家）与境内分支机构（37 家一级分行，才是招聘主体）均为「大学本科及以上」。若按 PPT 口径自我筛选会误排除大量可投岗位。\n\n（a）总部 110 人：部门经办岗；总行本部 100 人（北京）+ 信用卡中心 10 人（上海）；硕士及以上；专业含计算机类、电子信息类、数理统计类、其他理工类、经济金融类等；外语 CET6 ≥ 425（或 TOEIC 715 / TOEFL iBT 85 / IELTS 6.5）。培养 2 年（第 1 年境内一级分行下派轮岗，第 2 年总行部门轮岗）；计算机、电子信息等相关专业新员工有机会到金融科技子公司或分行科技部门跟岗。\n（b）总行直属机构 11 家：远程智能银行中心、运营数据中心（北京，10 人：数据中心基础设施、云计算、人工智能、大数据平台建设运营，业务系统运维，网络安全运营与运维测试保障）、贵金属及大宗商品业务部、北京生产园区管理办公室、业务需求研发中心、托管运营中心、平台运营中心、单证业务中心、业务处理中心、上海大数据智慧中心（10 人：大数据分析和风险计量）、惠懂你平台运营中心。本科及以上。\n（c）境内分支机构 37 家一级分行，共 7 类岗位：管理培训生（今年细分通用方向／法律合规方向／工程造价方向，去年「数字金融」方向退出）、科技类专项人才（人工智能、数据挖掘分析、大数据营销、技术研发、系统运营维护；有机会安排至分行金融科技部、总行运营数据中心、金融科技子公司跟岗学习）、客户经理岗、客服经理岗、外语类专项人才（辽宁、黑龙江等六家分行）、园区运维管理岗、信息技术运维岗（内蒙古区分行）。新员工原则上基层岗位工作两年以上；管理培训生、科技类专项人才可差异化培养。\n\n【笔试】2026 年 10 月底线下，全国 64 个城市同时进行，科目分综合类与信息技术类。申请科技类专项人才岗位者笔试科目须选「信息技术类」（考查计算机网络、操作系统、软件工程、信息安全、设计模式、数据结构与算法、开发语言语法、数据库）。一场笔试，一、二志愿的笔试城市与科目须相同。\n\n【分行人数】浙江 930、湖北 730、四川 550、湖南 400、深圳 260、吉林 130、西藏 70。\n\n【互报规则】报名总部者，可同时报名总行直属机构、境内分支机构及综合化经营子公司。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "open",
+    "autumn2026Note": "报名截止 2026-10-08 24:00（北京时间）；笔试 2026 年 10 月底。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中国建设银行 2027 年度校园招聘（官方入口，需登录查看岗位需求表）",
+        "url": "http://job.ccb.com",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "JS 单页应用，本机无法直读；岗位与人数来自公告转载。PPT 的「硕士及以上」口径经核实仅适用于总部（110 人）。"
+      }
+    ],
+    "notes": "官方招聘站为 JS 单页应用，岗位表来自公告转载。\n需人工裁决：① 境内分支机构公告正文未写境内院校毕业年份窗口（部分分行公告写 2026-01 至 2027-07），PPT 用的是总部口径；② 总行直属机构 11 家中除运营数据中心、上海大数据智慧中心外，其余 9 家的人数与岗位未获取；③ 总部公告附件岗位需求表未能直读。\n薪资未公开。第三方出现的「江西省分行 8K-14K/月」等未采信。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "officialUrl": "https://www.ccb.com",
+    "applyUrl": "http://job.ccb.com"
+  },
+  {
+    "id": "cmg-2027-campus",
+    "companyId": "cmg",
+    "title": "2027 届校园招聘（13 类岗位方向）",
+    "description": "⚠️ 本条记录的原始 deck 内容存在归属错误，请先读此处：\ndeck 正文的报名条件（「本科及以上学历毕业生；境内院校最高学历毕业时间为 2027-01-01 至 2027-07-31，境外院校为 2026-01-01 至 2027-07-31。网申：即日起-10-10」）经逐字比对，是「招商银行 XX 分行 2027 校园招聘公告」的原文，属于招商银行（招商局集团子公司）的独立招聘，不是招商局集团层面的招聘简章。deck 却把招商局集团招聘官网 cmhk.zhiye.com 配在了这段文字旁。\n\n【招商局集团（集团层面）2027 届校园招聘 - 官方简章信息】\n· 招聘主体：集团携下属企业共同开展，不是集团总部单独招聘。\n· 岗位方向 13 类：经济管理类、交通运输类、船舶工程类、生产运营类、工程技术类、建筑设计类、物业管理类、医学生物类、安全工程类、人工智能类、信息科学类、法律类、其他。与你方向相关的是「人工智能类」「信息科学类」两条。\n· 投递入口：https://cmhk.zhiye.com （集团统一校招页 https://cmhk.zhiye.com/custom/xiaoyuan?hideAll=true ）。\n· 网申时间：官方简章原文只写「2026 年 9 月上旬起陆续上线招聘岗位，敬请关注」，未给出任何截止日期。网上流传的「11-03」「9/2-10/2」均为第三方就业网站自行标注，官方未证实。\n· 学历：官方简章未设硬门槛。招聘人数：官方未公布。\n· 宣讲行程（官方列明）：华中科技大学、中山大学、哈尔滨工业大学(深圳)、北京大学、清华大学、中央财经大学、上海海事大学、上海交通大学、香港大学、香港科技大学，预计 9 月中旬起陆续开展。\n\n【招商银行 2027 校园招聘 - 若你实际要投的是这个】\n· 投递入口：https://career.cmbchina.com 「校园招聘」，或「招商银行招聘」微信公众号、招商银行 App。\n· 网申截止：2026-10-10 23:59。\n· 流程：简历投递（即日起至 10-10）→ 校园宣讲（9 月上旬-10 月上旬）→ 简历筛选、AI 面试（9-10 月）→ 统一笔试 → 多轮面试（9-10 月）→ 职前体检 → 录用通知（10-11 月）。\n· 毕业时间：境内院校 2027-01-01 至 2027-07-31，境外院校 2026-01-01 至 2027-07-31。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "open",
+    "autumn2026Note": "招商局集团：官方简章未给截止日期，只写「2026 年 9 月上旬起陆续上线招聘岗位」。招商银行：网申截止 2026-10-10 23:59（子公司独立招聘，不要与集团混用）。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "招商局集团2027届校园招聘（官方统一校招页，需浏览器打开）",
+        "url": "https://cmhk.zhiye.com/custom/xiaoyuan?hideAll=true",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "北森 JS 单页应用，岗位列表动态加载，本机无法直读岗位明细与截止日期。官方简章原文见 https://mp.weixin.qq.com/s/8EdrWtDkrWZPWZeRoqW50Q 。"
+      }
+    ],
+    "notes": "⚠️ deck 内容归属错误：deck 正文的报名条件与截止日期实为招商银行分行公告原文，配的却是招商局集团招聘官网链接。请确认你实际要投的是招商局集团（cmhk.zhiye.com，截止未定）还是招商银行（career.cmbchina.com，2026-10-10 23:59）。\n招商局集团的具体岗位、人数、工作地点全部在 cmhk.zhiye.com（北森 SPA，本机无法抓取），需人工用浏览器打开。\n「下属 25 家企业名单」不在官方简章正文中，来自第三方整理（高顿／中公类），需到官网核对。招商局集团不排除有招商银行、招商证券、博时基金、招商局创新投资管理等金融子公司。\n薪资未公开，未做估算。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "officialUrl": "https://www.cmhk.com",
+    "applyUrl": "https://cmhk.zhiye.com/custom/xiaoyuan?hideAll=true"
+  },
+  {
+    "id": "citicgroup-2027-campus",
+    "companyId": "citicgroup",
+    "title": "2027 年校园招聘（集团总部管理培训生）",
+    "description": "【截止日期矛盾已核实——结论与 deck 两个版本都不同】\ndeck「银行投递第一季」第 6 页写 2026-10-11，「投递第三季」第 3 页写 2026-10-08。经核实：中信集团总部的官方截止时间是 2026-10-08 24 点（报名 2026-08-31 起），即 deck 第三季的写法是对的。\n而 10 月 11 日在整个中信体系内找不到对应的官方公告——唯一相近的是「中信期货分支机构第一批次」（即日起至 2026-10-11）。因此 deck 的 10-11 很可能是串行或误标，不要用这个日期投中信集团总部。\n\n【岗位】集团总部管理培训生（仅此 1 个岗位）。职责：按管培生培养体系下沉业务、资深导师指导下轮岗，完成各阶段岗位任务，参加专业培训与职业素养培训。专业要求：经济学类、管理学类、法学类、理学类、工学类、文学类、农学类、医学类等。工作地点：北京市朝阳区。\n【报名条件】境内：2027 年春季、夏季应届毕业的境内高校硕士研究生及以上学历毕业生，须 2027-07-31 前取得学历学位证书；境外：2026 年 1 月至 2027 年 7 月期间应届毕业的境外高校硕士研究生及以上学历毕业生。\n【流程】开放网申 → 简历筛选 → 甄选考察 → 外调体检 → 录用通知。通知方式为邮件、电话，手机号必须为中国大陆运营商。笔面试具体时间公告未公布。\n【线下联合宣讲（可现场接触中信银行／中信证券／中信建投等子公司 HR）】9/7 北京理工大学、9/9 复旦大学、9/14 上海交通大学、9/15 中南大学、9/16 对外经济贸易大学、9/21 清华大学 + 中央财经大学、9/22 北京大学、9/23 中国人民大学、9/24 天津大学。\n\n【中信体系内与你方向更相关的子公司招聘（第三方信息，未获官方原文，供参考）】\n· 中信银行（截止暂定 2026-10-09，入口 https://job.citicbank.com ）：总行设管理培训生、单证审核岗、金融科技类（人工智能、研发、云技术、信息安全、网络科技方向）；分行设管理培训生、信息科技类、客户经理类。\n· 中信证券（入口 https://careers.citics.com/ ）：人工智能、系统研发、风险管理、股权衍生品、固定收益、资产管理、研究分析等。\n· 中信建投证券（入口 https://csc108.zhiye.com/campus/jobs ）：金融科技类、投资研究类等。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "open",
+    "autumn2026Note": "中信集团总部：报名 2026-08-31 至 2026-10-08 24:00（已核实）。deck 里的 2026-10-11 在整个中信体系内找不到对应官方公告，疑似中信期货分支机构第一批次的日期被误标，不要用它投集团总部。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中信集团总部 2027 年校园招聘公告（唯一官方投递渠道）",
+        "url": "https://job.citic.com/",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "公告全文通过转载版直读；官方招聘系统页面未直读岗位明细。deck 的 2026-10-11 经核实无对应官方公告。"
+      }
+    ],
+    "notes": "截止日期矛盾已定性：deck 第三季的 2026-10-08 对应中信集团总部（已核实）；deck 第一季的 2026-10-11 无对应官方公告。\n招聘人数无法确认：清华就业网与粉笔显示 20 人，国家大学生就业服务平台显示 100 人，官方公告正文未写人数。\n中信银行／中信证券／中信建投的岗位清单来自搜索摘要与第三方整理，非官方原文，需人工核实。中信信托 2027 校招只查到招聘对象，未找到岗位清单与独立投递入口。\n薪资未公开。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "officialUrl": "https://www.citic.com",
+    "applyUrl": "https://job.citic.com/"
+  },
+  {
+    "id": "ssetech-2027-campus",
+    "companyId": "ssetech",
+    "title": "2027 届校园招聘（含 2026 届择业期）",
+    "description": "【年份说明】deck 里链接标题写「上交所技术有限责任公司2026年招聘」但正文说 2027 届——已查明原因：投递网址 ssetech2026.zhaopin.com 的页面标题就是「上交所技术有限责任公司2026年招聘」，域名中的 2026 是系统编号不是招聘年份，该站点实际服务的是 2027 届校招。\n\n【岗位：官方按 5 个大类招聘，无具体岗位表，入职后统一分配方向】\n① 开发及产品类（★与本站主题最相关，硕士研究生及以上）：上交所核心交易系统、业务系统、数据中台、监管分析系统的产品需求分析、架构设计、核心代码开发；参与 AI 中台建设，负责 AI 业务场景落地；编写技术文档、参与架构评审/代码评审/上线评审。专业：计算机类、数学类、电子信息类等。技能要求：C/C++/Java；系统原理、数据结构、算法、多线程、分布式框架、机器学习、数据库；SQL 调优、微服务；Spring Cloud、Kafka、Flink、Redis；向量数据库、LangChain/LlamaIndex、RAG 全链路优化、Agent 多智能体协作、MCP 协议及 Skill 开发。优先：熟悉金融行业 IT 系统／证券业务，金融或互联网企业系统开发经验，信创操作系统开发经验。\n② 测试类（本科及以上）：交易/业务系统测试、缺陷管理、自动化测试方案；Jira/SVN/Git、Postman/Wireshark、Pytest/TestNG/JMeter/Jenkins。\n③ 运维服务与支持类（本科及以上）：信息系统应用运维、主机/网络/数据库规划建设与日常运维、涉密信息系统运维；行业智算中心、云平台、大数据平台建设与运维。\n④ 信息技术治理类（硕士研究生及以上）：CMMI、DevOps 等 IT 管理标准研究转化；治理工具平台规划建设维护；Docker/K8s 环境运维；Java + 前后端框架。\n⑤ 人力党务综合类（中共党员，硕士研究生及以上）。\n\n【报名条件】2027 届境内外院校应届毕业生 + 尚未就业仍处于择业期的 2026 届应届毕业生；毕业时间一般为 2026-01-01 至 2027-07-31；报到时须取得学历学位证书，境外院校毕业生须取得教育部留学服务中心认证。公告未提出外语要求。\n【流程】简历投递 → 资格审查与简历筛选 → 笔试测评 → 第一轮面试 → 第二轮面试 → 政审考察与体检 → 录用。\n【截止】官方未给截止日期，只写「招满即止，建议尽早投递」。\n【人数】官方未公布。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "open",
+    "autumn2026Note": "⚠️ deck 的「截止 2026-10-08」无任何来源支持——官方启事正文只写「招满即止，建议尽早投递」。第三方自标日期互相冲突（10-03／10-05／11-02）。建议按招满即止处理，尽快投递。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "上交所技术有限责任公司 2027 届校园招聘启事（官方投递入口）",
+        "url": "https://ssetech2026.zhaopin.com",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "官方启事正文通过上观新闻转载直读；投递站点为智联招聘托管页。官方未给截止日期，只写「招满即止」。"
+      }
+    ],
+    "notes": "deck 的截止日期（2026-10-08）在官方正文与第三方页面中均找不到来源，已如实标注为「招满即止」。\n招聘人数官方未公布。第三方薪资数字（中南大学 17500-20000 元/月、南昌大学 10K-15K/月、中国海洋大学「12000 以上」）全部是 2026 届／2025 年秋季数据，非 2027 届，且互相矛盾，均未采信。官方未公开薪资。\n2027 届启事目前只在微信公众号「上交所技术服务」发布，官网 sse.com.cn 尚未同步，建议关注该公众号。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "officialUrl": "https://www.sse.com.cn",
+    "applyUrl": "https://ssetech2026.zhaopin.com"
+  },
+  {
+    "id": "spdb-2027-campus",
+    "companyId": "spdb",
+    "title": "2027 校园招聘",
+    "description": "【报名条件（官方启事原文，PPT 未提供）】① 毕业时间：境内外统一为 2025-01-01 至 2027-07-31，并取得国家认可的毕业证、学位证；② 本科及以上学历；③ 原则上不限专业，人工智能、数据科学、软件工程、金融科技等专业背景及多学科复合型教育背景学生优先；④ 外语水平、计算机应用能力出色（公告未设 CET6／雅思托福硬性门槛）；⑤ 符合亲属回避制度。明确同时面向 2025、2026、2027 三届。\n\n【总行（均硕士及以上）】管理培训生（上海）、科技储备生（上海／合肥／深圳）、业务储备生（上海）、运营储备生（上海／合肥／北京）。\n【总行信用卡中心（本科及以上，上海）】科技储备生、风险储备生、业务储备生。\n【分行（37 家）】管理培训生／业务储备生／科技储备生。设科技储备生的分行及学历：上海、苏州、广州、深圳、济南、长沙、南昌（硕士及以上）；武汉、呼和浩特（本科及以上）。\n\n【子公司 - 与本站主题最相关】\n· 浦银理财：集中交易岗、研究岗（含投资研究、信用研究）、渠道销售岗、科技开发岗、运营管理岗（均硕士及以上）。\n· 浦银基金：多元资产配置部研究员、固定收益投资部研究员、权益研究部研究员、国际业务部研究员（均硕士及以上）。\n· 浦银金融科技：AI 算法工程师岗（硕）、AI 应用工程师岗（硕）、数据工程师（硕）、AI 产品经理岗（硕）、AI 治理岗（本科及以上）、软件工程师岗（本科及以上）、产品经理岗（本科及以上），均在上海。\n· 上海国际信托：投资研究岗、数智科技岗、风控合规岗（均硕士及以上）。\n· 浦银金融租赁：信息技术岗（硕士及以上）。\n\n【流程】简历投递 2026-09-03 10:00 至 10-08 18:00 → 笔试 2026 年 10 月中下旬 → 面试 2026 年 11 月起 → 录用 2026 年 11 月底起分批 → 入职 2026 年 12 月起分批。\n【志愿】一名学生最多报两家机构，每家机构最多两个岗位，须明确志愿顺序。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "open",
+    "autumn2026Note": "简历投递 2026-09-03 10:00 至 2026-10-08 18:00；笔试 2026 年 10 月中下旬。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "浦发银行 2027 年度校园招聘启事（官方投递入口）",
+        "url": "https://job.spdb.com.cn",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "官方站为 JS 单页应用未能直读；岗位表来自官方附件的转载版。"
+      }
+    ],
+    "notes": "官方启事原文与附件《招聘岗位列表》来自高校就业网转载（已直读全文），官方招聘站本身为 JS 单页应用未能直读，附件版本可能被截断。\n招聘总人数官方未公布；第三方转载的 400／500／999／1200／1620 人互相矛盾，均未采信。\n薪资未公开。高校就业网职位表字段显示 10K-12K/月，为招聘方在平台填写、非官方公告数字。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://job.spdb.com.cn",
+    "officialUrl": "https://www.spdb.com.cn"
+  },
+  {
+    "id": "citicamc-2027-campus",
+    "companyId": "citicamc",
+    "title": "2027 校园招聘（47 个岗位）",
+    "description": "【重要澄清】deck 该页正文中混入的 job.icbc.com.cn（工商银行）链接，经核实是 deck 源文件的复制错误——中信官方公告全文通篇只出现 campus.51job.com/zxjrzc2027，并明确声明这是「唯一网申渠道」，没有任何工商银行相关内容。\n\n【报名条件（与 deck 原文一致，已核实）】学历本科及以上；主修经济学类、法学类、管理学类、理学类、工学类等相关专业；境内院校——纳入国家统一招生计划、在校期间非在职的 2027 年应届毕业生（不含委培生、定向生），2027-07-31 前毕业；境外院校——2026-01-01 至 2027-08-31 期间毕业且初次就业，报到时取得学历学位证书及教育部留学服务中心学历学位认证书。公告未提出四六级等硬性外语门槛。\n【网申】2026-09-05 至 2026-10-15 24:00，登录 http://campus.51job.com/zxjrzc2027 在线填写简历，每人限报 2 个岗位。\n【流程】网申 → 简历筛选 → 性格测试 → 专业笔试 → 多轮面试 → 入职；性格测试、笔面试时间另行通知（公告未公布具体日期）。\n\n【岗位分布（官方 xlsx 附件，共 47 个）】总部 1 岗（管培生，北京）；北京、江苏、山东、湖北、广东、广西、青海分公司各 2–7 岗；上海、天津、辽宁、吉林、黑龙江、浙江、江西、安徽、福建、湖南、四川、重庆、云南、大连、深圳、上海自贸区分公司各 1 岗（多为业务开发岗）；国际控股（香港）2 岗、致远企业管理 5 岗、融同科技 1 岗、实业投资发展 1 岗。\n\n【与本站主题最相关的岗位】\n· 人工智能和数据应用研发岗（融同（北京）科技有限公司，北京，序号 47）：本科及以上，计算机相关专业；负责金融不良资产大数据分析建模和人工智能应用、金融业务数据需求分析、人工智能产品应用设计、金融不良资产领域数据和人工智能应用研发；掌握 AI 编程工具者优先。这是唯一本科可投的纯技术岗。\n· 信息技术岗（中信金资致远企业管理有限公司，北京，序号 46）：硕士及以上，人工智能/计算机科学与技术/大数据/软件工程等专业优先；负责业务数字化建设，利用 AI、数据分析工具对业务数据归集统计和分析，以及办公、网络设备、业务应用系统的日常运维。偏 IT 运维+数据分析。\n· 风险管理岗（广东分公司，广州，序号 26；国际控股，香港，序号 40）：香港岗要求本科及以上，法律/金融/财务/经济优先，须具有在港工作签证，CPA/HKICPA/CFA/FRM 优先，擅长数据处理。\n· 业务审查岗（广东分公司，广州，序号 24）：参与数据统计、分析、报告。\n· 资产评估岗（致远企业管理，北京，序号 43）：硕士及以上。\n· 管理培训生（总部，北京，序号 1）：硕士及以上，经济学/管理学/法学/理学/工学，跨学科复合专业背景者优先。\n\n【注】该公司无「量化」类岗位；风控类岗位集中在分公司层级，总部层面未设独立风控校招岗。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "open",
+    "autumn2026Note": "网申窗口 2026-09-05 至 2026-10-15 24:00（官方公告）。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中国中信金融资产管理股份有限公司2027年校园招聘公告",
+        "url": "https://www.famc.citic/rczp/zpxx/2026/09/96180.shtml",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官网公告页已实测可访问；岗位明细取自公告附件 xlsx（47 岗）。网申入口 http://campus.51job.com/zxjrzc2027 。"
+      }
+    ],
+    "notes": "deck 正文混入的工商银行链接已确认是 deck 源文件复制错误：官方公告全文只出现 campus.51job.com/zxjrzc2027，并声明其为唯一网申渠道。\n各岗位招聘人数官方未公开——官方 xlsx 附件表格中没有「招聘人数」列。\n第三方平台显示部分分公司网申时间与总公告不同（如广西分公司 2026-09-12 至 10-15），另有青海分公司页面出现面向 2026 届的往年残留信息。以总公告 2026-10-15 为准。\n薪资未公开：官方公告无任何薪酬表述，51job 页面仅有定性描述。\n官方特别声明：不存在「保过」「留用」「付费内推」「付费实习」，不收取任何费用，从未授权发布考纲及真题。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "http://campus.51job.com/zxjrzc2027",
+    "officialUrl": "https://www.famc.citic"
+  },
+  {
+    "id": "coamc-2027-campus",
+    "companyId": "coamc",
+    "title": "2027 校园招聘（总部管培生 + 26 家分公司业务岗）",
+    "description": "⚠️ 截止日期最紧迫的一条：报名即日起至 2026-09-18。今天 2026-09-13，只剩 5 天。已专门做两轮「延期」检索，未发现任何官方或第三方报道的延期通知。\n\n【岗位（官方公告）】共 150 人。\n· 总部：总部管培生。\n· 分公司：北京市、天津市、河北省、山西省、辽宁省、吉林省、黑龙江省、上海市、江苏省、浙江省、安徽省、福建省、江西省、山东省、河南省、湖北省、湖南省、广东省、深圳市、广西壮族自治区（含贵州经营部）、海南省、重庆市、四川省、陕西省、甘肃省（含新疆经营部）、云南省共 26 家分公司业务岗。\n业务岗职责：① 负责开拓分公司主营业务，开展金融、非金融不良资产项目的尽调估值、方案撰写、交易执行；② 创新运用各类手段及产品组合，围绕不良资产和服务实体经济，拓展市场化债转股、问题企业救助重整等业务；③ 做好各类项目的客户管理、市场开拓、业务渠道建设；④ 做好投后管理、处置。\n\n【报名条件（公告原文）】\n· 学历：硕士研究生及以上学历，特别优秀者可放宽至大学本科学历。\n· 毕业时间：境内——2027-01-01 至 2027-07-31 期间毕业，获国家认可的 2027 年度毕业证和学位证；初次就业的境外留学人员——原则上 2026-01-01 至 2027-07-31 期间取得学位证书，并获教育部留学服务中心学历学位认证书。（与 deck 原文一致）\n· 专业：理工类、法律类、经济金融类、管理类等；具有理工类或理工类与经济金融类复合专业背景者优先。\n· 外语（deck 未提及，重要补充）：截至报名日须通过 CET6（425 分及以上），或 TOEIC 听读 715 分及以上，或 TOEFL-IBT 85 分及以上，或 IELTS 6.5 分及以上，或 TEM8（英语专业八级）。对留学生友好，雅思 6.5 可替代六级。\n\n【流程】组织报名 → 资格审查 → 在线笔试 → 面试 → 实习考察 → 档案审核和体检 → 录用。笔试/面试具体日期公告未公布，将通过电话、短信或邮件另行通知。\n【报名方式】登录 https://coamc.zhiye.com/campus 注册并投递简历；每名应聘者限投 2 个岗位，志愿不分先后，简历一经投递不可修改。公告声明只可通过招聘门户线上报名，不接受邮箱投递等其他形式。\n\n【关于科技/数据/风控岗】官方公告中不存在独立的科技类、数据类、风控类岗位——这是本次核实的明确结论。与科技/数据需求相关的唯一官方线索是资格条件中的专业偏好（理工类或理工+经济金融复合背景优先），理工背景可投业务岗，但没有对口的科技岗。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "open",
+    "autumn2026Note": "⚠️ 报名即日起至 2026-09-18，仅剩 5 天。已做两轮延期检索，未发现任何官方或第三方延期通知。存在一处第三方冲突：湖南大学就业网「湖南省分公司宣讲会」页面标注简历投递截止 2026-10-25，但那是分公司宣讲活动的收简历时间，并非全公司报名截止，且与公告正文冲突。建议按 9-18 行动，不要赌延期。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中国东方资产管理股份有限公司2027年度校园招聘（官方投递门户）",
+        "url": "https://coamc.zhiye.com/campus",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "北森 SPA，本机无法枚举岗位与读取实时报名状态；公告内容与截止日期来自高校就业网对官方公告的全文转载。"
+      }
+    ],
+    "notes": "截止日期矛盾：官方公告为 2026-09-18（南开大学、北大、华中科大、大连理工、安徽就业平台等多源一致，且未检索到任何延期公告）；湖南大学就业网分公司宣讲页面标注 2026-10-25。门户为纯 JS 单页应用，本机无法读取实时报名状态，请人工用浏览器打开 https://coamc.zhiye.com/campus 核实倒计时与是否挂出延期通知。建议按 9-18 行动。\n完整岗位表未能获取：北森门户所有尝试的 API 路径均返回 SPA 空壳，无法枚举岗位、无法确认是否存在科技/数据/风控岗，需人工在浏览器中查看。\n第三方聚合站（岗位库）挂有一个「金融科技/IT 开发岗」，职责含不良资产系统、风控平台、大数据风控、资产智能估值模型等，但该岗位未出现在官方公告中，无法证实真实性，未采纳。\n薪资未公开。第三方出现 8k-10k/月、10K-15K/月、15万/年三个互相矛盾的非官方口径，均未采信。\n官方声明：只可通过招聘门户线上报名，不接受邮箱投递；部分高校页面出现的 zhangcong@coamc.com.cn 等是分公司联系邮箱，不是报名渠道。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://coamc.zhiye.com/campus",
+    "officialUrl": "https://www.coamc.com.cn"
+  },
+  {
+    "id": "ubs-gtp-global-markets",
+    "companyId": "ubs",
+    "title": "GTP Graduate Talent Program — Global Markets（上海）",
+    "description": "Req ID：342493BR｜地点：上海｜项目时长 18 个月｜申请截止：2026-09-16（官方职位页 Application Deadline 字段）。\n\n【硬性条件（官方职位页原文）】\n· 毕业时间：「will graduate by June 2027」（deck 写的是「2027-07 前」，官方口径是 6 月，有出入）。\n· 工作经验：「less than two years of work experience」。\n· 专业：不限专业——「We welcome all majors, but it's important to have an interest in the financial industry.」\n· 有一条 deck 完全没有的新要求：「can evidence how experimental and responsible use of AI can improve outcomes and efficiency」（需举证如何用 AI 提效）。\n· GPA：官方职位页未设任何门槛。\n· 语言：官方职位页未写中英文流利要求；deck 的「全英文笔试、HireVue 视频面试」来自第三方转载，官方未记载测评形式。\n\n⚠️ 截止日期：deck 写 2026-10-31，官方职位页为 2026-09-16，只剩 3 天。请人工打开申请页亲眼确认。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "open",
+    "autumn2026Note": "⚠️ 官方职位页 Application Deadline 为 2026-09-16（仅剩 3 天）；deck 所写 2026-10-31 在官方页面找不到支撑，疑为第三方转载文的日期。请以官方页面为准。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "UBS Careers — 2027 GTP Global Markets (Shanghai)，Req 342493BR",
+        "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349948",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方职位页已直读。Application Deadline 字段为 16-Sep-2026。"
+      }
+    ],
+    "notes": "本次已直接抓取 UBS 官方职位页（jobs.ubs.com），Req ID 342493BR。\n截止日期冲突：官方 2026-09-16 vs 中文转载 2026-10-31。deck 采用的是后者，与官方页面不符。\n薪资未公开，官方职位页无任何薪资字段。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349948",
+    "officialUrl": "https://www.ubs.com/careers"
+  },
+  {
+    "id": "ubs-gtp-research",
+    "companyId": "ubs",
+    "title": "GTP Graduate Talent Program — Global Research（北京／上海）",
+    "description": "Req ID：342494BR｜地点：北京、上海（deck 只写上海，官方含北京）｜项目时长 18 个月｜申请截止：2026-09-16。\n\n【硬性条件】同本项目其他方向：毕业时间「will graduate by June 2027」；全职工作经验少于 2 年；不限专业但需对金融行业有兴趣；需举证如何以实验性且负责任的方式使用 AI 提升效率与效能；GPA 官方未设门槛。\n\n⚠️ 截止日期：deck 写 2026-10-31，官方职位页为 2026-09-16，只剩 3 天。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "open",
+    "autumn2026Note": "⚠️ 官方职位页 Application Deadline 为 2026-09-16（仅剩 3 天）；deck 的 2026-10-31 与官方不符。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "UBS Careers — 2027 GTP Global Research (Beijing/Shanghai)，Req 342494BR",
+        "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349949",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方职位页已直读。Application Deadline 字段为 16-Sep-2026。"
+      }
+    ],
+    "notes": "已直读 UBS 官方职位页，Req ID 342494BR。工作地点官方为北京、上海，deck 只列了上海。薪资未公开。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349949",
+    "officialUrl": "https://www.ubs.com/careers"
+  },
+  {
+    "id": "ubs-gtp-technology",
+    "companyId": "ubs",
+    "title": "GTP Graduate Talent Program — Group Technology Office（上海）",
+    "description": "Req ID：342360BR｜地点：上海｜项目时长 24 个月（deck 未提）｜申请截止：2026-09-16。\n\n【硬性条件】同本项目其他方向：毕业时间「will graduate by June 2027」；全职工作经验少于 2 年；不限专业但需对金融行业有兴趣；需举证如何以实验性且负责任的方式使用 AI 提升效率与效能；GPA 官方未设门槛。\n\n⚠️ 截止日期：deck 写 2026-10-31，官方职位页为 2026-09-16，只剩 3 天。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "open",
+    "autumn2026Note": "⚠️ 官方职位页 Application Deadline 为 2026-09-16（仅剩 3 天）；deck 的 2026-10-31 与官方不符。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "UBS Careers — 2027 GTP Group Technology Office (Shanghai)，Req 342360BR",
+        "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349814",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方职位页已直读。Application Deadline 字段为 16-Sep-2026。"
+      }
+    ],
+    "notes": "已直读 UBS 官方职位页，Req ID 342360BR。项目时长 24 个月（Global Markets／Global Research 为 18 个月）。薪资未公开。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349814",
+    "officialUrl": "https://www.ubs.com/careers"
+  },
+  {
+    "id": "ubs-gtp-risk",
+    "companyId": "ubs",
+    "title": "GTP Graduate Talent Program — Risk（上海）〔官方渠道未找到，待复核〕",
+    "description": "⚠️ deck 列出了该方向，但本次在 UBS 官方招聘系统按中国大陆 2027 GTP 检索未找到对应的 Risk 岗位。\n\n核查范围：在 jobs.ubs.com 做了两轮 job ID 扫描（349400–349749 与 349900–350040，合计约 450 个有效 ID），中国大陆 2027 GTP 只找到 5 条（Group Technology Office、Global Markets 上海／北京、Global Research、Global Banking），两轮均未出现任何中国大陆的 Risk／Operations／Asset Management／Wealth Management 方向，同批中的这些岗位全部在伦敦、纽约。\n\ndeck 的这两个方向大概率是从「UBS 亚太区条线总表」里误抄过来的，中国区实际未开放。\n\n本条目保留是因为它来自你的投递 deck；如确认不存在，可自行删除。请人工在 jobs.ubs.com 按 Mainland China 筛选复核（扫描非穷尽）。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "unknown",
+    "autumn2026Note": "⚠️ 官方招聘系统未检索到中国大陆 2027 GTP 的 Risk 方向岗位；deck 的 2026-10-31 截止日期亦与官方页面不符（官方其他 GTP 岗位为 2026-09-16）。该方向可能已关闭或不存在，请人工复核。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "UBS 官方招聘站（本岗位未找到，此处指向已核实的中国大陆 2027 GTP 岗位页）",
+        "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349948",
+        "accessedAt": "2026-09-13",
+        "status": "manual_required",
+        "note": "两轮扫描约 450 个官方 job ID 未发现中国大陆 2027 GTP 的 Risk 岗位。deck 该方向官方查无实据，请人工复核后决定是否保留本条。"
+      }
+    ],
+    "notes": "⚠️ 官方渠道查无此岗位。deck 列出的 5 个方向中，Risk 与 Operations 两个方向在 UBS 官方招聘系统按中国大陆 2027 GTP 检索未找到，疑为从亚太区条线总表误抄。\n扫描非穷尽（jobid 349400–350040 区间），建议人工在 jobs.ubs.com 按 Mainland China 筛选复核。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349948",
+    "officialUrl": "https://www.ubs.com/careers"
+  },
+  {
+    "id": "ubs-gtp-operations",
+    "companyId": "ubs",
+    "title": "GTP Graduate Talent Program — Operations（上海）〔官方渠道未找到，待复核〕",
+    "description": "⚠️ deck 列出了该方向，但本次在 UBS 官方招聘系统按中国大陆 2027 GTP 检索未找到对应的 Operations 岗位。\n\n核查范围同 Risk 方向：两轮扫描 jobs.ubs.com 约 450 个有效 job ID，中国大陆 2027 GTP 只有 5 条，Operations 方向的 GTP 岗位在伦敦、纽约等地。\n\n本条目保留是因为它来自你的投递 deck；如确认不存在，可自行删除。请人工在 jobs.ubs.com 按 Mainland China 筛选复核（扫描非穷尽）。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "unknown",
+    "autumn2026Note": "⚠️ 官方招聘系统未检索到中国大陆 2027 GTP 的 Operations 方向岗位，请人工复核。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "UBS 官方招聘站（本岗位未找到，此处指向已核实的中国大陆 2027 GTP 岗位页）",
+        "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349948",
+        "accessedAt": "2026-09-13",
+        "status": "manual_required",
+        "note": "两轮扫描约 450 个官方 job ID 未发现中国大陆 2027 GTP 的 Operations 岗位。请人工复核后决定是否保留本条。"
+      }
+    ],
+    "notes": "⚠️ 官方渠道查无此岗位。两轮扫描约 450 个官方 job ID 未发现中国大陆 2027 GTP 的 Operations 岗位。deck 该方向官方查无实据，请人工复核后决定是否保留本条。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349948",
+    "officialUrl": "https://www.ubs.com/careers"
+  },
+  {
+    "id": "ms-grad-quant-research",
+    "companyId": "morganstanley",
+    "title": "Graduate Analyst Program — Quant Research（上海）〔官方渠道未找到，待复核〕",
+    "description": "⚠️ deck 列出了该方向，但本次在中国区官方招聘渠道未找到摩根士丹利上海 2027 届的 Quant Research 岗位。\n\n核查范围：MS 中国区（MSSC）在招的 2027 岗位只有 1 个——2027 MSSC Investment Banking Summer Analyst Program (Beijing/Shanghai)，属暑期实习。\n摩根的量化方向（Institutional Equities 下的 Quantitative Finance）只出现在亚洲区实习项目的业务条线列表里，且未标明上海。\n\n本条目保留是因为它来自你的投递 deck；如确认不存在，可自行删除。请人工在 careers.morganstanley.com.cn 用城市筛选复核（该站搜索页为 JS 渲染，本次未能直读列表）。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "unknown",
+    "autumn2026Note": "⚠️ 官方渠道未找到该岗位；deck 的「建议 2026-10-15 前完成投递」是 deck 作者的自己的建议，不是官方截止日。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "Morgan Stanley 中国区招聘站（本岗位未找到，此处指向官方站首页）",
+        "url": "https://careers.morganstanley.com.cn/",
+        "accessedAt": "2026-09-13",
+        "status": "manual_required",
+        "note": "官方渠道未找到上海 2027 届 Quant Research 岗位。请人工在该站用城市筛选复核后决定是否保留本条。"
+      }
+    ],
+    "notes": "⚠️ 官方渠道查无此岗位。MS 中国区 2027 在招的只有 IBD 暑期实习 1 条。deck 的「Quant Research、Risk、Wealth Management（上海）」在官方渠道无证据。\n另：deck 所写「GPA 建议 3.2+」「目标院校偏好」在官方页面没有出处，疑似经验贴内容。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://careers.morganstanley.com.cn/",
+    "officialUrl": "https://www.morganstanleychina.com"
+  },
+  {
+    "id": "ms-grad-risk",
+    "companyId": "morganstanley",
+    "title": "Graduate Analyst Program — Risk（上海）〔官方渠道未找到，待复核〕",
+    "description": "⚠️ deck 列出了该方向，但本次在中国区官方招聘渠道未找到摩根士丹利上海 2027 届的 Risk 岗位。MS 中国区 2027 在招的只有 1 条 IBD 暑期实习。\n\n本条目保留是因为它来自你的投递 deck；如确认不存在，可自行删除。请人工在 careers.morganstanley.com.cn 复核。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "unknown",
+    "autumn2026Note": "⚠️ 官方渠道未找到该岗位，请人工复核。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "Morgan Stanley 中国区招聘站（本岗位未找到，此处指向官方站首页）",
+        "url": "https://careers.morganstanley.com.cn/",
+        "accessedAt": "2026-09-13",
+        "status": "manual_required",
+        "note": "官方渠道未找到上海 2027 届 Risk 岗位。"
+      }
+    ],
+    "notes": "⚠️ 官方渠道查无此岗位。请人工在 careers.morganstanley.com.cn 用城市筛选复核后决定是否保留本条。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://careers.morganstanley.com.cn/",
+    "officialUrl": "https://www.morganstanleychina.com"
+  },
+  {
+    "id": "ms-grad-wealth-management",
+    "companyId": "morganstanley",
+    "title": "Graduate Analyst Program — Wealth Management（上海）〔官方渠道未找到，待复核〕",
+    "description": "⚠️ deck 列出了该方向，但本次在中国区官方招聘渠道未找到摩根士丹利上海 2027 届的 Wealth Management 岗位。MS 中国区 2027 在招的只有 1 条 IBD 暑期实习。\n\n本条目保留是因为它来自你的投递 deck；如确认不存在，可自行删除。请人工在 careers.morganstanley.com.cn 复核。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "unknown",
+    "autumn2026Note": "⚠️ 官方渠道未找到该岗位，请人工复核。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "Morgan Stanley 中国区招聘站（本岗位未找到，此处指向官方站首页）",
+        "url": "https://careers.morganstanley.com.cn/",
+        "accessedAt": "2026-09-13",
+        "status": "manual_required",
+        "note": "官方渠道未找到上海 2027 届 Wealth Management 岗位。"
+      }
+    ],
+    "notes": "⚠️ 官方渠道查无此岗位。请人工在 careers.morganstanley.com.cn 用城市筛选复核后决定是否保留本条。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://careers.morganstanley.com.cn/",
+    "officialUrl": "https://www.morganstanleychina.com"
+  },
+  {
+    "id": "jpm-china-grad-risk",
+    "companyId": "jpmorgan",
+    "title": "China Graduate Program — Risk（上海）〔官方渠道未找到，待复核〕",
+    "description": "⚠️ deck 列出了该方向，但经核实 JPMorgan 官方招聘系统中不存在 2027 届中国大陆的 Risk 全职 Analyst 岗位，也不存在名为「China Graduate Program」的项目（该关键词在官方 API 中搜索返回 0 条）。\n\n官方渠道 2027 届上海在招的全部是实习岗位。\n\n本条目保留是因为它来自你的投递 deck；如确认不存在，可自行删除。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "unknown",
+    "autumn2026Note": "⚠️ 官方渠道无此岗位；JPM 中国 2027 届在招的全是实习，没有全职 China Graduate Program。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "J.P. Morgan Careers（本岗位未找到，此处指向官方招聘入口）",
+        "url": "https://www.jpmorganchase.com/careers",
+        "accessedAt": "2026-09-13",
+        "status": "manual_required",
+        "note": "官方 API 检索「China Graduate Program」返回 0 条，中国区 2027 无全职该岗位。"
+      }
+    ],
+    "notes": "⚠️ 官方渠道查无此岗位。JPMorgan 2027 中国区无全职 Graduate Program，在招的全是实习。请人工在官网核实后决定是否保留本条。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://www.jpmorganchase.com/careers",
+    "officialUrl": "https://www.jpmorgan.com"
+  },
+  {
+    "id": "jpm-china-grad-am",
+    "companyId": "jpmorgan",
+    "title": "China Graduate Program — Asset Management（上海）〔全职未开放，仅以实习形式存在〕",
+    "description": "⚠️ deck 列出了该方向，但经核实 JPMorgan 2027 届中国大陆的 Asset Management 只有实习形式，没有全职 Graduate Analyst 岗位。\n\n官方实际在招的 AM 相关实习：\n· 2027 China Seasonal Internship Program – Asset Management – Research（Req 210774659，上海，2026-07-30 发布）\n· 2027 China Seasonal Internship Program – Asset Management – Business Analyst（Req 210774661，上海，2026-07-30 发布）\n\n本条目保留是因为它来自你的投递 deck；如确认不需要，可自行删除。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "unknown",
+    "autumn2026Note": "⚠️ 全职岗位官方未开放；AM 方向 2027 中国区只有实习（Req 210774659 / 210774661）。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "J.P. Morgan Careers（全职岗位未找到，此处指向官方招聘入口）",
+        "url": "https://www.jpmorganchase.com/careers",
+        "accessedAt": "2026-09-13",
+        "status": "manual_required",
+        "note": "官方 API 显示 AM 方向 2027 中国区只有实习，无全职 Graduate 岗位。"
+      }
+    ],
+    "notes": "⚠️ 全职岗位官方查无。AM 方向 2027 中国区仅以 China Seasonal Internship Program 形式存在（Req 210774659 Research、210774661 Business Analyst，均在上海）。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://www.jpmorganchase.com/careers",
+    "officialUrl": "https://www.jpmorgan.com"
+  },
+  {
+    "id": "jpm-china-grad-global-markets",
+    "companyId": "jpmorgan",
+    "title": "China Graduate Program — Global Markets（上海）〔全职未开放，仅以实习形式存在〕",
+    "description": "⚠️ deck 列出了该方向，但经核实 JPMorgan 官方招聘系统中不存在 2027 届中国大陆的 Global Markets 全职 Analyst 岗位。\n\n官方实际在招的 Markets 相关实习：\n· 2027 CIB – Markets Summer Analyst Program – Shanghai（Req 210747423，2026-05-31 发布）\n· 2027 CIB – Markets Summer Analyst Program – Research – Shanghai（Req 210747409，2026-05-31 发布）\n\n本条目保留是因为它来自你的投递 deck；如确认不需要，可自行删除。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "unknown",
+    "autumn2026Note": "⚠️ 全职岗位官方未开放；Markets 方向 2027 中国区只有暑期实习（Req 210747423 / 210747409）。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "J.P. Morgan Careers（全职岗位未找到，此处指向官方招聘入口）",
+        "url": "https://www.jpmorganchase.com/careers",
+        "accessedAt": "2026-09-13",
+        "status": "manual_required",
+        "note": "官方 API 显示 Markets 方向 2027 中国区只有暑期实习，无全职 Analyst 岗位。"
+      }
+    ],
+    "notes": "⚠️ 全职岗位官方查无。Markets 方向 2027 中国区仅以暑期实习形式存在（Req 210747423、210747409，均在上海）。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://www.jpmorganchase.com/careers",
+    "officialUrl": "https://www.jpmorgan.com"
+  },
+  {
+    "id": "citi-china-grad-risk",
+    "companyId": "citi",
+    "title": "China Graduate Program — Risk（上海）〔官方渠道未找到，待复核〕",
+    "description": "⚠️ deck 列出了该方向，但经核实花旗上海 2027 届没有全职 Graduate Program——jobs.citi.com「Student and Grad Programs」分类全部 105 个职位中，上海只有 3 条，全部是暑期实习。deck 的 Risk 方向在上海 2027 届查无实据。\n\n本条目保留是因为它来自你的投递 deck；如确认不存在，可自行删除。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "unknown",
+    "autumn2026Note": "⚠️ 官方渠道未找到该岗位；花旗上海 2027 届只有 3 个实习，无全职 Graduate Program。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "Citi Jobs（本岗位未找到，此处指向官方招聘站）",
+        "url": "https://jobs.citi.com",
+        "accessedAt": "2026-09-13",
+        "status": "manual_required",
+        "note": "官方渠道未找到上海 2027 届 Risk 全职岗位。"
+      }
+    ],
+    "notes": "⚠️ 官方渠道查无此岗位。花旗上海 2027 届 105 个校招职位中无全职 Graduate Program。请人工复核后决定是否保留本条。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://jobs.citi.com",
+    "officialUrl": "https://www.citi.com"
+  },
+  {
+    "id": "citi-china-grad-wealth",
+    "companyId": "citi",
+    "title": "China Graduate Program — Wealth Management（上海）〔官方渠道未找到，待复核〕",
+    "description": "⚠️ deck 列出了该方向，但经核实花旗上海 2027 届没有全职 Graduate Program，Wealth Management 方向查无实据。\n\n另需注意：花旗中国 2024 年已将内地个人银行／财富管理业务出售，上海是否还有 Wealth Management 校招本身存疑（此点未查到权威出处，仅作提示）。\n\n本条目保留是因为它来自你的投递 deck；如确认不存在，可自行删除。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "unknown",
+    "autumn2026Note": "⚠️ 官方渠道未找到该岗位，请人工复核。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "Citi Jobs（本岗位未找到，此处指向官方招聘站）",
+        "url": "https://jobs.citi.com",
+        "accessedAt": "2026-09-13",
+        "status": "manual_required",
+        "note": "官方渠道未找到上海 2027 届 Wealth Management 全职岗位。"
+      }
+    ],
+    "notes": "⚠️ 官方渠道查无此岗位。另注：花旗中国 2024 年已出售内地个人银行／财富管理业务，该方向是否还在中国校招存疑（未查到权威出处）。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://jobs.citi.com",
+    "officialUrl": "https://www.citi.com"
+  },
+  {
+    "id": "citi-china-grad-markets",
+    "companyId": "citi",
+    "title": "China Graduate Program — Markets（上海）〔官方渠道未找到，待复核〕",
+    "description": "⚠️ deck 列出了该方向，但经核实花旗上海 2027 届没有全职 Graduate Program，Markets 方向查无实据——全职 Analyst Program 只在新加坡、香港、伦敦、巴黎、法兰克福、米兰、纽约、旧金山等地。\n\n本条目保留是因为它来自你的投递 deck；如确认不存在，可自行删除。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "unknown",
+    "autumn2026Note": "⚠️ 官方渠道未找到该岗位，请人工复核。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "Citi Jobs（本岗位未找到，此处指向官方招聘站）",
+        "url": "https://jobs.citi.com",
+        "accessedAt": "2026-09-13",
+        "status": "manual_required",
+        "note": "官方渠道未找到上海 2027 届 Markets 全职岗位。"
+      }
+    ],
+    "notes": "⚠️ 官方渠道查无此岗位。花旗全职 Analyst Program 不设上海站。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://jobs.citi.com",
+    "officialUrl": "https://www.citi.com"
+  },
+  {
+    "id": "citi-china-grad-treasury",
+    "companyId": "citi",
+    "title": "China Graduate Program — Treasury（上海）〔官方渠道未找到，待复核〕",
+    "description": "⚠️ deck 列出了该方向，但经核实花旗上海 2027 届没有全职 Graduate Program，Treasury 方向查无实据。\n\n本条目保留是因为它来自你的投递 deck；如确认不存在，可自行删除。",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "autumn2026": "unknown",
+    "autumn2026Note": "⚠️ 官方渠道未找到该岗位，请人工复核。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "manual_required",
+    "sources": [
+      {
+        "type": "official",
+        "title": "Citi Jobs（本岗位未找到，此处指向官方招聘站）",
+        "url": "https://jobs.citi.com",
+        "accessedAt": "2026-09-13",
+        "status": "manual_required",
+        "note": "官方渠道未找到上海 2027 届 Treasury 全职岗位。"
+      }
+    ],
+    "notes": "⚠️ 官方渠道查无此岗位。请人工复核后决定是否保留本条。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "applyUrl": "https://jobs.citi.com",
+    "officialUrl": "https://www.citi.com"
+  },
+  {
+    "updatedAt": "2026-09-13",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "source": "official",
+    "id": "ubs-gtp-global-banking",
+    "companyId": "ubs",
+    "title": "GTP Graduate Talent Program — Global Banking（北京／上海）",
+    "description": "✦ 本条是本次网络核实新增的岗位：deck 未列出该方向，但 UBS 官方职位页显示中国大陆 2027 GTP 实际开放了 Global Banking。\n\nReq ID：342495BR｜地点：北京、上海｜项目时长 24 个月｜申请截止：2026-09-16。\n\n【硬性条件（官方职位页原文）】\n· 「will graduate by June 2027, or who has less than two years of work experience」。\n· 不限专业。\n· 需举证如何以实验性且负责任的方式使用 AI 提升效率与效能。\n· GPA：官方未设门槛。",
+    "applyUrl": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349950",
+    "officialUrl": "https://www.ubs.com/careers",
+    "autumn2026": "open",
+    "autumn2026Note": "⚠️ 官方职位页 Application Deadline 为 2026-09-16（仅剩 3 天）。",
+    "recruitmentType": "campus",
+    "fetchStatus": "complete",
+    "notes": "新增条目：deck 未列该方向，官方职位页显示中国大陆 2027 GTP 开放 Global Banking。Req ID 342495BR。薪资未公开。",
+    "sources": [
+      {
+        "type": "official",
+        "title": "UBS Careers — 2027 GTP Global Banking (Beijing/Shanghai)，Req 342495BR",
+        "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349950",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方职位页已直读。Application Deadline 字段为 16-Sep-2026。该方向为 deck 遗漏、本次新增。"
+      }
+    ],
+    "createdAt": "2026-09-13"
+  },
+  {
+    "updatedAt": "2026-09-13",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "source": "official",
+    "id": "ms-2027-ibd-summer-analyst",
+    "companyId": "morganstanley",
+    "title": "2027 MSSC Investment Banking Summer Analyst Program（北京／上海）",
+    "description": "✦ 本条是本次网络核实新增的岗位：这是摩根士丹利中国区 2027 届目前在招的唯一岗位。它是暑期实习（不是全职管培），但因为它是官方渠道唯一真实的入口，特此记录。\n\n实体：Morgan Stanley Securities (China) Co., Ltd.（总部上海，北京有分公司）。\nPosting Start Date：2026-07-01。\n申请截止：2026-10-07 23:59（官方职位页原文「Wednesday, October 7, 2026 at 23:59」）。\n实习期：2027 年 6–8 月，共 10 周。\n\n【资格要求（官方原文）】\n· 面向 penultimate year（倒数第二学年）本科／硕士，毕业时间 2027 年 9 月 – 2028 年 6 月。\n· 中英文流利必需。\n· 需掌握 MS Office 及 Wind／Bloomberg／CIQ。\n· 流程：CV Screening → Phone Interview → Zoom Interview → Superday；官方注明「We recruit on an ongoing basis」（滚动招聘）。\n\n⚠️ 注意：该校招项目面向 2027-09 至 2028-06 毕业，若你 2027 年 7 月前毕业则不符合资格。",
+    "applyUrl": "https://careers.morganstanley.com.cn/job/2027-MSSC-Investment-Banking-Summer-Analyst-Program-%28BeijingShanghai%29/999-en_US",
+    "officialUrl": "https://www.morganstanleychina.com",
+    "autumn2026": "open",
+    "autumn2026Note": "申请截止 2026-10-07 23:59（官方职位页）。滚动招聘，建议尽早投递。",
+    "recruitmentType": "intern",
+    "fetchStatus": "complete",
+    "notes": "新增条目：MS 中国区 2027 届官方渠道唯一在招岗位。属暑期实习而非全职管培（原 deck 的 3 个全职方向官方均查无实据）。\n资格为 penultimate year、毕业 2027-09 至 2028-06，请先确认自己是否符合。\n薪资未公开，官方职位页无薪资字段。",
+    "sources": [
+      {
+        "type": "official",
+        "title": "Morgan Stanley Careers China — 2027 MSSC Investment Banking Summer Analyst Program",
+        "url": "https://careers.morganstanley.com.cn/job/2027-MSSC-Investment-Banking-Summer-Analyst-Program-%28BeijingShanghai%29/999-en_US",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方职位页已直读。申请截止 Wednesday, October 7, 2026 at 23:59。"
+      }
+    ],
+    "createdAt": "2026-09-13"
+  },
+  {
+    "updatedAt": "2026-09-13",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "source": "official",
+    "id": "jpm-2027-markets-summer-analyst",
+    "companyId": "jpmorgan",
+    "title": "2027 CIB – Markets Summer Analyst Program（上海）",
+    "description": "✦ 本条是本次网络核实新增的岗位：JPMorgan 中国区 2027 实际在招的暑期实习之一。\n\nReq ID：210747423｜地点：上海｜发布日：2026-05-31。\n\n【硬性条件（第三方聚合站转述的职位原文；官方 API 未返回全文）】毕业时间 2027-09 至 2028-07；中英文流利；需有中国工作授权、不提供工签担保；硕士须在本科后 2 年内完成；滚动招聘。\n【截止日期】官方 API 不返回截止日字段，无法从官方渠道核实。第三方（牛企直聘转述微信公众号「摩根大通JPMorgan」）称暑期实习截止 2026-09-30，属第三方转述，请以官网岗位页为准。",
+    "applyUrl": "https://www.jpmorganchase.com/careers",
+    "officialUrl": "https://www.jpmorgan.com",
+    "autumn2026": "open",
+    "autumn2026Note": "⚠️ 官方 API 不返回截止日期；第三方转述称暑期实习截止 2026-09-30（未经官方核实）。滚动招聘，建议尽早投递。",
+    "recruitmentType": "intern",
+    "fetchStatus": "partial",
+    "notes": "新增条目。Req ID 210747423，官方职位数据取自 Oracle Recruiting Cloud API。\n资格要求来自第三方聚合站转述的职位原文，官方 API 未返回全文，未逐条核实。\n薪资未公开。",
+    "sources": [
+      {
+        "type": "official",
+        "title": "J.P. Morgan Careers — 2027 CIB Markets Summer Analyst Program, Shanghai（Req 210747423）",
+        "url": "https://www.jpmorganchase.com/careers",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "官方 API 返回该 Req ID 与发布日；资格要求来自第三方转述。官方不返回截止日期。"
+      }
+    ],
+    "createdAt": "2026-09-13"
+  },
+  {
+    "updatedAt": "2026-09-13",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "source": "official",
+    "id": "jpm-2027-ib-summer-analyst",
+    "companyId": "jpmorgan",
+    "title": "2027 CIB – Global Investment Banking Analyst Program, Summer Analyst（上海）",
+    "description": "✦ 本条是本次网络核实新增的岗位：JPMorgan 中国区 2027 实际在招的暑期实习之一。\n\nReq ID：210749758｜地点：上海｜发布日：2026-05-31。\n\n【截止日期】官方 API 不返回截止日字段，无法从官方渠道核实。第三方称暑期实习截止 2026-09-30，属第三方转述，请以官网岗位页为准。",
+    "applyUrl": "https://www.jpmorganchase.com/careers",
+    "officialUrl": "https://www.jpmorgan.com",
+    "autumn2026": "open",
+    "autumn2026Note": "⚠️ 官方 API 不返回截止日期；第三方转述称暑期实习截止 2026-09-30（未经官方核实）。滚动招聘。",
+    "recruitmentType": "intern",
+    "fetchStatus": "partial",
+    "notes": "新增条目。Req ID 210749758，官方职位数据取自 Oracle Recruiting Cloud API。薪资未公开。",
+    "sources": [
+      {
+        "type": "official",
+        "title": "J.P. Morgan Careers — 2027 CIB Global Investment Banking Summer Analyst, Shanghai（Req 210749758）",
+        "url": "https://www.jpmorganchase.com/careers",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "官方 API 返回该 Req ID 与发布日；官方不返回截止日期。"
+      }
+    ],
+    "createdAt": "2026-09-13"
+  },
+  {
+    "updatedAt": "2026-09-13",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "source": "official",
+    "id": "jpm-2027-markets-research-summer-analyst",
+    "companyId": "jpmorgan",
+    "title": "2027 CIB – Markets Summer Analyst Program, Research（上海）",
+    "description": "✦ 本条是本次网络核实新增的岗位：JPMorgan 中国区 2027 实际在招的暑期实习之一，Research 方向，与本站主题相关性较高。\n\nReq ID：210747409｜地点：上海｜发布日：2026-05-31。\n\n【截止日期】官方 API 不返回截止日字段，无法从官方渠道核实。第三方称暑期实习截止 2026-09-30，属第三方转述，请以官网岗位页为准。\n\n【另注】JPMorgan 中国区 2027 还有 China Seasonal Internship Program（季节性实习）系列共 7 个方向，含 Asset Management – Research（210774659）、Asset Management – Business Analyst（210774661）、Global Corporate Banking（210761711）、Operations（210761713）、Payments（210761731）、Research & Analytics（210761734），均在上海。",
+    "applyUrl": "https://www.jpmorganchase.com/careers",
+    "officialUrl": "https://www.jpmorgan.com",
+    "autumn2026": "open",
+    "autumn2026Note": "⚠️ 官方 API 不返回截止日期；第三方转述称暑期实习截止 2026-09-30（未经官方核实）。滚动招聘。",
+    "recruitmentType": "intern",
+    "fetchStatus": "partial",
+    "notes": "新增条目。Req ID 210747409，官方职位数据取自 Oracle Recruiting Cloud API。\n另有 China Seasonal Internship Program 系列 7 个方向（Req 210774659 / 210774661 / 210761711 / 210761713 / 210761731 / 210761734 等），本次未逐条入库。\n薪资未公开。",
+    "sources": [
+      {
+        "type": "official",
+        "title": "J.P. Morgan Careers — 2027 CIB Markets Summer Analyst Program, Research, Shanghai（Req 210747409）",
+        "url": "https://www.jpmorganchase.com/careers",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "官方 API 返回该 Req ID 与发布日；官方不返回截止日期。"
+      }
+    ],
+    "createdAt": "2026-09-13"
+  },
+  {
+    "updatedAt": "2026-09-13",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "source": "official",
+    "id": "citi-2027-corporate-banking-summer",
+    "companyId": "citi",
+    "title": "Banking – Corporate Banking, Summer Analyst, China – APAC, 2027（上海）",
+    "description": "✦ 本条是本次网络核实新增的岗位：花旗上海 2027 实际在招的 3 个暑期实习之一。\n\nReq ID：26983683｜地点：上海｜发布日：2026-09-04｜截止日期：官方职位页未单列。\n\n【资格要求（官方职位页原文）】面向 penultimate year（大三／研一），毕业时间 2027 年 12 月 – 2028 年 6 月；不限专业；实习期 10 周、2 次轮岗。\n【投递上限】最多投递 APAC 3 个暑期项目。\n\n⚠️ 注意：毕业时间要求为 2027-12 至 2028-06。",
+    "applyUrl": "https://jobs.citi.com/job/shanghai/banking-corporate-banking-summer-analyst-china-apac-2027/287/26983683",
+    "officialUrl": "https://www.citi.com",
+    "autumn2026": "open",
+    "autumn2026Note": "官方职位页未单列截止日期。滚动招聘，建议尽早投递。",
+    "recruitmentType": "intern",
+    "fetchStatus": "complete",
+    "notes": "新增条目。Req ID 26983683，官方职位页已直读。资格为 penultimate year、毕业 2027-12 至 2028-06。薪资未公开。",
+    "sources": [
+      {
+        "type": "official",
+        "title": "Citi Jobs — Banking Corporate Banking Summer Analyst, China – APAC, 2027（Req 26983683）",
+        "url": "https://jobs.citi.com/job/shanghai/banking-corporate-banking-summer-analyst-china-apac-2027/287/26983683",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方职位页已直读。该岗位为 deck 未列、本次新增。"
+      }
+    ],
+    "createdAt": "2026-09-13"
+  },
+  {
+    "updatedAt": "2026-09-13",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "source": "official",
+    "id": "citi-2027-commercial-banking-summer",
+    "companyId": "citi",
+    "title": "Banking – Commercial Banking, Summer Analyst, China – APAC, 2027（上海）",
+    "description": "✦ 本条是本次网络核实新增的岗位：花旗上海 2027 实际在招的 3 个暑期实习之一。\n\nReq ID：26983682｜地点：上海｜发布日：2026-08-06｜截止：2026-11-27 23:59（北京时间）（官方职位页原文）。\n\n【资格要求】面向 penultimate year（大三／研一），毕业时间 2027 年 12 月 – 2028 年 6 月；不限专业。\n【投递上限】最多投递 Asia cluster 3 个暑期项目。",
+    "applyUrl": "https://jobs.citi.com/job/shanghai/banking-commercial-banking-summer-analyst-china-apac-2027/287/26983682",
+    "officialUrl": "https://www.citi.com",
+    "autumn2026": "open",
+    "autumn2026Note": "申请截止 2026-11-27 23:59（北京时间，官方职位页）。",
+    "recruitmentType": "intern",
+    "fetchStatus": "complete",
+    "notes": "新增条目。Req ID 26983682，官方职位页已直读，截止日期为官方页面原文。薪资未公开。",
+    "sources": [
+      {
+        "type": "official",
+        "title": "Citi Jobs — Banking Commercial Banking Summer Analyst, China – APAC, 2027（Req 26983682）",
+        "url": "https://jobs.citi.com/job/shanghai/banking-commercial-banking-summer-analyst-china-apac-2027/287/26983682",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方职位页已直读，截止 Friday, November 27, 2026 - 23:59 Beijing Time。"
+      }
+    ],
+    "createdAt": "2026-09-13"
+  },
+  {
+    "updatedAt": "2026-09-13",
+    "salary": "面议（招聘公告未披露薪资）",
+    "salaryIsEstimate": true,
+    "source": "official",
+    "id": "citi-2027-services-summer",
+    "companyId": "citi",
+    "title": "Services – Summer Analyst, China, 2027（上海）",
+    "description": "✦ 本条是本次网络核实新增的岗位：花旗上海 2027 实际在招的 3 个暑期实习之一。\n\nReq ID：26978889｜地点：上海｜发布日：2026-07-23｜截止日期：官方职位页未单列。\n\n【资格要求（官方职位页原文）】preferred GPA 3.5+；毕业时间 2027 年 12 月 – 2028 年 6 月；要求 Excel／PowerPoint／Outlook 熟练。",
+    "applyUrl": "https://jobs.citi.com/job/shanghai/services-summer-analyst-china-2027/287/26978889",
+    "officialUrl": "https://www.citi.com",
+    "autumn2026": "open",
+    "autumn2026Note": "官方职位页未单列截止日期。滚动招聘，建议尽早投递。",
+    "recruitmentType": "intern",
+    "fetchStatus": "complete",
+    "notes": "新增条目。Req ID 26978889，官方职位页已直读。该岗位是三者中唯一给出 GPA 门槛（preferred 3.5+）的。薪资未公开。",
+    "sources": [
+      {
+        "type": "official",
+        "title": "Citi Jobs — Services Summer Analyst, China, 2027（Req 26978889）",
+        "url": "https://jobs.citi.com/job/shanghai/services-summer-analyst-china-2027/287/26978889",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方职位页已直读。该岗位为 deck 未列、本次新增。"
+      }
+    ],
+    "createdAt": "2026-09-13"
+  },
+  {
+    "id": "feitu-2027-rust-dev-intern-beijing",
+    "companyId": "feitu",
+    "title": "Rust开发实习工程师-北京",
+    "description": "岗位职责：1.设计并开发基于Rust的高性能，低时延算法交易系统。2.设计并开发数据处理平台，监控运维平台。3.设计并开发面向客户的高可用交易工具等。4.设计并开发策略相关的回测平台。岗位要求：1. 本科及以上学历，计算机相关专业。2. 专业基础知识扎实，熟练使用Rust/C++/Python/Go/Java，有成功AI‑Native项目开发经历。3. 具备ACM/ICPC、NOI、CMO等竞赛经验者优先。4. 对技术充满热情，富有探索精神，具备独立高效的学习能力。5. 实习期间表现优秀者，可获得转正名额。\n工作地点：北京市\n发布日期：2026-09-11（官方招聘门户）\n投递方式：Moka 官方招聘门户「立即投递」，或邮箱 recruit@ft.tech。校招公告口径邮件主题：姓名-岗位-工作地点-校招/实习；官网通用口径为「应聘人+应聘岗位+工作地点+社招/校招/日常实习」。\n截止日期：官方渠道未公布网申截止日期（公众号原文、官网、Moka 招聘门户均未标注）。此前记录的 2026-10-09 出自第三方多公司汇总文，已于 2026-09-13 更正。",
+    "salary": "面议（官方招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/7c2ad63f-7370-4c59-8283-7f58def24b9f",
+    "officialUrl": "https://ft.tech/join-us",
+    "autumn2026": "open",
+    "autumn2026Note": "2027 届校招已开启，本岗位 2026-09-11 发布于官方招聘门户，当前在招。官方渠道未公布网申截止日期（此前记录的 2026-10-09 出自第三方汇总文，2026-09-13 更正）。",
+    "recruitmentType": "intern",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "非凸科技官方招聘门户 · Rust开发实习工程师-北京",
+        "url": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/7c2ad63f-7370-4c59-8283-7f58def24b9f",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方 ATS 岗位页，2026-09-13 读取：工作地点 北京市，类型「校招/实习」，发布于 2026-09-11。岗位职责与任职要求按门户原文收录。"
+      }
+    ],
+    "notes": "官方招聘门户在招（发布于 2026-09-11）。薪资档位门户未披露，标为面议。实习岗位普遍要求每周出勤 ≥4 天、实习期 ≥6 个月，表现优秀者可转正。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "id": "feitu-2027-backend-dev-intern-shanghai",
+    "companyId": "feitu",
+    "title": "后端开发实习工程师-上海",
+    "description": "职位描述参与公司AI平台核心后端服务开发，协助团队基于Rust搭建高性能金融计算引擎、AI模型服务化架构及分布式数据处理系统，落地AI工程化与金融场景技术迭代，深度接触前沿金融科技研发体系。岗位职责1. 协助团队使用Rust开发、迭代高并发、低延迟的AI服务API，参与接口调试与功能优化；2. 配合搭建、维护金融数据处理流水线，保障数据处理的准确性、一致性，贴合业务合规要求；3. 参与系统性能基础优化、简单压测与参数调优，助力团队达成金融级服务稳定性标准；4. 学习微服务架构设计思路，协助完成服务基础治理，包含熔断、限流、可观测性等功能落地；5. 编写单元测试、集成测试代码，配合团队保障代码规范性、安全性与可维护性；6. 跟进前沿技术动态，参与团队技术调研。岗位要求1. 计算机、软件工程等相关专业本科及以上在读学生，热爱Rust后端开发，热爱AI‑Native开发；2. 掌握Rust基础语法，理解所有权、异步编程、生命周期等核心基础概念，有实际项目开发实践优先；3. 具备扎实的数据结构与算法基础，有良好的编程思维和代码规范；4. 了解网络编程、数据库、缓存等后端基础技术，具备独立排查简单问题的能力；5. 重视工程规范，认可自动化测试、代码整洁、系统稳定的研发文化，学习能力强、乐于复盘迭代。加分项（优先条件）1. 有金融科技、量化交易、数据服务或风控相关项目实践经验；2. 熟悉 gRPC/Protobuf、Kafka 等中间件，了解分布式基础理念；3. 拥有个人Rust实战项目、开源项目贡献；4. 热爱AI‑Native开发，有大模型工程化、AI服务开发相关实践经历。\n工作地点：上海市\n发布日期：2026-09-11（官方招聘门户）\n投递方式：Moka 官方招聘门户「立即投递」，或邮箱 recruit@ft.tech。校招公告口径邮件主题：姓名-岗位-工作地点-校招/实习；官网通用口径为「应聘人+应聘岗位+工作地点+社招/校招/日常实习」。\n截止日期：官方渠道未公布网申截止日期（公众号原文、官网、Moka 招聘门户均未标注）。此前记录的 2026-10-09 出自第三方多公司汇总文，已于 2026-09-13 更正。",
+    "salary": "面议（官方招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/09d419e5-e74e-40c9-8f58-65069f1f3d1b",
+    "officialUrl": "https://ft.tech/join-us",
+    "autumn2026": "open",
+    "autumn2026Note": "2027 届校招已开启，本岗位 2026-09-11 发布于官方招聘门户，当前在招。官方渠道未公布网申截止日期（此前记录的 2026-10-09 出自第三方汇总文，2026-09-13 更正）。",
+    "recruitmentType": "intern",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "非凸科技官方招聘门户 · 后端开发实习工程师-上海",
+        "url": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/09d419e5-e74e-40c9-8f58-65069f1f3d1b",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方 ATS 岗位页，2026-09-13 读取：工作地点 上海市，类型「校招/实习」，发布于 2026-09-11。岗位职责与任职要求按门户原文收录。"
+      }
+    ],
+    "notes": "官方招聘门户在招（发布于 2026-09-11）。薪资档位门户未披露，标为面议。实习岗位普遍要求每周出勤 ≥4 天、实习期 ≥6 个月，表现优秀者可转正。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "id": "feitu-2027-strategy-research-intern-beijing",
+    "companyId": "feitu",
+    "title": "策略研究实习生-北京",
+    "description": "岗位职责：1. 协助完成股票数据的整理、清洗，进行各类指标的统计。2. 对股票数据进行深入挖掘和建模，开发国内市场交易策略。3. 跟踪因子表现，进行量化回测、模拟、以及跟踪完善等工作。4. 参与研究领域相关的定期文献分享。岗位要求：1. 本科及以上学历，2027年及以后毕业，统计、金融工程、数学、物理、计算机等相关专业优先。2. 具备扎实的数理逻辑能力和统计学基础。高中阶段理科竞赛、各类大学生建模竞赛及机器学习竞赛中有获奖经历者优先。3. 具备扎实的编程能力，熟练使用python进行数据处理和分析。4. 对量化策略研究有浓厚兴趣，热爱探索，注重细节。5. 实习生需保证每周出勤至少四天，实习期至少为6个月及以上，表现优秀者，可获得转正名额。加分项目：1.熟练掌握C++/Linux/Rust者加分。2.拥有量化研究实习、项目经验，熟悉股票多因子策略者加分。3.拥有机器学习、深度学习、人工智能项目经验者加分。\n工作地点：北京市\n发布日期：2026-09-11（官方招聘门户）\n投递方式：Moka 官方招聘门户「立即投递」，或邮箱 recruit@ft.tech。校招公告口径邮件主题：姓名-岗位-工作地点-校招/实习；官网通用口径为「应聘人+应聘岗位+工作地点+社招/校招/日常实习」。\n截止日期：官方渠道未公布网申截止日期（公众号原文、官网、Moka 招聘门户均未标注）。此前记录的 2026-10-09 出自第三方多公司汇总文，已于 2026-09-13 更正。",
+    "salary": "面议（官方招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/b4444303-ea86-4a12-a1e2-49e2c4bc2901",
+    "officialUrl": "https://ft.tech/join-us",
+    "autumn2026": "open",
+    "autumn2026Note": "2027 届校招已开启，本岗位 2026-09-11 发布于官方招聘门户，当前在招。官方渠道未公布网申截止日期（此前记录的 2026-10-09 出自第三方汇总文，2026-09-13 更正）。",
+    "recruitmentType": "intern",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "非凸科技官方招聘门户 · 策略研究实习生-北京",
+        "url": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/b4444303-ea86-4a12-a1e2-49e2c4bc2901",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方 ATS 岗位页，2026-09-13 读取：工作地点 北京市，类型「校招/实习」，发布于 2026-09-11。岗位职责与任职要求按门户原文收录。"
+      }
+    ],
+    "notes": "官方招聘门户在招（发布于 2026-09-11）。薪资档位门户未披露，标为面议。实习岗位普遍要求每周出勤 ≥4 天、实习期 ≥6 个月，表现优秀者可转正。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "id": "feitu-2027-strategy-research-intern-shanghai",
+    "companyId": "feitu",
+    "title": "策略研究实习生-上海",
+    "description": "岗位职责：1. 协助完成股票数据的整理、清洗，进行各类指标的统计。2. 对股票数据进行深入挖掘和建模，开发国内市场交易策略。3. 跟踪因子表现，进行量化回测、模拟、以及跟踪完善等工作。4. 参与研究领域相关的定期文献分享。岗位要求：1. 本科及以上学历，2027年及以后毕业，统计、金融工程、数学、物理、计算机等相关专业优先。2. 具备扎实的数理逻辑能力和统计学基础。高中阶段理科竞赛、各类大学生建模竞赛及机器学习竞赛中有获奖经历者优先。3. 具备扎实的编程能力，熟练使用python进行数据处理和分析。4. 对量化策略研究有浓厚兴趣，热爱探索，注重细节。5. 实习生需保证每周出勤至少四天，实习期至少为6个月及以上，表现优秀者，可获得转正名额。加分项目：1.熟练掌握C++/Linux/Rust者加分。2.拥有量化研究实习、项目经验，熟悉股票多因子策略者加分。3.拥有机器学习、深度学习、人工智能项目经验者加分。\n工作地点：上海市\n发布日期：2026-09-11（官方招聘门户）\n投递方式：Moka 官方招聘门户「立即投递」，或邮箱 recruit@ft.tech。校招公告口径邮件主题：姓名-岗位-工作地点-校招/实习；官网通用口径为「应聘人+应聘岗位+工作地点+社招/校招/日常实习」。\n截止日期：官方渠道未公布网申截止日期（公众号原文、官网、Moka 招聘门户均未标注）。此前记录的 2026-10-09 出自第三方多公司汇总文，已于 2026-09-13 更正。",
+    "salary": "面议（官方招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/06cbc34e-b702-4ae2-9f4b-bac917a2b851",
+    "officialUrl": "https://ft.tech/join-us",
+    "autumn2026": "open",
+    "autumn2026Note": "2027 届校招已开启，本岗位 2026-09-11 发布于官方招聘门户，当前在招。官方渠道未公布网申截止日期（此前记录的 2026-10-09 出自第三方汇总文，2026-09-13 更正）。",
+    "recruitmentType": "intern",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "非凸科技官方招聘门户 · 策略研究实习生-上海",
+        "url": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/06cbc34e-b702-4ae2-9f4b-bac917a2b851",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方 ATS 岗位页，2026-09-13 读取：工作地点 上海市，类型「校招/实习」，发布于 2026-09-11。岗位职责与任职要求按门户原文收录。"
+      }
+    ],
+    "notes": "官方招聘门户在招（发布于 2026-09-11）。薪资档位门户未披露，标为面议。实习岗位普遍要求每周出勤 ≥4 天、实习期 ≥6 个月，表现优秀者可转正。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "id": "feitu-2027-llm-app-dev-intern",
+    "companyId": "feitu",
+    "title": "大模型应用开发实习工程师",
+    "description": "岗位职责： 负责基于大语言模型的金融智能体开发和优化。岗位要求：基本要求： 1. 扎实的编程能力，熟练掌握Python，同时熟悉至少一门强类型语言（如Rust、C++等）。了解CUDA/PTX等硬件加速技术，能够进行基础的并行计算优化。 2. 熟悉Transformer系列模型的原理和应用场景；掌握常用有监督学习和强化学习算法在模型精调场景中的应用方式。 3. 了解分页注意力、KVCache、prompt前缀缓存等常用推理优化方法。加分项： 1. 对下一代LLM的发展方向有独到见解，有成功AI-Native项目经历。 2. 对稀疏注意力在有限硬件上的高效计算方式有创新思路。 3. 对使用多维异构时序数据训练多模态Transformer有创新思路。 4. 具有ACM/ICPC、IOI、NOI等竞赛获奖经历。 5. 主导或核心参与过大型AI金融项目的开发与实施，在模型构建、系统优化、业务落地等方面有突出贡献。 6. 能够尽快到岗实习，需保证每周出勤至少四天，实习期至少6个月及以上，实习期间表现优秀者，可获得转正名额。 【Pick 这样的你】 怀揣扎实的学科知识与主动探索的学习热忱对 AI、大模型、策略研究等领域满怀激情以实践为径，奔赴从 0 到 1 的成长征程。\n工作地点：上海市 北京市\n发布日期：2026-09-11（官方招聘门户）\n投递方式：Moka 官方招聘门户「立即投递」，或邮箱 recruit@ft.tech。校招公告口径邮件主题：姓名-岗位-工作地点-校招/实习；官网通用口径为「应聘人+应聘岗位+工作地点+社招/校招/日常实习」。\n截止日期：官方渠道未公布网申截止日期（公众号原文、官网、Moka 招聘门户均未标注）。此前记录的 2026-10-09 出自第三方多公司汇总文，已于 2026-09-13 更正。",
+    "salary": "面议（官方招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/fd721ae5-7b71-4256-9201-28fb909059ae",
+    "officialUrl": "https://ft.tech/join-us",
+    "autumn2026": "open",
+    "autumn2026Note": "2027 届校招已开启，本岗位 2026-09-11 发布于官方招聘门户，当前在招。官方渠道未公布网申截止日期（此前记录的 2026-10-09 出自第三方汇总文，2026-09-13 更正）。",
+    "recruitmentType": "intern",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "非凸科技官方招聘门户 · 大模型应用开发实习工程师",
+        "url": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/fd721ae5-7b71-4256-9201-28fb909059ae",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方 ATS 岗位页，2026-09-13 读取：工作地点 上海市 北京市，类型「校招/实习」，发布于 2026-09-11。岗位职责与任职要求按门户原文收录。"
+      }
+    ],
+    "notes": "官方招聘门户在招（发布于 2026-09-11）。薪资档位门户未披露，标为面议。实习岗位普遍要求每周出勤 ≥4 天、实习期 ≥6 个月，表现优秀者可转正。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "id": "feitu-2027-strategy-research-intern-shenzhen",
+    "companyId": "feitu",
+    "title": "策略研究实习生-深圳",
+    "description": "岗位职责：1. 协助完成股票数据的整理、清洗，进行各类指标的统计。2. 对股票数据进行深入挖掘和建模，开发国内市场交易策略。3. 跟踪因子表现，进行量化回测、模拟、以及跟踪完善等工作。4. 参与研究领域相关的定期文献分享。岗位要求：1. 本科及以上学历，2027年及以后毕业，统计、金融工程、数学、物理、计算机等相关专业优先。2. 具备扎实的数理逻辑能力和统计学基础。高中阶段理科竞赛、各类大学生建模竞赛及机器学习竞赛中有获奖经历者优先。3. 具备扎实的编程能力，熟练使用python进行数据处理和分析。4. 对量化策略研究有浓厚兴趣，热爱探索，注重细节。5. 实习生需保证每周出勤至少四天，实习期至少为6个月及以上，表现优秀者，可获得转正名额。加分项目：1.熟练掌握C++/Linux/Rust者加分。2.拥有量化研究实习、项目经验，熟悉股票多因子策略者加分。3.拥有机器学习、深度学习、人工智能项目经验者加分。\n工作地点：广东·深圳市\n发布日期：2026-09-11（官方招聘门户）\n投递方式：Moka 官方招聘门户「立即投递」，或邮箱 recruit@ft.tech。校招公告口径邮件主题：姓名-岗位-工作地点-校招/实习；官网通用口径为「应聘人+应聘岗位+工作地点+社招/校招/日常实习」。\n截止日期：官方渠道未公布网申截止日期（公众号原文、官网、Moka 招聘门户均未标注）。此前记录的 2026-10-09 出自第三方多公司汇总文，已于 2026-09-13 更正。",
+    "salary": "面议（官方招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/ae46f0ff-5d03-4f12-9133-8f0399233496",
+    "officialUrl": "https://ft.tech/join-us",
+    "autumn2026": "open",
+    "autumn2026Note": "2027 届校招已开启，本岗位 2026-09-11 发布于官方招聘门户，当前在招。官方渠道未公布网申截止日期（此前记录的 2026-10-09 出自第三方汇总文，2026-09-13 更正）。",
+    "recruitmentType": "intern",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "非凸科技官方招聘门户 · 策略研究实习生-深圳",
+        "url": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/ae46f0ff-5d03-4f12-9133-8f0399233496",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方 ATS 岗位页，2026-09-13 读取：工作地点 广东·深圳市，类型「校招/实习」，发布于 2026-09-11。岗位职责与任职要求按门户原文收录。"
+      }
+    ],
+    "notes": "官方招聘门户在招（发布于 2026-09-11）。薪资档位门户未披露，标为面议。实习岗位普遍要求每周出勤 ≥4 天、实习期 ≥6 个月，表现优秀者可转正。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "id": "feitu-2027-rust-dev-intern-shenzhen",
+    "companyId": "feitu",
+    "title": "Rust开发实习工程师-深圳",
+    "description": "岗位职责：1.参与设计并开发基于Rust的高性能，低时延算法交易系统。2.参与设计并开发数据处理平台，监控运维平台。3.参与设计并开发面向客户的高可用交易工具等。4.参与设计并开发策略相关的回测平台。岗位要求：1. 本科及以上学历，计算机相关专业。2. 专业基础知识扎实，熟练使用Rust/C++/Python/Go/Java，有成功AI‑Native项目开发经历。3. 具备ACM/ICPC、NOI、CMO等竞赛经验者优先。4. 对技术充满热情，富有探索精神，具备独立高效的学习能力。5. 实习期间表现优秀者，可获得转正名额。\n工作地点：广东·深圳市\n发布日期：2026-09-11（官方招聘门户）\n投递方式：Moka 官方招聘门户「立即投递」，或邮箱 recruit@ft.tech。校招公告口径邮件主题：姓名-岗位-工作地点-校招/实习；官网通用口径为「应聘人+应聘岗位+工作地点+社招/校招/日常实习」。\n截止日期：官方渠道未公布网申截止日期（公众号原文、官网、Moka 招聘门户均未标注）。此前记录的 2026-10-09 出自第三方多公司汇总文，已于 2026-09-13 更正。",
+    "salary": "面议（官方招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/20bd80df-c05f-4c00-9e8e-8358044c134d",
+    "officialUrl": "https://ft.tech/join-us",
+    "autumn2026": "open",
+    "autumn2026Note": "2027 届校招已开启，本岗位 2026-09-11 发布于官方招聘门户，当前在招。官方渠道未公布网申截止日期（此前记录的 2026-10-09 出自第三方汇总文，2026-09-13 更正）。",
+    "recruitmentType": "intern",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "非凸科技官方招聘门户 · Rust开发实习工程师-深圳",
+        "url": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/20bd80df-c05f-4c00-9e8e-8358044c134d",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方 ATS 岗位页，2026-09-13 读取：工作地点 广东·深圳市，类型「校招/实习」，发布于 2026-09-11。岗位职责与任职要求按门户原文收录。"
+      }
+    ],
+    "notes": "官方招聘门户在招（发布于 2026-09-11）。薪资档位门户未披露，标为面议。实习岗位普遍要求每周出勤 ≥4 天、实习期 ≥6 个月，表现优秀者可转正。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "id": "feitu-2027-strategy-analyst-intern",
+    "companyId": "feitu",
+    "title": "策略分析师实习生",
+    "description": "岗位职责：1. 紧密跟踪市场变化及行业趋势，开展深入研究、预测与分析工作，为公司提供有效的策略建议及详尽的研究报告，确保现有策略能够得到有效执行并持续优化。2. 负责策略的日常参数配置工作，并根据市场变化及时调整策略参数，以确保策略能够适应市场波动。同时，持续监控策略的执行情况，及时发现问题并采取相应措施。3. 与客户保持密切沟通，耐心解答客户关于策略细节等方面的疑问。同时，根据客户的个性化需求，提供针对性的策略建议与解决方案，提升客户满意度。4. 利用现有数据分析平台，进行策略数据的收集、整理与分析；能独立使用Python完成数据清洗、建模与可视化能力者优先。岗位要求：1.金融、经济、数学、统计等相关专业本科及以上学历，具有量化交易、数据分析或金融行业背景者优先。2.熟练掌握数据分析与挖掘技术，包括SQL、Python等编程语言，热爱AI‑Native开发。3.具备较强抗压能力，优秀的沟通能力，以及出色的逻辑思维和判断能力。4.能够尽快到岗实习，实习期间表现优秀者，可获得转正名额。\n工作地点：上海市 北京市 广东·深圳市\n发布日期：2026-09-11（官方招聘门户）\n投递方式：Moka 官方招聘门户「立即投递」，或邮箱 recruit@ft.tech。校招公告口径邮件主题：姓名-岗位-工作地点-校招/实习；官网通用口径为「应聘人+应聘岗位+工作地点+社招/校招/日常实习」。\n截止日期：官方渠道未公布网申截止日期（公众号原文、官网、Moka 招聘门户均未标注）。此前记录的 2026-10-09 出自第三方多公司汇总文，已于 2026-09-13 更正。",
+    "salary": "面议（官方招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/3ab63592-a47a-49b3-958f-3755a6a796ff",
+    "officialUrl": "https://ft.tech/join-us",
+    "autumn2026": "open",
+    "autumn2026Note": "2027 届校招已开启，本岗位 2026-09-11 发布于官方招聘门户，当前在招。官方渠道未公布网申截止日期（此前记录的 2026-10-09 出自第三方汇总文，2026-09-13 更正）。",
+    "recruitmentType": "intern",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "非凸科技官方招聘门户 · 策略分析师实习生",
+        "url": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/3ab63592-a47a-49b3-958f-3755a6a796ff",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方 ATS 岗位页，2026-09-13 读取：工作地点 上海市 北京市 广东·深圳市，类型「校招/实习」，发布于 2026-09-11。岗位职责与任职要求按门户原文收录。"
+      }
+    ],
+    "notes": "官方招聘门户在招（发布于 2026-09-11）。薪资档位门户未披露，标为面议。实习岗位普遍要求每周出勤 ≥4 天、实习期 ≥6 个月，表现优秀者可转正。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "id": "feitu-2027-data-processing-intern-shanghai",
+    "companyId": "feitu",
+    "title": "数据处理开发实习生-上海",
+    "description": "岗位职责：1.数据采集，开发多源数据采集工具，实现结构化与非结构化数据的高效汇聚。2.数据清洗，开发自动化清洗规则引擎，实现数据格式标准化，优化存储结构，实现数据分层存储。3.数据处理，配合研究员需求实现复杂业务逻辑，双重验证数据准确性。岗位要求：本科及以上学历，计算机/数据科学/大数据/数学等相关专业。【技术能力】1.具备计算机相关的专业基础, 了解操作系统和多线程编程。2.掌握C++, Rust中至少一门语言, 了解C++现代语法以及C++17及更新标准中提供的新特性, Rust 生命周期等特性。3.了解Python中常见的数据处理库(pandas,numpy,polars)的使用方法。4.对数据清洗、统计有实操兴趣，为人耐心，具备良好的沟通与团队协作能力。【加分项】1.参加过有一定规模的C++/Rust项目, 比如学校里面的大创, 或者实验室项目, 经手的项目代码总数在10k行及以上。2.使用C++或Rust参与过大数据处理项目, 或有1年及以上的大数据处理相关项目实习经历者。实习期间表现优秀者，可获得转正名额。\n工作地点：上海市\n发布日期：2026-09-11（官方招聘门户）\n投递方式：Moka 官方招聘门户「立即投递」，或邮箱 recruit@ft.tech。校招公告口径邮件主题：姓名-岗位-工作地点-校招/实习；官网通用口径为「应聘人+应聘岗位+工作地点+社招/校招/日常实习」。\n截止日期：官方渠道未公布网申截止日期（公众号原文、官网、Moka 招聘门户均未标注）。此前记录的 2026-10-09 出自第三方多公司汇总文，已于 2026-09-13 更正。",
+    "salary": "面议（官方招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/0751787a-d25e-4956-8376-25c2f70cda7f",
+    "officialUrl": "https://ft.tech/join-us",
+    "autumn2026": "open",
+    "autumn2026Note": "2027 届校招已开启，本岗位 2026-09-11 发布于官方招聘门户，当前在招。官方渠道未公布网申截止日期（此前记录的 2026-10-09 出自第三方汇总文，2026-09-13 更正）。",
+    "recruitmentType": "intern",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "非凸科技官方招聘门户 · 数据处理开发实习生-上海",
+        "url": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/0751787a-d25e-4956-8376-25c2f70cda7f",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方 ATS 岗位页，2026-09-13 读取：工作地点 上海市，类型「校招/实习」，发布于 2026-09-11。岗位职责与任职要求按门户原文收录。"
+      }
+    ],
+    "notes": "官方招聘门户在招（发布于 2026-09-11）。薪资档位门户未披露，标为面议。实习岗位普遍要求每周出勤 ≥4 天、实习期 ≥6 个月，表现优秀者可转正。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "id": "feitu-2027-data-dev-chengdu",
+    "companyId": "feitu",
+    "title": "数据开发-成都",
+    "description": "岗位职责：1.  参与 FTShare 金融数据平台的开发与运维(核心职责),保障数据服务的稳定性、时效性与准确性;2. 负责 FTShare 平台金融数据(股票、期货、基金、可转债等)的采集、清洗与结构化处理;3. 参与数据采集系统的设计、优化与故障排查,定位并解决数据链路中的异常问题;4. 配合数据团队完成数据质量监控、对账与异常告警处理;5. 热爱 AI‑Native 开发实践；6. 编写和维护技术文档,保证代码规范性与可维护性。岗位要求：1. 计算机相关专业本科及以上在读,具备扎实的计算机基础知识;2. 熟悉至少一门编程语言(Python / Java / Go / Rust 等),具备良好的编程规范，热爱AI‑Native开发，；3. 了解常见的数据结构与算法,具备基本的问题分析与解决能力;4. 沟通能力强,能够清晰表达技术问题与解决方案。### 技术要求1. 熟悉 Linux 操作系统,能熟练使用常见命令(grep、awk、sed、vim 等);2. 熟悉关系型数据库 MySQL,了解基本 SQL 语句与索引优化;3. 了解消息队列 Kafka 的基本原理与使用场景;4. 了解缓存系统 Redis 的常用数据结构与应用场景;5. 具备基本的网络知识,了解 HTTP / HTTPS 协议。### 加分项1. 拥有成功AI‑Native开发项目经历;2. 了解 LLM 应用开发或 MCP(Model Context Protocol)协议者优先;3. 熟悉正则表达式、XPath、CSS Selector 等数据提取方式;4. 有 Git 版本管理经验,了解代码协作流程;5. 对金融数据(股票、期货、基金等)有一定了解;6. 有金融数据采集、清洗或量化数据相关项目经验者优先。\n工作地点：四川·成都市\n发布日期：2026-09-11（官方招聘门户）\n投递方式：Moka 官方招聘门户「立即投递」，或邮箱 recruit@ft.tech。校招公告口径邮件主题：姓名-岗位-工作地点-校招/实习；官网通用口径为「应聘人+应聘岗位+工作地点+社招/校招/日常实习」。\n截止日期：官方渠道未公布网申截止日期（公众号原文、官网、Moka 招聘门户均未标注）。此前记录的 2026-10-09 出自第三方多公司汇总文，已于 2026-09-13 更正。",
+    "salary": "面议（官方招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/0feac347-17d7-4bff-b92b-fb7906ad84e9",
+    "officialUrl": "https://ft.tech/join-us",
+    "autumn2026": "open",
+    "autumn2026Note": "2027 届校招已开启，本岗位 2026-09-11 发布于官方招聘门户，当前在招。官方渠道未公布网申截止日期（此前记录的 2026-10-09 出自第三方汇总文，2026-09-13 更正）。",
+    "recruitmentType": "intern",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "非凸科技官方招聘门户 · 数据开发-成都",
+        "url": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/0feac347-17d7-4bff-b92b-fb7906ad84e9",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方 ATS 岗位页，2026-09-13 读取：工作地点 四川·成都市，类型「校招/实习」，发布于 2026-09-11。岗位职责与任职要求按门户原文收录。"
+      }
+    ],
+    "notes": "官方招聘门户在招（发布于 2026-09-11）。薪资档位门户未披露，标为面议。实习岗位普遍要求每周出勤 ≥4 天、实习期 ≥6 个月，表现优秀者可转正。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "id": "feitu-2027-hr-management-trainee",
+    "companyId": "feitu",
+    "title": "HR管培生",
+    "description": "岗位职责：1.根据业务需要，负责本部门招聘全流程事宜（社招/校招），拓展招聘渠道、筛选简历、组织面试、跟进录用，确保按时完成招聘任务；2.完成员工入离职等人事手续的标准化办理，建立员工人事档案并妥善管理，保障人事流程合规落地；3.开展在职员工关系维护工作，及时响应员工基础人事咨询，维护良好的职场氛围；4.高效执行上级交办的其他工作。岗位要求：1.本科及以上学历，有校园招聘、校园大使经验加分；2.具备良好的沟通表达能力，亲和力强，有耐心；3.工作认真负责，注重细节，具备较强的执行力和团队协作精神，能够积极主动地完成工作任务；4.具备良好的时间管理能力，能够在多任务并行的情况下合理安排时间，保证工作效率和质量。开放实习岗位，可尽快到岗，实习期间表现优秀者，可提前锁定转正名额。\n工作地点：上海市 广东·深圳市 四川·成都市\n发布日期：2026-09-11（官方招聘门户）\n投递方式：Moka 官方招聘门户「立即投递」，或邮箱 recruit@ft.tech。校招公告口径邮件主题：姓名-岗位-工作地点-校招/实习；官网通用口径为「应聘人+应聘岗位+工作地点+社招/校招/日常实习」。\n截止日期：官方渠道未公布网申截止日期（公众号原文、官网、Moka 招聘门户均未标注）。此前记录的 2026-10-09 出自第三方多公司汇总文，已于 2026-09-13 更正。",
+    "salary": "面议（官方招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/a81282c9-22d3-4cf5-a946-e17b3e025cf2",
+    "officialUrl": "https://ft.tech/join-us",
+    "autumn2026": "open",
+    "autumn2026Note": "2027 届校招已开启，本岗位 2026-09-11 发布于官方招聘门户，当前在招。官方渠道未公布网申截止日期（此前记录的 2026-10-09 出自第三方汇总文，2026-09-13 更正）。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "非凸科技官方招聘门户 · HR管培生",
+        "url": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/a81282c9-22d3-4cf5-a946-e17b3e025cf2",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方 ATS 岗位页，2026-09-13 读取：工作地点 上海市 广东·深圳市 四川·成都市，类型「校招/实习」，发布于 2026-09-11。岗位职责与任职要求按门户原文收录。"
+      }
+    ],
+    "notes": "官方招聘门户在招（发布于 2026-09-11）。薪资档位门户未披露，标为面议。实习岗位普遍要求每周出勤 ≥4 天、实习期 ≥6 个月，表现优秀者可转正。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "id": "feitu-2027-business-management-trainee",
+    "companyId": "feitu",
+    "title": "商务管培生",
+    "description": "岗位职责：1. 负责渠道的开拓、准入落地、日常维护及深度经营，推动公司产品销售，完成公司下达的产品业绩指标；2. 开展产品路演、渠道培训、客户沙龙、渠道赋能等活动；3. 跟进产品上线、销售数据复盘、售后答疑全流程工作，及时解决渠道合作过程中的各类问题；4. 持续跟踪同业竞品动态、渠道政策变化及客户需求，同步反馈给公司投研及产品端，协助优化产品与营销策略；5. 严格遵守行业监管要求及公司合规制度，规范开展渠道销售工作，严守合规销售底线；6. 维护长期稳定的渠道客情关系，挖掘存量渠道增量业务，持续放大渠道产能。岗位要求：1. 全日制本科及以上学历，金融、经济、市场营销等相关专业优先，持有基金从业资格证优先；2. 沟通表达得体，商务谈判能力强，目标感强，能承受销售业绩压力，可接受短途出差；3. 形象气质佳，外在形象良好，商务接待形象得体；4. 热爱渠道销售工作，主动性强，职业素养良好，无金融行业不良从业记录。同时开放实习岗位，优秀实习生提前锁定转正名额。\n工作地点：上海市 北京市 广东·深圳市\n发布日期：2026-09-11（官方招聘门户）\n投递方式：Moka 官方招聘门户「立即投递」，或邮箱 recruit@ft.tech。校招公告口径邮件主题：姓名-岗位-工作地点-校招/实习；官网通用口径为「应聘人+应聘岗位+工作地点+社招/校招/日常实习」。\n截止日期：官方渠道未公布网申截止日期（公众号原文、官网、Moka 招聘门户均未标注）。此前记录的 2026-10-09 出自第三方多公司汇总文，已于 2026-09-13 更正。",
+    "salary": "面议（官方招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/e17959e8-8e66-4405-ba9c-81a7a930d6dd",
+    "officialUrl": "https://ft.tech/join-us",
+    "autumn2026": "open",
+    "autumn2026Note": "2027 届校招已开启，本岗位 2026-09-11 发布于官方招聘门户，当前在招。官方渠道未公布网申截止日期（此前记录的 2026-10-09 出自第三方汇总文，2026-09-13 更正）。",
+    "recruitmentType": "campus",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "非凸科技官方招聘门户 · 商务管培生",
+        "url": "https://app.mokahr.com/social-recruitment/ftkj/146869#/job/e17959e8-8e66-4405-ba9c-81a7a930d6dd",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方 ATS 岗位页，2026-09-13 读取：工作地点 上海市 北京市 广东·深圳市，类型「校招/实习」，发布于 2026-09-11。岗位职责与任职要求按门户原文收录。"
+      }
+    ],
+    "notes": "官方招聘门户在招（发布于 2026-09-11）。薪资档位门户未披露，标为面议。实习岗位普遍要求每周出勤 ≥4 天、实习期 ≥6 个月，表现优秀者可转正。",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "id": "donghai-fund-quant-researcher-2027",
+    "companyId": "donghai-fund",
+    "title": "量化研究岗（2027 届校园招聘）",
+    "description": "东海基金 2027 届秋季招聘投研类岗位之一（同批投研类另有固收研究岗、行业研究岗、投资经理助理等）。招聘公告只列出岗位名称与批次，未展开量化研究岗的具体 JD；第三方招聘页曾载该岗位职责为「基金、股票和固收等各类资产的模型迭代、因子开发、收益测算」「大类资产组合配置的量化解决方案研究」「量化投资策略开发（研究、测试、统计、评估）」「配合公司量化分析系统的开发」，要求硕士及以上、金融/金工/物理/计算机等专业优先、熟练 Python/R/Matlab 并熟悉 Linux/SQL。上述职责描述来自第三方，未经东海基金官方确认，请以网申表单与官方公告为准。",
+    "salary": "9千-1万/月（实习僧/第三方招聘平台，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://wenjuanxingdenglu.wjx.cn/vm/tPiyMOL.aspx",
+    "officialUrl": "https://www.donghaifunds.com/aboutus/job/xyzp/index.html",
+    "autumn2026": "open",
+    "autumn2026Note": "2027 届秋季招聘正在进行：公告写明「招聘批次：2027 届秋季招聘」「招聘时间：2026-08-20 ~ 2026-09-17」，校招岗位面向 2027 年应届生，日常实习岗位面向非 2027 年应届生。截至 2026-09-15 距网申截止仅剩 2 天。依据为转载公告（原始来源标注「企业公众号 清华经管学院职业发展中心」），官网校招栏目未同步更新。",
+    "recruitmentType": "campus",
+    "source": "wechat",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "secondary",
+        "title": "东海基金 2027 届秋季招聘（牛企直聘转载，原始来源：企业公众号 清华经管学院职业发展中心）",
+        "url": "https://campus.niuqizp.com/schedule-7swkN5ttn.html",
+        "accessedAt": "2026-09-15",
+        "status": "partial",
+        "note": "公告正文完整读到（含招聘批次、岗位大类、招聘时间 2026-08-20~2026-09-17、网申链接、咨询邮箱、办公地点）。标 partial 是因为：①系转载页而非官方发布页；②只列岗位名「量化研究岗」，未展开该岗位的职责与任职要求。缺的 JD 需打开网申表单 https://wenjuanxingdenglu.wjx.cn/vm/tPiyMOL.aspx 或邮件咨询 zhaopin@donghaifunds.com 获取。"
+      }
+    ],
+    "notes": "薪资 9千-1万/月 来自第三方招聘平台（实习僧/全职招聘网多渠道同源转述），东海基金官方公告与官网均未写明薪资，属未核实数据。官网「诚聘英才」栏目长期未更新（社招页停 2022-06-09），校招信息主要走问卷星网申表单 + 咨询邮箱。",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "id": "donghai-sec-quant-research-intern",
+    "companyId": "donghai-sec",
+    "title": "量化研究岗实习生",
+    "description": "岗位职责：1、协助团队开展量化策略研究工作；2、协助团队开展量化策略开发、模拟测试、跟踪优化等；3、完成其他相关课题研究并撰写研究报告；4、领导交办的其他工作。任职要求：1、在读本科或硕士生（非毕业班），数学、物理、计算机、经济、金融工程等理工科或金融相关背景，复合背景优先（有相关研究经验者优先）；2、出色的数量分析能力，对于数学、统计学有扎实的理论基础；3、具备一定编程能力（Python），熟悉 Wind、MySQL 数据库等基本工具；4、具备基础财务和金融市场知识；5、踏实、勤奋，具备良好的沟通能力以及团队合作能力。（录自东海证券官方校招站岗位详情原文）",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://jobs.51job.com/all/169349244.html",
+    "officialUrl": "https://campus.51job.com/longone2026/p2.html",
+    "autumn2026": "unknown",
+    "autumn2026Note": "该实习岗挂在官网校招站（标题为「东海证券 2026 届秋季校园招聘」）的「实习生招聘」栏下，页面未标注届别，无法判定是否属于 2026 秋招批次。该站「招聘需求」页明载：招聘对象为 2026 届应届毕业生，校招日历 2026 年 3 月—2026 年 7 月（已结束）。截至 2026-09-15 未检索到东海证券 2027 届秋招公告。",
+    "recruitmentType": "intern",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "东海证券 2026 届秋季校园招聘 · 实习生招聘 · 量化研究岗实习生",
+        "url": "https://campus.51job.com/longone2026/p2.html",
+        "accessedAt": "2026-09-15",
+        "status": "complete",
+        "note": "东海证券官网「人才招聘」直达的官方校招站；岗位详情与投递链接（jobs.51job.com/all/169349244.html）均已读到。"
+      }
+    ],
+    "notes": "官方页面未写明薪资。同站「校园招聘」栏另有债券做市交易岗、债券交易助理岗、产品研究岗等 2026 届岗位；聚合站（quanzhi.com / xsrcsc.cn）另载有「量化研究岗（2026届）8千-1万」「量化交易员 8000-10000元」「做市交易研究岗」等，但该站把工作地点误标为北京海淀区，可靠性存疑，未采信为岗位级来源。",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "id": "ningyuan-quant-trading-researcher-2027",
+    "companyId": "ningyuan",
+    "title": "量化交易研究员（2027 届秋季校园招聘）",
+    "description": "在资深导师带领下参与真实交易策略的研发与迭代；为股票、ETF、可转债等建立量化模型以捕捉 Alpha，跟踪评估量化策略并优化现有策略、探索新交易机会；有机会用实盘验证理论。任职要求：海内外知名高校本科及以上，数理基础扎实者优先，数学/物理/计算机等理工类专业背景优先；好奇心强、有钻研精神、逻辑思维能力强、不盲信权威。公司将提供一对一带教、与核心成员共同做项目的机会（团队核心成员来自 Jane Street、Citadel 等机构）。（录自公司官方公众号 2026-09-04 秋招推文）",
+    "salary": "实习 1200 元/天；转正后全职交易员第一年年薪 50-80 万，资深交易员 150 万起不设上限（官方公告写明）",
+    "salaryIsEstimate": false,
+    "applyUrl": "mailto:HR@ningyuanamc.com",
+    "officialUrl": "https://mp.weixin.qq.com/s/P5cVdTm2qErH4DRhZqA7ZQ",
+    "autumn2026": "open",
+    "autumn2026Note": "官方公众号 2026-09-04 发布「秋招启动｜宁苑资产 2027 秋季校园招聘正式开始」，明确面向 2027 届，正在进行中。",
+    "recruitmentType": "campus",
+    "source": "wechat",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "wechat",
+        "title": "秋招启动｜宁苑资产 2027 秋季校园招聘正式开始（公众号「宁苑资产」）",
+        "url": "https://mp.weixin.qq.com/s/P5cVdTm2qErH4DRhZqA7ZQ",
+        "accessedAt": "2026-09-15",
+        "status": "complete",
+        "note": "公司官方公众号原文完整读到：岗位职责、任职要求、薪资（实习 1200 元/天；交易员首年 50-80 万；资深 150 万起）、投递邮箱与邮件命名格式（本科学校＋专业＋姓名＋投递岗位）。"
+      }
+    ],
+    "notes": "薪资为公司官方公布，故 salaryIsEstimate=false。同批秋招另有「交易系统开发」岗（实习 1200 元/天，入职 60 万起）。上一轮（2026 届）经浙大就业网发布的数据明显更低（实习 800 元/天、助理交易员 30 万起），已过期，勿与本条混用。",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "id": "ningyuan-trading-system-dev-2027",
+    "companyId": "ningyuan",
+    "title": "交易系统开发（2027 届秋季校园招聘）",
+    "description": "优化交易系统以保障超低延迟与高可用；开发交易与行情接口；设计底层架构与基础模块；搭建风控监控体系与高效回测平台。任职要求：计算机、软件工程等相关专业硕士及以上，英语可作为工作语言；掌握 Rust / C++ / OCaml / Java / Python / Golang 中的一种或多种；熟悉 TCP/UDP、多线程、RPC、消息中间件；熟练使用 Linux。（录自公司官方公众号 2026-09-04 秋招推文）",
+    "salary": "实习 1200 元/天；入职年薪 60 万起，上不封顶（官方公告写明）",
+    "salaryIsEstimate": false,
+    "applyUrl": "mailto:HR@ningyuanamc.com",
+    "officialUrl": "https://mp.weixin.qq.com/s/P5cVdTm2qErH4DRhZqA7ZQ",
+    "autumn2026": "open",
+    "autumn2026Note": "与量化交易研究员同属 2026-09-04 发布的 2027 届秋招推文，正在进行中。",
+    "recruitmentType": "campus",
+    "source": "wechat",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "wechat",
+        "title": "秋招启动｜宁苑资产 2027 秋季校园招聘正式开始（公众号「宁苑资产」）· 交易系统开发岗",
+        "url": "https://mp.weixin.qq.com/s/P5cVdTm2qErH4DRhZqA7ZQ",
+        "accessedAt": "2026-09-15",
+        "status": "complete",
+        "note": "官方公众号原文完整读到岗位职责、任职要求与薪资（实习 1200 元/天、入职 60 万起）。"
+      }
+    ],
+    "notes": "薪资为公司官方公布，故 salaryIsEstimate=false。Boss 直聘在招的同方向岗位为「交易系统开发工程师」，薪资未在列表页明文显示（字体混淆），未取详情，故本条以官方公众号为准。",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "id": "ningyuan-equity-quant-researcher",
+    "companyId": "ningyuan",
+    "title": "股票策略量化研究员",
+    "description": "岗位职责：1、与公司现有成熟策略结合，深度研究与开发全新的中国股票市场量化投资策略；2、参与多种量化策略的部署，跟踪和实盘维护；3、从不同维度评估并优化策略，持续探索新的策略方向和交易机会。任职要求：1、海内外知名高校本科及以上学历，有较强的数理基础；2、有 1-3 年左右的 A 股量化策略研究经验（指数增强、中性策略等）；3、乐于学习思考、工作细致耐心、逻辑思维能力强；4、敢于挑战，富有合作精神。加分项：熟悉机器学习/深度学习/强化学习经典算法与结构；熟悉股票量化策略中的因子挖掘、模型训练、组合优化、订单执行等细分领域；有大语言模型/Agent 框架应用经验。",
+    "salary": "50-80K·14薪（Boss直聘，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/8544fea0d4e1b0a00nVz39q6FldW.html",
+    "officialUrl": "https://www.zhipin.com/job_detail/8544fea0d4e1b0a00nVz39q6FldW.html",
+    "autumn2026": "unknown",
+    "autumn2026Note": "该岗位要求 1-3 年 A 股量化经验，属社招；2026 秋招批次判定以公司官方 2027 届校招推文为准（见同公司其他岗位）。",
+    "recruitmentType": "social",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·宁苑资产管理有限公司 股票策略量化研究员",
+        "url": "https://www.zhipin.com/job_detail/8544fea0d4e1b0a00nVz39q6FldW.html",
+        "accessedAt": "2026-09-15",
+        "status": "complete",
+        "note": "boss-cdp 网页版实时读取（用户本人已登录浏览器），岗位详情与明文薪资 50-80K·14薪 均取自详情页。薪资为第三方渠道数据，未经公司官方核实。"
+      }
+    ],
+    "notes": "薪资来自第三方，未核实。宁苑资产在 Boss 直聘同时在招多个量化岗（量化策略研究员、量化交易研究员、量化策略研究实习生、量化交易研究实习生等，列表页薪资为 40-70K 区间但被字体混淆，未逐一取详情），本条只收录其中要求社招经验、与校招批次区分度最高的一条。",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "id": "jiuqi-lianghe-quant-strategy-dev",
+    "companyId": "jiuqi-lianghe",
+    "title": "量化策略开发（深圳）",
+    "description": "岗位职责：股票量化与管理期货策略研发；股票、期货日内高频策略研发；证券市场与期货市场数据追踪、分析及建模。任职要求：985/211 硕士及以上，理工科、金融数学、金融工程等相关专业；扎实的数理统计与建模能力，掌握机器学习、数据挖掘、时间序列、信号处理等方法；有成熟策略及实盘记录者优先；熟练使用 Python。（据官网「人才招聘」页岗位 JD 整理）",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "mailto:hr@liangheinvest.com",
+    "officialUrl": "http://liangheinvest.com/stationWebsite/w/h?cc=8224212&code=ODIyNDIxMg%3d%3d&configCode=NDA4OTUyNjA%3d&mc=55265386&mt=1",
+    "autumn2026": "unknown",
+    "autumn2026Note": "官网人才招聘页无发布日期、无秋招字样，无法判定批次；该岗位要求硕士且有实盘经验优先，倾向社招。",
+    "recruitmentType": "social",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "久期量和官网「人才招聘」· 量化策略开发",
+        "url": "http://liangheinvest.com/stationWebsite/w/h?cc=8224212&code=ODIyNDIxMg%3d%3d&configCode=NDA4OTUyNjA%3d&mc=55265386&mt=1",
+        "accessedAt": "2026-09-15",
+        "status": "partial",
+        "note": "岗位职责与任职要求为官网原文完整读到。标 partial 是因为官网该页无薪资区间、无发布日期，无法确认岗位是否仍在招、何时发布——需邮件 hr@liangheinvest.com 或电话 0755-22664072 核实。"
+      }
+    ],
+    "notes": "官网仅称「行业极具竞争力薪资」并提供优质绩效奖金，未给具体数字。工作地点深圳福田。",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "id": "jiuqi-lianghe-cta-dev",
+    "companyId": "jiuqi-lianghe",
+    "title": "CTA 策略开发（上海）",
+    "description": "岗位职责：股指期货、国债期货、商品期货方向，高频/日内/短周期 CTA 与套利策略的研究与开发；量化策略的开发、测试、优化与维护；CTA 市场数据、基本面数据及另类数据的探索与应用。任职要求：985/211 硕士及以上，理工科、金融数学、金融工程等相关专业；扎实的数理统计与建模能力，掌握机器学习、数据挖掘、时间序列、信号处理等方法；熟练使用 Python。（据官网「人才招聘」页岗位 JD 整理）",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "mailto:hr@liangheinvest.com",
+    "officialUrl": "http://liangheinvest.com/stationWebsite/w/h?cc=8224212&code=ODIyNDIxMg%3d%3d&configCode=NDA4OTUyNjA%3d&mc=55265386&mt=1",
+    "autumn2026": "unknown",
+    "autumn2026Note": "官网人才招聘页无发布日期、无秋招字样，无法判定批次。",
+    "recruitmentType": "social",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "久期量和官网「人才招聘」· CTA 策略开发",
+        "url": "http://liangheinvest.com/stationWebsite/w/h?cc=8224212&code=ODIyNDIxMg%3d%3d&configCode=NDA4OTUyNjA%3d&mc=55265386&mt=1",
+        "accessedAt": "2026-09-15",
+        "status": "partial",
+        "note": "岗位职责与任职要求为官网原文完整读到；官网无薪资、无发布日期，需邮件或电话核实是否仍在招。"
+      }
+    ],
+    "notes": "公司主体注册在上海，但官网所列岗位绝大多数在深圳，CTA 岗是少数在上海的岗位。官网未给薪资数字。",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "id": "jiuqi-lianghe-quant-intern",
+    "companyId": "jiuqi-lianghe",
+    "title": "量化研究员实习生",
+    "description": "岗位职责：股票和期货量化投资策略的研究与开发；程序化交易、算法交易等策略的研究与开发；证券市场历史数据的分析、处理与建模；对各类金融期货、期权、股票数据进行追踪、分析及研究。任职要求：国内外顶尖院校数学、物理、计算机、电子工程、大数据等理工科专业硕士及以上学历；精通至少一种数据分析语言（Python 等），具有扎实的数据分析与逻辑推理能力；掌握机器学习方法；工作踏实负责、进取心强、有团队合作意识。实习安排：深圳福田，日常实习/暑期实习均可，每周出勤 4 天及以上，时长不少于 3 个月，可长期者优先。投递命名：学校-姓名-应聘岗位-招聘信息获取渠道。",
+    "salary": "示例：面议",
+    "salaryIsEstimate": true,
+    "applyUrl": "mailto:hr@liangheinvest.com",
+    "officialUrl": "http://liangheinvest.com/stationWebsite/w/h?cc=8224212&code=ODIyNDIxMg%3d%3d&configCode=NDA4OTUyNjA%3d&mc=55265386&mt=1",
+    "autumn2026": "open",
+    "autumn2026Note": "该实习岗经高校人才网（2026-08-27 发布）与清华就业网（2026-08-17 更新）、应届生求职网（2026-08-18）同步发布，原文含「优先秋招录用资格」表述，判定为面向 2026 秋招季的在招实习岗。官网人才招聘页本身无日期，不能单独佐证。",
+    "recruitmentType": "intern",
+    "source": "official",
+    "fetchStatus": "partial",
+    "sources": [
+      {
+        "type": "official",
+        "title": "久期量和官网「人才招聘」· 量化研究员实习生",
+        "url": "http://liangheinvest.com/stationWebsite/w/h?cc=8224212&code=ODIyNDIxMg%3d%3d&configCode=NDA4OTUyNjA%3d&mc=55265386&mt=1",
+        "accessedAt": "2026-09-15",
+        "status": "partial",
+        "note": "岗位职责与任职要求为官网原文完整读到。薪资官网未写明（仅称「行业极具竞争力薪资」+优质绩效奖金），第三方（高校人才网）标「面议」，故薪资未核实。官网无发布日期，批次判定依据第三方转载页。"
+      }
+    ],
+    "notes": "Boss 直聘另有同公司「量化投研实习生（深圳）」在招，详情页明文薪资 300-600 元/天，面向 2027-2028 届毕业生优先——该条为第三方渠道数据，此处未并入本条薪资。",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "id": "jiuqi-lianghe-quant-system-dev",
+    "companyId": "jiuqi-lianghe",
+    "title": "量化系统开发工程师（上海）",
+    "description": "工作职责：1、量化交易系统开发（技术层面和业务层面）；2、量化交易系统性能调优和网络优化；3、底层架构以及基础模块设计与开发。任职资格：1、国内外知名高校，计算机相关专业毕业；2、5 年以内工作经验；3、有一线互联网公司或国际顶尖量化公司工作经验者优先；4、编程基本功扎实，掌握 C/C++ 开发语言、常用算法和数据结构；5、熟悉 TCP/UDP 网络协议及相关编程、进程间通讯编程；6、全面扎实的软件知识结构，掌握操作系统、数据结构、网络等专业知识；7、了解分布式系统设计与开发、负载均衡、系统容灾、高可用系统等知识；8、有开源开发经验及开源代码阅读习惯者优先。",
+    "salary": "20-30K·14薪（Boss直聘，未经官方核实）",
+    "salaryIsEstimate": true,
+    "applyUrl": "https://www.zhipin.com/job_detail/4b8f871304fbf9f10nd52tm7ElBR.html",
+    "officialUrl": "https://www.zhipin.com/job_detail/4b8f871304fbf9f10nd52tm7ElBR.html",
+    "autumn2026": "unknown",
+    "autumn2026Note": "岗位要求 5 年以内工作经验，属社招；Boss 岗位页未标届别或秋招批次。",
+    "recruitmentType": "social",
+    "source": "boss",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "boss",
+        "title": "Boss直聘·上海久期量和投资 量化系统开发工程师",
+        "url": "https://www.zhipin.com/job_detail/4b8f871304fbf9f10nd52tm7ElBR.html",
+        "accessedAt": "2026-09-15",
+        "status": "complete",
+        "note": "boss-cdp 网页版实时读取（用户本人已登录浏览器），岗位详情与明文薪资 20-30K·14薪 均取自详情页；工作地址显示上海浦东新区中国人寿金融中心 49 层，与官网列出的深圳地址不同。薪资为第三方渠道数据，未经公司官方核实。"
+      }
+    ],
+    "notes": "薪资来自第三方，未核实。该岗位由 Boss 详情页补充了官网「人才招聘」页所缺的薪资信息。",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
   }
 ]

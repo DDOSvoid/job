@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "app-banyang-量化研究员实习生A190",
+    "jobId": "banyang-量化研究员实习生A190",
+    "companyId": "banyang",
+    "currentStatus": "applied",
+    "timeline": [
+      {
+        "date": "2026-08-23",
+        "stage": "applied",
+        "note": "开始记录投递进度"
+      }
+    ],
+    "createdAt": "2026-08-23",
+    "updatedAt": "2026-08-23"
+  }
+]

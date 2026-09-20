@@ -40,6 +40,7 @@ PYTHONUTF8=1 python scripts/zhihu_cdp.py --json launch   # 弹出独立 Edge（�
 PYTHONUTF8=1 python scripts/zhihu_cdp.py --json status   # 输出 logged_in: true 即可用
 ```
 登录态约 7 天有效，过期后重新 `launch` 登录一次即可。
+skill 在采集前会自动执行 `--json status` 预检（见 SKILL.md 工作流第 2 步）：已登录直接继续；未登录停止采集并通知用户登录，不自动降级。
 
 **命令**（Windows 一律 `PYTHONUTF8=1 PYTHONIOENCODING=utf-8` 前缀；`--json` 放子命令前）：
 ```bash
@@ -57,7 +58,7 @@ PYTHONUTF8=1 python scripts/zhihu_cdp.py --json status
 - **正文完整性**：专栏文章通常一次读全 → `complete`；问答页回答可能折叠（`read` 返回 `partial_reason` 提示"查看全部"未展开）→ `partial`，note 注明缺折叠回答、去哪看原文。
 - 抽取到的帖子标题/URL 是证据链核心，`sourceUrl` 用 `read` 返回的真实 URL（可能是登录后的 canonical URL），不编造。
 
-**降级**：CDP 不可用 / 用户未登录 / 工具报错 → 退回 WebSearch `"site:zhihu.com {公司} 量化 面经"` 摘要，标 `partial`（note "CDP 不可用，仅搜索摘要"），原文 URL 放 `sourceUrl`；搜索本身搜不到 → 不写条目。
+**降级**：未登录 / CDP 不可用（预检 `logged_in: false`）→ **停止**该平台采集，把 `launch` + 登录命令与页面告知用户，等用户登录后再继续，不自动降级 WebSearch（见 SKILL.md 工作流第 2 步）。仅当用户明确要求时才退回 WebSearch `"site:zhihu.com {公司} 量化 面经"` 摘要，标 `partial`（note "CDP 不可用，仅搜索摘要"），原文 URL 放 `sourceUrl`；搜索本身搜不到 → 不写条目。
 
 **降级判定**（写入 `sourceStatus`）：
 - WebFetch 完整读到帖子正文，题目/轮次齐全 → `complete`。
@@ -84,6 +85,7 @@ PYTHONUTF8=1 python scripts/xiaohongshu_cdp.py --json launch   # 弹出独立 Ed
 PYTHONUTF8=1 python scripts/xiaohongshu_cdp.py --json status   # 输出 logged_in: true、login_user 即可用
 ```
 登录态约 7 天有效，过期后重新 `launch` 登录一次即可。
+skill 在采集前会自动执行 `--json status` 预检（见 SKILL.md 工作流第 2 步）：已登录直接继续；未登录停止采集并通知用户登录，不自动降级。
 
 **命令**（Windows 一律 `PYTHONUTF8=1 PYTHONIOENCODING=utf-8` 前缀；`--json` 放子命令前）：
 ```bash
@@ -101,7 +103,7 @@ PYTHONUTF8=1 python scripts/xiaohongshu_cdp.py --json status
 - **正文完整性**：`read` 一次读到完整 `content` → `complete`；读到的内容明显不完整（图为主/被折叠）→ `partial`，note 注明缺什么、去哪看原文。
 - 笔记 URL 必须带 `xsec_token`（search 结果里会带，直接用那条 URL 去 read）；`sourceUrl` 用 `read` 返回的真实 URL，不编造。
 
-**降级**：CDP 不可用 / 用户未登录 / 工具报错 → 退回 WebSearch `"site:xiaohongshu.com {公司} 面经"` 摘要，标 `partial`（note "CDP 不可用，仅搜索摘要"），原文 URL 放 `sourceUrl`；搜索本身搜不到 → 不写条目。
+**降级**：未登录 / CDP 不可用（预检 `logged_in: false`）→ **停止**该平台采集，把 `launch` + 登录命令与页面告知用户，等用户登录后再继续，不自动降级 WebSearch（见 SKILL.md 工作流第 2 步）。仅当用户明确要求时才退回 WebSearch `"site:xiaohongshu.com {公司} 面经"` 摘要，标 `partial`（note "CDP 不可用，仅搜索摘要"），原文 URL 放 `sourceUrl`；搜索本身搜不到 → 不写条目。
 
 **降级判定**（写入 `sourceStatus`）同知乎一节：正文完整读到 → `complete`；只有摘要/读到一半 → `partial`；登录墙/验证墙 → `blocked` + `[TODO]`；完全搜不到 → 不写条目。**`complete` 只表示正文完整读到，不表示内容经官方核验**——小红书帖子是发帖人自述，报告标注"未经公司/官方核验"。
 

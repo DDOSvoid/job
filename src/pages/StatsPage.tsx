@@ -40,7 +40,15 @@ export default function StatsPage() {
     .filter((r) => r.count > 0)
 
   const typeCounts = useMemo(() => {
-    const counts: Record<CompanyType, number> = { public: 0, private: 0, securities: 0, tech: 0 }
+    const counts: Record<CompanyType, number> = {
+      public: 0,
+      private: 0,
+      securities: 0,
+      tech: 0,
+      bank: 0,
+      amc: 0,
+      soe: 0,
+    }
     for (const c of companies.data ?? []) counts[c.type] += 1
     return counts
   }, [companies.data])
@@ -50,6 +58,9 @@ export default function StatsPage() {
     { key: 'private', name: '量化私募', dot: 'hedge' },
     { key: 'securities', name: '证券公司', dot: 'sec' },
     { key: 'tech', name: '科技/量化科技', dot: 'tech' },
+    { key: 'bank', name: '银行', dot: 'bank' },
+    { key: 'amc', name: '金融资产管理公司', dot: 'amc' },
+    { key: 'soe', name: '国企集团', dot: 'soe' },
   ]
 
   const maxCount = Math.max(1, ...companyRows.map((r) => r.count))

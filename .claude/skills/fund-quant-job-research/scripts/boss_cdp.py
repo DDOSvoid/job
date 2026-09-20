@@ -249,9 +249,15 @@ class Cdp:
         return r.json()
 
     def new_tab(self, url: str = "") -> dict:
-        """开一个空白新 tab。新版 Chrome 的 PUT /json/new 会忽略 url 参数（实测
-        带 url 也停在 about:blank），所以只开空白页，导航交给 WebSocket 的 Page.navigate。"""
-        r = requests.put(f"{self.cdp_url}/json/new", timeout=5)
+        """开一个新 tab；带 url 时用 `PUT /json/new?<url>` 直接导航。
+
+        早前版本的注释说新版 Chrome 会忽略 url 参数，但实测 Edge 153 上该参数
+        仍然生效，而 Page.navigate 反而失效（返回 frameId 却停在 about:blank）。
+        因此优先走 url 参数，Page.navigate 仅作兜底（见 open_fresh_zhipin_tab）。"""
+        endpoint = f"{self.cdp_url}/json/new"
+        if url:
+            endpoint += "?" + url
+        r = requests.put(endpoint, timeout=5)
         r.raise_for_status()
         return r.json()
 
@@ -476,7 +482,7 @@ def open_fresh_zhipin_tab(cdp: Cdp, url: str) -> Cdp:
     复用已有 tab 导航到搜索 URL 不可靠：首页 tab 的 SPA 路由会把
     web/geek/jobs?query=… 的查询参数吞掉、退成通用列表。全新 tab 走整页
     加载，服务器按完整 URL 渲染，结果最稳定。"""
-    tab = cdp.new_tab()
+    tab = cdp.new_tab(url)
     ws_url = tab.get("webSocketDebuggerUrl")
     if not ws_url:
         raise BossCdpError("新 tab 没有 webSocketDebuggerUrl（Edge 可能正在启动，稍后重试）")
@@ -484,7 +490,10 @@ def open_fresh_zhipin_tab(cdp: Cdp, url: str) -> Cdp:
     # 先开好新 tab 再清理旧 zhipin tab——若先关旧 tab 且它是最后一个 page tab，
     # Edge 会整个退出（浏览器在最后一个 tab 关闭时自动退出）。
     _close_other_zhipin_tabs(cdp, tab.get("id"))
-    # 整页加载；约 10s 内没离开 about:blank 就重试一次导航（偶尔一次导航不生效）
+    # 带 url 开 tab 通常已直接落到目标页；没落到位再退回 Page.navigate 整页加载，
+    # 约 10s 内没离开 about:blank 就重试一次（偶尔一次导航不生效）。
+    if cdp.wait_href_zhipin(timeout=10):
+        return cdp
     for _attempt in (1, 2):
         cdp.navigate(url, wait_ready=2.0)
         if cdp.wait_href_zhipin(timeout=10):

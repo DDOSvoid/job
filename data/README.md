@@ -27,7 +27,7 @@
 }
 ```
 
-- `type`: `public`（公募）| `private`（私募）| `securities`（券商）
+- `type`: `public`（公募）| `private`（私募）| `securities`（券商）| `tech`（科技）| `bank`（银行）| `amc`（资管）| `soe`（国企集团）
 - `source`: `example`（示例占位）| `skill`（skill 调研）| `manual`（手动）
 - `sources[]`（可选）：**公司级信息来源**——官网「加入我们」/招聘系统/公众号/校招公告转载等，按 url 去重。岗位自身最相关来源留在 `job.sources`，公司级渠道一律上移到公司（不要写进 job）。
 - 所有链接用 `https://example.com/...` 占位时，`about`/`notes` 需注明"示例/未核实"。

@@ -18,12 +18,16 @@ description: 从网络社区（小红书、牛客、知乎、各平台论坛等�
 ## 工作流（按顺序执行）
 
 1. **归一化公司**：确定 `companyId`（必须已在 companies.json 中；新公司先确认类型、写库）。
-2. **搜索来源**：按 `references/interview-sources.md` 的查询模板找帖子。牛客/其他论坛用 WebSearch；**知乎用 `scripts/zhihu_cdp.py --json search "<查询>"`**、**小红书用 `scripts/xiaohongshu_cdp.py --json search "<查询>"`**（均需用户已登录对应平台 CDP；返回真实结果 URL 列表，优先于对应 site: 的 WebSearch 摘要）。
-3. **读正文提取**：读帖子正文。牛客等可用 WebFetch；**知乎用 `scripts/zhihu_cdp.py --json read "<url>"`**、**小红书用 `scripts/xiaohongshu_cdp.py --json read "<url>"`**（返回渲染后正文，含轮次/题目/作者/时间；小红书返回 `date`、`tags`、`author`）。提取岗位、轮次（`name`/`content`/`date`）、逐条题目、结果、帖子标题与原始 URL。
-4. **拆题目**：从正文把**每道独立题目各成一条 `question` 记录**（追问单独成条、标注"（追问）"；帖子未点名公司 → `companyId: null` 通用题；图片题/付费墙读不到就降级不编造）。详见 `references/question-schema.md`。
-5. **聚合 `sourceStatus`**：按降级规则（见下）。
-6. **输出可读报告**（固定模板）。
-7. **写盘**：把 interview 条目组成 payload（`{ "interviews": [...] }`）用 `scripts/merge_and_write_interviews.mjs` 合并写盘；把 question 条目组成 payload（`{ "questions": [...] }`）用 `scripts/merge_and_write_questions.mjs` 合并写盘。两个脚本各自只写自己的文件；需要新增公司时先用 fund-quant-job-research 的 `merge_and_write.mjs` 把公司写进 companies.json。
+2. **CDP 登录预检（知乎/小红书）**：本次任务要用哪个平台，就先对哪个平台做一次登录态检查——运行 `scripts/zhihu_cdp.py --json status`（知乎）或 `scripts/xiaohongshu_cdp.py --json status`（小红书），看返回里的 `logged_in`：
+   - `logged_in: true` → **直接继续，不再请示用户**。不要问"用什么方式抓""是否继续"之类的问题，也无需用户确认。
+   - 未登录 / CDP 不可用（`logged_in: false`）→ **立即停止**该平台的采集（以及任务里依赖该平台的部分），把 `launch` + 登录命令与页面告知用户，等用户登录完成后再继续；**不要自动降级成 WebSearch 硬抓**——用户要的就是 CDP 完整正文，登不上就先停。仅当用户明确要求"没登录也先用 WebSearch 抓"时才降级。
+   - 任务不涉及某个平台（如只查牛客）就跳过它的预检；只预检本次会用到 CDP 的平台。
+3. **搜索来源**：按 `references/interview-sources.md` 的查询模板找帖子。牛客/其他论坛用 WebSearch；知乎/小红书用对应 CDP 脚本 `--json search "<查询>"`（登录态已在第 2 步确认；返回真实结果 URL 列表，优先于对应 site: 的 WebSearch 摘要）。
+4. **读正文提取**：读帖子正文。牛客等可用 WebFetch；知乎/小红书用对应 CDP 脚本 `--json read "<url>"`（返回渲染后正文，含轮次/题目/作者/时间；小红书返回 `date`、`tags`、`author`）。提取岗位、轮次（`name`/`content`/`date`）、逐条题目、结果、帖子标题与原始 URL。
+5. **拆题目**：从正文把**每道独立题目各成一条 `question` 记录**（追问单独成条、标注"（追问）"；帖子未点名公司 → `companyId: null` 通用题；图片题/付费墙读不到就降级不编造）。详见 `references/question-schema.md`。
+6. **聚合 `sourceStatus`**：按降级规则（见下）。
+7. **输出可读报告**（固定模板）。
+8. **写盘**：把 interview 条目组成 payload（`{ "interviews": [...] }`）用 `scripts/merge_and_write_interviews.mjs` 合并写盘；把 question 条目组成 payload（`{ "questions": [...] }`）用 `scripts/merge_and_write_questions.mjs` 合并写盘。两个脚本各自只写自己的文件；需要新增公司时先用 fund-quant-job-research 的 `merge_and_write.mjs` 把公司写进 companies.json。
 
 来源策略、降级规则与链接卫生在 `references/interview-sources.md`，动手前先读它；interview 字段定义与枚举在 `references/interview-schema.md`，question 字段定义与拆分规则在 `references/question-schema.md`，写盘前分别对照。
 
@@ -85,5 +89,5 @@ description: 从网络社区（小红书、牛客、知乎、各平台论坛等�
 
 - `merge_and_write_interviews.mjs` —— 合并写盘 interview（只写 interviews.json，校验 companyId/rounds/sourceUrl）
 - `merge_and_write_questions.mjs` —— 合并写盘 question（只写 questions.json，校验 companyId 存在或 null/category/text/sourceUrl/sourceStatus，从 shared/constants.js 取枚举；原子写回）
-- `zhihu_cdp.py` —— 知乎正文读取工具（CDP 驱动用户自己的 Edge；命令 status/search/read/launch，见 `references/interview-sources.md` 的知乎章节）。**前置**：用户先 `launch` 并在弹出的 Edge 里登录 zhihu.com 一次。
-- `xiaohongshu_cdp.py` —— 小红书笔记读取工具（同模式；命令 status/search/read/probe/launch，见 `references/interview-sources.md` 的小红书章节）。**前置**：用户先 `launch` 并在弹出的 Edge 里登录 xiaohongshu.com 一次。小红书正文优先读 `__INITIAL_STATE__`（Vue Ref 需解包），`read` 返回 `date`/`author`/`tags`。
+- `zhihu_cdp.py` —— 知乎正文读取工具（CDP 驱动用户自己的 Edge；命令 status/search/read/launch，见 `references/interview-sources.md` 的知乎章节）。首次使用需用户先 `launch` 并在弹出的 Edge 里登录 zhihu.com 一次；**skill 在采集前会自动 `--json status` 预检登录态**（见工作流第 2 步），未登录会停下通知用户登录，不硬抓。
+- `xiaohongshu_cdp.py` —— 小红书笔记读取工具（同模式；命令 status/search/read/probe/launch，见 `references/interview-sources.md` 的小红书章节）。首次使用需用户先 `launch` 并在弹出的 Edge 里登录 xiaohongshu.com 一次；**skill 在采集前会自动 `--json status` 预检登录态**。小红书正文优先读 `__INITIAL_STATE__`（Vue Ref 需解包），`read` 返回 `date`/`author`/`tags`。

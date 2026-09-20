@@ -4,16 +4,27 @@
 //   AI_API_KEY  必填，未配置时生成接口返回「未接入」，UI 如实提示，不编造答案
 //   AI_BASE_URL 默认 https://api.deepseek.com（DeepSeek 是 OpenAI 兼容协议）
 //   AI_MODEL    默认 deepseek-chat
+//   AI_MAX_TOKENS 默认 8000。推理型模型（如 deepseek-v4-flash）的链式思考
+//     会先吃掉大量 token 再给答案，预算不足会返回空 content；设大些留足余量。
 //
 // 设计意图：先把接口契约定好（POST /api/questions/:id/ai-answer → 生成并保存），
 // 生成实现留在这里。填上 AI_API_KEY 即生效，无需改路由。
-const BASE_URL = process.env.AI_BASE_URL || 'https://api.deepseek.com'
-const MODEL = process.env.AI_MODEL || 'deepseek-chat'
-const API_KEY = process.env.AI_API_KEY || ''
-const TIMEOUT_MS = 60_000
+//
+// 注意：环境变量必须在**调用时**读取而不是模块加载时读取——vite.config.ts 用
+// loadEnv 把 .env 注入 process.env 发生在插件创建之前，若在模块顶层读会拿到空值。
+const TIMEOUT_MS = 120_000
+
+function getConfig() {
+  return {
+    baseUrl: (process.env.AI_BASE_URL || 'https://api.deepseek.com').replace(/\/$/, ''),
+    model: process.env.AI_MODEL || 'deepseek-chat',
+    apiKey: process.env.AI_API_KEY || '',
+    maxTokens: Number(process.env.AI_MAX_TOKENS) || 8000,
+  }
+}
 
 export function isAiConfigured() {
-  return Boolean(API_KEY)
+  return Boolean(getConfig().apiKey)
 }
 
 /**
@@ -23,7 +34,8 @@ export function isAiConfigured() {
  *   { ok: false, reason: 'provider_error', message } —— 调用失败/非 2xx
  */
 export async function generateAnswer({ question, myAnswer }) {
-  if (!isAiConfigured()) return { ok: false, reason: 'not_configured' }
+  const { baseUrl, model, apiKey, maxTokens } = getConfig()
+  if (!apiKey) return { ok: false, reason: 'not_configured' }
 
   const user = [
     `面试题：${question}`,
@@ -34,14 +46,14 @@ export async function generateAnswer({ question, myAnswer }) {
   const controller = new AbortController()
   const timer = setTimeout(() => controller.abort(), TIMEOUT_MS)
   try {
-    const res = await fetch(`${BASE_URL.replace(/\/$/, '')}/chat/completions`, {
+    const res = await fetch(`${baseUrl}/chat/completions`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer ${API_KEY}`,
+        Authorization: `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: MODEL,
+        model,
         messages: [
           {
             role: 'system',
@@ -51,7 +63,7 @@ export async function generateAnswer({ question, myAnswer }) {
           { role: 'user', content: user },
         ],
         temperature: 0.6,
-        max_tokens: 1500,
+        max_tokens: maxTokens,
       }),
       signal: controller.signal,
     })
@@ -62,7 +74,7 @@ export async function generateAnswer({ question, myAnswer }) {
     const data = await res.json()
     const answer = data?.choices?.[0]?.message?.content?.trim()
     if (!answer) return { ok: false, reason: 'provider_error', message: 'provider 返回空内容' }
-    return { ok: true, answer, model: MODEL }
+    return { ok: true, answer, model }
   } catch (err) {
     const message = err?.name === 'AbortError' ? `provider 请求超时（>${TIMEOUT_MS / 1000}s）` : err.message
     return { ok: false, reason: 'provider_error', message }

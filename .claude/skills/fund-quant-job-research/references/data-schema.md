@@ -12,7 +12,7 @@
 
 | 枚举 | 取值 |
 |---|---|
-| company.type | `public`（公募）/ `private`（私募）/ `securities`（券商） |
+| company.type | `public`（公募）/ `private`（私募）/ `securities`（券商）/ `tech`（科技）/ `bank`（银行）/ `amc`（资管）/ `soe`（国企集团） |
 | company.source | `example` / `skill` / `manual`（skill 写入用 `skill`） |
 | job.source | `official` / `boss` / `wechat` / `manual`（来源条目 `type` 额外可记 `secondary`，转载聚合用） |
 | sources[].type | `official` / `boss` / `wechat` / `manual` / `secondary` |

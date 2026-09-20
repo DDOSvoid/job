@@ -1,4 +1,4 @@
-export type CompanyType = 'public' | 'private' | 'securities' | 'tech'
+export type CompanyType = 'public' | 'private' | 'securities' | 'tech' | 'bank' | 'amc' | 'soe'
 export type JobSource = 'official' | 'boss' | 'wechat' | 'manual'
 export type FetchStatus = 'complete' | 'partial' | 'manual_required'
 export type SourceStatus = FetchStatus | 'blocked'

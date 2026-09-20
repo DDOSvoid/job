@@ -55,7 +55,8 @@ export const defaultFilters: FilterState = {
 // 列表页以 URL 为筛选状态源：筛选后进入详情页，浏览器后退时会恢复到筛选过的列表。
 // 多选值用逗号 join 进单个参数（取值不含逗号）。
 
-const COMPANY_TYPES: CompanyType[] = ['public', 'private', 'securities', 'tech']
+// 从标签映射派生，避免再维护一份值列表副本（曾因漏加新类型导致筛选按钮消失）
+const COMPANY_TYPES = Object.keys(COMPANY_TYPE_LABELS) as CompanyType[]
 const SORTS = Object.keys(SORT_LABELS) as SortKey[]
 
 function parseList<T extends string>(sp: URLSearchParams, key: string, allowed: T[]): T[] {

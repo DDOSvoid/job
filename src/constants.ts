@@ -17,6 +17,9 @@ export const COMPANY_TYPE_LABELS: Record<CompanyType, string> = {
   private: '私募',
   securities: '券商',
   tech: '科技',
+  bank: '银行',
+  amc: '资管',
+  soe: '国企',
 }
 
 export const JOB_SOURCE_LABELS: Record<JobSource | 'secondary', string> = {

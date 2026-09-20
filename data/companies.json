@@ -575,12 +575,46 @@
     "id": "feitu",
     "name": "非凸科技",
     "type": "tech",
-    "website": "https://example.com/feitu",
+    "website": "https://ft.tech",
     "location": "上海",
-    "about": "上海非凸智能科技有限公司，成立于2018年，专注智能算法交易与数智交易系统，为券商、量化私募等金融机构提供算法交易解决方案，核心团队来自华尔街资管与一线互联网公司。。官网未核实，请核实。",
+    "about": "非凸科技（上海非凸智能科技有限公司，ft.tech），成立于 2018 年，以深度学习、AI 大模型、Rust 高性能工程为核心，赋能交易执行与投研决策，为投资者打造一体化 AI 投资工具。四大核心业务：智能算法、AI 大模型应用、FTShare 数据生态、策略研发；设非凸 AI 实验室（金融垂直大模型）。自有非凸超算中心：18 万+ 核心、1.3PB+ 内存、60PB+ 存储、300+ 峰值算力@FP16。官方口径（公众号原文）：日均成交额 350 亿+、团队 500 人+、50+ ACM/ICPC 等国际奖项、95%+ 研发团队成员毕业于国内外知名院校；总部上海，北京、深圳、成都、徐州设分公司。2027 届校园招聘已于 2026-09-11 开启，面向 2027 届应届毕业生 / 2028 届在校生（毕业时间 2026-09 ~ 2028-12），工作城市上海、北京、深圳、成都。注意：官方渠道（公众号原文、官网、Moka 招聘门户）均未公布网申截止日期。此前本库记录的「2026-10-09」出自第三方多公司汇总文，已于 2026-09-13 撤回。宣讲会：2026-09-20 北京大学、09-21 清华大学、09-23 北京航空航天大学、09-28 复旦大学、09-29 上海交通大学、10-14 北京大学汇丰商学院、10-23 北京大学光华管理学院（以校方安排为准）。福利保障：极具竞争力薪酬、支持上海落户、高配 MacBook、六险一金、专属导师带教、趣味团建。工商信息（Boss直聘企业公示，2026-09-13 核实）：上海非凸智能科技有限公司，法定代表人王浚澎，成立 2018-08-10，注册资本 1500 万人民币，经营状态存续。投研团队来自华尔街资管公司 BlackRock，成员毕业于国内 C9 及海外藤校计算机、数学、物理、金融等相关专业；国家级高新技术企业、上海市专精特新企业。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-13",
+    "sources": [
+      {
+        "type": "official",
+        "title": "非凸科技官网「加入我们」",
+        "url": "https://ft.tech/join-us",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "公司级来源：官网招贤纳士页（无头浏览器渲染读取）。含「立即投递」入口、投递邮箱 recruit@ft.tech、答疑专区与办公地址。官网为 Vue SPA，直接抓取只能拿到 1.6KB 空壳，需 JS 渲染。"
+      },
+      {
+        "type": "official",
+        "title": "非凸科技官方招聘门户（MokaHR）· 校招/实习岗位",
+        "url": "https://app.mokahr.com/social-recruitment/ftkj/146869#/jobs?295097%5B0%5D=%E6%A0%A1%E6%8B%9B%2F%E5%AE%9E%E4%B9%A0&page=1&anchorName=jobsList",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "公司级来源：官方 ATS 门户，2026-09-13 读取到 12 条「校招/实习」在招岗位（全部发布于 2026-09-11）。社招频道另有 15 条，本次未入库。"
+      },
+      {
+        "type": "boss",
+        "title": "Boss直聘·非凸科技（CDP 网页版复核）",
+        "url": "https://www.zhipin.com/job_detail/2e3a6a3eecbef16703R43N67FVRR.html",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "公司级来源：2026-09-13 用用户已登录的 Edge CDP 会话（端口 9223）复核。库中 3 条 Boss 旧记录中 2 条在招、1 条已下架。注意：job_detail 链接在未登录浏览器里会被跳转到 zhipin 安全校验页（/web/passport/zp/security.html），登录后正常。"
+      },
+      {
+        "type": "wechat",
+        "title": "微信公众号「非凸科技」：非凸科技2027届校园招聘正式开启！",
+        "url": "https://mp.weixin.qq.com/s/DdzGMk7FKb1SO53CZNIaxg",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "公司级来源：公众号原文直读（2026-09-11 发布）。正文不是文字，是一张 750×11828 的长图，2026-09-13 取到页面后下载原图并切成 9 段逐段读取。原文含公司介绍、超算中心规格、9 类热招岗位（技术研发类 / 策略研究类 / 综合管培类）、面向人群、招聘流程、投递方式与校招行程。原文未公布网申截止日期。"
+      }
+    ]
   },
   {
     "id": "fullgoal",
@@ -2478,6 +2512,549 @@
         "accessedAt": "2026-08-09",
         "status": "partial",
         "note": "上市公司董秘回复等公开报道，佐证 XTP 服务量化私募、构建量化交易产品矩阵；非招聘公告，岗位信息以 hotjob 为准"
+      }
+    ]
+  },
+  {
+    "id": "icbc",
+    "name": "中国工商银行",
+    "type": "bank",
+    "location": "北京（总部）",
+    "about": "国有大型商业银行。2027 年度校园招聘 2026-09-04 发布：面向 2026 年 1 月至 2027 年 7 月毕业的境内外高校毕业生，网上报名 2026-09-04 至 10-08，笔试 2026 年 10 月下旬。设六类岗位（星辰管培生／科技菁英／专业英才／客户经理／客服经理／服务代表），部分机构另设县域专项岗位。招聘机构含境内 39 家一级（直属）分行、13 家直属机构、5 家综合化子公司。志愿规则：最多报 3 家机构，每家机构最多 2 个岗位。（2026-09-13 网络核实）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.icbc.com.cn",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中国工商银行人才招聘（官方投递入口）",
+        "url": "https://job.icbc.com.cn",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "PC 端招聘站为 JS 单页应用，本机抓取仅得约 944 字节的空壳，无法直读岗位明细表。岗位、人数与条件来自高校就业网对官方公告的全文转载，未经官方页面直读核实。"
+      },
+      {
+        "type": "secondary",
+        "title": "21 世纪经济报道：工行 2027 校招六类岗位与规模报道",
+        "url": "https://www.21jingji.com",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "媒体口径，非官方公告。所载「全行约 1.88 万人」为媒体依据第三方招聘网站统计，非工行官方公布数字。"
+      }
+    ]
+  },
+  {
+    "id": "abchina",
+    "name": "中国农业银行",
+    "type": "bank",
+    "location": "北京（总部）",
+    "about": "国有大型商业银行。2027 年度校园招聘面向境内外院校 2026、2027 届本科及以上毕业生（应在 2027-07-31 前毕业；湖北、甘肃等个别地区可招 2027 年大专学历）。报名即日起至 2026-10-08 24 时。招聘机构含总行管理本部、总行直属机构、境内 37 家一级分行及综合化经营子公司，全行规模媒体口径约 1.90 万人。（2026-09-13 网络核实）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.abchina.com",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中国农业银行招聘（官方投递入口）",
+        "url": "https://career.abchina.com.cn",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "JS 单页应用，本机抓取仅得约 2.7KB 空壳，无法直读岗位明细；内容来自公告转载。"
+      }
+    ]
+  },
+  {
+    "id": "boc",
+    "name": "中国银行",
+    "type": "bank",
+    "location": "北京（总部）",
+    "about": "国有大型商业银行。2027 年全球校园招聘 2026-09-03 发布：境内外院校毕业生均须在 2026-01-01 至 2027-07-31 期间毕业且为毕业后初次就业（不含定向生、委培生）。报名截止北京时间 2026-10-09 24 点，每人最多申请 5 个岗位。（2026-09-13 网络核实，官方公告原文已直读）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.boc.cn",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中国银行股份有限公司2027年全球校园招聘公告（官方公告原文）",
+        "url": "https://www.boc.cn/aboutboc/bi4/202609/t20260903_25689311.html",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "已直读官网公告原文，岗位表、毕业时间口径与报名截止日期均取自该页。"
+      },
+      {
+        "type": "official",
+        "title": "中国银行 2027 全球校园招聘（官方投递入口）",
+        "url": "https://campus.chinahr.com/pages/2027-boc",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "PPT 仅给出「chinahr.com」标题未给完整 URL，本次已确认真实投递入口。"
+      }
+    ]
+  },
+  {
+    "id": "ccb",
+    "name": "中国建设银行",
+    "type": "bank",
+    "location": "北京（总部）",
+    "about": "国有大型商业银行。2027 年度校园招聘于 2026-09-04 拆分为三条独立公告：总部（110 人）、总行直属机构（11 家）、境内分支机构（37 家一级分行）。报名截止 2026-10-08 24 点（北京时间），每人最多 2 个志愿，截止前可修改两次。全行规模媒体口径约 1.50 万人。（2026-09-13 网络核实）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.ccb.com",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中国建设银行诚聘英才（官方投递入口）",
+        "url": "http://job.ccb.com",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "官方招聘站为 JS 单页应用，本机无法直读岗位需求表；内容来自公告转载。"
+      }
+    ]
+  },
+  {
+    "id": "cmg",
+    "name": "招商局集团",
+    "type": "soe",
+    "location": "香港（总部）",
+    "about": "中央直管国有重要骨干企业，总部香港。2027 届校园招聘由集团携下属企业共同开展，官方简章（微信公众号原文，2026-09-08）列 13 类岗位方向：经济管理类、交通运输类、船舶工程类、生产运营类、工程技术类、建筑设计类、物业管理类、医学生物类、安全工程类、人工智能类、信息科学类、法律类、其他。\n\n⚠️ 重要存疑：本站该条记录最初来自投递 deck，而 deck 正文的报名条件文字经逐字比对实为「招商银行 XX 分行 2027 校园招聘公告」原文（招行是招商局集团子公司，但属独立招聘），deck 却配了招商局集团招聘官网链接。两者是两套不同的招聘，请勿混用。（2026-09-13 网络核实）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.cmhk.com",
+    "sources": [
+      {
+        "type": "official",
+        "title": "招商局集团招聘官网（官方投递入口）",
+        "url": "https://cmhk.zhiye.com/custom/xiaoyuan?hideAll=true",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "北森搭建的 JS 单页应用，curl 返回 200 但岗位列表为动态加载，无法直读岗位明细，必须浏览器打开。"
+      },
+      {
+        "type": "official",
+        "title": "「接招吧！招商局集团2027届校园招聘正式启动！」（集团招聘微信公众号原文）",
+        "url": "https://mp.weixin.qq.com/s/8EdrWtDkrWZPWZeRoqW50Q",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "官方简章原文。仅列 13 类岗位方向，未给具体岗位表、人数与截止日期。"
+      },
+      {
+        "type": "secondary",
+        "title": "招商银行广州分行 2027 校园招聘公告（东北林业大学精准就业服务平台转载）",
+        "url": "https://www.hljbys.org.cn/campus/view/id/69547/mark/nefu",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "已直读全文。该公告即 deck 正文的实际出处：毕业时间窗口「境内 2027-01-01 至 2027-07-31、境外 2026-01-01 至 2027-07-31」、网申「即日起至 10 月 10 日」。招商银行投递入口为 https://career.cmbchina.com 。"
+      }
+    ]
+  },
+  {
+    "id": "citicgroup",
+    "name": "中信集团",
+    "type": "soe",
+    "location": "北京（总部）",
+    "about": "中央金融企业，总部北京。中信集团总部 2027 年校园招聘（公告署名：中国中信集团有限公司人力资源部）：报名 2026-08-31 至 2026-10-08 24 点，唯一官方渠道 https://job.citic.com/ ，招聘岗位仅「集团总部管理培训生」1 个，工作地北京市朝阳区。报名条件：境内 2027 年春季、夏季应届毕业的硕士研究生及以上；境外 2026 年 1 月至 2027 年 7 月期间应届毕业的硕士研究生及以上。（2026-09-13 网络核实）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.citic.com",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中信集团人才招聘系统（唯一官方投递渠道）",
+        "url": "https://job.citic.com/",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "公告原文通过转载版直读（https://m.fenbi.com/page/exam-information-detail/468942775407616 ），官方招聘系统页面未直读岗位明细。"
+      }
+    ]
+  },
+  {
+    "id": "ssetech",
+    "name": "上交所技术有限责任公司",
+    "type": "tech",
+    "location": "上海",
+    "about": "上海证券交易所全资技术子公司。2027 届校园招聘启事 2026-09-03 发布（微信公众号「上交所技术服务」），招聘对象为 2027 届境内外院校应届毕业生，及尚未就业仍处于择业期的 2026 届境内外院校应届毕业生；毕业时间一般为 2026-01-01 至 2027-07-31。投递入口 https://ssetech2026.zhaopin.com ——注意域名中的「2026」是系统编号不是招聘年份。\n\n⚠️ deck 所写的「截止时间：2026-10-08」在官方启事正文中不存在，在第三方页面中也找不到。官方原文只写「招满即止，建议尽早投递」。（2026-09-13 网络核实）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.sse.com.cn",
+    "sources": [
+      {
+        "type": "official",
+        "title": "上交所技术有限责任公司2027届校园招聘启事（官方投递入口）",
+        "url": "https://ssetech2026.zhaopin.com",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "官方启事正文通过上观新闻/解放日报转载直读（https://www.jfdaily.com/sgh/detail?id=4049775 ）。站点域名中的 2026 为系统编号非年份；官方只写「招满即止」，未给截止日期。"
+      },
+      {
+        "type": "official",
+        "title": "上交所官网「技术公司」招聘列表",
+        "url": "https://www.sse.com.cn/aboutus/recruitment/stocom/",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "已直读官网列表：截至 2026-09-13 最新一条仍是 2026-04-14 发布的《上交所技术有限责任公司2026年招聘启事》（2026 届+社招），2027 届启事尚未上官网，只在微信公众号发布。"
+      }
+    ]
+  },
+  {
+    "id": "spdb",
+    "name": "浦发银行",
+    "type": "bank",
+    "location": "上海",
+    "about": "全国性股份制商业银行。2027 年度校园招聘：毕业时间窗口境内外统一为 2025-01-01 至 2027-07-31，同时面向 2025 届、2026 届、2027 届（公告原文「无论您是否曾步入职场」）。本科及以上，原则上不限专业，人工智能、数据科学、软件工程、金融科技等专业背景及多学科复合背景优先。简历投递 2026-09-03 10:00 至 2026-10-08 18:00。（2026-09-13 网络核实）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.spdb.com.cn",
+    "sources": [
+      {
+        "type": "official",
+        "title": "浦发银行招聘（官方投递入口，选「校园招聘」）",
+        "url": "https://job.spdb.com.cn",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "官方招聘站为 JS 单页应用，本机无法直读岗位列表；内容来自公告与官方附件的转载版。"
+      }
+    ]
+  },
+  {
+    "id": "citicamc",
+    "name": "中国中信金融资产",
+    "type": "amc",
+    "location": "北京",
+    "about": "金融资产管理公司（原中国华融，股份代号 2799），中信集团旗下；正式全称「中国中信金融资产管理股份有限公司」。2027 年校园招聘公告 2026-09-04 发布（文末落款 2026 年 9 月 5 日）：网申窗口 2026-09-05 至 2026-10-15 24:00，唯一网申渠道 http://campus.51job.com/zxjrzc2027 ，每人限报 2 个岗位。公告附件《2027年校园招聘岗位.xlsx》公开可下载，共 47 个岗位。官网 https://www.famc.citic （本次网络核实确定）。（2026-09-13 核实）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.famc.citic",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中国中信金融资产管理股份有限公司2027年校园招聘公告",
+        "url": "https://www.famc.citic/rczp/zpxx/2026/09/96180.shtml",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官网公告页已实测可访问。公告声明「指定校园招聘网站为 2027 年校园招聘唯一网申渠道」，该站点为 http://campus.51job.com/zxjrzc2027 。"
+      },
+      {
+        "type": "official",
+        "title": "2027年校园招聘岗位.xlsx（官方公告附件，47 个岗位明细）",
+        "url": "https://www.famc.citic/images/rczp/zpxx/2026/09/05/1545749739328495616.xlsx",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "官方 xlsx 附件已下载解析。表格列为「序号｜招聘单位｜岗位名称｜岗位职责｜岗位要求｜工作地点」，无人数列，故各岗位招聘人数官方未公开。"
+      },
+      {
+        "type": "official",
+        "title": "中国中信金融资产 2027 校园招聘网申页面",
+        "url": "https://campus.51job.com/zxjrzc2027/about.html",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "51job 托管页，仅有「完善的福利体系、市场化的激励机制」等定性描述，无具体薪资数字。"
+      }
+    ]
+  },
+  {
+    "id": "coamc",
+    "name": "中国东方资产管理股份有限公司",
+    "type": "amc",
+    "location": "北京",
+    "about": "金融资产管理公司（四大 AMC 之一）。2027 年度校园招聘公告 2026-08-24 发布，招聘 150 人：总部管培生 + 26 家分公司业务岗。报名即日起至 2026-09-18（截至 2026-09-13 未检索到任何延期公告）。简历投递门户 https://coamc.zhiye.com/campus ，每人限投 2 个岗位，志愿不分先后，简历一经投递不可修改。（2026-09-13 网络核实）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.coamc.com.cn",
+    "sources": [
+      {
+        "type": "official",
+        "title": "中国东方 PC 端校园招聘门户（官方投递入口）",
+        "url": "https://coamc.zhiye.com/campus",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "北森托管的纯 JS 单页应用，本机尝试 8 种 API 路径（GET/POST）全部返回 SPA 空壳，无法枚举岗位或读取报名倒计时，必须人工用浏览器打开。"
+      },
+      {
+        "type": "official",
+        "title": "中国东方资产管理股份有限公司官网·人才招聘栏目",
+        "url": "http://www.coamc.com.cn/rlzy_1816/rczp/",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "已实测：该栏目正文只有一句跳转，直接指向 http://coamc.zhiye.com/ 。即东方不在官网发布公告正文，招聘全部走北森托管门户。"
+      },
+      {
+        "type": "secondary",
+        "title": "中国东方资产管理股份有限公司2027年度校园招聘公告（南开大学就业网转载）",
+        "url": "https://career.nankai.edu.cn/correcruit/content/id/116792.html",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "公告全文转载，已直读。发布日期 2026-08-24，招聘人数 150 人，截止日期 2026-09-18 出自此处。"
+      }
+    ]
+  },
+  {
+    "id": "ubs",
+    "name": "瑞银 UBS",
+    "type": "bank",
+    "location": "上海",
+    "about": "瑞士跨国投资银行。2027 届 Graduate Talent Program（GTP）中国大陆校招。\n\n⚠️ 本次核实发现：deck 所写的申请截止日期 2026-10-31 在 UBS 官方职位页上找不到任何支撑。所有中国大陆 2027 GTP 岗位的官方 Application Deadline 字段一律是 2026-09-16（对比：香港/新加坡/韩国 Global Markets 是 2026-09-18，香港 Global Banking 是 2026-10-04）。今天 2026-09-13，也就是说只剩 3 天。deck 的 10-31 应源自中文求职号转载文，而非 UBS 官方职位页。\n\n另注：中国大陆 2027 的三个暑期实习岗位（Summer Internship Global Banking、Off-Cycle Internship Global Banking、Summer Internship Global Markets Shanghai）已于 2026-09-06 全部关闭，本次不再入库。（2026-09-13 网络核实）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.ubs.com",
+    "sources": [
+      {
+        "type": "official",
+        "title": "UBS 官方毕业生招聘站（职位页，含各岗位确切截止日期）",
+        "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349948",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "已直接抓取官方职位页并解析内嵌 JSON。中国大陆 2027 GTP 全部岗位截止 2026-09-16。"
+      },
+      {
+        "type": "secondary",
+        "title": "中文求助号转载：瑞银 2027 中国毕业生招聘（声称 8-17 开放、10-31 截止）",
+        "url": "https://www.wondercv.com/xiaozhao/ubs-2027-china-graduate-recruitment-12156-8fd3ec/",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "第三方转述微信公众号「瑞银招聘」，与 UBS 官方职位页冲突。deck 的 2026-10-31 应源自此类转载，官方页面字段为准。"
+      }
+    ]
+  },
+  {
+    "id": "morganstanley",
+    "name": "摩根士丹利",
+    "type": "bank",
+    "location": "上海",
+    "about": "国际投资银行。中国区（Morgan Stanley Securities (China) Co., Ltd.，总部上海，北京有分公司）2027 校招实际情况与 deck 差异较大：\n\n⚠️ 本次核实：上海 2027 在招的只有 1 个岗位，且是投行暑期实习（IBD Summer Analyst），不是全职管培。deck 列出的 Quant Research、Risk、Wealth Management 三个方向在官方渠道查无实据。摩根士丹利的量化方向（Institutional Equities 下的 Quantitative Finance）只出现在亚洲区实习项目的业务条线列表中，且未标明上海。\n\n真实申请站在 careers.morganstanley.com.cn（MS 中国区 SuccessFactors 招聘站），deck 给的 morganstanleychina.com/people/students-and-graduates 是内容页不是申请页。（2026-09-13 网络核实）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.morganstanleychina.com",
+    "sources": [
+      {
+        "type": "official",
+        "title": "Morgan Stanley 中国区招聘站（真实申请入口）",
+        "url": "https://careers.morganstanley.com.cn/job/2027-MSSC-Investment-Banking-Summer-Analyst-Program-%28BeijingShanghai%29/999-en_US",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "已直读官方职位页。该站呈现 SuccessFactors 结构、实体名为 Morgan Stanley Securities (China)、校招邮箱 cncampusrec@morganstanley.com.cn。"
+      },
+      {
+        "type": "official",
+        "title": "Morgan Stanley China — Students and Graduates（内容页，deck 所给链接）",
+        "url": "https://www.morganstanleychina.com/people/students-and-graduates",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "该页最新动态停留在「信息技术部 2025 年暑期实习」与「摩根士丹利证券 2026 年暑期实习」，对 2027 届未更新，且不是申请入口。"
+      }
+    ]
+  },
+  {
+    "id": "jpmorgan",
+    "name": "摩根大通",
+    "type": "bank",
+    "location": "上海",
+    "about": "国际投资银行。\n\n⚠️ 本次核实：JPMorgan 中国 2027 届在招的全部是实习（Summer Analyst / Seasonal Internship），官方招聘系统中没有名为「China Graduate Program / China Graduate Analyst Program」的 2027 全职岗位——该关键词在官方 API 中搜索返回 0 条。deck 列出的 Risk、Asset Management (AM)、Global Markets 三个方向中，Risk 与 Global Markets 的全职 Analyst 岗位在中国查不到，AM 只以实习形式存在。（2026-09-13 网络核实，数据取自官方 Oracle Recruiting Cloud API）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.jpmorgan.com",
+    "sources": [
+      {
+        "type": "official",
+        "title": "J.P. Morgan Careers（官方投递入口，需按具体 Req ID 搜索）",
+        "url": "https://www.jpmorganchase.com/careers",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "数据取自 jpmorganchase.com/careers 背后的官方 Oracle Recruiting Cloud API。注意：不要搜「China Graduate Program」，官方无此项目；应搜具体 Req ID。"
+      },
+      {
+        "type": "secondary",
+        "title": "牛企直聘转述微信公众号「摩根大通JPMorgan」：2027 实习时间表",
+        "url": "https://jobs.niuqizp.com/schedule-7YrYNttzt.html",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "第三方转述，称暑期实习截止 2026-09-30、中国实习季截止 2026-12-31。官方 API 不返回截止日字段，无法核实，请以官网岗位页为准。"
+      }
+    ]
+  },
+  {
+    "id": "citi",
+    "name": "花旗",
+    "type": "bank",
+    "location": "上海",
+    "about": "国际银行集团。\n\n⚠️ 本次核实：花旗上海 2027 届在招的只有 3 个实习岗位，官方渠道没有全职 Graduate Program。deck 列出的 Risk、Wealth Management、Markets、Treasury 四个方向在上海 2027 届一个都没有。\n\n核查范围：jobs.citi.com「Student and Grad Programs」分类全部 105 个职位中，上海只有 3 条，全部是暑期实习；全职 Analyst Program 只在新加坡、香港、伦敦、巴黎、法兰克福、米兰、纽约、旧金山等地。另注：花旗中国 2024 年已将内地个人银行/财富管理业务出售，上海是否还有 Wealth Management 校招本身存疑（此点未查到权威出处，仅作提示）。（2026-09-13 网络核实）",
+    "source": "manual",
+    "createdAt": "2026-09-13",
+    "updatedAt": "2026-09-13",
+    "website": "https://www.citi.com",
+    "sources": [
+      {
+        "type": "official",
+        "title": "Citi Jobs — Student and Grad Programs（官方招聘站）",
+        "url": "https://jobs.citi.com",
+        "accessedAt": "2026-09-13",
+        "status": "complete",
+        "note": "已抓取该分类全部 105 个职位。上海 2027 只有 3 条实习，无全职 Graduate Program。"
+      },
+      {
+        "type": "secondary",
+        "title": "牛企直聘转述微信公众号「花旗中国」：商业银行部「菁英职通车」",
+        "url": "https://campus.niuqizp.com/job-vk85Cn5aC.html",
+        "accessedAt": "2026-09-13",
+        "status": "partial",
+        "note": "第三方转述。招管培生、客户经理、交易员，上海/北京，面向 2027-12 至 2028-06 毕业，报名截止 2026-10-30。注意：这是管培路径但入职年份是 2028，不是 2027 届。"
+      }
+    ]
+  },
+  {
+    "id": "donghai-fund",
+    "name": "东海基金管理有限责任公司",
+    "type": "public",
+    "website": "https://www.donghaifunds.com",
+    "location": "上海",
+    "about": "2013-02-25 成立，经证监会批准设立的第 78 家公募基金管理公司，总部上海；公开表述以「投研一体 + 科技金融双轮驱动」为战略，以指数增强为理念、金工与深度研究为基础。办公地：上海市浦东新区世纪大道 1528 号陆家嘴基金大厦 15 楼。（据官网与校招公告）",
+    "source": "skill",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15",
+    "sources": [
+      {
+        "type": "official",
+        "title": "东海基金官网「诚聘英才」",
+        "url": "https://www.donghaifunds.com/aboutus/job/shzp/index.html",
+        "accessedAt": "2026-09-15",
+        "status": "partial",
+        "note": "公司级来源：官网确有「诚聘英才」栏目（含 社招/校招/实习 三个子页），但社招页停在 2022-06-09、实习页停在 2022-03-18，且岗位列表为动态加载，未读到任何在招岗位。校招子页 https://www.donghaifunds.com/aboutus/job/xyzp/index.html 同为空白。"
+      },
+      {
+        "type": "secondary",
+        "title": "东海基金 2027 届秋季招聘（牛企直聘转载，标注来源「企业公众号 清华经管学院职业发展中心」）",
+        "url": "https://campus.niuqizp.com/schedule-7swkN5ttn.html",
+        "accessedAt": "2026-09-15",
+        "status": "complete",
+        "note": "公司级来源：给出招聘批次、岗位大类、招聘时间与网申入口。系转载，非官方发布页。"
+      },
+      {
+        "type": "official",
+        "title": "东海基金 2027 届秋招网申表单（问卷星）",
+        "url": "https://wenjuanxingdenglu.wjx.cn/vm/tPiyMOL.aspx",
+        "accessedAt": "2026-09-15",
+        "status": "partial",
+        "note": "公司级来源：公告给出的 PC 端网申入口。表单正文未读取（需手动打开填写）。"
+      }
+    ]
+  },
+  {
+    "id": "donghai-sec",
+    "name": "东海证券股份有限公司",
+    "type": "securities",
+    "website": "https://www.longone.com.cn",
+    "location": "上海",
+    "about": "1993 年成立于常州（原「常州证券」），全国性综合类中型券商；注册资本 18.56 亿元，在全国拥有 19 家分公司、60 余家营业部。控股东海期货、东海投资、东海证券创新产品投资，参股东海基金。总部：上海市浦东新区东方路 1928 号东海证券大厦。（据官网校招页原文）",
+    "source": "skill",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15",
+    "sources": [
+      {
+        "type": "official",
+        "title": "东海证券 2026 届秋季校园招聘（前程无忧校招专区，官网「人才招聘」入口指向此站）",
+        "url": "https://campus.51job.com/longone2026/p2.html",
+        "accessedAt": "2026-09-15",
+        "status": "complete",
+        "note": "公司级来源：官网首页「人才招聘」链接到 campus.51job.com/longone2026。站内分「社会招聘 / 校园招聘（2026届）/ 实习生招聘」三个 tab，已逐条读到全部在招岗位名与岗位职责。招聘需求页另载：招聘对象 2026 届应届毕业生，校招日历 2026 年 3 月—2026 年 7 月，简历投递邮箱 hr@longone.com.cn。"
+      },
+      {
+        "type": "secondary",
+        "title": "东海证券 2026 届校招量化类岗位（全职招聘网/快人才聚合，域名 xsrcsc.cn 与 quanzhi.com 互为镜像）",
+        "url": "https://www.quanzhi.com/job/6a440cc4642572c2163953d8",
+        "accessedAt": "2026-09-15",
+        "status": "partial",
+        "note": "公司级来源：该聚合站载有「量化研究岗（2026届校园招聘）8千-1万」「量化交易员 8000-10000元」「做市交易研究岗」等岗位，但同一页面把工作地点标为「北京海淀区」，与东海证券实际所在地（上海）矛盾，可靠性存疑。仅作线索，不作为岗位级来源。"
+      }
+    ]
+  },
+  {
+    "id": "sidaxinghui",
+    "name": "上海思达星汇私募基金管理有限公司",
+    "type": "private",
+    "website": "https://example.com/sidaxinghui",
+    "location": "上海",
+    "about": "2021-10-15 成立的私募证券投资基金管理人（基金业协会备案编号 P1073396），注册地上海市虹口区东大名路 391-393 号 4 层；据第三方档案管理规模 10~20 亿元、全职员工 12 人，核心策略为多资产/全天候叠加基本面量化增强（Quantimental）。官网未查到（工商年报邮箱域名 starfundmanager.com 不提供网站）。（据私募排排网等第三方，请核实）",
+    "source": "skill",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15",
+    "sources": [
+      {
+        "type": "secondary",
+        "title": "上海思达星汇私募基金管理有限公司 — 私募排排网机构档案",
+        "url": "https://dc-pre.simuwang.com/company/CO00003M6X.html",
+        "accessedAt": "2026-09-15",
+        "status": "complete",
+        "note": "公司级来源：公司全量档案已读。该页无任何招聘信息。"
+      },
+      {
+        "type": "secondary",
+        "title": "2026 春季陆家嘴名校直通车（复旦大学经济学院场）企业名单",
+        "url": "https://m.jfdaily.com/sgh/detail?id=1729564",
+        "accessedAt": "2026-09-15",
+        "status": "complete",
+        "note": "公司级来源：2026-03-27 招聘会企业名单含思达星汇，仅能证明其参加过校招活动，无岗位信息。"
+      }
+    ]
+  },
+  {
+    "id": "ningyuan",
+    "name": "上海宁苑资产管理有限公司",
+    "type": "private",
+    "website": "https://example.com/ningyuan",
+    "location": "上海",
+    "about": "专注二级市场投资的研发交易团队，方法论为「叠加量化和基本面」，基于对金融市场微观结构的理解通过满足流动性需求获取稳健回报；据其自述在管规模超 50 亿元。注册地上海市静安区威海路 696 号 9 幢 302 室（集中登记地），实际办公在徐汇区。法定代表人冷晓飞。官网未查到（官方邮箱域名 ningyuanamc.com 不提供网站）。（据公司官方公众号与招聘页自述）",
+    "source": "skill",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15",
+    "sources": [
+      {
+        "type": "wechat",
+        "title": "秋招启动｜宁苑资产 2027 秋季校园招聘正式开始（公众号「宁苑资产」）",
+        "url": "https://mp.weixin.qq.com/s/P5cVdTm2qErH4DRhZqA7ZQ",
+        "accessedAt": "2026-09-15",
+        "status": "complete",
+        "note": "公司级来源：2026-09-04 14:40 发布，本轮唯一权威来源，岗位、薪资、投递方式全部读到。推文页头残留模板文字「WE NEED YOU / 2022 SUMMER」，属模板未清理，非发布年份。"
+      }
+    ]
+  },
+  {
+    "id": "jiuqi-lianghe",
+    "name": "上海久期量和投资有限公司",
+    "type": "private",
+    "website": "http://liangheinvest.com",
+    "location": "深圳",
+    "about": "2015-12 成立的私募证券投资基金管理人（基金业协会备案编号 P1031301），协会普通会员并具投资顾问资质；专注股票、期货量化对冲与套利，策略涵盖量化多头、指数增强、股票多空、市场中性及量化 CTA。主体注册于上海市虹口区，实际办公与联系地址为深圳市福田区新洲十一街 139 号中央西谷大厦 1301 室；全职员工 34 人，管理规模 20-50 亿元。注意与百亿私募「久期投资」区分（久期投资为其股东之一，持股 10%）。（据官网与第三方档案）",
+    "source": "skill",
+    "createdAt": "2026-09-15",
+    "updatedAt": "2026-09-15",
+    "sources": [
+      {
+        "type": "official",
+        "title": "久期量和官网「人才招聘」",
+        "url": "http://liangheinvest.com/stationWebsite/w/h?cc=8224212&code=ODIyNDIxMg%3d%3d&configCode=NDA4OTUyNjA%3d&mc=55265386&mt=1",
+        "accessedAt": "2026-09-15",
+        "status": "complete",
+        "note": "公司级来源：官网确设人才招聘栏目，7 个岗位完整 JD 与投递邮箱（hr@liangheinvest.com）均已读到。页面无薪资数字、无发布日期。"
+      },
+      {
+        "type": "secondary",
+        "title": "上海久期量和投资有限公司 2026 年校园招聘信息 — 高校人才网",
+        "url": "https://m.gaoxiaojob.com/announcement/detail/426406.html",
+        "accessedAt": "2026-09-15",
+        "status": "complete",
+        "note": "公司级来源：2026-08-27 发布，薪资标「面议」，含实习安排（深圳福田，每周出勤 4 天及以上、时长不少于 3 个月）。"
       }
     ]
   }

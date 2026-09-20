@@ -40,3 +40,19 @@ npm run dev   # 打开 http://localhost:5173
 | POST | `/api/applications` | 为某岗位创建申请记录 |
 | POST | `/api/applications/:id/timeline` | 追加时间线条目（自动重算当前状态） |
 | POST | `/api/import` | 批量导入 skill 生成的 JSON（按 id upsert） |
+| PUT | `/api/questions/:id/my-answer` | 保存我的回答 |
+| POST | `/api/questions/:id/ai-answer` | 生成 AI 回答（按 OpenAI 兼容协议调用） |
+
+## AI 回答
+
+题目详情页可让 AI 对一道量化面试题作答（参考已保存的"我的回答"给出改进）。
+密钥与模型配置在项目根目录 `.env`（已 gitignore，不进版本库）：
+
+```
+AI_API_KEY=sk-xxxxx   # 必填
+AI_MODEL=deepseek-v4-flash   # 默认 deepseek-chat
+AI_BASE_URL=https://api.deepseek.com   # 可选，OpenAI 兼容网关可换
+AI_MAX_TOKENS=8000   # 可选，默认 8000；推理型模型链式思考吃 token，预算不足会返回空答案
+```
+
+改完 `.env` 后重启 dev server 生效（AI 生成接口在 `server/ai-provider.js`）。

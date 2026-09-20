@@ -5,6 +5,7 @@ import FilterBar, { filtersToParams, paramsToFilters, type FilterState } from '.
 import { CompanyTypeBadge } from '../components/StatusBadge'
 import { SkeletonGrid } from '../components/SkeletonCard'
 import EmptyState from '../components/EmptyState'
+import { COMPANY_TYPE_LABELS } from '../constants'
 import type { CompanyType, Job } from '../types'
 
 const SECTIONS: { type: CompanyType; title: string; dot: string }[] = [
@@ -12,6 +13,9 @@ const SECTIONS: { type: CompanyType; title: string; dot: string }[] = [
   { type: 'private', title: '量化私募', dot: 'hedge' },
   { type: 'securities', title: '证券公司', dot: 'sec' },
   { type: 'tech', title: '科技/量化科技', dot: 'tech' },
+  { type: 'bank', title: '银行', dot: 'bank' },
+  { type: 'amc', title: '金融资产管理公司', dot: 'amc' },
+  { type: 'soe', title: '国企集团', dot: 'soe' },
 ]
 
 function hostOf(url: string): string {
@@ -147,7 +151,9 @@ export default function CompanyListPage() {
     <section>
       <div className="page-head">
         <h1>机构目录</h1>
-        <p className="sub">{companies.data?.length ?? 0} 家机构 · 公募 / 私募 / 券商 / 科技</p>
+        <p className="sub">
+          {companies.data?.length ?? 0} 家机构 · {Object.values(COMPANY_TYPE_LABELS).join(' / ')}
+        </p>
       </div>
       <FilterBar
         filters={filters}
