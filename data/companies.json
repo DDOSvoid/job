@@ -675,7 +675,17 @@
     "about": "高塔量化科技有限公司（Contrarian Technology Limited），2022年在香港注册，另设深圳高塔量化科技有限公司，为专注量化交易与区块链应用的金融科技初创公司。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "高塔量化官网检索（未找到）",
+        "url": "https://example.com/gaota",
+        "accessedAt": "2026-09-20",
+        "status": "blocked",
+        "note": "2026-09-20 用公司全称/简称多轮检索均未找到可核实的官网：搜索引擎对这些公司名常退化为单字检索（返回字典/古籍站），候选如 tower-research.com（实为美国 Tower Research Capital）经实测确认非目标公司，故未写入。官网地址待人工确认。"
+      }
+    ]
   },
   {
     "id": "gfam",
@@ -1207,7 +1217,17 @@
     "about": "广州汇卡天下信息科技有限公司，主营软件开发、区块链与信息系统集成；另有贵州汇卡天下做银行卡终端安装维护。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "汇卡天下科技有限公司官网检索（未找到）",
+        "url": "https://example.com/huika",
+        "accessedAt": "2026-09-20",
+        "status": "blocked",
+        "note": "2026-09-20 用公司全称/简称多轮检索均未找到可核实的官网：搜索引擎对这些公司名常退化为单字检索（返回字典/古籍站），候选如 tower-research.com（实为美国 Tower Research Capital）经实测确认非目标公司，故未写入。官网地址待人工确认。"
+      }
+    ]
   },
   {
     "id": "icbcs",
@@ -1272,7 +1292,17 @@
     "about": "深圳市鲸驰寰宇科技有限公司，专注算法研究与技术开发的量化金融科技企业，团队自称加密量化团队，深耕高频与套利策略、期权做市与对冲模型研发。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "鲸驰寰宇官网检索（未找到）",
+        "url": "https://example.com/jingchi",
+        "accessedAt": "2026-09-20",
+        "status": "blocked",
+        "note": "2026-09-20 用公司全称/简称多轮检索均未找到可核实的官网：搜索引擎对这些公司名常退化为单字检索（返回字典/古籍站），候选如 tower-research.com（实为美国 Tower Research Capital）经实测确认非目标公司，故未写入。官网地址待人工确认。"
+      }
+    ]
   },
   {
     "id": "jingshun",
@@ -1339,7 +1369,17 @@
     "about": "深圳久期信息科技有限公司，运营中资离岸债券数据平台久期财经，金融信息服务机构。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "久期科技官网检索（未找到）",
+        "url": "https://example.com/jiuqi",
+        "accessedAt": "2026-09-20",
+        "status": "blocked",
+        "note": "2026-09-20 用公司全称/简称多轮检索均未找到可核实的官网：搜索引擎对这些公司名常退化为单字检索（返回字典/古籍站），候选如 tower-research.com（实为美国 Tower Research Capital）经实测确认非目标公司，故未写入。官网地址待人工确认。"
+      }
+    ]
   },
   {
     "id": "jiurun-investment",
@@ -1410,12 +1450,22 @@
     "id": "liangbu",
     "name": "杭州量步科技有限公司",
     "type": "tech",
-    "website": "https://example.com/liangbu",
+    "website": "https://lbquant.com",
     "location": "杭州",
     "about": "杭州量步科技有限公司，2024年成立，专注量化交易的初创公司，自建全自动交易平台。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "official",
+        "title": "杭州量步科技有限公司官网",
+        "url": "https://lbquant.com",
+        "accessedAt": "2026-09-20",
+        "status": "complete",
+        "note": "官网核实：https://lbquant.com —— HTTP 200，title='量步科技'，与「杭州量步科技有限公司」精确对应（tech_discover2.py 发现 + tech_verify.py 实测）"
+      }
+    ]
   },
   {
     "id": "lianghan",
@@ -1426,7 +1476,17 @@
     "about": "量函（广州）科技有限公司与量函（北京）科技有限责任公司，大数据、AI软件开发、数据处理及技术服务。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "量函科技官网检索（未找到）",
+        "url": "https://example.com/lianghan",
+        "accessedAt": "2026-09-20",
+        "status": "blocked",
+        "note": "2026-09-20 用公司全称/简称多轮检索均未找到可核实的官网：搜索引擎对这些公司名常退化为单字检索（返回字典/古籍站），候选如 tower-research.com（实为美国 Tower Research Capital）经实测确认非目标公司，故未写入。官网地址待人工确认。"
+      }
+    ]
   },
   {
     "id": "lianghua",
@@ -1480,7 +1540,17 @@
     "about": "北京灵感探索信息技术有限公司，2025年成立的AI资管科技公司（GIM格理仕项目），研发金融推理大模型与智能Agent。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "北京灵感探索信息技术官网检索（未找到）",
+        "url": "https://example.com/linggan",
+        "accessedAt": "2026-09-20",
+        "status": "blocked",
+        "note": "2026-09-20 用公司全称/简称多轮检索均未找到可核实的官网：搜索引擎对这些公司名常退化为单字检索（返回字典/古籍站），候选如 tower-research.com（实为美国 Tower Research Capital）经实测确认非目标公司，故未写入。官网地址待人工确认。"
+      }
+    ]
   },
   {
     "id": "lingjun",
@@ -1904,7 +1974,17 @@
     "about": "深圳拾新未来科技资讯有限公司（TenX AI），绰瑞资产孵化的AI团队，打造量化投资垂直AI Agent，2026届校招开放AI量化研究员岗位。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "拾新未来官网检索（未找到）",
+        "url": "https://example.com/shixin",
+        "accessedAt": "2026-09-20",
+        "status": "blocked",
+        "note": "2026-09-20 用公司全称/简称多轮检索均未找到可核实的官网：搜索引擎对这些公司名常退化为单字检索（返回字典/古籍站），候选如 tower-research.com（实为美国 Tower Research Capital）经实测确认非目标公司，故未写入。官网地址待人工确认。"
+      }
+    ]
   },
   {
     "id": "sixie",
@@ -1998,7 +2078,17 @@
     "about": "上海钛戈英华科技有限公司，2025年4月新成立的AI量化交易金融科技初创公司，聚焦量化交易与投资风险管理。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "上海钛戈英华科技官网检索（未找到）",
+        "url": "https://example.com/taigeyinghua",
+        "accessedAt": "2026-09-20",
+        "status": "blocked",
+        "note": "2026-09-20 用公司全称/简称多轮检索均未找到可核实的官网：搜索引擎对这些公司名常退化为单字检索（返回字典/古籍站），候选如 tower-research.com（实为美国 Tower Research Capital）经实测确认非目标公司，故未写入。官网地址待人工确认。"
+      }
+    ]
   },
   {
     "id": "taiyan-fund",
@@ -2057,7 +2147,17 @@
     "about": "杭州天玑智算科技有限公司，2025年成立，AI软件开发与算力解决方案，运营超算中心，持有量化EA系统软件著作权。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "杭州天玑智算科技官网检索（未找到）",
+        "url": "https://example.com/tianji",
+        "accessedAt": "2026-09-20",
+        "status": "blocked",
+        "note": "2026-09-20 用公司全称/简称多轮检索均未找到可核实的官网：搜索引擎对这些公司名常退化为单字检索（返回字典/古籍站），候选如 tower-research.com（实为美国 Tower Research Capital）经实测确认非目标公司，故未写入。官网地址待人工确认。"
+      }
+    ]
   },
   {
     "id": "tianyan",
@@ -2464,7 +2564,17 @@
     "about": "杭州元析量化科技有限公司，2026年注册，AI算法与软件开发为主，招聘量化研究员、量化风控、量化工程师。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "杭州元析量化科技官网检索（未找到）",
+        "url": "https://example.com/yuanxi",
+        "accessedAt": "2026-09-20",
+        "status": "blocked",
+        "note": "2026-09-20 用公司全称/简称多轮检索均未找到可核实的官网：搜索引擎对这些公司名常退化为单字检索（返回字典/古籍站），候选如 tower-research.com（实为美国 Tower Research Capital）经实测确认非目标公司，故未写入。官网地址待人工确认。"
+      }
+    ]
   },
   {
     "id": "yuewei",
@@ -2486,7 +2596,17 @@
     "about": "杭州宇斯人工智能科技有限责任公司，2022年成立的国家高新技术企业，专注AI算法与金融量化交叉，主营美股量化交易。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "manual",
+        "title": "宇斯人工智能官网检索（未找到）",
+        "url": "https://example.com/yusi",
+        "accessedAt": "2026-09-20",
+        "status": "blocked",
+        "note": "2026-09-20 用公司全称/简称多轮检索均未找到可核实的官网：搜索引擎对这些公司名常退化为单字检索（返回字典/古籍站），候选如 tower-research.com（实为美国 Tower Research Capital）经实测确认非目标公司，故未写入。官网地址待人工确认。"
+      }
+    ]
   },
   {
     "id": "zhengding",
