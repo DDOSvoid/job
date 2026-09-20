@@ -68,10 +68,13 @@ CITY_CODES = {
 }
 
 # 页面级风控特征（出现即停，不自动解验证码）。
-# 搜索页真实结果卡片容器是 li.job-card-box（顶部"城市推荐"模块的 sub-li 卡片不是结果，不参与计数）。
-# 必须等到卡片里出现 job_detail 锚点才算渲染完成——只出现卡片壳（骨架）时提取会拿到空结果。
+# 搜索结果卡片容器是 li.job-card-box。只等容器出现会拿到骨架（提取时是空结果），
+# 但也不能要求锚点是 job_detail——当前 DOM 里卡片内的锚点是 a.job-name，
+# href 才是 /job_detail/<id>.html，用 href 过滤会永远等不到（2026-09 实测 15 张卡片
+# 但选择器命中 0，白等 20s 超时后 SPA 换 document 把 tab 打没，误报连接错误）。
+# 改为只等容器，真正的空结果由 _CHECK_RISK_JS 兜底判定。
 _WAIT_CARDS_JS = (
-    "(document.querySelectorAll('li.job-card-box a[href*=\"/job_detail/\"]').length > 0"
+    "(document.querySelectorAll('li.job-card-box').length > 0"
     " || /安全验证|请完成验证|拖动滑块|验证码|访问过于频繁|访问异常/.test(document.body.innerText)"
     " || document.body.innerText.includes('没有找到相关职位')"
     " || document.body.innerText.includes('请登录'))"
@@ -104,9 +107,10 @@ _EXTRACT_CARDS_JS = r"""
   const cards = Array.from(document.querySelectorAll('li.job-card-box')).slice(0, 15);
   const out = [];
   for (const li of cards) {
-    const a = li.querySelector('a[href*="/job_detail/"]');
-    if (!a) continue;
-    const href = a.getAttribute('href') || a.href;
+    // 卡片内的锚点是 a.job-name，href 指向 /job_detail/<id>.html；
+    // 不能用 'a[href*="/job_detail/"]' 做选择器——类名对但属性过滤会落空。
+    const a = li.querySelector('a.job-name') || li.querySelector('a[href*="/job_detail/"]');
+    const href = (a && (a.getAttribute('href') || a.href)) || '';
     // Boss 岗位 ID 是 base64 风格，含 - 和 _（如 ...0nJ-2tS6FlpQ / ...31_2tm5ElNX），
     // 只取 [a-zA-Z0-9] 会把它们整条丢掉，导致 results 为 0。
     const m = href.match(/job_detail\/([A-Za-z0-9_-]+)\.html/);
@@ -235,6 +239,7 @@ class Cdp:
     def __init__(self, cdp_url: str):
         self.cdp_url = cdp_url.rstrip("/")
         self._ws = None
+        self._ws_url = None
         self._next_id = 0
 
     # -- HTTP 层（/json/*）--
@@ -263,6 +268,7 @@ class Cdp:
 
     # -- WebSocket 层 --
     def connect(self, ws_url: str):
+        self._ws_url = ws_url
         self._ws = websocket.create_connection(ws_url, timeout=45)
         self._send("Page.enable")
         self._send("Runtime.enable")
@@ -275,18 +281,64 @@ class Cdp:
                 pass
             self._ws = None
 
-    def _send(self, method: str, params: dict | None = None) -> dict:
+    def _reconnect(self) -> bool:
+        """重连到当前仍有效的 page target。
+
+        不能只重用 self._ws_url：zhipin 的 SPA 在整页加载完成后会替换掉原来的
+        target，旧 id 随即失效，拿它去握手会得到
+        「500 Internal Server Error ... No such target id」。
+        所以这里重新枚举 tabs，挑一个仍然存在的 page（优先 zhipin 页）来连。
+        """
+        try:
+            pages = [t for t in self.tabs() if t.get("type") == "page"]
+        except Exception:  # noqa: BLE001
+            return False
+        if not pages:
+            return False
+        cand = [(t, t.get("webSocketDebuggerUrl")) for t in pages if t.get("webSocketDebuggerUrl")]
+        if not cand:
+            return False
+        zhipin = [c for c in cand if "zhipin.com" in (c[0].get("url") or "")]
+        ordered = zhipin + [c for c in cand if c not in zhipin]
+        for tab, ws_url in ordered:
+            try:
+                self._ws = websocket.create_connection(ws_url, timeout=45)
+                self._ws_url = ws_url
+                return True
+            except Exception:  # noqa: BLE001
+                continue
+        return False
+
+    def _send(self, method: str, params: dict | None = None, retries: int = 1) -> dict:
+        """发一条 CDP 命令并等回包。
+
+        连接在整页加载/target 替换时会失效（ConnectionReset /
+        WebSocketConnectionClosed / 握手 500 No such target id），
+        这里对这种瞬时失效先重连（_reconnect 会重新解析有效 target）再重发一次。
+        """
         if not self._ws:
             raise BossCdpError("未连接 CDP WebSocket")
-        self._next_id += 1
-        mid = self._next_id
-        self._ws.send(json.dumps({"id": mid, "method": method, "params": params or {}}))
-        while True:
-            msg = json.loads(self._ws.recv())
-            if msg.get("id") == mid:
-                if "error" in msg:
-                    raise BossCdpError(f"CDP {method} 失败: {msg['error'].get('message', msg['error'])}")
-                return msg.get("result", {})
+        for attempt in range(retries + 1):
+            try:
+                self._next_id += 1
+                mid = self._next_id
+                self._ws.send(json.dumps({"id": mid, "method": method, "params": params or {}}))
+                while True:
+                    msg = json.loads(self._ws.recv())
+                    if msg.get("id") == mid:
+                        if "error" in msg:
+                            raise BossCdpError(
+                                f"CDP {method} 失败: {msg['error'].get('message', msg['error'])}"
+                            )
+                        return msg.get("result", {})
+            except BossCdpError:
+                raise
+            except Exception as exc:  # noqa: BLE001 — 断连类异常统一按可重试处理
+                if attempt >= retries:
+                    raise BossCdpError(f"CDP 连接中断（{type(exc).__name__}）：{exc}") from exc
+                time.sleep(0.8)
+                if not self._reconnect():
+                    raise BossCdpError(f"CDP 重连失败（{type(exc).__name__}）：{exc}") from exc
 
     def evaluate(self, expr: str, await_promise: bool = False):
         res = self._send(
@@ -328,14 +380,25 @@ class Cdp:
         return False
 
     def wait_for(self, expr: str, timeout: float = 12.0) -> bool:
+        """轮询表达式直到为真。
+
+        注意：这里只吞「页面跳转导致执行上下文短暂失效」这一种瞬时错误，
+        并记下最后一次异常。若超时且期间一直在报错，把最后一次错误抛出去——
+        否则浏览器崩了/选择器写错了，都表现成安静的 False，排查时极难定位
+        （曾经因此把一个「Edge 已被关掉」的问题误判成「页面没渲染」）。
+        """
         deadline = time.time() + timeout
+        last_exc = None
         while time.time() < deadline:
             try:
                 if self.evaluate(expr):
                     return True
-            except BossCdpError:
-                pass
+                last_exc = None
+            except BossCdpError as exc:
+                last_exc = exc
             time.sleep(0.6)
+        if last_exc is not None:
+            raise last_exc
         return False
 
 
@@ -350,7 +413,7 @@ def _port_open(cdp_url: str) -> bool:
 
 
 def _ws_ok(cdp: Cdp) -> bool:
-    """探测 9222 上的 Edge 是否接受非浏览器 WebSocket（有 --remote-allow-origins=*）。"""
+    """探测 CDP 是否接受非浏览器 WebSocket（即启动时带了 --remote-allow-origins=*）。"""
     try:
         for t in cdp.tabs():
             if t.get("type") == "page":
@@ -365,7 +428,7 @@ def _ws_ok(cdp: Cdp) -> bool:
     return False
 
 
-def _kill_boss_edge():
+def _kill_boss_edge(port: int = DEFAULT_PORT):
     """只杀匹配 boss profile（~/.boss-agent/edge-cdp）的 msedge 进程，绝不动用户正式 Edge。"""
     ps = (
         "Get-CimInstance Win32_Process -Filter \"Name='msedge.exe'\" | "
@@ -379,11 +442,14 @@ def _kill_boss_edge():
         )
     except Exception:
         pass
-    # 等端口释放（旧实例可能短暂残存）
+    # 等实际要用的那个端口释放（旧实例可能短暂残存）。
+    # 这里必须探传入的 port——早期版本硬编码 DEFAULT_PORT(9222)，
+    # 配置里若把端口改成 9223，循环就永远探不到目标端口、立刻 return，
+    # 根本不等释放，后续 _launch 会撞上还没退出的旧实例。
     deadline = time.time() + 20
     while time.time() < deadline:
         try:
-            requests.get(f"http://127.0.0.1:{DEFAULT_PORT}/json/version", timeout=2)
+            requests.get(f"http://127.0.0.1:{port}/json/version", timeout=2)
             time.sleep(0.5)
         except Exception:
             return
@@ -409,20 +475,27 @@ def _launch(port: int):
 
 
 def ensure_cdp(cdp: Cdp, cdp_url: str) -> None:
-    """保证 9222 上有一个可用的 Boss Edge：端口没开→启动；开了但 WS 403→重启。
-    重启用同一 profile（~/.boss-agent/edge-cdp），登录态保留在磁盘上。"""
+    """保证 cdp_url 上有一个可用的 Boss Edge：端口没开→启动；开了但 WS 403→重启。
+    重启用同一 profile（~/.boss-agent/edge-cdp），登录态保留在磁盘上。
+
+    重要：只有在**确认** WS 不可用（403，即没带 --remote-allow-origins=*）时才重启。
+    _ws_ok 会开一条临时 WS 再关掉，探测本身偶发失败/超时；若把这种抖动当成
+    "浏览器坏了"就 _kill_boss_edge，会把一个健康的浏览器连同调用方已建立的连接
+    一起杀掉，表现为随后的调用「10061 目标计算机积极拒绝」——时好时坏、极难定位。
+    因此先复探一次，两次都失败才认定真的不可用。
+    """
     cfg = load_config()
     port = cfg.get("port", DEFAULT_PORT)
-    if _port_open(cdp_url) and _ws_ok(cdp):
-        return
     if _port_open(cdp_url):
+        if _ws_ok(cdp) or _ws_ok(cdp):
+            return
         sys.stderr.write(
-            "[boss-cdp] 9222 上的 Edge 未放行 CDP WebSocket（403）。"
+            f"[boss-cdp] {cdp_url} 上的 Edge 未放行 CDP WebSocket（403）。"
             "将用独立 profile 重启该窗口（登录态保留）…\n"
         )
     else:
-        sys.stderr.write("[boss-cdp] 未检测到 9222 的 CDP，启动独立 Edge…\n")
-    _kill_boss_edge()
+        sys.stderr.write(f"[boss-cdp] 未检测到 {cdp_url} 的 CDP，启动独立 Edge…\n")
+    _kill_boss_edge(port)
     _launch(port)
     deadline = time.time() + 60
     while time.time() < deadline:
@@ -450,16 +523,23 @@ def find_boss_tab(cdp: Cdp) -> dict | None:
 
 
 def _close_other_zhipin_tabs(cdp: Cdp, keep_tab_id: str | None) -> None:
-    """关掉多余的 zhipin tab，避免后续 search 被陈旧 tab 干扰（会话恢复会开多个）。"""
-    for t in cdp.tabs():
-        if t.get("type") != "page" or "zhipin.com" not in t.get("url", ""):
-            continue
-        if keep_tab_id and t.get("id") == keep_tab_id:
-            continue
-        try:
-            requests.put(f"{cdp.cdp_url}/json/close/{t['id']}", timeout=5)
-        except Exception:
-            pass
+    """已停用的空操作（保留函数名以兼容调用点）。
+
+    2026-09 实测结论：**关 zhipin tab 会把整个 Edge 搞死**。
+    对照实验（新建 tab → 等页面加载完 → 关其他 zhipin tab）：
+
+        A 加载中途关 tab   -> 端口 LISTENING pid 立刻变无，浏览器退出
+        B 加载完成后关 tab -> 同样退出（已确认 cards=15、页面就绪）
+        C 完全不关 tab     -> 浏览器存活，搜索正常
+
+    即 `PUT /json/close/<id>` 一旦关到 zhipin 的 tab，Edge 会连带退出调试实例，
+    后续所有 CDP 调用报「10061 目标计算机积极拒绝」。这与「关到只剩 0 个 tab
+    才退出」的旧假设不符——哪怕还留着别的 tab 也一样会死。
+
+    而清理本身并不必要：new_tab 开出的那个 tab 自己就是当前 target，
+    残留的旧首页 tab 不影响搜索与提取。故此处直接返回，不再关闭任何 tab。
+    """
+    return
 
 
 def connect_boss(cdp: Cdp, cdp_url: str) -> Cdp:
@@ -487,20 +567,23 @@ def open_fresh_zhipin_tab(cdp: Cdp, url: str) -> Cdp:
     if not ws_url:
         raise BossCdpError("新 tab 没有 webSocketDebuggerUrl（Edge 可能正在启动，稍后重试）")
     cdp.connect(ws_url)
-    # 先开好新 tab 再清理旧 zhipin tab——若先关旧 tab 且它是最后一个 page tab，
-    # Edge 会整个退出（浏览器在最后一个 tab 关闭时自动退出）。
-    _close_other_zhipin_tabs(cdp, tab.get("id"))
     # 带 url 开 tab 通常已直接落到目标页；没落到位再退回 Page.navigate 整页加载，
     # 约 10s 内没离开 about:blank 就重试一次（偶尔一次导航不生效）。
-    if cdp.wait_href_zhipin(timeout=10):
-        return cdp
-    for _attempt in (1, 2):
-        cdp.navigate(url, wait_ready=2.0)
-        if cdp.wait_href_zhipin(timeout=10):
-            return cdp
-    raise BossCdpError(
-        "搜索页加载失败：导航后仍停留在空白页（about:blank）。可能被网页侧限流，请稍后再试"
-    )
+    landed = cdp.wait_href_zhipin(timeout=10)
+    if not landed:
+        for _attempt in (1, 2):
+            cdp.navigate(url, wait_ready=2.0)
+            if cdp.wait_href_zhipin(timeout=10):
+                landed = True
+                break
+    # 必须等新 tab 整页加载完成后再清理旧 tab：新 tab 加载期间 Edge 会主动掐断
+    # 同浏览器内其他 CDP WebSocket，此时关 tab 会把我们自己的连接一起带走。
+    _close_other_zhipin_tabs(cdp, tab.get("id"))
+    if not landed:
+        raise BossCdpError(
+            "搜索页加载失败：导航后仍停留在空白页（about:blank）。可能被网页侧限流，请稍后再试"
+        )
+    return cdp
 
 
 # ---------- 各命令 ----------
@@ -509,6 +592,26 @@ def cmd_status(args) -> int:
     cfg = load_config()
     cdp_url = args.cdp_url or cfg["cdp_url"]
     out = {"ok": False, "cdp": False, "ws": False, "logged_in": False, "browser": None, "error": None}
+    # --auto-launch：CDP 端口没开时自动拉起独立 Edge（登录态保留在 profile 里），
+    # 这样 status 可以自我修复，不必让调用方先手动跑一次 launch。
+    if getattr(args, "auto_launch", False) and not _port_open(cdp_url):
+        port = cfg.get("port", DEFAULT_PORT)
+        if args.cdp_url:
+            try:
+                port = int(cdp_url.rsplit(":", 1)[1])
+            except (IndexError, ValueError):
+                pass
+        sys.stderr.write(f"[boss-cdp] {cdp_url} 未就绪，自动拉起独立 Edge（端口 {port}）…\n")
+        try:
+            _kill_boss_edge()
+            _launch(port)
+            deadline = time.time() + 60
+            while time.time() < deadline:
+                time.sleep(1)
+                if _port_open(cdp_url):
+                    break
+        except Exception as exc:  # noqa: BLE001
+            out["error"] = f"自动拉起 Edge 失败：{type(exc).__name__}: {exc}"
     try:
         ver = Cdp(cdp_url).version()
         out["cdp"] = True
@@ -629,8 +732,19 @@ def cmd_search(args) -> int:
             _emit(out, args)
             return 0
         state = cdp.evaluate(
-            "(() => ({href: location.href, cards: document.querySelectorAll('li.job-card-box a[href*=\"/job_detail/\"]').length}))()"
+            "(() => ({href: location.href, cards: document.querySelectorAll('li.job-card-box').length}))()"
         ) or {}
+        if not state.get("cards") and "geek/jobs" not in (state.get("href") or ""):
+            # 落在了非搜索页（常见于 new_tab 复用了浏览器里残留的 job_detail tab）。
+            # 整页重新导航一次自愈，别直接判失败——这种复用是间歇性的，重导即可。
+            sys.stderr.write(
+                "[boss-cdp] 未落在搜索页（" + str(state.get("href"))[:50] + "），重新导航…\n"
+            )
+            cdp.navigate(url, wait_ready=2.0)
+            cdp.wait_for(_WAIT_CARDS_JS, timeout=20)
+            state = cdp.evaluate(
+                "(() => ({href: location.href, cards: document.querySelectorAll('li.job-card-box').length}))()"
+            ) or {}
         if not state.get("cards"):
             # 没有卡片且不在搜索页：多半被网页侧限流弹回首页，报错而不是假空结果
             if "geek/jobs" not in (state.get("href") or ""):
@@ -715,6 +829,8 @@ def main() -> int:
     sub = parser.add_subparsers(dest="command", required=True)
 
     p_status = sub.add_parser("status", help="CDP 存活 + Boss 登录态")
+    p_status.add_argument("--auto-launch", action="store_true",
+                          help="端口没开时自动拉起独立 Edge CDP（自我修复，登录态留在 profile 里）")
     p_status.set_defaults(func=cmd_status)
 
     p_launch = sub.add_parser("launch", help="启动/重启独立 Edge CDP（供登录 Boss，带 origin 放行）")

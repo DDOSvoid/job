@@ -96,7 +96,23 @@ Boss 网页版对**列表页**（搜索结果卡片）的薪资数字做了字�
 - **内置节流 + 单实例锁**（`~/.boss-agent/cdp_throttle.json`）：命令间默认 15-25s 间隔；同一时刻只有一个 CDP 命令在跑（串行，防 Edge 冲突）。
 - **每个调研任务 `search` ≤3 次**（与 boss 共用预算口径）。
 - `status` 输出含 `ws`（调试通道是否就绪）与 `logged_in`（是否已登录 zhipin）。**AUTH_NEEDED 时先试 `boss_cdp.py --json status`**：浏览器若还登着，网页版仍可用，不必急着 `boss login`；只有 status 明确未登录才需要重新登录。
-- Edge 关着 / 9222 未就绪时，`launch` 会自动拉起 Edge（独立 profile，不碰主浏览器）；若端口被占但不是 zhipin 调试会话，按上文"CDP 登录"节重启。
+- Edge 关着 / 端口未就绪时，`launch` 会自动拉起 Edge（独立 profile，不碰主浏览器）；若端口被占但不是 zhipin 调试会话，按上文"CDP 登录"节重启。
+
+#### 排障备忘：三类「CDP 连接失败」假象（2026-09 实测）
+
+网页版报错先看**错误文本**再动手，这三个症状极像但根因完全不同，误判会白改好几轮：
+
+| 症状 | 真实根因 | 正确处置 |
+|---|---|---|
+| `10061 目标计算机积极拒绝`（端口消失） | 有人调了 `PUT /json/close/<id>` 关 zhipin tab → **Edge 整个退出**（不是"关到剩 0 个才退出"，留着别的 tab 也照样死） | 别关 tab。`_close_other_zhipin_tabs` 已改为空操作；`new_tab` 开出的 tab 自己就是当前 target，残留旧 tab 无害 |
+| `500 ... No such target id` | zhipin SPA 整页加载完会**替换 target**，旧 id 失效；重连若死守旧的 `ws_url` 就握手失败 | 重连必须**重新枚举 `tabs()`** 取当前有效 target（见 `Cdp._reconnect`），不能复用 `_ws_url` |
+| `wait_for` 返回 `False` 但页面其实正常 | `wait_for` 最初 `except BossCdpError: pass` **静默吞异常**，把"浏览器已死/选择器失效"伪装成"未就绪"，白等满超时 | 已改为记下并抛出最后一次异常。**看到 False 不要假设是渲染慢，先看有没有异常冒出来** |
+
+排查手法（有效，值得复用）：用 `Get-NetTCPConnection -LocalPort <port> -State Listen` 采 **LISTENING 的 pid**，
+在跑命令的同时高频采样并跟内部阶段日志对齐——pid 变无的**精确时刻**就指向凶手那一步。
+另注意 DOM 选择器会随 zhipin 改版失效：卡片容器是 `li.job-card-box`，
+卡片内锚点是 **`a.job-name`**（不要用 `a[href*="/job_detail/"]` 过滤，该选择器命中 0 但类名仍在）。
+
 
 ### 0. 认证检查（每次必做）
 
