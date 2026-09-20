@@ -1114,12 +1114,12 @@
     "id": "hongyuan",
     "name": "宏源期货",
     "type": "securities",
-    "website": "https://example.com/hongyuan",
+    "website": "https://www.hongyuan-co.com",
     "location": "北京",
     "about": "宏源期货有限公司，1995年成立，申万宏源集团全资控股的国有期货公司，经营商品/金融期货经纪、期货投资咨询、资产管理。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11",
+    "updatedAt": "2026-09-20",
     "sources": [
       {
         "type": "official",
@@ -1136,6 +1136,14 @@
         "accessedAt": "2026-08-12",
         "status": "partial",
         "note": "本轮未对宏源期货单独搜索 Boss；期货公司量化岗在 Boss 上有挂出可能，需手动搜索『宏源期货』确认 [TODO]"
+      },
+      {
+        "type": "official",
+        "title": "宏源期货官网",
+        "url": "https://www.hongyuan-co.com",
+        "accessedAt": "2026-09-20",
+        "status": "complete",
+        "note": "官网核实：https://www.hongyuan-co.com —— HTTP 200，title='宏源期货'（hongyuanqh.com 为 SSL 错误）（discover4.py 发现 + verify_sites.py 实测）"
       }
     ]
   },
@@ -1216,12 +1224,22 @@
     "id": "jiaqi-investment",
     "name": "佳期投资",
     "type": "private",
-    "website": "https://example.com/jiaqi-investment",
+    "website": "https://careers.jqinvestments.com",
     "location": "上海",
     "about": "上海佳期私募基金管理有限公司，百亿量化私募（第三方信息，请核实）。Boss直聘在沪/京招聘量化开发实习生。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "official",
+        "title": "佳期投资官网",
+        "url": "https://careers.jqinvestments.com",
+        "accessedAt": "2026-09-20",
+        "status": "complete",
+        "note": "官网核实：https://careers.jqinvestments.com —— HTTP 200，title='佳期投资'（招聘子域，主域 title 为空）（discover4.py 发现 + verify_sites.py 实测）"
+      }
+    ]
   },
   {
     "id": "jim-fund",
@@ -1338,12 +1356,22 @@
     "id": "jukuan",
     "name": "聚宽投资",
     "type": "private",
-    "website": "https://example.com/jukuan",
+    "website": "https://fund.joinquant.com",
     "location": "北京",
     "about": "北京聚宽投资管理有限公司，2017年备案的头部量化私募，JoinQuant聚宽量化投研平台母公司控股，管理规模约100亿元。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "official",
+        "title": "聚宽投资官网",
+        "url": "https://fund.joinquant.com",
+        "accessedAt": "2026-09-20",
+        "status": "complete",
+        "note": "官网核实：https://fund.joinquant.com —— HTTP 200，title='聚宽投资 — 聚科技之力，宽投资之心'（discover4.py 发现 + verify_sites.py 实测）"
+      }
+    ]
   },
   {
     "id": "jushi",
@@ -1424,14 +1452,24 @@
   },
   {
     "id": "lianhai",
-    "name": "北京星鹏联海私募基金管理有限公司",
+    "name": "联海资产",
     "type": "private",
-    "website": "https://example.com/lianhai",
+    "website": "http://www.lianhaifund.com",
     "location": "北京",
-    "about": "北京星鹏联海私募基金管理有限公司（品牌联海资产），私募证券投资基金管理人，管理宏观量化与指数增强等产品。。官网未核实，请核实。",
+    "about": "北京星鹏联海私募基金管理有限公司（品牌「联海资产」），私募证券投资基金管理人，管理宏观量化与指数增强等产品。官网 www.lianhaifund.com（已核实，站内「招贤纳士」栏目列出宏观/量化/IT 类岗位，简历投递邮箱 hr@lianhaifund.com）。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "official",
+        "title": "联海资产官网「招贤纳士」",
+        "url": "http://www.lianhaifund.com/menus/8GxdY2mAmwiZmAqzQzYAFlA/child_menus/wK4EqbQpbJFZGLw7R7vLF1Q",
+        "accessedAt": "2026-09-20",
+        "status": "complete",
+        "note": "公司级来源：官网招聘页（JS 渲染后直读）。列出宏观投资经理/研究员、量化投资经理、量化研究员、IT系统工程师（量化）4 个岗位，投递邮箱 hr@lianhaifund.com。页面未披露薪资。"
+      }
+    ]
   },
   {
     "id": "linggan",
@@ -1576,12 +1614,22 @@
     "id": "metabit",
     "name": "乾象投资",
     "type": "private",
-    "website": "https://example.com/metabit",
+    "website": "https://www.qianxiang.cn",
     "location": "北京（上海设办公室）",
     "about": "北京乾象私募基金管理有限公司（Metabit Trading），2018年成立、2023年管理规模突破百亿的AI量化私募。。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "official",
+        "title": "乾象投资官网",
+        "url": "https://www.qianxiang.cn",
+        "accessedAt": "2026-09-20",
+        "status": "complete",
+        "note": "官网核实：https://www.qianxiang.cn —— HTTP 200，title='乾象投资'（discover4.py 发现 + verify_sites.py 实测）"
+      }
+    ]
   },
   {
     "id": "minghong",
@@ -1668,12 +1716,22 @@
     "id": "pansong-assets",
     "name": "磐松资产",
     "type": "private",
-    "website": "https://example.com/pansong-assets",
+    "website": "https://www.pinestoneasset.com",
     "location": "上海",
     "about": "上海磐松私募基金管理有限公司，量化私募，2025年曾新晋百亿量化私募（第三方信息，请核实）。官网未核实，请核实。",
     "source": "skill",
     "createdAt": "2026-08-11",
-    "updatedAt": "2026-08-11"
+    "updatedAt": "2026-09-20",
+    "sources": [
+      {
+        "type": "official",
+        "title": "磐松资产官网",
+        "url": "https://www.pinestoneasset.com",
+        "accessedAt": "2026-09-20",
+        "status": "complete",
+        "note": "官网核实：https://www.pinestoneasset.com —— HTTP 200，title='磐松资产'（discover4.py 发现 + verify_sites.py 实测）"
+      }
+    ]
   },
   {
     "id": "peibang-fund",

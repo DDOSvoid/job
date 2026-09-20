@@ -9480,5 +9480,117 @@
     "notes": "薪资来自第三方，未核实。该岗位由 Boss 详情页补充了官网「人才招聘」页所缺的薪资信息。",
     "createdAt": "2026-09-15",
     "updatedAt": "2026-09-15"
+  },
+  {
+    "id": "lianhai-macro-pm-researcher",
+    "companyId": "lianhai",
+    "title": "宏观投资经理、研究员",
+    "description": "岗位职责：参与宏观策略的投资、研究开发；整理宏观投研相关数据库，建立宏观投资/资产配置模型；参与基金产品日常投资、数据整理等工作。\n任职要求：理工类或金融、经济硕士及以上学历；3~8 年宏观研究、策略研究、资产配置、固定收益、股票投资等工作经验；较强的数据整理分析及编程能力。",
+    "salary": "面议（官网招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "mailto:hr@lianhaifund.com",
+    "officialUrl": "http://www.lianhaifund.com/menus/8GxdY2mAmwiZmAqzQzYAFlA/child_menus/wK4EqbQpbJFZGLw7R7vLF1Q",
+    "autumn2026": "unknown",
+    "autumn2026Note": "官网招聘页未标注招聘批次/届别，未披露截止日期",
+    "recruitmentType": "social",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "联海资产官网「招贤纳士」· 宏观投资经理、研究员",
+        "url": "http://www.lianhaifund.com/menus/8GxdY2mAmwiZmAqzQzYAFlA/child_menus/wK4EqbQpbJFZGLw7R7vLF1Q",
+        "accessedAt": "2026-09-20",
+        "status": "complete",
+        "note": "官网招聘页直读（JS 渲染）。页面明文投递邮箱 hr@lianhaifund.com，未披露薪资"
+      }
+    ],
+    "notes": "来源为官网招聘页；薪资页面未写，标面议。投递方式：简历发至 hr@lianhaifund.com，邮件标题/附件名为「岗位名称-学校-专业-姓名」，需附求职信。",
+    "createdAt": "2026-09-20",
+    "updatedAt": "2026-09-20"
+  },
+  {
+    "id": "lianhai-quant-pm",
+    "companyId": "lianhai",
+    "title": "量化投资经理",
+    "description": "岗位职责：参与量化策略的投资、研究开发（含股票量化策略、套利策略、商品交易策略等）；参与量化基金投资管理，按公司内部管理规则考核。\n任职要求：理工类或金融、经济硕士及以上学历；3~8 年投资管理、研究管理等工作经验；较强的数据整理分析及编程能力。",
+    "salary": "面议（官网招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "mailto:hr@lianhaifund.com",
+    "officialUrl": "http://www.lianhaifund.com/menus/8GxdY2mAmwiZmAqzQzYAFlA/child_menus/wK4EqbQpbJFZGLw7R7vLF1Q",
+    "autumn2026": "unknown",
+    "autumn2026Note": "官网招聘页未标注招聘批次/届别，未披露截止日期",
+    "recruitmentType": "social",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "联海资产官网「招贤纳士」· 量化投资经理",
+        "url": "http://www.lianhaifund.com/menus/8GxdY2mAmwiZmAqzQzYAFlA/child_menus/wK4EqbQpbJFZGLw7R7vLF1Q",
+        "accessedAt": "2026-09-20",
+        "status": "complete",
+        "note": "官网招聘页直读（JS 渲染）。页面明文投递邮箱 hr@lianhaifund.com，未披露薪资"
+      }
+    ],
+    "notes": "来源为官网招聘页；薪资页面未写，标面议。投递方式：简历发至 hr@lianhaifund.com，邮件标题/附件名为「岗位名称-学校-专业-姓名」，需附求职信。",
+    "createdAt": "2026-09-20",
+    "updatedAt": "2026-09-20"
+  },
+  {
+    "id": "lianhai-quant-researcher",
+    "companyId": "lianhai",
+    "title": "量化研究员",
+    "description": "岗位职责：参与量化策略的研究开发（含股票量化策略、套利策略、商品交易策略等）；整理投研相关数据，升级完善数据库（量化数据库、基金数据库、风险因子数据库等）；参与量化产品日常交易工作，执行交易相关的运作和数据工作。\n任职要求：理工类或金融、经济学硕士及以上学历；0~3 年金融工程、定量分析、交易等工作经验；较强的数据整理分析及编程能力。",
+    "salary": "面议（官网招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "mailto:hr@lianhaifund.com",
+    "officialUrl": "http://www.lianhaifund.com/menus/8GxdY2mAmwiZmAqzQzYAFlA/child_menus/wK4EqbQpbJFZGLw7R7vLF1Q",
+    "autumn2026": "unknown",
+    "autumn2026Note": "官网招聘页未标注招聘批次/届别，未披露截止日期",
+    "recruitmentType": "social",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "联海资产官网「招贤纳士」· 量化研究员",
+        "url": "http://www.lianhaifund.com/menus/8GxdY2mAmwiZmAqzQzYAFlA/child_menus/wK4EqbQpbJFZGLw7R7vLF1Q",
+        "accessedAt": "2026-09-20",
+        "status": "complete",
+        "note": "官网招聘页直读（JS 渲染）。页面明文投递邮箱 hr@lianhaifund.com，未披露薪资"
+      }
+    ],
+    "notes": "来源为官网招聘页；薪资页面未写，标面议。投递方式：简历发至 hr@lianhaifund.com，邮件标题/附件名为「岗位名称-学校-专业-姓名」，需附求职信。",
+    "createdAt": "2026-09-20",
+    "updatedAt": "2026-09-20"
+  },
+  {
+    "id": "lianhai-quant-it-engineer",
+    "companyId": "lianhai",
+    "title": "IT系统工程师（量化）",
+    "description": "岗位职责：整理投研相关数据，升级完善数据库（量化/宏观/基金/风险因子数据库等）；日常监控系统维护、交易数据分析、交易系统 API 的运维与开发；参与量化产品日常交易系统维护。\n任职要求：理工类硕士及以上学历；2 年以上量化系统开发经验，有独立量化交易系统或组合管理系统开发经验优先；熟练掌握 Python 性能特征与数据结构，熟悉 Python 在投资管理中的 API 应用，熟悉 C/C++ 优先。",
+    "salary": "面议（官网招聘页未披露薪资）",
+    "salaryIsEstimate": true,
+    "applyUrl": "mailto:hr@lianhaifund.com",
+    "officialUrl": "http://www.lianhaifund.com/menus/8GxdY2mAmwiZmAqzQzYAFlA/child_menus/wK4EqbQpbJFZGLw7R7vLF1Q",
+    "autumn2026": "unknown",
+    "autumn2026Note": "官网招聘页未标注招聘批次/届别，未披露截止日期",
+    "recruitmentType": "social",
+    "source": "official",
+    "fetchStatus": "complete",
+    "sources": [
+      {
+        "type": "official",
+        "title": "联海资产官网「招贤纳士」· IT系统工程师（量化）",
+        "url": "http://www.lianhaifund.com/menus/8GxdY2mAmwiZmAqzQzYAFlA/child_menus/wK4EqbQpbJFZGLw7R7vLF1Q",
+        "accessedAt": "2026-09-20",
+        "status": "complete",
+        "note": "官网招聘页直读（JS 渲染）。页面明文投递邮箱 hr@lianhaifund.com，未披露薪资"
+      }
+    ],
+    "notes": "来源为官网招聘页；薪资页面未写，标面议。投递方式：简历发至 hr@lianhaifund.com，邮件标题/附件名为「岗位名称-学校-专业-姓名」，需附求职信。",
+    "createdAt": "2026-09-20",
+    "updatedAt": "2026-09-20"
   }
 ]
